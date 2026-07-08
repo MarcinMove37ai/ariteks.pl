@@ -34,12 +34,10 @@ export default function Nav({ items }: { items: NavItem[] }) {
       return;
     }
 
-    // id sekcji kotwic, w kolejnosci wystepowania w nawigacji (= kolejnosc na stronie)
     const ids = items
       .map((it) => anchorId(it.href))
       .filter((v): v is string => v !== null);
 
-    // Linia czytania: tuz pod headerem (h-20 = 80px) + maly bufor.
     const READING_LINE = 100;
 
     let raf = 0;
@@ -51,11 +49,8 @@ export default function Nav({ items }: { items: NavItem[] }) {
         if (!el) continue;
         const top = el.getBoundingClientRect().top;
         if (top <= READING_LINE) {
-          // gorna krawedz przekroczyla linie — jestesmy w tej sekcji (lub nizej);
-          // nadpisujemy, wiec current bedzie OSTATNIA taka sekcja
           current = id;
         } else {
-          // sekcje sa w kolejnosci — pierwsza ponizej linii konczy petle
           break;
         }
       }
@@ -67,7 +62,6 @@ export default function Nav({ items }: { items: NavItem[] }) {
       raf = requestAnimationFrame(compute);
     };
 
-    // pierwsze wyliczenie + po ustabilizowaniu scrollu z kotwicy (klik w menu)
     compute();
     const settle = window.setTimeout(compute, 120);
 

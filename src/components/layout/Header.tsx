@@ -1,13 +1,16 @@
 // src/components/layout/Header.tsx
 // Naglowek strony: logo (jeden plik dla obu jezykow), nawigacja desktop,
-// CTA zapytania, menu mobilne (MobileNav). Sticky, na bialym tle —
-// logo Ariteks (czerwien/antracyt) potrzebuje jasnego podkladu.
+// przelacznik jezyka + CTA zapytania, menu mobilne (MobileNav). Sticky.
+// Uklad prawej strony: [menu] │ [EN] [Zapytanie ofertowe] — przelacznik
+// oddzielony cienkim separatorem od menu, w grupie z CTA (narzedzia),
+// nie w ciagu pozycji nawigacji (unika sciskania).
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Nav from './Nav';
 import MobileNav from './MobileNav';
+import LangSwitch from './LangSwitch';
 import { openRfq } from '../RfqModal';
 
 const NAV_ITEMS = [
@@ -45,8 +48,14 @@ export default function Header() {
         {/* Nawigacja desktop (client — wyroznia biezaca strone) */}
         <Nav items={items} />
 
-        {/* CTA + menu mobilne */}
-        <div className="flex items-center gap-3">
+        {/* Prawa grupa: przelacznik jezyka | CTA | menu mobilne */}
+        <div className="flex items-center gap-4">
+          {/* Przelacznik jezyka — desktop, oddzielony separatorem od menu */}
+          <div className="hidden items-center gap-4 lg:flex">
+            <LangSwitch variant="desktop" />
+            <span className="h-5 w-px bg-steel-line" aria-hidden />
+          </div>
+
           <button
             type="button"
             onClick={openRfq}

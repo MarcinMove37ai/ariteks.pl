@@ -21,6 +21,7 @@ import { Menu, X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { openRfq } from '../RfqModal';
+import LangSwitch from './LangSwitch';
 
 type NavItem = { href: string; label: string };
 
@@ -118,6 +119,11 @@ export default function MobileNav({
               >
                 {rfqLabel}
               </button>
+
+              {/* Przelacznik jezyka — pod CTA */}
+              <div className="mt-8 flex justify-center">
+                <LangSwitch variant="mobile" />
+              </div>
             </div>
             </nav>
           </div>,
