@@ -1,7 +1,14 @@
 // src/i18n/routing.ts
-// Serce dwujezycznosci: definicja jezykow + mapowanie domen.
-// Produkcja:  ariteks.pl -> PL (bez prefiksu), ariteks.eu -> EN (bez prefiksu)
-// Lokalnie:   localhost:3000 -> PL, localhost:3000/en -> EN
+// Serce dwujezycznosci: definicja jezykow.
+// Model: JEDNA domena glowna (ariteks.pl) obsluguje OBA jezyki.
+//   ariteks.pl/      -> PL (domyslny, bez prefiksu)
+//   ariteks.pl/en/   -> EN (z prefiksem)
+// Detekcje jezyka przy wejsciu robi middleware (Accept-Language).
+// Przelacznik jezyka przechodzi / <-> /en.
+// ariteks.eu -> przekierowanie 301 na ariteks.pl (regula w Cloudflare, poza kodem).
+//
+// USUNIETO blok `domains` (domain-based routing next-intl): wymuszal jeden
+// jezyk na domene i blokowal /en na ariteks.pl oraz kolidowal z detekcja.
 
 import { defineRouting } from 'next-intl/routing';
 import { createNavigation } from 'next-intl/navigation';
@@ -10,22 +17,8 @@ export const routing = defineRouting({
   locales: ['pl', 'en'],
   defaultLocale: 'pl',
 
-  // 'as-needed': domyslny jezyk bez prefiksu w URL, drugi z prefiksem.
-  // Na produkcji prefiksy znikaja calkowicie, bo kazda domena ma jeden jezyk.
+  // 'as-needed': jezyk domyslny (pl) bez prefiksu w URL, angielski pod /en.
   localePrefix: 'as-needed',
-
-  domains: [
-    {
-      domain: 'ariteks.pl',
-      defaultLocale: 'pl',
-      locales: ['pl'],
-    },
-    {
-      domain: 'ariteks.eu',
-      defaultLocale: 'en',
-      locales: ['en'],
-    },
-  ],
 });
 
 export type Locale = (typeof routing.locales)[number];
