@@ -79,13 +79,13 @@ export default function MobileNav({
             role="dialog"
             aria-modal="true"
           >
-          <div className="mx-auto flex h-20 w-full max-w-xs items-center justify-between px-1">
+          <div className="mx-auto flex h-20 w-full max-w-xs items-center px-1">
             <LangSwitch variant="mobile" />
             <button
               type="button"
               onClick={() => setOpen(false)}
               aria-label={t('close')}
-              className="inline-flex h-11 w-11 items-center justify-center rounded text-white transition-colors hover:text-red-400"
+              className="ml-auto inline-flex h-11 w-11 items-center justify-center rounded text-white transition-colors hover:text-red-400"
             >
               <X size={28} strokeWidth={1.75} />
             </button>
