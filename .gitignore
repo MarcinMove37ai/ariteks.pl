@@ -1,10 +1,3 @@
-
-# Local Python environments
-scripts/certyficates/.venv/
-
-# Raw scraped data
-_scraped/
-
 # ==========================================================
 # .gitignore — Ariteks (Next.js) + skrypty pomocnicze
 # ==========================================================
@@ -45,8 +38,16 @@ Thumbs.db
 # --- TypeScript ---
 *.tsbuildinfo
 
+# --- Puste katalogi po usunietych trasach scaffoldu ---
+# Nawiasy [locale] to w .gitignore znak specjalny (klasa znakow),
+# wiec MUSZA byc wyescapowane ukosnikiem: \[locale\]
+src/app/\[locale\]/contact/
+src/app/\[locale\]/fabrics/
+src/app/\[locale\]/partners/
+src/app/\[locale\]/technologies/
+
 # ==========================================================
-# Reguly wlasne projektu (zachowane z poprzedniej wersji)
+# Reguly wlasne projektu
 # ==========================================================
 
 # Local Python environments

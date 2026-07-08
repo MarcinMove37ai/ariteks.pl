@@ -79,7 +79,8 @@ export default function MobileNav({
             role="dialog"
             aria-modal="true"
           >
-          <div className="container-site flex h-20 items-center justify-end">
+          <div className="mx-auto flex h-20 w-full max-w-xs items-center justify-between px-1">
+            <LangSwitch variant="mobile" />
             <button
               type="button"
               onClick={() => setOpen(false)}
@@ -94,10 +95,10 @@ export default function MobileNav({
               NIGDY justify-center + overflow na tym samym elemencie:
               przycina gorna czesc tresci bez mozliwosci doscrollowania. */}
           <nav
-            className="container-site flex min-h-0 flex-1 flex-col overflow-y-auto"
+            className="flex min-h-0 flex-1 flex-col overflow-y-auto px-5 sm:px-8"
             aria-label="Mobile"
           >
-            <div className="my-auto flex flex-col gap-2 py-8">
+            <div className="mx-auto my-auto flex w-full max-w-xs flex-col gap-2 py-8">
               {items.map((item) => (
                 <Link
                   key={item.href}
@@ -115,15 +116,10 @@ export default function MobileNav({
                   setOpen(false);
                   openRfq();
                 }}
-                className="mt-6 inline-flex items-center justify-center rounded bg-red-600 px-6 py-4 text-base font-semibold text-white transition-colors hover:bg-red-500"
+                className="mt-6 flex w-full items-center justify-center rounded bg-red-600 px-6 py-4 text-base font-semibold text-white transition-colors hover:bg-red-500"
               >
                 {rfqLabel}
               </button>
-
-              {/* Przelacznik jezyka — pod CTA */}
-              <div className="mt-8 flex justify-center">
-                <LangSwitch variant="mobile" />
-              </div>
             </div>
             </nav>
           </div>,

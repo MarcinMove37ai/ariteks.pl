@@ -53,31 +53,35 @@ export default function LangSwitch({ variant = 'desktop' }: { variant?: Variant 
 
   const label = target.toUpperCase(); // "EN" albo "PL"
 
-  // MOBILE: prosty jasny tekst na ciemnym tle (bez ramki).
+  // MOBILE: pigulka spojna z desktopem, ale na ciemnym tle nakladki —
+  // jasna ramka, wyrazniejsza (wieksza czcionka), czerwony akcent na hover.
   if (variant === 'mobile') {
     return (
       <button
         type="button"
         onClick={switchTo}
         aria-label={target === 'en' ? 'Switch to English' : 'Przełącz na polski'}
-        className="font-mono text-sm font-medium uppercase tracking-wide text-carbon-300 transition-colors hover:text-white"
+        className="rounded border border-carbon-600 px-4 py-2 font-mono text-base font-medium uppercase tracking-wide text-carbon-200 transition-colors duration-150 hover:border-red-500 hover:bg-red-500/10 hover:text-white"
       >
         {label}
       </button>
     );
   }
 
-  // DESKTOP: subtelna pigulka — cienka ramka w spoczynku, delikatne
-  // wypelnienie i czerwony akcent na hover. Odroznia "EN" od pozycji menu
-  // jako kontrolke, nie link, bez krzyku.
+  // DESKTOP: subtelna pigulka + separator (kreska) PO niej — oddziela grupe
+  // jezyk/CTA od menu. Separator jest tutaj, wiec znika razem z przelacznikiem,
+  // gdy ten jest ukryty (brak wiszacej kreski przy braku PL).
   return (
-    <button
-      type="button"
-      onClick={switchTo}
-      aria-label={target === 'en' ? 'Switch to English' : 'Przełącz na polski'}
-      className="rounded border border-steel-line px-2.5 py-1 font-mono text-xs font-medium uppercase tracking-wide text-ink-soft transition-colors duration-150 hover:border-red-500 hover:bg-red-50 hover:text-red-600"
-    >
-      {label}
-    </button>
+    <div className="flex items-center gap-4">
+      <button
+        type="button"
+        onClick={switchTo}
+        aria-label={target === 'en' ? 'Switch to English' : 'Przełącz na polski'}
+        className="rounded border border-steel-line px-2.5 py-1 font-mono text-xs font-medium uppercase tracking-wide text-ink-soft transition-colors duration-150 hover:border-red-500 hover:bg-red-50 hover:text-red-600"
+      >
+        {label}
+      </button>
+      <span className="h-5 w-px bg-steel-line" aria-hidden />
+    </div>
   );
 }

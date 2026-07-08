@@ -50,10 +50,10 @@ export default function Header() {
 
         {/* Prawa grupa: przelacznik jezyka | CTA | menu mobilne */}
         <div className="flex items-center gap-4">
-          {/* Przelacznik jezyka — desktop, oddzielony separatorem od menu */}
-          <div className="hidden items-center gap-4 lg:flex">
+          {/* Przelacznik jezyka — desktop. Separator jest CZESCIA LangSwitch,
+              wiec znika razem z ukrytym przelacznikiem (brak wiszacej kreski). */}
+          <div className="hidden lg:block">
             <LangSwitch variant="desktop" />
-            <span className="h-5 w-px bg-steel-line" aria-hidden />
           </div>
 
           <button
