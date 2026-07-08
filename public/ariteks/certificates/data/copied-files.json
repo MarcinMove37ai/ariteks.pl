@@ -1,0 +1,482 @@
+[
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+    "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+    "filename": "oekotex-100__cf2640970f.png",
+    "subdir": "images",
+    "size_bytes": 54001
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+    "public_url": "/ariteks/certificates/images/yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+    "filename": "yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+    "subdir": "images",
+    "size_bytes": 1335616
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+    "public_url": "/ariteks/certificates/documents/fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+    "filename": "fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+    "subdir": "documents",
+    "size_bytes": 222687
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-certificate__136e87e27f.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-certificate__136e87e27f.png",
+    "public_url": "/ariteks/certificates/images/organic-certificate__136e87e27f.png",
+    "filename": "organic-certificate__136e87e27f.png",
+    "subdir": "images",
+    "size_bytes": 21326
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\textile-organic-production-certificate__3b9e606c95.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\textile-organic-production-certificate__3b9e606c95.pdf",
+    "public_url": "/ariteks/certificates/documents/textile-organic-production-certificate__3b9e606c95.pdf",
+    "filename": "textile-organic-production-certificate__3b9e606c95.pdf",
+    "subdir": "documents",
+    "size_bytes": 179773
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\c02-emission-reduction__c42b33b849.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\c02-emission-reduction__c42b33b849.png",
+    "public_url": "/ariteks/certificates/images/c02-emission-reduction__c42b33b849.png",
+    "filename": "c02-emission-reduction__c42b33b849.png",
+    "subdir": "images",
+    "size_bytes": 20050
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\c02-emission-reduction__15e4c8f129.jpg",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\c02-emission-reduction__15e4c8f129.jpg",
+    "public_url": "/ariteks/certificates/images/c02-emission-reduction__15e4c8f129.jpg",
+    "filename": "c02-emission-reduction__15e4c8f129.jpg",
+    "subdir": "images",
+    "size_bytes": 735944
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\antimicrobial-products__52364c2ce9.jpg",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\antimicrobial-products__52364c2ce9.jpg",
+    "public_url": "/ariteks/certificates/images/antimicrobial-products__52364c2ce9.jpg",
+    "filename": "antimicrobial-products__52364c2ce9.jpg",
+    "subdir": "images",
+    "size_bytes": 19080
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001-certificate__0a2b94eb5d.jpg",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001-certificate__0a2b94eb5d.jpg",
+    "public_url": "/ariteks/certificates/images/iso-9001-certificate__0a2b94eb5d.jpg",
+    "filename": "iso-9001-certificate__0a2b94eb5d.jpg",
+    "subdir": "images",
+    "size_bytes": 17662
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+    "public_url": "/ariteks/certificates/images/iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+    "filename": "iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+    "subdir": "images",
+    "size_bytes": 671553
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+    "filename": "oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+    "subdir": "documents",
+    "size_bytes": 411445
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2018__ab3b435863.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2018__ab3b435863.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2018__ab3b435863.pdf",
+    "filename": "oeko-tex-certificate-2018__ab3b435863.pdf",
+    "subdir": "documents",
+    "size_bytes": 635846
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2019__9ca59618fa.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2019__9ca59618fa.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2019__9ca59618fa.pdf",
+    "filename": "oeko-tex-certificate-2019__9ca59618fa.pdf",
+    "subdir": "documents",
+    "size_bytes": 661824
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\cevre-izin-belgesi__e795e0d446.jpg",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\cevre-izin-belgesi__e795e0d446.jpg",
+    "public_url": "/ariteks/certificates/images/cevre-izin-belgesi__e795e0d446.jpg",
+    "filename": "cevre-izin-belgesi__e795e0d446.jpg",
+    "subdir": "images",
+    "size_bytes": 13277
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\cevre-izin-belgesi__2b307fbc54.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\cevre-izin-belgesi__2b307fbc54.pdf",
+    "public_url": "/ariteks/certificates/documents/cevre-izin-belgesi__2b307fbc54.pdf",
+    "filename": "cevre-izin-belgesi__2b307fbc54.pdf",
+    "subdir": "documents",
+    "size_bytes": 102900
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001__86072b9a0f.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001__86072b9a0f.png",
+    "public_url": "/ariteks/certificates/images/iso-9001__86072b9a0f.png",
+    "filename": "iso-9001__86072b9a0f.png",
+    "subdir": "images",
+    "size_bytes": 49633
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate__854810168d.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate__854810168d.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-9001-certificate__854810168d.pdf",
+    "filename": "iso-9001-certificate__854810168d.pdf",
+    "subdir": "documents",
+    "size_bytes": 1561906
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-14001__b1ac088de9.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-14001__b1ac088de9.png",
+    "public_url": "/ariteks/certificates/images/iso-14001__b1ac088de9.png",
+    "filename": "iso-14001__b1ac088de9.png",
+    "subdir": "images",
+    "size_bytes": 50903
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate__adf712dd59.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate__adf712dd59.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-14001-certificate__adf712dd59.pdf",
+    "filename": "iso-14001-certificate__adf712dd59.pdf",
+    "subdir": "documents",
+    "size_bytes": 1584290
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-18001__22b7527d60.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-18001__22b7527d60.png",
+    "public_url": "/ariteks/certificates/images/iso-18001__22b7527d60.png",
+    "filename": "iso-18001__22b7527d60.png",
+    "subdir": "images",
+    "size_bytes": 49471
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-18001-certificate__3627cddaea.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-18001-certificate__3627cddaea.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-18001-certificate__3627cddaea.pdf",
+    "filename": "iso-18001-certificate__3627cddaea.pdf",
+    "subdir": "documents",
+    "size_bytes": 1549739
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate__a64f95d916.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate__a64f95d916.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-9001-certificate__a64f95d916.pdf",
+    "filename": "iso-9001-certificate__a64f95d916.pdf",
+    "subdir": "documents",
+    "size_bytes": 279703
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate-2022__bbf519a301.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate-2022__bbf519a301.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-9001-certificate-2022__bbf519a301.pdf",
+    "filename": "iso-9001-certificate-2022__bbf519a301.pdf",
+    "subdir": "documents",
+    "size_bytes": 730668
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate-2022__93d696f1c6.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate-2022__93d696f1c6.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-14001-certificate-2022__93d696f1c6.pdf",
+    "filename": "iso-14001-certificate-2022__93d696f1c6.pdf",
+    "subdir": "documents",
+    "size_bytes": 836978
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-18001__fcee21e8fd.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-18001__fcee21e8fd.png",
+    "public_url": "/ariteks/certificates/images/iso-18001__fcee21e8fd.png",
+    "filename": "iso-18001__fcee21e8fd.png",
+    "subdir": "images",
+    "size_bytes": 32937
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-45001-certificate-2022__8adfea0f56.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-45001-certificate-2022__8adfea0f56.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-45001-certificate-2022__8adfea0f56.pdf",
+    "filename": "iso-45001-certificate-2022__8adfea0f56.pdf",
+    "subdir": "documents",
+    "size_bytes": 649391
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate-2024__f18ea7e07b.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate-2024__f18ea7e07b.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-9001-certificate-2024__f18ea7e07b.pdf",
+    "filename": "iso-9001-certificate-2024__f18ea7e07b.pdf",
+    "subdir": "documents",
+    "size_bytes": 769662
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate-2024__286f3f5b52.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate-2024__286f3f5b52.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-14001-certificate-2024__286f3f5b52.pdf",
+    "filename": "iso-14001-certificate-2024__286f3f5b52.pdf",
+    "subdir": "documents",
+    "size_bytes": 983792
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-45001-certificate-2024__176462b6d0.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-45001-certificate-2024__176462b6d0.pdf",
+    "public_url": "/ariteks/certificates/documents/iso-45001-certificate-2024__176462b6d0.pdf",
+    "filename": "iso-45001-certificate-2024__176462b6d0.pdf",
+    "subdir": "documents",
+    "size_bytes": 752717
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\recycled-claim__b49b450a0c.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\recycled-claim__b49b450a0c.png",
+    "public_url": "/ariteks/certificates/images/recycled-claim__b49b450a0c.png",
+    "filename": "recycled-claim__b49b450a0c.png",
+    "subdir": "images",
+    "size_bytes": 23401
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard__5de76c422c.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard__5de76c422c.pdf",
+    "public_url": "/ariteks/certificates/documents/recycled-claim-standard__5de76c422c.pdf",
+    "filename": "recycled-claim-standard__5de76c422c.pdf",
+    "subdir": "documents",
+    "size_bytes": 901216
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-content__af9dc0bcea.png",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-content__af9dc0bcea.png",
+    "public_url": "/ariteks/certificates/images/organic-content__af9dc0bcea.png",
+    "filename": "organic-content__af9dc0bcea.png",
+    "subdir": "images",
+    "size_bytes": 24504
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard__141077767f.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard__141077767f.pdf",
+    "public_url": "/ariteks/certificates/documents/organic-content-standard__141077767f.pdf",
+    "filename": "organic-content-standard__141077767f.pdf",
+    "subdir": "documents",
+    "size_bytes": 920462
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2021__cff9963559.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2021__cff9963559.pdf",
+    "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2021__cff9963559.pdf",
+    "filename": "recycled-claim-standard-2021__cff9963559.pdf",
+    "subdir": "documents",
+    "size_bytes": 902183
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard-2021__e2de670357.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard-2021__e2de670357.pdf",
+    "public_url": "/ariteks/certificates/documents/organic-content-standard-2021__e2de670357.pdf",
+    "filename": "organic-content-standard-2021__e2de670357.pdf",
+    "subdir": "documents",
+    "size_bytes": 948088
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2022__d3435150a2.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2022__d3435150a2.pdf",
+    "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2022__d3435150a2.pdf",
+    "filename": "recycled-claim-standard-2022__d3435150a2.pdf",
+    "subdir": "documents",
+    "size_bytes": 902520
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard-2022__5bb288ec63.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard-2022__5bb288ec63.pdf",
+    "public_url": "/ariteks/certificates/documents/organic-content-standard-2022__5bb288ec63.pdf",
+    "filename": "organic-content-standard-2022__5bb288ec63.pdf",
+    "subdir": "documents",
+    "size_bytes": 948736
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2024__871acf5601.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2024__871acf5601.pdf",
+    "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2024__871acf5601.pdf",
+    "filename": "recycled-claim-standard-2024__871acf5601.pdf",
+    "subdir": "documents",
+    "size_bytes": 738445
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2025__99279bb9fc.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2025__99279bb9fc.pdf",
+    "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2025__99279bb9fc.pdf",
+    "filename": "recycled-claim-standard-2025__99279bb9fc.pdf",
+    "subdir": "documents",
+    "size_bytes": 701728
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2020__b792142038.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2020__b792142038.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2020__b792142038.pdf",
+    "filename": "oeko-tex-certificate-2020__b792142038.pdf",
+    "subdir": "documents",
+    "size_bytes": 516834
+  },
+  {
+    "ok": true,
+    "kind": "image",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\bci-better-cotton-initiative__4009e5f2f4.jpg",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\bci-better-cotton-initiative__4009e5f2f4.jpg",
+    "public_url": "/ariteks/certificates/images/bci-better-cotton-initiative__4009e5f2f4.jpg",
+    "filename": "bci-better-cotton-initiative__4009e5f2f4.jpg",
+    "subdir": "images",
+    "size_bytes": 7730
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+    "filename": "oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+    "subdir": "documents",
+    "size_bytes": 530534
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+    "filename": "oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+    "subdir": "documents",
+    "size_bytes": 542142
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+    "filename": "oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+    "subdir": "documents",
+    "size_bytes": 112285
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+    "filename": "oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+    "subdir": "documents",
+    "size_bytes": 1924937
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+    "filename": "oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+    "subdir": "documents",
+    "size_bytes": 1926122
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+    "filename": "oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+    "subdir": "documents",
+    "size_bytes": 1926519
+  },
+  {
+    "ok": true,
+    "kind": "document",
+    "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+    "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+    "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+    "filename": "oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+    "subdir": "documents",
+    "size_bytes": 1938497
+  }
+]

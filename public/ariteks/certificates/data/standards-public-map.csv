@@ -1,0 +1,51 @@
+﻿order;category_display;category_en;category_pl;test_name_display;test_name_en;test_name_pl;standard
+47;Apparel Textiles;Apparel Textiles;;Determination of linear density;Determination of linear density;;ISO 2060
+49;Apparel Textiles;Apparel Textiles;;Determination of mass per unit area;Determination of mass per unit area;;ISO 3801
+51;Apparel Textiles;Apparel Textiles;;Determination of width and length;Determination of width and length;;EN 1773
+53;Apparel Textiles;Apparel Textiles;;Determination of dimensional change;Determination of dimensional change;;ISO 3759
+55;Apparel Textiles;Apparel Textiles;;Colour fastness to artificial light;Colour fastness to artificial light;;ISO 105 B02
+57;Apparel Textiles;Apparel Textiles;;Colour fanstness to rubbing;Colour fanstness to rubbing;;ISO 105 X12
+59;Apparel Textiles;Apparel Textiles;;Colour fastness to water;Colour fastness to water;;ISO 105 E01
+61;Apparel Textiles;Apparel Textiles;;Colour fastness to sea water;Colour fastness to sea water;;ISO 105 E02
+63;Apparel Textiles;Apparel Textiles;;Colour fastness to chlorinated water;Colour fastness to chlorinated water;;ISO 105 E03
+65;Apparel Textiles;Apparel Textiles;;Colour fastness to perspiration;Colour fastness to perspiration;;ISO 105 E04
+67;Apparel Textiles;Apparel Textiles;;Colour fastness to spotting:Acid;Colour fastness to spotting:Acid;;ISO 105 E05
+69;Apparel Textiles;Apparel Textiles;;Colour fastness to spotting:Alkali;Colour fastness to spotting:Alkali;;ISO 105 E06
+71;Apparel Textiles;Apparel Textiles;;Colour fastness to laundering;Colour fastness to laundering;;ISO 105 C06
+73;Apparel Textiles;Apparel Textiles;;Colour fastness to mercerizing;Colour fastness to mercerizing;;ISO 105 X04
+75;Apparel Textiles;Apparel Textiles;;Colour fastness to bleaching: Hypochlorite;Colour fastness to bleaching: Hypochlorite;;ISO 105 N01
+77;Apparel Textiles;Apparel Textiles;;Colour fastness to bleaching: Peroxide;Colour fastness to bleaching: Peroxide;;ISO 105 N02
+79;Apparel Textiles;Apparel Textiles;;Colour fastness to dry heat;Colour fastness to dry heat;;ISO 105 P01
+81;Apparel Textiles;Apparel Textiles;;Colour fastness to PVC coating;Colour fastness to PVC coating;;ISO 105 X10
+83;Apparel Textiles;Apparel Textiles;;Colour fastness to hot pressing;Colour fastness to hot pressing;;ISO 105 X11
+85;Apparel Textiles;Apparel Textiles;;Colour fastness to dry cleaning;Colour fastness to dry cleaning;;ISO 105 D01
+87;Apparel Textiles;Apparel Textiles;;Determination of abrasion resistance;Determination of abrasion resistance;;ISO 12947-1
+89;Apparel Textiles;Apparel Textiles;;Tensile properties of fabrics - Part1;Tensile properties of fabrics - Part1;;ISO 13934-1
+91;Apparel Textiles;Apparel Textiles;;Bursting properties of fabrics - Part1;Bursting properties of fabrics - Part1;;ISO 13938-1
+93;Apparel Textiles;Apparel Textiles;;Stretch Recovery;Stretch Recovery;;EN 14704-1
+95;Apparel Textiles;Apparel Textiles;;Quantitative chemical analysis;Quantitative chemical analysis;;ISO 1833-1
+97;Apparel Textiles;Apparel Textiles;;Determination of formaldehyde;Determination of formaldehyde;;ISO 14184-1
+99;Apparel Textiles;Apparel Textiles;;Aromatic amines from azo colorants;Aromatic amines from azo colorants;;ISO 14362-1
+101;Building Technical Textiles;Building Technical Textiles;;Tensile stregth and elongation;Tensile stregth and elongation;;ISO 1421
+103;Building Technical Textiles;Building Technical Textiles;;Coating adhesion;Coating adhesion;;ISO 2411
+105;Building Technical Textiles;Building Technical Textiles;;Rating of sound insulation;Rating of sound insulation;;ISO 717-1
+107;Building Technical Textiles;Building Technical Textiles;;Flame Retardancy;Flame Retardancy;;DIN 4102 B1
+109;Protection Technical Textiles;Protection Technical Textiles;;Welding Protection;Welding Protection;;EN 11611
+112;Protection Technical Textiles;Protection Technical Textiles;;Heat and Flame Protection;Heat and Flame Protection;;EN 11612
+115;Protection Technical Textiles;Protection Technical Textiles;;Arc Protection;Arc Protection;;EN 61482
+118;Protection Technical Textiles;Protection Technical Textiles;;Rain Protection;Rain Protection;;EN 343
+121;Protection Technical Textiles;Protection Technical Textiles;;High Visibility;High Visibility;;EN 20471
+124;Protection Technical Textiles;Protection Technical Textiles;;Surface Resistivity;Surface Resistivity;;EN 1149
+127;Protection Technical Textiles;Protection Technical Textiles;;Chemical Protection;Chemical Protection;;EN 13034
+130;Protection Technical Textiles;Protection Technical Textiles;;Heat and Flame Protection;Heat and Flame Protection;;EN 14116
+132;Protection Technical Textiles;Protection Technical Textiles;;Oil Repellency;Oil Repellency;;EN 14419
+134;Protection Technical Textiles;Protection Technical Textiles;;Uv Permeability;Uv Permeability;;AATCC 183
+136;Protection Technical Textiles;Protection Technical Textiles;;Firefighting Requirement;Firefighting Requirement;;EN 469
+138;Geology Technical Textiles;Geology Technical Textiles;;Wide-width tensile test;Wide-width tensile test;;ISO 10319
+140;Geology Technical Textiles;Geology Technical Textiles;;Mass per unit area of geotextiles;Mass per unit area of geotextiles;;ISO 9864
+142;Medical Technical Textiles;Medical Technical Textiles;;Antibacterial activity;Antibacterial activity;;AATCC 147
+144;Medical Technical Textiles;Medical Technical Textiles;;Antibacterial activity;Antibacterial activity;;AATCC 100
+146;Medical Technical Textiles;Medical Technical Textiles;;Antimicrobial activity;Antimicrobial activity;;ASTM E2149
+148;Medical Technical Textiles;Medical Technical Textiles;;Antiviral Textiles;Antiviral Textiles;;ISO 18184
+150;Medical Technical Textiles;Medical Technical Textiles;;Infective Agents;Infective Agents;;EN 14126
+152;Medical Technical Textiles;Medical Technical Textiles;;Bacterial Filtration;Bacterial Filtration;;EN 14683

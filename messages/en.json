@@ -1,0 +1,205 @@
+{
+  "nav": {
+    "why": "Why Ariteks",
+    "fabrics": "Technical fabrics",
+    "applications": "Applications",
+    "technologies": "Technologies",
+    "partners": "Partners",
+    "about": "About Ariteks",
+    "certificates": "Certificates",
+    "contact": "Contact",
+    "rfq": "Request a quote"
+  },
+  "common": {
+    "ctaRfq": "Request a quote",
+    "ctaCatalog": "Browse fabrics",
+    "learnMore": "Learn more",
+    "seeAll": "See all",
+    "back": "Back",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Functional technical fabrics · since 1975",
+      "title": "A world leader in special-purpose fabric manufacturing",
+      "lead": "Since 1975, Ariteks has manufactured technical fabrics for producers of protective, medical and sports apparel. Behind every order: 14,000 m² of production floor, twelve in-house testing laboratories and 5% of the budget invested in technology development each year. Orders across the European Union are handled by the official Ariteks representative office.",
+      "ctaPrimary": "Browse fabrics",
+      "ctaSecondary": "Request a quote",
+      "imageAlt": "Ariteks finishing mill — fabric running through a finishing machine"
+    },
+    "stats": {
+      "items": {
+        "experience": {
+          "value": "50+",
+          "label": "years of experience"
+        },
+        "area": {
+          "value": "14,000 m²",
+          "label": "of production floor"
+        },
+        "labs": {
+          "value": "12",
+          "label": "testing laboratories"
+        },
+        "rd": {
+          "value": "5%",
+          "label": "of budget on R&D"
+        }
+      }
+    },
+    "qualification": {
+      "heading": "Why Ariteks?",
+      "lead": "Everything you need for a secure partnership with a special-purpose fabric supplier. Alongside workmanship, fabric is the leading factor defining the quality of the end product and the profitability of production. With your reputation and production costs in mind, we combine uncompromising quality with competitive pricing — the result of fifty years on the global specialty fabrics market.",
+      "items": {
+        "testing": {
+          "title": "Testing within our own structure",
+          "text": "Physical, colour, organic-synthesis and thin-film coating laboratories. The full ISO 105 colour-fastness battery and ISO 13934 / ISO 13938 strength tests performed on site. A test report accompanies the batch."
+        },
+        "system": {
+          "title": "A system audited every year",
+          "text": "ISO 9001, ISO 14001 and ISO 45001 renewed in 2024. OEKO-TEX Standard 100 held continuously since 2009. In the raw-material chain: RCS, OCS and BCI. Full documentation is provided before your first order."
+        },
+        "norms": {
+          "title": "Fabrics tested to protective apparel standards",
+          "text": "EN ISO 20471, EN ISO 11612, EN ISO 11611, EN 61482, EN 1149, EN 343, EN 13034, EN 469. A test protocol is available for every fabric in the protective range."
+        },
+        "repeatability": {
+          "title": "Batch-to-batch consistency",
+          "text": "Our yarn and fabric colour laboratories develop and archive dyeing recipes. The colour and parameters of subsequent batches are reproduced from the recorded recipe — not recreated from scratch."
+        },
+        "logistics": {
+          "title": "Delivery and cost",
+          "text": "Lead times for standard catalogue items are measured in days. Deliveries across the EU free of customs duties and quotas. The same standards and parameters as Western European suppliers — at a lower fabric price."
+        },
+        "support": {
+          "title": "Support in your market",
+          "text": "The official Ariteks representative office in the EU: technical advice, samples, documentation and the entire ordering process handled in your language and your time zone."
+        }
+      }
+    },
+    "industries": {
+      "heading": "Fabrics by industry",
+      "lead": "Choose your industry to see fabrics, standards and applications."
+    },
+    "technologies": {
+      "eyebrow": "Developed by Ariteks",
+      "heading": "Special-purpose technologies",
+      "items": {
+        "arbo": {
+          "title": "ArBo — PBO fibre fabric",
+          "text": "The world's strongest synthetic fabric: 58% para-aramid, 40% PBO, 2% carbon fibre. Inherently flame retardant and antistatic, tested to EN 469 — for firefighter turnout gear."
+        },
+        "antiviral": {
+          "title": "Antiviral fabrics",
+          "text": "Eleven years of research, brought to market in 2020. Antiviral effectiveness verified to ISO 18184, antibacterial to ISO 20743."
+        },
+        "emk": {
+          "title": "ArWoWear EMK — field shielding",
+          "text": "Fabrics protecting against electromagnetic fields: EMI shielding, anti-radar applications and protection for high-voltage work."
+        },
+        "fluocotton": {
+          "title": "Fluorescence on 100% cotton",
+          "text": "A proprietary fluorescent dyeing method for cotton and viscose knits and wovens — PPE-class high-visibility apparel with the comfort of a natural fibre."
+        },
+        "chromic": {
+          "title": "Chromic textiles",
+          "text": "Thermochromic and photochromic dyeing: fabrics that change colour with temperature or UV radiation — monitoring apparel, UV detection, security identification."
+        },
+        "solar": {
+          "title": "Photovoltaics and biosensors",
+          "text": "Third-generation solar cells on flexible fabrics and biosensing textiles — the principal research directions of the Ariteks Nanotek centre, with photovoltaic fabrics in the range."
+        }
+      }
+    },
+    "partners": {
+      "heading": "Licenses and material partners",
+      "line": "Ariteks fabrics are built on fibres and technologies from global brands — from licensed CORDURA® and Twaron® manufacturing to material partnerships with leaders in protective fibres."
+    },
+    "cta": {
+      "title": "Send us your fabric specification.",
+      "lead": "Composition, weight, required standards, estimated volume — we respond with an offer, a technical data sheet and test results.",
+      "button": "Request a quote"
+    }
+  },
+  "footer": {
+    "tagline": "Certified technical fabrics for apparel manufacturers across Europe.",
+    "navHeading": "Navigation",
+    "repHeading": "Representative office (Poland)",
+    "hqHeading": "Manufacturer",
+    "rights": "All rights reserved.",
+    "court": "Registry court: District Court for Łódź-Śródmieście in Łódź, 20th Commercial Division of the National Court Register.",
+    "capitalLabel": "Share capital",
+    "tmHeading": "Trademarks",
+    "tmNote": "Used under license or supply partnership.",
+    "operatorName": "Aquatrek Solutions P.S.A. (A Simple Joint-Stock Company Under Polish Law)",
+    "operatorRole": "The official representative of Ariteks A.Ş. in Poland. Operator of ariteks.pl and ariteks.eu.",
+    "registryHeading": "Registry data",
+    "operatorHeading": "Site operator"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "lead": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to homepage"
+  },
+  "about": {
+    "meta": {
+      "title": "About Ariteks — 50 years of special-purpose fabric manufacturing"
+    },
+    "hero": {
+      "eyebrow": "About Ariteks · since 1975",
+      "title": "50 years of special-purpose fabric manufacturing",
+      "lead": "Ariteks was founded in Istanbul in 1975 as a family business — and family-owned it remains. Today it is a manufacturing group with two plants, the Ariteks Nanotek research centre and twelve laboratories, supplying fabrics to producers of special-purpose apparel worldwide."
+    },
+    "story": {
+      "heading": "From a dyehouse to a technology group",
+      "p1": "Dyeing has been the company's foundation from the start — Ariteks is among the pioneers of special methods: vat and indigo dyeing, space-dye, and coating and laminating systems. That technological edge grew into the manufacturing of fabrics for protective, medical and sports apparel, carried out today across 14,000 m² of production floor.",
+      "p2": "Five percent of the budget is invested in research and development every year. The plants run on clean and renewable energy, and continuous systems keep water consumption to a minimum — environmental performance confirmed by ISO 14001 certification."
+    },
+    "facilities": {
+      "heading": "Two plants. The full production chain.",
+      "istanbul": {
+        "title": "Istanbul — fibres and yarn",
+        "text": "Fibre and yarn dyeing in HT machines for batches from 20 to 500 kg, high-efficiency hydro-extraction, RF drying and precision rewinding of fine and lustrous yarns. Quality control starts here — at the level of a single fibre.",
+        "imageAlt": "Yarn dyeing hall at the Ariteks plant in Istanbul"
+      },
+      "corlu": {
+        "title": "Çorlu — fabric treatment and finishing",
+        "text": "A complete knit and woven treatment line: singeing, desizing, mercerising and continuous bleaching; dyeing in jigger, pad-batch, pad-dry and pad-steam technologies; physical and chemical finishing — coating, lamination, impregnation, raising, sueding, shearing and compacting.",
+        "imageAlt": "Fabric finishing line at the Ariteks plant in Çorlu"
+      }
+    },
+    "rnd": {
+      "heading": "Research infrastructure",
+      "lead": "The Ariteks Nanotek centre in Ergene runs research projects funded by TUBITAK programmes, among others — from thin-film coatings, through biopolymer fibres, to third-generation solar cells on flexible fabrics. Day-to-day production control and recipe development are handled by twelve in-house laboratories, including:",
+      "labs": "yarn colour laboratory · fabric colour laboratory · physical test laboratory · organic synthesis laboratory · nanoparticle synthesis laboratory · thin-film coating laboratory · automation laboratory · software laboratory"
+    },
+    "europe": {
+      "heading": "Türkiye and Europe. One industrial market.",
+      "items": {
+        "customs": {
+          "title": "EU–Türkiye Customs Union",
+          "text": "Duty-free, quota-free trade in industrial goods — in force since 1996. Every delivery is accompanied by an A.TR movement certificate."
+        },
+        "standards": {
+          "title": "The same European standards",
+          "text": "Türkiye is a full member of CEN. EN ISO standards bind Ariteks exactly as they bind manufacturers in Germany or Italy — the difference lies in the cost of production."
+        },
+        "origin": {
+          "title": "Cumulation of origin",
+          "text": "Under the pan-Euro-Mediterranean convention, Turkish fabric sewn into an EU-made product does not compromise its preferential origin in onward exports."
+        }
+      }
+    },
+    "certs": {
+      "heading": "Certificates and standards",
+      "lead": "A management system audited annually by independent bodies. The full set of current certificates is available before your first order."
+    },
+    "cta": {
+      "title": "Get to know us through our fabrics.",
+      "lead": "Choose your industry and see what we manufacture for producers like you — or send your specification right away.",
+      "primary": "Fabrics by industry",
+      "secondary": "Request a quote"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+
+# Local Python environments
+scripts/certyficates/.venv/
+
+# Raw scraped data
+_scraped/
+
+# ==========================================================
+# .gitignore — Ariteks (Next.js) + skrypty pomocnicze
+# ==========================================================
+
+# --- KLUCZOWE: zmienne srodowiskowe (klucz Web3Forms!) ---
+# NIGDY nie commituj plikow .env*.local — zawieraja sekrety.
+.env*.local
+.env
+
+# --- Next.js ---
+/.next/
+/out/
+next-env.d.ts
+
+# --- Zaleznosci ---
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# --- Produkcja / build ---
+/build
+
+# --- Debug / logi ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Systemowe / edytor ---
+.DS_Store
+*.pem
+Thumbs.db
+
+# --- Vercel / typowe ---
+.vercel
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# ==========================================================
+# Reguly wlasne projektu (zachowane z poprzedniej wersji)
+# ==========================================================
+
+# Local Python environments
+scripts/certyficates/.venv/
+
+# Raw scraped data
+_scraped/

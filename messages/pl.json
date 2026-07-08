@@ -1,0 +1,205 @@
+{
+  "nav": {
+    "why": "Dlaczego Ariteks",
+    "fabrics": "Tkaniny techniczne",
+    "applications": "Zastosowania",
+    "technologies": "Technologie",
+    "partners": "Partnerzy",
+    "about": "O Ariteks",
+    "certificates": "Certyfikaty",
+    "contact": "Kontakt",
+    "rfq": "Zapytanie ofertowe"
+  },
+  "common": {
+    "ctaRfq": "Wyślij zapytanie",
+    "ctaCatalog": "Przeglądaj tkaniny",
+    "learnMore": "Dowiedz się więcej",
+    "seeAll": "Zobacz wszystkie",
+    "back": "Wróć",
+    "menu": "Menu",
+    "close": "Zamknij"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Funkcjonalne tkaniny techniczne · od 1975",
+      "title": "Światowy lider w produkcji tkanin specjalnego przeznaczenia",
+      "lead": "Od 1975 roku Ariteks produkuje tkaniny techniczne dla producentów odzieży ochronnej, medycznej i sportowej. Zaplecze: 14 000 m² powierzchni produkcyjnej, dwanaście laboratoriów badawczych i 5% budżetu inwestowane co roku w rozwój technologii. Zamówienia w Polsce obsługuje oficjalne przedstawicielstwo Ariteks.",
+      "ctaPrimary": "Przeglądaj tkaniny",
+      "ctaSecondary": "Wyślij zapytanie",
+      "imageAlt": "Hala wykończalni tkanin Ariteks — tkanina w maszynie wykończeniowej"
+    },
+    "stats": {
+      "items": {
+        "experience": {
+          "value": "50+",
+          "label": "lat doświadczenia"
+        },
+        "area": {
+          "value": "14 000 m²",
+          "label": "powierzchni produkcyjnej"
+        },
+        "labs": {
+          "value": "12",
+          "label": "laboratoriów badawczych"
+        },
+        "rd": {
+          "value": "5%",
+          "label": "budżetu na R&D"
+        }
+      }
+    },
+    "qualification": {
+      "heading": "Dlaczego Ariteks?",
+      "lead": "Wszystko, co potrzebne do bezpiecznej współpracy z dostawcą tkanin specjalnego przeznaczenia. Tkanina — obok jakości wykonania — to wiodący czynnik definiujący jakość produktu końcowego i rentowność produkcji. Dbając o Twoją reputację i koszty produkcji, łączymy jakość bez kompromisów z przystępną ceną — to efekt pięćdziesięciu lat na światowym rynku tkanin specjalnych.",
+      "items": {
+        "testing": {
+          "title": "Badania we własnej strukturze",
+          "text": "Laboratoria fizyczne, kolorystyczne, syntezy organicznej i cienkich powłok. Pełna bateria testów odporności wybarwień ISO 105 oraz badań wytrzymałościowych ISO 13934 i ISO 13938 wykonywana na miejscu. Raport z badań towarzyszy partii."
+        },
+        "system": {
+          "title": "System audytowany co roku",
+          "text": "ISO 9001, ISO 14001 i ISO 45001 odnowione w 2024 roku. OEKO-TEX Standard 100 utrzymywany nieprzerwanie od 2009 roku. W łańcuchu surowców: RCS, OCS i BCI. Komplet dokumentów przekazujemy przed pierwszym zamówieniem."
+        },
+        "norms": {
+          "title": "Tkaniny badane pod normy odzieży ochronnej",
+          "text": "EN ISO 20471, EN ISO 11612, EN ISO 11611, EN 61482, EN 1149, EN 343, EN 13034, EN 469. Protokół badań dostępny dla każdej tkaniny z oferty ochronnej."
+        },
+        "repeatability": {
+          "title": "Powtarzalność między partiami",
+          "text": "Laboratoria kolorystyczne przędzy i tkanin opracowują i archiwizują receptury barwienia. Kolor i parametry kolejnych partii odtwarzamy według zapisanej receptury — nie od nowa."
+        },
+        "logistics": {
+          "title": "Dostawa i koszt",
+          "text": "Terminy realizacji standardowych pozycji katalogowych liczone w dniach. Dostawy do Polski i całej UE bez ceł i bez kontyngentów. Te same normy i parametry co u dostawców z Europy Zachodniej — przy niższej cenie tkaniny."
+        },
+        "support": {
+          "title": "Obsługa po polsku",
+          "text": "Oficjalne przedstawicielstwo Ariteks w Polsce: doradztwo techniczne, próbki, dokumentacja i cały proces zamówienia w Twoim języku i Twojej strefie czasowej."
+        }
+      }
+    },
+    "industries": {
+      "heading": "Tkaniny według branż",
+      "lead": "Wybierz branżę, aby zobaczyć tkaniny, normy i zastosowania."
+    },
+    "technologies": {
+      "eyebrow": "Opracowane przez Ariteks",
+      "heading": "Technologie specjalnego przeznaczenia",
+      "items": {
+        "arbo": {
+          "title": "ArBo — tkanina z włóknem PBO",
+          "text": "Najwytrzymalsza syntetyczna tkanina świata: 58% para-aramidu, 40% PBO, 2% włókna węglowego. Trwale trudnopalna i antystatyczna, badana według EN 469 — na ubrania bojowe straży pożarnej."
+        },
+        "antiviral": {
+          "title": "Tkaniny antywirusowe",
+          "text": "Jedenaście lat prac badawczych zakończonych wdrożeniem rynkowym w 2020 roku. Skuteczność antywirusowa potwierdzana według ISO 18184, antybakteryjna według ISO 20743."
+        },
+        "emk": {
+          "title": "ArWoWear EMK — ekranowanie pól",
+          "text": "Tkaniny chroniące przed polami elektromagnetycznymi: ekranowanie EMI, zastosowania antyradarowe oraz ochrona przy pracach pod wysokim napięciem."
+        },
+        "fluocotton": {
+          "title": "Fluorescencja na 100% bawełnie",
+          "text": "Własna metoda barwienia fluorescencyjnego dzianin i tkanin z bawełny i wiskozy — odzież ostrzegawcza klasy PPE w komforcie włókna naturalnego."
+        },
+        "chromic": {
+          "title": "Tekstylia chromowe",
+          "text": "Barwienia termochromiczne i fotochromiczne: tkaniny zmieniające kolor pod wpływem temperatury lub promieniowania UV — odzież monitorująca, detekcja UV, identyfikatory bezpieczeństwa."
+        },
+        "solar": {
+          "title": "Fotowoltaika i biosensory",
+          "text": "Ogniwa słoneczne trzeciej generacji na elastycznych tkaninach oraz tekstylia biosensoryczne — główne kierunki badań centrum Ariteks Nanotek, z tkaninami fotowoltaicznymi w ofercie."
+        }
+      }
+    },
+    "partners": {
+      "heading": "Licencje i partnerzy surowcowi",
+      "line": "Tkaniny Ariteks powstają na włóknach i technologiach światowych marek — od licencjonowanej produkcji CORDURA® i Twaron® po partnerstwa surowcowe z liderami włókien ochronnych."
+    },
+    "cta": {
+      "title": "Prześlij specyfikację tkaniny.",
+      "lead": "Skład, gramatura, wymagane normy, szacowany wolumen — odpowiadamy ofertą z kartą techniczną i wynikami badań.",
+      "button": "Wyślij zapytanie"
+    }
+  },
+  "footer": {
+    "tagline": "Certyfikowane tkaniny techniczne dla producentów odzieży w Polsce i Europie.",
+    "navHeading": "Nawigacja",
+    "repHeading": "Przedstawicielstwo w Polsce",
+    "hqHeading": "Producent",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "court": "Sąd rejestrowy: Sąd Rejonowy dla Łodzi-Śródmieścia w Łodzi, XX Wydział Gospodarczy Krajowego Rejestru Sądowego.",
+    "capitalLabel": "Kapitał akcyjny",
+    "tmHeading": "Znaki towarowe",
+    "tmNote": "Znaki użyte na podstawie licencji lub współpracy dostawczej.",
+    "operatorName": "Aquatrek Solutions Prosta Spółka Akcyjna",
+    "operatorRole": "Oficjalny przedstawiciel Ariteks A.Ş. w Polsce. Operator serwisu ariteks.pl i ariteks.eu.",
+    "registryHeading": "Dane rejestrowe",
+    "operatorHeading": "Operator serwisu"
+  },
+  "notFound": {
+    "title": "Nie znaleziono strony",
+    "lead": "Strona, której szukasz, nie istnieje lub została przeniesiona.",
+    "cta": "Wróć na stronę główną"
+  },
+  "about": {
+    "meta": {
+      "title": "O Ariteks — 50 lat produkcji tkanin specjalnego przeznaczenia"
+    },
+    "hero": {
+      "eyebrow": "O Ariteks · od 1975",
+      "title": "50 lat doświadczenia w produkcji tkanin specjalnego przeznaczenia",
+      "lead": "Ariteks powstał w 1975 roku w Stambule jako firma rodzinna — i rodzinny charakter zachował do dziś. Dziś to grupa produkcyjna z dwoma zakładami, centrum badawczym Ariteks Nanotek i dwunastoma laboratoriami, dostarczająca tkaniny producentom odzieży specjalnej na całym świecie."
+    },
+    "story": {
+      "heading": "Od farbiarni do grupy technologicznej",
+      "p1": "Fundamentem firmy od początku było barwienie — Ariteks należy do pionierów metod specjalnych: barwienia kadziowego, indigo, space-dye oraz systemów powlekania i laminowania. Na tej przewadze technologicznej wyrosła produkcja tkanin na odzież ochronną, medyczną i sportową, prowadzona dziś na 14 000 m² powierzchni produkcyjnej.",
+      "p2": "Pięć procent budżetu firma inwestuje co roku w badania i rozwój. Zakłady korzystają z czystych i odnawialnych źródeł energii, a systemy ciągłe ograniczają zużycie wody do minimum — parametry środowiskowe potwierdza certyfikat ISO 14001."
+    },
+    "facilities": {
+      "heading": "Dwa zakłady. Pełny łańcuch produkcji.",
+      "istanbul": {
+        "title": "Stambuł — włókna i przędza",
+        "text": "Barwienie włókien i przędzy w aparatach HT dla partii od 20 do 500 kg, wysokowydajne odwirowywanie, suszenie RF oraz precyzyjne przewijanie przędz cienkich i błyszczących. Kontrola jakości zaczyna się tu — na poziomie pojedynczego włókna.",
+        "imageAlt": "Hala barwienia przędzy w zakładzie Ariteks w Stambule"
+      },
+      "corlu": {
+        "title": "Çorlu — obróbka i wykończenie tkanin",
+        "text": "Kompletna linia obróbki dzianin i tkanin: opalanie, odklejanie, merceryzacja i bielenie ciągłe; barwienie w technologiach jigger, pad-batch, pad-dry i pad-steam; wykończenia fizyczne i chemiczne — powlekanie, laminowanie, impregnacja, drapanie, szmerglowanie, strzyżenie i kompaktowanie.",
+        "imageAlt": "Linia wykończeniowa tkanin w zakładzie Ariteks w Çorlu"
+      }
+    },
+    "rnd": {
+      "heading": "Zaplecze badawcze",
+      "lead": "Centrum Ariteks Nanotek w Ergene prowadzi projekty badawcze finansowane m.in. z programów TUBITAK — od powłok cienkowarstwowych, przez włókna biopolimerowe, po ogniwa słoneczne trzeciej generacji na elastycznych tkaninach. Codzienną kontrolę produkcji i rozwój receptur zapewnia dwanaście laboratoriów zakładowych, w tym:",
+      "labs": "laboratorium kolorystyczne przędzy · laboratorium kolorystyczne tkanin · laboratorium badań fizycznych · laboratorium syntezy organicznej · laboratorium syntezy nanocząstek · laboratorium powłok cienkowarstwowych · laboratorium automatyki · laboratorium oprogramowania"
+    },
+    "europe": {
+      "heading": "Turcja i Europa. Jeden rynek przemysłowy.",
+      "items": {
+        "customs": {
+          "title": "Unia celna UE–Turcja",
+          "text": "Obrót towarami przemysłowymi bez ceł i bez kontyngentów — nieprzerwanie od 1996 roku. Każdą dostawę dokumentuje świadectwo przewozowe A.TR."
+        },
+        "standards": {
+          "title": "Te same normy europejskie",
+          "text": "Turcja jest pełnym członkiem CEN. Normy EN ISO obowiązują Ariteks dokładnie tak samo, jak producentów z Niemiec czy Włoch — różnica jest w koszcie wytworzenia."
+        },
+        "origin": {
+          "title": "Kumulacja pochodzenia",
+          "text": "Konwencja pan-euro-śródziemnomorska: tkanina turecka wszyta w wyrób produkowany w UE nie odbiera mu preferencyjnego pochodzenia przy dalszym eksporcie."
+        }
+      }
+    },
+    "certs": {
+      "heading": "Certyfikaty i standardy",
+      "lead": "System zarządzania audytowany corocznie przez niezależne jednostki. Komplet aktualnych certyfikatów udostępniamy przed pierwszym zamówieniem."
+    },
+    "cta": {
+      "title": "Poznaj nas od strony tkanin.",
+      "lead": "Wybierz branżę i zobacz, co produkujemy dla takich producentów jak Ty — albo od razu prześlij specyfikację.",
+      "primary": "Tkaniny według branż",
+      "secondary": "Wyślij zapytanie"
+    }
+  }
+}

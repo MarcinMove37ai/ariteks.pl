@@ -1,0 +1,2330 @@
+{
+  "generated_at": "2026-07-08T14:12:53",
+  "source": {
+    "base_url": "https://www.ariteks.net/certificate.asp",
+    "source_html": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\_html\\page-html__bd4598083a.html"
+  },
+  "title_pl": "Certyfikaty i testy",
+  "title_en": "Certificates and Tests",
+  "public": {
+    "project_root": "D:\\Ariteks\\ariteks_www",
+    "public_dir": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates",
+    "public_base_url": "/ariteks/certificates",
+    "manifest_public_url": "/ariteks/certificates/data/certificate-page-public-manifest.json"
+  },
+  "certificates_count": 39,
+  "standards_count": 50,
+  "certificates": [
+    {
+      "order": 1,
+      "section": "Certificates and Tests",
+      "label_pl": "",
+      "label_en": "Yarn Oeko-Tex Certificate 2009",
+      "label_display": "Yarn Oeko-Tex Certificate 2009",
+      "context_text": "Yarn Oeko-Tex Certificate 2009",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oekotex 100"
+      },
+      "target": {
+        "type": "image",
+        "source_url": "https://www.ariteks.net/images/certificate/oekoteks_yarn.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+        "public_url": "/ariteks/certificates/images/yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 1335616,
+        "sha1": "adacf9665711bbc53dcdce9ceccaa07419dc4fd0"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "optional_download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk pokazuje większą grafikę/certyfikat w nowej karcie albo w lightboxie.",
+        "button_label_pl": "Zobacz certyfikat",
+        "download_label_pl": "Pobierz grafikę",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 2,
+      "section": "Oeko-Tex Certificate 2009",
+      "label_pl": "",
+      "label_en": "Fabric Oeko-Tex Certificate 2014",
+      "label_display": "Fabric Oeko-Tex Certificate 2014",
+      "context_text": "Fabric Oeko-Tex Certificate 2014",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oekotex 100"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oekoteks_fabric.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+        "public_url": "/ariteks/certificates/documents/fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 222687,
+        "sha1": "ef808a89be55a3f844ac82cabb4d9a0c2008383c"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 3,
+      "section": "Oeko-Tex Certificate 2009",
+      "label_pl": "",
+      "label_en": "Textile Organic Production Certificate",
+      "label_display": "Textile Organic Production Certificate",
+      "context_text": "Textile Organic Production Certificate",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/gots.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-certificate__136e87e27f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-certificate__136e87e27f.png",
+        "public_url": "/ariteks/certificates/images/organic-certificate__136e87e27f.png",
+        "alt": "Organic Certificate"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/gots.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\textile-organic-production-certificate__3b9e606c95.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\textile-organic-production-certificate__3b9e606c95.pdf",
+        "public_url": "/ariteks/certificates/documents/textile-organic-production-certificate__3b9e606c95.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 179773,
+        "sha1": "6bc5782c99fdc6dcfaed4c5b4a3a99e9d76100bc"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 4,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "C02 emission reduction",
+      "label_display": "C02 emission reduction",
+      "context_text": "C02 emission reduction",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/carbon-reduction-textile.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\c02-emission-reduction__c42b33b849.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\c02-emission-reduction__c42b33b849.png",
+        "public_url": "/ariteks/certificates/images/c02-emission-reduction__c42b33b849.png",
+        "alt": "C02 emission reduction"
+      },
+      "target": {
+        "type": "image",
+        "source_url": "https://www.ariteks.net/images/certificate/kyoto.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\c02-emission-reduction__15e4c8f129.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\c02-emission-reduction__15e4c8f129.jpg",
+        "public_url": "/ariteks/certificates/images/c02-emission-reduction__15e4c8f129.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 735944,
+        "sha1": "cfa52891c5b62e22dfde685a9a20f4e454962817"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "optional_download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk pokazuje większą grafikę/certyfikat w nowej karcie albo w lightboxie.",
+        "button_label_pl": "Zobacz certyfikat",
+        "download_label_pl": "Pobierz grafikę",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 5,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Antimicrobial Products",
+      "label_display": "Antimicrobial Products",
+      "context_text": "Antimicrobial Products",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/sanitized.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\antimicrobial-products__52364c2ce9.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\antimicrobial-products__52364c2ce9.jpg",
+        "public_url": "/ariteks/certificates/images/antimicrobial-products__52364c2ce9.jpg",
+        "alt": "Antibacterial Treatments"
+      },
+      "target": {
+        "type": "image",
+        "source_url": "https://www.ariteks.net/images/certificate/sanitized.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\antimicrobial-products__52364c2ce9.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\antimicrobial-products__52364c2ce9.jpg",
+        "public_url": "/ariteks/certificates/images/antimicrobial-products__52364c2ce9.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 19080,
+        "sha1": "af7deb0068641011866d28d5d88c213cddd9bf5d"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "optional_download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk pokazuje większą grafikę/certyfikat w nowej karcie albo w lightboxie.",
+        "button_label_pl": "Zobacz certyfikat",
+        "download_label_pl": "Pobierz grafikę",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 6,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 9001 Certificate for Corlu Fabric Treatment Plant 2013",
+      "label_display": "ISO 9001 Certificate for Corlu Fabric Treatment Plant 2013",
+      "context_text": "ISO 9001 Certificate for Corlu Fabric Treatment Plant 2013",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_9001_ukas.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001-certificate__0a2b94eb5d.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001-certificate__0a2b94eb5d.jpg",
+        "public_url": "/ariteks/certificates/images/iso-9001-certificate__0a2b94eb5d.jpg",
+        "alt": "ISO 9001 Certificate"
+      },
+      "target": {
+        "type": "image",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO9001.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+        "public_url": "/ariteks/certificates/images/iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 671553,
+        "sha1": "ae3121b68fa731cf4b2a8436fc650996988fc6d5"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "optional_download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk pokazuje większą grafikę/certyfikat w nowej karcie albo w lightboxie.",
+        "button_label_pl": "Zobacz certyfikat",
+        "download_label_pl": "Pobierz grafikę",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 7,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2017",
+      "label_display": "Oeko-Tex Certificate 2017",
+      "context_text": "Oeko-Tex Certificate 2017",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2017"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2016.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 411445,
+        "sha1": "e7557ec049858a5151db7dfd3cf8e981da2b7bbe"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 8,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2018",
+      "label_display": "Oeko-Tex Certificate 2018",
+      "context_text": "Oeko-Tex Certificate 2018",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2018"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2018.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2018__ab3b435863.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2018__ab3b435863.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2018__ab3b435863.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 635846,
+        "sha1": "07cfd6f09f0423a955a30d918495b1c787350b4a"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 9,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2019",
+      "label_display": "Oeko-Tex Certificate 2019",
+      "context_text": "Oeko-Tex Certificate 2019",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2019"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2019.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2019__9ca59618fa.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2019__9ca59618fa.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2019__9ca59618fa.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 661824,
+        "sha1": "731babfa268736e87f66f425707304bbec1811d1"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 10,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Çevre İzin Belgesi",
+      "label_display": "Çevre İzin Belgesi",
+      "context_text": "Çevre İzin Belgesi",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/ced_raporu.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\cevre-izin-belgesi__e795e0d446.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\cevre-izin-belgesi__e795e0d446.jpg",
+        "public_url": "/ariteks/certificates/images/cevre-izin-belgesi__e795e0d446.jpg",
+        "alt": "Cevre İzin Belgesi"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/cevre_izin_belgesi.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\cevre-izin-belgesi__2b307fbc54.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\cevre-izin-belgesi__2b307fbc54.pdf",
+        "public_url": "/ariteks/certificates/documents/cevre-izin-belgesi__2b307fbc54.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 102900,
+        "sha1": "6d51aae4a4507cff6850aadac3e2719ec98cb895"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 11,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 9001 Certificate",
+      "label_display": "ISO 9001 Certificate",
+      "context_text": "ISO 9001 Certificate",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_9001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001__86072b9a0f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001__86072b9a0f.png",
+        "public_url": "/ariteks/certificates/images/iso-9001__86072b9a0f.png",
+        "alt": "ISO 9001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO9001_2019.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate__854810168d.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate__854810168d.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-9001-certificate__854810168d.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 1561906,
+        "sha1": "7a35200f8f2ada05ccd4c21e67a34940711f228f"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 12,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 14001 Certificate",
+      "label_display": "ISO 14001 Certificate",
+      "context_text": "ISO 14001 Certificate",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_14001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-14001__b1ac088de9.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-14001__b1ac088de9.png",
+        "public_url": "/ariteks/certificates/images/iso-14001__b1ac088de9.png",
+        "alt": "ISO 14001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO14001_orj.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate__adf712dd59.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate__adf712dd59.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-14001-certificate__adf712dd59.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 1584290,
+        "sha1": "2e61f85e8763e9cb088c10b0e98ecbf7fab523f6"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 13,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 18001 Certificate",
+      "label_display": "ISO 18001 Certificate",
+      "context_text": "ISO 18001 Certificate",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_18001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-18001__22b7527d60.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-18001__22b7527d60.png",
+        "public_url": "/ariteks/certificates/images/iso-18001__22b7527d60.png",
+        "alt": "ISO 18001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO18001_orj.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-18001-certificate__3627cddaea.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-18001-certificate__3627cddaea.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-18001-certificate__3627cddaea.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 1549739,
+        "sha1": "f156ce2cff6b05d7cac10d56d583c6e403eef68b"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 14,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 9001 Certificate",
+      "label_display": "ISO 9001 Certificate",
+      "context_text": "ISO 9001 Certificate",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_9001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001__86072b9a0f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001__86072b9a0f.png",
+        "public_url": "/ariteks/certificates/images/iso-9001__86072b9a0f.png",
+        "alt": "ISO 9001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO9001_2020.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate__a64f95d916.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate__a64f95d916.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-9001-certificate__a64f95d916.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 279703,
+        "sha1": "8b0c4faf889f764e22775e4f95fca79c6dbd2753"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 15,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 9001 Certificate 2022",
+      "label_display": "ISO 9001 Certificate 2022",
+      "context_text": "ISO 9001 Certificate 2022",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_9001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001__86072b9a0f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001__86072b9a0f.png",
+        "public_url": "/ariteks/certificates/images/iso-9001__86072b9a0f.png",
+        "alt": "ISO 9001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO9001_2022.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate-2022__bbf519a301.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate-2022__bbf519a301.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-9001-certificate-2022__bbf519a301.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 730668,
+        "sha1": "6855c6083a5d4171f19418bcfd29a50d189abcee"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 16,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 14001 Certificate 2022",
+      "label_display": "ISO 14001 Certificate 2022",
+      "context_text": "ISO 14001 Certificate 2022",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_14001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-14001__b1ac088de9.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-14001__b1ac088de9.png",
+        "public_url": "/ariteks/certificates/images/iso-14001__b1ac088de9.png",
+        "alt": "ISO 14001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO14001_2022.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate-2022__93d696f1c6.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate-2022__93d696f1c6.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-14001-certificate-2022__93d696f1c6.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 836978,
+        "sha1": "1b03bc6ea05622dca8ab0d48f54daa5dc8ada5cc"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 17,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 45001 Certificate 2022",
+      "label_display": "ISO 45001 Certificate 2022",
+      "context_text": "ISO 45001 Certificate 2022",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_45001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-18001__fcee21e8fd.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-18001__fcee21e8fd.png",
+        "public_url": "/ariteks/certificates/images/iso-18001__fcee21e8fd.png",
+        "alt": "ISO 18001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO45001_2022.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-45001-certificate-2022__8adfea0f56.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-45001-certificate-2022__8adfea0f56.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-45001-certificate-2022__8adfea0f56.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 649391,
+        "sha1": "f3cdf473cc06ef195d44f2f313ba2c7dac31215e"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 18,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 9001 Certificate 2024",
+      "label_display": "ISO 9001 Certificate 2024",
+      "context_text": "ISO 9001 Certificate 2024",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_9001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001__86072b9a0f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001__86072b9a0f.png",
+        "public_url": "/ariteks/certificates/images/iso-9001__86072b9a0f.png",
+        "alt": "ISO 9001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO9001_2024.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate-2024__f18ea7e07b.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate-2024__f18ea7e07b.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-9001-certificate-2024__f18ea7e07b.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 769662,
+        "sha1": "3cec324654a036daefee8caabdcda273bf93c0d2"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 19,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 14001 Certificate 2024",
+      "label_display": "ISO 14001 Certificate 2024",
+      "context_text": "ISO 14001 Certificate 2024",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_14001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-14001__b1ac088de9.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-14001__b1ac088de9.png",
+        "public_url": "/ariteks/certificates/images/iso-14001__b1ac088de9.png",
+        "alt": "ISO 14001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO14001_2024.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate-2024__286f3f5b52.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate-2024__286f3f5b52.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-14001-certificate-2024__286f3f5b52.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 983792,
+        "sha1": "716c4eb8ef5081b6673c16c9cd8e5a481e19b04c"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 20,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "ISO 45001 Certificate 2024",
+      "label_display": "ISO 45001 Certificate 2024",
+      "context_text": "ISO 45001 Certificate 2024",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/iso_45001.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-18001__fcee21e8fd.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-18001__fcee21e8fd.png",
+        "public_url": "/ariteks/certificates/images/iso-18001__fcee21e8fd.png",
+        "alt": "ISO 18001"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/ISO45001_2024.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-45001-certificate-2024__176462b6d0.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-45001-certificate-2024__176462b6d0.pdf",
+        "public_url": "/ariteks/certificates/documents/iso-45001-certificate-2024__176462b6d0.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 752717,
+        "sha1": "dfb439783d4ff34dee1fb5cb289ecf98c0d22c03"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 21,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Recycled Claim Standard",
+      "label_display": "Recycled Claim Standard",
+      "context_text": "Recycled Claim Standard",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/rcs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\recycled-claim__b49b450a0c.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\recycled-claim__b49b450a0c.png",
+        "public_url": "/ariteks/certificates/images/recycled-claim__b49b450a0c.png",
+        "alt": "Recycled Claim"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/RCS_Scope_Certificate_2019-08-20 18_00_05.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard__5de76c422c.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard__5de76c422c.pdf",
+        "public_url": "/ariteks/certificates/documents/recycled-claim-standard__5de76c422c.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 901216,
+        "sha1": "0e73b0c9637f47f35026be89da92dcd093b671b8"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 22,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Organic Content Standard",
+      "label_display": "Organic Content Standard",
+      "context_text": "Organic Content Standard",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/ocs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-content__af9dc0bcea.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-content__af9dc0bcea.png",
+        "public_url": "/ariteks/certificates/images/organic-content__af9dc0bcea.png",
+        "alt": "Organic Content"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/OCS_Scope_Certificate_2019-08-20 18_00_09.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard__141077767f.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard__141077767f.pdf",
+        "public_url": "/ariteks/certificates/documents/organic-content-standard__141077767f.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 920462,
+        "sha1": "4c1549d53e36e2475ab071237291a15c840a4b9c"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 23,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Recycled Claim Standard 2021",
+      "label_display": "Recycled Claim Standard 2021",
+      "context_text": "Recycled Claim Standard 2021",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/rcs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\recycled-claim__b49b450a0c.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\recycled-claim__b49b450a0c.png",
+        "public_url": "/ariteks/certificates/images/recycled-claim__b49b450a0c.png",
+        "alt": "Recycled Claim"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/RCS_Scope_Certificate_2021-01-20 08_05_23 UTC.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2021__cff9963559.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2021__cff9963559.pdf",
+        "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2021__cff9963559.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 902183,
+        "sha1": "9bc819ba8877fdc1c804ce1b8f969f54b8d0dbd5"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 24,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Organic Content Standard 2021",
+      "label_display": "Organic Content Standard 2021",
+      "context_text": "Organic Content Standard 2021",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/ocs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-content__af9dc0bcea.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-content__af9dc0bcea.png",
+        "public_url": "/ariteks/certificates/images/organic-content__af9dc0bcea.png",
+        "alt": "Organic Content"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/OCS_Scope_Certificate_2021-01-20 08_05_26 UTC.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard-2021__e2de670357.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard-2021__e2de670357.pdf",
+        "public_url": "/ariteks/certificates/documents/organic-content-standard-2021__e2de670357.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 948088,
+        "sha1": "4cba4745568012b7913850db92f27dbc55421edd"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 25,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Recycled Claim Standard 2022",
+      "label_display": "Recycled Claim Standard 2022",
+      "context_text": "Recycled Claim Standard 2022",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/rcs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\recycled-claim__b49b450a0c.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\recycled-claim__b49b450a0c.png",
+        "public_url": "/ariteks/certificates/images/recycled-claim__b49b450a0c.png",
+        "alt": "Recycled Claim"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/RCS_Scope_Certificate_2022-10-09 19_29_31 UTC.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2022__d3435150a2.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2022__d3435150a2.pdf",
+        "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2022__d3435150a2.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 902520,
+        "sha1": "0ca7cb6b8a538dcc181bf1bb5e6985f1e108c626"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 26,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Organic Content Standard 2022",
+      "label_display": "Organic Content Standard 2022",
+      "context_text": "Organic Content Standard 2022",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/ocs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-content__af9dc0bcea.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-content__af9dc0bcea.png",
+        "public_url": "/ariteks/certificates/images/organic-content__af9dc0bcea.png",
+        "alt": "Organic Content"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/OCS_Scope_Certificate_2022-10-09 19_29_33 UTC.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard-2022__5bb288ec63.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard-2022__5bb288ec63.pdf",
+        "public_url": "/ariteks/certificates/documents/organic-content-standard-2022__5bb288ec63.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 948736,
+        "sha1": "50bd4feb7b75b267441e8d6582cec4077e73f60b"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 27,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Recycled Claim Standard 2024",
+      "label_display": "Recycled Claim Standard 2024",
+      "context_text": "Recycled Claim Standard 2024",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/rcs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\recycled-claim__b49b450a0c.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\recycled-claim__b49b450a0c.png",
+        "public_url": "/ariteks/certificates/images/recycled-claim__b49b450a0c.png",
+        "alt": "Recycled Claim"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/MUL_Scope_Certificate_2024-05-06_02532_UTC.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2024__871acf5601.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2024__871acf5601.pdf",
+        "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2024__871acf5601.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 738445,
+        "sha1": "504235efb5217e4b49e3239e897d7dcc47b264cb"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 28,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Organic Content Standard 2024",
+      "label_display": "Organic Content Standard 2024",
+      "context_text": "Organic Content Standard 2024",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/ocs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-content__af9dc0bcea.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-content__af9dc0bcea.png",
+        "public_url": "/ariteks/certificates/images/organic-content__af9dc0bcea.png",
+        "alt": "Organic Content"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/MUL_Scope_Certificate_2024-05-06_02532_UTC.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2024__871acf5601.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2024__871acf5601.pdf",
+        "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2024__871acf5601.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 738445,
+        "sha1": "504235efb5217e4b49e3239e897d7dcc47b264cb"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 29,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Recycled Claim Standard 2025",
+      "label_display": "Recycled Claim Standard 2025",
+      "context_text": "Recycled Claim Standard 2025",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/rcs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\recycled-claim__b49b450a0c.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\recycled-claim__b49b450a0c.png",
+        "public_url": "/ariteks/certificates/images/recycled-claim__b49b450a0c.png",
+        "alt": "Recycled Claim"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "http://en.ariteks.net/images/certificate/SCOPE_CERTIFICATE_USB-00053826-MUL-2505_99550_signed.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2025__99279bb9fc.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2025__99279bb9fc.pdf",
+        "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2025__99279bb9fc.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 701728,
+        "sha1": "715cc86e14914a66c433c4516429ded4ceafad97"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 30,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Organic Content Standard 2025",
+      "label_display": "Organic Content Standard 2025",
+      "context_text": "Organic Content Standard 2025",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/ocs_blended.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-content__af9dc0bcea.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-content__af9dc0bcea.png",
+        "public_url": "/ariteks/certificates/images/organic-content__af9dc0bcea.png",
+        "alt": "Organic Content"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "http://en.ariteks.net/images/certificate/SCOPE_CERTIFICATE_USB-00053826-MUL-2505_99550_signed.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2025__99279bb9fc.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2025__99279bb9fc.pdf",
+        "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2025__99279bb9fc.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 701728,
+        "sha1": "715cc86e14914a66c433c4516429ded4ceafad97"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 31,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2020",
+      "label_display": "Oeko-Tex Certificate 2020",
+      "context_text": "Oeko-Tex Certificate 2020",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2020"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2020.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2020__b792142038.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2020__b792142038.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2020__b792142038.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 516834,
+        "sha1": "9abba956e1a4ce8a78a9393181fac778c8721b05"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 32,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "BCI Sytem No:1012459-1",
+      "label_display": "BCI Sytem No:1012459-1",
+      "context_text": "BCI Sytem No:1012459-1",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/bci.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\bci-better-cotton-initiative__4009e5f2f4.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\bci-better-cotton-initiative__4009e5f2f4.jpg",
+        "public_url": "/ariteks/certificates/images/bci-better-cotton-initiative__4009e5f2f4.jpg",
+        "alt": "Bci, better cotton initiative"
+      },
+      "target": {
+        "type": "image",
+        "source_url": "https://www.ariteks.net/images/certificate/bci.jpg",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\bci-better-cotton-initiative__4009e5f2f4.jpg",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\bci-better-cotton-initiative__4009e5f2f4.jpg",
+        "public_url": "/ariteks/certificates/images/bci-better-cotton-initiative__4009e5f2f4.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 7730,
+        "sha1": "8499e4b7733463262d2b504ebe295dbb11432c92"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "optional_download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk pokazuje większą grafikę/certyfikat w nowej karcie albo w lightboxie.",
+        "button_label_pl": "Zobacz certyfikat",
+        "download_label_pl": "Pobierz grafikę",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 33,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2021 Cotton, Viscose, Elastane",
+      "label_display": "Oeko-Tex Certificate 2021 Cotton, Viscose, Elastane",
+      "context_text": "Oeko-Tex Certificate 2021 Cotton, Viscose, Elastane",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2021"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2021-co-cv.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 530534,
+        "sha1": "879eadd48de72429a21d49593e98b7fd2501b652"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 34,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2021 Polyester, Elastane",
+      "label_display": "Oeko-Tex Certificate 2021 Polyester, Elastane",
+      "context_text": "Oeko-Tex Certificate 2021 Polyester, Elastane",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2021"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2021-pes.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 542142,
+        "sha1": "876964ef3c7633e50f0be702534b1e8a7896108b"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 35,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2022 Cotton, Viscose, Elastane",
+      "label_display": "Oeko-Tex Certificate 2022 Cotton, Viscose, Elastane",
+      "context_text": "Oeko-Tex Certificate 2022 Cotton, Viscose, Elastane",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2021"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2022-co-cv.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 112285,
+        "sha1": "486fbed5fba58a1b7a1c642957eb65b6dca616c9"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 36,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2023 Cotton, Viscose, Polyester",
+      "label_display": "Oeko-Tex Certificate 2023 Cotton, Viscose, Polyester",
+      "context_text": "Oeko-Tex Certificate 2023 Cotton, Viscose, Polyester",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2023"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2023-co-cv-pes.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 1924937,
+        "sha1": "90ed0bb0b9808a945c3d25c8a292ef03928d1d6e"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 37,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2024 Cotton, Viscose, Polyester",
+      "label_display": "Oeko-Tex Certificate 2024 Cotton, Viscose, Polyester",
+      "context_text": "Oeko-Tex Certificate 2024 Cotton, Viscose, Polyester",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2024"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "https://www.ariteks.net/images/certificate/oeko-tex-2024-co-cv-pes.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 1926122,
+        "sha1": "568d8cdb5d66806ae3927eaee9247ea4c0efed24"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 38,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2025 Cotton, Viscose, Polyester",
+      "label_display": "Oeko-Tex Certificate 2025 Cotton, Viscose, Polyester",
+      "context_text": "Oeko-Tex Certificate 2025 Cotton, Viscose, Polyester",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2025"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "http://en.ariteks.net/images/certificate/oeko-tex-2025-co-cv-pes.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 1926519,
+        "sha1": "f6b262d65c2b2e81fbea59ca188b5d289d0f9551"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    {
+      "order": 39,
+      "section": "Textile Organic Production Certificate",
+      "label_pl": "",
+      "label_en": "Oeko-Tex Certificate 2025 Cotton, Viscose, Polyester Fabric",
+      "label_display": "Oeko-Tex Certificate 2025 Cotton, Viscose, Polyester Fabric",
+      "context_text": "Oeko-Tex Certificate 2025 Cotton, Viscose, Polyester Fabric",
+      "card_image": {
+        "source_url": "https://www.ariteks.net/images/certificate/oekotex_100.png",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+        "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+        "alt": "Oeko-tex 2025"
+      },
+      "target": {
+        "type": "document",
+        "source_url": "http://en.ariteks.net/images/certificate/oeko-tex-2025-co-cv-pes-fabric.pdf",
+        "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+        "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+        "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 1938497,
+        "sha1": "f5b9e6d7e22fc79785f2f3fdd69d3418e8a94a0c"
+      },
+      "ui": {
+        "primary_action": "open_new_tab",
+        "secondary_action": "download",
+        "display_mode_pl": "Karta certyfikatu z ikoną; przycisk otwiera PDF w nowej karcie; dodatkowo można dać przycisk Pobierz.",
+        "button_label_pl": "Otwórz certyfikat",
+        "download_label_pl": "Pobierz PDF",
+        "html_target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    }
+  ],
+  "standards": [
+    {
+      "order": 47,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Determination of linear density",
+      "test_name_display": "Determination of linear density",
+      "standard": "ISO 2060"
+    },
+    {
+      "order": 49,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Determination of mass per unit area",
+      "test_name_display": "Determination of mass per unit area",
+      "standard": "ISO 3801"
+    },
+    {
+      "order": 51,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Determination of width and length",
+      "test_name_display": "Determination of width and length",
+      "standard": "EN 1773"
+    },
+    {
+      "order": 53,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Determination of dimensional change",
+      "test_name_display": "Determination of dimensional change",
+      "standard": "ISO 3759"
+    },
+    {
+      "order": 55,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to artificial light",
+      "test_name_display": "Colour fastness to artificial light",
+      "standard": "ISO 105 B02"
+    },
+    {
+      "order": 57,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fanstness to rubbing",
+      "test_name_display": "Colour fanstness to rubbing",
+      "standard": "ISO 105 X12"
+    },
+    {
+      "order": 59,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to water",
+      "test_name_display": "Colour fastness to water",
+      "standard": "ISO 105 E01"
+    },
+    {
+      "order": 61,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to sea water",
+      "test_name_display": "Colour fastness to sea water",
+      "standard": "ISO 105 E02"
+    },
+    {
+      "order": 63,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to chlorinated water",
+      "test_name_display": "Colour fastness to chlorinated water",
+      "standard": "ISO 105 E03"
+    },
+    {
+      "order": 65,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to perspiration",
+      "test_name_display": "Colour fastness to perspiration",
+      "standard": "ISO 105 E04"
+    },
+    {
+      "order": 67,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to spotting:Acid",
+      "test_name_display": "Colour fastness to spotting:Acid",
+      "standard": "ISO 105 E05"
+    },
+    {
+      "order": 69,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to spotting:Alkali",
+      "test_name_display": "Colour fastness to spotting:Alkali",
+      "standard": "ISO 105 E06"
+    },
+    {
+      "order": 71,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to laundering",
+      "test_name_display": "Colour fastness to laundering",
+      "standard": "ISO 105 C06"
+    },
+    {
+      "order": 73,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to mercerizing",
+      "test_name_display": "Colour fastness to mercerizing",
+      "standard": "ISO 105 X04"
+    },
+    {
+      "order": 75,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to bleaching: Hypochlorite",
+      "test_name_display": "Colour fastness to bleaching: Hypochlorite",
+      "standard": "ISO 105 N01"
+    },
+    {
+      "order": 77,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to bleaching: Peroxide",
+      "test_name_display": "Colour fastness to bleaching: Peroxide",
+      "standard": "ISO 105 N02"
+    },
+    {
+      "order": 79,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to dry heat",
+      "test_name_display": "Colour fastness to dry heat",
+      "standard": "ISO 105 P01"
+    },
+    {
+      "order": 81,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to PVC coating",
+      "test_name_display": "Colour fastness to PVC coating",
+      "standard": "ISO 105 X10"
+    },
+    {
+      "order": 83,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to hot pressing",
+      "test_name_display": "Colour fastness to hot pressing",
+      "standard": "ISO 105 X11"
+    },
+    {
+      "order": 85,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Colour fastness to dry cleaning",
+      "test_name_display": "Colour fastness to dry cleaning",
+      "standard": "ISO 105 D01"
+    },
+    {
+      "order": 87,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Determination of abrasion resistance",
+      "test_name_display": "Determination of abrasion resistance",
+      "standard": "ISO 12947-1"
+    },
+    {
+      "order": 89,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Tensile properties of fabrics - Part1",
+      "test_name_display": "Tensile properties of fabrics - Part1",
+      "standard": "ISO 13934-1"
+    },
+    {
+      "order": 91,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Bursting properties of fabrics - Part1",
+      "test_name_display": "Bursting properties of fabrics - Part1",
+      "standard": "ISO 13938-1"
+    },
+    {
+      "order": 93,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Stretch Recovery",
+      "test_name_display": "Stretch Recovery",
+      "standard": "EN 14704-1"
+    },
+    {
+      "order": 95,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Quantitative chemical analysis",
+      "test_name_display": "Quantitative chemical analysis",
+      "standard": "ISO 1833-1"
+    },
+    {
+      "order": 97,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Determination of formaldehyde",
+      "test_name_display": "Determination of formaldehyde",
+      "standard": "ISO 14184-1"
+    },
+    {
+      "order": 99,
+      "category_pl": "",
+      "category_en": "Apparel Textiles",
+      "category_display": "Apparel Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Aromatic amines from azo colorants",
+      "test_name_display": "Aromatic amines from azo colorants",
+      "standard": "ISO 14362-1"
+    },
+    {
+      "order": 101,
+      "category_pl": "",
+      "category_en": "Building Technical Textiles",
+      "category_display": "Building Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Tensile stregth and elongation",
+      "test_name_display": "Tensile stregth and elongation",
+      "standard": "ISO 1421"
+    },
+    {
+      "order": 103,
+      "category_pl": "",
+      "category_en": "Building Technical Textiles",
+      "category_display": "Building Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Coating adhesion",
+      "test_name_display": "Coating adhesion",
+      "standard": "ISO 2411"
+    },
+    {
+      "order": 105,
+      "category_pl": "",
+      "category_en": "Building Technical Textiles",
+      "category_display": "Building Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Rating of sound insulation",
+      "test_name_display": "Rating of sound insulation",
+      "standard": "ISO 717-1"
+    },
+    {
+      "order": 107,
+      "category_pl": "",
+      "category_en": "Building Technical Textiles",
+      "category_display": "Building Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Flame Retardancy",
+      "test_name_display": "Flame Retardancy",
+      "standard": "DIN 4102 B1"
+    },
+    {
+      "order": 109,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Welding Protection",
+      "test_name_display": "Welding Protection",
+      "standard": "EN 11611"
+    },
+    {
+      "order": 112,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Heat and Flame Protection",
+      "test_name_display": "Heat and Flame Protection",
+      "standard": "EN 11612"
+    },
+    {
+      "order": 115,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Arc Protection",
+      "test_name_display": "Arc Protection",
+      "standard": "EN 61482"
+    },
+    {
+      "order": 118,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Rain Protection",
+      "test_name_display": "Rain Protection",
+      "standard": "EN 343"
+    },
+    {
+      "order": 121,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "High Visibility",
+      "test_name_display": "High Visibility",
+      "standard": "EN 20471"
+    },
+    {
+      "order": 124,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Surface Resistivity",
+      "test_name_display": "Surface Resistivity",
+      "standard": "EN 1149"
+    },
+    {
+      "order": 127,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Chemical Protection",
+      "test_name_display": "Chemical Protection",
+      "standard": "EN 13034"
+    },
+    {
+      "order": 130,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Heat and Flame Protection",
+      "test_name_display": "Heat and Flame Protection",
+      "standard": "EN 14116"
+    },
+    {
+      "order": 132,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Oil Repellency",
+      "test_name_display": "Oil Repellency",
+      "standard": "EN 14419"
+    },
+    {
+      "order": 134,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Uv Permeability",
+      "test_name_display": "Uv Permeability",
+      "standard": "AATCC 183"
+    },
+    {
+      "order": 136,
+      "category_pl": "",
+      "category_en": "Protection Technical Textiles",
+      "category_display": "Protection Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Firefighting Requirement",
+      "test_name_display": "Firefighting Requirement",
+      "standard": "EN 469"
+    },
+    {
+      "order": 138,
+      "category_pl": "",
+      "category_en": "Geology Technical Textiles",
+      "category_display": "Geology Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Wide-width tensile test",
+      "test_name_display": "Wide-width tensile test",
+      "standard": "ISO 10319"
+    },
+    {
+      "order": 140,
+      "category_pl": "",
+      "category_en": "Geology Technical Textiles",
+      "category_display": "Geology Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Mass per unit area of geotextiles",
+      "test_name_display": "Mass per unit area of geotextiles",
+      "standard": "ISO 9864"
+    },
+    {
+      "order": 142,
+      "category_pl": "",
+      "category_en": "Medical Technical Textiles",
+      "category_display": "Medical Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Antibacterial activity",
+      "test_name_display": "Antibacterial activity",
+      "standard": "AATCC 147"
+    },
+    {
+      "order": 144,
+      "category_pl": "",
+      "category_en": "Medical Technical Textiles",
+      "category_display": "Medical Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Antibacterial activity",
+      "test_name_display": "Antibacterial activity",
+      "standard": "AATCC 100"
+    },
+    {
+      "order": 146,
+      "category_pl": "",
+      "category_en": "Medical Technical Textiles",
+      "category_display": "Medical Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Antimicrobial activity",
+      "test_name_display": "Antimicrobial activity",
+      "standard": "ASTM E2149"
+    },
+    {
+      "order": 148,
+      "category_pl": "",
+      "category_en": "Medical Technical Textiles",
+      "category_display": "Medical Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Antiviral Textiles",
+      "test_name_display": "Antiviral Textiles",
+      "standard": "ISO 18184"
+    },
+    {
+      "order": 150,
+      "category_pl": "",
+      "category_en": "Medical Technical Textiles",
+      "category_display": "Medical Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Infective Agents",
+      "test_name_display": "Infective Agents",
+      "standard": "EN 14126"
+    },
+    {
+      "order": 152,
+      "category_pl": "",
+      "category_en": "Medical Technical Textiles",
+      "category_display": "Medical Technical Textiles",
+      "test_name_pl": "",
+      "test_name_en": "Bacterial Filtration",
+      "test_name_display": "Bacterial Filtration",
+      "standard": "EN 14683"
+    }
+  ],
+  "copied_files": [
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\oekotex-100__cf2640970f.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\oekotex-100__cf2640970f.png",
+      "public_url": "/ariteks/certificates/images/oekotex-100__cf2640970f.png",
+      "filename": "oekotex-100__cf2640970f.png",
+      "subdir": "images",
+      "size_bytes": 54001
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+      "public_url": "/ariteks/certificates/images/yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+      "filename": "yarn-oeko-tex-certificate-2009__2691fd2ecd.jpg",
+      "subdir": "images",
+      "size_bytes": 1335616
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+      "public_url": "/ariteks/certificates/documents/fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+      "filename": "fabric-oeko-tex-certificate-2014__55c0c73c33.pdf",
+      "subdir": "documents",
+      "size_bytes": 222687
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-certificate__136e87e27f.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-certificate__136e87e27f.png",
+      "public_url": "/ariteks/certificates/images/organic-certificate__136e87e27f.png",
+      "filename": "organic-certificate__136e87e27f.png",
+      "subdir": "images",
+      "size_bytes": 21326
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\textile-organic-production-certificate__3b9e606c95.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\textile-organic-production-certificate__3b9e606c95.pdf",
+      "public_url": "/ariteks/certificates/documents/textile-organic-production-certificate__3b9e606c95.pdf",
+      "filename": "textile-organic-production-certificate__3b9e606c95.pdf",
+      "subdir": "documents",
+      "size_bytes": 179773
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\c02-emission-reduction__c42b33b849.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\c02-emission-reduction__c42b33b849.png",
+      "public_url": "/ariteks/certificates/images/c02-emission-reduction__c42b33b849.png",
+      "filename": "c02-emission-reduction__c42b33b849.png",
+      "subdir": "images",
+      "size_bytes": 20050
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\c02-emission-reduction__15e4c8f129.jpg",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\c02-emission-reduction__15e4c8f129.jpg",
+      "public_url": "/ariteks/certificates/images/c02-emission-reduction__15e4c8f129.jpg",
+      "filename": "c02-emission-reduction__15e4c8f129.jpg",
+      "subdir": "images",
+      "size_bytes": 735944
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\antimicrobial-products__52364c2ce9.jpg",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\antimicrobial-products__52364c2ce9.jpg",
+      "public_url": "/ariteks/certificates/images/antimicrobial-products__52364c2ce9.jpg",
+      "filename": "antimicrobial-products__52364c2ce9.jpg",
+      "subdir": "images",
+      "size_bytes": 19080
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001-certificate__0a2b94eb5d.jpg",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001-certificate__0a2b94eb5d.jpg",
+      "public_url": "/ariteks/certificates/images/iso-9001-certificate__0a2b94eb5d.jpg",
+      "filename": "iso-9001-certificate__0a2b94eb5d.jpg",
+      "subdir": "images",
+      "size_bytes": 17662
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+      "public_url": "/ariteks/certificates/images/iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+      "filename": "iso-9001-certificate-for-corlu-fabric-treatment-plant-2013__642fcfd5d5.jpg",
+      "subdir": "images",
+      "size_bytes": 671553
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+      "filename": "oeko-tex-certificate-2017__2e3d29b2a8.pdf",
+      "subdir": "documents",
+      "size_bytes": 411445
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2018__ab3b435863.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2018__ab3b435863.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2018__ab3b435863.pdf",
+      "filename": "oeko-tex-certificate-2018__ab3b435863.pdf",
+      "subdir": "documents",
+      "size_bytes": 635846
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2019__9ca59618fa.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2019__9ca59618fa.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2019__9ca59618fa.pdf",
+      "filename": "oeko-tex-certificate-2019__9ca59618fa.pdf",
+      "subdir": "documents",
+      "size_bytes": 661824
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\cevre-izin-belgesi__e795e0d446.jpg",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\cevre-izin-belgesi__e795e0d446.jpg",
+      "public_url": "/ariteks/certificates/images/cevre-izin-belgesi__e795e0d446.jpg",
+      "filename": "cevre-izin-belgesi__e795e0d446.jpg",
+      "subdir": "images",
+      "size_bytes": 13277
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\cevre-izin-belgesi__2b307fbc54.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\cevre-izin-belgesi__2b307fbc54.pdf",
+      "public_url": "/ariteks/certificates/documents/cevre-izin-belgesi__2b307fbc54.pdf",
+      "filename": "cevre-izin-belgesi__2b307fbc54.pdf",
+      "subdir": "documents",
+      "size_bytes": 102900
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-9001__86072b9a0f.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-9001__86072b9a0f.png",
+      "public_url": "/ariteks/certificates/images/iso-9001__86072b9a0f.png",
+      "filename": "iso-9001__86072b9a0f.png",
+      "subdir": "images",
+      "size_bytes": 49633
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate__854810168d.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate__854810168d.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-9001-certificate__854810168d.pdf",
+      "filename": "iso-9001-certificate__854810168d.pdf",
+      "subdir": "documents",
+      "size_bytes": 1561906
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-14001__b1ac088de9.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-14001__b1ac088de9.png",
+      "public_url": "/ariteks/certificates/images/iso-14001__b1ac088de9.png",
+      "filename": "iso-14001__b1ac088de9.png",
+      "subdir": "images",
+      "size_bytes": 50903
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate__adf712dd59.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate__adf712dd59.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-14001-certificate__adf712dd59.pdf",
+      "filename": "iso-14001-certificate__adf712dd59.pdf",
+      "subdir": "documents",
+      "size_bytes": 1584290
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-18001__22b7527d60.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-18001__22b7527d60.png",
+      "public_url": "/ariteks/certificates/images/iso-18001__22b7527d60.png",
+      "filename": "iso-18001__22b7527d60.png",
+      "subdir": "images",
+      "size_bytes": 49471
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-18001-certificate__3627cddaea.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-18001-certificate__3627cddaea.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-18001-certificate__3627cddaea.pdf",
+      "filename": "iso-18001-certificate__3627cddaea.pdf",
+      "subdir": "documents",
+      "size_bytes": 1549739
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate__a64f95d916.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate__a64f95d916.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-9001-certificate__a64f95d916.pdf",
+      "filename": "iso-9001-certificate__a64f95d916.pdf",
+      "subdir": "documents",
+      "size_bytes": 279703
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate-2022__bbf519a301.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate-2022__bbf519a301.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-9001-certificate-2022__bbf519a301.pdf",
+      "filename": "iso-9001-certificate-2022__bbf519a301.pdf",
+      "subdir": "documents",
+      "size_bytes": 730668
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate-2022__93d696f1c6.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate-2022__93d696f1c6.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-14001-certificate-2022__93d696f1c6.pdf",
+      "filename": "iso-14001-certificate-2022__93d696f1c6.pdf",
+      "subdir": "documents",
+      "size_bytes": 836978
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\iso-18001__fcee21e8fd.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\iso-18001__fcee21e8fd.png",
+      "public_url": "/ariteks/certificates/images/iso-18001__fcee21e8fd.png",
+      "filename": "iso-18001__fcee21e8fd.png",
+      "subdir": "images",
+      "size_bytes": 32937
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-45001-certificate-2022__8adfea0f56.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-45001-certificate-2022__8adfea0f56.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-45001-certificate-2022__8adfea0f56.pdf",
+      "filename": "iso-45001-certificate-2022__8adfea0f56.pdf",
+      "subdir": "documents",
+      "size_bytes": 649391
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-9001-certificate-2024__f18ea7e07b.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-9001-certificate-2024__f18ea7e07b.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-9001-certificate-2024__f18ea7e07b.pdf",
+      "filename": "iso-9001-certificate-2024__f18ea7e07b.pdf",
+      "subdir": "documents",
+      "size_bytes": 769662
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-14001-certificate-2024__286f3f5b52.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-14001-certificate-2024__286f3f5b52.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-14001-certificate-2024__286f3f5b52.pdf",
+      "filename": "iso-14001-certificate-2024__286f3f5b52.pdf",
+      "subdir": "documents",
+      "size_bytes": 983792
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\iso-45001-certificate-2024__176462b6d0.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\iso-45001-certificate-2024__176462b6d0.pdf",
+      "public_url": "/ariteks/certificates/documents/iso-45001-certificate-2024__176462b6d0.pdf",
+      "filename": "iso-45001-certificate-2024__176462b6d0.pdf",
+      "subdir": "documents",
+      "size_bytes": 752717
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\recycled-claim__b49b450a0c.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\recycled-claim__b49b450a0c.png",
+      "public_url": "/ariteks/certificates/images/recycled-claim__b49b450a0c.png",
+      "filename": "recycled-claim__b49b450a0c.png",
+      "subdir": "images",
+      "size_bytes": 23401
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard__5de76c422c.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard__5de76c422c.pdf",
+      "public_url": "/ariteks/certificates/documents/recycled-claim-standard__5de76c422c.pdf",
+      "filename": "recycled-claim-standard__5de76c422c.pdf",
+      "subdir": "documents",
+      "size_bytes": 901216
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\organic-content__af9dc0bcea.png",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\organic-content__af9dc0bcea.png",
+      "public_url": "/ariteks/certificates/images/organic-content__af9dc0bcea.png",
+      "filename": "organic-content__af9dc0bcea.png",
+      "subdir": "images",
+      "size_bytes": 24504
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard__141077767f.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard__141077767f.pdf",
+      "public_url": "/ariteks/certificates/documents/organic-content-standard__141077767f.pdf",
+      "filename": "organic-content-standard__141077767f.pdf",
+      "subdir": "documents",
+      "size_bytes": 920462
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2021__cff9963559.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2021__cff9963559.pdf",
+      "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2021__cff9963559.pdf",
+      "filename": "recycled-claim-standard-2021__cff9963559.pdf",
+      "subdir": "documents",
+      "size_bytes": 902183
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard-2021__e2de670357.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard-2021__e2de670357.pdf",
+      "public_url": "/ariteks/certificates/documents/organic-content-standard-2021__e2de670357.pdf",
+      "filename": "organic-content-standard-2021__e2de670357.pdf",
+      "subdir": "documents",
+      "size_bytes": 948088
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2022__d3435150a2.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2022__d3435150a2.pdf",
+      "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2022__d3435150a2.pdf",
+      "filename": "recycled-claim-standard-2022__d3435150a2.pdf",
+      "subdir": "documents",
+      "size_bytes": 902520
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\organic-content-standard-2022__5bb288ec63.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\organic-content-standard-2022__5bb288ec63.pdf",
+      "public_url": "/ariteks/certificates/documents/organic-content-standard-2022__5bb288ec63.pdf",
+      "filename": "organic-content-standard-2022__5bb288ec63.pdf",
+      "subdir": "documents",
+      "size_bytes": 948736
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2024__871acf5601.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2024__871acf5601.pdf",
+      "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2024__871acf5601.pdf",
+      "filename": "recycled-claim-standard-2024__871acf5601.pdf",
+      "subdir": "documents",
+      "size_bytes": 738445
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\recycled-claim-standard-2025__99279bb9fc.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\recycled-claim-standard-2025__99279bb9fc.pdf",
+      "public_url": "/ariteks/certificates/documents/recycled-claim-standard-2025__99279bb9fc.pdf",
+      "filename": "recycled-claim-standard-2025__99279bb9fc.pdf",
+      "subdir": "documents",
+      "size_bytes": 701728
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2020__b792142038.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2020__b792142038.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2020__b792142038.pdf",
+      "filename": "oeko-tex-certificate-2020__b792142038.pdf",
+      "subdir": "documents",
+      "size_bytes": 516834
+    },
+    {
+      "ok": true,
+      "kind": "image",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\images\\bci-better-cotton-initiative__4009e5f2f4.jpg",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\images\\bci-better-cotton-initiative__4009e5f2f4.jpg",
+      "public_url": "/ariteks/certificates/images/bci-better-cotton-initiative__4009e5f2f4.jpg",
+      "filename": "bci-better-cotton-initiative__4009e5f2f4.jpg",
+      "subdir": "images",
+      "size_bytes": 7730
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+      "filename": "oeko-tex-certificate-2021-cotton-viscose-elastane__65e1f11f18.pdf",
+      "subdir": "documents",
+      "size_bytes": 530534
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+      "filename": "oeko-tex-certificate-2021-polyester-elastane__8f3149c069.pdf",
+      "subdir": "documents",
+      "size_bytes": 542142
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+      "filename": "oeko-tex-certificate-2022-cotton-viscose-elastane__a817d1b710.pdf",
+      "subdir": "documents",
+      "size_bytes": 112285
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+      "filename": "oeko-tex-certificate-2023-cotton-viscose-polyester__5ab10b57eb.pdf",
+      "subdir": "documents",
+      "size_bytes": 1924937
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+      "filename": "oeko-tex-certificate-2024-cotton-viscose-polyester__a22be4203f.pdf",
+      "subdir": "documents",
+      "size_bytes": 1926122
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+      "filename": "oeko-tex-certificate-2025-cotton-viscose-polyester__9b13439013.pdf",
+      "subdir": "documents",
+      "size_bytes": 1926519
+    },
+    {
+      "ok": true,
+      "kind": "document",
+      "source_local_path": "D:\\Ariteks\\ariteks_www\\_scraped\\certificates_raw\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+      "public_local_path": "D:\\Ariteks\\ariteks_www\\public\\ariteks\\certificates\\documents\\oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+      "public_url": "/ariteks/certificates/documents/oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+      "filename": "oeko-tex-certificate-2025-cotton-viscose-polyester-fabric__965a080232.pdf",
+      "subdir": "documents",
+      "size_bytes": 1938497
+    }
+  ],
+  "missing_files": []
+}

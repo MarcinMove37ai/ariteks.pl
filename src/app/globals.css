@@ -1,0 +1,147 @@
+/* src/app/globals.css */
+/* Style bazowe + elementy podpisu design systemu Ariteks — v2 (czerwien + antracyt) */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --c-red: #cd3e34;
+    --c-carbon: #212327;
+    --c-carbon-deep: #161719;
+    --c-paper: #f7f7f8;
+    --c-ink: #1b1c1e;
+    --c-line: #e5e5e7;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background: var(--c-red);
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--c-red);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* ============================================
+     SYGNATURA: krajka (selvedge)
+     Podwojna linia czerwien + antracyt, jak brzeg tkaniny.
+     Na ciemnych sekcjach uzyj wariantu .selvedge-light.
+     ============================================ */
+  .selvedge {
+    display: inline-block;
+    width: 3.5rem;
+    height: 0.5rem;
+    background:
+      linear-gradient(var(--c-red), var(--c-red)) top / 100% 3px no-repeat,
+      linear-gradient(var(--c-carbon), var(--c-carbon)) bottom / 100% 3px no-repeat;
+  }
+
+  .selvedge-light {
+    background:
+      linear-gradient(var(--c-red), var(--c-red)) top / 100% 3px no-repeat,
+      linear-gradient(#ffffff, #ffffff) bottom / 100% 3px no-repeat;
+  }
+
+  .selvedge--vertical {
+    width: 0.5rem;
+    height: 3.5rem;
+    background:
+      linear-gradient(var(--c-red), var(--c-red)) left / 3px 100% no-repeat,
+      linear-gradient(var(--c-carbon), var(--c-carbon)) right / 3px 100% no-repeat;
+  }
+
+  .selvedge--vertical.selvedge-light {
+    background:
+      linear-gradient(var(--c-red), var(--c-red)) left / 3px 100% no-repeat,
+      linear-gradient(#ffffff, #ffffff) right / 3px 100% no-repeat;
+  }
+
+  /* ============================================
+     TEKSTURA: siatka warp knit — tkanina pod lupa
+     ============================================ */
+  .mesh-dark {
+    background-color: theme('colors.carbon.900');
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .mesh-light {
+    background-color: theme('colors.paper');
+    background-image:
+      linear-gradient(rgba(33, 35, 39, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(33, 35, 39, 0.04) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .mesh-deep {
+    background-color: #161719;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  /* Etykieta sekcji (eyebrow) — monospace jak kod artykulu tkaniny */
+  .eyebrow {
+    @apply font-mono text-eyebrow uppercase text-steel;
+  }
+
+  .eyebrow-dark {
+    @apply text-carbon-300;
+  }
+
+  /* Badge normy — stylizowany na wszywke */
+  .norm-badge {
+    @apply inline-flex items-center gap-1.5 font-mono text-xs uppercase tracking-wider
+      border border-carbon-200 bg-surface text-carbon-700 px-2.5 py-1 rounded-sm;
+  }
+
+  .norm-badge-dark {
+    @apply border-carbon-600 bg-carbon-800/60 text-carbon-200;
+  }
+
+  /* Kontener strony */
+  .container-site {
+    @apply mx-auto max-w-site px-5 sm:px-8 lg:px-12;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
