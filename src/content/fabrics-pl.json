@@ -1,0 +1,1522 @@
+{
+ "dictionary": {
+  "params": {
+   "ATPV": "ATPV",
+   "Abrasion Resistance": "Odporność na ścieranie",
+   "Allergenic Dyestuffs": "Barwniki alergizujące",
+   "Antistatic": "Antystatyczny",
+   "Antiviral": "Antywirusowy",
+   "Application": "Zastosowanie",
+   "Arc Protection": "Ochrona przed łukiem elektrycznym",
+   "Artificial Weathering": "Sztuczne starzenie klimatyczne",
+   "Azo Test": "Test azowy",
+   "Bacterial Filtration": "Filtracja bakteryjna",
+   "Bursting strengt": "Wytrzymałość na wypychanie",
+   "Bursting strength": "Wytrzymałość na wypychanie",
+   "Chemical Protection": "Ochrona chemiczna",
+   "Chemical Resistant": "Odporny chemicznie",
+   "Clean Air Suits": "Kombinezony do pracy w czystym powietrzu",
+   "Cleanroom Suits": "Kombinezony do pomieszczeń czystych",
+   "Cut Proof": "Odporny na przecięcie",
+   "Cut-Proof": "Odporny na przecięcie",
+   "Dimensinal Change": "Zmiana wymiarów",
+   "Dimensional Change": "Zmiana wymiarów",
+   "Dry Cleaning Fastness": "Odporność wybarwień na pranie chemiczne",
+   "ESD": "ESD",
+   "Fiber": "Włókno",
+   "Firefighters": "Strażacy",
+   "Flame and Heat Protection": "Ochrona przed płomieniem i ciepłem",
+   "Forest Firefighters": "Strażacy leśni",
+   "Heat and Flame Protection": "Ochrona przed ciepłem i płomieniem",
+   "High Visibility": "Wysoka widoczność hi-vis",
+   "High Visible": "Ostrzegawczy hi-vis",
+   "Hot Press Fastness": "Odporność wybarwień na prasowanie na gorąco",
+   "Hypochlorite Fastness": "Odporność wybarwień na podchloryty",
+   "Infective Agents": "Czynniki zakaźne",
+   "Light Fastness": "Odporność wybarwień na światło",
+   "Line Workers": "Pracownicy liniowi",
+   "Motorcyclist": "Motocyklista",
+   "Permeability to Air": "Przepuszczalność powietrza",
+   "Peroxide Fastness": "Odporność wybarwień na nadtlenki",
+   "Perspiration Fastness": "Odporność wybarwień na pot",
+   "Perspiration Light Fast.": "Odporność wybarwień na pot i światło",
+   "Pilling": "Pillowanie",
+   "Quality Management": "Zarządzanie jakością",
+   "Recovery from creasing": "Sprężystość po zgnieceniu",
+   "Rubbing Fastness": "Odporność wybarwień na tarcie",
+   "Sandblasting Suits": "Kombinezony do piaskowania",
+   "Spray Test": "Test natryskowy",
+   "Tear Strength": "Wytrzymałość na rozdzieranie",
+   "Tensile Strength": "Wytrzymałość na rozciąganie",
+   "Washing Fastness": "Odporność wybarwień na pranie",
+   "Water and Oil Repellent": "Wodoodporny i oleoodporny (hydrofobowo-oleoobowy)",
+   "Water resistance": "Odporność na wodę",
+   "Waterproof": "Wodoszczelny",
+   "Weathering Fastness": "Odporność na warunki atmosferyczne",
+   "Weight": "Gramatura",
+   "Welding Protection": "Ochrona przed odpryskami spawalniczymi",
+   "Width": "Szerokość",
+   "Yarn": "Przędza",
+   "pH": "pH"
+  },
+  "colors": {
+   "- STANDART": "- STANDARD",
+   "- STANDART -": "- STANDARD -",
+   "10001": "10001",
+   "Anthracite": "Antracyt",
+   "Beige": "Beż",
+   "Black": "Czarny",
+   "Blue": "Niebieski",
+   "Bordeaux": "Bordowy",
+   "Brown": "Brązowy",
+   "Cayotte": "Cayotte",
+   "Cream": "Kremowy",
+   "Dark": "Ciemny",
+   "Dark Blue": "Ciemny niebieski",
+   "Dark Green": "Ciemny zielony",
+   "Dark Navy": "Ciemny granat",
+   "Dark Red": "Ciemny czerwony",
+   "Desert": "Pustynny",
+   "Green": "Zielony",
+   "Grey": "Szary",
+   "Ice Blue": "Lodowy niebieski",
+   "Khaki": "Khaki",
+   "Light Blue": "Jasny niebieski",
+   "Light Green": "Jasny zielony",
+   "Light Grey": "Jasny szary",
+   "Natural": "Naturalny",
+   "Navy": "Granatowy",
+   "Orange": "Pomarańczowy",
+   "PNIND 25043": "PNIND 25043",
+   "PNIND 34467": "PNIND 34467",
+   "PNIND 34469": "PNIND 34469",
+   "PNIND 59884": "PNIND 59884",
+   "PNIND 59886": "PNIND 59886",
+   "PNIND 59889": "PNIND 59889",
+   "PNIND 66235": "PNIND 66235",
+   "PNIND 66237": "PNIND 66237",
+   "PNIND 96676": "PNIND 96676",
+   "PNIND 96678": "PNIND 96678",
+   "PPR 5011730-08": "PPR 5011730-08",
+   "PPR 5011738-08": "PPR 5011738-08",
+   "PPR 97901-08": "PPR 97901-08",
+   "PT33531-1": "PT33531-1",
+   "PTIND 25044": "PTIND 25044",
+   "PTIND 34468": "PTIND 34468",
+   "PTIND 34470": "PTIND 34470",
+   "PTIND 3470": "PTIND 3470",
+   "PTIND 59885": "PTIND 59885",
+   "PTIND 59887": "PTIND 59887",
+   "PTIND 59890": "PTIND 59890",
+   "PTIND 66236": "PTIND 66236",
+   "PTIND 66238": "PTIND 66238",
+   "PTIND 96677": "PTIND 96677",
+   "PTIND 96679": "PTIND 96679",
+   "Pink": "Różowy",
+   "Purple": "Fioletowy",
+   "Ranger": "Ranger",
+   "Red": "Czerwony",
+   "Royal": "Chabrowy",
+   "Sax": "Jasnoniebieski",
+   "Tan": "Beżowobrązowy",
+   "Turquoise": "Turkusowy",
+   "Violet": "Wioletowy",
+   "White": "Biały",
+   "Yellow": "Żółty",
+   "div": "div"
+  },
+  "finishes": {
+   "HIGH VISIBLE": "OSTRZEGAWCZY HI-VIS",
+   "STANDARD": "STANDARD",
+   "STANDART": "STANDARD"
+  },
+  "care": {
+   "40'C Machine Wash": "Pranie maszynowe w 40°C",
+   "60'C Machine Wash": "Pranie maszynowe w 60°C",
+   "95'C Machine Wash": "Pranie maszynowe w 95°C",
+   "Can Be Tumble Dried On Low Heat Setting": "Możliwe suszenie w suszarce bębnowej przy niskiej temperaturze",
+   "Chlorine Based Bleaching": "Bielenie środkami chlorowymi",
+   "Maximum 150'C Warm Iron": "Prasowanie w temperaturze maksymalnie 150°C",
+   "No Chlorine Based Bleaching": "Bez bielenia środkami chlorowymi",
+   "Suitable for Dry Cleaning": "Nadaje się do prania chemicznego"
+  },
+  "groups": {
+   "Antistatic Twill Workwear Fabrics": "Antystatyczne tkaniny skośne do odzieży roboczej",
+   "Cut-proof knit fabric from p-aramid. Bomb and nail proof woven fabrics from Pa6.6": "Dzianiny odporne na przecięcie z p-aramidu. Tkaniny odporne na wybuchy i przebicie gwoździem z Pa6.6",
+   "Economical Twill Workwear Fabrics": "Ekonomiczne tkaniny skośne do odzieży roboczej",
+   "Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.": "Tkaniny do ekranowania EMI, anty-radarowe, antystresowe oraz do ochrony przed wysokim napięciem.",
+   "Flame Retardant, Antistatic, Vat Dyed, Workwear Fabrics Resistant up to 100 Wash": "Trudnopalne, antystatyczne tkaniny do odzieży roboczej barwione w kadzi, odporne do 100 prań",
+   "Flame Retardant, Vat Dyed, Workwear Fabrics Resistant up to 100 Wash": "Trudnopalne tkaniny do odzieży roboczej barwione w kadzi, odporne do 100 prań",
+   "Front Side Polyester Back Side Cotton needle drop knit PolyCotton Fabrics": "Dzianiny polibawełniane z PES od strony licowej i CO od strony spodniej",
+   "Functional knit interlock polyester fabrics.": "Funkcjonalne dzianiny interlock poliestrowe.",
+   "Heavy Mesh Fabrics": "Ciężkie tkaniny siatkowe",
+   "Heavy Warp Knit Fabrics for Shoes and Wind Jackets": "Ciężkie dzianiny kolumnkowe do obuwia i kurtek wiatrówek",
+   "High Visible Warp Knit Fabrics for Safety Jackets": "Ostrzegawcze hi-vis dzianiny kolumnkowe do kamizelek ostrzegawczych",
+   "Inherent Antibacterial Fabrics (Silver Yarn Integrated)": "Tkaniny inherentnie antybakteryjne (z wtopionym srebrzystym przędzem)",
+   "Inherent Antiviral Knit Fabrics (Silver Yarn Integrated)": "Dzianiny inherentnie antywirusowe (z wtopionym srebrzystym przędzem)",
+   "Inherent Flame Retardant Aramid Knit Workwear Fabrics": "Dzianiny do odzieży roboczej z aramidu trudnopalnego inherentnie",
+   "Inherent Flame Retardant Aramid Viscose Fr Knit Workwear Fabrics": "Dzianiny do odzieży roboczej z aramidem i wiskozą FR, trudnopalne inherentnie",
+   "Inherent Flame Retardant Aramid Viscose Fr Woven Workwear Fabrics": "Tkaniny do odzieży roboczej z aramidem i wiskozą FR, trudnopalne inherentnie",
+   "Inherent Flame Retardant Aramid Workwear Fabrics": "Tkaniny do odzieży roboczej z aramidu trudnopalnego inherentnie",
+   "Inherent Flame Retardant Denim and Elasthane Aramid Fabrics": "Trudnopalne inherentnie tkaniny aramidowe typu denim z elastanem",
+   "Inherent Flame Retardant Elasthane and Fleece Workwear Fabrics": "Trudnopalne inherentnie tkaniny do odzieży roboczej z elastanem i polarem",
+   "Inherent Flame Retardant Modacrylic Workwear Fabrics": "Trudnopalne inherentnie tkaniny modakrylowe do odzieży roboczej",
+   "Inherent Flame Retardant fabrics for molten metal splash protection": "Trudnopalne inherentnie tkaniny do ochrony przed rozpryskiem ciekłego metalu",
+   "Knit Interlock Polyester Fabrics for T-Shirts": "Dzianiny interlock poliestrowe do koszulek T-shirt",
+   "Medical Fabrics": "Tkaniny medyczne",
+   "Polyester Woven Fabrics for Raincoats, Jackets and Coveralls": "Tkaniny poliestrowe do płaszczy przeciwdeszczowych, kurtek i kombinezonów",
+   "Ripstop, elasthane and denim fabrics for outdoor wear.": "Tkaniny ripstop, z elastanem oraz denim do odzieży outdoor.",
+   "Scrub and shirt fabrics for medical wear.": "Tkaniny na fartuchy scrub i koszule do odzieży medycznej.",
+   "Track Suit and Light Mesh Fabrics": "Tkaniny dresowe i lekkie tkaniny siatkowe",
+   "Ultra Durable, Ultra Breathable Front Side Polyester Back Side Cotton, PolyCotton Fabrics": "Wyjątkowo trwałe i oddychające dzianiny polibawełniane z PES od strony licowej i CO od strony spodniej",
+   "Ultra elastic medical fabrics for orthopedical,corset and face mask applications.": "Wyjątkowo elastyczne tkaniny medyczne do zastosowań ortopedycznych, gorsetów i maseczek ochronnych.",
+   "Ultra fire resistant, world's strongest synthetic fabrics from Pbo (polyphenylene benzobisoxazole)": "Wyjątkowo ognioodporne, najmocniejsze na świecie syntetyczne tkaniny z Pbo (polyphenylene benzobisoxazole)",
+   "Vat Dyed Workwear Fabrics Resistant to Industrial Chemicals": "Tkaniny do odzieży roboczej barwione w kadzi, odporne na chemikalia przemysłowe",
+   "Woven PA.6.6 fabrics for military applications, motorcyclists clothing. Also special solutions where need high rubbing resistance.": "Tkaniny z PA 6.6 do zastosowań wojskowych i odzieży motocyklowej. Dostępne również rozwiązania specjalne wymagające wysokiej odporności wybarwień na tarcie.",
+   "Woven PA.6.6 fabrics for police uniforms, motorcyclists, bomb disposal suits and technical military applications.": "Tkaniny z PA 6.6 do mundurów policyjnych, odzieży motocyklowej, kombinezonów do rozbrajania ładunków wybuchowych oraz technicznych zastosowań wojskowych.",
+   "Woven like Knit Fabrics for Bodywarmers, Jackets and Raincoats": "Dzianiny o wyglądzie tkaniny do bezrękawników, kurtek i płaszczy przeciwdeszczowych"
+  }
+ },
+ "products": {
+  "ar3iplik-aramid-vis": {
+   "descriptor": "53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, trudnopalna inherentnie antystatyczna tkanina polarowa",
+   "spec": "300 g/m², 53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, trudnopalna inherentnie",
+   "description": [
+    "Antystatyczna dzianinowa tkanina polarowa 53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon – trudnopalna inherentnie dzianinowa tkanina polarowa. Materiały z grupy Ar3İplik Aramid Vis znajdują zastosowanie przede wszystkim w odzieży dla pracowników elektroenergetyki oraz służb ratowniczo-gaśniczych.",
+    "Dzięki strukturze polarowej tkanina jest odpowiednia do stosowania w warunkach niskich temperatur.",
+    "Ar3İplik Aramid Vis jest trudnopalna inherentnie i posiada certyfikację zgodną z EN 11612.",
+    "Przeznaczona do zastosowań antystatycznych, certyfikowana zgodnie z EN ISO 1149.",
+    "Zapewnia ochronę przed łukiem elektrycznym zgodnie z certyfikacją EN 61482 klasa 1 (4 kA)."
+   ]
+  },
+  "ar3iplik-moda-pro": {
+   "descriptor": "60% Modakryl 38% CO 2% Carbon, Trudnopalna Inherentnie Dzianina Polar Antystatyczna",
+   "spec": "300 g/m², 60% Modakryl 38% CO 2% Carbon, Trudnopalna Inherentnie",
+   "description": [
+    "Antystatyczna dzianina polar 60% modakryl 38% CO 2% carbon – trudnopalna inherentnie tkanina polarna z właściwościami antystatycznymi. Tkanina Ar3İplik Moda Pro stosowana jest w odzieży roboczej kierowców zajmujących się dystrybucją ropy i gazu. Kolejne obszary zastosowania to zakłady chemiczne oraz aplikacje wymagające ochrony przed płomieniem w niskich temperaturach.",
+    "Wykazuje wysoką odporność na działanie promieniowania słonecznego – stopień odporności na światło wynosi 6–7.",
+    "Tkanina Ar3Iplik Moda Pro jest trudnopalna inherentnie i posiada certyfikat EN 11612.",
+    "Przeznaczona do zastosowań antystatycznych, certyfikowana zgodnie z EN ISO 1149-5.",
+    "Zapewnia ochronę przed łukiem elektrycznym zgodnie z certyfikatem EN 61482 klasa 1 (4 kA).",
+    "Certyfikowana zgodnie z EN 20471."
+   ]
+  },
+  "aramid-d0-150": {
+   "descriptor": "Tkanina aramidowa, 93% meta Aramid 5% para Aramid 2% Carbon, 150 g/m²",
+   "spec": "150 g/m², 93% m-AR, 5% p-AR, 2% Carbon, trudnopalna inherentnie, antystatyczna, tkanina aramidowa w splocie płóciennym 1/1",
+   "description": [
+    "150 g/m², 93% m-AR, 5% p-AR, 2% Carbon.",
+    "Tkanina trudnopalna inherentnie",
+    "przeznaczona dla strażaków, pilotów wojskowych oraz pracowników przemysłu naftowego i gazowego.",
+    "Tkanina trudnopalna inherentnie z certyfikatem EN ISO 11612.",
+    "Certyfikat antystatyczny (EN 1149-5)",
+    "Odporna na większość chemikaliów przemysłowych. (EN ISO 13034)"
+   ]
+  },
+  "aramid-d1-210": {
+   "descriptor": "Tkanina aramidowa, 93% meta Aramid 5% para Aramid 2% Carbon, 210 g/m²",
+   "spec": "210 g/m², 93% m-AR, 5% p-AR, 2% Carbon, trudnopalna inherentnie, antystatyczna, tkanina aramidowa w splocie skośnym 2/1S",
+   "description": [
+    "210 g/m², 93% m-AR, 5% p-AR, 2% Carbon.",
+    "Tkanina trudnopalna inherentnie.",
+    "Przeznaczona dla strażaków leśnych oraz pracowników przemysłu naftowego i gazowego.",
+    "Tkanina trudnopalna inherentnie posiadająca certyfikację EN ISO 11612 oraz EN ISO 11611.",
+    "Certyfikowana w zakresie właściwości antystatycznych (EN 1149-5).",
+    "Ochrona przed termicznymi zagrożeniami łuku elektrycznego (EN 61482-1-2).",
+    "Odporność na większość chemikaliów przemysłowych (EN ISO 13034)."
+   ]
+  },
+  "aramid-d1-210-denim": {
+   "descriptor": "Tkanina aramidowa denim, 93% meta Aramid 5% para Aramid 2% Carbon, 210 g/m²",
+   "spec": "210 g/m², 93% m-AR, 5% p-AR, 2% Carbon, trudnopalna inherentnie, antystatyczna, tkanina aramidowa denim",
+   "description": [
+    "210 g/m², 93% m-AR, 5% p-AR, 2% Carbon.",
+    "Tkanina trudnopalna inherentnie",
+    "przeznaczona dla pracowników zakładów dystrybucji energii elektrycznej oraz przemysłu naftowego i gazowniczego.",
+    "Tkanina trudnopalna inherentnie posiadająca certyfikację EN ISO 11612 oraz EN ISO 11611.",
+    "Certyfikowana antystatyczność (EN 1149-5).",
+    "Ochrona przed zagrożeniami termicznymi łuku elektrycznego. (EN 61482-1-2)",
+    "Odporność na większość przemysłowych substancji chemicznych. (EN ISO 13034)"
+   ]
+  },
+  "aramid-d2-260": {
+   "descriptor": "Tkanina aramidowa, 93% meta Aramid 5% para Aramid 2% Carbon, 260 g/m²",
+   "spec": "260 g/m², 93% m-AR, 5% p-AR, 2% Carbon, trudnopalna inherentnie, antystatyczna, tkanina aramidowa w splocie skośnym 3/1S",
+   "description": [
+    "260 g/m², 93% m-AR, 5% p-AR, 2% Carbon.",
+    "Tkanina trudnopalna inherentnie.",
+    "Przeznaczona dla strażaków leśnych oraz pracowników przemysłu naftowego i gazowego.",
+    "Tkanina trudnopalna inherentnie posiadająca certyfikację EN ISO 11612 oraz EN ISO 11611.",
+    "Antystatyczna (EN 1149-3).",
+    "Ochrona przed termicznymi zagrożeniami łuku elektrycznego (EN 61482-1-2).",
+    "Odporność na większość przemysłowych środków chemicznych (EN ISO 13034)."
+   ]
+  },
+  "aramid-d2-260-el": {
+   "descriptor": "Tkanina Aramidowa Elastanowa, 88% meta Aramid 5% para Aramid 2% Carbon 5% Elastane, 260 g/m²",
+   "spec": "260 g/m², 88% m-AR 5% p-AR 2% Carbon 5% Elastane, trudnopalna inherentnie, elastanowa, antystatyczna, tkanina skośna 3/1S – tkanina aramidowa elastanowa w splocie skośnym",
+   "description": [
+    "260 g/m², 88% m-AR 5% p-AR 2% Carbon 5% Elastane.",
+    "Tkanina trudnopalna inherentnie.",
+    "Przeznaczona do zastosowań wojskowych oraz dla strażaków – zapewnia wyjątkowy komfort użytkowania.",
+    "Tkanina trudnopalna inherentnie z certyfikatem EN ISO 11612.",
+    "Odpowiednia do zastosowań antystatycznych. (EN 1149-3)",
+    "Ochrona przed zagrożeniami cieplnymi łuku elektrycznego. (EN 61482-1-2)",
+    "Odporność na większość chemikaliów przemysłowych. (EN ISO 13034)"
+   ]
+  },
+  "aramid-d3-200": {
+   "descriptor": "Tkanina aramidowa, 75% meta Aramid 23% para Aramid 2% Carbon, 200 g/m²",
+   "spec": "200 g/m², 75% m-Aramid, 23% p-Aramid, 2% Carbon, trudnopalna inherentnie, antystatyczna, tkanina aramidowa w splocie skośnym 2/1S",
+   "description": [
+    "200 g/m², 75% m-Aramid, 23% p-Aramid, 2% Carbon.",
+    "Tkanina trudnopalna inherentnie.",
+    "Tkanina trudnopalna z certyfikatem EN ISO 11612.",
+    "Antystatyczna (EN 1149-5)"
+   ]
+  },
+  "aramid-d5-180-rb": {
+   "descriptor": "46% meta Aramid 50% para Aramid 2% Pbo 2% Carbon tkanina ripstop, 180 g/m²",
+   "spec": "180 g/m², 46% meta Aramid 50% para Aramid 2% Pbo 2% Carbon, trudnopalny inherentnie, antystatyczny, tkanina Aramid w splocie ripstop-skośnym",
+   "description": [
+    "46% meta Aramid 50% para Aramid 2% Pbo 2% Carbon.",
+    "Tkanina trudnopalna inherentnie w splocie ripstop-skośnym",
+    "przeznaczona dla strażaków leśnych. Aramid D5 180 Rb został opracowany z myślą o warunkach pożarów leśnych i obszarów dzikich, z wysoką zawartością p-Aramidu i Pbo.",
+    "Tkanina trudnopalna inherentnie z certyfikatem EN ISO 11612.",
+    "Certyfikowana właściwość antystatyczna (EN 1149-5).",
+    "Odporność na większość przemysłowych substancji chemicznych. (EN ISO 13034)"
+   ]
+  },
+  "aramid-d50-pike": {
+   "descriptor": "93% m-AR 5% p-Aramid 2% Carbon, Trudnopalny Inherentnie Antystatyczny Pique",
+   "spec": "220 g/m², 93% m-AR 5% p-Aramid 2% Carbon, Trudnopalny Inherentnie",
+   "description": [
+    "Antystatyczna dzianina pique 93% m-AR 5% p-Aramid 2% Carbon – trudnopalny inherentnie antystatyczny materiał w splocie pique. Tkanina Aramid d50 Pike to uniwersalna trudnopalna dzianina przeznaczona do szerokiego zakresu zastosowań.",
+    "Aramid D50 Pike posiada właściwości trudnopalne inherentne potwierdzone certyfikatem EN 11612.",
+    "Materiał przystosowany do zastosowań antystatycznych, certyfikowany zgodnie z EN ISO 1149.",
+    "Zapewnia ochronę przed łukiem elektrycznym, posiadając certyfikat EN 61482 klasy 1 (4 kA)."
+   ]
+  },
+  "aramid-vis-150": {
+   "descriptor": "Tkanina aramidowo-wiskozowa trudnopalna, 53% Viscose Fr 40% meta Aramid 5% para Aramid 2% Carbon, 150 g/m²",
+   "spec": "150 g/m², 53% Viscose fr 40% m-Aramid 5% p-Aramid 2% Carbon, trudnopalna inherentnie, antystatyczna, tkanina o splocie płóciennym 1/1, mieszanka aramidowo-wiskozowa fr",
+   "description": [
+    "150 g/m², 53% Viscose fr, 40% m-Aramid, 5% p-Aramid, 2% Carbon.",
+    "Tkanina trudnopalna inherentnie.",
+    "Przeznaczona do podszewek odzieży strażackiej oraz odzieży roboczej dla pracowników przemysłu naftowego i gazowego.",
+    "Dzięki wysokiej zawartości włókna Viscose fr tkanina zapewnia wyjątkowy komfort użytkowania i skutecznie odprowadza wilgoć. Tkanina trudnopalna inherentnie, posiadająca certyfikat zgodności z EN ISO 11612.",
+    "Certyfikowana w zakresie właściwości antystatycznych (EN 1149-5).",
+    "Odporna na działanie większości chemikaliów przemysłowych. (EN ISO 13034)"
+   ]
+  },
+  "aramid-vis-250": {
+   "descriptor": "Tkanina aramidowo-wiskozowa trudnopalna, 53% Viscose Fr 40% meta Aramid 5% para Aramid 2% Carbon, 250 g/m²",
+   "spec": "250 g/m², 53% Viscose Fr 40% m-AR 5% p-AR 2% Carbon, trudnopalna inherentnie, antystatyczna, tkanina o splocie skośnym 3/1S",
+   "description": [
+    "250 g/m², 53% Viscose Fr, 40% m-AR, 5% p-AR, 2% Carbon.",
+    "Tkanina trudnopalna inherentnie",
+    "przeznaczona dla pracowników przemysłu naftowego i gazowego.",
+    "Dzięki zawartości Viscose Fr tkanina doskonale sprawdza się w użytkowaniu na zewnątrz w bardzo gorącym klimacie. Tkanina trudnopalna inherentnie z certyfikatem EN ISO 11612.",
+    "Właściwości antystatyczne (EN 1149-3)",
+    "Ochrona przed zagrożeniami cieplnymi łuku elektrycznego (EN 61482-1-2)",
+    "Odporność na działanie większości przemysłowych substancji chemicznych (EN ISO 13034)"
+   ]
+  },
+  "arbir": {
+   "descriptor": "Dzianina do Odzieży Ostrzegawczej",
+   "spec": "140 g/m², 100% Polyester, Hi-Vis, Dzianina Kolumnkowa o Wyglądzie Tkaniny",
+   "description": [
+    "Dzianina kolumnkowa o wyglądzie tkaniny, 100% PES, 140 g/m², opracowana z przeznaczeniem do kurtek i kurtek przeciwdeszczowych",
+    "Certyfikowana zgodnie z EN ISO 20471.",
+    "Tkaniny barwione w kolorach neonowych przyciągają uwagę skuteczniej niż inne kolory – absorbują promieniowanie UV i emitują je jako światło widzialne.",
+    "W efekcie wyróżniają się jaśniejszym połyskiem na tle otoczenia."
+   ]
+  },
+  "arbir-200": {
+   "descriptor": "Dzianina do Odzieży Ostrzegawczej",
+   "spec": "220 g/m², 100% Polyester, Hi-Vis, Dzianina o Wyglądzie Tkaniny Tkanej",
+   "description": [
+    "100% PES, 220 g/m², opracowana z przeznaczeniem do kurtek, płaszczy przeciwdeszczowych oraz jako podłoże pod taśmy odblaskowe",
+    "Certyfikowana zgodnie z EN ISO 20471.",
+    "Tkaniny barwione w kolorach neonowych przyciągają uwagę skuteczniej niż inne kolory. Pochłaniają promieniowanie UV i emitują je w postaci widzialnego światła.",
+    "Dzięki temu wyróżniają się jasnością na tle otoczenia."
+   ]
+  },
+  "arbir-su-itici": {
+   "descriptor": "Wodoodporna Dzianina Kolumnkowa do Kurtek Przeciwdeszczowych",
+   "spec": "140 g/m², 100% Polyester, ostrzegawczy hi-vis, wodoodporny (hydrofobowy) i oleofobowy, dzianina kolumnkowa o wyglądzie tkaniny",
+   "description": [
+    "Dzianina kolumnkowa o wyglądzie tkaniny, 100% Polyester, 140 g/m², przeznaczona do kurtek i płaszczy przeciwdeszczowych",
+    "Certyfikowana zgodnie z EN ISO 20471.",
+    "Tkaniny w kolorach neonowych przyciągają uwagę skuteczniej niż inne barwy – pochłaniają promieniowanie UV i emitują je jako światło widzialne.",
+    "W efekcie wyróżniają się intensywnością blasku na tle innych obiektów.",
+    "Odporna na chemikalia w postaci ciekłej. (EN 13034)"
+   ]
+  },
+  "arbir-su-itici-su-gecirmez": {
+   "descriptor": "Wodoszczelna Dzianinowa Tkanina na Płaszcze Przeciwdeszczowe",
+   "spec": "160 g/m², 75% Polyester 25% Polyurethane, Ostrzegawczy Hi-Vis, Wodoszczelny, Dzianina o Wyglądzie Tkaniny",
+   "description": [
+    "Wodoszczelna dzianina 160 g/m² przeznaczona do produkcji kurtek i płaszczy przeciwdeszczowych",
+    "Certyfikowana zgodnie z EN ISO 20471.",
+    "Tkaniny w kolorach neonowych przyciągają uwagę skuteczniej niż inne barwy – pochłaniają promieniowanie UV i emitują je w postaci widzialnego światła.",
+    "Dzięki temu wyróżniają się intensywniejszym blaskiem na tle otoczenia.",
+    "Właściwości wodoszczelne potwierdzone normą TS EN ISO 343."
+   ]
+  },
+  "arbo": {
+   "descriptor": "Tkanina 58% para-Aramid 40% Pbo 2% Carbon, 220 g/m²",
+   "spec": "220 g/m², 58% p-Aramid 40% Pbo 2% C",
+   "description": [
+    "arbon, trudnopalny inherentnie, antystatyczny, splot płócienny",
+    "Najmocniejsza na świecie tkanina syntetyczna zawierająca włókno Pbo (polifenylenobenzobisoksazol)",
+    "220 g/m², 58% p-Aramid, 40% Pbo, 2% Carbon. ArBo została zaprojektowana z myślą o kombinezonach strażackich.",
+    "ArBo to tkanina o wyjątkowo wysokiej odporności ogniowej",
+    "Tkanina trudnopalna z certyfikatem EN 469.",
+    "Antystatyczna (EN 1149-5)",
+    "ArBo osiąga najlepsze parametry we wszystkich kategoriach wymaganych dla ubrań specjalnych strażaków."
+   ]
+  },
+  "arbo-dark": {
+   "descriptor": "Tkanina 58% para-Aramid 40% Pbo 2% Carbon, 220 g/m²",
+   "spec": "220 g/m², 58% p-Aramid 40% Pbo 2% Carbon, trudnopalny inherentnie, antystatyczny, splot płócienny",
+   "description": [
+    "Najmocniejsza na świecie syntetyczna tkanina techniczna zawierająca włókno Pbo (polifenyleno-benzobisoksazol).",
+    "220 g/m², 58% p-Aramid, 40% Pbo, 2% Carbon. ArBo Dark to tkanina zaprojektowana z myślą o zastosowaniach militarnych.",
+    "ArBo Dark to tkanina o wyjątkowo wysokiej odporności na działanie ognia.",
+    "Tkanina trudnopalna posiadająca certyfikację zgodną z normą EN 469.",
+    "Właściwości antystatyczne (EN 1149-5).",
+    "ArBo Dark osiąga najlepsze wyniki we wszystkich kategoriach spośród tkanin przeznaczonych do zastosowań militarnych."
+   ]
+  },
+  "arbo-knit": {
+   "descriptor": "Dzianina 58% para-Aramid 40% Pbo 2% Carbon, 220 g/m²",
+   "spec": "250 g/m², 58% p-Aramid 40% Pbo 2% Carbon, trudnopalny inherentnie, antystatyczny, tkanina typu Piqué",
+   "description": [
+    "Najmocniejsza na świecie syntetyczna dzianina zawierająca włókno Pbo (polifenyleno-benzobisoksazol)",
+    "250 g/m², 58% p-Aramid, 40% Pbo, 2% Carbon. ArBo Knit jest przeznaczona do wykonywania koszulek wewnętrznych dla strażaków.",
+    "ArBo Knit to dzianina o wyjątkowo wysokiej odporności ogniowej",
+    "stosowana do koszulek dla strażaków.",
+    "Tkanina trudnopalna z certyfikatem EN 11612.",
+    "Antystatyczna (EN 1149-5)",
+    "ArBo Knit osiąga najlepsze parametry we wszystkich kategoriach jako dzianina do koszulek stanowiących element wyposażenia bojowego strażaka."
+   ]
+  },
+  "ard3e3": {
+   "descriptor": "54% Wiskozy Fr 20% Polyamide 6.6 20% Wełna 5% p-AR 1% Węgiel, Tkanina Trudnopalna Inherentnie Antystatyczna Odporna na Rozpryski Stopionego Metalu",
+   "spec": "350 g/m², 54% Wiskozy Fr 20% Polyamide 6.6 20% Wełna 5% p-AR 1% Węgiel, Trudnopalna Inherentnie",
+   "description": [
+    "Antystatyczna tkanina w splecie satynowym 54% Wiskozy Fr 20% Polyamide 6.6 20% Wełna 5% p-AR 1% Węgiel – trudnopalna inherentnie tkanina antystatyczna w splecie satynowym, przeznaczona do ochrony przed rozpryskami stopionego metalu. Tkanina ArD3E3 stosowana jest do produkcji kurtek i spodni dla pracowników przemysłu hutniczego, stalowego i aluminiowego.",
+    "Wykazuje odporność na rozpryski gorącego metalu o temperaturze około 1500°C.",
+    "ArD3E3 jest trudnopalna inherentnie i posiada certyfikat zgodności z EN 11612 na poziomie D3 E3.",
+    "Nadaje się do zastosowań wymagających właściwości antystatycznych – posiada certyfikat zgodności z EN ISO 1149-5.",
+    "Zapewnia ochronę przed łukiem elektrycznym, potwierdzoną certyfikatem EN 61482 klasy 1 (4 kA)."
+   ]
+  },
+  "ardura-1000": {
+   "descriptor": "Tkanina tkana Pa6.6 do wojskowych toreb i plecaków",
+   "spec": "350 g/m², 100% Pa 6.6, wodoodporny (hydrofobowy), wodoszczelny, tkanina tkana",
+   "description": [
+    "ArDura 1000 to w 100% poliamidowa tkanina tkana Pa 6.6 przeznaczona do wyposażenia wojskowego.",
+    "Posiada certyfikat EN ISO EN343 w zakresie wodoszczelności.",
+    "Stosowana przede wszystkim w aplikacjach wymagających ekstremalnej trwałości oraz odporności na działanie wody."
+   ]
+  },
+  "ardura-1000-c": {
+   "descriptor": "Tkanina tkana Pa 6.6 do wyposażenia wojskowego",
+   "spec": "300 g/m², 100% Pa 6.6, wodoodporny (hydrofobowy), antybakteryjny, tkanina tkana",
+   "description": [
+    "ArDura 1000 C to ciężka tkanina tkana 100% poliamid 6.6 przeznaczona do wyposażenia wojskowego.",
+    "Włókna Pa 6.6 wysokiej wytrzymałości zapewniają wyjątkową ochronę torebek i plecaków dla wojska i policji.",
+    "Tkanina posiada właściwości hydrofobowe i oleohydrofobowe.",
+    "Stosowana głównie w zastosowaniach wymagających ekstremalnej trwałości.",
+    "Właściwości antybakteryjne skutecznie eliminują powstawanie wszelkich niepożądanych zapachów podczas użytkowania."
+   ]
+  },
+  "ardura-1000-c-rb": {
+   "descriptor": "Tkanina ripstop z Pa 6.6 do wyposażenia wojskowego",
+   "spec": "300 g/m², 100% Pa 6.6, wodoodporny (hydrofobowy), antybakteryjny, tkanina ripstop",
+   "description": [
+    "ArDura 1000 C Rb to ciężka tkanina ripstop z 100% poliamidu Pa 6.6, przeznaczona do wyposażenia wojskowego.",
+    "Wysokowytrzymałe włókna Pa 6.6 zapewniają wyjątkową ochronę torebek i plecaków wojskowych oraz policyjnych.",
+    "Tkanina posiada właściwości hydrofobowe i oleoforowe.",
+    "Stosowana jest przede wszystkim w zastosowaniach wymagających ekstremalnej trwałości.",
+    "Właściwości antybakteryjne skutecznie eliminują wszelkiego rodzaju nieprzyjemne zapachy powstające podczas użytkowania."
+   ]
+  },
+  "ardura-1000-fr": {
+   "descriptor": "Tkanina techniczna tkana trudnopalna powlekana z PA 6.6 do odzieży służb policyjnych i żandarmerii",
+   "spec": "350 g/m², 95% Pa 6.6 5% Pu, wodoodporny (hydrofobowy), antybakteryjny, wodoszczelny, tkanina tkana trudnopalna",
+   "description": [
+    "ArDura 1000 Fr to ciężka tkanina tkana z 95% poliamidu 6.6 i 5% poliuretanu, przeznaczona do odzieży wojskowej, policyjnej oraz żandarmerii. Sprawdza się w szczególności jako materiał do odzieży roboczej zmotoryzowanych patroli policyjnych.",
+    "Włókna Pa 6.6 o wysokiej wytrzymałości zapewniają funkcjonariuszom zwiększony poziom ochrony mechanicznej.",
+    "Tkanina posiada właściwości hydrofobowe (wodoodporne) oraz olejoodporne.",
+    "Stosowana jest przede wszystkim w aplikacjach wymagających ekstremalnej wytrzymałości i odporności na uszkodzenia.",
+    "Funkcja antybakteryjna skutecznie eliminuje powstawanie wszelkich nieprzyjemnych zapachów podczas użytkowania.",
+    "Na rewersie tkaniny zastosowano powłokę trudnopalną, która jednocześnie nadaje materiałowi właściwości trudnopalne oraz wodoszczelne."
+   ]
+  },
+  "ardura-1000-kirik-dimi": {
+   "descriptor": "Tkanina wojskowa w splocie krzyżowego diagonalu z PA 6.6",
+   "spec": "300 g/m², 100% PA 6.6, wodoodporny (hydrofobowy), antybakteryjny, tkanina w splocie krzyżowego diagonalu",
+   "description": [
+    "ArDura 1000 Kirik Dimi to ciężka tkanina wojskowa w splocie krzyżowego diagonalu, wykonana w 100% z poliamidu 6.6.",
+    "Wysoko wytrzymałe włókna PA 6.6 zapewniają zwiększoną ochronę toreb i wyposażenia dla wojska oraz służb policyjnych.",
+    "Tkanina posiada właściwości hydrofobowe i oleofobowe.",
+    "Przeznaczona jest przede wszystkim do zastosowań wymagających wyjątkowej trwałości i odporności na uszkodzenia.",
+    "Funkcja antybakteryjna skutecznie eliminuje wszelkie niepożądane zapachy powstające podczas użytkowania.",
+    "Splot krzyżowego diagonalu zapewnia użytkownikowi dodatkowy komfort podczas noszenia."
+   ]
+  },
+  "ardura-500": {
+   "descriptor": "Tkanina tkana Pa6.6 do odzieży militarnej i toreb",
+   "spec": "240 g/m², 100% Pa 6.6, wodoodporny (hydrofobowy), wodoszczelny, tkanina tkana",
+   "description": [
+    "ArDura 500 to lekka tkanina tkana w 100% z poliamidu 6.6, przeznaczona do odzieży militarnej oraz wyposażenia.",
+    "Posiada certyfikat wodoszczelności zgodny z EN ISO EN343.",
+    "Stosowana przede wszystkim w aplikacjach wymagających wyjątkowej trwałości i odporności na wodę."
+   ]
+  },
+  "ardura-500-c": {
+   "descriptor": "Tkanina tkana Pa 6.6 do umundurowania policji i żandarmerii",
+   "spec": "215 g/m², 100% Pa 6.6, wodoodporny (hydrofobowy), antybakteryjny, tkanina tkana",
+   "description": [
+    "ArDura 500 C to lekka tkanina tkana w 100% z poliamidu 6.6, przeznaczona do umundurowania służb mundurowych: wojska, policji i żandarmerii. Sprawdza się w szczególności jako materiał do odzieży roboczej zmotoryzowanych patroli policji.",
+    "Włókna Pa 6.6 o wysokiej wytrzymałości zapewniają funkcjonariuszom wzmocnioną ochronę mechaniczną.",
+    "Tkanina posiada właściwości hydrofobowe i oleofobowe.",
+    "Stosowana jest przede wszystkim w zastosowaniach wymagających wyjątkowej trwałości i odporności na zużycie.",
+    "Właściwości antybakteryjne skutecznie eliminują powstawanie niepożądanych zapachów podczas użytkowania."
+   ]
+  },
+  "ardura-500-c-neo": {
+   "descriptor": "Tkana tkanina ostrzegawcza hi-vis z Pa 6.6 do umundurowania policji i żandarmerii",
+   "spec": "215 g/m², 100% Pa 6.6, wodoodporny (hydrofobowy), antybakteryjny, tkana tkanina ostrzegawcza hi-vis",
+   "description": [
+    "ArDura 500 C Neo to lekka, tkana tkanina ostrzegawcza hi-vis wykonana w 100% z Pa 6.6, przeznaczona do umundurowania wojskowego, policyjnego i żandarmerii. Doskonale sprawdza się jako materiał do odzieży dla zmotoryzowanych patroli policji.",
+    "Włókna Pa 6.6 o wysokiej wytrzymałości zapewniają funkcjonariuszom zwiększoną ochronę mechaniczną.",
+    "Tkanina posiada właściwości hydrofobowe i oleofobowe.",
+    "Stosowana jest przede wszystkim w aplikacjach wymagających wyjątkowej trwałości użytkowej.",
+    "Funkcja antybakteryjna skutecznie eliminuje wszelkie nieprzyjemne zapachy powstające podczas użytkowania.",
+    "Tkanina posiada certyfikat EN 20471."
+   ]
+  },
+  "ardura-500-c-rb": {
+   "descriptor": "Tkanina ripstop z Pa 6.6 do umundurowania policji i żandarmerii",
+   "spec": "215 g/m², 100% Pa 6.6, wodoodporny (hydrofobowy), antybakteryjny, tkanina ripstop",
+   "description": [
+    "ArDura 500 C Rb to lekka tkanina ripstop ze 100% poliamidu 6.6, przeznaczona do umundurowania wojskowego, policyjnego i żandarmerii. Sprawdza się w szczególności jako materiał na odzież roboczą zmotoryzowanych patroli policyjnych.",
+    "Włókna Pa 6.6 o wysokiej wytrzymałości zapewniają funkcjonariuszom podwyższoną ochronę mechaniczną.",
+    "Tkanina posiada właściwości hydrofobowe oraz olejoodporne.",
+    "Znajduje zastosowanie przede wszystkim w aplikacjach wymagających ekstremalnej trwałości użytkowej.",
+    "Funkcja antybakteryjna skutecznie eliminuje powstawanie niepożądanych zapachów podczas pracy.",
+    "Splot ripstop nadaje tkaninie zwiększoną wytrzymałość na rozdzieranie."
+   ]
+  },
+  "ardura-500-cg": {
+   "descriptor": "Tkanina tkana Pa6.6 do kombinezonów do neutralizacji ładunków wybuchowych",
+   "spec": "350 g/m², 100% Pa 6.6, wodoodporny (hydrofobowy), antybakteryjny, tkanina tkana w splot jodełkowy",
+   "description": [
+    "ArDura 500 CG to tkanina tkana w 100% z poliamidu 6.6, przeznaczona do kombinezonów do neutralizacji ładunków wybuchowych, odzieży wojskowej, policyjnej i żandarmerii wojskowej, a także do kieszeni odpornych na przebicie igłami stosowanych w odzieży roboczej.",
+    "Włókna Pa6.6 o wysokiej wytrzymałości zapewniają dodatkową ochronę odzieży przeznaczonej do neutralizacji ładunków wybuchowych.",
+    "Tkanina posiada właściwości hydrofobowe i oleorepelentne.",
+    "Znajduje zastosowanie przede wszystkim tam, gdzie wymagana jest wyjątkowa trwałość użytkowa.",
+    "Właściwości antybakteryjne skutecznie eliminują powstawanie wszelkiego rodzaju nieprzyjemnych zapachów podczas pracy."
+   ]
+  },
+  "ardura-500-fr": {
+   "descriptor": "Tkana tkanina trudnopalna powlekana z Pa 6.6 do odzieży policji, straży pożarnej i żandarmerii",
+   "spec": "240 g/m², 95% Pa 6.6 5% Pu, wodoodporny (hydrofobowy), antybakteryjny, wodoszczelny, tkana tkanina trudnopalna",
+   "description": [
+    "ArDura 500 Fr to lekka tkana tkanina z 95% poliamidu 6.6 i 5% poliuretanu, przeznaczona do odzieży roboczej służb mundurowych: wojska, policji i żandarmerii. Doskonale sprawdza się jako materiał do odzieży motocyklistów policyjnych.",
+    "Włókna Pa 6.6 o wysokiej wytrzymałości zapewniają funkcjonariuszom policji wyjątkową ochronę mechaniczną.",
+    "Tkanina posiada właściwości hydrofobowe i oleofobowe.",
+    "Stosowana jest przede wszystkim w zastosowaniach wymagających ekstremalnej trwałości użytkowej.",
+    "Funkcja antybakteryjna skutecznie eliminuje wszelkiego rodzaju nieprzyjemne zapachy powstające podczas użytkowania.",
+    "Powłoka trudnopalna naniesiona na spodnią stronę tkaniny zapewnia jednocześnie właściwości trudnopalne oraz wodoszczelność."
+   ]
+  },
+  "ardura-500-kirik-dimi": {
+   "descriptor": "Tkanina techniczna z Pa 6.6 w splocie krzyżowego diagonalu do umundurowania policji i żandarmerii",
+   "spec": "215 g/m², 100% Pa 6.6, wodoodporna (hydrofobowa), antybakteryjna, tkanina w splocie krzyżowego diagonalu",
+   "description": [
+    "ArDura 500 Kirik Dimi to lekka tkanina z 100% poliamidu Pa 6.6 w splocie krzyżowego diagonalu, przeznaczona do umundurowania wojskowego, policyjnego oraz żandarmerii. Nadaje się w szczególności do odzieży dla funkcjonariuszy zmotoryzowanych jednostek policji.",
+    "Włókna Pa 6.6 o wysokiej wytrzymałości zapewniają funkcjonariuszom podwyższoną ochronę mechaniczną.",
+    "Tkanina posiada właściwości hydrofobowe oraz oleofobowe.",
+    "Stosowana jest przede wszystkim w aplikacjach wymagających ekstremalnej trwałości użytkowej.",
+    "Funkcja antybakteryjna skutecznie eliminuje powstawanie nieprzyjemnych zapachów podczas noszenia.",
+    "Splot krzyżowego diagonalu zapewnia użytkownikowi dodatkowy komfort podczas długotrwałego użytkowania."
+   ]
+  },
+  "argiyim-245": {
+   "descriptor": "Tkanina poliestrowo-bawełniana PolyCotton 80% Polyester 20% Cotton, ostrzegawcza hi-vis, wodoodporna (hydrofobowa), w splocie skośnym",
+   "spec": "245 g/m², tkanina ostrzegawcza hi-vis 80% Polyester 20% Cotton, odporna chemicznie, tkana w splocie skośnym 3/1 S",
+   "description": [
+    "Tkanina poliestrowo-bawełniana PolyCotton (80% Polyester 20% Cotton) ostrzegawcza hi-vis, odporna chemicznie, w splocie skośnym. Lico tkaniny wykonane jest w 100% z Polyester, co zapewnia wyjątkową trwałość w warunkach roboczych oraz lekkość, natomiast spód tkaniny wykonany jest z bawełny, gwarantując użytkownikowi oddychalność.",
+    "ArGiyim²45 znajduje zastosowanie do produkcji kurtek zewnętrznych, kamizelek ostrzegawczych, spodni i spodeń roboczych.",
+    "Tkanina posiada certyfikat zgodności z EN ISO 20471 oraz EN 13034."
+   ]
+  },
+  "argiyim-245-static-pro": {
+   "descriptor": "Tkanina polibawełniana antystatyczna wodoodporna (hydrofobowa) w skosie 79% PES 20% CO 1% Carbon",
+   "spec": "245 g/m², tkanina tkana w splocie skośnym 3/1 S, 79% PES 20% CO 1% Carbon, antystatyczna, odporna chemicznie",
+   "description": [
+    "Tkanina polibawełniana w splocie skośnym 79% PES 20% CO 1% Carbon – antystatyczna, odporna chemicznie. Lico tkaniny wykonane jest w 100% z PES, co zapewnia wyjątkową trwałość w warunkach przemysłowych oraz lekkość użytkowania, natomiast spód wykonany z bawełny gwarantuje komfort termiczny i oddychalność.",
+    "ArGiyim²45 Static Pro stosowana jest do produkcji kurtek i spodni przeznaczonych do użytku w pomieszczeniach czystych.",
+    "Tkanina posiada certyfikację zgodnie z EN ISO 1149-5 (1149-3 Metoda 3) oraz EN 13034."
+   ]
+  },
+  "argiyim-290": {
+   "descriptor": "Tkanina satynowa PolyCotton 80% Polyester 20% Cotton ostrzegawcza hi-vis wodoodporna (hydrofobowa)",
+   "spec": "290 g/m², tkanina ostrzegawcza hi-vis z splotem satynowym 4/1, 80% Polyester 20% Cotton, odporna chemicznie",
+   "description": [
+    "Tkanina satynowa PolyCotton 80% Polyester 20% Cotton ostrzegawcza hi-vis, odporna chemicznie. Lico tkaniny wykonane jest w 100% z Polyestru, co zapewnia wyjątkową trwałość w warunkach roboczych oraz niską masę własną, natomiast spód tkaniny wykonany jest z bawełny, gwarantując użytkownikowi komfort oddychalności.",
+    "ArGiyim²90 stosowana jest do produkcji ciężkich kurtek outdoorowych, kamizelek ostrzegawczych, spodni i spodenek roboczych.",
+    "Produkt certyfikowany zgodnie z EN ISO 20471 oraz EN 13034."
+   ]
+  },
+  "argiyim-360-denim": {
+   "descriptor": "Tkanina dżinsowa 50% Polyester 50% Cotton",
+   "spec": "360 g/m², 50% Polyester 50% Cotton, tkanina dżinsowa w splocie skośnym",
+   "description": [
+    "Tkanina dżinsowa w splocie skośnym 50% Polyester 50% Cotton. Lico tkaniny wykonane jest z PES, co zapewnia wyjątkową trwałość w warunkach roboczych oraz niską masę własną, natomiast rewers z CO gwarantuje użytkownikowi komfort oddychalności.",
+    "ArGiyim 360 Denim stosowany jest do produkcji spodni roboczych różnych fasonów."
+   ]
+  },
+  "argiyim-bird-eye": {
+   "descriptor": "Dzianina Bird Eye Hi-Vis 50% Poliester 50% Bawełna PolyCotton",
+   "spec": "180 g/m², dzianina hi-vis 50% Poliester 50% Bawełna, splot Bird Eye",
+   "description": [
+    "Ostrzegawcza dzianina PolyCotton (50% Poliester / 50% Bawełna) w splocie Bird Eye. Lico tkaniny wykonane jest w 100% z Poliestru, co zapewnia wyjątkową trwałość w warunkach roboczych oraz lekkość wyrobu, natomiast rewers bawełniany gwarantuje użytkownikowi komfort oddychalności.",
+    "ArGiyim Bird Eye przeznaczona jest do produkcji t-shirtów o podwyższonej trwałości użytkowej.",
+    "Certyfikowana zgodnie z EN ISO 20471"
+   ]
+  },
+  "argiyim-denim-kursun": {
+   "descriptor": "Tkanina odporna na ścieranie 50% HPPE 50% Polyester",
+   "spec": "290 g/m², 50% HPPE 50% Polyester, odporna na ścieranie, tkanina dżinsowa o splocie skośnym",
+   "description": [
+    "Tkanina dżinsowa o splocie skośnym z 50% HPPE (polietylen wysokiej wydajności) i 50% Polyester. Lico tkaniny wykonane jest z poliestru, zapewniającego wyjątkową trwałość na działanie promieniowania słonecznego, natomiast rewers z HPPE, który gwarantuje zwiększoną odporność na ścieranie w odzieży motocyklowej.",
+    "ArGiyim Denim Kursun może być stosowany w odzieży odpornej na ścieranie.",
+    "Certyfikowana zgodnie z EN 388 jako odporna na przecięcie.",
+    "Certyfikowana zgodnie z EN 17092 jako spełniająca normy dla odzieży motocyklowej."
+   ]
+  },
+  "argiyim-denim-kursun-ck": {
+   "descriptor": "Tkanina odporna na ścieranie 50% HPPE 50% Polyester",
+   "spec": "620 g/m², 50% HPPE 50% Polyester, odporna na ścieranie, tkanina denim o podwójnym splocie skośnym",
+   "description": [
+    "Tkanina denim o podwójnym splocie skośnym, 50% HPPE (polietylen wysokowydajnościowy) 50% Polyester, przeznaczona do kombinezonów do piaskowania. Lico tkaniny wykonane z Polyestru zapewnia wyjątkową odporność na działanie promieniowania słonecznego, natomiast spód tkaniny z podwójnej warstwy HPPE gwarantuje zwiększoną odporność na ścieranie w odzieży do piaskowania.",
+    "ArGiyim Denim Kursun CK może być stosowana w odzieży o podwyższonej odporności na ścieranie.",
+    "Certyfikowana zgodnie z EN 388 jako tkanina odporna na przecięcie.",
+    "Certyfikowana zgodnie z EN 17092 w zakresie norm dla odzieży motocyklowej."
+   ]
+  },
+  "argiyim-dura": {
+   "descriptor": "Tkanina tkana 50% Pa6.6 50% CO na umundurowanie policji i żandarmerii",
+   "spec": "245 g/m², 50% Pa 6.6 50% CO, wodoodporny (hydrofobowy), antybakteryjny materiał tkany",
+   "description": [
+    "ArGiyim Dura to tkanina tkana 50% Pa6.6 50% CO przeznaczona na umundurowanie wojskowe, policyjne oraz żandarmerii. Nadaje się do odzieży dla funkcjonariuszy zmotoryzowanych jednostek patrolowych. Włókna Pa6.6 o wysokiej wytrzymałości zapewniają użytkownikom dodatkową ochronę. Lico tkaniny wykonane jest z Pa6.6, natomiast jej rewers – z bawełny. Tkanina posiada właściwości hydrofobowe i oleofobowe.",
+    "Stosowana przede wszystkim w zastosowaniach wymagających ekstremalnej odporności na zużycie.",
+    "Właściwości antybakteryjne skutecznie eliminują powstawanie wszelkich nieprzyjemnych zapachów podczas użytkowania.",
+    "Tkanina posiada certyfikat EN 20471."
+   ]
+  },
+  "argiyim-ic": {
+   "descriptor": "50% PES 50% CO PolyCotton Ostrzegawcza Tkanina Dziana Igłowa hi-vis",
+   "spec": "180 g/m², 50% PES 50% CO Ostrzegawcza, Tkanina Dziana Igłowa hi-vis",
+   "description": [
+    "Ostrzegawcza tkanina dziana igłowa hi-vis w składzie 50% PES 50% CO (PolyCotton). Lico tkaniny wykonane jest w 100% z PES, co zapewnia wyjątkową trwałość w warunkach roboczych oraz lekkość, natomiast spód tkaniny z CO gwarantuje użytkownikowi komfort oddychalności.",
+    "ArGiyim İç stosowany jest do produkcji wyjątkowo trwałych koszulek.",
+    "Certyfikowana zgodnie z EN ISO 20471"
+   ]
+  },
+  "argiyim-knit-knife-pro": {
+   "descriptor": "100% p-Aramid, Dzianina Odporna na Przecięcie",
+   "spec": "250 g/m², 100% p-Aramid, Dzianina Odporna na Przecięcie, Splot Jersey",
+   "description": [
+    "Dzianina jersey 100% p-Aramid przeznaczona do podszewek odzieży motocyklowej.",
+    "ArGiyim Knit Knife Pro może być również stosowana do produkcji rękawic odpornych na przecięcie."
+   ]
+  },
+  "argiyim-l": {
+   "descriptor": "Tkanina skośna 2/1S 70% Bawełna 22% Poliester 8% Elastan, 220 g/m²",
+   "spec": "220 g/m², 70% Bawełna 22% Poliester 8% Elastan, tkanina skośna 2/1S",
+   "description": [
+    "ArGiyim L to tkanina o gramaturze 220 g/m² z dodatkiem elastanu, zapewniająca użytkownikowi wyjątkowy komfort dzięki wysokiej rozciągliwości. Tkanina swobodnie poddaje się rozciąganiu nawet w trudnych warunkach pracy. ArGiyim L jest najchętniej wybieraną tkaniną do produkcji elastycznej odzieży medycznej — fartuchów i spodni.",
+    "Tkanina skośna 2/1S 70% Bawełna 22% Poliester 8% Elastan, 220 g/m²"
+   ]
+  },
+  "argiyim-sultan": {
+   "descriptor": "49% Polyester 50% Cotton 1% Carbon PolyCotton ostrzegawcza hi-vis, trudnopalna, odporna chemicznie, antystatyczna tkanina satynowa",
+   "spec": "330 g/m², 49% Polyester 50% Cotton 1% Carbon ostrzegawcza hi-vis, trudnopalna, antystatyczna, odporna chemicznie, tkanina w splocie satynowym 4/1",
+   "description": [
+    "Tkanina satynowa PolyCotton 49% Polyester 50% Cotton 1% Carbon o właściwościach ostrzegawczych hi-vis, trudnopalnych, antystatycznych i odporności chemicznej. Lico tkaniny wykonane jest w 100% z Polyesteru, co zapewnia wyjątkową trwałość w warunkach pracy oraz lekkość, natomiast spód tkaniny z bawełny gwarantuje użytkownikowi oddychalność.",
+    "ArGiyim²45 znajduje zastosowanie przy produkcji kurtek zewnętrznych, kamizelek ostrzegawczych, spodni roboczych i spodni ochronnych.",
+    "Produkt certyfikowany zgodnie z EN ISO 20471, EN 11612, EN 1149-5, EN 61482 oraz EN 13034."
+   ]
+  },
+  "arhard-mesh": {
+   "descriptor": "Tkanina siatkowa do militarnych kamizelek taktycznych",
+   "spec": "420 g/m², 100% Polyester, tkanina siatkowa",
+   "description": [
+    "Wojskowa tkanina siatkowa w dzianinie kolumnkowej, 100% Polyester, 420 g/m².",
+    "Główne zastosowanie to kamizelki taktyczne. Może być również wykorzystywana jako",
+    "siatka tapicerska do mebli biurowych."
+   ]
+  },
+  "arhard-mesh-300": {
+   "descriptor": "Tkanina siatkowa tapicerska",
+   "spec": "300 g/m², 100% Polyester, tkanina siatkowa",
+   "description": [
+    "Wojskowa tkanina siatkowa w dzianinie kolumnowej, 100% Polyester, 300 g/m².",
+    "Może być stosowana jako siatka tapicerska do mebli biurowych."
+   ]
+  },
+  "ariripstop": {
+   "descriptor": "Tkanina ripstop 100% AriPam",
+   "spec": "220 g/m², 100% AriPam, tkanina tkana ripstop",
+   "description": [
+    "Tkanina ripstop 100% AriPam.",
+    "Stosowana głównie do odzieży outdoorowej, w szczególności spodni.",
+    "AriRipstop może być również wykorzystywana do kurtek roboczych."
+   ]
+  },
+  "ariripstop-el": {
+   "descriptor": "Tkanina ripstop 97% AriPam 3% Elastan",
+   "spec": "210 g/m², 97% AriPam 3% Elastan, tkanina ripstop",
+   "description": [
+    "Tkanina ripstop 97% AriPam 3% Elastan.",
+    "Stosowana przede wszystkim do produkcji odzieży outdoorowej, w szczególności spodni.",
+    "AriRipstop może być również wykorzystywana do produkcji elastycznych kurtek przeciwdeszczowych w segmencie odzieży roboczej."
+   ]
+  },
+  "armedi": {
+   "descriptor": "Tkanina medyczna",
+   "spec": "180 g/m², 75% Polyester 25% Viscose, tkanina wodoodporna (hydrofobowa) i oleofobowa w splocie płóciennym 1/1",
+   "description": [
+    "ArMedi to tkanina do odzieży medycznej w składzie 75% Polyester 25% Viscose. Zawartość Viscose zapewnia dodatkowy komfort użytkowania personelowi szpitalnemu i pracownikom placówek oświatowych. Jest to najpopularniejsza tkanina stosowana do lekkich uniformów.",
+    "Tkanina wyposażona jest w funkcje odpychania wody i oleju, co wydłuża jej żywotność użytkową."
+   ]
+  },
+  "armoto": {
+   "descriptor": "Tkanina do obuwia i tapicerki biurowej",
+   "spec": "240 g/m², 100% Polyester, tkanina wiatrówkowa",
+   "description": [
+    "Tkanina wiatrówkowa 100% PES",
+    "ArMoto może być stosowana w odzieży motocyklowej jako kanał wentylacyjny.",
+    "W przemyśle obuwniczym jest popularną tkaniną do laminowania na podeszwie i krawędziach obuwia sportowego."
+   ]
+  },
+  "armoto-dura": {
+   "descriptor": "Tkanina PA 6.6 do obuwia",
+   "spec": "240 g/m², 100% PA 6.6, dzianina kolumnkowa",
+   "description": [
+    "ArMoto Dura wykonana jest z wysokowytrzymałościowych włókien poliamidowych.",
+    "W przemyśle obuwia wojskowego jest to popularna tkanina stosowana jako laminat na podeszwę i ranty obuwia.",
+    "Dzianina kolumnkowa 100% PA 6.6 przeznaczona do obuwia ciężkiego i wojskowego."
+   ]
+  },
+  "arneo": {
+   "descriptor": "Trwała tkanina ostrzegawcza hi-vis do kamizelek ostrzegawczych",
+   "spec": "150 g/m², 100% Polyester, dzianina kolumnkowa hi-vis",
+   "description": [
+    "ArNeo to dzianina kolumnkowa 100% Polyester o gramaturze 150 g/m², barwiona w kolorach neonowych, przeznaczona do kamizelek ostrzegawczych. To tkanina najwyższej klasy – o zwiększonej gramaturze i wysokiej liczbie filamentów – dostosowana do wszystkich rodzajów kamizelek ostrzegawczych.",
+    "Posiada certyfikat EN ISO 20471.",
+    "Tkaniny barwione w kolorach neonowych przyciągają uwagę skuteczniej niż inne kolory. Pochłaniają promieniowanie UV i odbijają je w postaci widzialnego światła.",
+    "Dzięki temu wyróżniają się jasnością na tle innych obiektów."
+   ]
+  },
+  "arneo-color": {
+   "descriptor": "Tkanina do Kamizelek Ostrzegawczych w Kolorach Nieneonowych",
+   "spec": "120 g/m², 100% Polyester, Dzianina Kolumnkowa",
+   "description": [
+    "ArNeo Color to dzianina kolumienkowa 100% PES o gramaturze 120 g/m².",
+    "Stosowana do kamizelek z pasami odblaskowymi.",
+    "Ze względu na nieneonową kolorystykę, znajduje zastosowanie przede wszystkim w odzieży korporacyjnej, a nie w aplikacjach związanych z ochroną i bezpieczeństwem."
+   ]
+  },
+  "arneo-color-file": {
+   "descriptor": "Tkanina Siatkowa do Kamizelek Ostrzegawczych w Kolorach Innych niż Neonowe",
+   "spec": "120 g/m², 100% Polyester, Tkanina Siatkowa z Dzianiny",
+   "description": [
+    "ArNeo Color File to dzianina kolumnkowa siatkowa 100% PES o gramaturze 120 g/m².",
+    "Przeznaczona do kamizelek ostrzegawczych z pasami odblaskowymi.",
+    "Struktura siatkowa sprawdza się szczególnie w warunkach pracy w gorącym klimacie."
+   ]
+  },
+  "arneo-color-light": {
+   "descriptor": "Tkanina Lamówkowa",
+   "spec": "70 g/m², 100% Polyester, Dzianina",
+   "description": [
+    "ArNeo Color Light to taśma lamówkowa w splocie dzianiny kolumnkowej, wykonana w 100% z Polyester, o gramaturze 65–70 g/m².",
+    "Stosowana jako tkanina lamówkowa do kamizelek ostrzegawczych.",
+    "W zależności od projektu lamówki możliwe jest dostarczenie taśm w szerokości od 1 cm do 12 cm."
+   ]
+  },
+  "arneo-dirt-pro": {
+   "descriptor": "Wodoodporny (hydrofobowy) i Olejoodporny Ostrzegawczy Hi-Vis Materiał z Dzianiny Kolumnkowej",
+   "spec": "150 g/m², 100% Polyester (PES), Wodoodporny (hydrofobowy) i Olejoodporny Ostrzegawczy Hi-Vis Materiał z Dzianiny Kolumnkowej",
+   "description": [
+    "ArNeo Dirt Pro to tkanina z dzianiny kolumnkowej w kolorach neonowych, wykonana w 100% z PES, o gramaturze 150 g/m², przeznaczona do kamizelek ostrzegawczych, z dodatkową funkcją odpychania wody i oleju.",
+    "Certyfikowana zgodnie z EN ISO 20471.",
+    "Tkaniny barwione na kolory neonowe przyciągają uwagę skuteczniej niż inne barwy – pochłaniają promieniowanie UV i emitują je jako światło widzialne.",
+    "W efekcie wyróżniają się intensywniejszym blaskiem na tle otaczających obiektów.",
+    "Funkcja odpychania wody i oleju. (EN ISO 14419)"
+   ]
+  },
+  "arneo-eco-r400": {
+   "descriptor": "Tkanina ostrzegawcza hi-vis laminowana odblaskowymi taśmami do kamizelek ostrzegawczych",
+   "spec": "120 g/m², 100% PES, ostrzegawczy hi-vis, dzianina kolumnkowa laminowana taśmami odblaskowymi",
+   "description": [
+    "ArNeo Eco +R400 to tkanina z 100% PES, 120 g/m², wykonana w splocie dzianiny kolumnkowej, w kolorach neonowych, przeznaczona do kamizelek ostrzegawczych.",
+    "Posiada certyfikat EN ISO 20471.",
+    "Tkaniny barwione w kolorach neonowych przyciągają uwagę skuteczniej niż tkaniny w innych kolorach.",
+    "Pochłaniają promieniowanie UV i odbijają je w postaci światła widzialnego.",
+    "Dzięki temu wyróżniają się jasnością na tle otaczających obiektów.",
+    "Krawędź tkaniny jest laminowana odblaskowymi taśmami o szerokości 5 cm, posiadającymi certyfikat EN ISO 20471.",
+    "Eliminuje to konieczność wszywania taśm odblaskowych na etapie konfekcjonowania."
+   ]
+  },
+  "arneo-file": {
+   "descriptor": "Siatka Ostrzegawcza Hi-Vis do Kamizelki Ostrzegawczej",
+   "spec": "120 g/m², 100% Polyester, Ostrzegawczy Hi-Vis, Dzianina Kolumnkowa Siatkowa",
+   "description": [
+    "ArNeo File to teksturowana dzianina kolumnkowa siatkowa 100% PES w kolorach neonowych, o gramaturze 120 g/m², przeznaczona do kamizelki ostrzegawczej. Jest to najchętniej wybierana siatka do tego zastosowania.",
+    "ArNeo File posiada certyfikat EN ISO 20471.",
+    "Tkaniny barwione w kolorach neonowych przyciągają uwagę skuteczniej niż inne kolory. Pochłaniają promieniowanie UV i emitują je w postaci widzialnego światła.",
+    "Dzięki temu wyróżniają się jaśniejszym połyskiem w porównaniu z innymi obiektami."
+   ]
+  },
+  "arneo-flame-static-pro": {
+   "descriptor": "Tkanina trudnopalna, antystatyczna, ostrzegawcza hi-vis do kamizelek ostrzegawczych",
+   "spec": "150 g/m², 99% PES 1% Carbon, hi-vis, trudnopalna",
+   "description": [
+    "Antystatyczna dzianina kolumienkowa ArNeo Pro to tkanina trudnopalna w kolorach neonowych, wykonana w 99% z PES i w 1% z Carbon, o gramaturze 150 g/m², przeznaczona do produkcji kamizelek ostrzegawczych.",
+    "Stosowana przede wszystkim przez pracowników płyt lotniskowych (apron), a także w przemyśle naftowym i gazowniczym.",
+    "Certyfikowana zgodnie z EN ISO 20471.",
+    "Tkaniny barwione w kolorach neonowych przyciągają uwagę skuteczniej niż inne kolory – pochłaniają promieniowanie UV i emitują je jako światło widzialne.",
+    "W efekcie wyróżniają się jaśniejszym połyskiem na tle otoczenia.",
+    "Posiada certyfikat antystatyczny (EN ISO 1149) – właściwości antystatyczne inherentne.",
+    "Posiada certyfikat trudnopalności (TS EN ISO 14116) – odporność zachowana po 10 cyklach prania."
+   ]
+  },
+  "arneo-light": {
+   "descriptor": "Ekonomiczna Tkanina na Kamizelki Ostrzegawcze",
+   "spec": "70 g/m², 100% Polyester, Ostrzegawcza Dzianina Kolumnkowa Hi-Vis",
+   "description": [
+    "ArNeo Light to dzianina kolumnkowa w kolorach neonowych, wykonana w 100% z poliestru, o gramaturze 65–70 g/m², przeznaczona na kamizelki ostrzegawcze.",
+    "Stanowi ekonomiczną alternatywę dla ArNeo Eco, dedykowaną zastosowaniom niekomercyjnym.",
+    "Zaprojektowana z myślą o odzieży roboczej dla branży budowlanej i górniczej."
+   ]
+  },
+  "arneo-light-r400": {
+   "descriptor": "Ekonomiczna Tkanina do Kamizelek Ostrzegawczych Laminowana Pasami Odblaskowymi",
+   "spec": "70 g/m², 100% Polyester, Laminowane Pasy Odblaskowe, Ostrzegawcza Dzianina Hi-Vis",
+   "description": [
+    "ArNeo Light +R400 to tkanina do kamizelek w kolorach neonowych, wykonana w 100% z PES, o gramaturze 65–70 g/m², produkowana w splocie dzianiny kolumnkowej.",
+    "Stanowi ekonomiczną alternatywę dla ArNeo Eco, przeznaczoną do zastosowań niekomercyjnych.",
+    "Zaprojektowana z myślą o odzieży roboczej dla branży budowlanej i górniczej.",
+    "Krawędź tkaniny jest laminowana 5 cm pasami odblaskowymi z certyfikatem EN 20471."
+   ]
+  },
+  "arneo-light-r50": {
+   "descriptor": "Ekonomiczna tkanina na kamizelki ostrzegawcze laminowana odblaskowymi pasami",
+   "spec": "70 g/m², 100% Polyester, laminowana odblaskowymi pasami, dzianina kolumnkowa hi-vis",
+   "description": [
+    "ArNeo Light +R50 to dzianina kolumnkowa wykonana w 100% z PES, w gramaturze 65–70 g/m², w kolorach neonowych, przeznaczona na kamizelki ostrzegawcze.",
+    "Stanowi ekonomiczną alternatywę dla ArNeo Eco do zastosowań nieprofesjonalnych.",
+    "Zaprojektowana z myślą o odzieży roboczej dla budownictwa i górnictwa.",
+    "Brzeg tkaniny jest laminowany odblaskowymi pasami o szerokości 5 cm."
+   ]
+  },
+  "arneo-pro": {
+   "descriptor": "Tkanina trudnopalna, ostrzegawcza hi-vis do kamizelek ostrzegawczych",
+   "spec": "150 g/m², 100% Polyester, ostrzegawcza hi-vis, trudnopalna tkanina dziana",
+   "description": [
+    "ArNeo Pro to trudnopalna tkanina dzianina kolumnkowa 100% Polyester, 150 g/m², w kolorach neonowych, przeznaczona do kamizelek ostrzegawczych.",
+    "Stosowana przede wszystkim przez pracowników płyty lotniska.",
+    "Certyfikowana zgodnie z EN ISO 20471.",
+    "Tkaniny barwione w kolorach neonowych przyciągają uwagę skuteczniej niż inne kolory – pochłaniają promieniowanie UV i emitują je w postaci światła widzialnego.",
+    "Dzięki temu wyróżniają się jasnością spośród otoczenia.",
+    "Potwierdzona trudnopalność zgodnie z TS EN ISO 14116 (odporność na 10 prań)."
+   ]
+  },
+  "arneo-supereco": {
+   "descriptor": "Ekonomiczna Tkanina na Kamizelki Ostrzegawcze",
+   "spec": "75 g/m², 100% Polyester, Dzianina Kolumnkowa Hi-Vis",
+   "description": [
+    "ArNeo Super Eco – dzianina kolumnkowa ostrzegawcza 100% PES w kolorach neonowych, o gramaturze 70–80 g/m², przeznaczona na kamizelki ostrzegawcze.",
+    "Nadaje się do druku cyfrowego, co umożliwia wykonanie nadruków firmowego logo metodą sublimacji.",
+    "Zaprojektowana z myślą o pracownikach branży budowlanej i górniczej."
+   ]
+  },
+  "arneo-supereco-r50": {
+   "descriptor": "Ekonomiczna Tkanina na Kamizelki Ostrzegawcze Laminowana Odblaskowymi Pasami",
+   "spec": "75 g/m², 100% Polyester, Laminowana Odblaskowymi Pasami, Ostrzegawcza Dzianina Hi-Vis",
+   "description": [
+    "ArNeo Super Eco +R50 – ostrzegawcza dzianina kolumnkowa 100% PES w kolorach neonowych, o gramaturze 70–80 g/m², przeznaczona na kamizelki ostrzegawcze.",
+    "Tkanina nadaje się do druku cyfrowego, co umożliwia wykonanie kamizelek z logo firmy metodą druku sublimacyjnego.",
+    "Zaprojektowana z myślą o pracownikach sektora budowlanego i górniczego.",
+    "Krawędź tkaniny jest laminowana odblaskowymi pasami o szerokości 5 cm."
+   ]
+  },
+  "arof": {
+   "descriptor": "Tkanina na Dres Sportowy",
+   "spec": "220 g/m², 100% Polyester, Dzianina Kolumnkowa",
+   "description": [
+    "Arof 100% poliester, dzianina kolumnkowa 220 g/m² przeznaczona do dresów sportowych z funkcją ochrony termicznej. Rewers tkaniny wykończony jest polarem.",
+    "Stosowana przede wszystkim jako materiał na stroje sportowe dla biegaczy oraz żołnierzy."
+   ]
+  },
+  "arof-mesh-2-2": {
+   "descriptor": "Tkanina siatkowa 2*2",
+   "spec": "55 g/m², 100% PES, tkanina siatkowa 2*2",
+   "description": [
+    "Arof Mesh 2*2 to dzianina kolumnkowa siatkowa 2*2 wykonana w 100% z PES, o gramaturze 50–60 g/m².",
+    "Dzięki strukturze siatkowej zapewnia jednocześnie ochronę materiału oraz przezroczystość.",
+    "Może być stosowana jako boczna kieszeń torby, przekładka w parka, tkanina tylna płaszcza przeciwdeszczowego oraz pokrycie oparcia fotela samochodowego."
+   ]
+  },
+  "arox-t0-wr-wp": {
+   "descriptor": "Tkanina medyczna wodoszczelna 75% Polyester 25% Polyurethane",
+   "spec": "70 g/m², 75% Polyester 25% Polyurethane, wodoszczelna, tkanina o splocie płóciennym 1/1",
+   "description": [
+    "Tkanina wodoszczelna 75% Polyester 25% Polyurethane przeznaczona do wszelkiego rodzaju odzieży medycznej. Przetestowana zgodnie z EN 14126. Tkaniny Arox T0 WR/WP mogą być stosowane jako okrycia medyczne.",
+    "Nadaje się do prania w temperaturze 60°C i ponownego użycia.",
+    "Certyfikowana zgodnie z EN 14126."
+   ]
+  },
+  "arox-t1-static-pro": {
+   "descriptor": "Tkanina antystatyczna 99% Polyester 1% Carbon",
+   "spec": "110 g/m², 99% Polyester 1% Carbon, antystatyczna, tkanina skośna 3/2 S",
+   "description": [
+    "Tkanina skośna antystatyczna ESD do odzieży roboczej, 99% Polyester 1% Carbon.",
+    "Tkaniny Arox T1 Static Pro stosowane są przede wszystkim do produkcji odzieży do pomieszczeń czystych.",
+    "Przeznaczona do zastosowań antystatycznych ESD, m.in. w przemyśle elektronicznym; certyfikowana zgodnie z EN ISO 1149-5."
+   ]
+  },
+  "arox-t1-wr-wp": {
+   "descriptor": "Wodoszczelna tkanina medyczna 75% Polyester 25% Polyurethane",
+   "spec": "120 g/m², 75% Polyester 25% Polyurethane, wodoszczelna, tkanina płócienna 1/1",
+   "description": [
+    "Wodoszczelna tkanina 75% Polyester 25% Polyurethane przeznaczona do wszelkiego rodzaju odzieży medycznej. Przetestowana zgodnie z EN 14126. Tkaniny Arox T1 WR/WP mogą być stosowane do produkcji kombinezonów medycznych.",
+    "Możliwość prania w temperaturze 60°C i ponownego użycia.",
+    "Certyfikowana zgodnie z EN 14126."
+   ]
+  },
+  "arox-t2-static-pro": {
+   "descriptor": "Tkanina antystatyczna 99% Polyester 1% Carbon",
+   "spec": "160 g/m², 99% Polyester 1% Carbon, antystatyczna, tkanina w splocie skośnym 2/1 S",
+   "description": [
+    "Tkanina w splocie skośnym, antystatyczna ESD do odzieży roboczej, 99% PES 1% Carbon.",
+    "Tkaniny Arox T2 Static Pro przeznaczone są przede wszystkim do odzieży stosowanej w pomieszczeniach czystych.",
+    "Odpowiednie do zastosowań antystatycznych ESD, m.in. w przemyśle elektronicznym; certyfikowane zgodnie z EN ISO 1149-5."
+   ]
+  },
+  "arox-t2-wr": {
+   "descriptor": "100% PES Tkanina Oxford Ostrzegawcza Hi-Vis Wodoodporna (Hydrofobowa)",
+   "spec": "160 g/m², 100% PES Ostrzegawcza Hi-Vis, Odporna Chemicznie, Tkanina w Splocie Płóciennym 1/1",
+   "description": [
+    "100% PES tkanina oxford ostrzegawcza hi-vis, wodoodporna (hydrofobowa).",
+    "Tkaniny Arox T2 WR przeznaczone są do produkcji kurtek zewnętrznych, spodni oraz kamizelek bezrękawnikowych.",
+    "Certyfikowana zgodnie z EN ISO 20471."
+   ]
+  },
+  "arox-t2-wr-antibac": {
+   "descriptor": "Tkanina 97% Poliester 3% Srebro – Inherentnie Antybakteryjna",
+   "spec": "160 g/m², 97% Poliester 3% Srebro, Inherentnie Antybakteryjna, Wodoodporna (Hydrofobowa) i Oleofobowa, Tkanina w Splocie Skośnym 2/1 S",
+   "description": [
+    "Tkanina medyczna w splocie skośnym, 97% PES 3% srebro, inherentnie antybakteryjna, z wplecionym srebrnym przędzą. Tkaniny Arox T2 WR/Antibac przeznaczone są przede wszystkim do zastosowań medycznych, oferując ponadprzeciętne właściwości antybakteryjne.",
+    "Skutecznie eliminuje powstawanie nieprzyjemnych zapachów oraz namnażanie się bakterii na powierzchni ciała.",
+    "Tkanina Arox T2 WR/Antibac została przetestowana zgodnie z AATCC 147, AATCC 100, ASTM E 2149 oraz posiada certyfikat EN 13795."
+   ]
+  },
+  "arox-t4-wr-wp": {
+   "descriptor": "Tkanina Oxford ostrzegawcza hi-vis wodoszczelna z powłoką mleczną 75% Polyester 25% Polyurethane",
+   "spec": "210 g/m², 75% Polyester 25% Polyurethane, wodoszczelna, oddychająca, ostrzegawcza hi-vis, tkanina o splocie płóciennym 1/1",
+   "description": [
+    "Tkanina Oxford ostrzegawcza hi-vis, wodoszczelna i oddychająca, wykonana w składzie 75% Polyester 25% Polyurethane, z powłoką mleczną od spodu. Tkaniny Arox T4 WR/WP przeznaczone są do produkcji kurtek, spodni i kamizelek na zewnątrz, wymagających właściwości wodoszczelnych.",
+    "Certyfikowana zgodnie z EN ISO 20471, EN 343 oraz EN 13034"
+   ]
+  },
+  "arox-t5-multi": {
+   "descriptor": "75% PES 23% Poliuretan 2% Węgiel Powlekany Mleczno, Trudnopalny Inherentnie, Antystatyczny, Ostrzegawczy Hi-Vis Wodoszczelny Materiał Oxford",
+   "spec": "250 g/m², 75% PES 23% Poliuretan 2% Węgiel, Trudnopalny Inherentnie, Antystatyczny, Wodoszczelny, Oddychający, Ostrzegawczy Hi-Vis, Tkanina Oxfordowa w Splocie Płóciennym 1/1",
+   "description": [
+    "Tkanina oxfordowa z powłoką mleczną od strony spodniej, 75% PES 23% Poliuretan 2% Węgiel, trudnopalna, antystatyczna, ostrzegawcza hi-vis, wodoodporna (hydrofobowa), wodoszczelna i oddychająca.",
+    "Tkaniny Arox T5 Multi przeznaczone są do produkcji kurtek, spodni oraz kamizelek ocieplaczy do użytku na zewnątrz, łączących właściwości wodoszczelne z trudnopalnymi. Tkanina wykonana jest z trudnopalnego inherentnie PES z antystatyczną siatką węglową.",
+    "Certyfikowana zgodnie z EN ISO 20471, EN 343, EN 1149-5, EN 14116 oraz EN 13034"
+   ]
+  },
+  "arpower-knit": {
+   "descriptor": "Ultraelastyczna Dzianina Antybakteryjna Wodoodporna (Hydrofobowa)",
+   "spec": "400 g/m², 45% Polyester 35% Viscose 22% Polyamide 8% Elastane, wodoodporna (hydrofobowa), antybakteryjna, elastyczna dzianina",
+   "description": [
+    "ArPower Knit to ultraelastyczna dzianina o gramaturze 400 g/m², wykonana w składzie 40% Polyester 30% Viscose 22% Polyamide 8% Elastane, przeznaczona do zastosowań gorsetowych.",
+    "Wykazuje właściwości antybakteryjne odporne na działanie do 20 cykli prania.",
+    "ArPower Knit jest wodoodporny (hydrofobowy) i oleofobowy, co umożliwia jego stosowanie podczas zabiegów ortopedycznych.",
+    "Dwie warstwy tej tkaniny mogą być z łatwością wykorzystane do produkcji certyfikowanych maseczek ochronnych zgodnych z EN 14683."
+   ]
+  },
+  "arpower-knit-p": {
+   "descriptor": "Dzianina Wodoodporna Antybakteryjna Ultra Elastyczna",
+   "spec": "350 g/m², 70% Polyester 22% Polyamide 8% Elastane, wodoodporna (hydrofobowa), antybakteryjna, elastyczna dzianina",
+   "description": [
+    "ArPower Knit P to ultra elastyczna dzianina o gramaturze 350 g/m², wykonana w składzie 70% Polyester, 22% Polyamide, 8% Elastane, przeznaczona do zastosowań gorsetowych.",
+    "Wykazuje właściwości antybakteryjne zachowywane przez co najmniej 20 cykli prania.",
+    "ArPower Knit P jest wodoodporny (hydrofobowy) i olejoodporny, co umożliwia jego stosowanie w wyrobach ortopedycznych.",
+    "Dwie warstwy tej tkaniny mogą być z powodzeniem wykorzystane do produkcji maseczek ochronnych certyfikowanych zgodnie z EN 14683."
+   ]
+  },
+  "arshirt": {
+   "descriptor": "Tkanina pique 100% bawełna, barwiona barwnikami kadziowymi",
+   "spec": "220 g/m², 100% Cotton (CO), Pique",
+   "description": [
+    "Dzianinowa tkanina pique 220 g/m², 100% bawełna, barwiona barwnikami kadziowymi, przeznaczona do odzieży roboczej – charakteryzuje się bardzo wysoką odpornością na bielenie chlorowe oraz wysoką odpornością wybarwień na światło.",
+    "Tkaniny ArShirt produkowane są z wysokogatunkowej czesankowej bawełny tureckiej.",
+    "Tkanina wykazuje bardzo wysoką odporność na działanie promieniowania słonecznego – stopień odporności wybarwień na światło wynosi 6–7.",
+    "Tkaniny ArShirt można bielić zarówno nadtlenkiem wodoru, jak i podchlorynem, bez utraty koloru.",
+    "Produkty ArShirt barwione barwnikami kadziowymi sprawdzają się w najtrudniejszych warunkach użytkowania – znajdują zastosowanie zarówno w obszarze militarnym, jak i w odzieży roboczej."
+   ]
+  },
+  "arshirt-antiviral": {
+   "descriptor": "Dzianina z 99% CO i 1% srebra – inherentne właściwości antywirusowe",
+   "spec": "220 g/m², 99% CO 1% srebro, inherentnie antywirusowa, dzianina pique",
+   "description": [
+    "Dzianina typu t-shirt z 99% CO i 1% srebra z zintegrowaną przędzą srebrną – inherentne właściwości antywirusowe.",
+    "Tkaniny ArShirt Antiviral znajdują zastosowanie przede wszystkim w aplikacjach medycznych, zapewniając wysoką skuteczność działania antywirusowego.",
+    "ArShirt Antiviral posiada badania zgodnie z normą ISO 18184."
+   ]
+  },
+  "arshirt-aramid-vis": {
+   "descriptor": "53% Wiskoza Fr 40% m-AR 5% p-AR 2% Włókno węglowe, Trudnopalna Inherentnie Antystatyczna Tkanina Pique",
+   "spec": "220 g/m², 53% Wiskoza Fr 40% m-AR 5% p-AR 2% Włókno węglowe, Trudnopalna Inherentnie",
+   "description": [
+    "Antystatyczna dzianina pique 53% Wiskoza Fr 40% m-AR 5% p-AR 2% Włókno węglowe – trudnopalna inherentnie, antystatyczna dzianina pique. Tkaniny ArShirt Aramid Vis znajdują zastosowanie przede wszystkim w odzieży roboczej dla elektryków oraz strażaków.",
+    "Wysoka zawartość wiskozy Fr umożliwia użytkowanie tej tkaniny również w bardzo gorącym klimacie.",
+    "ArShirt Aramid Vis posiada inherentne właściwości trudnopalne potwierdzone certyfikatem EN 11612.",
+    "Tkanina jest przeznaczona do zastosowań wymagających ochrony antystatycznej i posiada certyfikat EN ISO 1149.",
+    "Zapewnia ochronę przed łukiem elektrycznym zgodnie z certyfikatem EN 61482 klasa 1 (4 kA)."
+   ]
+  },
+  "arshirt-emk": {
+   "descriptor": "Dzianina z 80% Poliestru i 20% Stali Nierdzewnej",
+   "spec": "220 g/m², 80% PES 20% stal nierdzewna, ekranowanie EMI, dzianina pique. Dzianina pique z 80% PES i 20% stali nierdzewnej do ekranowania EMI",
+   "description": [
+    "Tkaniny ArShirt EMK znajdują zastosowanie jako ekranowanie EMI ścian oraz w odzieży dla niemowląt, skutecznie redukując wszelkiego rodzaju promieniowanie elektromagnetyczne.",
+    "Kolejne zastosowania obejmują odzież przewodzącą dla pracowników linii energetycznych pod napięciem, rozwiązania antyradarowe do militarnych klatek Faradaya, a także opaski antystresowe i przeciwbólowe.",
+    "ArShirt EMK posiada certyfikat EN 60895 w zakresie odzieży dla pracowników linii energetycznych pod napięciem."
+   ]
+  },
+  "arshirt-moda-pro": {
+   "descriptor": "60% Modakryl 38% CO 2% Węgiel, Trudnopalna Inherentnie Antystatyczna Tkanina Pique",
+   "spec": "220 g/m², 60% Modakryl 38% CO 2% Węgiel, Trudnopalna Inherentnie",
+   "description": [
+    "Antystatyczna dzianina pique 60% modakryl 38% CO 2% węgiel – trudnopalna inherentnie tkanina dziana z właściwościami antystatycznymi. Tkanina ArShirt Moda Pro znajduje zastosowanie przede wszystkim w odzieży dla spawaczy, elektryków oraz strażaków.",
+    "Wykazuje wysoką odporność na działanie promieniowania słonecznego – odporność wybarwień na poziomie 6–7.",
+    "ArShirt Moda Pro jest trudnopalna inherentnie i posiada certyfikat EN 11612.",
+    "Przeznaczona do zastosowań antystatycznych, certyfikowana zgodnie z EN ISO 1149-5.",
+    "Zapewnia ochronę przed łukiem elektrycznym zgodnie z certyfikatem EN 61482 klasa 1 (4 kA).",
+    "Certyfikowana zgodnie z EN 20471."
+   ]
+  },
+  "arshirt-neo": {
+   "descriptor": "Bawełniana Tkanina Pikowa Fluorescencyjna",
+   "spec": "220 g/m², 100% Cotton, Pique, Dzianina Ostrzegawcza Hi-Vis",
+   "description": [
+    "ArShirt Neo to dzianina pikowa 100% Cotton w neonowych kolorach fluorescencyjnych. Arıteks opracował nową technologię barwienia włókna 100% Cotton w kolorach fluorescencyjnych.",
+    "Bawełniana Tkanina Pikowa Fluorescencyjna"
+   ]
+  },
+  "arshirt-static-pro": {
+   "descriptor": "97% Bawełna 3% Węgiel Antystatyczny, Tkanina Pique Barwiona Barwnikami Kadziowymi",
+   "spec": "220 g/m², 97% CO 3% Węgiel, Antystatyczna, Pique, Dzianina Barwiona Barwnikami Kadziowymi",
+   "description": [
+    "Antystatyczna dzianina pique ESD do odzieży roboczej, 97% CO 3% węgiel, o bardzo wysokiej odporności na bielenie chlorowe i odporności wybarwień na światło.",
+    "Tkanina ArShirt Static Pro produkowana jest z najwyższej jakości czesanej przędzy z tureckiej bawełny.",
+    "Charakteryzuje się wyjątkowo wysoką odpornością na działanie promieni słonecznych – odporność wybarwień na światło na poziomie 6–7.",
+    "Tkaniny ArShirt Static Pro mogą być bielone nadtlenkiem i podchlorynem bez utraty koloru.",
+    "Przeznaczona do zastosowań antystatycznych ESD, certyfikowana zgodnie z EN ISO 1149.",
+    "Produkty ArShirt Static Pro barwione barwnikami kadziowymi sprawdzają się w najbardziej wymagających warunkach pracy, w tym w zastosowaniach militarnych i odzieży roboczej."
+   ]
+  },
+  "arsport": {
+   "descriptor": "Dzianina interlock z poliestru",
+   "spec": "140 g/m², 100% PES, dzianina interlock",
+   "description": [
+    "ArSport to dzianina interlock w 100% z PES, przeznaczona do strojów sportowych dla drużyn.",
+    "Nadaje się do zadruku sublimacyjnego."
+   ]
+  },
+  "arsport-dry": {
+   "descriptor": "Poliestrowa Tkanina Dzianinowa Interlock Szybkoschnąca",
+   "spec": "140 g/m², 100% Polyester Fast Dry, dzianina interlock",
+   "description": [
+    "ArSport Dry to dzianina interlock wykonana w 100% z poliestrowego włókna kanałkowego, przeznaczona do strojów sportowych dla drużyn. Specjalna struktura kanałkowa włókna poliestrowego nadaje tkaninie właściwości szybkoschnące. W celu ograniczenia powstawania nieprzyjemnych zapachów tkanina jest obustronnie impregnowana środkami antybakteryjnymi.",
+    "Tkanina nadaje się do zadruku sublimacyjnego."
+   ]
+  },
+  "arsport-el": {
+   "descriptor": "Dzianina interlokowa poliestrowo-elastanowa",
+   "spec": "240 g/m², dzianina interlokowa 92% PES 8% Elastane",
+   "description": [
+    "ArSport El – elastyczna dzianina interlokowa przeznaczona do strojów zespołowych. Wysoka zawartość elastanu zapewnia użytkownikowi wyjątkowy komfort noszenia. Tkanina posiada certyfikat zgodności z EN 20471.",
+    "Nadaje się do druku sublimacyjnego."
+   ]
+  },
+  "arsport-wp-flame-pro": {
+   "descriptor": "Trudnopalna tkanina stanowiąca barierę przed wilgocią",
+   "spec": "160 g/m², 75% Polyester 25% Polyurethane, wodoszczelna, oddychająca, trudnopalna dzianina interlock",
+   "description": [
+    "to tkanina barierowa przed wilgocią przeznaczona do kombinezonów strażackich.",
+    "Jest trudnopalna, dzięki czemu może być stosowana jako warstwa wewnętrzna odzieży strażackiej. Laminowana membrana oddychająca zapewnia funkcję wodoszczelności. Dzięki bardzo lekkiej konstrukcji dzianinowej stanowi doskonałą alternatywę dla tkanych tkanin barierowych przed wilgocią.",
+    "Trudnopalna tkanina stanowiąca barierę przed wilgocią"
+   ]
+  },
+  "arsport-x": {
+   "descriptor": "Tkanina Bird Eye",
+   "spec": "170 g/m², 100% Polyester, Tkanina Dziana Bird Eye",
+   "description": [
+    "ArSport X to tkanina dziana interlock bird eye wykonana w 100% z PES.",
+    "Dostępna również w wersji ostrzegawczej hi-vis. (certyfikat EN 20471)"
+   ]
+  },
+  "arsuprem": {
+   "descriptor": "Dzianina Single Jersey 100% CO barwiona barwnikami kadziowymi",
+   "spec": "220 g/m², 100% CO, Single Jersey, dzianina barwiona barwnikami kadziowymi",
+   "description": [
+    "Dzianina Single Jersey 100% CO do odzieży roboczej o bardzo wysokiej odporności wybarwień na bielenie chlorowe oraz na działanie światła.",
+    "Tkaniny ArSuprem produkowane są z najwyższej jakości czesanej przędzy z bawełny tureckiej.",
+    "Charakteryzują się bardzo wysoką odpornością na działanie promieni słonecznych – odporność na światło na poziomie 6–7.",
+    "Tkaniny ArSuprem mogą być bielone nadtlenkiem wodoru oraz podchlorynem bez ryzyka wybielenia koloru.",
+    "Produkty ArSuprem barwione barwnikami kadziowymi mogą być stosowane w najbardziej wymagających warunkach pracy oraz w zastosowaniach wojskowych."
+   ]
+  },
+  "arsuprem-aramid-vis": {
+   "descriptor": "53% Wiskoza Fr 40% m-AR 5% p-Aramid 2% Carbon, Trudnopalna Inherentnie Antystatyczna Dzianina Jersey",
+   "spec": "220 g/m², 53% Wiskoza Fr 40% m-AR 5% p-Aramid 2% Carbon, Trudnopalna Inherentnie",
+   "description": [
+    "Antystatyczna dzianina jersey 53% Wiskoza Fr 40% m-AR 5% p-Aramid 2% Carbon – trudnopalna inherentnie tkanina dzianinowa o właściwościach antystatycznych. Tkaniny ArSuprem Aramid Vis znajdują zastosowanie przede wszystkim w odzieży dla elektryków oraz strażaków.",
+    "Wysoka zawartość wiskozy Fr umożliwia stosowanie wyrobu również w bardzo gorącym klimacie.",
+    "ArSuprem Aramid Vis jest trudnopalna inherentnie i posiada certyfikat zgodności z EN 11612.",
+    "Przeznaczona do zastosowań antystatycznych, certyfikowana zgodnie z EN ISO 1149.",
+    "Zapewnia ochronę przed łukiem elektrycznym zgodnie z certyfikatem EN 61482 klasa 1 (4 kA)."
+   ]
+  },
+  "arsuprem-moda-pro": {
+   "descriptor": "60% Modakryl 38% CO 2% Carbon, Trudnopalna Inherentnie Dzianina Jersey Antystatyczna",
+   "spec": "220 g/m², 60% Modakryl 38% CO 2% Carbon, Trudnopalna Inherentnie",
+   "description": [
+    "Antystatyczna dzianina jersey 60% modakryl 38% CO 2% carbon – trudnopalna inherentnie tkanina dzianinowa z właściwościami antystatycznymi. Tkanina ArSuprem Moda Pro znajduje zastosowanie przede wszystkim w odzieży dla spawaczy, elektryków oraz strażaków.",
+    "Wykazuje wysoką odporność na działanie promieniowania słonecznego – stopień odporności wybarwień na światło na poziomie 6–7.",
+    "ArSuprem Moda Pro jest trudnopalna inherentnie, posiada certyfikat zgodności z EN 11612.",
+    "Przeznaczona do zastosowań wymagających ochrony antystatycznej, certyfikowana zgodnie z EN ISO 1149.",
+    "Zapewnia ochronę przed łukiem elektrycznym zgodnie z certyfikatem EN 61482 klasa 1 (4 kA).",
+    "Certyfikowana zgodnie z EN 20471."
+   ]
+  },
+  "arsuprem-static-pro": {
+   "descriptor": "Dzianina pojedyncza 97% bawełna 3% Carbon, antystatyczna, barwiona barwnikami kadziowymi",
+   "spec": "220 g/m², 97% bawełna 3% Carbon, single jersey, antystatyczna, dzianina barwiona barwnikami kadziowymi",
+   "description": [
+    "Antystatyczna dzianina robocza single jersey 97% bawełna 3% Carbon, o bardzo wysokiej odporności wybarwień na bielenie chlorowe oraz na działanie światła.",
+    "Tkanina ArSuprem Static Pro produkowana jest z najwyższej jakościczesanej przędzy z bawełny tureckiej.",
+    "Charakteryzuje się bardzo wysoką odpornością na działanie promieni słonecznych – stopień odporności na światło wynosi 6 do 7.",
+    "Tkaniny ArSuprem Static Pro mogą być bielone nadtlenkiem wodoru oraz podchlorynem bez ryzyka odbarwienia.",
+    "Przeznaczona do zastosowań antystatycznych ESD, certyfikowana zgodnie z EN ISO 1149.",
+    "Produkty ArSuprem Static Pro barwione barwnikami kadziowymi mogą być stosowane w najbardziej wymagających warunkach pracy oraz w zastosowaniach wojskowych."
+   ]
+  },
+  "arwowear-260-moda-pro": {
+   "descriptor": "60% Modacrylic 38% CO 2% Carbon, Tkanina Trudnopalna Inherentnie Antystatyczna",
+   "spec": "260 g/m², 60% Modacrylic 38% CO 2% Carbon, Trudnopalna Inherentnie",
+   "description": [
+    "Antystatyczna tkanina w splocie skośnym 3/1S, 60% modacrylic 38% CO 2% carbon – trudnopalna inherentnie tkanina antystatyczna w splocie skośnym. Tkanina ArWoWear 260 Moda Pro znajduje zastosowanie przede wszystkim w odzieży dla spawaczy, elektryków oraz strażaków.",
+    "Wykazuje wysoką odporność na działanie promieniowania słonecznego – odporność wybarwień na poziomie 4 do 5.",
+    "ArWoWear 260 Moda Pro jest trudnopalna inherentnie, posiada certyfikację zgodną z EN 11612.",
+    "Przeznaczona do zastosowań antystatycznych, certyfikowana zgodnie z EN ISO 1149.",
+    "Ochrona przed łukiem elektrycznym potwierdzona certyfikatem EN 61482 klasy 1 (4 kA)."
+   ]
+  },
+  "arwowear-330-moda-pro": {
+   "descriptor": "60% Modakryl 38% CO 2% Węgiel, Tkanina Trudnopalna Inherentnie Antystatyczna",
+   "spec": "330 g/m², 60% Modakryl 38% CO 2% Węgiel, Trudnopalna Inherentnie",
+   "description": [
+    "Antystatyczna tkanina w splocie skośnym 3/1S, wykonana w składzie 60% modakryl, 38% CO, 2% węgiel – trudnopalna inherentnie tkanina w splocie skośnym z właściwościami antystatycznymi. Tkanina ArWoWear 330 Moda Pro znajduje zastosowanie przede wszystkim w odzieży dla spawaczy, elektryków oraz strażaków.",
+    "Wykazuje wysoką odporność na działanie promieniowania słonecznego – odporność wybarwień na poziomie 4–5.",
+    "ArWoWear 330 Moda Pro jest trudnopalna inherentnie, posiada certyfikację zgodną z EN 11612.",
+    "Przeznaczona do zastosowań antystatycznych, certyfikowana zgodnie z EN ISO 1149.",
+    "Zapewnia ochronę przed łukiem elektrycznym zgodnie z certyfikacją EN 61482 klasa 1 (4 kA)."
+   ]
+  },
+  "arwowear-330-moda-pro-el": {
+   "descriptor": "58% Modakryl 35% CO 2% Węgiel 5% Elastan, Trudnopalna Inherentnie Tkanina Elastanowa Antystatyczna",
+   "spec": "330 g/m², 58% Modakryl 35% CO 2% Węgiel 5% Elastan, Trudnopalna Inherentnie, Elastan, Antystatyczna Tkanina w Splocie Skośnym 3/1S",
+   "description": [
+    "Tkanina w splocie skośnym, trudnopalna inherentnie, antystatyczna, z elastanem – skład: 58% Modakryl, 35% CO, 2% Węgiel, 5% Elastan.",
+    "Tkanina ArWoWear 330 Moda Pro El znajduje zastosowanie przede wszystkim w odzieży dla pracowników instalacji elektrycznych oraz w aplikacjach militarnych.",
+    "Charakteryzuje się wysoką odpornością na działanie promieniowania słonecznego – stopień odporności wybarwień wynosi 4–5.",
+    "ArWoWear 330 Moda Pro posiada inherentne właściwości trudnopalne, potwierdzone certyfikatem EN 11612.",
+    "Tkanina nadaje się do zastosowań antystatycznych i posiada certyfikat zgodności z EN ISO 1149.",
+    "Zapewnia ochronę przed łukiem elektrycznym zgodnie z certyfikatem EN 61482 klasa 1 (4 kA)."
+   ]
+  },
+  "arwowear-t0-flame-arc-pro": {
+   "descriptor": "99% Bawełna 1% Węgiel Splot Płócienny, Tkanina Trudnopalna Antystatyczna, 150 g/m²",
+   "spec": "150 g/m², 99% Bawełna 1% Węgiel, Barwiona Barwnikami Kadziowymi, Trudnopalna (Trwałość do 100 Prań), Antystatyczna, Tkanina o Splocie Płóciennym 1/1",
+   "description": [
+    "ArWoWear T0 Flame Arc Pro to tkanina koszulowa o gramaturze 150 g/m², składzie 99% bawełna / 1% węgiel, barwiona barwnikami kadziowymi, o właściwościach trudnopalnych i antystatycznych.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatem EN ISO 11612.",
+    "Dzięki zastosowaniu włókien węglowych po wewnętrznej stronie tkaniny posiada certyfikat antystatyczny (EN 1149-5).",
+    "Zachowuje właściwości ochronne przez co najmniej 100 cykli prania."
+   ]
+  },
+  "arwowear-t0-soft": {
+   "descriptor": "Tkanina twillowa 80% bawełna 20% poliester, 130 g/m²",
+   "spec": "130 g/m², 80% bawełna 20% poliester, tkanina twillowa 2/1S",
+   "description": [
+    "ArWoWear T0 Soft to lekka tkanina medyczna twillowa o gramaturze 130 g/m², wykonana w składzie 80% bawełna i 20% poliester. Jest to najchętniej wybierana tkanina do odzieży medycznej, łącząca wysoki komfort noszenia charakterystyczny dla bawełny z trwałością zapewnianą przez poliester.",
+    "Tkanina twillowa 80% bawełna 20% poliester, 130 g/m²"
+   ]
+  },
+  "arwowear-t1-flame-arc-pro": {
+   "descriptor": "Tkanina trudnopalna antystatyczna 99% Cotton 1% Carbon w splocie skośnym, 220 g/m²",
+   "spec": "220 g/m², 99% Cotton 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna (odporna na 100 prań), antystatyczna, tkanina w splocie 2/1S Twill",
+   "description": [
+    "ArWoWear T1 Flame Arc Pro to lekka tkanina do odzieży roboczej o gramaturze 220 g/m², wykonana w 99% z bawełny i w 1% z włókien węglowych (Carbon), barwiona barwnikami kadziowymi, o właściwościach trudnopalnych i antystatycznych.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatem EN ISO 11612.",
+    "Dzięki zastosowaniu włókien węglowych po wewnętrznej stronie tkaniny uzyskała certyfikat antystatyczny (EN 1149-5).",
+    "Zachowuje swoje właściwości po 100 cyklach prania."
+   ]
+  },
+  "arwowear-t1-flame-pro": {
+   "descriptor": "100% Bawełna Skośna, Tkanina Trudnopalna, 220 g/m²",
+   "spec": "220 g/m², 100% CO, Barwiona Barwnikami Kadziowymi, Trudnopalna (Trwałość do 100 Prań), Tkanina w Splocie Skośnym 2/1S",
+   "description": [
+    "ArWoWear T1 Flame Pro to lekka tkanina trudnopalna do odzieży roboczej o gramaturze 220 g/m², wykonana w 100% z bawełny, barwiona barwnikami kadziowymi.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatem EN ISO 11612.",
+    "Stosowana przede wszystkim jako podszewka trudnopalna.",
+    "Zachowuje właściwości użytkowe przez co najmniej 100 cykli prania."
+   ]
+  },
+  "arwowear-t11-chem-pro": {
+   "descriptor": "100% Bawełna Twill, Tkanina Odporna na Chemikalia, 360 g/m²",
+   "spec": "360 g/m², 100% Bawełna, Barwiona Barwnikami Kadziowymi, Odporna na Chemikalia, Tkanina w Splocie Twill 3/1S",
+   "description": [
+    "ArWoWear T11 Chem Pro to ciężka tkanina do odzieży roboczej o gramaturze 360 g/m², barwiona barwnikami kadziowymi, odporna na chemikalia, wykonana w 100% z bawełny merceryzowanej.",
+    "Przeznaczona do pracy na zewnątrz w zimowych warunkach atmosferycznych.",
+    "Wyposażona w funkcję odporności na wodę i oleje (wodoodporność hydrofobowa i oleofobowa) zgodnie z TS EN ISO 4920.",
+    "Odporna na większość przemysłowych substancji chemicznych. (EN ISO 13034)"
+   ]
+  },
+  "arwowear-t11-flame-arc-pro": {
+   "descriptor": "Tkanina trudnopalna antystatyczna, splot 3/1 skośny, 99% CO 1% Carbon, 360 g/m²",
+   "spec": "360 g/m², 99% CO 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna (odporna na 100 prań), antystatyczna, tkanina w splocie 3/1S skośnym",
+   "description": [
+    "ArWoWear T11 Flame Arc Pro to ciężka tkanina robocza o gramaturze 360 g/m², wykonana w 99% z CO i w 1% z Carbon, barwiona barwnikami kadziowymi, trudnopalna i antystatyczna.",
+    "Posiada certyfikację w zakresie właściwości trudnopalnych zgodnie z EN ISO 11612 oraz EN ISO 11611.",
+    "Dzięki zastosowaniu włókien Carbon po rewersie tkaniny uzyskano certyfikację antystatyczną. (EN 1149-5)",
+    "Zapewnia ochronę przed zagrożeniami termicznymi związanymi z łukiem elektrycznym. (EN 61482-1-2)",
+    "Wytrzymałość potwierdzona do 100 prań."
+   ]
+  },
+  "arwowear-t11-flame-pro": {
+   "descriptor": "100% bawełna twill, tkanina trudnopalna, 360 g/m²",
+   "spec": "360 g/m², 100% CO, barwiona barwnikami kadziowymi, trudnopalna (odporna na 100 prań), tkanina w splocie 3/1S twill",
+   "description": [
+    "ArWoWear T11 Flame Pro to ciężka tkanina robocza o gramaturze 360 g/m², wykonana w 100% z bawełny, barwiona barwnikami kadziowymi, o właściwościach trudnopalnych.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatami EN ISO 11612 oraz EN ISO 11611.",
+    "Zachowuje trwałość właściwości przez co najmniej 100 prań."
+   ]
+  },
+  "arwowear-t11-soft": {
+   "descriptor": "Tkanina bawełniana w splocie skośnym, 390 g/m²",
+   "spec": "390 g/m², 100% bawełna, tkanina w splocie skośnym 3/1S",
+   "description": [
+    "ArWoWear T11 Soft to ciężka tkanina odzieży roboczej w splocie skośnym, 390 g/m², wykonana w 100% z bawełny.",
+    "Jest to ekonomiczna wersja z serii ArWoWear T11."
+   ]
+  },
+  "arwowear-t11-static-pro": {
+   "descriptor": "Tkanina antystatyczna twill 99% bawełna 1% węgiel, 360 g/m²",
+   "spec": "360 g/m², 99% Cotton 1% Carbon, 3/1S",
+   "description": [
+    "Antystatyczna tkanina w splocie twill",
+    "ArWoWear T11 Static Pro to antystatyczna tkanina twill o gramaturze 360 g/m², wykonana w składzie 99% bawełna 1% węgiel, przeznaczona do odzieży roboczej.",
+    "Posiada certyfikat zgodności z normą EN 1149-5 (EN 1149-3).",
+    "Tkanina jest przeznaczona do stosowania w przemyśle elektronicznym, gdzie wyładowania elektrostatyczne stanowią istotny problem. Może być również wykorzystywana przez pracowników platform wiertniczych w przemyśle naftowym i gazowniczym jako środek ochrony przed wybuchami spowodowanymi elektrycznością statyczną w strefach zagrożonych."
+   ]
+  },
+  "arwowear-t12-flame-pro": {
+   "descriptor": "100% Cotton Satin, Tkanina Trudnopalna, 450 g/m²",
+   "spec": "450 g/m², 100% CO, Barwiona Barwnikami Kadziowymi, Trudnopalna (Trwałość do 100 Prań), Tkanina Satin 4/1",
+   "description": [
+    "ArWoWear T12 Flame Pro to ciężka tkanina robocza o gramaturze 450 g/m², wykonana w 100% z CO, barwiona barwnikami kadziowymi, o właściwościach trudnopalnych.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatami EN ISO 11612 oraz EN ISO 11611.",
+    "Zachowuje trwałość właściwości do 100 prań. Przeznaczona dla spawaczy stoczniowych pracujących w zimnym klimacie."
+   ]
+  },
+  "arwowear-t13-flame-pro": {
+   "descriptor": "100% Bawełna Satyna, Tkanina Trudnopalna, 520 g/m²",
+   "spec": "520 g/m², 100% CO, Barwiona w kadzi, Trudnopalna (Odporna na 100 Prań), Tkanina Satynowa 5/2",
+   "description": [
+    "ArWoWear T13 Flame Pro to ciężka tkanina robocza o gramaturze 520 g/m², wykonana w 100% z bawełny, barwiona w kadzi, o właściwościach trudnopalnych.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatami EN ISO 11612 oraz EN ISO 11611.",
+    "Zachowuje trwałość użytkową przez co najmniej 100 cykli prania. Przeznaczona dla spawaczy stoczniowych pracujących w zimnym klimacie."
+   ]
+  },
+  "arwowear-t2-chem-pro": {
+   "descriptor": "100% bawełna skos, tkanina chemoodporna, 260 g/m²",
+   "spec": "260 g/m², 100% CO, barwiona barwnikami kadziowymi, chemoodporna, tkanina w splocie skośnym 3/1S",
+   "description": [
+    "ArWoWear T2 Chem Pro to lekka tkanina robocza 260 g/m², 100% merceryzowana bawełna, barwiona barwnikami kadziowymi, o właściwościach chemoodpornych.",
+    "Przeznaczona do pracy na zewnątrz w letnich warunkach atmosferycznych.",
+    "Wyposażona w funkcję odpychania wody i oleju (TS EN ISO 4920).",
+    "Odporna na działanie większości przemysłowych substancji chemicznych. (EN ISO 13034)"
+   ]
+  },
+  "arwowear-t2-flame-arc-pro": {
+   "descriptor": "99% bawełna 1% węgiel, splot skośny 3/1S, tkanina trudnopalna antystatyczna, 260 g/m²",
+   "spec": "260 g/m², 99% bawełna 1% węgiel, barwienie kadzi, trudnopalna (odporna na 100 prań), antystatyczna, tkanina w splocie skośnym 3/1S",
+   "description": [
+    "ArWoWear T2 Flame Arc Pro to lekka tkanina robocza o gramaturze 260 g/m², wykonana w 99% z bawełny z 1% udziałem włókna węglowego, barwiona w kadzi, trudnopalna i antystatyczna.",
+    "Posiada certyfikowaną funkcję trudnopalności zgodnie z normami EN ISO 11612 oraz EN ISO 11611.",
+    "Dzięki zastosowaniu włókien węglowych po lewej stronie tkaniny uzyskano certyfikację antystatyczną. (EN 1149-5)",
+    "Zapewnia ochronę przed zagrożeniami termicznymi związanymi z łukiem elektrycznym. (EN 61482-1-2)",
+    "Tkanina zachowuje właściwości ochronne przez co najmniej 100 prań."
+   ]
+  },
+  "arwowear-t2-flame-pro": {
+   "descriptor": "Tkanina trudnopalna z 100% bawełny w splocie skośnym, 260 g/m²",
+   "spec": "260 g/m², 100% CO, barwiona w kadzi, trudnopalna (odporna na 100 prań), tkanina w splocie 3/1S Twill",
+   "description": [
+    "ArWoWear T2 Flame Pro to lekka tkanina robocza o gramaturze 260 g/m², wykonana w 100% z bawełny, barwionej w kadzi, o właściwościach trudnopalnych.",
+    "Posiada funkcję trudnopalności potwierdzoną certyfikatami EN ISO 11612 oraz EN ISO 11611.",
+    "Zachowuje właściwości trudnopalne przez co najmniej 100 cykli prania."
+   ]
+  },
+  "arwowear-t2-soft": {
+   "descriptor": "Tkanina twillowa 100% bawełna, 245 g/m²",
+   "spec": "245 g/m², 100% Cotton, splot twill 3/1S",
+   "description": [
+    "ArWoWear T2 Soft to lekka tkanina twillowa do odzieży roboczej o gramaturze 245 g/m², wykonana w 100% z bawełny.",
+    "Jest to ekonomiczna wersja z serii ArWoWear T2."
+   ]
+  },
+  "arwowear-t2-static-pro": {
+   "descriptor": "Tkanina twillowa antystatyczna 99% Cotton 1% Carbon, 245 g/m²",
+   "spec": "245 g/m², 99% Cotton 1% Carbon, 3/1S",
+   "description": [
+    "Antystatyczna tkanina twillowa",
+    "ArWoWear T2 Static Pro to antystatyczna tkanina twillowa do odzieży roboczej o gramaturze 245 g/m², wykonana w składzie 99% bawełna, 1% carbon.",
+    "Posiada certyfikat zgodności z normą EN 1149-5 (EN 1149-3).",
+    "Przeznaczona do zastosowań w przemyśle elektronicznym, gdzie występuje problem z gromadzeniem się ładunków elektrostatycznych.",
+    "Może być również stosowana przez pracowników platform wiertniczych w przemyśle naftowym i gazowniczym jako zabezpieczenie przed wybuchami wywołanymi wyładowaniami elektrostatycznymi w strefach zagrożonych."
+   ]
+  },
+  "arwowear-t20-flame-arc-pro": {
+   "descriptor": "79% Cotton 20% Polyester 1% Carbon, splot skośny, trudnopalny, antystatyczny, 260 g/m²",
+   "spec": "260 g/m², 79% Cotton 20% Polyester 1% Carbon, barwiony barwnikami kadziowymi, trudnopalny (odporny na 100 prań), antystatyczny, tkanina w splocie 3/1S Twill",
+   "description": [
+    "ArWoWear T20 Flame Arc Pro to lekka tkanina robocza o gramaturze 260 g/m², wykonana w składzie 79% Cotton, 20% Polyester, 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna i antystatyczna.",
+    "Posiada certyfikowane właściwości trudnopalne zgodne z normami EN ISO 11612 oraz EN ISO 11611.",
+    "Dzięki zastosowaniu włókien węglowych po spodniej stronie tkaniny uzyskano certyfikowane właściwości antystatyczne. (EN 1149-5)",
+    "Tkanina zapewnia ochronę przed termicznymi zagrożeniami łuku elektrycznego. (EN 61482-1-2)",
+    "Zachowuje swoje właściwości ochronne przez co najmniej 100 cykli prania."
+   ]
+  },
+  "arwowear-t20-flame-pro": {
+   "descriptor": "80% Bawełna 20% Poliester, Tkanina Trudnopalna, 260 g/m²",
+   "spec": "260 g/m², 80% Bawełna 20% Poliester, Barwiona Kadziowo, Trudnopalna (Odporna na 100 Prań), Tkanina w Splocie 3/1S Skośnym",
+   "description": [
+    "ArWoWear T20 Flame Pro to lekka tkanina trudnopalna do odzieży roboczej o gramaturze 260 g/m², wykonana w składzie 80% bawełna 20% poliester, barwiona kadziowo.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatami EN ISO 11612 oraz EN ISO 11611.",
+    "Zachowuje trwałość właściwości ochronnych przez minimum 100 cykli prania."
+   ]
+  },
+  "arwowear-t20-static-pro": {
+   "descriptor": "79% Bawełna 20% Poliester 1% Węgiel Splot Skośny, Tkanina Antystatyczna, 260 g/m²",
+   "spec": "260 g/m², 79% CO 20% PES 1% Węgiel, Antystatyczna, Tkanina w Splocie Skośnym 3/1S",
+   "description": [
+    "ArWoWear T20 Flame Arc Pro to lekka tkanina robocza o gramaturze 260 g/m², wykonana w składzie 79% CO, 20% PES, 1% włókno węglowe, barwiona w kadzi, posiadająca właściwości antystatyczne. Dzięki zastosowaniu włókien węglowych po wewnętrznej stronie tkaniny posiada certyfikat antystatyczny (EN 1149-5).",
+    "Tkanina przeznaczona jest do stosowania w przemyśle elektronicznym, gdzie wyładowania elektrostatyczne stanowią istotny problem. Może być również wykorzystywana przez pracowników platform przemysłu naftowego i gazowego jako zabezpieczenie przed wybuchami spowodowanymi wyładowaniami statycznymi w strefach zagrożonych wybuchem."
+   ]
+  },
+  "arwowear-t21-flame-arc-pro": {
+   "descriptor": "79% Cotton 20% Polyester 1% Carbon, tkanina trudnopalna, antystatyczna, 330 g/m²",
+   "spec": "330 g/m², 79% Cotton 20% Polyester 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna (odporna na 100 prań), antystatyczna, tkanina w splocie 3/1S Twill",
+   "description": [
+    "ArWoWear T21 Flame Arc Pro to ciężka tkanina robocza o gramaturze 330 g/m², wykonana w składzie 79% Cotton, 20% Polyester, 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna i antystatyczna.",
+    "Posiada certyfikację właściwości trudnopalnych zgodnie z normami EN ISO 11612 oraz EN ISO 11611.",
+    "Dzięki zastosowaniu włókien węglowych po wewnętrznej stronie tkaniny posiada certyfikację antystatyczną zgodnie z normą EN 1149-5.",
+    "Zapewnia ochronę przed zagrożeniami termicznymi łuku elektrycznego zgodnie z normą EN 61482-1-2.",
+    "Zachowuje właściwości ochronne przez co najmniej 100 prań."
+   ]
+  },
+  "arwowear-t21-flame-pro": {
+   "descriptor": "80% bawełna 20% poliester, tkanina trudnopalna, 330 g/m²",
+   "spec": "330 g/m², 80% bawełna 20% PES, barwiona barwnikami kadziowymi, trudnopalna (odporna na 100 prań), tkanina w splocie skośnym 3/1S",
+   "description": [
+    "ArWoWear T21 Flame Pro to ciężka tkanina robocza o gramaturze 330 g/m², wykonana w składzie 80% bawełna / 20% PES, barwiona barwnikami kadziowymi, o właściwościach trudnopalnych.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatami EN ISO 11612 oraz EN ISO 11611.",
+    "Zachowuje właściwości trudnopalne przez co najmniej 100 cykli prania."
+   ]
+  },
+  "arwowear-t21-static-pro": {
+   "descriptor": "79% Cotton 20% Polyester 1% Carbon Twill, Tkanina Antystatyczna, 330 g/m²",
+   "spec": "330 g/m², 79% Cotton 20% Polyester 1% Carbon, antystatyczna, tkanina w splocie 3/1S Twill",
+   "description": [
+    "ArWoWear T21 Flame Arc Pro to ciężka tkanina robocza o gramaturze 330 g/m², wykonana w składzie 79% Cotton 20% Polyester 1% Carbon, barwiona w kadzi. Dzięki zastosowaniu włókien węglowych po wewnętrznej stronie tkaniny posiada certyfikat antystatyczny (EN 1149-5).",
+    "Tkanina przeznaczona jest do stosowania w przemyśle elektronicznym, gdzie gromadzenie się elektryczności statycznej stanowi problem. Mogą z niej korzystać również pracownicy platform w przemyśle naftowym i gazowniczym – jako zabezpieczenie przed wybuchami spowodowanymi wyładowaniami elektrostatycznymi w strefach zagrożonych."
+   ]
+  },
+  "arwowear-t30-flame-arc-pro": {
+   "descriptor": "89% Cotton 10% Polyamide 1% Carbon, tkanina trudnopalna, antystatyczna, 260 g/m²",
+   "spec": "260 g/m², 89% Cotton 10% Polyamide 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna (odporna na 100 prań), antystatyczna, tkanina w splocie skośnym 3/1S",
+   "description": [
+    "ArWoWear T30 Flame Arc Pro to lekka tkanina robocza o gramaturze 260 g/m², wykonana w składzie 89% Cotton 10% Polyamide 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna i antystatyczna.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatami EN ISO 11612 oraz EN ISO 11611.",
+    "Dzięki zastosowaniu włókien węglowych po spodniej stronie tkaniny uzyskano certyfikat antystatyczny (EN 1149-5).",
+    "Tkanina zapewnia ochronę przed zagrożeniami termicznymi związanymi z łukiem elektrycznym (EN 61482-1-2).",
+    "Właściwości ochronne zachowane są przez co najmniej 100 prań."
+   ]
+  },
+  "arwowear-t30-flame-pro": {
+   "descriptor": "90% Bawełna 10% Poliamid, Tkanina Trudnopalna, 260 g/m²",
+   "spec": "260 g/m², 90% Bawełna 10% Poliamid, Barwiona Barwnikami Kadziowymi, Trudnopalna (Trwałość do 100 Prań), Tkanina w Splocie Skośnym 3/1S",
+   "description": [
+    "ArWoWear T30 Flame Pro to lekka tkanina do odzieży roboczej o gramaturze 260 g/m², wykonana w 90% z bawełny i 10% z poliamidu, barwiona barwnikami kadziowymi, o właściwościach trudnopalnych.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikatami EN ISO 11612 oraz EN ISO 11611.",
+    "Zachowuje swoje właściwości przez co najmniej 100 cykli prania."
+   ]
+  },
+  "arwowear-t31-flame-arc-pro": {
+   "descriptor": "89% Cotton 10% Polyamide 1% Carbon, tkanina trudnopalna, antystatyczna, 330 g/m²",
+   "spec": "330 g/m², 89% Cotton 10% Polyamide 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna (odporna na 100 prań), antystatyczna, tkanina w splocie 3/1S Twill",
+   "description": [
+    "ArWoWear T31 Flame Arc Pro to ciężka tkanina robocza o gramaturze 330 g/m², wykonana w składzie 89% Cotton 10% Polyamide 1% Carbon, barwiona barwnikami kadziowymi, trudnopalna i antystatyczna.",
+    "Posiada certyfikowaną właściwość trudnopalności zgodnie z normami EN ISO 11612 oraz EN ISO 11611.",
+    "Dzięki zastosowaniu włókien węglowych po wewnętrznej stronie tkaniny uzyskano certyfikowaną ochronę antystatyczną. (EN 1149-5)",
+    "Tkanina zapewnia ochronę przed termicznymi zagrożeniami łuku elektrycznego. (EN 61482-1-2)",
+    "Zachowuje swoje właściwości ochronne przez co najmniej 100 cykli prania."
+   ]
+  },
+  "arwowear-t31-flame-pro": {
+   "descriptor": "90% bawełna 10% Poliamid, tkanina trudnopalna, 330 g/m²",
+   "spec": "330 g/m², 90% bawełna 10% Poliamid, barwiona barwnikami kadziowymi, trudnopalna (odporna na 100 prań), tkanina w splocie 3/1S skośnym",
+   "description": [
+    "ArWoWear T31 Flame Pro to ciężka tkanina do odzieży roboczej o gramaturze 330 g/m², wykonana w 90% z bawełny i 10% z poliamidu, barwiona barwnikami kadziowymi, o właściwościach trudnopalnych.",
+    "Posiada właściwości trudnopalne potwierdzone certyfikacją zgodną z EN ISO 11612 oraz EN ISO 11611.",
+    "Zachowuje trwałość właściwości ochronnych przez co najmniej 100 prań."
+   ]
+  },
+  "arwowear-t4-antibac": {
+   "descriptor": "Tkanina inherentnie antybakteryjna 63% PES 34% CO 3% Silver",
+   "spec": "200 g/m², 63% PES 34% CO 3% Silver, antybakteryjna inherentnie, wodoodporna (hydrofobowa) i oleofobowa, tkanina w splocie skośnym 2/1 S",
+   "description": [
+    "Tkanina w splocie skośnym 63% PES 34% CO 3% Silver, inherentnie antybakteryjna, przeznaczona do odzieży medycznej, z wplecioną przędzą srebrną.",
+    "Tkaniny ArWoWear T4 Antibac znajdują zastosowanie przede wszystkim w aplikacjach medycznych, oferując wysoką skuteczność działania antybakteryjnego.",
+    "Eliminuje powstawanie nieprzyjemnych zapachów oraz kolonii bakterii zarówno na ciele użytkownika, jak i na materacach szpitalnych.",
+    "ArWoWear T4 Antibac posiada testy zgodności z normami AATCC 147, AATCC 100, ASTM E 2149 oraz certyfikat EN 13795."
+   ]
+  },
+  "arwowear-t4-chem-pro": {
+   "descriptor": "65% Polyester 35% Cotton, Tkanina Chemoodporna, 200 g/m²",
+   "spec": "200 g/m², 65% Polyester 35% Cotton, Barwiona Metodą VAT, Chemoodporna, Tkanina w Splocie 2/1S Twill",
+   "description": [
+    "ArWoWear T4 Chem Pro to tkanina robocza o gramaturze 200 g/m², barwiona metodą VAT, w składzie 65% Polyester 35% Cotton merceryzowana.",
+    "Przeznaczona do intensywnej pracy na zewnątrz w warunkach letnich.",
+    "Posiada właściwości wodoodporne i olejoodporne (hydrofobowe) zgodnie z TS EN ISO 4920.",
+    "Wykazuje odporność na większość przemysłowych środków chemicznych. (EN ISO 13034)"
+   ]
+  },
+  "arwowear-t4-emk": {
+   "descriptor": "Tkanina 55% PES 25% CO 20% Stal nierdzewna",
+   "spec": "200 g/m², 55% PES 25% CO 20% Stal nierdzewna, ekranowanie EMI, przewodząca tkanina w splocie skośnym 2/1 S",
+   "description": [
+    "Przewodząca tkanina w splocie skośnym, 55% PES 25% CO 20% Stal nierdzewna, z właściwościami ekranowania EMI.",
+    "Tkaniny ArWoWear T4 EMK mogą być stosowane jako ekranowanie EMI ścian oraz w odzieży dla niemowląt, redukując wszelkiego rodzaju promieniowanie elektromagnetyczne.",
+    "Kolejne zastosowania obejmują odzież przewodzącą dla pracowników linii energetycznych pod napięciem, zastosowania antyradarowe w klatkach wojskowych oraz opaski antystresowe i przeciwbólowe.",
+    "Arox T4 Antibac posiada certyfikat IEC 60895 w zakresie odzieży dla pracowników linii energetycznych pod napięciem."
+   ]
+  },
+  "arwowear-t4-soft": {
+   "descriptor": "Tkanina twill 65% Polyester 35% Cotton, 200 g/m²",
+   "spec": "200 g/m², 65% Polyester 35% Cotton, splot twill 2/1S",
+   "description": [
+    "ArWoWear T4 Soft to lekka tkanina twill do odzieży roboczej o gramaturze 200 g/m², wykonana w składzie 65% Polyester 35% Cotton.",
+    "Jest to ekonomiczna wersja serii ArWoWear T4."
+   ]
+  },
+  "arwowear-t4-static-pro": {
+   "descriptor": "Tkanina twillowa antystatyczna 64% Polyester 35% Cotton 1% Carbon, 200 g/m²",
+   "spec": "200 g/m², 64% Polyester 35% Cotton 1% Carbon, 2/1S",
+   "description": [
+    "Antystatyczna tkanina twillowa",
+    "ArWoWear T4 Static Pro to lekka antystatyczna tkanina twillowa do odzieży roboczej o gramaturze 200 g/m², wykonana w składzie 64% Polyester 35% Cotton 1% Carbon.",
+    "Posiada certyfikację zgodną z EN 1149-5 (EN 1149-3).",
+    "Tkanina przeznaczona do zastosowań w przemyśle elektronicznym, gdzie wyładowania elektrostatyczne stanowią istotny problem. Może być również stosowana przez pracowników platform wiertniczych w przemyśle naftowym i gazowym jako zabezpieczenie przed wybuchami spowodowanymi elektrycznością statyczną w strefach zagrożonych wybuchem."
+   ]
+  },
+  "arwowear-t5-chem-pro": {
+   "descriptor": "65% Polyester 35% Cotton, tkanina chemoodporna, 245 g/m²",
+   "spec": "245 g/m², 65% Polyester 35% Cotton, barwiona barwnikami kadziowymi, chemoodporna, tkanina w splocie skośnym 3/1S",
+   "description": [
+    "ArWoWear T5 Chem Pro to lekka tkanina robocza o gramaturze 245 g/m², barwiona barwnikami kadziowymi, merceryzowana, chemoodporna, w składzie 65% Polyester 35% Cotton.",
+    "Przeznaczona do pracy na zewnątrz w trudnych warunkach letnich.",
+    "Funkcja odpychania wody i olejów (TS EN ISO 4920).",
+    "Odporność na większość przemysłowych substancji chemicznych. (EN ISO 13034)"
+   ]
+  },
+  "arwowear-t5-soft": {
+   "descriptor": "Tkanina Twill 65% Poliester 35% Bawełna, 245 g/m²",
+   "spec": "245 g/m², 65% Polyester 35% Cotton, splot 3/1S Twill",
+   "description": [
+    "ArWoWear T5 Soft to lekka, trwała tkanina odzieży roboczej w splocie twill o gramaturze 245 g/m², wykonana w składzie 65% Polyester 35% Cotton.",
+    "Jest to ekonomiczny wariant z serii ArWoWear T5."
+   ]
+  },
+  "arwowear-t5-soft-el": {
+   "descriptor": "Tkanina skośna Twill 65% Poliester 30% Bawełna 5% Elastan, 245 g/m²",
+   "spec": "245 g/m², 65% Polyester 30% Cotton 5% El, splot 3/1S Twill",
+   "description": [
+    "ArWoWear T5 Soft to lekka tkanina robocza w skosnym splocie Twill o gramaturze 245 g/m², wykonana z mieszanki 65% Polyester, 30% Cotton, 5% Elastan — trwała i elastyczna.",
+    "Jest to wersja rozciągliwa z serii ArWoWear T5."
+   ]
+  },
+  "arwowear-t6-chem-pro": {
+   "descriptor": "60% Cotton 40% Polyester, tkanina chemoodporna, 200 g/m²",
+   "spec": "200 g/m², 60% Cotton 40% Polyester, barwiona barwnikami kadziowymi, chemoodporna, tkanina w splocie skośnym 2/1S",
+   "description": [
+    "ArWoWear T6 Chem Pro to tkanina robocza o gramaturze 200 g/m², barwiona barwnikami kadziowymi, w składzie 60% Cotton 40% Polyester, merceryzowana, zapewniająca wyjątkowy komfort użytkowania.",
+    "Funkcja odpychania wody i oleju (TS EN ISO 4920).",
+    "Tkanina odporna na działanie większości przemysłowych substancji chemicznych. (EN ISO 13034)"
+   ]
+  },
+  "arwowear-t6-soft": {
+   "descriptor": "Tkanina diagonalowa 60% bawełna 40% poliester, 200 g/m²",
+   "spec": "200 g/m², 60% bawełna 40% poliester, splot 2/1S Twill",
+   "description": [
+    "ArWoWear T6 Soft to lekka tkanina do odzieży roboczej o gramaturze 200 g/m², wykonana w składzie 60% bawełna / 40% PES, merceryzowana, zapewniająca wyjątkowy komfort użytkowania.",
+    "Jest to ekonomiczna wersja serii ArWoWear T6."
+   ]
+  },
+  "arwowear-t7-chem-pro": {
+   "descriptor": "60% Cotton 40% Polyester, tkanina odporna chemicznie, 245 g/m²",
+   "spec": "245 g/m², 60% Cotton 40% Polyester, barwiona barwnikami kadziowymi, odporna chemicznie, tkanina w splocie skośnym 3/1S",
+   "description": [
+    "ArWoWear T7 Chem Pro to tkanina odzieży roboczej o gramaturze 245 g/m², barwiona barwnikami kadziowymi, w składzie 60% Cotton 40% Polyester, merceryzowana, zapewniająca wyjątkowy komfort użytkowania.",
+    "Funkcja odpychania wody i oleju (TS EN ISO 4920).",
+    "Tkanina wykazuje odporność na większość przemysłowych substancji chemicznych. (EN ISO 13034)"
+   ]
+  },
+  "arwowear-t7-soft": {
+   "descriptor": "Tkanina twillowa 60% bawełna 40% poliester, 245 g/m²",
+   "spec": "245 g/m², 60% bawełna 40% poliester, splot 3/1S Twill",
+   "description": [
+    "ArWoWear T7 Soft to lekka, merceryzowana tkanina odzieży roboczej o gramaturze 245 g/m², wykonana w składzie 60% bawełna / 40% poliester, zapewniająca wyjątkowy komfort użytkowania.",
+    "Jest to ekonomiczna wersja serii ArWoWear T7."
+   ]
+  }
+ }
+}

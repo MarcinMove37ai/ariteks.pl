@@ -1,0 +1,112 @@
+{
+ "ar3iplik-aramid-vis": [
+  {
+   "color": "Navy",
+   "code_or_pind": "PPR 5011738-08",
+   "finish": "STANDART",
+   "article_number": "Ar3İplik Aramid Vis - 5859"
+  },
+  {
+   "color": "Grey",
+   "code_or_pind": "PPR 97901-08",
+   "finish": "STANDART",
+   "article_number": "Ar3İplik Aramid Vis - 5862"
+  }
+ ],
+ "aramid-d50-pike": [
+  {
+   "color": "Navy",
+   "code_or_pind": "",
+   "finish": "STANDART",
+   "article_number": "Aramid D50 Pike - 5689"
+  },
+  {
+   "color": "Grey",
+   "code_or_pind": "",
+   "finish": "STANDART",
+   "article_number": "Aramid D50 Pike - 5690"
+  }
+ ],
+ "argiyim-knit-knife-pro": [
+  {
+   "color": "Black",
+   "code_or_pind": "",
+   "finish": "STANDART",
+   "article_number": "ArGiyim Knit Knife Pro - 6140"
+  },
+  {
+   "color": "Yellow",
+   "code_or_pind": "",
+   "finish": "STANDART",
+   "article_number": "ArGiyim Knit Knife Pro - 5358"
+  }
+ ],
+ "arshirt-aramid-vis": [
+  {
+   "color": "Navy",
+   "code_or_pind": "PPR 5011738-08",
+   "finish": "STANDART",
+   "article_number": "ArShirt Aramid Vis - 5860"
+  },
+  {
+   "color": "Grey",
+   "code_or_pind": "PPR 97901-08",
+   "finish": "STANDART",
+   "article_number": "ArShirt Aramid Vis - 5863"
+  }
+ ],
+ "arshirt-emk": [
+  {
+   "color": "div",
+   "code_or_pind": "",
+   "finish": "",
+   "article_number": "Care Instructions Colors and Article Numbers White 10001 - STANDART - ArShirt EMK - 6031"
+  },
+  {
+   "color": "div",
+   "code_or_pind": "",
+   "finish": "",
+   "article_number": "Colors and Article Numbers White 10001 - STANDART - ArShirt EMK - 6031"
+  }
+ ],
+ "arsuprem-aramid-vis": [
+  {
+   "color": "Navy",
+   "code_or_pind": "PPR 5011738-08",
+   "finish": "STANDART",
+   "article_number": "ArSuprem Aramid Vis - 5861"
+  },
+  {
+   "color": "Grey",
+   "code_or_pind": "PPR 97901-08",
+   "finish": "STANDART",
+   "article_number": "ArSuprem Aramid Vis - 5864"
+  }
+ ],
+ "arwowear-t0-soft": [
+  {
+   "color": "White",
+   "code_or_pind": "",
+   "finish": "STANDARD",
+   "article_number": "ArWoWear T0 Soft- 5919"
+  },
+  {
+   "color": "Light Green",
+   "code_or_pind": "",
+   "finish": "STANDARD",
+   "article_number": "ArWoWear T0 Soft- 5921"
+  },
+  {
+   "color": "Light Blue",
+   "code_or_pind": "",
+   "finish": "STANDARD",
+   "article_number": "ArWoWear T0 Soft- 5920"
+  },
+  {
+   "color": "Dark Blue",
+   "code_or_pind": "",
+   "finish": "STANDARD",
+   "article_number": "ArWoWear T0 Soft- 5939"
+  }
+ ]
+}

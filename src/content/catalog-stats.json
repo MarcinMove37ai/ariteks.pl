@@ -1,0 +1,11 @@
+{
+ "standardsCovered": 50,
+ "definition": "unikatowe numery norm i metod badawczych (unia, dedupe wariantow cytowan EN/EN ISO/TS)",
+ "generatedAt": "2026-07-11",
+ "raw": {
+  "canonLike": 66,
+  "productRaw": 75,
+  "methods": 31,
+  "union": 98
+ }
+}

@@ -1,17 +1,18 @@
 // src/components/layout/Header.tsx
 // Naglowek strony: logo (jeden plik dla obu jezykow), nawigacja desktop,
-// przelacznik jezyka + CTA zapytania, menu mobilne (MobileNav). Sticky.
-// Uklad prawej strony: [menu] │ [EN] [Zapytanie ofertowe] — przelacznik
-// oddzielony cienkim separatorem od menu, w grupie z CTA (narzedzia),
-// nie w ciagu pozycji nawigacji (unika sciskania).
+// przelacznik jezyka + CTA, menu mobilne (MobileNav). Sticky.
+// CTA (decyzja 2026-07-11): przycisk DYNAMICZNY (HeaderCta, client) —
+// poza katalogiem "Product catalog" -> /fabrics; wewnatrz katalogu
+// zmienia sie w "Request a quote" (modal RFQ). Menu mobilne: RFQ zostaje.
+// Uklad prawej strony: [EN] | [CTA] [menu].
 
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import Nav from './Nav';
 import MobileNav from './MobileNav';
 import LangSwitch from './LangSwitch';
-import { openRfq } from '../RfqModal';
+import HeaderCta from './HeaderCta';
 
 const NAV_ITEMS = [
   { key: 'why', href: '/#why' },
@@ -22,13 +23,23 @@ const NAV_ITEMS = [
   { key: 'about', href: '/about' },
 ] as const;
 
+const CATALOGUE_LABEL = { pl: 'Katalog produktów', en: 'Product catalog' } as const;
+
 export default function Header() {
   const t = useTranslations('nav');
+  const locale = useLocale() as keyof typeof CATALOGUE_LABEL;
+  const catalogueLabel = CATALOGUE_LABEL[locale] ?? CATALOGUE_LABEL.en;
 
   const items = NAV_ITEMS.map(({ key, href }) => ({
     href,
     label: t(key),
   }));
+
+  // menu mobilne dostaje dodatkowo pozycje Katalog (desktop ma przycisk)
+  const mobileItems = [
+    ...items,
+    { href: '/fabrics', label: catalogueLabel },
+  ];
 
   return (
     <header className="sticky top-0 z-50 border-b border-steel-line bg-surface/95 backdrop-blur">
@@ -48,7 +59,7 @@ export default function Header() {
         {/* Nawigacja desktop (client — wyroznia biezaca strone) */}
         <Nav items={items} />
 
-        {/* Prawa grupa: przelacznik jezyka | CTA | menu mobilne */}
+        {/* Prawa grupa: przelacznik jezyka | KATALOG (CTA) | menu */}
         <div className="flex items-center gap-4">
           {/* Przelacznik jezyka — desktop. Separator jest CZESCIA LangSwitch,
               wiec znika razem z ukrytym przelacznikiem (brak wiszacej kreski). */}
@@ -56,14 +67,10 @@ export default function Header() {
             <LangSwitch variant="desktop" />
           </div>
 
-          <button
-            type="button"
-            onClick={openRfq}
-            className="hidden items-center rounded bg-carbon-900 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-red-600 sm:inline-flex"
-          >
-            {t('rfq')}
-          </button>
-          <MobileNav items={items} rfqLabel={t('rfq')} />
+          {/* CTA dynamiczne: Katalog / RFQ zaleznie od trasy */}
+          <HeaderCta catalogLabel={catalogueLabel} rfqLabel={t('rfq')} />
+
+          <MobileNav items={mobileItems} rfqLabel={t('rfq')} />
         </div>
       </div>
     </header>

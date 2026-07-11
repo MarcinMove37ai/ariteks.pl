@@ -1,57 +1,107 @@
 # ==========================================================
-# .gitignore — Ariteks (Next.js) + skrypty pomocnicze
+# .gitignore — Ariteks / Next.js
 # ==========================================================
 
-# --- KLUCZOWE: zmienne srodowiskowe (klucz Web3Forms!) ---
-# NIGDY nie commituj plikow .env*.local — zawieraja sekrety.
-.env*.local
+# ----------------------------------------------------------
+# Zmienne środowiskowe i sekrety
+# ----------------------------------------------------------
+# .env.example pozostaje śledzony.
 .env
+.env*.local
 
-# --- Next.js ---
+# ----------------------------------------------------------
+# Next.js
+# ----------------------------------------------------------
 /.next/
 /out/
-next-env.d.ts
+/build/
 
-# --- Zaleznosci ---
-/node_modules
-/.pnp
+# ----------------------------------------------------------
+# Zależności
+# ----------------------------------------------------------
+/node_modules/
+/.pnp/
 .pnp.js
 .yarn/install-state.gz
 
-# --- Produkcja / build ---
-/build
+# ----------------------------------------------------------
+# TypeScript
+# ----------------------------------------------------------
+*.tsbuildinfo
 
-# --- Debug / logi ---
+# next-env.d.ts powinien być przechowywany w repozytorium,
+# dlatego nie jest ignorowany.
+
+# ----------------------------------------------------------
+# Logi
+# ----------------------------------------------------------
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# --- Systemowe / edytor ---
+# ----------------------------------------------------------
+# Testy i coverage
+# ----------------------------------------------------------
+/coverage/
+
+# ----------------------------------------------------------
+# Vercel
+# ----------------------------------------------------------
+.vercel/
+
+# ----------------------------------------------------------
+# System i edytory
+# ----------------------------------------------------------
 .DS_Store
-*.pem
 Thumbs.db
+*.pem
 
-# --- Vercel / typowe ---
-.vercel
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
 
-# --- TypeScript ---
-*.tsbuildinfo
+# Dodatkowe ustawienia IDE znalezione w assetach
+/public/ariteks/.idea/
 
-# --- Puste katalogi po usunietych trasach scaffoldu ---
-# Nawiasy [locale] to w .gitignore znak specjalny (klasa znakow),
-# wiec MUSZA byc wyescapowane ukosnikiem: \[locale\]
-src/app/\[locale\]/contact/
-src/app/\[locale\]/fabrics/
-src/app/\[locale\]/partners/
-src/app/\[locale\]/technologies/
+# ----------------------------------------------------------
+# Python — środowiska i cache
+# ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
 
-# ==========================================================
-# Reguly wlasne projektu
-# ==========================================================
+.venv/
+venv/
+env/
 
-# Local Python environments
 scripts/certyficates/.venv/
+scripts/certificates/.venv/
 
-# Raw scraped data
-_scraped/
+# ----------------------------------------------------------
+# Lokalne skrypty pomocnicze w głównym katalogu
+# ----------------------------------------------------------
+# Dotyczy tylko plików Python bezpośrednio w katalogu projektu.
+# Nie ignoruje skryptów znajdujących się w /scripts.
+/*.py
+
+# ----------------------------------------------------------
+# Lokalne raporty i dane robocze w głównym katalogu
+# ----------------------------------------------------------
+/*_report.md
+/scan_report.md
+/rowdocs_text_report.md
+/family_mapping.json
+
+/_backup_src.zip
+/_hero_review/
+/_i18n_cache/
+
+# ----------------------------------------------------------
+# Surowe dane scrapera
+# ----------------------------------------------------------
+/_scraped/
+next-env.d.ts
+*.bak-*
+/public/ariteks/fabrics/*.py
