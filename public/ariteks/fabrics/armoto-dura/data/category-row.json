@@ -1,0 +1,219 @@
+{
+  "category_url": "https://www.ariteks.net/sport-technical-textiles.asp",
+  "row_index": 103,
+  "group": {
+    "title": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+    "row_index": 87,
+    "row_text": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArMoto_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\documents\\armoto-ru-ds-ver2__eab0490475.pdf",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\documents\\armoto-ru-ds-ver2__eab0490475.pdf",
+        "public_url": "/ariteks/fabrics/armoto-dura/documents/armoto-ru-ds-ver2__eab0490475.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 114597,
+        "sha1": "36e2caa58713a0c2e37214b459c1f7239653d82a"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/armoto_ver2_s.jpg",
+        "alt": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "title": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "context_text": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "classification": "application_image",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\images\\armoto-ver2-s__04a98e9835.jpg",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\images\\armoto-ver2-s__04a98e9835.jpg",
+        "public_url": "/ariteks/fabrics/armoto-dura/images/armoto-ver2-s__04a98e9835.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "dc6755dc2eed6b9ffff59d342119cef52240ab41"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArMoto_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\documents\\armoto-ru-ds-ver2__eab0490475.pdf",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\documents\\armoto-ru-ds-ver2__eab0490475.pdf",
+        "public_url": "/ariteks/fabrics/armoto-dura/documents/armoto-ru-ds-ver2__eab0490475.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 114597,
+        "sha1": "36e2caa58713a0c2e37214b459c1f7239653d82a"
+      }
+    ]
+  },
+  "product_name_from_category": "ArMoto Dura",
+  "product_url": "https://www.ariteks.net/armoto-dura.asp",
+  "row_text": "240 g/m² 100% PA 6.6 ArMoto Dura ArMoto Dura Warp Knit Wind Heavy Mesh Fabrics 420 g/m² 100% PES Warp Knit Wind Warp Knit Wind ArMoto",
+  "cells": [
+    "240 g/m²",
+    "100% PA",
+    "ArMoto Dura",
+    "Warp Knit"
+  ],
+  "summary": {
+    "weight": "240 g/m²",
+    "composition": "100% PA",
+    "weave": "Warp Knit"
+  },
+  "technology_partners": [
+    {
+      "url": "https://www.ariteks.net/images/brands/Cordura.JPG",
+      "alt": "Cordura",
+      "title": "Cordura",
+      "context_text": "240 g/m² 100% PA 6.6 ArMoto Dura Warp Knit Wind",
+      "classification": "technology_partner",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\images\\cordura__d3d460308b.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\images\\cordura__d3d460308b.jpg",
+      "public_url": "/ariteks/fabrics/armoto-dura/images/cordura__d3d460308b.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28361,
+      "sha1": "758a7f7faf540239ad0220d9ee1c6c1205c77d8e"
+    }
+  ],
+  "function_icons": [],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Warp Knit",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+        "alt": "Warp Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Warp Knit Wind",
+        "classification": "structure_image",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\images\\warp-knit__22376b13e5.jpg",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\images\\warp-knit__22376b13e5.jpg",
+        "public_url": "/ariteks/fabrics/armoto-dura/images/warp-knit__22376b13e5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 28297,
+        "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 255, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(218, 218, 218)",
+      "label": "420 g/m² 100% PES",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [
+    {
+      "url": "https://www.ariteks.net/pdf/ArHard_mesh_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Heavy Mesh Fabrics",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\documents\\arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\documents\\arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+      "public_url": "/ariteks/fabrics/armoto-dura/documents/arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 134783,
+      "sha1": "a73b5683a7c840d31907abeed1b88daf5a38dd27"
+    }
+  ],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/brands/Cordura.JPG",
+      "alt": "Cordura",
+      "title": "Cordura",
+      "context_text": "240 g/m² 100% PA 6.6 ArMoto Dura Warp Knit Wind",
+      "classification": "technology_partner",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\images\\cordura__d3d460308b.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\images\\cordura__d3d460308b.jpg",
+      "public_url": "/ariteks/fabrics/armoto-dura/images/cordura__d3d460308b.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28361,
+      "sha1": "758a7f7faf540239ad0220d9ee1c6c1205c77d8e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+      "alt": "Warp Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Warp Knit Wind",
+      "classification": "structure_image",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\images\\warp-knit__22376b13e5.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\images\\warp-knit__22376b13e5.jpg",
+      "public_url": "/ariteks/fabrics/armoto-dura/images/warp-knit__22376b13e5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28297,
+      "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/arhard_mesh_ver2_s.jpg",
+      "alt": "Heavy Mesh fabrics",
+      "title": "Heavy Mesh fabrics",
+      "context_text": "Heavy Mesh Fabrics",
+      "classification": "product_image",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\images\\arhard-mesh-ver2-s__ccc40a8046.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\images\\arhard-mesh-ver2-s__ccc40a8046.jpg",
+      "public_url": "/ariteks/fabrics/armoto-dura/images/arhard-mesh-ver2-s__ccc40a8046.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 48054,
+      "sha1": "bc58dad71dced8ebf61c107f3fbfebaa37675a40"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/armoto-dura.asp",
+      "label": "ArMoto Dura",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArMoto Dura",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/ArHard_mesh_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Heavy Mesh Fabrics",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto-dura\\documents\\arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto-dura\\documents\\arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+      "public_url": "/ariteks/fabrics/armoto-dura/documents/arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 134783,
+      "sha1": "a73b5683a7c840d31907abeed1b88daf5a38dd27"
+    }
+  ]
+}
