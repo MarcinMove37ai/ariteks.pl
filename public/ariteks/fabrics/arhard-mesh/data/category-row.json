@@ -1,0 +1,156 @@
+{
+  "category_url": "https://www.ariteks.net/sport-technical-textiles.asp",
+  "row_index": 116,
+  "group": {
+    "title": "Heavy Mesh Fabrics",
+    "row_index": 111,
+    "row_text": "Heavy Mesh Fabrics",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArHard_mesh_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Heavy Mesh Fabrics",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arhard-mesh\\documents\\arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arhard-mesh\\documents\\arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+        "public_url": "/ariteks/fabrics/arhard-mesh/documents/arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 134783,
+        "sha1": "a73b5683a7c840d31907abeed1b88daf5a38dd27"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/arhard_mesh_ver2_s.jpg",
+        "alt": "Heavy Mesh fabrics",
+        "title": "Heavy Mesh fabrics",
+        "context_text": "Heavy Mesh Fabrics",
+        "classification": "product_image",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arhard-mesh\\images\\arhard-mesh-ver2-s__ccc40a8046.jpg",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arhard-mesh\\images\\arhard-mesh-ver2-s__ccc40a8046.jpg",
+        "public_url": "/ariteks/fabrics/arhard-mesh/images/arhard-mesh-ver2-s__ccc40a8046.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "bc58dad71dced8ebf61c107f3fbfebaa37675a40"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArHard_mesh_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Heavy Mesh Fabrics",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arhard-mesh\\documents\\arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arhard-mesh\\documents\\arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+        "public_url": "/ariteks/fabrics/arhard-mesh/documents/arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 134783,
+        "sha1": "a73b5683a7c840d31907abeed1b88daf5a38dd27"
+      }
+    ]
+  },
+  "product_name_from_category": "ArHard Mesh",
+  "product_url": "https://www.ariteks.net/arhard-mesh.asp",
+  "row_text": "420 g/m² 100% PES ArHard Mesh Mesh",
+  "cells": [
+    "420 g/m²",
+    "100% PES",
+    "ArHard Mesh",
+    "Mesh"
+  ],
+  "summary": {
+    "weight": "420 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh"
+  },
+  "technology_partners": [],
+  "function_icons": [],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Mesh",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+        "alt": "Warp Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Mesh",
+        "classification": "structure_image",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arhard-mesh\\images\\warp-knit__22376b13e5.jpg",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arhard-mesh\\images\\warp-knit__22376b13e5.jpg",
+        "public_url": "/ariteks/fabrics/arhard-mesh/images/warp-knit__22376b13e5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 28297,
+        "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(120, 74, 50)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 255, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(164, 13, 20)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(218, 218, 218)",
+      "label": "300 g/m² 100% PES",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+      "alt": "Warp Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Mesh",
+      "classification": "structure_image",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arhard-mesh\\images\\warp-knit__22376b13e5.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arhard-mesh\\images\\warp-knit__22376b13e5.jpg",
+      "public_url": "/ariteks/fabrics/arhard-mesh/images/warp-knit__22376b13e5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28297,
+      "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arhard-mesh.asp",
+      "label": "ArHard Mesh",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArHard Mesh",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}
