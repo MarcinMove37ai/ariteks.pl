@@ -1,0 +1,147 @@
+{
+  "category_url": "https://www.ariteks.net/package-technical-textiles.asp",
+  "row_index": 207,
+  "group": {
+    "title": "Cut-proof knit fabric from p-aramid. Bomb and nail proof woven fabrics from Pa6.6",
+    "row_index": 200,
+    "row_text": "Cut-proof knit fabric from p-aramid. Bomb and nail proof woven fabrics from Pa6.6",
+    "documents": [],
+    "images": [],
+    "links": []
+  },
+  "product_name_from_category": "ArGiyim Knit Knife Pro",
+  "product_url": "https://www.ariteks.net/argiyim-knit-knife-pro.asp",
+  "row_text": "250 g/m² 100% p-AR ArGiyim Knit Knife Pro Jersey",
+  "cells": [
+    "250 g/m²",
+    "100% p-AR",
+    "ArGiyim Knit Knife Pro",
+    "Jersey"
+  ],
+  "summary": {
+    "weight": "250 g/m²",
+    "composition": "100% p-AR",
+    "weave": "Jersey"
+  },
+  "technology_partners": [
+    {
+      "url": "https://www.ariteks.net/images/brands/twaron.JPG",
+      "alt": "Twaron",
+      "title": "Twaron",
+      "context_text": "250 g/m² 100% p-AR ArGiyim Knit Knife Pro Jersey",
+      "classification": "technology_partner",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-knit-knife-pro\\images\\twaron__d08f177ec1.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-knit-knife-pro\\images\\twaron__d08f177ec1.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-knit-knife-pro/images/twaron__d08f177ec1.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 480054,
+      "sha1": "24704e6d4a83a32a9aeb7fde64e52bf6aca260c6"
+    }
+  ],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_388.jpg",
+      "alt": "EN 388",
+      "title": "EN 388",
+      "context_text": "250 g/m² 100% p-AR ArGiyim Knit Knife Pro Jersey",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-knit-knife-pro\\images\\en-388__1cf7d88453.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-knit-knife-pro\\images\\en-388__1cf7d88453.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-knit-knife-pro/images/en-388__1cf7d88453.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 7698,
+      "sha1": "a4d0b9667beec9353cb8b1b692a7942cfcd3212e"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Jersey",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/knit.jpg",
+        "alt": "KnitFabric",
+        "title": "Knit Fabric",
+        "context_text": "Jersey",
+        "classification": "structure_image",
+        "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-knit-knife-pro\\images\\knit__71fef29325.jpg",
+        "public_local_path": "E:\\ariteks\\fabrics\\argiyim-knit-knife-pro\\images\\knit__71fef29325.jpg",
+        "public_url": "/ariteks/fabrics/argiyim-knit-knife-pro/images/knit__71fef29325.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 26737,
+        "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(249, 249, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/brands/twaron.JPG",
+      "alt": "Twaron",
+      "title": "Twaron",
+      "context_text": "250 g/m² 100% p-AR ArGiyim Knit Knife Pro Jersey",
+      "classification": "technology_partner",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-knit-knife-pro\\images\\twaron__d08f177ec1.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-knit-knife-pro\\images\\twaron__d08f177ec1.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-knit-knife-pro/images/twaron__d08f177ec1.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 480054,
+      "sha1": "24704e6d4a83a32a9aeb7fde64e52bf6aca260c6"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_388.jpg",
+      "alt": "EN 388",
+      "title": "EN 388",
+      "context_text": "250 g/m² 100% p-AR ArGiyim Knit Knife Pro Jersey",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-knit-knife-pro\\images\\en-388__1cf7d88453.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-knit-knife-pro\\images\\en-388__1cf7d88453.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-knit-knife-pro/images/en-388__1cf7d88453.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 7698,
+      "sha1": "a4d0b9667beec9353cb8b1b692a7942cfcd3212e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "alt": "KnitFabric",
+      "title": "Knit Fabric",
+      "context_text": "Jersey",
+      "classification": "structure_image",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-knit-knife-pro\\images\\knit__71fef29325.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-knit-knife-pro\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-knit-knife-pro/images/knit__71fef29325.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/argiyim-knit-knife-pro.asp",
+      "label": "ArGiyim Knit Knife Pro",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArGiyim Knit Knife Pro",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}

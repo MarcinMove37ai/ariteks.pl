@@ -1,0 +1,1981 @@
+{
+  "generated_at": "2026-07-10T17:46:56",
+  "source": {
+    "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+    "product_url": "https://www.ariteks.net/arneo-light-r400.asp"
+  },
+  "category_row": {
+    "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+    "row_index": 201,
+    "group": {
+      "title": "High Visible Warp Knit Fabrics for Safety Jackets",
+      "row_index": 20,
+      "row_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+      "documents": [
+        {
+          "url": "https://www.ariteks.net/pdf/Arneo_ru_ds_ver2.pdf",
+          "label": "",
+          "title": "",
+          "is_asset": true,
+          "is_document": true,
+          "is_image": false,
+          "is_product_page": false,
+          "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/documents/arneo-ru-ds-ver2__c1069fddab.pdf",
+          "content_type": "application/pdf",
+          "size_bytes": 226773,
+          "sha1": "35939d7d49f88dec7c2938fc6073dfcd487f90bb"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.ariteks.net/images/product/arneo_ver2_s.jpg",
+          "alt": "High Visible Warp Knit Fabric",
+          "title": "High Visible Warp Knit Fabric",
+          "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+          "classification": "application_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo-ver2-s__6cf64b11d9.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 48054,
+          "sha1": "2a9dfd5fd703b91725349948156cb873d5830235"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.ariteks.net/pdf/Arneo_ru_ds_ver2.pdf",
+          "label": "",
+          "title": "",
+          "is_asset": true,
+          "is_document": true,
+          "is_image": false,
+          "is_product_page": false,
+          "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/documents/arneo-ru-ds-ver2__c1069fddab.pdf",
+          "content_type": "application/pdf",
+          "size_bytes": 226773,
+          "sha1": "35939d7d49f88dec7c2938fc6073dfcd487f90bb"
+        }
+      ]
+    },
+    "product_name_from_category": "ArNeo Light +R400",
+    "product_url": "https://www.ariteks.net/arneo-light-r400.asp",
+    "row_text": "70 g/m² 100% PES ArNeo Light +R400 ArNeo Light +R400 Warp Knit Plain 70 g/m² 100% PES Warp Knit Plain Warp Knit Plain ArNeo Light +R50",
+    "cells": [
+      "70 g/m²",
+      "100% PES",
+      "ArNeo Light +R400",
+      "Warp Knit Plain"
+    ],
+    "summary": {
+      "weight": "70 g/m²",
+      "composition": "100% PES",
+      "weave": "Warp Knit Plain"
+    },
+    "technology_partners": [],
+    "function_icons": [],
+    "certificate_badges": [],
+    "structure": {
+      "name": "Warp Knit Plain",
+      "images": [
+        {
+          "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+          "alt": "Warp Knit Fabric",
+          "title": "Warp Knit Fabric",
+          "context_text": "Warp Knit Plain",
+          "classification": "structure_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\warp-knit__22376b13e5.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\warp-knit__22376b13e5.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/warp-knit__22376b13e5.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 28297,
+          "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+        }
+      ]
+    },
+    "color_swatches": [
+      {
+        "color_value": "rgb(255, 250, 0)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      },
+      {
+        "color_value": "rgb(223, 251, 0)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      },
+      {
+        "color_value": "rgb(255, 110, 6)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      },
+      {
+        "color_value": "rgb(218, 218, 218)",
+        "label": "70 g/m² 100% PES",
+        "source": "bgcolor_or_style"
+      }
+    ],
+    "row_documents": [],
+    "row_images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+        "alt": "Warp Knit Fabric",
+        "title": "Warp Knit Fabric",
+        "context_text": "Warp Knit Plain",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\warp-knit__22376b13e5.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\warp-knit__22376b13e5.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/warp-knit__22376b13e5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 28297,
+        "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+      }
+    ],
+    "row_links": [
+      {
+        "url": "https://www.ariteks.net/arneo-light-r400.asp",
+        "label": "ArNeo Light +R400",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "ArNeo Light +R400",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      }
+    ]
+  },
+  "product_page": {
+    "source_url": "https://www.ariteks.net/arneo-light-r400.asp",
+    "source_category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+    "commercial_name": "ArNeo Light +R400",
+    "product_name": "ArNeo Light +R400",
+    "title_descriptor": "Economical Safety Jacket Fabric Laminated with Reflective Strips",
+    "slug": "arneo-light-r400",
+    "page_title": "Economical Safety Jacket Fabric Laminated with Reflective Strips - ArNeo Light +R400 - Ariteks",
+    "spec_line": "70 g/m², 100% Polyester, Reflective Strips Laminated, High Visible Knit Fabric",
+    "description_blocks": [
+      "ArNeo Light +R400 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric.",
+      "It is an economic alternative to ArNeo Eco for non professional usage.",
+      "Designed for construction and mining workwear applications.",
+      "The edge of the fabric is laminated with 5 cm EN 20471 certified reflective strips."
+    ],
+    "technical_parameters": [
+      {
+        "name": "Fiber",
+        "value": "100% Polyester (PES)",
+        "standard": "EN ISO 2076",
+        "source_table_index": 6
+      },
+      {
+        "name": "Yarn",
+        "value": "68 Denier",
+        "standard": "EN ISO 2060",
+        "source_table_index": 6
+      },
+      {
+        "name": "Weight",
+        "value": "70 ±5 g/m²",
+        "standard": "EN ISO 3081",
+        "source_table_index": 6
+      },
+      {
+        "name": "Width",
+        "value": "1500 ±20 mm",
+        "standard": "EN ISO 3932",
+        "source_table_index": 6
+      },
+      {
+        "name": "Bursting strength",
+        "value": "> 400 kPa (kN/m² )",
+        "standard": "EN ISO 13938-1",
+        "source_table_index": 6
+      },
+      {
+        "name": "Dimensional Change",
+        "value": "-5% < Length < +5% ; -5% < Width < +5%",
+        "standard": "EN ISO 5077",
+        "source_table_index": 6
+      },
+      {
+        "name": "Rubbing Fastness",
+        "value": "4-5",
+        "standard": "EN ISO 105 X12",
+        "source_table_index": 6
+      },
+      {
+        "name": "Perspiration Fastness",
+        "value": "4-5",
+        "standard": "EN ISO 105 E04",
+        "source_table_index": 6
+      },
+      {
+        "name": "Washing Fastness",
+        "value": "4-5",
+        "standard": "EN ISO 105 C06",
+        "source_table_index": 6
+      },
+      {
+        "name": "Dry Cleaning Fastness",
+        "value": "4-5",
+        "standard": "EN ISO 105 D01",
+        "source_table_index": 6
+      },
+      {
+        "name": "Hypochlorite Fastness",
+        "value": "4-5",
+        "standard": "EN ISO 105 N01",
+        "source_table_index": 6
+      },
+      {
+        "name": "Hot Press Fastness",
+        "value": "4-5",
+        "standard": "EN ISO 105 X11",
+        "source_table_index": 6
+      },
+      {
+        "name": "pH",
+        "value": "6.2",
+        "standard": "EN ISO 3071",
+        "source_table_index": 6
+      },
+      {
+        "name": "Azo Test",
+        "value": "No Azo Colorants.",
+        "standard": "EN ISO 14362-1",
+        "source_table_index": 6
+      },
+      {
+        "name": "Application",
+        "value": "Safety Jacket",
+        "standard": "",
+        "source_table_index": 6
+      },
+      {
+        "name": "Quality Management",
+        "value": "Done",
+        "standard": "ISO 9001",
+        "source_table_index": 6
+      }
+    ],
+    "technical_documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/arneo-light-r400-ds.pdf",
+        "label": ">> ArNeo Light +R400 Data Sheet",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Technical Parameters Fiber 100% Polyester (PES) EN ISO 2076 Yarn 68 Denier EN ISO 2060 Weight 70 ±5 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Bursting strength > 400 kPa (kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 6.2 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Safety Jacket Quality Management Done ISO 9001 Technical Documents >> ArNeo Light +R400 Data Sheet Certificates",
+        "document_kind": "data_sheet",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\documents\\arneo-light-r400-ds__05508fb3a0.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\documents\\arneo-light-r400-ds__05508fb3a0.pdf",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/documents/arneo-light-r400-ds__05508fb3a0.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 255580,
+        "sha1": "1d307c88a3cecfe210228a5005e237d32bb21431"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+        "alt": "Turkish",
+        "title": "Turkish",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\tr-s__2229569dd5.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\tr-s__2229569dd5.png",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/tr-s__2229569dd5.png",
+        "content_type": "image/png",
+        "size_bytes": 17432,
+        "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+      },
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+        "alt": "Russian",
+        "title": "Russian",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ru-s__28dde2a24b.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ru-s__28dde2a24b.png",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/ru-s__28dde2a24b.png",
+        "content_type": "image/png",
+        "size_bytes": 11546,
+        "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+      },
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+        "alt": "English",
+        "title": "English",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\en-s__0126e84202.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\en-s__0126e84202.png",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/en-s__0126e84202.png",
+        "content_type": "image/png",
+        "size_bytes": 19703,
+        "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+      },
+      {
+        "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+        "alt": "Arıteks Logo",
+        "title": "",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 38222,
+        "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+      },
+      {
+        "url": "https://www.ariteks.net/images/techteksposters/protection_m.jpg",
+        "alt": "Protection Technical Textiles",
+        "title": "Protection Technical Textiles",
+        "context_text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.",
+        "classification": "category_banner",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\protection-m__4be43ea90a.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\protection-m__4be43ea90a.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/protection-m__4be43ea90a.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 1853151,
+        "sha1": "f564b17d0c2bdc1aadb9ce74f47e82397478eb64"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/arneo_light_r400_main_pic_m.jpg",
+        "alt": "Fluorescent Warp Knit Fabric",
+        "title": "Fluorescent Warp Knit Fabric",
+        "context_text": "ArNeo Light +R400 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric. It is an economic alternative to ArNeo Eco for non professional usage. Designed for construction and mining workwear applications. The edge of the fabric is laminated with 5 cm EN 20471 certified reflective strips.",
+        "classification": "hero_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo-light-r400-main-pic-m__691e599527.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo-light-r400-main-pic-m__691e599527.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo-light-r400-main-pic-m__691e599527.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 106419,
+        "sha1": "2d3fc40fe84d521be774d8d22c6b03becca3d0ac"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/protection_arneo/arneo20_m.jpg",
+        "alt": "Economical High Visible Yellow Safety Jacket",
+        "title": "Economical High Visible Yellow Safety Jacket",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo20-m__2c45bb8f61.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo20-m__2c45bb8f61.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo20-m__2c45bb8f61.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 31804,
+        "sha1": "819a2ae63c898c773a06309dbbfecb214a61a32a"
+      },
+      {
+        "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+        "alt": "Oeko Tex Standard 100",
+        "title": "Oeko Tex Standard 100",
+        "context_text": "Functions",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/oekoteks-standard-100-s__ea5e91d474.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 54001,
+        "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/60_mach_wash_ma_agi.jpg",
+        "alt": "60'C Machine Wash",
+        "title": "60'C Machine Wash",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/60-mach-wash-ma-agi__cdc86ecf03.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "5172828b46e8d14500d23799c64ca5370bcf514b"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+        "alt": "No Chlorine Based Bleaching",
+        "title": "No Chlorine Based Bleaching",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\no-chlorine-bleach__33a0308671.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\no-chlorine-bleach__33a0308671.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/no-chlorine-bleach__33a0308671.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/tumble_dried_low_ht.jpg",
+        "alt": "Can Be Tumble Dried On Low Heat Setting",
+        "title": "Can Be Tumble Dried On Low Heat Setting",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/tumble-dried-low-ht__cd432a52a7.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "b5fb112a29efca36c0a736eb588a8a367fb30bac"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/ma_150_iron.jpg",
+        "alt": "Maximum 150'C Warm Iron",
+        "title": "Maximum 150'C Warm Iron",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ma-150-iron__78883199be.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ma-150-iron__78883199be.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/ma-150-iron__78883199be.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97794,
+        "sha1": "f5a4fac2b95005ea49edbeb1b6de2be8abcea782"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/dry_cleaning.jpg",
+        "alt": "Suitable for Dry Cleaning",
+        "title": "Suitable for Dry Cleaning",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\dry-cleaning__6e8a85520f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\dry-cleaning__6e8a85520f.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/dry-cleaning__6e8a85520f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "d8d03b8658bc4f973c36cb18f135e6b56f318f6c"
+      }
+    ],
+    "image_groups": {
+      "hero_images": [
+        {
+          "url": "https://www.ariteks.net/images/product/arneo_light_r400_main_pic_m.jpg",
+          "alt": "Fluorescent Warp Knit Fabric",
+          "title": "Fluorescent Warp Knit Fabric",
+          "context_text": "ArNeo Light +R400 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric. It is an economic alternative to ArNeo Eco for non professional usage. Designed for construction and mining workwear applications. The edge of the fabric is laminated with 5 cm EN 20471 certified reflective strips.",
+          "classification": "hero_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo-light-r400-main-pic-m__691e599527.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo-light-r400-main-pic-m__691e599527.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo-light-r400-main-pic-m__691e599527.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 106419,
+          "sha1": "2d3fc40fe84d521be774d8d22c6b03becca3d0ac"
+        }
+      ],
+      "product_images": [],
+      "fabric_photos": [],
+      "application_images": [
+        {
+          "url": "https://www.ariteks.net/images/product/protection_arneo/arneo20_m.jpg",
+          "alt": "Economical High Visible Yellow Safety Jacket",
+          "title": "Economical High Visible Yellow Safety Jacket",
+          "context_text": "Applications",
+          "classification": "application_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo20-m__2c45bb8f61.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo20-m__2c45bb8f61.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo20-m__2c45bb8f61.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 31804,
+          "sha1": "819a2ae63c898c773a06309dbbfecb214a61a32a"
+        }
+      ],
+      "function_icons": [
+        {
+          "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+          "alt": "Oeko Tex Standard 100",
+          "title": "Oeko Tex Standard 100",
+          "context_text": "Functions",
+          "classification": "function_icon",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/oekoteks-standard-100-s__ea5e91d474.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 54001,
+          "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854"
+        }
+      ],
+      "certificate_badges": [],
+      "care_instructions": [
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/60_mach_wash_ma_agi.jpg",
+          "alt": "60'C Machine Wash",
+          "title": "60'C Machine Wash",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/60-mach-wash-ma-agi__cdc86ecf03.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97254,
+          "sha1": "5172828b46e8d14500d23799c64ca5370bcf514b"
+        },
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+          "alt": "No Chlorine Based Bleaching",
+          "title": "No Chlorine Based Bleaching",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\no-chlorine-bleach__33a0308671.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\no-chlorine-bleach__33a0308671.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/no-chlorine-bleach__33a0308671.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97254,
+          "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52"
+        },
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/tumble_dried_low_ht.jpg",
+          "alt": "Can Be Tumble Dried On Low Heat Setting",
+          "title": "Can Be Tumble Dried On Low Heat Setting",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/tumble-dried-low-ht__cd432a52a7.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97254,
+          "sha1": "b5fb112a29efca36c0a736eb588a8a367fb30bac"
+        },
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/ma_150_iron.jpg",
+          "alt": "Maximum 150'C Warm Iron",
+          "title": "Maximum 150'C Warm Iron",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ma-150-iron__78883199be.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ma-150-iron__78883199be.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/ma-150-iron__78883199be.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97794,
+          "sha1": "f5a4fac2b95005ea49edbeb1b6de2be8abcea782"
+        },
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/dry_cleaning.jpg",
+          "alt": "Suitable for Dry Cleaning",
+          "title": "Suitable for Dry Cleaning",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\dry-cleaning__6e8a85520f.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\dry-cleaning__6e8a85520f.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/dry-cleaning__6e8a85520f.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97254,
+          "sha1": "d8d03b8658bc4f973c36cb18f135e6b56f318f6c"
+        }
+      ],
+      "structure_images": [],
+      "technology_partners": [],
+      "category_banners": [
+        {
+          "url": "https://www.ariteks.net/images/techteksposters/protection_m.jpg",
+          "alt": "Protection Technical Textiles",
+          "title": "Protection Technical Textiles",
+          "context_text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.",
+          "classification": "category_banner",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\protection-m__4be43ea90a.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\protection-m__4be43ea90a.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/protection-m__4be43ea90a.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 1853151,
+          "sha1": "f564b17d0c2bdc1aadb9ce74f47e82397478eb64"
+        }
+      ],
+      "layout_assets": [
+        {
+          "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+          "alt": "Turkish",
+          "title": "Turkish",
+          "context_text": "",
+          "classification": "layout_asset",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\tr-s__2229569dd5.png",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\tr-s__2229569dd5.png",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/tr-s__2229569dd5.png",
+          "content_type": "image/png",
+          "size_bytes": 17432,
+          "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+        },
+        {
+          "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+          "alt": "Russian",
+          "title": "Russian",
+          "context_text": "",
+          "classification": "layout_asset",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ru-s__28dde2a24b.png",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ru-s__28dde2a24b.png",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/ru-s__28dde2a24b.png",
+          "content_type": "image/png",
+          "size_bytes": 11546,
+          "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+        },
+        {
+          "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+          "alt": "English",
+          "title": "English",
+          "context_text": "",
+          "classification": "layout_asset",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\en-s__0126e84202.png",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\en-s__0126e84202.png",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/en-s__0126e84202.png",
+          "content_type": "image/png",
+          "size_bytes": 19703,
+          "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+        },
+        {
+          "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+          "alt": "Arıteks Logo",
+          "title": "",
+          "context_text": "",
+          "classification": "layout_asset",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+          "public_url": "/ariteks/fabrics/arneo-light-r400/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 38222,
+          "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+        }
+      ],
+      "other_images": []
+    },
+    "colors_and_articles": [
+      {
+        "color": "Yellow",
+        "code_or_pind": "PT-23603-1",
+        "finish": "- HIGH VISIBLE -",
+        "article_number": "R400-4242",
+        "raw_lines": {
+          "color": "Yellow",
+          "code_or_pind": "PT-23603-1",
+          "finish": "- HIGH VISIBLE -",
+          "article_number": "R400-4242"
+        }
+      },
+      {
+        "color": "Green",
+        "code_or_pind": "PT-22971-1",
+        "finish": "- HIGH VISIBLE -",
+        "article_number": "R400-4243",
+        "raw_lines": {
+          "color": "Green",
+          "code_or_pind": "PT-22971-1",
+          "finish": "- HIGH VISIBLE -",
+          "article_number": "R400-4243"
+        }
+      },
+      {
+        "color": "Orange",
+        "code_or_pind": "PT-22970-1",
+        "finish": "- HIGH VISIBLE -",
+        "article_number": "R400-4244",
+        "raw_lines": {
+          "color": "Orange",
+          "code_or_pind": "PT-22970-1",
+          "finish": "- HIGH VISIBLE -",
+          "article_number": "R400-4244"
+        }
+      }
+    ],
+    "links": [
+      {
+        "url": "http://tr.ariteks.net/arneo-light-r400.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "http://ru.ariteks.net/arneo-light-r400.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "http://en.ariteks.net/arneo-light-r400.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/mainpage.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/protection-technical-textiles.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/pdf/arneo-light-r400-ds.pdf",
+        "label": ">> ArNeo Light +R400 Data Sheet",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Technical Parameters Fiber 100% Polyester (PES) EN ISO 2076 Yarn 68 Denier EN ISO 2060 Weight 70 ±5 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Bursting strength > 400 kPa (kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 6.2 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Safety Jacket Quality Management Done ISO 9001 Technical Documents >> ArNeo Light +R400 Data Sheet Certificates",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\documents\\arneo-light-r400-ds__05508fb3a0.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\documents\\arneo-light-r400-ds__05508fb3a0.pdf",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/documents/arneo-light-r400-ds__05508fb3a0.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 255580,
+        "sha1": "1d307c88a3cecfe210228a5005e237d32bb21431"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/protection_arneo/arneo20.jpg",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": false,
+        "is_image": true,
+        "is_product_page": false,
+        "context_text": "Applications",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo20__cca1151fa5.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo20__cca1151fa5.jpg",
+        "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo20__cca1151fa5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 295960,
+        "sha1": "50f4817137cf78d454805302d3b8877c60bad6cd"
+      },
+      {
+        "url": "https://www.ariteks.net/products.asp",
+        "label": "Products",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Home > Products > Protection > ArNeo Light +R400",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/arneo-light-r400.asp",
+        "label": "ArNeo Light +R400",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "Home > Products > Protection > ArNeo Light +R400",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/apparel-fashion-textiles.asp",
+        "label": "APPAREL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/building-technical-textiles.asp",
+        "label": "BUILDING TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/home-technical-textiles.asp",
+        "label": "HOME TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/medical-technical-textiles.asp",
+        "label": "MEDICAL TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/sport-technical-textiles.asp",
+        "label": "SPORT TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/transport-technical-textiles.asp",
+        "label": "TRANSPORT TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/ariteksgrup.asp",
+        "label": "ARITEKS GROUP",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARITEKS GROUP SERVICES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile.asp",
+        "label": "SERVICES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARITEKS GROUP SERVICES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-uv-protection.asp",
+        "label": "UV PROTECTION",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-flame-retardant.asp",
+        "label": "FLAME RETARDANT",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-insect-repellent.asp",
+        "label": "INSECT REPELLENT",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-antibacterial.asp",
+        "label": "ANTIBACTERIAL",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-water-and-soil-repellent.asp",
+        "label": "WATER REPELLENT",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/ardilight.asp",
+        "label": "ARDILIGHT",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/arneo-eco.asp",
+        "label": "ARNEO ECO",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/arof-file.asp",
+        "label": "AROF FILE",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "http://www.ariteks.net",
+        "label": "www.ariteks.net",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 3,
+        "text_preview": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.",
+        "rows": [
+          [
+            "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics."
+          ]
+        ]
+      },
+      {
+        "table_index": 4,
+        "text_preview": "Protection Technical Textiles",
+        "rows": [
+          [
+            "Protection Technical Textiles"
+          ]
+        ]
+      },
+      {
+        "table_index": 5,
+        "text_preview": "Ar Neo Light +R400 70 g/m² , 100% Polyester, Reflective Strips Laminated, High Visible Knit Fabric",
+        "rows": [
+          [
+            "Ar Neo Light +R400"
+          ],
+          [
+            "70 g/m² , 100% Polyester, Reflective Strips Laminated, High Visible Knit Fabric"
+          ]
+        ]
+      },
+      {
+        "table_index": 6,
+        "text_preview": "Fiber 100% Polyester (PES) EN ISO 2076 Yarn 68 Denier EN ISO 2060 Weight 70 ±5 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Bursting strength > 400 kPa (kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 6.2 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Safety Jacket Quality Management Done ISO 9001",
+        "rows": [
+          [
+            "Fiber",
+            "100% Polyester (PES)",
+            "EN ISO 2076"
+          ],
+          [
+            "Yarn",
+            "68 Denier",
+            "EN ISO 2060"
+          ],
+          [
+            "Weight",
+            "70 ±5 g/m²",
+            "EN ISO 3081"
+          ],
+          [
+            "Width",
+            "1500 ±20 mm",
+            "EN ISO 3932"
+          ],
+          [
+            "Bursting strength",
+            "> 400 kPa (kN/m² )",
+            "EN ISO 13938-1"
+          ],
+          [
+            "Dimensional Change",
+            "-5% < Length < +5% ; -5% < Width < +5%",
+            "EN ISO 5077"
+          ],
+          [
+            "Rubbing Fastness",
+            "4-5",
+            "EN ISO 105 X12"
+          ],
+          [
+            "Perspiration Fastness",
+            "4-5",
+            "EN ISO 105 E04"
+          ],
+          [
+            "Washing Fastness",
+            "4-5",
+            "EN ISO 105 C06"
+          ],
+          [
+            "Dry Cleaning Fastness",
+            "4-5",
+            "EN ISO 105 D01"
+          ],
+          [
+            "Hypochlorite Fastness",
+            "4-5",
+            "EN ISO 105 N01"
+          ],
+          [
+            "Hot Press Fastness",
+            "4-5",
+            "EN ISO 105 X11"
+          ],
+          [
+            "pH",
+            "6.2",
+            "EN ISO 3071"
+          ],
+          [
+            "Azo Test",
+            "No Azo Colorants.",
+            "EN ISO 14362-1"
+          ],
+          [
+            "Application",
+            "Safety Jacket"
+          ],
+          [
+            "Quality Management",
+            "Done",
+            "ISO 9001"
+          ]
+        ]
+      },
+      {
+        "table_index": 7,
+        "text_preview": "Yellow PT-23603-1 - HIGH VISIBLE - ArNeo Light +R400-4242 Green PT-22971-1 - HIGH VISIBLE - ArNeo Light +R400-4243 Orange PT-22970-1 - HIGH VISIBLE - ArNeo Light +R400-4244",
+        "rows": [
+          [
+            "Yellow",
+            "PT-23603-1",
+            "- HIGH VISIBLE -",
+            "ArNeo Light +R400-4242"
+          ],
+          [
+            "Green",
+            "PT-22971-1",
+            "- HIGH VISIBLE -",
+            "ArNeo Light +R400-4243"
+          ],
+          [
+            "Orange",
+            "PT-22970-1",
+            "- HIGH VISIBLE -",
+            "ArNeo Light +R400-4244"
+          ]
+        ]
+      },
+      {
+        "table_index": 8,
+        "text_preview": "Home > Products > Protection > ArNeo Light +R400",
+        "rows": [
+          [
+            "Home > Products > Protection > ArNeo Light +R400"
+          ]
+        ]
+      },
+      {
+        "table_index": 9,
+        "text_preview": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES ARITEKS GROUP SERVICES UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT ARDILIGHT ARNEO ECO AROF FILE",
+        "rows": [
+          [
+            "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+            "ARITEKS GROUP SERVICES",
+            "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+            "ARDILIGHT ARNEO ECO AROF FILE"
+          ]
+        ]
+      },
+      {
+        "table_index": 10,
+        "text_preview": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net",
+        "rows": [
+          [
+            "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net"
+          ]
+        ]
+      },
+      {
+        "table_index": 11,
+        "text_preview": "Copyright © 2026 Arıteks A.Ş.",
+        "rows": [
+          [
+            "Copyright © 2026 Arıteks A.Ş."
+          ]
+        ]
+      }
+    ],
+    "text_blocks": [
+      {
+        "order": 1,
+        "tag": "div",
+        "text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics. Protection Technical Textiles"
+      },
+      {
+        "order": 2,
+        "tag": "div",
+        "text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics."
+      },
+      {
+        "order": 3,
+        "tag": "td",
+        "text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics."
+      },
+      {
+        "order": 4,
+        "tag": "h1",
+        "text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics."
+      },
+      {
+        "order": 5,
+        "tag": "td",
+        "text": "Protection Technical Textiles"
+      },
+      {
+        "order": 6,
+        "tag": "td",
+        "text": "Ar Neo Light +R400"
+      },
+      {
+        "order": 7,
+        "tag": "td",
+        "text": "70 g/m² , 100% Polyester, Reflective Strips Laminated, High Visible Knit Fabric"
+      },
+      {
+        "order": 8,
+        "tag": "div",
+        "text": "ArNeo Light +R400 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric. It is an economic alternative to ArNeo Eco for non professional usage. Designed for construction and mining workwear applications. The edge of the fabric is laminated with 5 cm EN 20471 certified reflective strips. Technical Parameters Fiber 100% Polyester (PES) EN ISO 2076 Yarn 68 Denier EN ISO 2060 Weight 70 ±5 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Bursting strength > 400 kPa (kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 6.2 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Safety Jacket Quality Management Done ISO 9001 Technical Documents >> ArNeo Light +R400 Data Sheet Certificates"
+      },
+      {
+        "order": 9,
+        "tag": "div",
+        "text": "ArNeo Light +R400 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric. It is an economic alternative to ArNeo Eco for non professional usage. Designed for construction and mining workwear applications. The edge of the fabric is laminated with 5 cm EN 20471 certified reflective strips."
+      },
+      {
+        "order": 10,
+        "tag": "h1",
+        "text": "ArNeo Light +R400 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric."
+      },
+      {
+        "order": 11,
+        "tag": "h2",
+        "text": "The edge of the fabric is laminated with 5 cm EN 20471 certified reflective strips."
+      },
+      {
+        "order": 12,
+        "tag": "div",
+        "text": "Technical Parameters Fiber 100% Polyester (PES) EN ISO 2076 Yarn 68 Denier EN ISO 2060 Weight 70 ±5 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Bursting strength > 400 kPa (kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 6.2 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Safety Jacket Quality Management Done ISO 9001 Technical Documents >> ArNeo Light +R400 Data Sheet Certificates"
+      },
+      {
+        "order": 13,
+        "tag": "td",
+        "text": "Fiber"
+      },
+      {
+        "order": 14,
+        "tag": "td",
+        "text": "100% Polyester (PES)"
+      },
+      {
+        "order": 15,
+        "tag": "td",
+        "text": "EN ISO 2076"
+      },
+      {
+        "order": 16,
+        "tag": "td",
+        "text": "Yarn"
+      },
+      {
+        "order": 17,
+        "tag": "td",
+        "text": "68 Denier"
+      },
+      {
+        "order": 18,
+        "tag": "td",
+        "text": "EN ISO 2060"
+      },
+      {
+        "order": 19,
+        "tag": "td",
+        "text": "Weight"
+      },
+      {
+        "order": 20,
+        "tag": "td",
+        "text": "70 ±5 g/m²"
+      },
+      {
+        "order": 21,
+        "tag": "td",
+        "text": "EN ISO 3081"
+      },
+      {
+        "order": 22,
+        "tag": "td",
+        "text": "Width"
+      },
+      {
+        "order": 23,
+        "tag": "td",
+        "text": "1500 ±20 mm"
+      },
+      {
+        "order": 24,
+        "tag": "td",
+        "text": "EN ISO 3932"
+      },
+      {
+        "order": 25,
+        "tag": "td",
+        "text": "Bursting strength"
+      },
+      {
+        "order": 26,
+        "tag": "td",
+        "text": "> 400 kPa (kN/m² )"
+      },
+      {
+        "order": 27,
+        "tag": "td",
+        "text": "EN ISO 13938-1"
+      },
+      {
+        "order": 28,
+        "tag": "td",
+        "text": "Dimensional Change"
+      },
+      {
+        "order": 29,
+        "tag": "td",
+        "text": "-5% < Length < +5% ; -5% < Width < +5%"
+      },
+      {
+        "order": 30,
+        "tag": "td",
+        "text": "EN ISO 5077"
+      },
+      {
+        "order": 31,
+        "tag": "td",
+        "text": "Rubbing Fastness"
+      },
+      {
+        "order": 32,
+        "tag": "td",
+        "text": "4-5"
+      },
+      {
+        "order": 33,
+        "tag": "td",
+        "text": "EN ISO 105 X12"
+      },
+      {
+        "order": 34,
+        "tag": "td",
+        "text": "Perspiration Fastness"
+      },
+      {
+        "order": 35,
+        "tag": "td",
+        "text": "4-5"
+      },
+      {
+        "order": 36,
+        "tag": "td",
+        "text": "EN ISO 105 E04"
+      },
+      {
+        "order": 37,
+        "tag": "td",
+        "text": "Washing Fastness"
+      },
+      {
+        "order": 38,
+        "tag": "td",
+        "text": "4-5"
+      },
+      {
+        "order": 39,
+        "tag": "td",
+        "text": "EN ISO 105 C06"
+      },
+      {
+        "order": 40,
+        "tag": "td",
+        "text": "Dry Cleaning Fastness"
+      },
+      {
+        "order": 41,
+        "tag": "td",
+        "text": "4-5"
+      },
+      {
+        "order": 42,
+        "tag": "td",
+        "text": "EN ISO 105 D01"
+      },
+      {
+        "order": 43,
+        "tag": "td",
+        "text": "Hypochlorite Fastness"
+      },
+      {
+        "order": 44,
+        "tag": "td",
+        "text": "4-5"
+      },
+      {
+        "order": 45,
+        "tag": "td",
+        "text": "EN ISO 105 N01"
+      },
+      {
+        "order": 46,
+        "tag": "td",
+        "text": "Hot Press Fastness"
+      },
+      {
+        "order": 47,
+        "tag": "td",
+        "text": "4-5"
+      },
+      {
+        "order": 48,
+        "tag": "td",
+        "text": "EN ISO 105 X11"
+      },
+      {
+        "order": 49,
+        "tag": "td",
+        "text": "pH"
+      },
+      {
+        "order": 50,
+        "tag": "td",
+        "text": "6.2"
+      },
+      {
+        "order": 51,
+        "tag": "td",
+        "text": "EN ISO 3071"
+      },
+      {
+        "order": 52,
+        "tag": "td",
+        "text": "Azo Test"
+      },
+      {
+        "order": 53,
+        "tag": "td",
+        "text": "No Azo Colorants."
+      },
+      {
+        "order": 54,
+        "tag": "td",
+        "text": "EN ISO 14362-1"
+      },
+      {
+        "order": 55,
+        "tag": "td",
+        "text": "Application"
+      },
+      {
+        "order": 56,
+        "tag": "td",
+        "text": "Safety Jacket"
+      },
+      {
+        "order": 57,
+        "tag": "td",
+        "text": "Quality Management"
+      },
+      {
+        "order": 58,
+        "tag": "td",
+        "text": "Done"
+      },
+      {
+        "order": 59,
+        "tag": "td",
+        "text": "ISO 9001"
+      },
+      {
+        "order": 60,
+        "tag": "div",
+        "text": "Applications Functions"
+      },
+      {
+        "order": 61,
+        "tag": "div",
+        "text": "Applications"
+      },
+      {
+        "order": 62,
+        "tag": "div",
+        "text": "Functions"
+      },
+      {
+        "order": 63,
+        "tag": "div",
+        "text": "Care Instructions Colors and Article Numbers Yellow PT-23603-1 - HIGH VISIBLE - ArNeo Light +R400-4242 Green PT-22971-1 - HIGH VISIBLE - ArNeo Light +R400-4243 Orange PT-22970-1 - HIGH VISIBLE - ArNeo Light +R400-4244"
+      },
+      {
+        "order": 64,
+        "tag": "div",
+        "text": "Care Instructions"
+      },
+      {
+        "order": 65,
+        "tag": "div",
+        "text": "Colors and Article Numbers Yellow PT-23603-1 - HIGH VISIBLE - ArNeo Light +R400-4242 Green PT-22971-1 - HIGH VISIBLE - ArNeo Light +R400-4243 Orange PT-22970-1 - HIGH VISIBLE - ArNeo Light +R400-4244"
+      },
+      {
+        "order": 66,
+        "tag": "td",
+        "text": "Yellow"
+      },
+      {
+        "order": 67,
+        "tag": "td",
+        "text": "PT-23603-1"
+      },
+      {
+        "order": 68,
+        "tag": "td",
+        "text": "- HIGH VISIBLE -"
+      },
+      {
+        "order": 69,
+        "tag": "td",
+        "text": "ArNeo Light +R400-4242"
+      },
+      {
+        "order": 70,
+        "tag": "td",
+        "text": "Green"
+      },
+      {
+        "order": 71,
+        "tag": "td",
+        "text": "PT-22971-1"
+      },
+      {
+        "order": 72,
+        "tag": "td",
+        "text": "- HIGH VISIBLE -"
+      },
+      {
+        "order": 73,
+        "tag": "td",
+        "text": "ArNeo Light +R400-4243"
+      },
+      {
+        "order": 74,
+        "tag": "td",
+        "text": "Orange"
+      },
+      {
+        "order": 75,
+        "tag": "td",
+        "text": "PT-22970-1"
+      },
+      {
+        "order": 76,
+        "tag": "td",
+        "text": "- HIGH VISIBLE -"
+      },
+      {
+        "order": 77,
+        "tag": "td",
+        "text": "ArNeo Light +R400-4244"
+      },
+      {
+        "order": 78,
+        "tag": "td",
+        "text": "Home > Products > Protection > ArNeo Light +R400"
+      },
+      {
+        "order": 79,
+        "tag": "td",
+        "text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES"
+      },
+      {
+        "order": 80,
+        "tag": "td",
+        "text": "ARITEKS GROUP SERVICES"
+      },
+      {
+        "order": 81,
+        "tag": "td",
+        "text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT"
+      },
+      {
+        "order": 82,
+        "tag": "td",
+        "text": "ARDILIGHT ARNEO ECO AROF FILE"
+      },
+      {
+        "order": 83,
+        "tag": "td",
+        "text": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net"
+      },
+      {
+        "order": 84,
+        "tag": "td",
+        "text": "Copyright © 2026 Arıteks A.Ş."
+      }
+    ],
+    "full_text": "Economical Safety Jacket Fabric Laminated with Reflective Strips - ArNeo Light +R400 - Ariteks\nHigh visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.\nProtection Technical Textiles\nAr\nNeo\nLight +R400\n70 gr/m\n2\n, 100% Polyester, Reflective Strips Laminated, High Visible Knit Fabric\nArNeo Light +R400 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric.\nIt is an economic alternative to ArNeo Eco for non professional usage.\nDesigned for construction and mining workwear applications.\nThe edge of the fabric is laminated with 5 cm EN 20471 certified reflective strips.\nTechnical Parameters\nFiber\n100% Polyester (PES)\nEN ISO 2076\nYarn\n68 Denier\nEN ISO 2060\nWeight\n70 ±5 gr/m\n2\nEN ISO 3081\nWidth\n1500 ±20 mm\nEN ISO 3932\nBursting strength\n> 400 kPa (kN/m\n2\n)\nEN ISO 13938-1\nDimensional Change\n-5% < Length < +5% ; -5% < Width < +5%\nEN ISO 5077\nRubbing Fastness\n4-5\nEN ISO 105 X12\nPerspiration Fastness\n4-5\nEN ISO 105 E04\nWashing Fastness\n4-5\nEN ISO 105 C06\nDry Cleaning Fastness\n4-5\nEN ISO 105 D01\nHypochlorite Fastness\n4-5\nEN ISO 105 N01\nHot Press Fastness\n4-5\nEN ISO 105 X11\npH\n6.2\nEN ISO 3071\nAzo Test\nNo Azo Colorants.\nEN ISO 14362-1\nApplication\nSafety Jacket\nQuality Management\nDone\nISO 9001\nTechnical Documents\n>> ArNeo Light +R400 Data Sheet\nCertificates\nApplications\nFunctions\nCare Instructions\nColors and Article Numbers\nYellow\nPT-23603-1\n- HIGH VISIBLE -\nArNeo Light +R400-4242\nGreen\nPT-22971-1\n- HIGH VISIBLE -\nArNeo Light +R400-4243\nOrange\nPT-22970-1\n- HIGH VISIBLE -\nArNeo Light +R400-4244\nHome\n>\nProducts\n>\nProtection\n>\nArNeo Light +R400\nAPPAREL TEXTILES\nBUILDING TECHNICAL TEXTILES\nHOME TECHNICAL TEXTILES\nPROTECTION TECHNICAL TEXTILES\nMEDICAL TECHNICAL TEXTILES\nSPORT TECHNICAL TEXTILES\nTRANSPORT TECHNICAL TEXTILES\nARITEKS GROUP\nSERVICES\nUV PROTECTION\nFLAME RETARDANT\nINSECT REPELLENT\nANTIBACTERIAL\nWATER REPELLENT\nARDILIGHT\nARNEO ECO\nAROF FILE\nAriteks Headquarters\nPhone:\n+90 212 538 05 98\nAddress:\nOtakçılar Cad. No:80/32 34050\nEyupsultan/Istanbul Turkiye\nE-Mail:\nsupport@ariteksinfo.com\nWeb:\nwww.ariteks.net\nCopyright © 2026 Arıteks A.Ş.",
+    "raw_html_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\raw\\product_page.html",
+    "url_slug": "arneo-light-r400",
+    "display_slug": "arneo-light-r400",
+    "spec_quality": {
+      "cleaned_by": "crawl_ariteks_fabric_complete_v9",
+      "original_had_narrative": false,
+      "spec_line_length": 78,
+      "cleaned_by_v10": true,
+      "v10_changed": false
+    }
+  },
+  "public": {
+    "public_product_dir": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400",
+    "public_base_url": "/ariteks/fabrics/arneo-light-r400",
+    "manifest_public_url": "/ariteks/fabrics/arneo-light-r400/data/fabric-complete-record.json",
+    "report_public_url": "/ariteks/fabrics/arneo-light-r400/docs/product-template-roadmap.md"
+  },
+  "published_assets": [
+    {
+      "url": "https://www.ariteks.net/images/product/arneo_ver2_s.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arneo-ver2-s__6cf64b11d9.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 48054,
+      "sha1": "2a9dfd5fd703b91725349948156cb873d5830235",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo-ver2-s__6cf64b11d9.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/Arneo_ru_ds_ver2.pdf",
+      "kind": "document",
+      "folder": "documents",
+      "filename": "arneo-ru-ds-ver2__c1069fddab.pdf",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "size_bytes": 226773,
+      "sha1": "35939d7d49f88dec7c2938fc6073dfcd487f90bb",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/documents/arneo-ru-ds-ver2__c1069fddab.pdf"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "warp-knit__22376b13e5.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\warp-knit__22376b13e5.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 28297,
+      "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\warp-knit__22376b13e5.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/warp-knit__22376b13e5.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+      "kind": "image",
+      "folder": "images",
+      "filename": "tr-s__2229569dd5.png",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\tr-s__2229569dd5.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size_bytes": 17432,
+      "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\tr-s__2229569dd5.png",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/tr-s__2229569dd5.png"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+      "kind": "image",
+      "folder": "images",
+      "filename": "ru-s__28dde2a24b.png",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ru-s__28dde2a24b.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size_bytes": 11546,
+      "sha1": "32c5e6a1b5d35279db604afc74155714d4620697",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ru-s__28dde2a24b.png",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/ru-s__28dde2a24b.png"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+      "kind": "image",
+      "folder": "images",
+      "filename": "en-s__0126e84202.png",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\en-s__0126e84202.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size_bytes": 19703,
+      "sha1": "39e2601f0ea48218abc98576c338648d16b981eb",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\en-s__0126e84202.png",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/en-s__0126e84202.png"
+    },
+    {
+      "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 38222,
+      "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/techteksposters/protection_m.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "protection-m__4be43ea90a.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\protection-m__4be43ea90a.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 1853151,
+      "sha1": "f564b17d0c2bdc1aadb9ce74f47e82397478eb64",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\protection-m__4be43ea90a.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/protection-m__4be43ea90a.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/arneo_light_r400_main_pic_m.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arneo-light-r400-main-pic-m__691e599527.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo-light-r400-main-pic-m__691e599527.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 106419,
+      "sha1": "2d3fc40fe84d521be774d8d22c6b03becca3d0ac",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo-light-r400-main-pic-m__691e599527.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo-light-r400-main-pic-m__691e599527.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/protection_arneo/arneo20_m.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arneo20-m__2c45bb8f61.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo20-m__2c45bb8f61.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 31804,
+      "sha1": "819a2ae63c898c773a06309dbbfecb214a61a32a",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo20-m__2c45bb8f61.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo20-m__2c45bb8f61.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "oekoteks-standard-100-s__ea5e91d474.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 54001,
+      "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/oekoteks-standard-100-s__ea5e91d474.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/60_mach_wash_ma_agi.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "60-mach-wash-ma-agi__cdc86ecf03.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "5172828b46e8d14500d23799c64ca5370bcf514b",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/60-mach-wash-ma-agi__cdc86ecf03.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "no-chlorine-bleach__33a0308671.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\no-chlorine-bleach__33a0308671.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\no-chlorine-bleach__33a0308671.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/no-chlorine-bleach__33a0308671.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/tumble_dried_low_ht.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "tumble-dried-low-ht__cd432a52a7.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "b5fb112a29efca36c0a736eb588a8a367fb30bac",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/tumble-dried-low-ht__cd432a52a7.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/ma_150_iron.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "ma-150-iron__78883199be.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\ma-150-iron__78883199be.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97794,
+      "sha1": "f5a4fac2b95005ea49edbeb1b6de2be8abcea782",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\ma-150-iron__78883199be.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/ma-150-iron__78883199be.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/dry_cleaning.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "dry-cleaning__6e8a85520f.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\dry-cleaning__6e8a85520f.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "d8d03b8658bc4f973c36cb18f135e6b56f318f6c",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\dry-cleaning__6e8a85520f.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/dry-cleaning__6e8a85520f.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/arneo-light-r400-ds.pdf",
+      "kind": "document",
+      "folder": "documents",
+      "filename": "arneo-light-r400-ds__05508fb3a0.pdf",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\documents\\arneo-light-r400-ds__05508fb3a0.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "size_bytes": 255580,
+      "sha1": "1d307c88a3cecfe210228a5005e237d32bb21431",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\documents\\arneo-light-r400-ds__05508fb3a0.pdf",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/documents/arneo-light-r400-ds__05508fb3a0.pdf"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/protection_arneo/arneo20.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arneo20__cca1151fa5.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arneo-light-r400\\images\\arneo20__cca1151fa5.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 295960,
+      "sha1": "50f4817137cf78d454805302d3b8877c60bad6cd",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arneo-light-r400\\images\\arneo20__cca1151fa5.jpg",
+      "public_url": "/ariteks/fabrics/arneo-light-r400/images/arneo20__cca1151fa5.jpg"
+    }
+  ],
+  "pdf_text_items": []
+}
