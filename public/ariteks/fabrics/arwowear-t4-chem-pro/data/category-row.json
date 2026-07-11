@@ -1,0 +1,193 @@
+{
+  "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+  "row_index": 673,
+  "group": {
+    "title": "Vat Dyed Workwear Fabrics Resistant to Industrial Chemicals",
+    "row_index": 650,
+    "row_text": "Vat Dyed Workwear Fabrics Resistant to Industrial Chemicals",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArWoWear_Chem_pro_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Vat Dyed Workwear Fabrics Resistant to Industrial Chemicals",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-chem-pro\\documents\\arwowear-chem-pro-ru-ds-ver2__7e0a605a1e.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-chem-pro\\documents\\arwowear-chem-pro-ru-ds-ver2__7e0a605a1e.pdf",
+        "public_url": "/ariteks/fabrics/arwowear-t4-chem-pro/documents/arwowear-chem-pro-ru-ds-ver2__7e0a605a1e.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 237760,
+        "sha1": "1b1fcbb681188b48940c5136ecc7419ebc57fdd1"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/ArWoWear_Chem_pro_ver2_s.jpg",
+        "alt": "Chemical Resistant Workwear Fabrics",
+        "title": "Chemical Resistant Workwear Fabrics",
+        "context_text": "Vat Dyed Workwear Fabrics Resistant to Industrial Chemicals",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-chem-pro\\images\\arwowear-chem-pro-ver2-s__6a5d5de416.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-chem-pro\\images\\arwowear-chem-pro-ver2-s__6a5d5de416.jpg",
+        "public_url": "/ariteks/fabrics/arwowear-t4-chem-pro/images/arwowear-chem-pro-ver2-s__6a5d5de416.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "f947783899f5292e76775f84d6773693c02ee846"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArWoWear_Chem_pro_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Vat Dyed Workwear Fabrics Resistant to Industrial Chemicals",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-chem-pro\\documents\\arwowear-chem-pro-ru-ds-ver2__7e0a605a1e.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-chem-pro\\documents\\arwowear-chem-pro-ru-ds-ver2__7e0a605a1e.pdf",
+        "public_url": "/ariteks/fabrics/arwowear-t4-chem-pro/documents/arwowear-chem-pro-ru-ds-ver2__7e0a605a1e.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 237760,
+        "sha1": "1b1fcbb681188b48940c5136ecc7419ebc57fdd1"
+      }
+    ]
+  },
+  "product_name_from_category": "ArWoWear T4 Chem Pro",
+  "product_url": "https://www.ariteks.net/arwowear-t4-chem-pro.asp",
+  "row_text": "200 g/m² 65% PES 35% CO ArWoWear T4 Chem Pro 3/1S Twill",
+  "cells": [
+    "200 g/m²",
+    "65% PES 35% CO",
+    "ArWoWear T4 Chem Pro",
+    "3/1S Twill"
+  ],
+  "summary": {
+    "weight": "200 g/m²",
+    "composition": "65% PES 35% CO",
+    "weave": "3/1S Twill"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13034.jpg",
+      "alt": "EN 13034",
+      "title": "EN 13034",
+      "context_text": "200 g/m² 65% PES 35% CO ArWoWear T4 Chem Pro 2/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-chem-pro\\images\\en-13034__dada5c48c8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-chem-pro\\images\\en-13034__dada5c48c8.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-chem-pro/images/en-13034__dada5c48c8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15794,
+      "sha1": "9bca423c1a66eca10ece172dd3380d1312388311"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "3/1S Twill",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/woven.jpg",
+        "alt": "Woven Fabric",
+        "title": "Woven Fabric",
+        "context_text": "2/1S Twill",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-chem-pro\\images\\woven__c0215fa432.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-chem-pro\\images\\woven__c0215fa432.jpg",
+        "public_url": "/ariteks/fabrics/arwowear-t4-chem-pro/images/woven__c0215fa432.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 21209,
+        "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(255, 128, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 128, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(210, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 0, 128)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(27, 18 , 73)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(195, 195, 195)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13034.jpg",
+      "alt": "EN 13034",
+      "title": "EN 13034",
+      "context_text": "200 g/m² 65% PES 35% CO ArWoWear T4 Chem Pro 2/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-chem-pro\\images\\en-13034__dada5c48c8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-chem-pro\\images\\en-13034__dada5c48c8.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-chem-pro/images/en-13034__dada5c48c8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15794,
+      "sha1": "9bca423c1a66eca10ece172dd3380d1312388311"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/woven.jpg",
+      "alt": "Woven Fabric",
+      "title": "Woven Fabric",
+      "context_text": "2/1S Twill",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-chem-pro\\images\\woven__c0215fa432.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-chem-pro\\images\\woven__c0215fa432.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-chem-pro/images/woven__c0215fa432.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21209,
+      "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arwowear-t4-chem-pro.asp",
+      "label": "ArWoWear T4 Chem Pro",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArWoWear T4 Chem Pro",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}
