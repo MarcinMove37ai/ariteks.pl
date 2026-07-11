@@ -1,0 +1,239 @@
+{
+  "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+  "row_index": 378,
+  "group": {
+    "title": "Woven like Knit Fabrics for Bodywarmers, Jackets and Raincoats",
+    "row_index": 351,
+    "row_text": "Woven like Knit Fabrics for Bodywarmers, Jackets and Raincoats",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/Arbir_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Woven like Knit Fabrics for Bodywarmers, Jackets and Raincoats",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\documents\\arbir-ru-ds-ver2__7beddfe03e.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\documents\\arbir-ru-ds-ver2__7beddfe03e.pdf",
+        "public_url": "/ariteks/fabrics/arbir-su-itici/documents/arbir-ru-ds-ver2__7beddfe03e.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 172160,
+        "sha1": "3d09d90492b770bc5d956dbca7c9525efcb92086"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/arbir_ver2_s.jpg",
+        "alt": "Woven Like Knit Fabrics",
+        "title": "Woven Like Knit Fabrics",
+        "context_text": "Woven like Knit Fabrics for Bodywarmers, Jackets and Raincoats",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\images\\arbir-ver2-s__3039ae728e.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\images\\arbir-ver2-s__3039ae728e.jpg",
+        "public_url": "/ariteks/fabrics/arbir-su-itici/images/arbir-ver2-s__3039ae728e.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "970740640aa84a6e347ed650d0e18fdbac15ef8e"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/Arbir_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Woven like Knit Fabrics for Bodywarmers, Jackets and Raincoats",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\documents\\arbir-ru-ds-ver2__7beddfe03e.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\documents\\arbir-ru-ds-ver2__7beddfe03e.pdf",
+        "public_url": "/ariteks/fabrics/arbir-su-itici/documents/arbir-ru-ds-ver2__7beddfe03e.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 172160,
+        "sha1": "3d09d90492b770bc5d956dbca7c9525efcb92086"
+      }
+    ]
+  },
+  "product_name_from_category": "ArBir Su İtici",
+  "product_url": "https://www.ariteks.net/arbir-su-itici.asp",
+  "row_text": "140 g/m² 100% PES ArBir Su İtici ArBir Su İtici Warp Knit Plain Warp Knit Plain 140 g/m² 100% PES ArBir Warp Knit Plain Warp Knit Plain ArBir",
+  "cells": [
+    "140 g/m²",
+    "100% PES",
+    "ArBir Su İtici",
+    "Warp Knit Plain"
+  ],
+  "summary": {
+    "weight": "140 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "EN 20471",
+      "title": "EN 20471",
+      "context_text": "140 g/m² 100% PES ArBir Su İtici Warp Knit Plain",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/arbir-su-itici/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13034.jpg",
+      "alt": "EN 13034",
+      "title": "EN 13034",
+      "context_text": "140 g/m² 100% PES ArBir Su İtici Warp Knit Plain",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\images\\en-13034__dada5c48c8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\images\\en-13034__dada5c48c8.jpg",
+      "public_url": "/ariteks/fabrics/arbir-su-itici/images/en-13034__dada5c48c8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15794,
+      "sha1": "9bca423c1a66eca10ece172dd3380d1312388311"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Warp Knit Plain",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+        "alt": "Warp Knit Fabric",
+        "title": "Warp Knit Fabric",
+        "context_text": "Warp Knit Plain",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\images\\warp-knit__22376b13e5.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\images\\warp-knit__22376b13e5.jpg",
+        "public_url": "/ariteks/fabrics/arbir-su-itici/images/warp-knit__22376b13e5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 28297,
+        "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(255, 250, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(223, 251, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 110, 6)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(164, 13, 20)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(61, 91, 133)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(27, 18, 73)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 91, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(195, 195, 195)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(31, 31, 201)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "EN 20471",
+      "title": "EN 20471",
+      "context_text": "140 g/m² 100% PES ArBir Su İtici Warp Knit Plain",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/arbir-su-itici/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13034.jpg",
+      "alt": "EN 13034",
+      "title": "EN 13034",
+      "context_text": "140 g/m² 100% PES ArBir Su İtici Warp Knit Plain",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\images\\en-13034__dada5c48c8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\images\\en-13034__dada5c48c8.jpg",
+      "public_url": "/ariteks/fabrics/arbir-su-itici/images/en-13034__dada5c48c8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15794,
+      "sha1": "9bca423c1a66eca10ece172dd3380d1312388311"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+      "alt": "Warp Knit Fabric",
+      "title": "Warp Knit Fabric",
+      "context_text": "Warp Knit Plain",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arbir-su-itici\\images\\warp-knit__22376b13e5.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arbir-su-itici\\images\\warp-knit__22376b13e5.jpg",
+      "public_url": "/ariteks/fabrics/arbir-su-itici/images/warp-knit__22376b13e5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28297,
+      "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arbir-su-itici.asp",
+      "label": "ArBir Su İtici",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArBir Su İtici",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}
