@@ -1,0 +1,207 @@
+{
+  "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+  "row_index": 234,
+  "group": {
+    "title": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "row_index": 20,
+    "row_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/Arneo_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+        "public_url": "/ariteks/fabrics/arshirt-neo/documents/arneo-ru-ds-ver2__c1069fddab.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 226773,
+        "sha1": "35939d7d49f88dec7c2938fc6073dfcd487f90bb"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/arneo_ver2_s.jpg",
+        "alt": "High Visible Warp Knit Fabric",
+        "title": "High Visible Warp Knit Fabric",
+        "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/arneo-ver2-s__6cf64b11d9.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "2a9dfd5fd703b91725349948156cb873d5830235"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/Arneo_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+        "public_url": "/ariteks/fabrics/arshirt-neo/documents/arneo-ru-ds-ver2__c1069fddab.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 226773,
+        "sha1": "35939d7d49f88dec7c2938fc6073dfcd487f90bb"
+      }
+    ]
+  },
+  "product_name_from_category": "ArShirt Neo",
+  "product_url": "https://www.ariteks.net/arshirt-neo.asp",
+  "row_text": "220 g/m² 100% CO ArShirt Neo ArShirt Neo Pique 100% Cotton Vat Dyed, Antistatic and Modacrylic Inherent Flame Retardant Knit Fabrics 100% Cotton Fluorescent Knit Fabrics 100% Cotton Fluorescent Knit Fabrics 100% Cotton Fluorescent Knit Fabrics",
+  "cells": [
+    "220 g/m²",
+    "100% CO",
+    "ArShirt Neo",
+    "Pique"
+  ],
+  "summary": {
+    "weight": "220 g/m²",
+    "composition": "100% CO",
+    "weave": "Pique"
+  },
+  "technology_partners": [],
+  "function_icons": [],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Pique",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/knit.jpg",
+        "alt": "Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Pique",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\knit__71fef29325.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\knit__71fef29325.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/knit__71fef29325.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 26737,
+        "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(255, 255, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 110, 6)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(202, 251, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(163, 73, 164)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 0, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [
+    {
+      "url": "https://www.ariteks.net/pdf/ArShirt_ArSuprem_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "100% Cotton Vat Dyed, Antistatic and Modacrylic Inherent Flame Retardant Knit Fabrics",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "public_url": "/ariteks/fabrics/arshirt-neo/documents/arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 324400,
+      "sha1": "9170fdc1c2b3fbf370fefd90cd626b1562c01be7"
+    }
+  ],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "alt": "Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Pique",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\knit__71fef29325.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/knit__71fef29325.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/arshirt_arsuprem_ver2_s.jpg",
+      "alt": "Modacrylic Inherent Flame Retardant Knit Fabrics",
+      "title": "Modacrylic Inherent Flame Retardant Knit Fabrics",
+      "context_text": "100% Cotton Vat Dyed, Antistatic and Modacrylic Inherent Flame Retardant Knit Fabrics",
+      "classification": "product_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-arsuprem-ver2-s__760059a516.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-arsuprem-ver2-s__760059a516.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-arsuprem-ver2-s__760059a516.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 48054,
+      "sha1": "cb35b286a5772ab1171f0cc17ab528a73530a1ce"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arshirt-neo.asp",
+      "label": "ArShirt Neo",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArShirt Neo",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/ArShirt_ArSuprem_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "100% Cotton Vat Dyed, Antistatic and Modacrylic Inherent Flame Retardant Knit Fabrics",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "public_url": "/ariteks/fabrics/arshirt-neo/documents/arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 324400,
+      "sha1": "9170fdc1c2b3fbf370fefd90cd626b1562c01be7"
+    }
+  ]
+}

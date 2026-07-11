@@ -1,0 +1,2392 @@
+{
+  "generated_at": "2026-07-10T17:47:06",
+  "source": {
+    "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+    "product_url": "https://www.ariteks.net/arshirt-neo.asp"
+  },
+  "category_row": {
+    "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+    "row_index": 234,
+    "group": {
+      "title": "High Visible Warp Knit Fabrics for Safety Jackets",
+      "row_index": 20,
+      "row_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+      "documents": [
+        {
+          "url": "https://www.ariteks.net/pdf/Arneo_ru_ds_ver2.pdf",
+          "label": "",
+          "title": "",
+          "is_asset": true,
+          "is_document": true,
+          "is_image": false,
+          "is_product_page": false,
+          "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+          "public_url": "/ariteks/fabrics/arshirt-neo/documents/arneo-ru-ds-ver2__c1069fddab.pdf",
+          "content_type": "application/pdf",
+          "size_bytes": 226773,
+          "sha1": "35939d7d49f88dec7c2938fc6073dfcd487f90bb"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.ariteks.net/images/product/arneo_ver2_s.jpg",
+          "alt": "High Visible Warp Knit Fabric",
+          "title": "High Visible Warp Knit Fabric",
+          "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+          "classification": "application_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/arneo-ver2-s__6cf64b11d9.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 48054,
+          "sha1": "2a9dfd5fd703b91725349948156cb873d5830235"
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.ariteks.net/pdf/Arneo_ru_ds_ver2.pdf",
+          "label": "",
+          "title": "",
+          "is_asset": true,
+          "is_document": true,
+          "is_image": false,
+          "is_product_page": false,
+          "context_text": "High Visible Warp Knit Fabrics for Safety Jackets",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+          "public_url": "/ariteks/fabrics/arshirt-neo/documents/arneo-ru-ds-ver2__c1069fddab.pdf",
+          "content_type": "application/pdf",
+          "size_bytes": 226773,
+          "sha1": "35939d7d49f88dec7c2938fc6073dfcd487f90bb"
+        }
+      ]
+    },
+    "product_name_from_category": "ArShirt Neo",
+    "product_url": "https://www.ariteks.net/arshirt-neo.asp",
+    "row_text": "220 g/m² 100% CO ArShirt Neo ArShirt Neo Pique 100% Cotton Vat Dyed, Antistatic and Modacrylic Inherent Flame Retardant Knit Fabrics 100% Cotton Fluorescent Knit Fabrics 100% Cotton Fluorescent Knit Fabrics 100% Cotton Fluorescent Knit Fabrics",
+    "cells": [
+      "220 g/m²",
+      "100% CO",
+      "ArShirt Neo",
+      "Pique"
+    ],
+    "summary": {
+      "weight": "220 g/m²",
+      "composition": "100% CO",
+      "weave": "Pique"
+    },
+    "technology_partners": [],
+    "function_icons": [],
+    "certificate_badges": [],
+    "structure": {
+      "name": "Pique",
+      "images": [
+        {
+          "url": "https://www.ariteks.net/images/structures/knit.jpg",
+          "alt": "Knit Fabric",
+          "title": "Knit Fabric",
+          "context_text": "Pique",
+          "classification": "structure_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\knit__71fef29325.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\knit__71fef29325.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/knit__71fef29325.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 26737,
+          "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+        }
+      ]
+    },
+    "color_swatches": [
+      {
+        "color_value": "rgb(255, 255, 0)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      },
+      {
+        "color_value": "rgb(255, 110, 6)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      },
+      {
+        "color_value": "rgb(255, 0, 0)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      },
+      {
+        "color_value": "rgb(202, 251, 0)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      },
+      {
+        "color_value": "rgb(163, 73, 164)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      },
+      {
+        "color_value": "rgb(0, 0, 255)",
+        "label": "",
+        "source": "bgcolor_or_style"
+      }
+    ],
+    "row_documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArShirt_ArSuprem_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "100% Cotton Vat Dyed, Antistatic and Modacrylic Inherent Flame Retardant Knit Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+        "public_url": "/ariteks/fabrics/arshirt-neo/documents/arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 324400,
+        "sha1": "9170fdc1c2b3fbf370fefd90cd626b1562c01be7"
+      }
+    ],
+    "row_images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/knit.jpg",
+        "alt": "Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Pique",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\knit__71fef29325.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\knit__71fef29325.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/knit__71fef29325.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 26737,
+        "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/arshirt_arsuprem_ver2_s.jpg",
+        "alt": "Modacrylic Inherent Flame Retardant Knit Fabrics",
+        "title": "Modacrylic Inherent Flame Retardant Knit Fabrics",
+        "context_text": "100% Cotton Vat Dyed, Antistatic and Modacrylic Inherent Flame Retardant Knit Fabrics",
+        "classification": "product_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-arsuprem-ver2-s__760059a516.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-arsuprem-ver2-s__760059a516.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-arsuprem-ver2-s__760059a516.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "cb35b286a5772ab1171f0cc17ab528a73530a1ce"
+      }
+    ],
+    "row_links": [
+      {
+        "url": "https://www.ariteks.net/arshirt-neo.asp",
+        "label": "ArShirt Neo",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "ArShirt Neo",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/pdf/ArShirt_ArSuprem_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "100% Cotton Vat Dyed, Antistatic and Modacrylic Inherent Flame Retardant Knit Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+        "public_url": "/ariteks/fabrics/arshirt-neo/documents/arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 324400,
+        "sha1": "9170fdc1c2b3fbf370fefd90cd626b1562c01be7"
+      }
+    ]
+  },
+  "product_page": {
+    "source_url": "https://www.ariteks.net/arshirt-neo.asp",
+    "source_category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+    "commercial_name": "ArShirt Neo",
+    "product_name": "ArShirt Neo",
+    "title_descriptor": "Cotton Fluorescent Pique Fabric",
+    "slug": "arshirt-neo",
+    "page_title": "Cotton Fluorescent Pique Fabric - ArShirt Neo - Ariteks",
+    "spec_line": "220 g/m², 100% Cotton, Pique, High Visible Knit Fabric",
+    "description_blocks": [
+      "ArShirt Neo is 100% cotton pique knit fabric with neon fluorescent colors. Arıteks developed a new process to dye 100% cotton with fluorescent colors.",
+      "Cotton Fluorescent Pique Fabric"
+    ],
+    "technical_parameters": [
+      {
+        "name": "Fiber",
+        "value": "100% Cotton (CO)",
+        "standard": "EN ISO 2076",
+        "source_table_index": 6
+      },
+      {
+        "name": "Yarn",
+        "value": "20/1 Ne Combed",
+        "standard": "EN ISO 2060",
+        "source_table_index": 6
+      },
+      {
+        "name": "Weight",
+        "value": "220 ±5 g/m²",
+        "standard": "EN ISO 3081",
+        "source_table_index": 6
+      },
+      {
+        "name": "Width",
+        "value": "1800 ±20 mm",
+        "standard": "EN ISO 3932",
+        "source_table_index": 6
+      },
+      {
+        "name": "Bursting strength",
+        "value": "> 1000 kPa(kN/m² )",
+        "standard": "EN ISO 13938-1",
+        "source_table_index": 6
+      },
+      {
+        "name": "Dimensional Change",
+        "value": "-5% < Length < +5% ; -5% < Width < +5%",
+        "standard": "EN ISO 5077",
+        "source_table_index": 6
+      },
+      {
+        "name": "Rubbing Fastness",
+        "value": "3",
+        "standard": "EN ISO 105 X12",
+        "source_table_index": 6
+      },
+      {
+        "name": "Perspiration Fastness",
+        "value": "3-4",
+        "standard": "EN ISO 105 E04",
+        "source_table_index": 6
+      },
+      {
+        "name": "Washing Fastness",
+        "value": "3-4",
+        "standard": "EN ISO 105 C06",
+        "source_table_index": 6
+      },
+      {
+        "name": "Dry Cleaning Fastness",
+        "value": "3-4",
+        "standard": "EN ISO 105 D01",
+        "source_table_index": 6
+      },
+      {
+        "name": "Hypochlorite Fastness",
+        "value": "3-4",
+        "standard": "EN ISO 105 N01",
+        "source_table_index": 6
+      },
+      {
+        "name": "Peroxide Fastness",
+        "value": "3-4",
+        "standard": "EN ISO 105 N02",
+        "source_table_index": 6
+      },
+      {
+        "name": "Hot Press Fastness",
+        "value": "3",
+        "standard": "EN ISO 105 X11",
+        "source_table_index": 6
+      },
+      {
+        "name": "Light Fastness",
+        "value": "3",
+        "standard": "EN ISO 105 B02",
+        "source_table_index": 6
+      },
+      {
+        "name": "Perspiration Light Fast.",
+        "value": "3-4",
+        "standard": "EN ISO 105 B07",
+        "source_table_index": 6
+      },
+      {
+        "name": "pH",
+        "value": "6.0",
+        "standard": "EN ISO 3071",
+        "source_table_index": 6
+      },
+      {
+        "name": "Azo Test",
+        "value": "No Azo Colorants.",
+        "standard": "EN ISO 14362-1",
+        "source_table_index": 6
+      },
+      {
+        "name": "Application",
+        "value": "T-Shirt",
+        "standard": "",
+        "source_table_index": 6
+      },
+      {
+        "name": "Quality Management",
+        "value": "Done",
+        "standard": "ISO 9001",
+        "source_table_index": 6
+      }
+    ],
+    "technical_documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/arshirt-neo-ds.pdf",
+        "label": ">> ArShirt Neo Data Sheet",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Technical Parameters Fiber 100% Cotton (CO) EN ISO 2076 Yarn 20/1 Ne Combed EN ISO 2060 Weight 220 ±5 g/m² EN ISO 3081 Width 1800 ±20 mm EN ISO 3932 Bursting strength > 1000 kPa(kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 3 EN ISO 105 X12 Perspiration Fastness 3-4 EN ISO 105 E04 Washing Fastness 3-4 EN ISO 105 C06 Dry Cleaning Fastness 3-4 EN ISO 105 D01 Hypochlorite Fastness 3-4 EN ISO 105 N01 Peroxide Fastness 3-4 EN ISO 105 N02 Hot Press Fastness 3 EN ISO 105 X11 Light Fastness 3 EN ISO 105 B02 Perspiration Light Fast. 3-4 EN ISO 105 B07 pH 6.0 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application T-Shirt Quality Management Done ISO 9001 Technical Documents >> ArShirt Neo Data Sheet Certificates",
+        "document_kind": "data_sheet",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arshirt-neo-ds__58c11a149a.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arshirt-neo-ds__58c11a149a.pdf",
+        "public_url": "/ariteks/fabrics/arshirt-neo/documents/arshirt-neo-ds__58c11a149a.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 257670,
+        "sha1": "61d7d91bd5a8621eea980c012167103fae299a0d"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+        "alt": "Turkish",
+        "title": "Turkish",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\tr-s__2229569dd5.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\tr-s__2229569dd5.png",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/tr-s__2229569dd5.png",
+        "content_type": "image/png",
+        "size_bytes": 17432,
+        "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+      },
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+        "alt": "Russian",
+        "title": "Russian",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ru-s__28dde2a24b.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ru-s__28dde2a24b.png",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/ru-s__28dde2a24b.png",
+        "content_type": "image/png",
+        "size_bytes": 11546,
+        "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+      },
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+        "alt": "English",
+        "title": "English",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\en-s__0126e84202.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\en-s__0126e84202.png",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/en-s__0126e84202.png",
+        "content_type": "image/png",
+        "size_bytes": 19703,
+        "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+      },
+      {
+        "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+        "alt": "Arıteks Logo",
+        "title": "",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 38222,
+        "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+      },
+      {
+        "url": "https://www.ariteks.net/images/techteksposters/protection_m.jpg",
+        "alt": "Protection Technical Textiles",
+        "title": "Protection Technical Textiles",
+        "context_text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.",
+        "classification": "category_banner",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\protection-m__4be43ea90a.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\protection-m__4be43ea90a.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/protection-m__4be43ea90a.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 1853151,
+        "sha1": "f564b17d0c2bdc1aadb9ce74f47e82397478eb64"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/arshirt_neo_main_pic_m.jpg",
+        "alt": "100% Cotton Fluorescent",
+        "title": "100% Cotton Fluorescent",
+        "context_text": "ArShirt Neo is 100% cotton pique knit fabric with neon fluorescent colors. Arıteks developed a new process to dye 100% cotton with fluorescent colors.",
+        "classification": "hero_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-neo-main-pic-m__4607c1e33c.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-neo-main-pic-m__4607c1e33c.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-neo-main-pic-m__4607c1e33c.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 76685,
+        "sha1": "c0827a7db6955f24f2c2c12c8971da8789f175fd"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/protection_arshirt/arshirt_neo_m.jpg",
+        "alt": "%100 Cotton Hivis T-Shirt",
+        "title": "%100 Cotton Hivis T-Shirt",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-neo-m__c0f819b9e7.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-neo-m__c0f819b9e7.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-neo-m__c0f819b9e7.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 41063,
+        "sha1": "1d4e5125d739f767a65889b9a1a6d78516b817b8"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-sari-floresan-tshirt-m.jpg",
+        "alt": "Flourosescent Yellow T Shirt",
+        "title": "Fluorescent Yellow T Shirt",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 24884,
+        "sha1": "3d36805d8e9cf51da1b3a4740f97a6197d4cc931"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-oranj-floresan-tshirt-m.jpg",
+        "alt": "Flourosescent Orange T Shirt",
+        "title": "Fluorescent Orange T Shirt",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 24742,
+        "sha1": "608dd4d47df17c484816885e1f3a814cc0c9c93f"
+      },
+      {
+        "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+        "alt": "Oeko Tex Standard 100",
+        "title": "Oeko Tex Standard 100",
+        "context_text": "Functions",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/oekoteks-standard-100-s__ea5e91d474.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 54001,
+        "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/60_mach_wash_ma_agi.jpg",
+        "alt": "60'C Machine Wash",
+        "title": "60'C Machine Wash",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/60-mach-wash-ma-agi__cdc86ecf03.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "5172828b46e8d14500d23799c64ca5370bcf514b"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+        "alt": "No Chlorine Based Bleaching",
+        "title": "No Chlorine Based Bleaching",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\no-chlorine-bleach__33a0308671.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\no-chlorine-bleach__33a0308671.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/no-chlorine-bleach__33a0308671.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/tumble_dried_low_ht.jpg",
+        "alt": "Can Be Tumble Dried On Low Heat Setting",
+        "title": "Can Be Tumble Dried On Low Heat Setting",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/tumble-dried-low-ht__cd432a52a7.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "b5fb112a29efca36c0a736eb588a8a367fb30bac"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/ma_150_iron.jpg",
+        "alt": "Maximum 150'C Warm Iron",
+        "title": "Maximum 150'C Warm Iron",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ma-150-iron__78883199be.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ma-150-iron__78883199be.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/ma-150-iron__78883199be.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97794,
+        "sha1": "f5a4fac2b95005ea49edbeb1b6de2be8abcea782"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/dry_cleaning.jpg",
+        "alt": "Suitable for Dry Cleaning",
+        "title": "Suitable for Dry Cleaning",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\dry-cleaning__6e8a85520f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\dry-cleaning__6e8a85520f.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/dry-cleaning__6e8a85520f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "d8d03b8658bc4f973c36cb18f135e6b56f318f6c"
+      }
+    ],
+    "image_groups": {
+      "hero_images": [
+        {
+          "url": "https://www.ariteks.net/images/product/arshirt_neo_main_pic_m.jpg",
+          "alt": "100% Cotton Fluorescent",
+          "title": "100% Cotton Fluorescent",
+          "context_text": "ArShirt Neo is 100% cotton pique knit fabric with neon fluorescent colors. Arıteks developed a new process to dye 100% cotton with fluorescent colors.",
+          "classification": "hero_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-neo-main-pic-m__4607c1e33c.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-neo-main-pic-m__4607c1e33c.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-neo-main-pic-m__4607c1e33c.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 76685,
+          "sha1": "c0827a7db6955f24f2c2c12c8971da8789f175fd"
+        }
+      ],
+      "product_images": [],
+      "fabric_photos": [],
+      "application_images": [
+        {
+          "url": "https://www.ariteks.net/images/product/protection_arshirt/arshirt_neo_m.jpg",
+          "alt": "%100 Cotton Hivis T-Shirt",
+          "title": "%100 Cotton Hivis T-Shirt",
+          "context_text": "Applications",
+          "classification": "application_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-neo-m__c0f819b9e7.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-neo-m__c0f819b9e7.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-neo-m__c0f819b9e7.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 41063,
+          "sha1": "1d4e5125d739f767a65889b9a1a6d78516b817b8"
+        },
+        {
+          "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-sari-floresan-tshirt-m.jpg",
+          "alt": "Flourosescent Yellow T Shirt",
+          "title": "Fluorescent Yellow T Shirt",
+          "context_text": "Applications",
+          "classification": "application_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 24884,
+          "sha1": "3d36805d8e9cf51da1b3a4740f97a6197d4cc931"
+        },
+        {
+          "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-oranj-floresan-tshirt-m.jpg",
+          "alt": "Flourosescent Orange T Shirt",
+          "title": "Fluorescent Orange T Shirt",
+          "context_text": "Applications",
+          "classification": "application_image",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 24742,
+          "sha1": "608dd4d47df17c484816885e1f3a814cc0c9c93f"
+        }
+      ],
+      "function_icons": [
+        {
+          "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+          "alt": "Oeko Tex Standard 100",
+          "title": "Oeko Tex Standard 100",
+          "context_text": "Functions",
+          "classification": "function_icon",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/oekoteks-standard-100-s__ea5e91d474.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 54001,
+          "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854"
+        }
+      ],
+      "certificate_badges": [],
+      "care_instructions": [
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/60_mach_wash_ma_agi.jpg",
+          "alt": "60'C Machine Wash",
+          "title": "60'C Machine Wash",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/60-mach-wash-ma-agi__cdc86ecf03.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97254,
+          "sha1": "5172828b46e8d14500d23799c64ca5370bcf514b"
+        },
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+          "alt": "No Chlorine Based Bleaching",
+          "title": "No Chlorine Based Bleaching",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\no-chlorine-bleach__33a0308671.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\no-chlorine-bleach__33a0308671.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/no-chlorine-bleach__33a0308671.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97254,
+          "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52"
+        },
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/tumble_dried_low_ht.jpg",
+          "alt": "Can Be Tumble Dried On Low Heat Setting",
+          "title": "Can Be Tumble Dried On Low Heat Setting",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/tumble-dried-low-ht__cd432a52a7.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97254,
+          "sha1": "b5fb112a29efca36c0a736eb588a8a367fb30bac"
+        },
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/ma_150_iron.jpg",
+          "alt": "Maximum 150'C Warm Iron",
+          "title": "Maximum 150'C Warm Iron",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ma-150-iron__78883199be.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ma-150-iron__78883199be.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/ma-150-iron__78883199be.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97794,
+          "sha1": "f5a4fac2b95005ea49edbeb1b6de2be8abcea782"
+        },
+        {
+          "url": "https://www.ariteks.net/images/care_instructions/dry_cleaning.jpg",
+          "alt": "Suitable for Dry Cleaning",
+          "title": "Suitable for Dry Cleaning",
+          "context_text": "Care Instructions",
+          "classification": "care_instruction",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\dry-cleaning__6e8a85520f.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\dry-cleaning__6e8a85520f.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/dry-cleaning__6e8a85520f.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 97254,
+          "sha1": "d8d03b8658bc4f973c36cb18f135e6b56f318f6c"
+        }
+      ],
+      "structure_images": [],
+      "technology_partners": [],
+      "category_banners": [
+        {
+          "url": "https://www.ariteks.net/images/techteksposters/protection_m.jpg",
+          "alt": "Protection Technical Textiles",
+          "title": "Protection Technical Textiles",
+          "context_text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.",
+          "classification": "category_banner",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\protection-m__4be43ea90a.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\protection-m__4be43ea90a.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/protection-m__4be43ea90a.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 1853151,
+          "sha1": "f564b17d0c2bdc1aadb9ce74f47e82397478eb64"
+        }
+      ],
+      "layout_assets": [
+        {
+          "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+          "alt": "Turkish",
+          "title": "Turkish",
+          "context_text": "",
+          "classification": "layout_asset",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\tr-s__2229569dd5.png",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\tr-s__2229569dd5.png",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/tr-s__2229569dd5.png",
+          "content_type": "image/png",
+          "size_bytes": 17432,
+          "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+        },
+        {
+          "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+          "alt": "Russian",
+          "title": "Russian",
+          "context_text": "",
+          "classification": "layout_asset",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ru-s__28dde2a24b.png",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ru-s__28dde2a24b.png",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/ru-s__28dde2a24b.png",
+          "content_type": "image/png",
+          "size_bytes": 11546,
+          "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+        },
+        {
+          "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+          "alt": "English",
+          "title": "English",
+          "context_text": "",
+          "classification": "layout_asset",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\en-s__0126e84202.png",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\en-s__0126e84202.png",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/en-s__0126e84202.png",
+          "content_type": "image/png",
+          "size_bytes": 19703,
+          "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+        },
+        {
+          "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+          "alt": "Arıteks Logo",
+          "title": "",
+          "context_text": "",
+          "classification": "layout_asset",
+          "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+          "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+          "public_url": "/ariteks/fabrics/arshirt-neo/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+          "content_type": "image/jpeg",
+          "size_bytes": 38222,
+          "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+        }
+      ],
+      "other_images": []
+    },
+    "colors_and_articles": [
+      {
+        "color": "Yellow",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "PF-24217",
+        "raw_lines": {
+          "color": "Yellow",
+          "code_or_pind": "",
+          "finish": "",
+          "article_number": "PF-24217"
+        }
+      },
+      {
+        "color": "Orange",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "PF-33324",
+        "raw_lines": {
+          "color": "Orange",
+          "code_or_pind": "",
+          "finish": "",
+          "article_number": "PF-33324"
+        }
+      },
+      {
+        "color": "Red",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "PF-33325",
+        "raw_lines": {
+          "color": "Red",
+          "code_or_pind": "",
+          "finish": "",
+          "article_number": "PF-33325"
+        }
+      },
+      {
+        "color": "Green",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "PF-64879",
+        "raw_lines": {
+          "color": "Green",
+          "code_or_pind": "",
+          "finish": "",
+          "article_number": "PF-64879"
+        }
+      },
+      {
+        "color": "Violet",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "PF-48508",
+        "raw_lines": {
+          "color": "Violet",
+          "code_or_pind": "",
+          "finish": "",
+          "article_number": "PF-48508"
+        }
+      },
+      {
+        "color": "Blue",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "PF-57778",
+        "raw_lines": {
+          "color": "Blue",
+          "code_or_pind": "",
+          "finish": "",
+          "article_number": "PF-57778"
+        }
+      },
+      {
+        "color": "- STANDART -",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "ArShirt Neo-4000",
+        "raw_lines": {
+          "color": "- STANDART -",
+          "code_or_pind": "",
+          "finish": "",
+          "article_number": "ArShirt Neo-4000"
+        }
+      }
+    ],
+    "links": [
+      {
+        "url": "http://tr.ariteks.net/arshirt-neo.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "http://ru.ariteks.net/arshirt-neo.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "http://en.ariteks.net/arshirt-neo.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/mainpage.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/protection-technical-textiles.asp",
+        "label": "",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/pdf/arshirt-neo-ds.pdf",
+        "label": ">> ArShirt Neo Data Sheet",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Technical Parameters Fiber 100% Cotton (CO) EN ISO 2076 Yarn 20/1 Ne Combed EN ISO 2060 Weight 220 ±5 g/m² EN ISO 3081 Width 1800 ±20 mm EN ISO 3932 Bursting strength > 1000 kPa(kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 3 EN ISO 105 X12 Perspiration Fastness 3-4 EN ISO 105 E04 Washing Fastness 3-4 EN ISO 105 C06 Dry Cleaning Fastness 3-4 EN ISO 105 D01 Hypochlorite Fastness 3-4 EN ISO 105 N01 Peroxide Fastness 3-4 EN ISO 105 N02 Hot Press Fastness 3 EN ISO 105 X11 Light Fastness 3 EN ISO 105 B02 Perspiration Light Fast. 3-4 EN ISO 105 B07 pH 6.0 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application T-Shirt Quality Management Done ISO 9001 Technical Documents >> ArShirt Neo Data Sheet Certificates",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arshirt-neo-ds__58c11a149a.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arshirt-neo-ds__58c11a149a.pdf",
+        "public_url": "/ariteks/fabrics/arshirt-neo/documents/arshirt-neo-ds__58c11a149a.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 257670,
+        "sha1": "61d7d91bd5a8621eea980c012167103fae299a0d"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/protection_arshirt/arshirt_neo.jpg",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": false,
+        "is_image": true,
+        "is_product_page": false,
+        "context_text": "Applications",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-neo__2a53707789.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-neo__2a53707789.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-neo__2a53707789.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 1484652,
+        "sha1": "a8222b1d4d9a19264f55a413d78eee77cec58565"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-sari-floresan-tshirt.jpg",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": false,
+        "is_image": true,
+        "is_product_page": false,
+        "context_text": "Applications",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt__d725914a5f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt__d725914a5f.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-sari-floresan-tshirt__d725914a5f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 1878787,
+        "sha1": "e6aa27b05c641b7a5b4a7fd9c3f3f90a4136f4af"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-oranj-floresan-tshirt.jpg",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": false,
+        "is_image": true,
+        "is_product_page": false,
+        "context_text": "Applications",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt__61a7e19f77.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt__61a7e19f77.jpg",
+        "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-oranj-floresan-tshirt__61a7e19f77.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 2064567,
+        "sha1": "6424752ef017efa3bc67d37c7b7a34361570f861"
+      },
+      {
+        "url": "https://www.ariteks.net/products.asp",
+        "label": "Products",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Home > Products > Protection > ArShirt Neo",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/arshirt-neo.asp",
+        "label": "ArShirt Neo",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": true,
+        "context_text": "Home > Products > Protection > ArShirt Neo",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/apparel-fashion-textiles.asp",
+        "label": "APPAREL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/building-technical-textiles.asp",
+        "label": "BUILDING TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/home-technical-textiles.asp",
+        "label": "HOME TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/medical-technical-textiles.asp",
+        "label": "MEDICAL TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/sport-technical-textiles.asp",
+        "label": "SPORT TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/transport-technical-textiles.asp",
+        "label": "TRANSPORT TECHNICAL TEXTILES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/ariteksgrup.asp",
+        "label": "ARITEKS GROUP",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARITEKS GROUP SERVICES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile.asp",
+        "label": "SERVICES",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARITEKS GROUP SERVICES",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-uv-protection.asp",
+        "label": "UV PROTECTION",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-flame-retardant.asp",
+        "label": "FLAME RETARDANT",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-insect-repellent.asp",
+        "label": "INSECT REPELLENT",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-antibacterial.asp",
+        "label": "ANTIBACTERIAL",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/service-textile-water-and-soil-repellent.asp",
+        "label": "WATER REPELLENT",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/ardilight.asp",
+        "label": "ARDILIGHT",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/arneo-eco.asp",
+        "label": "ARNEO ECO",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "https://www.ariteks.net/arof-file.asp",
+        "label": "AROF FILE",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      },
+      {
+        "url": "http://www.ariteks.net",
+        "label": "www.ariteks.net",
+        "title": "",
+        "is_asset": false,
+        "is_document": false,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net",
+        "raw_local_path": "",
+        "public_local_path": "",
+        "public_url": "",
+        "content_type": "",
+        "size_bytes": "",
+        "sha1": ""
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 3,
+        "text_preview": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.",
+        "rows": [
+          [
+            "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics."
+          ]
+        ]
+      },
+      {
+        "table_index": 4,
+        "text_preview": "Protection Technical Textiles",
+        "rows": [
+          [
+            "Protection Technical Textiles"
+          ]
+        ]
+      },
+      {
+        "table_index": 5,
+        "text_preview": "ArShirt N e o 220 g/m² , 100% Cotton, Pique, High Visible Knit Fabric",
+        "rows": [
+          [
+            "ArShirt N e o"
+          ],
+          [
+            "220 g/m² , 100% Cotton, Pique, High Visible Knit Fabric"
+          ]
+        ]
+      },
+      {
+        "table_index": 6,
+        "text_preview": "Fiber 100% Cotton (CO) EN ISO 2076 Yarn 20/1 Ne Combed EN ISO 2060 Weight 220 ±5 g/m² EN ISO 3081 Width 1800 ±20 mm EN ISO 3932 Bursting strength > 1000 kPa(kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 3 EN ISO 105 X12 Perspiration Fastness 3-4 EN ISO 105 E04 Washing Fastness 3-4 EN ISO 105 C06 Dry Cleaning Fastness 3-4 EN ISO 105 D01 Hypochlorite Fastness 3-4 EN ISO 105 N01 Peroxide Fastness 3-4 EN ISO 105 N02 Hot Press Fastness 3 EN ISO 105 X11 Light Fastness 3 EN ISO 105 B02 Perspiration Light Fast. 3-4 EN ISO 105 B07 pH 6.0 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application T-Shirt Quality Management Done ISO",
+        "rows": [
+          [
+            "Fiber",
+            "100% Cotton (CO)",
+            "EN ISO 2076"
+          ],
+          [
+            "Yarn",
+            "20/1 Ne Combed",
+            "EN ISO 2060"
+          ],
+          [
+            "Weight",
+            "220 ±5 g/m²",
+            "EN ISO 3081"
+          ],
+          [
+            "Width",
+            "1800 ±20 mm",
+            "EN ISO 3932"
+          ],
+          [
+            "Bursting strength",
+            "> 1000 kPa(kN/m² )",
+            "EN ISO 13938-1"
+          ],
+          [
+            "Dimensional Change",
+            "-5% < Length < +5% ; -5% < Width < +5%",
+            "EN ISO 5077"
+          ],
+          [
+            "Rubbing Fastness",
+            "3",
+            "EN ISO 105 X12"
+          ],
+          [
+            "Perspiration Fastness",
+            "3-4",
+            "EN ISO 105 E04"
+          ],
+          [
+            "Washing Fastness",
+            "3-4",
+            "EN ISO 105 C06"
+          ],
+          [
+            "Dry Cleaning Fastness",
+            "3-4",
+            "EN ISO 105 D01"
+          ],
+          [
+            "Hypochlorite Fastness",
+            "3-4",
+            "EN ISO 105 N01"
+          ],
+          [
+            "Peroxide Fastness",
+            "3-4",
+            "EN ISO 105 N02"
+          ],
+          [
+            "Hot Press Fastness",
+            "3",
+            "EN ISO 105 X11"
+          ],
+          [
+            "Light Fastness",
+            "3",
+            "EN ISO 105 B02"
+          ],
+          [
+            "Perspiration Light Fast.",
+            "3-4",
+            "EN ISO 105 B07"
+          ],
+          [
+            "pH",
+            "6.0",
+            "EN ISO 3071"
+          ],
+          [
+            "Azo Test",
+            "No Azo Colorants.",
+            "EN ISO 14362-1"
+          ],
+          [
+            "Application",
+            "T-Shirt"
+          ],
+          [
+            "Quality Management",
+            "Done",
+            "ISO 9001"
+          ]
+        ]
+      },
+      {
+        "table_index": 7,
+        "text_preview": "Yellow PF-24217-1 - HIGH VISIBLE - ArShirt Neo-3995 Orange PF-33324-1 - HIGH VISIBLE - ArShirt Neo-3996 Red PF-33325-1 - HIGH VISIBLE - ArShirt Neo-3997 Green PF-64879-1 - HIGH VISIBLE - ArShirt Neo-3999 Violet PF-48508-1 - HIGH VISIBLE - ArShirt Neo-3998 Blue PF-57778-1 - STANDART - ArShirt Neo-4000",
+        "rows": [
+          [
+            "Yellow",
+            "PF-24217-1",
+            "- HIGH VISIBLE -",
+            "ArShirt Neo-3995"
+          ],
+          [
+            "Orange",
+            "PF-33324-1",
+            "- HIGH VISIBLE -",
+            "ArShirt Neo-3996"
+          ],
+          [
+            "Red",
+            "PF-33325-1",
+            "- HIGH VISIBLE -",
+            "ArShirt Neo-3997"
+          ],
+          [
+            "Green",
+            "PF-64879-1",
+            "- HIGH VISIBLE -",
+            "ArShirt Neo-3999"
+          ],
+          [
+            "Violet",
+            "PF-48508-1",
+            "- HIGH VISIBLE -",
+            "ArShirt Neo-3998"
+          ],
+          [
+            "Blue",
+            "PF-57778-1",
+            "- STANDART -",
+            "ArShirt Neo-4000"
+          ]
+        ]
+      },
+      {
+        "table_index": 8,
+        "text_preview": "Home > Products > Protection > ArShirt Neo",
+        "rows": [
+          [
+            "Home > Products > Protection > ArShirt Neo"
+          ]
+        ]
+      },
+      {
+        "table_index": 9,
+        "text_preview": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES ARITEKS GROUP SERVICES UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT ARDILIGHT ARNEO ECO AROF FILE",
+        "rows": [
+          [
+            "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+            "ARITEKS GROUP SERVICES",
+            "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+            "ARDILIGHT ARNEO ECO AROF FILE"
+          ]
+        ]
+      },
+      {
+        "table_index": 10,
+        "text_preview": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net",
+        "rows": [
+          [
+            "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net"
+          ]
+        ]
+      },
+      {
+        "table_index": 11,
+        "text_preview": "Copyright © 2026 Arıteks A.Ş.",
+        "rows": [
+          [
+            "Copyright © 2026 Arıteks A.Ş."
+          ]
+        ]
+      }
+    ],
+    "text_blocks": [
+      {
+        "order": 1,
+        "tag": "div",
+        "text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics. Protection Technical Textiles"
+      },
+      {
+        "order": 2,
+        "tag": "div",
+        "text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics."
+      },
+      {
+        "order": 3,
+        "tag": "td",
+        "text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics."
+      },
+      {
+        "order": 4,
+        "tag": "h1",
+        "text": "High visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics."
+      },
+      {
+        "order": 5,
+        "tag": "td",
+        "text": "Protection Technical Textiles"
+      },
+      {
+        "order": 6,
+        "tag": "td",
+        "text": "ArShirt N e o"
+      },
+      {
+        "order": 7,
+        "tag": "td",
+        "text": "220 g/m² , 100% Cotton, Pique, High Visible Knit Fabric"
+      },
+      {
+        "order": 8,
+        "tag": "div",
+        "text": "ArShirt Neo is 100% cotton pique knit fabric with neon fluorescent colors. Arıteks developed a new process to dye 100% cotton with fluorescent colors. Technical Parameters Fiber 100% Cotton (CO) EN ISO 2076 Yarn 20/1 Ne Combed EN ISO 2060 Weight 220 ±5 g/m² EN ISO 3081 Width 1800 ±20 mm EN ISO 3932 Bursting strength > 1000 kPa(kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 3 EN ISO 105 X12 Perspiration Fastness 3-4 EN ISO 105 E04 Washing Fastness 3-4 EN ISO 105 C06 Dry Cleaning Fastness 3-4 EN ISO 105 D01 Hypochlorite Fastness 3-4 EN ISO 105 N01 Peroxide Fastness 3-4 EN ISO 105 N02 Hot Press Fastness 3 EN ISO 105 X11 Light Fastness 3 EN ISO 105 B02 Perspiration Light Fast. 3-4 EN ISO 105 B07 pH 6.0 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application T-Shirt Quality Management Done ISO 9001 Technical Documents >> ArShirt Neo Data Sheet Certificates"
+      },
+      {
+        "order": 9,
+        "tag": "div",
+        "text": "ArShirt Neo is 100% cotton pique knit fabric with neon fluorescent colors. Arıteks developed a new process to dye 100% cotton with fluorescent colors."
+      },
+      {
+        "order": 10,
+        "tag": "h1",
+        "text": "ArShirt Neo is 100% cotton pique knit fabric with neon fluorescent colors."
+      },
+      {
+        "order": 11,
+        "tag": "h2",
+        "text": "Arıteks developed a new process to dye 100% cotton with fluorescent colors."
+      },
+      {
+        "order": 12,
+        "tag": "div",
+        "text": "Technical Parameters Fiber 100% Cotton (CO) EN ISO 2076 Yarn 20/1 Ne Combed EN ISO 2060 Weight 220 ±5 g/m² EN ISO 3081 Width 1800 ±20 mm EN ISO 3932 Bursting strength > 1000 kPa(kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Rubbing Fastness 3 EN ISO 105 X12 Perspiration Fastness 3-4 EN ISO 105 E04 Washing Fastness 3-4 EN ISO 105 C06 Dry Cleaning Fastness 3-4 EN ISO 105 D01 Hypochlorite Fastness 3-4 EN ISO 105 N01 Peroxide Fastness 3-4 EN ISO 105 N02 Hot Press Fastness 3 EN ISO 105 X11 Light Fastness 3 EN ISO 105 B02 Perspiration Light Fast. 3-4 EN ISO 105 B07 pH 6.0 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application T-Shirt Quality Management Done ISO 9001 Technical Documents >> ArShirt Neo Data Sheet Certificates"
+      },
+      {
+        "order": 13,
+        "tag": "td",
+        "text": "Fiber"
+      },
+      {
+        "order": 14,
+        "tag": "td",
+        "text": "100% Cotton (CO)"
+      },
+      {
+        "order": 15,
+        "tag": "td",
+        "text": "EN ISO 2076"
+      },
+      {
+        "order": 16,
+        "tag": "td",
+        "text": "Yarn"
+      },
+      {
+        "order": 17,
+        "tag": "td",
+        "text": "20/1 Ne Combed"
+      },
+      {
+        "order": 18,
+        "tag": "td",
+        "text": "EN ISO 2060"
+      },
+      {
+        "order": 19,
+        "tag": "td",
+        "text": "Weight"
+      },
+      {
+        "order": 20,
+        "tag": "td",
+        "text": "220 ±5 g/m²"
+      },
+      {
+        "order": 21,
+        "tag": "td",
+        "text": "EN ISO 3081"
+      },
+      {
+        "order": 22,
+        "tag": "td",
+        "text": "Width"
+      },
+      {
+        "order": 23,
+        "tag": "td",
+        "text": "1800 ±20 mm"
+      },
+      {
+        "order": 24,
+        "tag": "td",
+        "text": "EN ISO 3932"
+      },
+      {
+        "order": 25,
+        "tag": "td",
+        "text": "Bursting strength"
+      },
+      {
+        "order": 26,
+        "tag": "td",
+        "text": "> 1000 kPa(kN/m² )"
+      },
+      {
+        "order": 27,
+        "tag": "td",
+        "text": "EN ISO 13938-1"
+      },
+      {
+        "order": 28,
+        "tag": "td",
+        "text": "Dimensional Change"
+      },
+      {
+        "order": 29,
+        "tag": "td",
+        "text": "-5% < Length < +5% ; -5% < Width < +5%"
+      },
+      {
+        "order": 30,
+        "tag": "td",
+        "text": "EN ISO 5077"
+      },
+      {
+        "order": 31,
+        "tag": "td",
+        "text": "Rubbing Fastness"
+      },
+      {
+        "order": 32,
+        "tag": "td",
+        "text": "EN ISO 105 X12"
+      },
+      {
+        "order": 33,
+        "tag": "td",
+        "text": "Perspiration Fastness"
+      },
+      {
+        "order": 34,
+        "tag": "td",
+        "text": "3-4"
+      },
+      {
+        "order": 35,
+        "tag": "td",
+        "text": "EN ISO 105 E04"
+      },
+      {
+        "order": 36,
+        "tag": "td",
+        "text": "Washing Fastness"
+      },
+      {
+        "order": 37,
+        "tag": "td",
+        "text": "3-4"
+      },
+      {
+        "order": 38,
+        "tag": "td",
+        "text": "EN ISO 105 C06"
+      },
+      {
+        "order": 39,
+        "tag": "td",
+        "text": "Dry Cleaning Fastness"
+      },
+      {
+        "order": 40,
+        "tag": "td",
+        "text": "3-4"
+      },
+      {
+        "order": 41,
+        "tag": "td",
+        "text": "EN ISO 105 D01"
+      },
+      {
+        "order": 42,
+        "tag": "td",
+        "text": "Hypochlorite Fastness"
+      },
+      {
+        "order": 43,
+        "tag": "td",
+        "text": "3-4"
+      },
+      {
+        "order": 44,
+        "tag": "td",
+        "text": "EN ISO 105 N01"
+      },
+      {
+        "order": 45,
+        "tag": "td",
+        "text": "Peroxide Fastness"
+      },
+      {
+        "order": 46,
+        "tag": "td",
+        "text": "3-4"
+      },
+      {
+        "order": 47,
+        "tag": "td",
+        "text": "EN ISO 105 N02"
+      },
+      {
+        "order": 48,
+        "tag": "td",
+        "text": "Hot Press Fastness"
+      },
+      {
+        "order": 49,
+        "tag": "td",
+        "text": "EN ISO 105 X11"
+      },
+      {
+        "order": 50,
+        "tag": "td",
+        "text": "Light Fastness"
+      },
+      {
+        "order": 51,
+        "tag": "td",
+        "text": "EN ISO 105 B02"
+      },
+      {
+        "order": 52,
+        "tag": "td",
+        "text": "Perspiration Light Fast."
+      },
+      {
+        "order": 53,
+        "tag": "td",
+        "text": "3-4"
+      },
+      {
+        "order": 54,
+        "tag": "td",
+        "text": "EN ISO 105 B07"
+      },
+      {
+        "order": 55,
+        "tag": "td",
+        "text": "pH"
+      },
+      {
+        "order": 56,
+        "tag": "td",
+        "text": "6.0"
+      },
+      {
+        "order": 57,
+        "tag": "td",
+        "text": "EN ISO 3071"
+      },
+      {
+        "order": 58,
+        "tag": "td",
+        "text": "Azo Test"
+      },
+      {
+        "order": 59,
+        "tag": "td",
+        "text": "No Azo Colorants."
+      },
+      {
+        "order": 60,
+        "tag": "td",
+        "text": "EN ISO 14362-1"
+      },
+      {
+        "order": 61,
+        "tag": "td",
+        "text": "Application"
+      },
+      {
+        "order": 62,
+        "tag": "td",
+        "text": "T-Shirt"
+      },
+      {
+        "order": 63,
+        "tag": "td",
+        "text": "Quality Management"
+      },
+      {
+        "order": 64,
+        "tag": "td",
+        "text": "Done"
+      },
+      {
+        "order": 65,
+        "tag": "td",
+        "text": "ISO 9001"
+      },
+      {
+        "order": 66,
+        "tag": "div",
+        "text": "Applications Functions"
+      },
+      {
+        "order": 67,
+        "tag": "div",
+        "text": "Applications"
+      },
+      {
+        "order": 68,
+        "tag": "div",
+        "text": "Functions"
+      },
+      {
+        "order": 69,
+        "tag": "div",
+        "text": "Care Instructions Colors and Article Numbers Yellow PF-24217-1 - HIGH VISIBLE - ArShirt Neo-3995 Orange PF-33324-1 - HIGH VISIBLE - ArShirt Neo-3996 Red PF-33325-1 - HIGH VISIBLE - ArShirt Neo-3997 Green PF-64879-1 - HIGH VISIBLE - ArShirt Neo-3999 Violet PF-48508-1 - HIGH VISIBLE - ArShirt Neo-3998 Blue PF-57778-1 - STANDART - ArShirt Neo-4000"
+      },
+      {
+        "order": 70,
+        "tag": "div",
+        "text": "Care Instructions"
+      },
+      {
+        "order": 71,
+        "tag": "div",
+        "text": "Colors and Article Numbers Yellow PF-24217-1 - HIGH VISIBLE - ArShirt Neo-3995 Orange PF-33324-1 - HIGH VISIBLE - ArShirt Neo-3996 Red PF-33325-1 - HIGH VISIBLE - ArShirt Neo-3997 Green PF-64879-1 - HIGH VISIBLE - ArShirt Neo-3999 Violet PF-48508-1 - HIGH VISIBLE - ArShirt Neo-3998 Blue PF-57778-1 - STANDART - ArShirt Neo-4000"
+      },
+      {
+        "order": 72,
+        "tag": "td",
+        "text": "Yellow"
+      },
+      {
+        "order": 73,
+        "tag": "td",
+        "text": "PF-24217-1"
+      },
+      {
+        "order": 74,
+        "tag": "td",
+        "text": "- HIGH VISIBLE -"
+      },
+      {
+        "order": 75,
+        "tag": "td",
+        "text": "ArShirt Neo-3995"
+      },
+      {
+        "order": 76,
+        "tag": "td",
+        "text": "Orange"
+      },
+      {
+        "order": 77,
+        "tag": "td",
+        "text": "PF-33324-1"
+      },
+      {
+        "order": 78,
+        "tag": "td",
+        "text": "- HIGH VISIBLE -"
+      },
+      {
+        "order": 79,
+        "tag": "td",
+        "text": "ArShirt Neo-3996"
+      },
+      {
+        "order": 80,
+        "tag": "td",
+        "text": "Red"
+      },
+      {
+        "order": 81,
+        "tag": "td",
+        "text": "PF-33325-1"
+      },
+      {
+        "order": 82,
+        "tag": "td",
+        "text": "- HIGH VISIBLE -"
+      },
+      {
+        "order": 83,
+        "tag": "td",
+        "text": "ArShirt Neo-3997"
+      },
+      {
+        "order": 84,
+        "tag": "td",
+        "text": "Green"
+      },
+      {
+        "order": 85,
+        "tag": "td",
+        "text": "PF-64879-1"
+      },
+      {
+        "order": 86,
+        "tag": "td",
+        "text": "- HIGH VISIBLE -"
+      },
+      {
+        "order": 87,
+        "tag": "td",
+        "text": "ArShirt Neo-3999"
+      },
+      {
+        "order": 88,
+        "tag": "td",
+        "text": "Violet"
+      },
+      {
+        "order": 89,
+        "tag": "td",
+        "text": "PF-48508-1"
+      },
+      {
+        "order": 90,
+        "tag": "td",
+        "text": "- HIGH VISIBLE -"
+      },
+      {
+        "order": 91,
+        "tag": "td",
+        "text": "ArShirt Neo-3998"
+      },
+      {
+        "order": 92,
+        "tag": "td",
+        "text": "Blue"
+      },
+      {
+        "order": 93,
+        "tag": "td",
+        "text": "PF-57778-1"
+      },
+      {
+        "order": 94,
+        "tag": "td",
+        "text": "- STANDART -"
+      },
+      {
+        "order": 95,
+        "tag": "td",
+        "text": "ArShirt Neo-4000"
+      },
+      {
+        "order": 96,
+        "tag": "td",
+        "text": "Home > Products > Protection > ArShirt Neo"
+      },
+      {
+        "order": 97,
+        "tag": "td",
+        "text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES"
+      },
+      {
+        "order": 98,
+        "tag": "td",
+        "text": "ARITEKS GROUP SERVICES"
+      },
+      {
+        "order": 99,
+        "tag": "td",
+        "text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT"
+      },
+      {
+        "order": 100,
+        "tag": "td",
+        "text": "ARDILIGHT ARNEO ECO AROF FILE"
+      },
+      {
+        "order": 101,
+        "tag": "td",
+        "text": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net"
+      },
+      {
+        "order": 102,
+        "tag": "td",
+        "text": "Copyright © 2026 Arıteks A.Ş."
+      }
+    ],
+    "full_text": "Cotton Fluorescent Pique Fabric - ArShirt Neo - Ariteks\nHigh visible, waterproof, flame retardant, antistatic, chemical resistant workwear fabrics.\nProtection Technical Textiles\nArShirt\nN\ne\no\n220 gr/m\n2\n, 100% Cotton, Pique, High Visible Knit Fabric\nArShirt Neo is 100% cotton pique knit fabric with neon fluorescent colors.\nArıteks developed a new process to dye 100% cotton with fluorescent colors.\nTechnical Parameters\nFiber\n100% Cotton (CO)\nEN ISO 2076\nYarn\n20/1 Ne Combed\nEN ISO 2060\nWeight\n220 ±5 gr/m\n2\nEN ISO 3081\nWidth\n1800 ±20 mm\nEN ISO 3932\nBursting strength\n> 1000 kPa(kN/m\n2\n)\nEN ISO 13938-1\nDimensional Change\n-5% < Length < +5% ; -5% < Width < +5%\nEN ISO 5077\nRubbing Fastness\n3\nEN ISO 105 X12\nPerspiration Fastness\n3-4\nEN ISO 105 E04\nWashing Fastness\n3-4\nEN ISO 105 C06\nDry Cleaning Fastness\n3-4\nEN ISO 105 D01\nHypochlorite Fastness\n3-4\nEN ISO 105 N01\nPeroxide Fastness\n3-4\nEN ISO 105 N02\nHot Press Fastness\n3\nEN ISO 105 X11\nLight Fastness\n3\nEN ISO 105 B02\nPerspiration Light Fast.\n3-4\nEN ISO 105 B07\npH\n6.0\nEN ISO 3071\nAzo Test\nNo Azo Colorants.\nEN ISO 14362-1\nApplication\nT-Shirt\nQuality Management\nDone\nISO 9001\nTechnical Documents\n>> ArShirt Neo Data Sheet\nCertificates\nApplications\nFunctions\nCare Instructions\nColors and Article Numbers\nYellow\nPF-24217-1\n- HIGH VISIBLE -\nArShirt Neo-3995\nOrange\nPF-33324-1\n- HIGH VISIBLE -\nArShirt Neo-3996\nRed\nPF-33325-1\n- HIGH VISIBLE -\nArShirt Neo-3997\nGreen\nPF-64879-1\n- HIGH VISIBLE -\nArShirt Neo-3999\nViolet\nPF-48508-1\n- HIGH VISIBLE -\nArShirt Neo-3998\nBlue\nPF-57778-1\n- STANDART -\nArShirt Neo-4000\nHome\n>\nProducts\n>\nProtection\n>\nArShirt Neo\nAPPAREL TEXTILES\nBUILDING TECHNICAL TEXTILES\nHOME TECHNICAL TEXTILES\nPROTECTION TECHNICAL TEXTILES\nMEDICAL TECHNICAL TEXTILES\nSPORT TECHNICAL TEXTILES\nTRANSPORT TECHNICAL TEXTILES\nARITEKS GROUP\nSERVICES\nUV PROTECTION\nFLAME RETARDANT\nINSECT REPELLENT\nANTIBACTERIAL\nWATER REPELLENT\nARDILIGHT\nARNEO ECO\nAROF FILE\nAriteks Headquarters\nPhone:\n+90 212 538 05 98\nAddress:\nOtakçılar Cad. No:80/32 34050\nEyupsultan/Istanbul Turkiye\nE-Mail:\nsupport@ariteksinfo.com\nWeb:\nwww.ariteks.net\nCopyright © 2026 Arıteks A.Ş.",
+    "raw_html_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\raw\\product_page.html",
+    "url_slug": "arshirt-neo",
+    "display_slug": "arshirt-neo",
+    "spec_quality": {
+      "cleaned_by": "crawl_ariteks_fabric_complete_v9",
+      "original_had_narrative": false,
+      "spec_line_length": 54,
+      "cleaned_by_v10": true,
+      "v10_changed": false
+    }
+  },
+  "public": {
+    "public_product_dir": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo",
+    "public_base_url": "/ariteks/fabrics/arshirt-neo",
+    "manifest_public_url": "/ariteks/fabrics/arshirt-neo/data/fabric-complete-record.json",
+    "report_public_url": "/ariteks/fabrics/arshirt-neo/docs/product-template-roadmap.md"
+  },
+  "published_assets": [
+    {
+      "url": "https://www.ariteks.net/images/product/arneo_ver2_s.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arneo-ver2-s__6cf64b11d9.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 48054,
+      "sha1": "2a9dfd5fd703b91725349948156cb873d5830235",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arneo-ver2-s__6cf64b11d9.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/arneo-ver2-s__6cf64b11d9.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/Arneo_ru_ds_ver2.pdf",
+      "kind": "document",
+      "folder": "documents",
+      "filename": "arneo-ru-ds-ver2__c1069fddab.pdf",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "size_bytes": 226773,
+      "sha1": "35939d7d49f88dec7c2938fc6073dfcd487f90bb",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arneo-ru-ds-ver2__c1069fddab.pdf",
+      "public_url": "/ariteks/fabrics/arshirt-neo/documents/arneo-ru-ds-ver2__c1069fddab.pdf"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "knit__71fef29325.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\knit__71fef29325.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/knit__71fef29325.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/arshirt_arsuprem_ver2_s.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arshirt-arsuprem-ver2-s__760059a516.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-arsuprem-ver2-s__760059a516.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 48054,
+      "sha1": "cb35b286a5772ab1171f0cc17ab528a73530a1ce",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-arsuprem-ver2-s__760059a516.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-arsuprem-ver2-s__760059a516.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/ArShirt_ArSuprem_ru_ds_ver2.pdf",
+      "kind": "document",
+      "folder": "documents",
+      "filename": "arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "size_bytes": 324400,
+      "sha1": "9170fdc1c2b3fbf370fefd90cd626b1562c01be7",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+      "public_url": "/ariteks/fabrics/arshirt-neo/documents/arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+      "kind": "image",
+      "folder": "images",
+      "filename": "tr-s__2229569dd5.png",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\tr-s__2229569dd5.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size_bytes": 17432,
+      "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\tr-s__2229569dd5.png",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/tr-s__2229569dd5.png"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+      "kind": "image",
+      "folder": "images",
+      "filename": "ru-s__28dde2a24b.png",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ru-s__28dde2a24b.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size_bytes": 11546,
+      "sha1": "32c5e6a1b5d35279db604afc74155714d4620697",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ru-s__28dde2a24b.png",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/ru-s__28dde2a24b.png"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+      "kind": "image",
+      "folder": "images",
+      "filename": "en-s__0126e84202.png",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\en-s__0126e84202.png",
+      "status": 200,
+      "content_type": "image/png",
+      "size_bytes": 19703,
+      "sha1": "39e2601f0ea48218abc98576c338648d16b981eb",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\en-s__0126e84202.png",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/en-s__0126e84202.png"
+    },
+    {
+      "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 38222,
+      "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/techteksposters/protection_m.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "protection-m__4be43ea90a.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\protection-m__4be43ea90a.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 1853151,
+      "sha1": "f564b17d0c2bdc1aadb9ce74f47e82397478eb64",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\protection-m__4be43ea90a.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/protection-m__4be43ea90a.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/arshirt_neo_main_pic_m.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arshirt-neo-main-pic-m__4607c1e33c.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-neo-main-pic-m__4607c1e33c.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 76685,
+      "sha1": "c0827a7db6955f24f2c2c12c8971da8789f175fd",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-neo-main-pic-m__4607c1e33c.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-neo-main-pic-m__4607c1e33c.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/protection_arshirt/arshirt_neo_m.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arshirt-neo-m__c0f819b9e7.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-neo-m__c0f819b9e7.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 41063,
+      "sha1": "1d4e5125d739f767a65889b9a1a6d78516b817b8",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-neo-m__c0f819b9e7.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-neo-m__c0f819b9e7.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-sari-floresan-tshirt-m.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 24884,
+      "sha1": "3d36805d8e9cf51da1b3a4740f97a6197d4cc931",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-sari-floresan-tshirt-m__b4059f08f9.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-oranj-floresan-tshirt-m.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 24742,
+      "sha1": "608dd4d47df17c484816885e1f3a814cc0c9c93f",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-oranj-floresan-tshirt-m__6c86d063c2.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "oekoteks-standard-100-s__ea5e91d474.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 54001,
+      "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/oekoteks-standard-100-s__ea5e91d474.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/60_mach_wash_ma_agi.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "60-mach-wash-ma-agi__cdc86ecf03.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "5172828b46e8d14500d23799c64ca5370bcf514b",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\60-mach-wash-ma-agi__cdc86ecf03.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/60-mach-wash-ma-agi__cdc86ecf03.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "no-chlorine-bleach__33a0308671.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\no-chlorine-bleach__33a0308671.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\no-chlorine-bleach__33a0308671.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/no-chlorine-bleach__33a0308671.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/tumble_dried_low_ht.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "tumble-dried-low-ht__cd432a52a7.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "b5fb112a29efca36c0a736eb588a8a367fb30bac",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/tumble-dried-low-ht__cd432a52a7.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/ma_150_iron.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "ma-150-iron__78883199be.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\ma-150-iron__78883199be.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97794,
+      "sha1": "f5a4fac2b95005ea49edbeb1b6de2be8abcea782",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\ma-150-iron__78883199be.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/ma-150-iron__78883199be.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/dry_cleaning.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "dry-cleaning__6e8a85520f.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\dry-cleaning__6e8a85520f.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "d8d03b8658bc4f973c36cb18f135e6b56f318f6c",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\dry-cleaning__6e8a85520f.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/dry-cleaning__6e8a85520f.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/arshirt-neo-ds.pdf",
+      "kind": "document",
+      "folder": "documents",
+      "filename": "arshirt-neo-ds__58c11a149a.pdf",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\documents\\arshirt-neo-ds__58c11a149a.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "size_bytes": 257670,
+      "sha1": "61d7d91bd5a8621eea980c012167103fae299a0d",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\documents\\arshirt-neo-ds__58c11a149a.pdf",
+      "public_url": "/ariteks/fabrics/arshirt-neo/documents/arshirt-neo-ds__58c11a149a.pdf"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/protection_arshirt/arshirt_neo.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "arshirt-neo__2a53707789.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\arshirt-neo__2a53707789.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 1484652,
+      "sha1": "a8222b1d4d9a19264f55a413d78eee77cec58565",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\arshirt-neo__2a53707789.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/arshirt-neo__2a53707789.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-sari-floresan-tshirt.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "pamuklu-sari-floresan-tshirt__d725914a5f.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt__d725914a5f.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 1878787,
+      "sha1": "e6aa27b05c641b7a5b4a7fd9c3f3f90a4136f4af",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-sari-floresan-tshirt__d725914a5f.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-sari-floresan-tshirt__d725914a5f.jpg"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/protection_arshirt/pamuklu-oranj-floresan-tshirt.jpg",
+      "kind": "image",
+      "folder": "images",
+      "filename": "pamuklu-oranj-floresan-tshirt__61a7e19f77.jpg",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt__61a7e19f77.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size_bytes": 2064567,
+      "sha1": "6424752ef017efa3bc67d37c7b7a34361570f861",
+      "error": "",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arshirt-neo\\images\\pamuklu-oranj-floresan-tshirt__61a7e19f77.jpg",
+      "public_url": "/ariteks/fabrics/arshirt-neo/images/pamuklu-oranj-floresan-tshirt__61a7e19f77.jpg"
+    }
+  ],
+  "pdf_text_items": []
+}
