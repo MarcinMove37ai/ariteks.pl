@@ -1,0 +1,314 @@
+{
+  "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+  "row_index": 1582,
+  "group": {
+    "title": "Inherent Flame Retardant Denim and Elasthane Aramid Fabrics",
+    "row_index": 1551,
+    "row_text": "Inherent Flame Retardant Denim and Elasthane Aramid Fabrics",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/Aramid_2_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Inherent Flame Retardant Denim and Elasthane Aramid Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\documents\\aramid-2-ru-ds-ver2__4b2c7f1e99.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\documents\\aramid-2-ru-ds-ver2__4b2c7f1e99.pdf",
+        "public_url": "/ariteks/fabrics/aramid-d2-260-el/documents/aramid-2-ru-ds-ver2__4b2c7f1e99.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 199904,
+        "sha1": "c99d71431f05266b73e808af47d4065317d3992f"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/aramid_2_ver2_s.jpg",
+        "alt": "Aramid Denim, elasthane fabrics",
+        "title": "Aramid Denim, elasthane fabrics",
+        "context_text": "Inherent Flame Retardant Denim and Elasthane Aramid Fabrics",
+        "classification": "product_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\aramid-2-ver2-s__a232eae7ea.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\aramid-2-ver2-s__a232eae7ea.jpg",
+        "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/aramid-2-ver2-s__a232eae7ea.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "1bde0ec3ae1d0ca2f52549a0ce80729b7da035cd"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/Aramid_2_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Inherent Flame Retardant Denim and Elasthane Aramid Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\documents\\aramid-2-ru-ds-ver2__4b2c7f1e99.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\documents\\aramid-2-ru-ds-ver2__4b2c7f1e99.pdf",
+        "public_url": "/ariteks/fabrics/aramid-d2-260-el/documents/aramid-2-ru-ds-ver2__4b2c7f1e99.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 199904,
+        "sha1": "c99d71431f05266b73e808af47d4065317d3992f"
+      }
+    ]
+  },
+  "product_name_from_category": "Aramid D2 260 El",
+  "product_url": "https://www.ariteks.net/aramid-d2-260-el.asp",
+  "row_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El Aramid D2 260 El 3/1 Twill Inherent Flame Retardant Aramid Knit Workwear Fabrics 3/1 Twill 3/1 Twill",
+  "cells": [
+    "260 g/m²",
+    "5% p-AR 2% CF 5% El",
+    "Aramid D2 260 El",
+    "3/1 Twill"
+  ],
+  "summary": {
+    "weight": "260 g/m²",
+    "composition": "5% p-AR 2% CF 5% El",
+    "weave": "3/1 Twill"
+  },
+  "technology_partners": [
+    {
+      "url": "https://www.ariteks.net/images/brands/Teijin.jpg",
+      "alt": "Conex",
+      "title": "Conex",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "technology_partner",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\teijin__7cd7c6db44.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\teijin__7cd7c6db44.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/teijin__7cd7c6db44.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 480054,
+      "sha1": "befd18c5f19a13f63b7ae1701804fe19c059f967"
+    }
+  ],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_11612.jpg",
+      "alt": "EN 11612",
+      "title": "EN 11612",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\en-11612__68c3080c5b.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\en-11612__68c3080c5b.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/en-11612__68c3080c5b.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15798,
+      "sha1": "7da0ae439764420b3a9cb084703fcbddde2e3b42"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_1149_3.jpg",
+      "alt": "EN 1149-3",
+      "title": "EN 1149-3",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\en-1149-3__5b6403ea41.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\en-1149-3__5b6403ea41.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/en-1149-3__5b6403ea41.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 19533,
+      "sha1": "3a903c10fe999ff09dbcb1c05dbf8a8534520e7f"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_61482_1_2.jpg",
+      "alt": "EN 61482-1-2",
+      "title": "EN 61482-1-2",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\en-61482-1-2__99ac4172f5.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\en-61482-1-2__99ac4172f5.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/en-61482-1-2__99ac4172f5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15732,
+      "sha1": "753516fbedc1c0d087f2d3fd0429313ff7ef4206"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13034.jpg",
+      "alt": "EN 13034",
+      "title": "EN 13034",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\en-13034__dada5c48c8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\en-13034__dada5c48c8.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/en-13034__dada5c48c8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15794,
+      "sha1": "9bca423c1a66eca10ece172dd3380d1312388311"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "3/1 Twill",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/woven.jpg",
+        "alt": "Woven Fabric",
+        "title": "Woven Fabric",
+        "context_text": "3/1 Twill",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\woven__c0215fa432.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\woven__c0215fa432.jpg",
+        "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/woven__c0215fa432.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 21209,
+        "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(27, 18, 73)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [
+    {
+      "url": "https://www.ariteks.net/pdf/Aramid_knit_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Inherent Flame Retardant Aramid Knit Workwear Fabrics",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\documents\\aramid-knit-ru-ds-ver2__d436d2f6f4.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\documents\\aramid-knit-ru-ds-ver2__d436d2f6f4.pdf",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/documents/aramid-knit-ru-ds-ver2__d436d2f6f4.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 150701,
+      "sha1": "015502da70e589fc6a9e7ce90a4439885642b047"
+    }
+  ],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/brands/Teijin.jpg",
+      "alt": "Conex",
+      "title": "Conex",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "technology_partner",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\teijin__7cd7c6db44.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\teijin__7cd7c6db44.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/teijin__7cd7c6db44.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 480054,
+      "sha1": "befd18c5f19a13f63b7ae1701804fe19c059f967"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_11612.jpg",
+      "alt": "EN 11612",
+      "title": "EN 11612",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\en-11612__68c3080c5b.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\en-11612__68c3080c5b.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/en-11612__68c3080c5b.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15798,
+      "sha1": "7da0ae439764420b3a9cb084703fcbddde2e3b42"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_1149_3.jpg",
+      "alt": "EN 1149-3",
+      "title": "EN 1149-3",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\en-1149-3__5b6403ea41.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\en-1149-3__5b6403ea41.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/en-1149-3__5b6403ea41.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 19533,
+      "sha1": "3a903c10fe999ff09dbcb1c05dbf8a8534520e7f"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_61482_1_2.jpg",
+      "alt": "EN 61482-1-2",
+      "title": "EN 61482-1-2",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\en-61482-1-2__99ac4172f5.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\en-61482-1-2__99ac4172f5.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/en-61482-1-2__99ac4172f5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15732,
+      "sha1": "753516fbedc1c0d087f2d3fd0429313ff7ef4206"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13034.jpg",
+      "alt": "EN 13034",
+      "title": "EN 13034",
+      "context_text": "260 g/m² 88 m-AR 5% p-AR 2% CF 5% El Aramid D2 260 El 3/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\en-13034__dada5c48c8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\en-13034__dada5c48c8.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/en-13034__dada5c48c8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 15794,
+      "sha1": "9bca423c1a66eca10ece172dd3380d1312388311"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/woven.jpg",
+      "alt": "Woven Fabric",
+      "title": "Woven Fabric",
+      "context_text": "3/1 Twill",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\woven__c0215fa432.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\woven__c0215fa432.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/woven__c0215fa432.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21209,
+      "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/aramid_knit_ver2_s.jpg",
+      "alt": "Aramid Knit Fabrics",
+      "title": "Aramid Knit Fabrics",
+      "context_text": "Inherent Flame Retardant Aramid Knit Workwear Fabrics",
+      "classification": "application_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\images\\aramid-knit-ver2-s__ec9d3447a4.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\images\\aramid-knit-ver2-s__ec9d3447a4.jpg",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/images/aramid-knit-ver2-s__ec9d3447a4.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 48054,
+      "sha1": "8e2528cf777e5bfd591a0c63eca0ecebc2ff5f48"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/aramid-d2-260-el.asp",
+      "label": "Aramid D2 260 El",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "Aramid D2 260 El",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/Aramid_knit_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Inherent Flame Retardant Aramid Knit Workwear Fabrics",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\aramid-d2-260-el\\documents\\aramid-knit-ru-ds-ver2__d436d2f6f4.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\aramid-d2-260-el\\documents\\aramid-knit-ru-ds-ver2__d436d2f6f4.pdf",
+      "public_url": "/ariteks/fabrics/aramid-d2-260-el/documents/aramid-knit-ru-ds-ver2__d436d2f6f4.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 150701,
+      "sha1": "015502da70e589fc6a9e7ce90a4439885642b047"
+    }
+  ]
+}
