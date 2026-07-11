@@ -1,0 +1,225 @@
+{
+  "category_url": "https://www.ariteks.net/medical-technical-textiles.asp",
+  "row_index": 47,
+  "group": {
+    "title": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+    "row_index": 38,
+    "row_text": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArMedi_antibac_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+        "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\documents\\armedi-antibac-ru-ds-ver2__4f5fce4a55.pdf",
+        "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\documents\\armedi-antibac-ru-ds-ver2__4f5fce4a55.pdf",
+        "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/documents/armedi-antibac-ru-ds-ver2__4f5fce4a55.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 120148,
+        "sha1": "e9e6059ba1244c682d5a8411157d3d45e904b289"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/armedi_antibac_ver2_s.jpg",
+        "alt": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+        "title": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+        "context_text": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+        "classification": "product_image",
+        "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\armedi-antibac-ver2-s__fb01182994.jpg",
+        "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\armedi-antibac-ver2-s__fb01182994.jpg",
+        "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/armedi-antibac-ver2-s__fb01182994.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "6e8ea14488b2e0e931b651c4ef488390ae8965b2"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArMedi_antibac_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+        "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\documents\\armedi-antibac-ru-ds-ver2__4f5fce4a55.pdf",
+        "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\documents\\armedi-antibac-ru-ds-ver2__4f5fce4a55.pdf",
+        "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/documents/armedi-antibac-ru-ds-ver2__4f5fce4a55.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 120148,
+        "sha1": "e9e6059ba1244c682d5a8411157d3d45e904b289"
+      }
+    ]
+  },
+  "product_name_from_category": "Arox T2 WR/Antibac",
+  "product_url": "https://www.ariteks.net/arox-t2-wr-antibac.asp",
+  "row_text": "160 g/m² 97% PES 3% Ag Arox T2 WR/Antibac Arox T2 WR/Antibac 2/1 Twill Inherent Antibacterial Fabrics (Silver Yarn Integrated) 180 g/m² 75% PES 25% CV ArMedi 1/1 Plain 1/1 Plain Inherent Antibacterial Fabrics (Silver Yarn Integrated) ArMedi Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+  "cells": [
+    "160 g/m²",
+    "97% PES 3% Ag",
+    "Arox T2 WR/Antibac",
+    "2/1 Twill"
+  ],
+  "summary": {
+    "weight": "160 g/m²",
+    "composition": "97% PES 3% Ag",
+    "weave": "2/1 Twill"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_4920.jpg",
+      "alt": "EN 4920",
+      "title": "EN 4920",
+      "context_text": "160 g/m² 97% PES 3% Ag Arox T2 WR/Antibac 2/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\en-4920__7d4ebdfef0.jpg",
+      "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\en-4920__7d4ebdfef0.jpg",
+      "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/en-4920__7d4ebdfef0.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 5831,
+      "sha1": "d2ff279f0bcdc1643e9ccc20fd02ecf4d516ba72"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/antibacterial.jpg",
+      "alt": "Antibacterial",
+      "title": "Antibacterial",
+      "context_text": "160 g/m² 97% PES 3% Ag Arox T2 WR/Antibac 2/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\antibacterial__df46a11430.jpg",
+      "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\antibacterial__df46a11430.jpg",
+      "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/antibacterial__df46a11430.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8012,
+      "sha1": "29a7b6366a22a42fa00b67a355c04fe7f6265944"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/iso_18184.jpg",
+      "alt": "Antiviral 18184",
+      "title": "Antiviral 181814",
+      "context_text": "160 g/m² 97% PES 3% Ag Arox T2 WR/Antibac 2/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\iso-18184__515a741c33.jpg",
+      "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\iso-18184__515a741c33.jpg",
+      "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/iso-18184__515a741c33.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8595,
+      "sha1": "659460fe9c079533013335192cee2ac5e62bd666"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "2/1 Twill",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/woven.jpg",
+        "alt": "Woven Fabric",
+        "title": "Woven Fabric",
+        "context_text": "2/1 Twill",
+        "classification": "structure_image",
+        "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\woven__c0215fa432.jpg",
+        "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\woven__c0215fa432.jpg",
+        "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/woven__c0215fa432.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 21209,
+        "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(0, 128, 192)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 128, 64)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 255, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_4920.jpg",
+      "alt": "EN 4920",
+      "title": "EN 4920",
+      "context_text": "160 g/m² 97% PES 3% Ag Arox T2 WR/Antibac 2/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\en-4920__7d4ebdfef0.jpg",
+      "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\en-4920__7d4ebdfef0.jpg",
+      "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/en-4920__7d4ebdfef0.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 5831,
+      "sha1": "d2ff279f0bcdc1643e9ccc20fd02ecf4d516ba72"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/antibacterial.jpg",
+      "alt": "Antibacterial",
+      "title": "Antibacterial",
+      "context_text": "160 g/m² 97% PES 3% Ag Arox T2 WR/Antibac 2/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\antibacterial__df46a11430.jpg",
+      "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\antibacterial__df46a11430.jpg",
+      "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/antibacterial__df46a11430.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8012,
+      "sha1": "29a7b6366a22a42fa00b67a355c04fe7f6265944"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/iso_18184.jpg",
+      "alt": "Antiviral 18184",
+      "title": "Antiviral 181814",
+      "context_text": "160 g/m² 97% PES 3% Ag Arox T2 WR/Antibac 2/1 Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\iso-18184__515a741c33.jpg",
+      "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\iso-18184__515a741c33.jpg",
+      "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/iso-18184__515a741c33.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8595,
+      "sha1": "659460fe9c079533013335192cee2ac5e62bd666"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/woven.jpg",
+      "alt": "Woven Fabric",
+      "title": "Woven Fabric",
+      "context_text": "2/1 Twill",
+      "classification": "structure_image",
+      "raw_local_path": "E:\\ariteks\\new\\medical\\_scraped\\fabrics_complete\\arox-t2-wr-antibac\\images\\woven__c0215fa432.jpg",
+      "public_local_path": "E:\\ariteks\\new\\medical\\public\\ariteks\\fabrics\\arox-t2-wr-antibac\\images\\woven__c0215fa432.jpg",
+      "public_url": "/ariteks/fabrics/arox-t2-wr-antibac/images/woven__c0215fa432.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21209,
+      "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arox-t2-wr-antibac.asp",
+      "label": "Arox T2 WR/Antibac",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "Arox T2 WR/Antibac",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}
