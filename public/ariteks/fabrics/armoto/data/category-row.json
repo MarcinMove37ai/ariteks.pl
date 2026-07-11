@@ -1,0 +1,168 @@
+{
+  "category_url": "https://www.ariteks.net/sport-technical-textiles.asp",
+  "row_index": 92,
+  "group": {
+    "title": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+    "row_index": 87,
+    "row_text": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArMoto_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto\\documents\\armoto-ru-ds-ver2__eab0490475.pdf",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto\\documents\\armoto-ru-ds-ver2__eab0490475.pdf",
+        "public_url": "/ariteks/fabrics/armoto/documents/armoto-ru-ds-ver2__eab0490475.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 114597,
+        "sha1": "36e2caa58713a0c2e37214b459c1f7239653d82a"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/armoto_ver2_s.jpg",
+        "alt": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "title": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "context_text": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "classification": "application_image",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto\\images\\armoto-ver2-s__04a98e9835.jpg",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto\\images\\armoto-ver2-s__04a98e9835.jpg",
+        "public_url": "/ariteks/fabrics/armoto/images/armoto-ver2-s__04a98e9835.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "dc6755dc2eed6b9ffff59d342119cef52240ab41"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArMoto_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto\\documents\\armoto-ru-ds-ver2__eab0490475.pdf",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto\\documents\\armoto-ru-ds-ver2__eab0490475.pdf",
+        "public_url": "/ariteks/fabrics/armoto/documents/armoto-ru-ds-ver2__eab0490475.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 114597,
+        "sha1": "36e2caa58713a0c2e37214b459c1f7239653d82a"
+      }
+    ]
+  },
+  "product_name_from_category": "ArMoto",
+  "product_url": "https://www.ariteks.net/armoto.asp",
+  "row_text": "240 g/m² 100% PES ArMoto ArMoto Warp Knit Wind Heavy Warp Knit Fabrics for Shoes and Wind Jackets Interlock 170 g/m² 100% PES ArSport X Bird Eye Heavy Warp Knit Fabrics for Shoes and Wind Jackets ArSport ArSport X Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+  "cells": [
+    "240 g/m²",
+    "100% PES",
+    "ArMoto",
+    "Warp Knit"
+  ],
+  "summary": {
+    "weight": "240 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "EN 20471",
+      "title": "EN 20471",
+      "context_text": "170 g/m² 100% PES ArSport X Bird Eye",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/armoto/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Warp Knit",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+        "alt": "Warp Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Warp Knit Wind",
+        "classification": "structure_image",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto\\images\\warp-knit__22376b13e5.jpg",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto\\images\\warp-knit__22376b13e5.jpg",
+        "public_url": "/ariteks/fabrics/armoto/images/warp-knit__22376b13e5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 28297,
+        "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(27, 18, 73)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+      "alt": "Warp Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Warp Knit Wind",
+      "classification": "structure_image",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto\\images\\warp-knit__22376b13e5.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto\\images\\warp-knit__22376b13e5.jpg",
+      "public_url": "/ariteks/fabrics/armoto/images/warp-knit__22376b13e5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28297,
+      "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "EN 20471",
+      "title": "EN 20471",
+      "context_text": "170 g/m² 100% PES ArSport X Bird Eye",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\armoto\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\armoto\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/armoto/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/armoto.asp",
+      "label": "ArMoto",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArMoto",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}
