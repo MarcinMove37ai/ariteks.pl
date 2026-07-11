@@ -1,0 +1,173 @@
+{
+  "category_url": "https://www.ariteks.net/sport-technical-textiles.asp",
+  "row_index": 168,
+  "group": {
+    "title": "Functional knit interlock polyester fabrics.",
+    "row_index": 146,
+    "row_text": "Functional knit interlock polyester fabrics.",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/Arsport2_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Functional knit interlock polyester fabrics.",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arsport-el\\documents\\arsport2-ru-ds-ver2__a2dd65e3e0.pdf",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arsport-el\\documents\\arsport2-ru-ds-ver2__a2dd65e3e0.pdf",
+        "public_url": "/ariteks/fabrics/arsport-el/documents/arsport2-ru-ds-ver2__a2dd65e3e0.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 186748,
+        "sha1": "d420a7af1a3d38acfa4fed34251edb3c14d6edb2"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/arsport2_ver2_s.jpg",
+        "alt": "Interlock Fabrics",
+        "title": "Interlock Fabrics",
+        "context_text": "Functional knit interlock polyester fabrics.",
+        "classification": "product_image",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arsport-el\\images\\arsport2-ver2-s__adb891907d.jpg",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arsport-el\\images\\arsport2-ver2-s__adb891907d.jpg",
+        "public_url": "/ariteks/fabrics/arsport-el/images/arsport2-ver2-s__adb891907d.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "8e1f5fedaacdf0d6e0b46bccc221bc53f687b65b"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/Arsport2_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Functional knit interlock polyester fabrics.",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arsport-el\\documents\\arsport2-ru-ds-ver2__a2dd65e3e0.pdf",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arsport-el\\documents\\arsport2-ru-ds-ver2__a2dd65e3e0.pdf",
+        "public_url": "/ariteks/fabrics/arsport-el/documents/arsport2-ru-ds-ver2__a2dd65e3e0.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 186748,
+        "sha1": "d420a7af1a3d38acfa4fed34251edb3c14d6edb2"
+      }
+    ]
+  },
+  "product_name_from_category": "ArSport El",
+  "product_url": "https://www.ariteks.net/arsport-el.asp",
+  "row_text": "240 g/m² 92% PES 8% EL ArSport El Interlock",
+  "cells": [
+    "240 g/m²",
+    "92% PES 8% EL",
+    "ArSport El",
+    "Interlock"
+  ],
+  "summary": {
+    "weight": "240 g/m²",
+    "composition": "92% PES 8% EL",
+    "weave": "Interlock"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "EN 20471",
+      "title": "EN 20471",
+      "context_text": "240 g/m² 92% PES 8% EL ArSport El Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arsport-el\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arsport-el\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/arsport-el/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Interlock",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/knit.jpg",
+        "alt": "Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Interlock",
+        "classification": "structure_image",
+        "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arsport-el\\images\\knit__71fef29325.jpg",
+        "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arsport-el\\images\\knit__71fef29325.jpg",
+        "public_url": "/ariteks/fabrics/arsport-el/images/knit__71fef29325.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 26737,
+        "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(255, 255, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 110, 6)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "alt": "Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Interlock",
+      "classification": "structure_image",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arsport-el\\images\\knit__71fef29325.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arsport-el\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/arsport-el/images/knit__71fef29325.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "EN 20471",
+      "title": "EN 20471",
+      "context_text": "240 g/m² 92% PES 8% EL ArSport El Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\sport\\_scraped\\fabrics_complete\\arsport-el\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "E:\\ariteks\\new\\sport\\public\\ariteks\\fabrics\\arsport-el\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/arsport-el/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arsport-el.asp",
+      "label": "ArSport El",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArSport El",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}
