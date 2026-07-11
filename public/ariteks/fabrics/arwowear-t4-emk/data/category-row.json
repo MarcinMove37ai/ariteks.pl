@@ -1,0 +1,221 @@
+{
+  "category_url": "https://www.ariteks.net/protection-technical-textiles.asp",
+  "row_index": 1746,
+  "group": {
+    "title": "Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+    "row_index": 1736,
+    "row_text": "Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArEmk_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\documents\\aremk-ru-ds-ver2__751b3da23c.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\documents\\aremk-ru-ds-ver2__751b3da23c.pdf",
+        "public_url": "/ariteks/fabrics/arwowear-t4-emk/documents/aremk-ru-ds-ver2__751b3da23c.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 148737,
+        "sha1": "a12c8df363e4a59bb85f412a22b2b1252dcc5664"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/arEmk_ver2_s.jpg",
+        "alt": "emi shielding, anti-radar, antistress, high voltage protective fabrics",
+        "title": "emi shielding, anti-radar, antistress, high voltage protective fabrics",
+        "context_text": "Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+        "classification": "product_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\aremk-ver2-s__e00fc65bb0.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\aremk-ver2-s__e00fc65bb0.jpg",
+        "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/aremk-ver2-s__e00fc65bb0.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48654,
+        "sha1": "cf44a507a318699751a456fc02066d0ef65c3ec3"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArEmk_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\documents\\aremk-ru-ds-ver2__751b3da23c.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\documents\\aremk-ru-ds-ver2__751b3da23c.pdf",
+        "public_url": "/ariteks/fabrics/arwowear-t4-emk/documents/aremk-ru-ds-ver2__751b3da23c.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 148737,
+        "sha1": "a12c8df363e4a59bb85f412a22b2b1252dcc5664"
+      }
+    ]
+  },
+  "product_name_from_category": "ArWoWear T4 EMK",
+  "product_url": "https://www.ariteks.net/arwowear-t4-emk.asp",
+  "row_text": "200 g/m² 55% PES 25% CO 20% MTF ArWoWear T4 EMK 2/1S Twill",
+  "cells": [
+    "200 g/m²",
+    "55% PES 25% CO 20% MTF",
+    "ArWoWear T4 EMK",
+    "2/1S Twill"
+  ],
+  "summary": {
+    "weight": "200 g/m²",
+    "composition": "55% PES 25% CO 20% MTF",
+    "weave": "2/1S Twill"
+  },
+  "technology_partners": [
+    {
+      "url": "https://www.ariteks.net/images/brands/bekaert.jpg",
+      "alt": "Bekaeat Bekinox",
+      "title": "Bekinox",
+      "context_text": "200 g/m² 55% PES 25% CO 20% MTF ArWoWear T4 EMK 2/1S Twill",
+      "classification": "technology_partner",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\bekaert__980f6ba64d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\bekaert__980f6ba64d.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/bekaert__980f6ba64d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 480054,
+      "sha1": "8390cbf0c1aa30229a7e026c24d1490eed12f32a"
+    }
+  ],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/iec_60895.jpg",
+      "alt": "iec_60895",
+      "title": "iec_60895",
+      "context_text": "200 g/m² 55% PES 25% CO 20% MTF ArWoWear T4 EMK 2/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\iec-60895__5984eed6be.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\iec-60895__5984eed6be.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/iec-60895__5984eed6be.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 12260,
+      "sha1": "3d7c08efeaad5c96af6afed3b02392b676f7b584"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/emi_shielding.jpg",
+      "alt": "Emi Shielding",
+      "title": "Emi Shielding",
+      "context_text": "200 g/m² 55% PES 25% CO 20% MTF ArWoWear T4 EMK 2/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\emi-shielding__c6a5197f64.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\emi-shielding__c6a5197f64.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/emi-shielding__c6a5197f64.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9510,
+      "sha1": "32d6d1fdd51b7c5d4ce21a3f3eed2acca990ffb0"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "2/1S Twill",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/woven.jpg",
+        "alt": "Woven Fabric",
+        "title": "Woven Fabric",
+        "context_text": "2/1S Twill",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\woven__c0215fa432.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\woven__c0215fa432.jpg",
+        "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/woven__c0215fa432.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 21209,
+        "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(255, 255, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/brands/bekaert.jpg",
+      "alt": "Bekaeat Bekinox",
+      "title": "Bekinox",
+      "context_text": "200 g/m² 55% PES 25% CO 20% MTF ArWoWear T4 EMK 2/1S Twill",
+      "classification": "technology_partner",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\bekaert__980f6ba64d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\bekaert__980f6ba64d.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/bekaert__980f6ba64d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 480054,
+      "sha1": "8390cbf0c1aa30229a7e026c24d1490eed12f32a"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/iec_60895.jpg",
+      "alt": "iec_60895",
+      "title": "iec_60895",
+      "context_text": "200 g/m² 55% PES 25% CO 20% MTF ArWoWear T4 EMK 2/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\iec-60895__5984eed6be.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\iec-60895__5984eed6be.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/iec-60895__5984eed6be.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 12260,
+      "sha1": "3d7c08efeaad5c96af6afed3b02392b676f7b584"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/emi_shielding.jpg",
+      "alt": "Emi Shielding",
+      "title": "Emi Shielding",
+      "context_text": "200 g/m² 55% PES 25% CO 20% MTF ArWoWear T4 EMK 2/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\emi-shielding__c6a5197f64.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\emi-shielding__c6a5197f64.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/emi-shielding__c6a5197f64.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9510,
+      "sha1": "32d6d1fdd51b7c5d4ce21a3f3eed2acca990ffb0"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/woven.jpg",
+      "alt": "Woven Fabric",
+      "title": "Woven Fabric",
+      "context_text": "2/1S Twill",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arwowear-t4-emk\\images\\woven__c0215fa432.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arwowear-t4-emk\\images\\woven__c0215fa432.jpg",
+      "public_url": "/ariteks/fabrics/arwowear-t4-emk/images/woven__c0215fa432.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21209,
+      "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arwowear-t4-emk.asp",
+      "label": "ArWoWear T4 EMK",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArWoWear T4 EMK",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}

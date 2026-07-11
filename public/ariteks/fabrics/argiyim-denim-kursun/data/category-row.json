@@ -1,0 +1,186 @@
+{
+  "category_url": "https://www.ariteks.net/package-technical-textiles.asp",
+  "row_index": 220,
+  "group": {
+    "title": "Cut-proof knit fabric from p-aramid. Bomb and nail proof woven fabrics from Pa6.6",
+    "row_index": 200,
+    "row_text": "Cut-proof knit fabric from p-aramid. Bomb and nail proof woven fabrics from Pa6.6",
+    "documents": [],
+    "images": [],
+    "links": []
+  },
+  "product_name_from_category": "ArGiyim Denim Kursun",
+  "product_url": "https://www.ariteks.net/argiyim-denim-kursun.asp",
+  "row_text": "290 g/m² 50% HPPE 50% PES ArGiyim Denim Kursun 3/1S Twill",
+  "cells": [
+    "290 g/m²",
+    "50% HPPE 50% PES",
+    "ArGiyim Denim Kursun",
+    "3/1S Twill"
+  ],
+  "summary": {
+    "weight": "290 g/m²",
+    "composition": "50% HPPE 50% PES",
+    "weave": "3/1S Twill"
+  },
+  "technology_partners": [
+    {
+      "url": "https://www.ariteks.net/images/brands/twaron.JPG",
+      "alt": "Twaron",
+      "title": "Twaron",
+      "context_text": "250 g/m² 100% p-AR ArGiyim Knit Knife Pro Jersey",
+      "classification": "technology_partner",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\twaron__d08f177ec1.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\twaron__d08f177ec1.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/twaron__d08f177ec1.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 480054,
+      "sha1": "24704e6d4a83a32a9aeb7fde64e52bf6aca260c6"
+    }
+  ],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_388.jpg",
+      "alt": "EN 388",
+      "title": "EN 388",
+      "context_text": "290 g/m² 50% HPPE 50% PES ArGiyim Denim Kursun 3/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\en-388__1cf7d88453.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\en-388__1cf7d88453.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/en-388__1cf7d88453.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 7698,
+      "sha1": "a4d0b9667beec9353cb8b1b692a7942cfcd3212e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_17092.jpg",
+      "alt": "EN 17092",
+      "title": "EN 17092",
+      "context_text": "290 g/m² 50% HPPE 50% PES ArGiyim Denim Kursun 3/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\en-17092__1bc200ce50.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\en-17092__1bc200ce50.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/en-17092__1bc200ce50.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 22177,
+      "sha1": "b0863e99948ae8a76a5d7abe7bdf1099a3d6b616"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "3/1S Twill",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/woven.jpg",
+        "alt": "Woven Fabric",
+        "title": "Woven Fabric",
+        "context_text": "3/1S Twill",
+        "classification": "structure_image",
+        "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\woven__c0215fa432.jpg",
+        "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\woven__c0215fa432.jpg",
+        "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/woven__c0215fa432.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 21209,
+        "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(27, 18, 73)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "alt": "KnitFabric",
+      "title": "Knit Fabric",
+      "context_text": "Jersey",
+      "classification": "structure_image",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\knit__71fef29325.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/knit__71fef29325.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_388.jpg",
+      "alt": "EN 388",
+      "title": "EN 388",
+      "context_text": "290 g/m² 50% HPPE 50% PES ArGiyim Denim Kursun 3/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\en-388__1cf7d88453.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\en-388__1cf7d88453.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/en-388__1cf7d88453.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 7698,
+      "sha1": "a4d0b9667beec9353cb8b1b692a7942cfcd3212e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_17092.jpg",
+      "alt": "EN 17092",
+      "title": "EN 17092",
+      "context_text": "290 g/m² 50% HPPE 50% PES ArGiyim Denim Kursun 3/1S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\en-17092__1bc200ce50.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\en-17092__1bc200ce50.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/en-17092__1bc200ce50.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 22177,
+      "sha1": "b0863e99948ae8a76a5d7abe7bdf1099a3d6b616"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/woven.jpg",
+      "alt": "Woven Fabric",
+      "title": "Woven Fabric",
+      "context_text": "3/1S Twill",
+      "classification": "structure_image",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\woven__c0215fa432.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\woven__c0215fa432.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/woven__c0215fa432.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21209,
+      "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+    },
+    {
+      "url": "https://www.ariteks.net/images/brands/twaron.JPG",
+      "alt": "Twaron",
+      "title": "Twaron",
+      "context_text": "250 g/m² 100% p-AR ArGiyim Knit Knife Pro Jersey",
+      "classification": "technology_partner",
+      "raw_local_path": "E:\\ariteks\\new\\package\\_scraped\\fabrics_complete\\argiyim-denim-kursun\\images\\twaron__d08f177ec1.jpg",
+      "public_local_path": "E:\\ariteks\\fabrics\\argiyim-denim-kursun\\images\\twaron__d08f177ec1.jpg",
+      "public_url": "/ariteks/fabrics/argiyim-denim-kursun/images/twaron__d08f177ec1.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 480054,
+      "sha1": "24704e6d4a83a32a9aeb7fde64e52bf6aca260c6"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/argiyim-denim-kursun.asp",
+      "label": "ArGiyim Denim Kursun",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArGiyim Denim Kursun",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}
