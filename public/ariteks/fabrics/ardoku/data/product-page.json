@@ -1,0 +1,2057 @@
+{
+  "source_url": "https://www.ariteks.net/ardoku.asp",
+  "source_category_url": "https://www.ariteks.net/cloth-technical-textiles.asp",
+  "commercial_name": "ArDoku",
+  "product_name": "ArDoku",
+  "title_descriptor": "84% Polyester 10% Pu 6% Elastane softshell fabric",
+  "slug": "ardoku",
+  "page_title": "84% Polyester 10% Pu 6% Elastane softshell fabric - ArDoku - Ariteks",
+  "spec_line": "300 g/m², 84% Polyester 10% Pu 6% Elastane, 3 layer laminated, Softshell Fabric",
+  "description_blocks": [
+    "ArDoku is 84% polyester 10% pu 6% elastane softshell fabric. The top layer is elastic woven fabric, the middle layer is breathable tpu membrane, and the last layer is polar fabric.",
+    "The basic usage is for winter jackets.",
+    "ArDoku is certified for EN 343 and EN 20471"
+  ],
+  "technical_parameters": [
+    {
+      "name": "Fiber",
+      "value": "84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL)",
+      "standard": "EN ISO 2076",
+      "source_table_index": 6
+    },
+    {
+      "name": "Yarn",
+      "value": "75 Denier",
+      "standard": "EN ISO 2060",
+      "source_table_index": 6
+    },
+    {
+      "name": "Weight",
+      "value": "300 ±10 g/m²",
+      "standard": "EN ISO 3081",
+      "source_table_index": 6
+    },
+    {
+      "name": "Width",
+      "value": "1500 ±20 mm",
+      "standard": "EN ISO 3932",
+      "source_table_index": 6
+    },
+    {
+      "name": "Tensile Strength",
+      "value": "Warp > 1000N ; Weft > 800N",
+      "standard": "EN ISO 13934-1",
+      "source_table_index": 6
+    },
+    {
+      "name": "Tear Strength",
+      "value": "Warp > 40N ; Weft > 35N",
+      "standard": "EN ISO 13937-2",
+      "source_table_index": 6
+    },
+    {
+      "name": "Dimensional Change",
+      "value": "-3% < Length < +3% ; -3% < Width < +3%",
+      "standard": "EN ISO 5077",
+      "source_table_index": 6
+    },
+    {
+      "name": "Rubbing Fastness",
+      "value": "4-5",
+      "standard": "EN ISO 105 X12",
+      "source_table_index": 6
+    },
+    {
+      "name": "Perspiration Fastness",
+      "value": "4-5",
+      "standard": "EN ISO 105 E04",
+      "source_table_index": 6
+    },
+    {
+      "name": "Washing Fastness",
+      "value": "4-5",
+      "standard": "EN ISO 105 C06",
+      "source_table_index": 6
+    },
+    {
+      "name": "Dry Cleaning Fastness",
+      "value": "4-5",
+      "standard": "EN ISO 105 D01",
+      "source_table_index": 6
+    },
+    {
+      "name": "Hypochlorite Fastness",
+      "value": "4-5",
+      "standard": "EN ISO 105 N01",
+      "source_table_index": 6
+    },
+    {
+      "name": "Hot Press Fastness",
+      "value": "4-5",
+      "standard": "EN ISO 105 X11",
+      "source_table_index": 6
+    },
+    {
+      "name": "pH",
+      "value": "4,0 - 7,5",
+      "standard": "EN ISO 3071",
+      "source_table_index": 6
+    },
+    {
+      "name": "Azo Test",
+      "value": "No Azo Colorants.",
+      "standard": "EN ISO 14362-1",
+      "source_table_index": 6
+    },
+    {
+      "name": "Application",
+      "value": "Winter Jackets",
+      "standard": "",
+      "source_table_index": 6
+    },
+    {
+      "name": "Quality Management",
+      "value": "Done",
+      "standard": "ISO 9001",
+      "source_table_index": 6
+    },
+    {
+      "name": "Waterproof",
+      "value": "Class 3,3",
+      "standard": "EN 343",
+      "source_table_index": 6
+    },
+    {
+      "name": "High Visible",
+      "value": "Yes",
+      "standard": "EN 20471",
+      "source_table_index": 6
+    }
+  ],
+  "technical_documents": [
+    {
+      "url": "https://www.ariteks.net/pdf/ardoku-ds.pdf",
+      "label": ">> ArDoku Data Sheet",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Technical Parameters Fiber 84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL) EN ISO 2076 Yarn 75 Denier EN ISO 2060 Weight 300 ±10 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Tensile Strength Warp > 1000N ; Weft > 800N EN ISO 13934-1 Tear Strength Warp > 40N ; Weft > 35N EN ISO 13937-2 Dimensional Change -3% < Length < +3% ; -3% < Width < +3% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 4,0 - 7,5 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Winter Jackets Quality Management Done ISO 9001 Waterproof Class 3,3 EN 343 High Visible Yes EN 20471 Technical Documents >> ArDoku Data Sheet Certificates",
+      "document_kind": "data_sheet",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\documents\\ardoku-ds__6afc46495a.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\documents\\ardoku-ds__6afc46495a.pdf",
+      "public_url": "/ariteks/fabrics/ardoku/documents/ardoku-ds__6afc46495a.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 301653,
+      "sha1": "0a263092a2a5759f5e23a540fa0e867186eb9978"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+      "alt": "Turkish",
+      "title": "Turkish",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\tr-s__2229569dd5.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\tr-s__2229569dd5.png",
+      "public_url": "/ariteks/fabrics/ardoku/images/tr-s__2229569dd5.png",
+      "content_type": "image/png",
+      "size_bytes": 17432,
+      "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+      "alt": "Russian",
+      "title": "Russian",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\ru-s__28dde2a24b.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\ru-s__28dde2a24b.png",
+      "public_url": "/ariteks/fabrics/ardoku/images/ru-s__28dde2a24b.png",
+      "content_type": "image/png",
+      "size_bytes": 11546,
+      "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+      "alt": "English",
+      "title": "English",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\en-s__0126e84202.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\en-s__0126e84202.png",
+      "public_url": "/ariteks/fabrics/ardoku/images/en-s__0126e84202.png",
+      "content_type": "image/png",
+      "size_bytes": 19703,
+      "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+    },
+    {
+      "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+      "alt": "Arıteks Logo",
+      "title": "",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38222,
+      "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+    },
+    {
+      "url": "https://www.ariteks.net/images/techteksposters/cloth_m.jpg",
+      "alt": "Cloth Technical Textiles",
+      "title": "Cloth Technical Textiles",
+      "context_text": "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics",
+      "classification": "category_banner",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\cloth-m__94410c180f.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\cloth-m__94410c180f.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/cloth-m__94410c180f.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1849980,
+      "sha1": "5a1cba0a0857a639e295c79565b8240befb10878"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/ardoku_main_pic_m.jpg",
+      "alt": "Softshell Fabric",
+      "title": "Softshell Fabric",
+      "context_text": "ArDoku is 84% polyester 10% pu 6% elastane softshell fabric. The top layer is elastic woven fabric, the middle layer is breathable tpu membrane, and the last layer is polar fabric. The basic usage is for winter jackets. ArDoku is certified for EN 343 and EN 20471",
+      "classification": "hero_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\ardoku-main-pic-m__960fba1778.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\ardoku-main-pic-m__960fba1778.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/ardoku-main-pic-m__960fba1778.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 309355,
+      "sha1": "b024b89760b489d1907f87f5022a46d8077aa5a8"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/cloth/softshell-blue-m.jpg",
+      "alt": "Softshell Blue Jacket",
+      "title": "Softshell Blue Jacket",
+      "context_text": "Applications",
+      "classification": "application_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-blue-m__d9ce265ab3.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-blue-m__d9ce265ab3.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/softshell-blue-m__d9ce265ab3.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 240039,
+      "sha1": "77e1527914a4c3e9c37fc9f2fddb9b1adf716817"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/cloth/softshell-red-m.jpg",
+      "alt": "Softshell Red Jacket",
+      "title": "Softshell Red Jacket",
+      "context_text": "Applications",
+      "classification": "application_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-red-m__36c42fea5f.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-red-m__36c42fea5f.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/softshell-red-m__36c42fea5f.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 205695,
+      "sha1": "49355325414981e00560c765ad79a3c61d0d5811"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/cloth/softshell-green-m.jpg",
+      "alt": "Softshell Green Jacket",
+      "title": "Softshell Green Jacket",
+      "context_text": "Applications",
+      "classification": "application_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-green-m__2807cc748c.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-green-m__2807cc748c.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/softshell-green-m__2807cc748c.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 142671,
+      "sha1": "11665d1ad65a554dab96ad13b9d0bec63a1575d0"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+      "alt": "Oeko Tex Standard 100",
+      "title": "Oeko Tex Standard 100",
+      "context_text": "Functions",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/oekoteks-standard-100-s__ea5e91d474.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 54001,
+      "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_343.jpg",
+      "alt": "En 343",
+      "title": "En 343",
+      "context_text": "Functions",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\en-343__0f8d3740e4.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\en-343__0f8d3740e4.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/en-343__0f8d3740e4.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9845,
+      "sha1": "76a0ba9ff1cd2e4323ae1b5cabe4ae0884b8f72b"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "En 20471",
+      "title": "EN 20471",
+      "context_text": "Functions",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/40_mach_wash_ma_agi.jpg",
+      "alt": "40'C Machine Wash",
+      "title": "60'C Machine Wash",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\40-mach-wash-ma-agi__5e0013c265.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\40-mach-wash-ma-agi__5e0013c265.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/40-mach-wash-ma-agi__5e0013c265.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "9d471a710f65ee792c909f8163f15815d3b6c0e3"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+      "alt": "No Chlorine Based Bleaching",
+      "title": "No Chlorine Based Bleaching",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\no-chlorine-bleach__33a0308671.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\no-chlorine-bleach__33a0308671.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/no-chlorine-bleach__33a0308671.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/tumble_dried_low_ht.jpg",
+      "alt": "Can Be Tumble Dried On Low Heat Setting",
+      "title": "Can Be Tumble Dried On Low Heat Setting",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/tumble-dried-low-ht__cd432a52a7.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "b5fb112a29efca36c0a736eb588a8a367fb30bac"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/ma_150_iron.jpg",
+      "alt": "Maximum 150'C Warm Iron",
+      "title": "Maximum 150'C Warm Iron",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\ma-150-iron__78883199be.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\ma-150-iron__78883199be.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/ma-150-iron__78883199be.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97794,
+      "sha1": "f5a4fac2b95005ea49edbeb1b6de2be8abcea782"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/dry_cleaning.jpg",
+      "alt": "Suitable for Dry Cleaning",
+      "title": "Suitable for Dry Cleaning",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\dry-cleaning__6e8a85520f.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\dry-cleaning__6e8a85520f.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/dry-cleaning__6e8a85520f.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "d8d03b8658bc4f973c36cb18f135e6b56f318f6c"
+    }
+  ],
+  "image_groups": {
+    "hero_images": [
+      {
+        "url": "https://www.ariteks.net/images/product/ardoku_main_pic_m.jpg",
+        "alt": "Softshell Fabric",
+        "title": "Softshell Fabric",
+        "context_text": "ArDoku is 84% polyester 10% pu 6% elastane softshell fabric. The top layer is elastic woven fabric, the middle layer is breathable tpu membrane, and the last layer is polar fabric. The basic usage is for winter jackets. ArDoku is certified for EN 343 and EN 20471",
+        "classification": "hero_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\ardoku-main-pic-m__960fba1778.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\ardoku-main-pic-m__960fba1778.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/ardoku-main-pic-m__960fba1778.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 309355,
+        "sha1": "b024b89760b489d1907f87f5022a46d8077aa5a8"
+      }
+    ],
+    "product_images": [],
+    "fabric_photos": [],
+    "application_images": [
+      {
+        "url": "https://www.ariteks.net/images/product/cloth/softshell-blue-m.jpg",
+        "alt": "Softshell Blue Jacket",
+        "title": "Softshell Blue Jacket",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-blue-m__d9ce265ab3.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-blue-m__d9ce265ab3.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/softshell-blue-m__d9ce265ab3.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 240039,
+        "sha1": "77e1527914a4c3e9c37fc9f2fddb9b1adf716817"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/cloth/softshell-red-m.jpg",
+        "alt": "Softshell Red Jacket",
+        "title": "Softshell Red Jacket",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-red-m__36c42fea5f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-red-m__36c42fea5f.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/softshell-red-m__36c42fea5f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 205695,
+        "sha1": "49355325414981e00560c765ad79a3c61d0d5811"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/cloth/softshell-green-m.jpg",
+        "alt": "Softshell Green Jacket",
+        "title": "Softshell Green Jacket",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-green-m__2807cc748c.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-green-m__2807cc748c.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/softshell-green-m__2807cc748c.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 142671,
+        "sha1": "11665d1ad65a554dab96ad13b9d0bec63a1575d0"
+      }
+    ],
+    "function_icons": [
+      {
+        "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+        "alt": "Oeko Tex Standard 100",
+        "title": "Oeko Tex Standard 100",
+        "context_text": "Functions",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/oekoteks-standard-100-s__ea5e91d474.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 54001,
+        "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854"
+      },
+      {
+        "url": "https://www.ariteks.net/images/functions/en_343.jpg",
+        "alt": "En 343",
+        "title": "En 343",
+        "context_text": "Functions",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\en-343__0f8d3740e4.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\en-343__0f8d3740e4.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/en-343__0f8d3740e4.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 9845,
+        "sha1": "76a0ba9ff1cd2e4323ae1b5cabe4ae0884b8f72b"
+      },
+      {
+        "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+        "alt": "En 20471",
+        "title": "EN 20471",
+        "context_text": "Functions",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\en-20471__b3c86afe25.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\en-20471__b3c86afe25.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/en-20471__b3c86afe25.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 9328,
+        "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+      }
+    ],
+    "certificate_badges": [],
+    "care_instructions": [
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/40_mach_wash_ma_agi.jpg",
+        "alt": "40'C Machine Wash",
+        "title": "60'C Machine Wash",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\40-mach-wash-ma-agi__5e0013c265.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\40-mach-wash-ma-agi__5e0013c265.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/40-mach-wash-ma-agi__5e0013c265.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "9d471a710f65ee792c909f8163f15815d3b6c0e3"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+        "alt": "No Chlorine Based Bleaching",
+        "title": "No Chlorine Based Bleaching",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\no-chlorine-bleach__33a0308671.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\no-chlorine-bleach__33a0308671.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/no-chlorine-bleach__33a0308671.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/tumble_dried_low_ht.jpg",
+        "alt": "Can Be Tumble Dried On Low Heat Setting",
+        "title": "Can Be Tumble Dried On Low Heat Setting",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\tumble-dried-low-ht__cd432a52a7.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/tumble-dried-low-ht__cd432a52a7.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "b5fb112a29efca36c0a736eb588a8a367fb30bac"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/ma_150_iron.jpg",
+        "alt": "Maximum 150'C Warm Iron",
+        "title": "Maximum 150'C Warm Iron",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\ma-150-iron__78883199be.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\ma-150-iron__78883199be.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/ma-150-iron__78883199be.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97794,
+        "sha1": "f5a4fac2b95005ea49edbeb1b6de2be8abcea782"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/dry_cleaning.jpg",
+        "alt": "Suitable for Dry Cleaning",
+        "title": "Suitable for Dry Cleaning",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\dry-cleaning__6e8a85520f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\dry-cleaning__6e8a85520f.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/dry-cleaning__6e8a85520f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "d8d03b8658bc4f973c36cb18f135e6b56f318f6c"
+      }
+    ],
+    "structure_images": [],
+    "technology_partners": [],
+    "category_banners": [
+      {
+        "url": "https://www.ariteks.net/images/techteksposters/cloth_m.jpg",
+        "alt": "Cloth Technical Textiles",
+        "title": "Cloth Technical Textiles",
+        "context_text": "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics",
+        "classification": "category_banner",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\cloth-m__94410c180f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\cloth-m__94410c180f.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/cloth-m__94410c180f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 1849980,
+        "sha1": "5a1cba0a0857a639e295c79565b8240befb10878"
+      }
+    ],
+    "layout_assets": [
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+        "alt": "Turkish",
+        "title": "Turkish",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\tr-s__2229569dd5.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\tr-s__2229569dd5.png",
+        "public_url": "/ariteks/fabrics/ardoku/images/tr-s__2229569dd5.png",
+        "content_type": "image/png",
+        "size_bytes": 17432,
+        "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+      },
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+        "alt": "Russian",
+        "title": "Russian",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\ru-s__28dde2a24b.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\ru-s__28dde2a24b.png",
+        "public_url": "/ariteks/fabrics/ardoku/images/ru-s__28dde2a24b.png",
+        "content_type": "image/png",
+        "size_bytes": 11546,
+        "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+      },
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+        "alt": "English",
+        "title": "English",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\en-s__0126e84202.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\en-s__0126e84202.png",
+        "public_url": "/ariteks/fabrics/ardoku/images/en-s__0126e84202.png",
+        "content_type": "image/png",
+        "size_bytes": 19703,
+        "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+      },
+      {
+        "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+        "alt": "Arıteks Logo",
+        "title": "",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "public_url": "/ariteks/fabrics/ardoku/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 38222,
+        "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+      }
+    ],
+    "other_images": []
+  },
+  "colors_and_articles": [
+    {
+      "color": "Turquoise",
+      "code_or_pind": "PT-57819-1",
+      "finish": "- STANDARD -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Turquoise",
+        "code_or_pind": "PT-57819-1",
+        "finish": "- STANDARD -",
+        "article_number": ""
+      }
+    },
+    {
+      "color": "White",
+      "code_or_pind": "",
+      "finish": "",
+      "article_number": "PTO-10275",
+      "raw_lines": {
+        "color": "White",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "PTO-10275"
+      }
+    },
+    {
+      "color": "Green",
+      "code_or_pind": "PT-64889-1",
+      "finish": "- STANDARD -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Green",
+        "code_or_pind": "PT-64889-1",
+        "finish": "- STANDARD -",
+        "article_number": ""
+      }
+    },
+    {
+      "color": "Black",
+      "code_or_pind": "PT-95503-1",
+      "finish": "- STANDARD -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Black",
+        "code_or_pind": "PT-95503-1",
+        "finish": "- STANDARD -",
+        "article_number": ""
+      }
+    },
+    {
+      "color": "Dark Red",
+      "code_or_pind": "PT-33354-1",
+      "finish": "- STANDARD -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Dark Red",
+        "code_or_pind": "PT-33354-1",
+        "finish": "- STANDARD -",
+        "article_number": ""
+      }
+    },
+    {
+      "color": "Navy",
+      "code_or_pind": "PT-57753-1",
+      "finish": "- STANDARD -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Navy",
+        "code_or_pind": "PT-57753-1",
+        "finish": "- STANDARD -",
+        "article_number": ""
+      }
+    },
+    {
+      "color": "Sax",
+      "code_or_pind": "PT-57972-1",
+      "finish": "- STANDARD -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Sax",
+        "code_or_pind": "PT-57972-1",
+        "finish": "- STANDARD -",
+        "article_number": ""
+      }
+    },
+    {
+      "color": "Grey",
+      "code_or_pind": "PT-95502-1",
+      "finish": "- STANDARD -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Grey",
+        "code_or_pind": "PT-95502-1",
+        "finish": "- STANDARD -",
+        "article_number": ""
+      }
+    },
+    {
+      "color": "Yellow",
+      "code_or_pind": "PT-23603-1",
+      "finish": "- HIGH VISIBLE -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Yellow",
+        "code_or_pind": "PT-23603-1",
+        "finish": "- HIGH VISIBLE -",
+        "article_number": ""
+      }
+    },
+    {
+      "color": "Orange",
+      "code_or_pind": "PT-22970-1",
+      "finish": "- HIGH VISIBLE -",
+      "article_number": "",
+      "raw_lines": {
+        "color": "Orange",
+        "code_or_pind": "PT-22970-1",
+        "finish": "- HIGH VISIBLE -",
+        "article_number": ""
+      }
+    }
+  ],
+  "links": [
+    {
+      "url": "http://tr.ariteks.net/ardoku.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "http://ru.ariteks.net/ardoku.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "http://en.ariteks.net/ardoku.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/mainpage.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/cloth-technical-textiles.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/ardoku-ds.pdf",
+      "label": ">> ArDoku Data Sheet",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Technical Parameters Fiber 84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL) EN ISO 2076 Yarn 75 Denier EN ISO 2060 Weight 300 ±10 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Tensile Strength Warp > 1000N ; Weft > 800N EN ISO 13934-1 Tear Strength Warp > 40N ; Weft > 35N EN ISO 13937-2 Dimensional Change -3% < Length < +3% ; -3% < Width < +3% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 4,0 - 7,5 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Winter Jackets Quality Management Done ISO 9001 Waterproof Class 3,3 EN 343 High Visible Yes EN 20471 Technical Documents >> ArDoku Data Sheet Certificates",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\documents\\ardoku-ds__6afc46495a.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\documents\\ardoku-ds__6afc46495a.pdf",
+      "public_url": "/ariteks/fabrics/ardoku/documents/ardoku-ds__6afc46495a.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 301653,
+      "sha1": "0a263092a2a5759f5e23a540fa0e867186eb9978"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/cloth/softshell-blue.jpg",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": false,
+      "is_image": true,
+      "is_product_page": false,
+      "context_text": "Applications",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-blue__4eff2e0cc3.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-blue__4eff2e0cc3.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/softshell-blue__4eff2e0cc3.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1217047,
+      "sha1": "485846eb8bd9f5c561539d48a4f9143a060bf5fb"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/cloth/softshell-red.jpg",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": false,
+      "is_image": true,
+      "is_product_page": false,
+      "context_text": "Applications",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-red__ff9ffc3b3d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-red__ff9ffc3b3d.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/softshell-red__ff9ffc3b3d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1063835,
+      "sha1": "d0fb44210226e96af622c2bf7c528c3dba414333"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/cloth/softshell-green.jpg",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": false,
+      "is_image": true,
+      "is_product_page": false,
+      "context_text": "Applications",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\images\\softshell-green__2e7a23f98a.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardoku\\images\\softshell-green__2e7a23f98a.jpg",
+      "public_url": "/ariteks/fabrics/ardoku/images/softshell-green__2e7a23f98a.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 656853,
+      "sha1": "89fcaddf069132c9b1e71ad7e6d35287933cbcdf"
+    },
+    {
+      "url": "https://www.ariteks.net/products.asp",
+      "label": "Products",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Home > Products > Cloth > ArDoku",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/ardoku.asp",
+      "label": "ArDoku",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "Home > Products > Cloth > ArDoku",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/apparel-fashion-textiles.asp",
+      "label": "APPAREL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/building-technical-textiles.asp",
+      "label": "BUILDING TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/home-technical-textiles.asp",
+      "label": "HOME TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/protection-technical-textiles.asp",
+      "label": "PROTECTION TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/medical-technical-textiles.asp",
+      "label": "MEDICAL TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/sport-technical-textiles.asp",
+      "label": "SPORT TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/transport-technical-textiles.asp",
+      "label": "TRANSPORT TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/ariteksgrup.asp",
+      "label": "ARITEKS GROUP",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARITEKS GROUP SERVICES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile.asp",
+      "label": "SERVICES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARITEKS GROUP SERVICES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-uv-protection.asp",
+      "label": "UV PROTECTION",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-flame-retardant.asp",
+      "label": "FLAME RETARDANT",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-insect-repellent.asp",
+      "label": "INSECT REPELLENT",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-antibacterial.asp",
+      "label": "ANTIBACTERIAL",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-water-and-soil-repellent.asp",
+      "label": "WATER REPELLENT",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/ardilight.asp",
+      "label": "ARDILIGHT",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/arneo-eco.asp",
+      "label": "ARNEO ECO",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/arof-file.asp",
+      "label": "AROF FILE",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "http://www.ariteks.net",
+      "label": "www.ariteks.net",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ],
+  "tables": [
+    {
+      "table_index": 3,
+      "text_preview": "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics",
+      "rows": [
+        [
+          "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics"
+        ]
+      ]
+    },
+    {
+      "table_index": 4,
+      "text_preview": "Cloth Technical Textiles",
+      "rows": [
+        [
+          "Cloth Technical Textiles"
+        ]
+      ]
+    },
+    {
+      "table_index": 5,
+      "text_preview": "ArDoku 300 g/m² , 84% Polyester 10% Pu 6% Elastane, 3 layer laminated, Softshell Fabric.",
+      "rows": [
+        [
+          "ArDoku"
+        ],
+        [
+          "300 g/m² , 84% Polyester 10% Pu 6% Elastane, 3 layer laminated, Softshell Fabric."
+        ]
+      ]
+    },
+    {
+      "table_index": 6,
+      "text_preview": "Fiber 84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL) EN ISO 2076 Yarn 75 Denier EN ISO 2060 Weight 300 ±10 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Tensile Strength Warp > 1000N ; Weft > 800N EN ISO 13934-1 Tear Strength Warp > 40N ; Weft > 35N EN ISO 13937-2 Dimensional Change -3% < Length < +3% ; -3% < Width < +3% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 4,0 - 7,5 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Winter Jackets Quality Management Done I",
+      "rows": [
+        [
+          "Fiber",
+          "84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL)",
+          "EN ISO 2076"
+        ],
+        [
+          "Yarn",
+          "75 Denier",
+          "EN ISO 2060"
+        ],
+        [
+          "Weight",
+          "300 ±10 g/m²",
+          "EN ISO 3081"
+        ],
+        [
+          "Width",
+          "1500 ±20 mm",
+          "EN ISO 3932"
+        ],
+        [
+          "Tensile Strength",
+          "Warp > 1000N ; Weft > 800N",
+          "EN ISO 13934-1"
+        ],
+        [
+          "Tear Strength",
+          "Warp > 40N ; Weft > 35N",
+          "EN ISO 13937-2"
+        ],
+        [
+          "Dimensional Change",
+          "-3% < Length < +3% ; -3% < Width < +3%",
+          "EN ISO 5077"
+        ],
+        [
+          "Rubbing Fastness",
+          "4-5",
+          "EN ISO 105 X12"
+        ],
+        [
+          "Perspiration Fastness",
+          "4-5",
+          "EN ISO 105 E04"
+        ],
+        [
+          "Washing Fastness",
+          "4-5",
+          "EN ISO 105 C06"
+        ],
+        [
+          "Dry Cleaning Fastness",
+          "4-5",
+          "EN ISO 105 D01"
+        ],
+        [
+          "Hypochlorite Fastness",
+          "4-5",
+          "EN ISO 105 N01"
+        ],
+        [
+          "Hot Press Fastness",
+          "4-5",
+          "EN ISO 105 X11"
+        ],
+        [
+          "pH",
+          "4,0 - 7,5",
+          "EN ISO 3071"
+        ],
+        [
+          "Azo Test",
+          "No Azo Colorants.",
+          "EN ISO 14362-1"
+        ],
+        [
+          "Application",
+          "Winter Jackets"
+        ],
+        [
+          "Quality Management",
+          "Done",
+          "ISO 9001"
+        ],
+        [
+          "Waterproof",
+          "Class 3,3",
+          "EN 343"
+        ],
+        [
+          "High Visible",
+          "Yes",
+          "EN 20471"
+        ]
+      ]
+    },
+    {
+      "table_index": 7,
+      "text_preview": "Turquoise PT-57819-1 - STANDARD - ArDoku - 5651 White PTO-10275-1 - STANDARD - ArDoku - 5647 Green PT-64889-1 - STANDARD - ArDoku - 5616 Black PT-95503-1 - STANDARD - ArDoku - 5613 Dark Red PT-33354-1 - STANDARD - ArDoku - 5612 Navy PT-57753-1 - STANDARD - ArDoku - 5611 Sax PT-57972-1 - STANDARD - ArDoku - 5610 Grey PT-95502-1 - STANDARD - ArDoku - 5514 Yellow PT-23603-1 - HIGH VISIBLE - ArDoku - 5515 Orange PT-22970-1 - HIGH VISIBLE - ArDoku - 5516",
+      "rows": [
+        [
+          "Turquoise",
+          "PT-57819-1",
+          "- STANDARD -",
+          "ArDoku - 5651"
+        ],
+        [
+          "White",
+          "PTO-10275-1",
+          "- STANDARD -",
+          "ArDoku - 5647"
+        ],
+        [
+          "Green",
+          "PT-64889-1",
+          "- STANDARD -",
+          "ArDoku - 5616"
+        ],
+        [
+          "Black",
+          "PT-95503-1",
+          "- STANDARD -",
+          "ArDoku - 5613"
+        ],
+        [
+          "Dark Red",
+          "PT-33354-1",
+          "- STANDARD -",
+          "ArDoku - 5612"
+        ],
+        [
+          "Navy",
+          "PT-57753-1",
+          "- STANDARD -",
+          "ArDoku - 5611"
+        ],
+        [
+          "Sax",
+          "PT-57972-1",
+          "- STANDARD -",
+          "ArDoku - 5610"
+        ],
+        [
+          "Grey",
+          "PT-95502-1",
+          "- STANDARD -",
+          "ArDoku - 5514"
+        ],
+        [
+          "Yellow",
+          "PT-23603-1",
+          "- HIGH VISIBLE -",
+          "ArDoku - 5515"
+        ],
+        [
+          "Orange",
+          "PT-22970-1",
+          "- HIGH VISIBLE -",
+          "ArDoku - 5516"
+        ]
+      ]
+    },
+    {
+      "table_index": 8,
+      "text_preview": "Home > Products > Cloth > ArDoku",
+      "rows": [
+        [
+          "Home > Products > Cloth > ArDoku"
+        ]
+      ]
+    },
+    {
+      "table_index": 9,
+      "text_preview": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES ARITEKS GROUP SERVICES UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT ARDILIGHT ARNEO ECO AROF FILE",
+      "rows": [
+        [
+          "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+          "ARITEKS GROUP SERVICES",
+          "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+          "ARDILIGHT ARNEO ECO AROF FILE"
+        ]
+      ]
+    },
+    {
+      "table_index": 10,
+      "text_preview": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net",
+      "rows": [
+        [
+          "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net"
+        ]
+      ]
+    },
+    {
+      "table_index": 11,
+      "text_preview": "Copyright © 2026 Arıteks A.Ş.",
+      "rows": [
+        [
+          "Copyright © 2026 Arıteks A.Ş."
+        ]
+      ]
+    }
+  ],
+  "text_blocks": [
+    {
+      "order": 1,
+      "tag": "div",
+      "text": "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics Cloth Technical Textiles"
+    },
+    {
+      "order": 2,
+      "tag": "div",
+      "text": "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics"
+    },
+    {
+      "order": 3,
+      "tag": "td",
+      "text": "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics"
+    },
+    {
+      "order": 4,
+      "tag": "h1",
+      "text": "Lining, 3 Layer Laminated, Waterproof Breatheable Fabrics"
+    },
+    {
+      "order": 5,
+      "tag": "td",
+      "text": "Cloth Technical Textiles"
+    },
+    {
+      "order": 6,
+      "tag": "td",
+      "text": "ArDoku"
+    },
+    {
+      "order": 7,
+      "tag": "td",
+      "text": "300 g/m² , 84% Polyester 10% Pu 6% Elastane, 3 layer laminated, Softshell Fabric."
+    },
+    {
+      "order": 8,
+      "tag": "div",
+      "text": "ArDoku is 84% polyester 10% pu 6% elastane softshell fabric. The top layer is elastic woven fabric, the middle layer is breathable tpu membrane, and the last layer is polar fabric. The basic usage is for winter jackets. ArDoku is certified for EN 343 and EN 20471 Technical Parameters Fiber 84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL) EN ISO 2076 Yarn 75 Denier EN ISO 2060 Weight 300 ±10 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Tensile Strength Warp > 1000N ; Weft > 800N EN ISO 13934-1 Tear Strength Warp > 40N ; Weft > 35N EN ISO 13937-2 Dimensional Change -3% < Length < +3% ; -3% < Width < +3% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 4,0 - 7,5 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Winter Jackets Quality Management Done ISO 9001 Waterproof Class 3,3 EN 343 High Visible Yes EN 20471 Technical Documents >> ArDoku Data Sheet Certificates"
+    },
+    {
+      "order": 9,
+      "tag": "div",
+      "text": "ArDoku is 84% polyester 10% pu 6% elastane softshell fabric. The top layer is elastic woven fabric, the middle layer is breathable tpu membrane, and the last layer is polar fabric. The basic usage is for winter jackets. ArDoku is certified for EN 343 and EN 20471"
+    },
+    {
+      "order": 10,
+      "tag": "h1",
+      "text": "ArDoku is 84% polyester 10% pu 6% elastane softshell fabric. The top layer is elastic woven fabric, the middle layer is breathable tpu membrane, and the last layer is polar fabric. The basic usage is for winter jackets."
+    },
+    {
+      "order": 11,
+      "tag": "h2",
+      "text": "ArDoku is certified for EN 343 and EN 20471"
+    },
+    {
+      "order": 12,
+      "tag": "div",
+      "text": "Technical Parameters Fiber 84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL) EN ISO 2076 Yarn 75 Denier EN ISO 2060 Weight 300 ±10 g/m² EN ISO 3081 Width 1500 ±20 mm EN ISO 3932 Tensile Strength Warp > 1000N ; Weft > 800N EN ISO 13934-1 Tear Strength Warp > 40N ; Weft > 35N EN ISO 13937-2 Dimensional Change -3% < Length < +3% ; -3% < Width < +3% EN ISO 5077 Rubbing Fastness 4-5 EN ISO 105 X12 Perspiration Fastness 4-5 EN ISO 105 E04 Washing Fastness 4-5 EN ISO 105 C06 Dry Cleaning Fastness 4-5 EN ISO 105 D01 Hypochlorite Fastness 4-5 EN ISO 105 N01 Hot Press Fastness 4-5 EN ISO 105 X11 pH 4,0 - 7,5 EN ISO 3071 Azo Test No Azo Colorants. EN ISO 14362-1 Application Winter Jackets Quality Management Done ISO 9001 Waterproof Class 3,3 EN 343 High Visible Yes EN 20471 Technical Documents >> ArDoku Data Sheet Certificates"
+    },
+    {
+      "order": 13,
+      "tag": "td",
+      "text": "Fiber"
+    },
+    {
+      "order": 14,
+      "tag": "td",
+      "text": "84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL)"
+    },
+    {
+      "order": 15,
+      "tag": "td",
+      "text": "EN ISO 2076"
+    },
+    {
+      "order": 16,
+      "tag": "td",
+      "text": "Yarn"
+    },
+    {
+      "order": 17,
+      "tag": "td",
+      "text": "75 Denier"
+    },
+    {
+      "order": 18,
+      "tag": "td",
+      "text": "EN ISO 2060"
+    },
+    {
+      "order": 19,
+      "tag": "td",
+      "text": "Weight"
+    },
+    {
+      "order": 20,
+      "tag": "td",
+      "text": "300 ±10 g/m²"
+    },
+    {
+      "order": 21,
+      "tag": "td",
+      "text": "EN ISO 3081"
+    },
+    {
+      "order": 22,
+      "tag": "td",
+      "text": "Width"
+    },
+    {
+      "order": 23,
+      "tag": "td",
+      "text": "1500 ±20 mm"
+    },
+    {
+      "order": 24,
+      "tag": "td",
+      "text": "EN ISO 3932"
+    },
+    {
+      "order": 25,
+      "tag": "td",
+      "text": "Tensile Strength"
+    },
+    {
+      "order": 26,
+      "tag": "td",
+      "text": "Warp > 1000N ; Weft > 800N"
+    },
+    {
+      "order": 27,
+      "tag": "td",
+      "text": "EN ISO 13934-1"
+    },
+    {
+      "order": 28,
+      "tag": "td",
+      "text": "Tear Strength"
+    },
+    {
+      "order": 29,
+      "tag": "td",
+      "text": "Warp > 40N ; Weft > 35N"
+    },
+    {
+      "order": 30,
+      "tag": "td",
+      "text": "EN ISO 13937-2"
+    },
+    {
+      "order": 31,
+      "tag": "td",
+      "text": "Dimensional Change"
+    },
+    {
+      "order": 32,
+      "tag": "td",
+      "text": "-3% < Length < +3% ; -3% < Width < +3%"
+    },
+    {
+      "order": 33,
+      "tag": "td",
+      "text": "EN ISO 5077"
+    },
+    {
+      "order": 34,
+      "tag": "td",
+      "text": "Rubbing Fastness"
+    },
+    {
+      "order": 35,
+      "tag": "td",
+      "text": "4-5"
+    },
+    {
+      "order": 36,
+      "tag": "td",
+      "text": "EN ISO 105 X12"
+    },
+    {
+      "order": 37,
+      "tag": "td",
+      "text": "Perspiration Fastness"
+    },
+    {
+      "order": 38,
+      "tag": "td",
+      "text": "4-5"
+    },
+    {
+      "order": 39,
+      "tag": "td",
+      "text": "EN ISO 105 E04"
+    },
+    {
+      "order": 40,
+      "tag": "td",
+      "text": "Washing Fastness"
+    },
+    {
+      "order": 41,
+      "tag": "td",
+      "text": "4-5"
+    },
+    {
+      "order": 42,
+      "tag": "td",
+      "text": "EN ISO 105 C06"
+    },
+    {
+      "order": 43,
+      "tag": "td",
+      "text": "Dry Cleaning Fastness"
+    },
+    {
+      "order": 44,
+      "tag": "td",
+      "text": "4-5"
+    },
+    {
+      "order": 45,
+      "tag": "td",
+      "text": "EN ISO 105 D01"
+    },
+    {
+      "order": 46,
+      "tag": "td",
+      "text": "Hypochlorite Fastness"
+    },
+    {
+      "order": 47,
+      "tag": "td",
+      "text": "4-5"
+    },
+    {
+      "order": 48,
+      "tag": "td",
+      "text": "EN ISO 105 N01"
+    },
+    {
+      "order": 49,
+      "tag": "td",
+      "text": "Hot Press Fastness"
+    },
+    {
+      "order": 50,
+      "tag": "td",
+      "text": "4-5"
+    },
+    {
+      "order": 51,
+      "tag": "td",
+      "text": "EN ISO 105 X11"
+    },
+    {
+      "order": 52,
+      "tag": "td",
+      "text": "pH"
+    },
+    {
+      "order": 53,
+      "tag": "td",
+      "text": "4,0 - 7,5"
+    },
+    {
+      "order": 54,
+      "tag": "td",
+      "text": "EN ISO 3071"
+    },
+    {
+      "order": 55,
+      "tag": "td",
+      "text": "Azo Test"
+    },
+    {
+      "order": 56,
+      "tag": "td",
+      "text": "No Azo Colorants."
+    },
+    {
+      "order": 57,
+      "tag": "td",
+      "text": "EN ISO 14362-1"
+    },
+    {
+      "order": 58,
+      "tag": "td",
+      "text": "Application"
+    },
+    {
+      "order": 59,
+      "tag": "td",
+      "text": "Winter Jackets"
+    },
+    {
+      "order": 60,
+      "tag": "td",
+      "text": "Quality Management"
+    },
+    {
+      "order": 61,
+      "tag": "td",
+      "text": "Done"
+    },
+    {
+      "order": 62,
+      "tag": "td",
+      "text": "ISO 9001"
+    },
+    {
+      "order": 63,
+      "tag": "td",
+      "text": "Waterproof"
+    },
+    {
+      "order": 64,
+      "tag": "td",
+      "text": "Class 3,3"
+    },
+    {
+      "order": 65,
+      "tag": "td",
+      "text": "EN 343"
+    },
+    {
+      "order": 66,
+      "tag": "td",
+      "text": "High Visible"
+    },
+    {
+      "order": 67,
+      "tag": "td",
+      "text": "Yes"
+    },
+    {
+      "order": 68,
+      "tag": "td",
+      "text": "EN 20471"
+    },
+    {
+      "order": 69,
+      "tag": "div",
+      "text": "Applications Functions"
+    },
+    {
+      "order": 70,
+      "tag": "div",
+      "text": "Applications"
+    },
+    {
+      "order": 71,
+      "tag": "div",
+      "text": "Functions"
+    },
+    {
+      "order": 72,
+      "tag": "div",
+      "text": "Care Instructions Colors and Article Numbers Turquoise PT-57819-1 - STANDARD - ArDoku - 5651 White PTO-10275-1 - STANDARD - ArDoku - 5647 Green PT-64889-1 - STANDARD - ArDoku - 5616 Black PT-95503-1 - STANDARD - ArDoku - 5613 Dark Red PT-33354-1 - STANDARD - ArDoku - 5612 Navy PT-57753-1 - STANDARD - ArDoku - 5611 Sax PT-57972-1 - STANDARD - ArDoku - 5610 Grey PT-95502-1 - STANDARD - ArDoku - 5514 Yellow PT-23603-1 - HIGH VISIBLE - ArDoku - 5515 Orange PT-22970-1 - HIGH VISIBLE - ArDoku - 5516"
+    },
+    {
+      "order": 73,
+      "tag": "div",
+      "text": "Care Instructions"
+    },
+    {
+      "order": 74,
+      "tag": "div",
+      "text": "Colors and Article Numbers Turquoise PT-57819-1 - STANDARD - ArDoku - 5651 White PTO-10275-1 - STANDARD - ArDoku - 5647 Green PT-64889-1 - STANDARD - ArDoku - 5616 Black PT-95503-1 - STANDARD - ArDoku - 5613 Dark Red PT-33354-1 - STANDARD - ArDoku - 5612 Navy PT-57753-1 - STANDARD - ArDoku - 5611 Sax PT-57972-1 - STANDARD - ArDoku - 5610 Grey PT-95502-1 - STANDARD - ArDoku - 5514 Yellow PT-23603-1 - HIGH VISIBLE - ArDoku - 5515 Orange PT-22970-1 - HIGH VISIBLE - ArDoku - 5516"
+    },
+    {
+      "order": 75,
+      "tag": "td",
+      "text": "Turquoise"
+    },
+    {
+      "order": 76,
+      "tag": "td",
+      "text": "PT-57819-1"
+    },
+    {
+      "order": 77,
+      "tag": "td",
+      "text": "- STANDARD -"
+    },
+    {
+      "order": 78,
+      "tag": "td",
+      "text": "ArDoku - 5651"
+    },
+    {
+      "order": 79,
+      "tag": "td",
+      "text": "White"
+    },
+    {
+      "order": 80,
+      "tag": "td",
+      "text": "PTO-10275-1"
+    },
+    {
+      "order": 81,
+      "tag": "td",
+      "text": "- STANDARD -"
+    },
+    {
+      "order": 82,
+      "tag": "td",
+      "text": "ArDoku - 5647"
+    },
+    {
+      "order": 83,
+      "tag": "td",
+      "text": "Green"
+    },
+    {
+      "order": 84,
+      "tag": "td",
+      "text": "PT-64889-1"
+    },
+    {
+      "order": 85,
+      "tag": "td",
+      "text": "- STANDARD -"
+    },
+    {
+      "order": 86,
+      "tag": "td",
+      "text": "ArDoku - 5616"
+    },
+    {
+      "order": 87,
+      "tag": "td",
+      "text": "Black"
+    },
+    {
+      "order": 88,
+      "tag": "td",
+      "text": "PT-95503-1"
+    },
+    {
+      "order": 89,
+      "tag": "td",
+      "text": "- STANDARD -"
+    },
+    {
+      "order": 90,
+      "tag": "td",
+      "text": "ArDoku - 5613"
+    },
+    {
+      "order": 91,
+      "tag": "td",
+      "text": "Dark Red"
+    },
+    {
+      "order": 92,
+      "tag": "td",
+      "text": "PT-33354-1"
+    },
+    {
+      "order": 93,
+      "tag": "td",
+      "text": "- STANDARD -"
+    },
+    {
+      "order": 94,
+      "tag": "td",
+      "text": "ArDoku - 5612"
+    },
+    {
+      "order": 95,
+      "tag": "td",
+      "text": "Navy"
+    },
+    {
+      "order": 96,
+      "tag": "td",
+      "text": "PT-57753-1"
+    },
+    {
+      "order": 97,
+      "tag": "td",
+      "text": "- STANDARD -"
+    },
+    {
+      "order": 98,
+      "tag": "td",
+      "text": "ArDoku - 5611"
+    },
+    {
+      "order": 99,
+      "tag": "td",
+      "text": "Sax"
+    },
+    {
+      "order": 100,
+      "tag": "td",
+      "text": "PT-57972-1"
+    },
+    {
+      "order": 101,
+      "tag": "td",
+      "text": "- STANDARD -"
+    },
+    {
+      "order": 102,
+      "tag": "td",
+      "text": "ArDoku - 5610"
+    },
+    {
+      "order": 103,
+      "tag": "td",
+      "text": "Grey"
+    },
+    {
+      "order": 104,
+      "tag": "td",
+      "text": "PT-95502-1"
+    },
+    {
+      "order": 105,
+      "tag": "td",
+      "text": "- STANDARD -"
+    },
+    {
+      "order": 106,
+      "tag": "td",
+      "text": "ArDoku - 5514"
+    },
+    {
+      "order": 107,
+      "tag": "td",
+      "text": "Yellow"
+    },
+    {
+      "order": 108,
+      "tag": "td",
+      "text": "PT-23603-1"
+    },
+    {
+      "order": 109,
+      "tag": "td",
+      "text": "- HIGH VISIBLE -"
+    },
+    {
+      "order": 110,
+      "tag": "td",
+      "text": "ArDoku - 5515"
+    },
+    {
+      "order": 111,
+      "tag": "td",
+      "text": "Orange"
+    },
+    {
+      "order": 112,
+      "tag": "td",
+      "text": "PT-22970-1"
+    },
+    {
+      "order": 113,
+      "tag": "td",
+      "text": "- HIGH VISIBLE -"
+    },
+    {
+      "order": 114,
+      "tag": "td",
+      "text": "ArDoku - 5516"
+    },
+    {
+      "order": 115,
+      "tag": "td",
+      "text": "Home > Products > Cloth > ArDoku"
+    },
+    {
+      "order": 116,
+      "tag": "td",
+      "text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES"
+    },
+    {
+      "order": 117,
+      "tag": "td",
+      "text": "ARITEKS GROUP SERVICES"
+    },
+    {
+      "order": 118,
+      "tag": "td",
+      "text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT"
+    },
+    {
+      "order": 119,
+      "tag": "td",
+      "text": "ARDILIGHT ARNEO ECO AROF FILE"
+    },
+    {
+      "order": 120,
+      "tag": "td",
+      "text": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net"
+    },
+    {
+      "order": 121,
+      "tag": "td",
+      "text": "Copyright © 2026 Arıteks A.Ş."
+    }
+  ],
+  "full_text": "84% Polyester 10% Pu 6% Elastane softshell fabric - ArDoku - Ariteks\nLining, 3 Layer Laminated, Waterproof Breatheable Fabrics\nCloth Technical Textiles\nArDoku\n300 gr/m\n2\n, 84% Polyester 10% Pu 6% Elastane, 3 layer laminated, Softshell Fabric.\nArDoku is 84% polyester 10% pu 6% elastane softshell fabric.\nThe top layer is elastic woven fabric, the middle layer is breathable tpu membrane, and the last layer is polar fabric.\nThe basic usage is for winter jackets.\nArDoku is certified for EN 343 and EN 20471\nTechnical Parameters\nFiber\n84% Polyester (PES) 10% Polyurethane (PU) 6% Elastane (EL)\nEN ISO 2076\nYarn\n75 Denier\nEN ISO 2060\nWeight\n300 ±10 gr/m\n2\nEN ISO 3081\nWidth\n1500 ±20 mm\nEN ISO 3932\nTensile Strength\nWarp > 1000N ; Weft > 800N\nEN ISO 13934-1\nTear Strength\nWarp > 40N ; Weft > 35N\nEN ISO 13937-2\nDimensional Change\n-3% < Length < +3% ; -3% < Width < +3%\nEN ISO 5077\nRubbing Fastness\n4-5\nEN ISO 105 X12\nPerspiration Fastness\n4-5\nEN ISO 105 E04\nWashing Fastness\n4-5\nEN ISO 105 C06\nDry Cleaning Fastness\n4-5\nEN ISO 105 D01\nHypochlorite Fastness\n4-5\nEN ISO 105 N01\nHot Press Fastness\n4-5\nEN ISO 105 X11\npH\n4,0 - 7,5\nEN ISO 3071\nAzo Test\nNo Azo Colorants.\nEN ISO 14362-1\nApplication\nWinter Jackets\nQuality Management\nDone\nISO 9001\nWaterproof\nClass 3,3\nEN 343\nHigh Visible\nYes\nEN 20471\nTechnical Documents\n>> ArDoku Data Sheet\nCertificates\nApplications\nFunctions\nCare Instructions\nColors and Article Numbers\nTurquoise\nPT-57819-1\n- STANDARD -\nArDoku - 5651\nWhite\nPTO-10275-1\n- STANDARD -\nArDoku - 5647\nGreen\nPT-64889-1\n- STANDARD -\nArDoku - 5616\nBlack\nPT-95503-1\n- STANDARD -\nArDoku - 5613\nDark Red\nPT-33354-1\n- STANDARD -\nArDoku - 5612\nNavy\nPT-57753-1\n- STANDARD -\nArDoku - 5611\nSax\nPT-57972-1\n- STANDARD -\nArDoku - 5610\nGrey\nPT-95502-1\n- STANDARD -\nArDoku - 5514\nYellow\nPT-23603-1\n- HIGH VISIBLE -\nArDoku - 5515\nOrange\nPT-22970-1\n- HIGH VISIBLE -\nArDoku - 5516\nHome\n>\nProducts\n>\nCloth\n>\nArDoku\nAPPAREL TEXTILES\nBUILDING TECHNICAL TEXTILES\nHOME TECHNICAL TEXTILES\nPROTECTION TECHNICAL TEXTILES\nMEDICAL TECHNICAL TEXTILES\nSPORT TECHNICAL TEXTILES\nTRANSPORT TECHNICAL TEXTILES\nARITEKS GROUP\nSERVICES\nUV PROTECTION\nFLAME RETARDANT\nINSECT REPELLENT\nANTIBACTERIAL\nWATER REPELLENT\nARDILIGHT\nARNEO ECO\nAROF FILE\nAriteks Headquarters\nPhone:\n+90 212 538 05 98\nAddress:\nOtakçılar Cad. No:80/32 34050\nEyupsultan/Istanbul Turkiye\nE-Mail:\nsupport@ariteksinfo.com\nWeb:\nwww.ariteks.net\nCopyright © 2026 Arıteks A.Ş.",
+  "raw_html_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardoku\\raw\\product_page.html",
+  "url_slug": "ardoku",
+  "display_slug": "ardoku",
+  "spec_quality": {
+    "cleaned_by": "crawl_ariteks_fabric_complete_v9",
+    "original_had_narrative": true,
+    "spec_line_length": 79,
+    "cleaned_by_v10": true,
+    "v10_changed": false
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "category_url": "https://www.ariteks.net/cloth-technical-textiles.asp",
+  "row_index": 25,
+  "group": {
+    "title": "Lining Fabrics",
+    "row_index": 20,
+    "row_text": "Lining Fabrics",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArAstar_ArSotina_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Lining Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arastar\\documents\\arastar-arsotina-ru-ds-ver2__74b122559a.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arastar\\documents\\arastar-arsotina-ru-ds-ver2__74b122559a.pdf",
+        "public_url": "/ariteks/fabrics/arastar/documents/arastar-arsotina-ru-ds-ver2__74b122559a.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 96119,
+        "sha1": "a446875b3497ab750e9643be791c7d630c551e96"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/ArAstar_ArSotina_ver2_s.jpg",
+        "alt": "Lining Fabrics",
+        "title": "Lining Fabrics",
+        "context_text": "Lining Fabrics",
+        "classification": "product_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arastar\\images\\arastar-arsotina-ver2-s__31e5a629e9.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arastar\\images\\arastar-arsotina-ver2-s__31e5a629e9.jpg",
+        "public_url": "/ariteks/fabrics/arastar/images/arastar-arsotina-ver2-s__31e5a629e9.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "ec3fc60d5b92a2424486bb1a59ac75973a69cc86"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArAstar_ArSotina_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Lining Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arastar\\documents\\arastar-arsotina-ru-ds-ver2__74b122559a.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arastar\\documents\\arastar-arsotina-ru-ds-ver2__74b122559a.pdf",
+        "public_url": "/ariteks/fabrics/arastar/documents/arastar-arsotina-ru-ds-ver2__74b122559a.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 96119,
+        "sha1": "a446875b3497ab750e9643be791c7d630c551e96"
+      }
+    ]
+  },
+  "product_name_from_category": "ArAstar",
+  "product_url": "https://www.ariteks.net/arastar.asp",
+  "row_text": "60 g/m² 100% PES ArAstar 1/1 Plain",
+  "cells": [
+    "60 g/m²",
+    "100% PES",
+    "ArAstar",
+    "1/1 Plain"
+  ],
+  "summary": {
+    "weight": "60 g/m²",
+    "composition": "100% PES",
+    "weave": "1/1 Plain"
+  },
+  "technology_partners": [],
+  "function_icons": [],
+  "certificate_badges": [],
+  "structure": {
+    "name": "1/1 Plain",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/woven.jpg",
+        "alt": "Woven Fabric",
+        "title": "Woven Fabric",
+        "context_text": "1/1 Plain",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arastar\\images\\woven__c0215fa432.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arastar\\images\\woven__c0215fa432.jpg",
+        "public_url": "/ariteks/fabrics/arastar/images/woven__c0215fa432.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 21209,
+        "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 255, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(27, 18, 73)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(195, 195, 195)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(218, 218, 218)",
+      "label": "140 g/m² 100% PES",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/woven.jpg",
+      "alt": "Woven Fabric",
+      "title": "Woven Fabric",
+      "context_text": "1/1 Plain",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arastar\\images\\woven__c0215fa432.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arastar\\images\\woven__c0215fa432.jpg",
+      "public_url": "/ariteks/fabrics/arastar/images/woven__c0215fa432.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21209,
+      "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arastar.asp",
+      "label": "ArAstar",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArAstar",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}

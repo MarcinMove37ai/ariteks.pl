@@ -21,7 +21,7 @@ export const CERT_HERO = {
 
 export const CERT_STATS: { value: string; label: Record<Locale, string> }[] = [
   { value: '39', label: { pl: 'dokumentów', en: 'documents' } },
-  { value: '50', label: { pl: 'norm badawczych', en: 'testing standards' } },
+  { value: '60', label: { pl: 'norm badawczych', en: 'testing standards' } },
   { value: '2009', label: { pl: 'OEKO-TEX od', en: 'OEKO-TEX since' } },
   { value: 'ISO', label: { pl: 'potrójne 9001/14001/45001', en: 'triple 9001/14001/45001' } },
 ];
@@ -259,6 +259,22 @@ export const NORM_GROUPS: NormGroup[] = [
     items: [
       { test: { pl: "Wytrzymałość na rozciąganie (szeroka próbka)", en: "Wide-width tensile test" }, standard: "ISO 10319", anchor: "norm-iso-10319" },
       { test: { pl: "Masa powierzchniowa geotekstyliów", en: "Mass per unit area of geotextiles" }, standard: "ISO 9864", anchor: "norm-iso-9864" },
+    ],
+  },
+  {
+    id: 'new-lines',
+    category: { pl: 'Badania specjalne — nowe linie', en: 'Special testing — new lines' },
+    items: [
+      { test: { pl: 'Liczba nitek na jednostkę długości (splot)', en: 'Number of threads per unit length (weave)' }, standard: 'EN 1049-2', anchor: 'norm-en-1049-2' },
+      { test: { pl: 'Nazewnictwo rodzajowe włókien', en: 'Generic names of fibres' }, standard: 'EN ISO 2076', anchor: 'norm-en-iso-2076' },
+      { test: { pl: 'Zwilżalność / absorpcja wody', en: 'Absorbency of textiles' }, standard: 'AATCC 79', anchor: 'norm-aatcc-79' },
+      { test: { pl: 'Aktywność antybakteryjna — metoda smug', en: 'Antibacterial activity — parallel streak' }, standard: 'AATCC 147', anchor: 'norm-aatcc-147' },
+      { test: { pl: 'Współczynnik ochrony UV (UPF)', en: 'UV protection factor (UPF)' }, standard: 'AATCC 183', anchor: 'norm-aatcc-183' },
+      { test: { pl: 'Aktywność antywirusowa wyrobów włókienniczych', en: 'Antiviral activity of textile products' }, standard: 'ISO 18184', anchor: 'norm-iso-18184' },
+      { test: { pl: 'Identyfikacja barwników', en: 'Identification of colorants' }, standard: 'ISO 16373-2', anchor: 'norm-iso-16373-2' },
+      { test: { pl: 'Odporność mikrobiologiczna — próba gruntowa', en: 'Microbial resistance — soil burial test' }, standard: 'ISO 11721-1', anchor: 'norm-iso-11721-1' },
+      { test: { pl: 'Materiały retrorefleksyjne', en: 'Retroreflective materials' }, standard: 'ISO 14814-2', anchor: 'norm-iso-14814-2' },
+      { test: { pl: 'Reakcja na ogień materiałów budowlanych', en: 'Fire behaviour of building materials' }, standard: 'DIN 4102-1', anchor: 'norm-din-4102-1' },
     ],
   },
 ];

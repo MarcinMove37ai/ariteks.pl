@@ -1,0 +1,168 @@
+{
+  "category_url": "https://www.ariteks.net/cloth-technical-textiles.asp",
+  "row_index": 121,
+  "group": {
+    "title": "AriPam spun fabrics for shoe lining",
+    "row_index": 103,
+    "row_text": "AriPam spun fabrics for shoe lining",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/AriPam_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "AriPam spun fabrics for shoe lining",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arigabardin-77\\documents\\aripam-ru-ds-ver2__86a33c6d42.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arigabardin-77\\documents\\aripam-ru-ds-ver2__86a33c6d42.pdf",
+        "public_url": "/ariteks/fabrics/arigabardin-77/documents/aripam-ru-ds-ver2__86a33c6d42.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 173218,
+        "sha1": "e6f9235be75b516fbef491dda92ba693040524a9"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/AriPam_ver2_s.jpg",
+        "alt": "AriPam Spun Yarn",
+        "title": "AriPam Spun Yarn",
+        "context_text": "AriPam spun fabrics for shoe lining",
+        "classification": "product_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arigabardin-77\\images\\aripam-ver2-s__4acd1345e8.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arigabardin-77\\images\\aripam-ver2-s__4acd1345e8.jpg",
+        "public_url": "/ariteks/fabrics/arigabardin-77/images/aripam-ver2-s__4acd1345e8.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "06d30cead656600c67d826e3d8a056ffbdcaaaaf"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/AriPam_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "AriPam spun fabrics for shoe lining",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arigabardin-77\\documents\\aripam-ru-ds-ver2__86a33c6d42.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arigabardin-77\\documents\\aripam-ru-ds-ver2__86a33c6d42.pdf",
+        "public_url": "/ariteks/fabrics/arigabardin-77/documents/aripam-ru-ds-ver2__86a33c6d42.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 173218,
+        "sha1": "e6f9235be75b516fbef491dda92ba693040524a9"
+      }
+    ]
+  },
+  "product_name_from_category": "Ari Gabardin 7/7",
+  "product_url": "https://www.ariteks.net/arigabardin-77.asp",
+  "row_text": "390 g/m² 100% AriPam Ari Gabardin 7/7 Ari Gabardin 7/7 3/1 S Twill 3/1 S Twill 245 g/m² 100% AriPam Ari Gabardin 245 3/1 S Twill 3/1 S Twill Ari Gabardin 245",
+  "cells": [
+    "390 g/m²",
+    "100% AriPam",
+    "Ari Gabardin 7/7",
+    "Twill"
+  ],
+  "summary": {
+    "weight": "390 g/m²",
+    "composition": "100% AriPam",
+    "weave": "Twill"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13758.jpg",
+      "alt": "EN 13758",
+      "title": "EN 13758",
+      "context_text": "390 g/m² 100% AriPam Ari Gabardin 7/7 3/1 S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arigabardin-77\\images\\en-13758__2ac2efc41b.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arigabardin-77\\images\\en-13758__2ac2efc41b.jpg",
+      "public_url": "/ariteks/fabrics/arigabardin-77/images/en-13758__2ac2efc41b.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 16006,
+      "sha1": "a854609134fc3587fb5c1d8bfd4c2f193d4ae9e0"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Twill",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/woven.jpg",
+        "alt": "Woven Fabric",
+        "title": "Woven Fabric",
+        "context_text": "3/1 S Twill",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arigabardin-77\\images\\woven__c0215fa432.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arigabardin-77\\images\\woven__c0215fa432.jpg",
+        "public_url": "/ariteks/fabrics/arigabardin-77/images/woven__c0215fa432.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 21209,
+        "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(195, 195, 195)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(27, 18, 73)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13758.jpg",
+      "alt": "EN 13758",
+      "title": "EN 13758",
+      "context_text": "390 g/m² 100% AriPam Ari Gabardin 7/7 3/1 S Twill",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arigabardin-77\\images\\en-13758__2ac2efc41b.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arigabardin-77\\images\\en-13758__2ac2efc41b.jpg",
+      "public_url": "/ariteks/fabrics/arigabardin-77/images/en-13758__2ac2efc41b.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 16006,
+      "sha1": "a854609134fc3587fb5c1d8bfd4c2f193d4ae9e0"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/woven.jpg",
+      "alt": "Woven Fabric",
+      "title": "Woven Fabric",
+      "context_text": "3/1 S Twill",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arigabardin-77\\images\\woven__c0215fa432.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arigabardin-77\\images\\woven__c0215fa432.jpg",
+      "public_url": "/ariteks/fabrics/arigabardin-77/images/woven__c0215fa432.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21209,
+      "sha1": "0c23b895ad29c6a17455b859edcb969daed59fd0"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arigabardin-77.asp",
+      "label": "Ari Gabardin 7/7",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "Ari Gabardin 7/7",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}

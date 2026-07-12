@@ -1,0 +1,502 @@
+{
+  "category_url": "https://www.ariteks.net/building-technical-textiles.asp",
+  "row_index": 30,
+  "group": {
+    "title": "",
+    "row_index": null,
+    "row_text": "",
+    "documents": [],
+    "images": [],
+    "links": []
+  },
+  "product_name_from_category": "ArInter",
+  "product_url": "https://www.ariteks.net/arinter.asp",
+  "row_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+  "cells": [
+    "250 g/m²",
+    "92% PES 8% EL",
+    "ArInter",
+    "Interlock"
+  ],
+  "summary": {
+    "weight": "250 g/m²",
+    "composition": "92% PES 8% EL",
+    "weave": "Interlock"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/en_4920.jpg",
+      "alt": "Dirt Repellent",
+      "title": "Dirt Repellent",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-4920__7d4ebdfef0.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-4920__7d4ebdfef0.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/en-4920__7d4ebdfef0.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 5831,
+      "sha1": "d2ff279f0bcdc1643e9ccc20fd02ecf4d516ba72"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13758.jpg",
+      "alt": "Uv protection",
+      "title": "Uv Protection",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-13758__2ac2efc41b.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-13758__2ac2efc41b.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/en-13758__2ac2efc41b.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 16006,
+      "sha1": "a854609134fc3587fb5c1d8bfd4c2f193d4ae9e0"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/recyclable.jpg",
+      "alt": "Recyclable",
+      "title": "Recyclable",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\recyclable__4ea56600e8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\recyclable__4ea56600e8.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/recyclable__4ea56600e8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10241,
+      "sha1": "e3f092f3c5894640c954dbce2c89f2758e61c356"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/antibacterial.jpg",
+      "alt": "Antibacterial",
+      "title": "Antibacterial",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\antibacterial__df46a11430.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\antibacterial__df46a11430.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/antibacterial__df46a11430.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8012,
+      "sha1": "29a7b6366a22a42fa00b67a355c04fe7f6265944"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "En 20471",
+      "title": "En 20471",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/ecologic.jpg",
+      "alt": "Ecologic",
+      "title": "Ecologic",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\ecologic__11e6b031f2.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\ecologic__11e6b031f2.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/ecologic__11e6b031f2.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10600,
+      "sha1": "57764b42ac9db1e343896b064f83e249182b2a48"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/stretchable.jpg",
+      "alt": "Stretchable",
+      "title": "Stretchable",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\stretchable__0596a42c8d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\stretchable__0596a42c8d.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/stretchable__0596a42c8d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8698,
+      "sha1": "c658564bedb014bf2004e8647083eee2089ae590"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/EN_14116.jpg",
+      "alt": "Flame Retardant",
+      "title": "Flame Retardant",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-14116__43b497ecc3.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-14116__43b497ecc3.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/en-14116__43b497ecc3.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 13594,
+      "sha1": "5aa303deae153a2992fae841ff043362aeefd69f"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Interlock",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/knit.jpg",
+        "alt": "Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Interlock",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\knit__71fef29325.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\knit__71fef29325.jpg",
+        "public_url": "/ariteks/fabrics/arinter/images/knit__71fef29325.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 26737,
+        "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(220, 230, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 216, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(178, 67, 91)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(249, 112, 45)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(182, 55, 67)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(37, 159, 214)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(103, 80, 74)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 255, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(130, 236, 137)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 118, 80)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 91, 155)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 254, 209)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(236, 170, 182)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+      "alt": "Turkish",
+      "title": "Turkish",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\tr-s__2229569dd5.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\tr-s__2229569dd5.png",
+      "public_url": "/ariteks/fabrics/arinter/images/tr-s__2229569dd5.png",
+      "content_type": "image/png",
+      "size_bytes": 17432,
+      "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+      "alt": "Russian",
+      "title": "Russian",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\ru-s__28dde2a24b.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\ru-s__28dde2a24b.png",
+      "public_url": "/ariteks/fabrics/arinter/images/ru-s__28dde2a24b.png",
+      "content_type": "image/png",
+      "size_bytes": 11546,
+      "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+      "alt": "English",
+      "title": "English",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-s__0126e84202.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-s__0126e84202.png",
+      "public_url": "/ariteks/fabrics/arinter/images/en-s__0126e84202.png",
+      "content_type": "image/png",
+      "size_bytes": 19703,
+      "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+    },
+    {
+      "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+      "alt": "Arıteks Logo",
+      "title": "",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38222,
+      "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+    },
+    {
+      "url": "https://www.ariteks.net/images/techteksposters/building_m.jpg",
+      "alt": "Building Technical Textiles",
+      "title": "Building Technical Textiles",
+      "context_text": "Products related to isolation, roofing systems and advertising media. Military and Disaster Tents Fabric.",
+      "classification": "category_banner",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\building-m__72bf6b8a67.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\building-m__72bf6b8a67.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/building-m__72bf6b8a67.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1852138,
+      "sha1": "c04ae0abe0d323169659af95a062be616e07405f"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_4920.jpg",
+      "alt": "Dirt Repellent",
+      "title": "Dirt Repellent",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-4920__7d4ebdfef0.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-4920__7d4ebdfef0.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/en-4920__7d4ebdfef0.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 5831,
+      "sha1": "d2ff279f0bcdc1643e9ccc20fd02ecf4d516ba72"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_13758.jpg",
+      "alt": "Uv protection",
+      "title": "Uv Protection",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-13758__2ac2efc41b.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-13758__2ac2efc41b.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/en-13758__2ac2efc41b.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 16006,
+      "sha1": "a854609134fc3587fb5c1d8bfd4c2f193d4ae9e0"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/recyclable.jpg",
+      "alt": "Recyclable",
+      "title": "Recyclable",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\recyclable__4ea56600e8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\recyclable__4ea56600e8.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/recyclable__4ea56600e8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10241,
+      "sha1": "e3f092f3c5894640c954dbce2c89f2758e61c356"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/antibacterial.jpg",
+      "alt": "Antibacterial",
+      "title": "Antibacterial",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\antibacterial__df46a11430.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\antibacterial__df46a11430.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/antibacterial__df46a11430.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8012,
+      "sha1": "29a7b6366a22a42fa00b67a355c04fe7f6265944"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/en_20471.jpg",
+      "alt": "En 20471",
+      "title": "En 20471",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-20471__b3c86afe25.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-20471__b3c86afe25.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/en-20471__b3c86afe25.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9328,
+      "sha1": "d9329fb0ea6e52503c8b2b46b21b8ac035618e24"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/ecologic.jpg",
+      "alt": "Ecologic",
+      "title": "Ecologic",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\ecologic__11e6b031f2.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\ecologic__11e6b031f2.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/ecologic__11e6b031f2.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10600,
+      "sha1": "57764b42ac9db1e343896b064f83e249182b2a48"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/stretchable.jpg",
+      "alt": "Stretchable",
+      "title": "Stretchable",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\stretchable__0596a42c8d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\stretchable__0596a42c8d.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/stretchable__0596a42c8d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8698,
+      "sha1": "c658564bedb014bf2004e8647083eee2089ae590"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/EN_14116.jpg",
+      "alt": "Flame Retardant",
+      "title": "Flame Retardant",
+      "context_text": "250 g/m² 92% PES 8% EL ArInter Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\en-14116__43b497ecc3.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\en-14116__43b497ecc3.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/en-14116__43b497ecc3.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 13594,
+      "sha1": "5aa303deae153a2992fae841ff043362aeefd69f"
+    },
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "alt": "Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Interlock",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arinter\\images\\knit__71fef29325.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arinter\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/arinter/images/knit__71fef29325.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "http://tr.ariteks.net/building-technical-textiles.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "http://ru.ariteks.net/building-technical-textiles.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "http://en.ariteks.net/building-technical-textiles.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/mainpage.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/building-technical-textiles.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Products related to isolation, roofing systems and advertising media. Military and Disaster Tents Fabric.",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/arinter.asp",
+      "label": "ArInter",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArInter",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}

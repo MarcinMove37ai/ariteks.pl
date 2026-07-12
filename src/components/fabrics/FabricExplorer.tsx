@@ -174,16 +174,6 @@ function buildHaystack(f: FabricDef): string[] {
 
 // ---------------------------------------------------------------------------
 
-// Segment [family] w URL jest slugiem z FABRIC_FAMILIES.
-// Rekord produktu przechowuje natomiast czytelna nazwe w polu `family`.
-function getFamilyForFabric(fabric: FabricDef) {
-  return FABRIC_FAMILIES.find((family) => family.name === fabric.family);
-}
-
-function getFamilySlugForFabric(fabric: FabricDef): string | null {
-  return getFamilyForFabric(fabric)?.slug ?? null;
-}
-
 function matches(
   f: FabricDef,
   tokens: readonly string[],
@@ -196,7 +186,7 @@ function matches(
   weaves: ReadonlySet<FabricWeaveType>
 ): boolean {
   if (categoryId && f.categoryId !== categoryId) return false;
-  if (family && getFamilySlugForFabric(f) !== family) return false;
+  if (family && f.subFamily !== family) return false;
   for (const p of props) {
     if (!f.properties.includes(p)) return false;
   }
@@ -405,10 +395,7 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
       for (const p of f.properties) props.set(p, (props.get(p) ?? 0) + 1);
       weaves.set(f.weaveType, (weaves.get(f.weaveType) ?? 0) + 1);
       cats.set(f.categoryId, (cats.get(f.categoryId) ?? 0) + 1);
-      const familySlug = getFamilySlugForFabric(f);
-      if (familySlug) {
-        fams.set(familySlug, (fams.get(familySlug) ?? 0) + 1);
-      }
+      fams.set(f.subFamily, (fams.get(f.subFamily) ?? 0) + 1);
     }
     return { norms, fibers, weaves, props, cats, fams };
   }, [filtered]);
@@ -876,10 +863,7 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
       ) : (
         <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {filtered.map((f) => {
-            const familyDef = getFamilyForFabric(f);
-            const href = familyDef
-              ? `/fabrics/${familyDef.slug}/${f.slug}`
-              : '/fabrics';
+            const href = `/fabrics/${f.subFamily}/${f.slug}`;
             return (
               <Link
                 key={f.slug}
@@ -922,7 +906,7 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                   </p>
 
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                    {familyDef?.descriptor[locale] ?? f.titleDescriptor}
+                    {getFamilyBySlug(f.subFamily)?.descriptor[locale]}
                   </p>
 
                   {f.norms.length > 0 && (

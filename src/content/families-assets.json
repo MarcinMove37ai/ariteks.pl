@@ -1,4 +1,10 @@
 {
+ "arairmesh": {
+  "hero": "/ariteks/families/arairmesh/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/ar-air-mesh-aa-150/documents/arairmesh-ru-ds-ver2__db6f079a0c.pdf"
+ },
  "aramid": {
   "hero": "/ariteks/families/aramid/hero.webp",
   "heroWidth": 1191,
@@ -29,6 +35,18 @@
   "heroHeight": 1481,
   "pdf": "/ariteks/fabrics/ar3iplik-aramid-vis/documents/aramid-vis-knit-ru-ds-ver2__98762619b0.pdf"
  },
+ "arastar-arsotina": {
+  "hero": "/ariteks/families/arastar-arsotina/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/arastar/documents/arastar-arsotina-ru-ds-ver2__74b122559a.pdf"
+ },
+ "arbayrak": {
+  "hero": "/ariteks/families/arbayrak/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/ar-air-mesh-bond/documents/arbayrak-ru-ds-ver2__b0111e2344.pdf"
+ },
  "arbir": {
   "hero": "/ariteks/families/arbir/hero.webp",
   "heroWidth": 1191,
@@ -41,11 +59,26 @@
   "heroHeight": 1481,
   "pdf": "/ariteks/fabrics/aramid-d5-180-rb/documents/arbo-ru-ds-ver2__00d0e7ed1a.pdf"
  },
+ "arcadir": {},
+ "arclean": {
+  "hero": "/ariteks/families/arclean/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/arclean-250/documents/arclean-ru-ds-ver2__c558a35384.pdf"
+ },
  "ard3e3": {
   "hero": "/ariteks/families/ard3e3/hero.webp",
   "heroWidth": 1191,
   "heroHeight": 1481,
   "pdf": "/ariteks/fabrics/ar3iplik-moda-pro/documents/ard3e3-ru-ds-ver2__af847ace78.pdf"
+ },
+ "ardigiprint": {},
+ "ardilight": {},
+ "ardoku-ardolu": {
+  "hero": "/ariteks/families/ardoku-ardolu/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/ardoku/documents/ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf"
  },
  "ardura": {
   "hero": "/ariteks/families/ardura/hero.webp",
@@ -65,6 +98,7 @@
   "heroHeight": 1481,
   "pdf": "/ariteks/fabrics/arbo-knit/documents/aremk-ru-ds-ver2__751b3da23c.pdf"
  },
+ "arflexmembrane": {},
  "argiyim": {
   "hero": "/ariteks/families/argiyim/hero.webp",
   "heroWidth": 1191,
@@ -89,11 +123,24 @@
   "heroHeight": 1481,
   "pdf": "/ariteks/fabrics/argiyim-dura/documents/argiyim-yp-ru-ds-ver2__995fba4dc5.pdf"
  },
+ "argun": {
+  "hero": "/ariteks/families/argun/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/arcadir-520/documents/argun-ru-ds-ver2__f0739f746e.pdf"
+ },
  "arhard-mesh": {
   "hero": "/ariteks/families/arhard-mesh/hero.webp",
   "heroWidth": 1191,
   "heroHeight": 1481,
   "pdf": "/ariteks/fabrics/arhard-mesh/documents/arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf"
+ },
+ "arinter": {},
+ "aripam": {
+  "hero": "/ariteks/families/aripam/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/ardolu/documents/aripam-ru-ds-ver2__86a33c6d42.pdf"
  },
  "armedi": {
   "hero": "/ariteks/families/armedi/hero.webp",
@@ -143,11 +190,23 @@
   "heroHeight": 1481,
   "pdf": "/ariteks/fabrics/arox-t0-wr-wp/documents/arox-medical-ru-ds-ver2__f34acfa84e.pdf"
  },
+ "arpo": {
+  "hero": "/ariteks/families/arpo/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/arpo/documents/arpo-ru-ds-ver2__e2da7651e1.pdf"
+ },
  "arpower-knit": {
   "hero": "/ariteks/families/arpower-knit/hero.webp",
   "heroWidth": 1191,
   "heroHeight": 1481,
   "pdf": "/ariteks/fabrics/arox-t1-wr-wp/documents/arpower-knit-ru-ds-ver2__56cc58ec37.pdf"
+ },
+ "arseat": {
+  "hero": "/ariteks/families/arseat/hero.webp",
+  "heroWidth": 1191,
+  "heroHeight": 1481,
+  "pdf": "/ariteks/fabrics/arseat/documents/arseat-ru-ds-ver2__212f6f5d31.pdf"
  },
  "arshirt-arsuprem": {
   "hero": "/ariteks/families/arshirt-arsuprem/hero.webp",

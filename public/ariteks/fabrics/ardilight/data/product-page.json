@@ -1,0 +1,1541 @@
+{
+  "source_url": "https://www.ariteks.net/ardilight.asp",
+  "source_category_url": "https://www.ariteks.net/home-technical-textiles.asp",
+  "commercial_name": "ArDiLight",
+  "product_name": "ArDiLight",
+  "title_descriptor": "Stretch Ceiling PVC Fabric",
+  "slug": "ardilight",
+  "page_title": "Stretch Ceiling PVC Fabric - ArDiLight - Ariteks",
+  "spec_line": "350 g/m², 46% Polyester 4% Elastane 50% PVC, Stretch Ceiling Fabric Flexible, pvc stretch ceiling fabric systems",
+  "description_blocks": [
+    "No need for special profiles nor heating during start-up.",
+    "No insect accumulation during time.",
+    "Very fast start-up.",
+    "No shrinkage due to heat stabilized fabric system.",
+    "More homojenious light distribution.",
+    "Suitable for digital printing"
+  ],
+  "technical_parameters": [
+    {
+      "name": "Fiber",
+      "value": "46% Polyester (PES) 4% Elastane (EL) 50% PVC",
+      "standard": "EN ISO 2076",
+      "source_table_index": 6
+    },
+    {
+      "name": "Yarn",
+      "value": "75 Denier",
+      "standard": "EN ISO 2060",
+      "source_table_index": 6
+    },
+    {
+      "name": "Weight",
+      "value": "350 ±5 g/m²",
+      "standard": "EN ISO 3081",
+      "source_table_index": 6
+    },
+    {
+      "name": "Width",
+      "value": "1800 ±20 mm",
+      "standard": "EN ISO 3932",
+      "source_table_index": 6
+    },
+    {
+      "name": "Bursting strength",
+      "value": "> 1500 kPa (kN/m² )",
+      "standard": "EN ISO 13938-1",
+      "source_table_index": 6
+    },
+    {
+      "name": "Dimensional Change",
+      "value": "-5% < Length < +5% ; -5% < Width < +5%",
+      "standard": "EN ISO 5077",
+      "source_table_index": 6
+    },
+    {
+      "name": "Flame Retardancy",
+      "value": "B1",
+      "standard": "DIN 4102-1",
+      "source_table_index": 6
+    },
+    {
+      "name": "Uv Permeability",
+      "value": "< 1%",
+      "standard": "AATCC 183",
+      "source_table_index": 6
+    },
+    {
+      "name": "Working Temperature",
+      "value": "-30'C to 70'C",
+      "standard": "DIN 4102-1",
+      "source_table_index": 6
+    },
+    {
+      "name": "Application",
+      "value": "Stretch Ceiling",
+      "standard": "",
+      "source_table_index": 6
+    },
+    {
+      "name": "Quality Management",
+      "value": "Done",
+      "standard": "ISO 9001",
+      "source_table_index": 6
+    }
+  ],
+  "technical_documents": [],
+  "images": [
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+      "alt": "Turkish",
+      "title": "Turkish",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\tr-s__2229569dd5.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\tr-s__2229569dd5.png",
+      "public_url": "/ariteks/fabrics/ardilight/images/tr-s__2229569dd5.png",
+      "content_type": "image/png",
+      "size_bytes": 17432,
+      "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+      "alt": "Russian",
+      "title": "Russian",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ru-s__28dde2a24b.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ru-s__28dde2a24b.png",
+      "public_url": "/ariteks/fabrics/ardilight/images/ru-s__28dde2a24b.png",
+      "content_type": "image/png",
+      "size_bytes": 11546,
+      "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+    },
+    {
+      "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+      "alt": "English",
+      "title": "English",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\en-s__0126e84202.png",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\en-s__0126e84202.png",
+      "public_url": "/ariteks/fabrics/ardilight/images/en-s__0126e84202.png",
+      "content_type": "image/png",
+      "size_bytes": 19703,
+      "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+    },
+    {
+      "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+      "alt": "Arıteks Logo",
+      "title": "",
+      "context_text": "",
+      "classification": "layout_asset",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38222,
+      "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+    },
+    {
+      "url": "https://www.ariteks.net/images/techteksposters/home_m.jpg",
+      "alt": "Home Technical Textiles",
+      "title": "Home Technical Textiles",
+      "context_text": "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems.",
+      "classification": "category_banner",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\home-m__5be8301f24.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\home-m__5be8301f24.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/home-m__5be8301f24.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1849288,
+      "sha1": "fa8a908ec7f07e2e462f859d0ca960fabc9a1659"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_ss.jpg",
+      "alt": "Ardilight",
+      "title": "",
+      "context_text": "Flexible, pvc stretch ceiling fabric systems. No need for special profiles nor heating during start-up. No insect accumulation during time. Very fast start-up. No shrinkage due to heat stabilized fabric system. More homojenious light distribution. Suitable for digital printing",
+      "classification": "application_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-ss__1f123b5ab4.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-ss__1f123b5ab4.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/ardilight-ss__1f123b5ab4.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 149958,
+      "sha1": "0fe3709680b8245d31d94263a9d6f754912f37ad"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic2_s.jpg",
+      "alt": "Stretch Ceiling 2",
+      "title": "Stretch Ceiling 2",
+      "context_text": "Applications",
+      "classification": "application_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic2-s__58a9e73644.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic2-s__58a9e73644.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic2-s__58a9e73644.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 72098,
+      "sha1": "29bc919662a18d0ac28630b0e81b1fdde383fae6"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic3_s.jpg",
+      "alt": "Stretch Ceiling 3",
+      "title": "Stretch Ceiling 3",
+      "context_text": "Applications",
+      "classification": "application_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic3-s__3f052b722d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic3-s__3f052b722d.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic3-s__3f052b722d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 46747,
+      "sha1": "815417b626fba6d1412268d7b2e4581ec0c5b32e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic9_s.jpg",
+      "alt": "Stretch Ceiling 9",
+      "title": "Stretch Ceiling 9",
+      "context_text": "Applications",
+      "classification": "application_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic9-s__f60395cae1.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic9-s__f60395cae1.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic9-s__f60395cae1.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 43341,
+      "sha1": "f14386ee181debf1c67be8cc79de9af7ad960974"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+      "alt": "Oeko Teks Standard 100",
+      "title": "Oeko Teks Standard 100",
+      "context_text": "Functions Safe Textile",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/oekoteks-standard-100-s__ea5e91d474.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 54001,
+      "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/recyclable.jpg",
+      "alt": "Recyclable",
+      "title": "Recyclable",
+      "context_text": "Functions Safe Textile",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\recyclable__4ea56600e8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\recyclable__4ea56600e8.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/recyclable__4ea56600e8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10241,
+      "sha1": "e3f092f3c5894640c954dbce2c89f2758e61c356"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/EN_14116.jpg",
+      "alt": "Flame Retardant",
+      "title": "Flame Retardant",
+      "context_text": "Functions Safe Textile",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\en-14116__43b497ecc3.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\en-14116__43b497ecc3.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/en-14116__43b497ecc3.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 13594,
+      "sha1": "5aa303deae153a2992fae841ff043362aeefd69f"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/stretchable.jpg",
+      "alt": "Stretchable",
+      "title": "Stretchable",
+      "context_text": "Functions Safe Textile",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\stretchable__0596a42c8d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\stretchable__0596a42c8d.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/stretchable__0596a42c8d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8698,
+      "sha1": "c658564bedb014bf2004e8647083eee2089ae590"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/uniform_light.jpg",
+      "alt": "Uniform Light",
+      "title": "Uniform Light",
+      "context_text": "Functions Safe Textile",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\uniform-light__ec120505d2.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\uniform-light__ec120505d2.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/uniform-light__ec120505d2.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 6779,
+      "sha1": "8ba72c7ceda78fbcf719f722e7b41e951928d158"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/no_wash.jpg",
+      "alt": "No Wash",
+      "title": "No Wash",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-wash__8141132449.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-wash__8141132449.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/no-wash__8141132449.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "175500bafd0f33f7137779f808d407289bb173ad"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+      "alt": "No Chlorine Based Bleaching",
+      "title": "No Chlorine Based Bleaching",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-chlorine-bleach__33a0308671.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-chlorine-bleach__33a0308671.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/no-chlorine-bleach__33a0308671.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/no_tumble_dry.jpg",
+      "alt": "No Tumble Dry",
+      "title": "No Tumble Dry",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-tumble-dry__ff651379f2.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-tumble-dry__ff651379f2.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/no-tumble-dry__ff651379f2.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "9b309108fdb0536f51a57f865ffe8e234520546a"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/no_iron.jpg",
+      "alt": "No Iron",
+      "title": "No Iron",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-iron__ddbff3d85e.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-iron__ddbff3d85e.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/no-iron__ddbff3d85e.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97794,
+      "sha1": "f38214c965fc47c98c3912ef110bd1f477336465"
+    },
+    {
+      "url": "https://www.ariteks.net/images/care_instructions/no_dry_cleaning.jpg",
+      "alt": "No Dry Cleaning",
+      "title": "No Dry Cleaning",
+      "context_text": "Care Instructions",
+      "classification": "care_instruction",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-dry-cleaning__4f513b6eb5.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-dry-cleaning__4f513b6eb5.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/no-dry-cleaning__4f513b6eb5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97254,
+      "sha1": "d315b5011e517e7f0ae2474c3b6ebc1cbbe5440b"
+    }
+  ],
+  "image_groups": {
+    "hero_images": [],
+    "product_images": [],
+    "fabric_photos": [],
+    "application_images": [
+      {
+        "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_ss.jpg",
+        "alt": "Ardilight",
+        "title": "",
+        "context_text": "Flexible, pvc stretch ceiling fabric systems. No need for special profiles nor heating during start-up. No insect accumulation during time. Very fast start-up. No shrinkage due to heat stabilized fabric system. More homojenious light distribution. Suitable for digital printing",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-ss__1f123b5ab4.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-ss__1f123b5ab4.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/ardilight-ss__1f123b5ab4.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 149958,
+        "sha1": "0fe3709680b8245d31d94263a9d6f754912f37ad"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic2_s.jpg",
+        "alt": "Stretch Ceiling 2",
+        "title": "Stretch Ceiling 2",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic2-s__58a9e73644.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic2-s__58a9e73644.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic2-s__58a9e73644.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 72098,
+        "sha1": "29bc919662a18d0ac28630b0e81b1fdde383fae6"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic3_s.jpg",
+        "alt": "Stretch Ceiling 3",
+        "title": "Stretch Ceiling 3",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic3-s__3f052b722d.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic3-s__3f052b722d.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic3-s__3f052b722d.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 46747,
+        "sha1": "815417b626fba6d1412268d7b2e4581ec0c5b32e"
+      },
+      {
+        "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic9_s.jpg",
+        "alt": "Stretch Ceiling 9",
+        "title": "Stretch Ceiling 9",
+        "context_text": "Applications",
+        "classification": "application_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic9-s__f60395cae1.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic9-s__f60395cae1.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic9-s__f60395cae1.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 43341,
+        "sha1": "f14386ee181debf1c67be8cc79de9af7ad960974"
+      }
+    ],
+    "function_icons": [
+      {
+        "url": "https://www.ariteks.net/images/functions/oekoteks_standard_100_s.jpg",
+        "alt": "Oeko Teks Standard 100",
+        "title": "Oeko Teks Standard 100",
+        "context_text": "Functions Safe Textile",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\oekoteks-standard-100-s__ea5e91d474.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/oekoteks-standard-100-s__ea5e91d474.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 54001,
+        "sha1": "66018f06a237c3ddcbf31a5764c82e862dfa9854"
+      },
+      {
+        "url": "https://www.ariteks.net/images/functions/recyclable.jpg",
+        "alt": "Recyclable",
+        "title": "Recyclable",
+        "context_text": "Functions Safe Textile",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\recyclable__4ea56600e8.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\recyclable__4ea56600e8.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/recyclable__4ea56600e8.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 10241,
+        "sha1": "e3f092f3c5894640c954dbce2c89f2758e61c356"
+      },
+      {
+        "url": "https://www.ariteks.net/images/functions/EN_14116.jpg",
+        "alt": "Flame Retardant",
+        "title": "Flame Retardant",
+        "context_text": "Functions Safe Textile",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\en-14116__43b497ecc3.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\en-14116__43b497ecc3.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/en-14116__43b497ecc3.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 13594,
+        "sha1": "5aa303deae153a2992fae841ff043362aeefd69f"
+      },
+      {
+        "url": "https://www.ariteks.net/images/functions/stretchable.jpg",
+        "alt": "Stretchable",
+        "title": "Stretchable",
+        "context_text": "Functions Safe Textile",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\stretchable__0596a42c8d.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\stretchable__0596a42c8d.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/stretchable__0596a42c8d.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 8698,
+        "sha1": "c658564bedb014bf2004e8647083eee2089ae590"
+      },
+      {
+        "url": "https://www.ariteks.net/images/functions/uniform_light.jpg",
+        "alt": "Uniform Light",
+        "title": "Uniform Light",
+        "context_text": "Functions Safe Textile",
+        "classification": "function_icon",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\uniform-light__ec120505d2.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\uniform-light__ec120505d2.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/uniform-light__ec120505d2.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 6779,
+        "sha1": "8ba72c7ceda78fbcf719f722e7b41e951928d158"
+      }
+    ],
+    "certificate_badges": [],
+    "care_instructions": [
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/no_wash.jpg",
+        "alt": "No Wash",
+        "title": "No Wash",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-wash__8141132449.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-wash__8141132449.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/no-wash__8141132449.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "175500bafd0f33f7137779f808d407289bb173ad"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/no_chlorine_bleach.jpg",
+        "alt": "No Chlorine Based Bleaching",
+        "title": "No Chlorine Based Bleaching",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-chlorine-bleach__33a0308671.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-chlorine-bleach__33a0308671.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/no-chlorine-bleach__33a0308671.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "04121b8c5d4d25547de9c83657618e8fa04d2e52"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/no_tumble_dry.jpg",
+        "alt": "No Tumble Dry",
+        "title": "No Tumble Dry",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-tumble-dry__ff651379f2.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-tumble-dry__ff651379f2.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/no-tumble-dry__ff651379f2.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "9b309108fdb0536f51a57f865ffe8e234520546a"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/no_iron.jpg",
+        "alt": "No Iron",
+        "title": "No Iron",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-iron__ddbff3d85e.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-iron__ddbff3d85e.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/no-iron__ddbff3d85e.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97794,
+        "sha1": "f38214c965fc47c98c3912ef110bd1f477336465"
+      },
+      {
+        "url": "https://www.ariteks.net/images/care_instructions/no_dry_cleaning.jpg",
+        "alt": "No Dry Cleaning",
+        "title": "No Dry Cleaning",
+        "context_text": "Care Instructions",
+        "classification": "care_instruction",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\no-dry-cleaning__4f513b6eb5.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\no-dry-cleaning__4f513b6eb5.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/no-dry-cleaning__4f513b6eb5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 97254,
+        "sha1": "d315b5011e517e7f0ae2474c3b6ebc1cbbe5440b"
+      }
+    ],
+    "structure_images": [],
+    "technology_partners": [],
+    "category_banners": [
+      {
+        "url": "https://www.ariteks.net/images/techteksposters/home_m.jpg",
+        "alt": "Home Technical Textiles",
+        "title": "Home Technical Textiles",
+        "context_text": "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems.",
+        "classification": "category_banner",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\home-m__5be8301f24.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\home-m__5be8301f24.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/home-m__5be8301f24.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 1849288,
+        "sha1": "fa8a908ec7f07e2e462f859d0ca960fabc9a1659"
+      }
+    ],
+    "layout_assets": [
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/tr_s.png",
+        "alt": "Turkish",
+        "title": "Turkish",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\tr-s__2229569dd5.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\tr-s__2229569dd5.png",
+        "public_url": "/ariteks/fabrics/ardilight/images/tr-s__2229569dd5.png",
+        "content_type": "image/png",
+        "size_bytes": 17432,
+        "sha1": "bd65b8e80542cd227cd4804519f1b2f5475ab5ac"
+      },
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/ru_s.png",
+        "alt": "Russian",
+        "title": "Russian",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ru-s__28dde2a24b.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ru-s__28dde2a24b.png",
+        "public_url": "/ariteks/fabrics/ardilight/images/ru-s__28dde2a24b.png",
+        "content_type": "image/png",
+        "size_bytes": 11546,
+        "sha1": "32c5e6a1b5d35279db604afc74155714d4620697"
+      },
+      {
+        "url": "https://www.ariteks.net/images/lang_flags/en_s.png",
+        "alt": "English",
+        "title": "English",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\en-s__0126e84202.png",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\en-s__0126e84202.png",
+        "public_url": "/ariteks/fabrics/ardilight/images/en-s__0126e84202.png",
+        "content_type": "image/png",
+        "size_bytes": 19703,
+        "sha1": "39e2601f0ea48218abc98576c338648d16b981eb"
+      },
+      {
+        "url": "https://www.ariteks.net/images/logo/ariteks_logo_2023_en_s.jpg",
+        "alt": "Arıteks Logo",
+        "title": "",
+        "context_text": "",
+        "classification": "layout_asset",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "public_url": "/ariteks/fabrics/ardilight/images/ariteks-logo-2023-en-s__6098ac7c7f.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 38222,
+        "sha1": "7ed77fbb457d1d6a54526ef032e0ea51a86af3da"
+      }
+    ],
+    "other_images": []
+  },
+  "colors_and_articles": [
+    {
+      "color": "White",
+      "code_or_pind": "",
+      "finish": "",
+      "article_number": "PTO-10275",
+      "raw_lines": {
+        "color": "White",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "PTO-10275"
+      }
+    },
+    {
+      "color": "- STANDART -",
+      "code_or_pind": "",
+      "finish": "",
+      "article_number": "ArDiLight-4224",
+      "raw_lines": {
+        "color": "- STANDART -",
+        "code_or_pind": "",
+        "finish": "",
+        "article_number": "ArDiLight-4224"
+      }
+    }
+  ],
+  "links": [
+    {
+      "url": "http://tr.ariteks.net/ardilight.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "http://ru.ariteks.net/ardilight.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "http://en.ariteks.net/ardilight.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/mainpage.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/home-technical-textiles.asp",
+      "label": "",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems.",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic2.jpg",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": false,
+      "is_image": true,
+      "is_product_page": false,
+      "context_text": "Applications",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic2__527269e65f.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic2__527269e65f.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic2__527269e65f.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1645699,
+      "sha1": "a3726a4f3f743f302d49550d555f112ca92f29c6"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic3.jpg",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": false,
+      "is_image": true,
+      "is_product_page": false,
+      "context_text": "Applications",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic3__5757ae0c46.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic3__5757ae0c46.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic3__5757ae0c46.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1329089,
+      "sha1": "25c13d822f8948f00a777c58c1e430a42bef0690"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/home_ardilight/ardilight_pic9.jpg",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": false,
+      "is_image": true,
+      "is_product_page": false,
+      "context_text": "Applications",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\images\\ardilight-pic9__34ca407608.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardilight\\images\\ardilight-pic9__34ca407608.jpg",
+      "public_url": "/ariteks/fabrics/ardilight/images/ardilight-pic9__34ca407608.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 2037441,
+      "sha1": "430e805423592caf58a920ab02bc47cbcf31b113"
+    },
+    {
+      "url": "https://www.ariteks.net/products.asp",
+      "label": "Products",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Home > Products > Home > ArDiLight",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/ardilight.asp",
+      "label": "ArDiLight",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Home > Products > Home > ArDiLight",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/apparel-fashion-textiles.asp",
+      "label": "APPAREL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/building-technical-textiles.asp",
+      "label": "BUILDING TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/protection-technical-textiles.asp",
+      "label": "PROTECTION TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/medical-technical-textiles.asp",
+      "label": "MEDICAL TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/sport-technical-textiles.asp",
+      "label": "SPORT TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/transport-technical-textiles.asp",
+      "label": "TRANSPORT TECHNICAL TEXTILES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/ariteksgrup.asp",
+      "label": "ARITEKS GROUP",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARITEKS GROUP SERVICES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile.asp",
+      "label": "SERVICES",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARITEKS GROUP SERVICES",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-uv-protection.asp",
+      "label": "UV PROTECTION",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-flame-retardant.asp",
+      "label": "FLAME RETARDANT",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-insect-repellent.asp",
+      "label": "INSECT REPELLENT",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-antibacterial.asp",
+      "label": "ANTIBACTERIAL",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/service-textile-water-and-soil-repellent.asp",
+      "label": "WATER REPELLENT",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/arneo-eco.asp",
+      "label": "ARNEO ECO",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/arof-file.asp",
+      "label": "AROF FILE",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "ARDILIGHT ARNEO ECO AROF FILE",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "http://www.ariteks.net",
+      "label": "www.ariteks.net",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ],
+  "tables": [
+    {
+      "table_index": 3,
+      "text_preview": "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems.",
+      "rows": [
+        [
+          "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems."
+        ]
+      ]
+    },
+    {
+      "table_index": 4,
+      "text_preview": "Home Technical Textiles",
+      "rows": [
+        [
+          "Home Technical Textiles"
+        ]
+      ]
+    },
+    {
+      "table_index": 5,
+      "text_preview": "ArDiLight 350 g/m² , 46% Polyester 4% Elastane 50% PVC, Stretch Ceiling Fabric",
+      "rows": [
+        [
+          "ArDiLight"
+        ],
+        [
+          "350 g/m² , 46% Polyester 4% Elastane 50% PVC, Stretch Ceiling Fabric"
+        ]
+      ]
+    },
+    {
+      "table_index": 6,
+      "text_preview": "Fiber 46% Polyester (PES) 4% Elastane (EL) 50% PVC EN ISO 2076 Yarn 75 Denier EN ISO 2060 Weight 350 ±5 g/m² EN ISO 3081 Width 1800 ±20 mm EN ISO 3932 Bursting strength > 1500 kPa (kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Flame Retardancy B1 DIN 4102-1 Uv Permeability < 1% AATCC 183 Working Temperature -30'C to 70'C DIN 4102-1 Transmittance at 550 nm Reflectance at 550 nm Absorbance at 550 nm Application Stretch Ceiling Quality Management Done ISO 9001",
+      "rows": [
+        [
+          "Fiber",
+          "46% Polyester (PES) 4% Elastane (EL) 50% PVC",
+          "EN ISO 2076"
+        ],
+        [
+          "Yarn",
+          "75 Denier",
+          "EN ISO 2060"
+        ],
+        [
+          "Weight",
+          "350 ±5 g/m²",
+          "EN ISO 3081"
+        ],
+        [
+          "Width",
+          "1800 ±20 mm",
+          "EN ISO 3932"
+        ],
+        [
+          "Bursting strength",
+          "> 1500 kPa (kN/m² )",
+          "EN ISO 13938-1"
+        ],
+        [
+          "Dimensional Change",
+          "-5% < Length < +5% ; -5% < Width < +5%",
+          "EN ISO 5077"
+        ],
+        [
+          "Flame Retardancy",
+          "B1",
+          "DIN 4102-1"
+        ],
+        [
+          "Uv Permeability",
+          "< 1%",
+          "AATCC 183"
+        ],
+        [
+          "Working Temperature",
+          "-30'C to 70'C",
+          "DIN 4102-1"
+        ],
+        [
+          "Transmittance at 550 nm"
+        ],
+        [
+          "Reflectance at 550 nm"
+        ],
+        [
+          "Absorbance at 550 nm"
+        ],
+        [
+          "Application",
+          "Stretch Ceiling"
+        ],
+        [
+          "Quality Management",
+          "Done",
+          "ISO 9001"
+        ]
+      ]
+    },
+    {
+      "table_index": 7,
+      "text_preview": "White PTO-10275-1 - STANDART - ArDiLight-4224",
+      "rows": [
+        [
+          "White",
+          "PTO-10275-1",
+          "- STANDART -",
+          "ArDiLight-4224"
+        ]
+      ]
+    },
+    {
+      "table_index": 8,
+      "text_preview": "Home > Products > Home > ArDiLight",
+      "rows": [
+        [
+          "Home > Products > Home > ArDiLight"
+        ]
+      ]
+    },
+    {
+      "table_index": 9,
+      "text_preview": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES ARITEKS GROUP SERVICES UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT ARDILIGHT ARNEO ECO AROF FILE",
+      "rows": [
+        [
+          "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES",
+          "ARITEKS GROUP SERVICES",
+          "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT",
+          "ARDILIGHT ARNEO ECO AROF FILE"
+        ]
+      ]
+    },
+    {
+      "table_index": 10,
+      "text_preview": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net",
+      "rows": [
+        [
+          "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net"
+        ]
+      ]
+    },
+    {
+      "table_index": 11,
+      "text_preview": "Copyright © 2026 Arıteks A.Ş.",
+      "rows": [
+        [
+          "Copyright © 2026 Arıteks A.Ş."
+        ]
+      ]
+    }
+  ],
+  "text_blocks": [
+    {
+      "order": 1,
+      "tag": "div",
+      "text": "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems. Home Technical Textiles"
+    },
+    {
+      "order": 2,
+      "tag": "div",
+      "text": "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems."
+    },
+    {
+      "order": 3,
+      "tag": "td",
+      "text": "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems."
+    },
+    {
+      "order": 4,
+      "tag": "h1",
+      "text": "Pvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems."
+    },
+    {
+      "order": 5,
+      "tag": "td",
+      "text": "Home Technical Textiles"
+    },
+    {
+      "order": 6,
+      "tag": "td",
+      "text": "ArDiLight"
+    },
+    {
+      "order": 7,
+      "tag": "td",
+      "text": "350 g/m² , 46% Polyester 4% Elastane 50% PVC, Stretch Ceiling Fabric"
+    },
+    {
+      "order": 8,
+      "tag": "div",
+      "text": "Flexible, pvc stretch ceiling fabric systems. No need for special profiles nor heating during start-up. No insect accumulation during time. Very fast start-up. No shrinkage due to heat stabilized fabric system. More homojenious light distribution. Suitable for digital printing Technical Parameters Fiber 46% Polyester (PES) 4% Elastane (EL) 50% PVC EN ISO 2076 Yarn 75 Denier EN ISO 2060 Weight 350 ±5 g/m² EN ISO 3081 Width 1800 ±20 mm EN ISO 3932 Bursting strength > 1500 kPa (kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Flame Retardancy B1 DIN 4102-1 Uv Permeability < 1% AATCC 183 Working Temperature -30'C to 70'C DIN 4102-1 Transmittance at 550 nm Reflectance at 550 nm Absorbance at 550 nm Application Stretch Ceiling Quality Management Done ISO 9001 Technical Documents Certificates"
+    },
+    {
+      "order": 9,
+      "tag": "div",
+      "text": "Flexible, pvc stretch ceiling fabric systems. No need for special profiles nor heating during start-up. No insect accumulation during time. Very fast start-up. No shrinkage due to heat stabilized fabric system. More homojenious light distribution. Suitable for digital printing"
+    },
+    {
+      "order": 10,
+      "tag": "h1",
+      "text": "Flexible, pvc stretch ceiling fabric systems."
+    },
+    {
+      "order": 11,
+      "tag": "h2",
+      "text": "No need for special profiles nor heating during start-up."
+    },
+    {
+      "order": 12,
+      "tag": "h2",
+      "text": "Suitable for digital printing"
+    },
+    {
+      "order": 13,
+      "tag": "div",
+      "text": "Technical Parameters Fiber 46% Polyester (PES) 4% Elastane (EL) 50% PVC EN ISO 2076 Yarn 75 Denier EN ISO 2060 Weight 350 ±5 g/m² EN ISO 3081 Width 1800 ±20 mm EN ISO 3932 Bursting strength > 1500 kPa (kN/m² ) EN ISO 13938-1 Dimensional Change -5% < Length < +5% ; -5% < Width < +5% EN ISO 5077 Flame Retardancy B1 DIN 4102-1 Uv Permeability < 1% AATCC 183 Working Temperature -30'C to 70'C DIN 4102-1 Transmittance at 550 nm Reflectance at 550 nm Absorbance at 550 nm Application Stretch Ceiling Quality Management Done ISO 9001 Technical Documents Certificates"
+    },
+    {
+      "order": 14,
+      "tag": "td",
+      "text": "Fiber"
+    },
+    {
+      "order": 15,
+      "tag": "td",
+      "text": "46% Polyester (PES) 4% Elastane (EL) 50% PVC"
+    },
+    {
+      "order": 16,
+      "tag": "td",
+      "text": "EN ISO 2076"
+    },
+    {
+      "order": 17,
+      "tag": "td",
+      "text": "Yarn"
+    },
+    {
+      "order": 18,
+      "tag": "td",
+      "text": "75 Denier"
+    },
+    {
+      "order": 19,
+      "tag": "td",
+      "text": "EN ISO 2060"
+    },
+    {
+      "order": 20,
+      "tag": "td",
+      "text": "Weight"
+    },
+    {
+      "order": 21,
+      "tag": "td",
+      "text": "350 ±5 g/m²"
+    },
+    {
+      "order": 22,
+      "tag": "td",
+      "text": "EN ISO 3081"
+    },
+    {
+      "order": 23,
+      "tag": "td",
+      "text": "Width"
+    },
+    {
+      "order": 24,
+      "tag": "td",
+      "text": "1800 ±20 mm"
+    },
+    {
+      "order": 25,
+      "tag": "td",
+      "text": "EN ISO 3932"
+    },
+    {
+      "order": 26,
+      "tag": "td",
+      "text": "Bursting strength"
+    },
+    {
+      "order": 27,
+      "tag": "td",
+      "text": "> 1500 kPa (kN/m² )"
+    },
+    {
+      "order": 28,
+      "tag": "td",
+      "text": "EN ISO 13938-1"
+    },
+    {
+      "order": 29,
+      "tag": "td",
+      "text": "Dimensional Change"
+    },
+    {
+      "order": 30,
+      "tag": "td",
+      "text": "-5% < Length < +5% ; -5% < Width < +5%"
+    },
+    {
+      "order": 31,
+      "tag": "td",
+      "text": "EN ISO 5077"
+    },
+    {
+      "order": 32,
+      "tag": "td",
+      "text": "Flame Retardancy"
+    },
+    {
+      "order": 33,
+      "tag": "td",
+      "text": "B1"
+    },
+    {
+      "order": 34,
+      "tag": "td",
+      "text": "DIN 4102-1"
+    },
+    {
+      "order": 35,
+      "tag": "td",
+      "text": "Uv Permeability"
+    },
+    {
+      "order": 36,
+      "tag": "td",
+      "text": "< 1%"
+    },
+    {
+      "order": 37,
+      "tag": "td",
+      "text": "AATCC 183"
+    },
+    {
+      "order": 38,
+      "tag": "td",
+      "text": "Working Temperature"
+    },
+    {
+      "order": 39,
+      "tag": "td",
+      "text": "-30'C to 70'C"
+    },
+    {
+      "order": 40,
+      "tag": "td",
+      "text": "DIN 4102-1"
+    },
+    {
+      "order": 41,
+      "tag": "td",
+      "text": "Transmittance at 550 nm"
+    },
+    {
+      "order": 42,
+      "tag": "td",
+      "text": "Reflectance at 550 nm"
+    },
+    {
+      "order": 43,
+      "tag": "td",
+      "text": "Absorbance at 550 nm"
+    },
+    {
+      "order": 44,
+      "tag": "td",
+      "text": "Application"
+    },
+    {
+      "order": 45,
+      "tag": "td",
+      "text": "Stretch Ceiling"
+    },
+    {
+      "order": 46,
+      "tag": "td",
+      "text": "Quality Management"
+    },
+    {
+      "order": 47,
+      "tag": "td",
+      "text": "Done"
+    },
+    {
+      "order": 48,
+      "tag": "td",
+      "text": "ISO 9001"
+    },
+    {
+      "order": 49,
+      "tag": "div",
+      "text": "Applications Functions Safe Textile"
+    },
+    {
+      "order": 50,
+      "tag": "div",
+      "text": "Applications"
+    },
+    {
+      "order": 51,
+      "tag": "div",
+      "text": "Functions Safe Textile"
+    },
+    {
+      "order": 52,
+      "tag": "p",
+      "text": "Safe Textile"
+    },
+    {
+      "order": 53,
+      "tag": "div",
+      "text": "Care Instructions Colors and Article Numbers White PTO-10275-1 - STANDART - ArDiLight-4224"
+    },
+    {
+      "order": 54,
+      "tag": "div",
+      "text": "Care Instructions"
+    },
+    {
+      "order": 55,
+      "tag": "div",
+      "text": "Colors and Article Numbers White PTO-10275-1 - STANDART - ArDiLight-4224"
+    },
+    {
+      "order": 56,
+      "tag": "td",
+      "text": "White"
+    },
+    {
+      "order": 57,
+      "tag": "td",
+      "text": "PTO-10275-1"
+    },
+    {
+      "order": 58,
+      "tag": "td",
+      "text": "- STANDART -"
+    },
+    {
+      "order": 59,
+      "tag": "td",
+      "text": "ArDiLight-4224"
+    },
+    {
+      "order": 60,
+      "tag": "td",
+      "text": "Home > Products > Home > ArDiLight"
+    },
+    {
+      "order": 61,
+      "tag": "td",
+      "text": "APPAREL TEXTILES BUILDING TECHNICAL TEXTILES HOME TECHNICAL TEXTILES PROTECTION TECHNICAL TEXTILES MEDICAL TECHNICAL TEXTILES SPORT TECHNICAL TEXTILES TRANSPORT TECHNICAL TEXTILES"
+    },
+    {
+      "order": 62,
+      "tag": "td",
+      "text": "ARITEKS GROUP SERVICES"
+    },
+    {
+      "order": 63,
+      "tag": "td",
+      "text": "UV PROTECTION FLAME RETARDANT INSECT REPELLENT ANTIBACTERIAL WATER REPELLENT"
+    },
+    {
+      "order": 64,
+      "tag": "td",
+      "text": "ARDILIGHT ARNEO ECO AROF FILE"
+    },
+    {
+      "order": 65,
+      "tag": "td",
+      "text": "Ariteks Headquarters Phone: +90 212 538 05 98 Address: Otakçılar Cad. No:80/32 34050 Eyupsultan/Istanbul Turkiye E-Mail: support@ariteksinfo.com Web: www.ariteks.net"
+    },
+    {
+      "order": 66,
+      "tag": "td",
+      "text": "Copyright © 2026 Arıteks A.Ş."
+    }
+  ],
+  "full_text": "Stretch Ceiling PVC Fabric - ArDiLight - Ariteks\nPvc coated semi transparent stretch ceiling fabrics for soft and diffuse light systems.\nHome Technical Textiles\nArDiLight\n350 gr/m\n2\n, 46% Polyester 4% Elastane 50% PVC, Stretch Ceiling Fabric\nFlexible, pvc stretch ceiling fabric systems.\nNo need for special profiles nor heating during start-up.\nNo insect accumulation during time.\nVery fast start-up.\nNo shrinkage due to heat stabilized fabric system.\nMore homojenious light distribution.\nSuitable for digital printing\nTechnical Parameters\nFiber\n46% Polyester (PES) 4% Elastane (EL) 50% PVC\nEN ISO 2076\nYarn\n75 Denier\nEN ISO 2060\nWeight\n350 ±5 gr/m\n2\nEN ISO 3081\nWidth\n1800 ±20 mm\nEN ISO 3932\nBursting strength\n> 1500 kPa (kN/m\n2\n)\nEN ISO 13938-1\nDimensional Change\n-5% < Length < +5% ; -5% < Width < +5%\nEN ISO 5077\nFlame Retardancy\nB1\nDIN 4102-1\nUv Permeability\n< 1%\nAATCC 183\nWorking Temperature\n-30'C to 70'C\nDIN 4102-1\nTransmittance at 550 nm\nReflectance at 550 nm\nAbsorbance at 550 nm\nApplication\nStretch Ceiling\nQuality Management\nDone\nISO 9001\nTechnical Documents\nCertificates\nApplications\nFunctions\nSafe Textile\nCare Instructions\nColors and Article Numbers\nWhite\nPTO-10275-1\n- STANDART -\nArDiLight-4224\nHome\n>\nProducts\n>\nHome\n>\nArDiLight\nAPPAREL TEXTILES\nBUILDING TECHNICAL TEXTILES\nHOME TECHNICAL TEXTILES\nPROTECTION TECHNICAL TEXTILES\nMEDICAL TECHNICAL TEXTILES\nSPORT TECHNICAL TEXTILES\nTRANSPORT TECHNICAL TEXTILES\nARITEKS GROUP\nSERVICES\nUV PROTECTION\nFLAME RETARDANT\nINSECT REPELLENT\nANTIBACTERIAL\nWATER REPELLENT\nARDILIGHT\nARNEO ECO\nAROF FILE\nAriteks Headquarters\nPhone:\n+90 212 538 05 98\nAddress:\nOtakçılar Cad. No:80/32 34050\nEyupsultan/Istanbul Turkiye\nE-Mail:\nsupport@ariteksinfo.com\nWeb:\nwww.ariteks.net\nCopyright © 2026 Arıteks A.Ş.",
+  "raw_html_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardilight\\raw\\product_page.html",
+  "url_slug": "ardilight",
+  "display_slug": "ardilight",
+  "spec_quality": {
+    "cleaned_by": "crawl_ariteks_fabric_complete_v9",
+    "original_had_narrative": true,
+    "spec_line_length": 112,
+    "cleaned_by_v10": true,
+    "v10_changed": false
+  }
+}

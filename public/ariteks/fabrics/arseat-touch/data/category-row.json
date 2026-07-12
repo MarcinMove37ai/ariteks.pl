@@ -1,0 +1,192 @@
+{
+  "category_url": "https://www.ariteks.net/transport-technical-textiles.asp",
+  "row_index": 51,
+  "group": {
+    "title": "Warp Knit Fabrics for Upholstery and Shoes",
+    "row_index": 20,
+    "row_text": "Warp Knit Fabrics for Upholstery and Shoes",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArSeat_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Warp Knit Fabrics for Upholstery and Shoes",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arseat-touch\\documents\\arseat-ru-ds-ver2__212f6f5d31.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arseat-touch\\documents\\arseat-ru-ds-ver2__212f6f5d31.pdf",
+        "public_url": "/ariteks/fabrics/arseat-touch/documents/arseat-ru-ds-ver2__212f6f5d31.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 106322,
+        "sha1": "8591a643646a5b55e2eeaf87bcf3ac443d542de4"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/arseat_ver2_s.jpg",
+        "alt": "Upholstery and Shoes Fabrics",
+        "title": "Upholstery and Shoes Fabrics",
+        "context_text": "Warp Knit Fabrics for Upholstery and Shoes",
+        "classification": "product_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arseat-touch\\images\\arseat-ver2-s__7475c599d5.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arseat-touch\\images\\arseat-ver2-s__7475c599d5.jpg",
+        "public_url": "/ariteks/fabrics/arseat-touch/images/arseat-ver2-s__7475c599d5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "187864d96f9984c2b928c97cde48afe8ec586877"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArSeat_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Warp Knit Fabrics for Upholstery and Shoes",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arseat-touch\\documents\\arseat-ru-ds-ver2__212f6f5d31.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arseat-touch\\documents\\arseat-ru-ds-ver2__212f6f5d31.pdf",
+        "public_url": "/ariteks/fabrics/arseat-touch/documents/arseat-ru-ds-ver2__212f6f5d31.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 106322,
+        "sha1": "8591a643646a5b55e2eeaf87bcf3ac443d542de4"
+      }
+    ]
+  },
+  "product_name_from_category": "ArSeat Touch",
+  "product_url": "https://www.ariteks.net/arseat-touch.asp",
+  "row_text": "150 g/m² 100% PES ArSeat Touch Warp Knit Plain",
+  "cells": [
+    "150 g/m²",
+    "100% PES",
+    "ArSeat Touch",
+    "Warp Knit Plain"
+  ],
+  "summary": {
+    "weight": "150 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain"
+  },
+  "technology_partners": [],
+  "function_icons": [],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Warp Knit Plain",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+        "alt": "Warp Knit Fabric",
+        "title": "Warp Knit Fabric",
+        "context_text": "Warp Knit Plain",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arseat-touch\\images\\warp-knit__22376b13e5.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arseat-touch\\images\\warp-knit__22376b13e5.jpg",
+        "public_url": "/ariteks/fabrics/arseat-touch/images/warp-knit__22376b13e5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 28297,
+        "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(195, 195, 195)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(218, 218, 218)",
+      "label": "250 g/m² 100% PES",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [
+    {
+      "url": "https://www.ariteks.net/pdf/ArAirMesh_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "3D Air Mesh Fabrics",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arseat-touch\\documents\\arairmesh-ru-ds-ver2__db6f079a0c.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arseat-touch\\documents\\arairmesh-ru-ds-ver2__db6f079a0c.pdf",
+      "public_url": "/ariteks/fabrics/arseat-touch/documents/arairmesh-ru-ds-ver2__db6f079a0c.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 139824,
+      "sha1": "8d0bbf6ba929db95457ca3a0ac8cccdae0d57018"
+    }
+  ],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+      "alt": "Warp Knit Fabric",
+      "title": "Warp Knit Fabric",
+      "context_text": "Warp Knit Plain",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arseat-touch\\images\\warp-knit__22376b13e5.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arseat-touch\\images\\warp-knit__22376b13e5.jpg",
+      "public_url": "/ariteks/fabrics/arseat-touch/images/warp-knit__22376b13e5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28297,
+      "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/ArAirMesh_ver2_s.jpg",
+      "alt": "3D Air Mesh Fabrics",
+      "title": "3D Air Mesh Fabrics",
+      "context_text": "3D Air Mesh Fabrics",
+      "classification": "product_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arseat-touch\\images\\arairmesh-ver2-s__64792a350c.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arseat-touch\\images\\arairmesh-ver2-s__64792a350c.jpg",
+      "public_url": "/ariteks/fabrics/arseat-touch/images/arairmesh-ver2-s__64792a350c.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 48054,
+      "sha1": "1351e113b1d7fabf8fcc09b4164e41de1b2d6bc8"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arseat-touch.asp",
+      "label": "ArSeat Touch",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArSeat Touch",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/ArAirMesh_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "3D Air Mesh Fabrics",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arseat-touch\\documents\\arairmesh-ru-ds-ver2__db6f079a0c.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arseat-touch\\documents\\arairmesh-ru-ds-ver2__db6f079a0c.pdf",
+      "public_url": "/ariteks/fabrics/arseat-touch/documents/arairmesh-ru-ds-ver2__db6f079a0c.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 139824,
+      "sha1": "8d0bbf6ba929db95457ca3a0ac8cccdae0d57018"
+    }
+  ]
+}

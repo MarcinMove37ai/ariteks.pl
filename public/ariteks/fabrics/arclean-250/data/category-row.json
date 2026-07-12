@@ -1,0 +1,178 @@
+{
+  "category_url": "https://www.ariteks.net/machine-technical-textiles.asp",
+  "row_index": 26,
+  "group": {
+    "title": "Cleaning Fabrics",
+    "row_index": 20,
+    "row_text": "Cleaning Fabrics",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArClean_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Cleaning Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arclean-250\\documents\\arclean-ru-ds-ver2__c558a35384.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arclean-250\\documents\\arclean-ru-ds-ver2__c558a35384.pdf",
+        "public_url": "/ariteks/fabrics/arclean-250/documents/arclean-ru-ds-ver2__c558a35384.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 95482,
+        "sha1": "783eb1f8c4e51d4562f7d7219800940d6e230169"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/ArClean_ver2_s.jpg",
+        "alt": "Cleaning Fabrics",
+        "title": "Cleaning Fabrics",
+        "context_text": "Cleaning Fabrics",
+        "classification": "product_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arclean-250\\images\\arclean-ver2-s__3a3fcbf753.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arclean-250\\images\\arclean-ver2-s__3a3fcbf753.jpg",
+        "public_url": "/ariteks/fabrics/arclean-250/images/arclean-ver2-s__3a3fcbf753.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "e5cb493d3b3b7c42f26d26453ba8bd7b7a48a6c0"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArClean_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Cleaning Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arclean-250\\documents\\arclean-ru-ds-ver2__c558a35384.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arclean-250\\documents\\arclean-ru-ds-ver2__c558a35384.pdf",
+        "public_url": "/ariteks/fabrics/arclean-250/documents/arclean-ru-ds-ver2__c558a35384.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 95482,
+        "sha1": "783eb1f8c4e51d4562f7d7219800940d6e230169"
+      }
+    ]
+  },
+  "product_name_from_category": "ArClean 250",
+  "product_url": "https://www.ariteks.net/arclean-250.asp",
+  "row_text": "250 g/m² 80% PES 20% PA6 ArClean 250 ArClean 250 Plain Home Home > Products Products > Cleaning Fabrics Cleaning Fabrics Machine Technical Textiles Cleaning Fabrics",
+  "cells": [
+    "250 g/m²",
+    "80% PES 20% PA6",
+    "ArClean 250",
+    "Plain"
+  ],
+  "summary": {
+    "weight": "250 g/m²",
+    "composition": "80% PES 20% PA6",
+    "weave": "Plain"
+  },
+  "technology_partners": [],
+  "function_icons": [],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Plain",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+        "alt": "Warp Knit Fabric",
+        "title": "Wark Knit Fabric",
+        "context_text": "Plain",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arclean-250\\images\\warp-knit__22376b13e5.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arclean-250\\images\\warp-knit__22376b13e5.jpg",
+        "public_url": "/ariteks/fabrics/arclean-250/images/warp-knit__22376b13e5.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 28297,
+        "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(202, 251, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 255, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 174, 201)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/warp_knit.jpg",
+      "alt": "Warp Knit Fabric",
+      "title": "Wark Knit Fabric",
+      "context_text": "Plain",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arclean-250\\images\\warp-knit__22376b13e5.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arclean-250\\images\\warp-knit__22376b13e5.jpg",
+      "public_url": "/ariteks/fabrics/arclean-250/images/warp-knit__22376b13e5.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28297,
+      "sha1": "3d504462a8a96f150bd437f3bb1c0fee305d0a11"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arclean-250.asp",
+      "label": "ArClean 250",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArClean 250",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/mainpage.asp",
+      "label": "Home",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Home > Products > Machine Technical Textiles",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/products.asp",
+      "label": "Products",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "Home > Products > Machine Technical Textiles",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}

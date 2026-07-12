@@ -1,0 +1,141 @@
+{
+  "category_url": "https://www.ariteks.net/building-technical-textiles.asp",
+  "row_index": 73,
+  "group": {
+    "title": "",
+    "row_index": null,
+    "row_text": "",
+    "documents": [],
+    "images": [],
+    "links": []
+  },
+  "product_name_from_category": "ArDigiPrint",
+  "product_url": "https://www.ariteks.net/ardigiprint.asp",
+  "row_text": "250 g/m² 100% PES ArDigiPrint Interlock",
+  "cells": [
+    "250 g/m²",
+    "100% PES",
+    "ArDigiPrint",
+    "Interlock"
+  ],
+  "summary": {
+    "weight": "250 g/m²",
+    "composition": "100% PES",
+    "weave": "Interlock"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/stretchable.jpg",
+      "alt": "Stretchable",
+      "title": "Stretchable",
+      "context_text": "250 g/m² 100% PES ArDigiPrint Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardigiprint\\images\\stretchable__0596a42c8d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardigiprint\\images\\stretchable__0596a42c8d.jpg",
+      "public_url": "/ariteks/fabrics/ardigiprint/images/stretchable__0596a42c8d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8698,
+      "sha1": "c658564bedb014bf2004e8647083eee2089ae590"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/less_steel_usage.jpg",
+      "alt": "Less Steel Usage",
+      "title": "Less Steel Usage",
+      "context_text": "250 g/m² 100% PES ArDigiPrint Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardigiprint\\images\\less-steel-usage__1777345555.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardigiprint\\images\\less-steel-usage__1777345555.jpg",
+      "public_url": "/ariteks/fabrics/ardigiprint/images/less-steel-usage__1777345555.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8505,
+      "sha1": "f5dc0d1ae68d142c1b3c84b94b69e4cf62419426"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Interlock",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/knit.jpg",
+        "alt": "Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Interlock",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardigiprint\\images\\knit__71fef29325.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardigiprint\\images\\knit__71fef29325.jpg",
+        "public_url": "/ariteks/fabrics/ardigiprint/images/knit__71fef29325.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 26737,
+        "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(255, 255, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "alt": "Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Interlock",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardigiprint\\images\\knit__71fef29325.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardigiprint\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/ardigiprint/images/knit__71fef29325.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/stretchable.jpg",
+      "alt": "Stretchable",
+      "title": "Stretchable",
+      "context_text": "250 g/m² 100% PES ArDigiPrint Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardigiprint\\images\\stretchable__0596a42c8d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardigiprint\\images\\stretchable__0596a42c8d.jpg",
+      "public_url": "/ariteks/fabrics/ardigiprint/images/stretchable__0596a42c8d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8698,
+      "sha1": "c658564bedb014bf2004e8647083eee2089ae590"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/less_steel_usage.jpg",
+      "alt": "Less Steel Usage",
+      "title": "Less Steel Usage",
+      "context_text": "250 g/m² 100% PES ArDigiPrint Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\ardigiprint\\images\\less-steel-usage__1777345555.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\ardigiprint\\images\\less-steel-usage__1777345555.jpg",
+      "public_url": "/ariteks/fabrics/ardigiprint/images/less-steel-usage__1777345555.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8505,
+      "sha1": "f5dc0d1ae68d142c1b3c84b94b69e4cf62419426"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/ardigiprint.asp",
+      "label": "ArDigiPrint",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArDigiPrint",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}

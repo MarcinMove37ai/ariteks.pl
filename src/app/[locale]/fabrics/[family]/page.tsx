@@ -1,7 +1,7 @@
 // src/app/[locale]/fabrics/[family]/page.tsx
 // PODSTRONA RODZINY (podlinii) — 36 stron x 2 jezyki (KROK 5).
 // 1 rodzina = 1 URL = 1 karta PDF = 1 grafika hero (z KROKU 3).
-// Dane: FABRIC_FAMILIES + produkty dopasowane po nazwie family (fabrics.ts),
+// Dane: FABRIC_FAMILIES + produkty po subFamily (fabrics.ts),
 // hero/pdf: src/content/families-assets.json.
 // Tresc dwujezyczna: nazwa = brand (wspolna), deskryptor Record<Locale>.
 
@@ -12,10 +12,10 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link, routing, type Locale } from '@/i18n/routing';
 import RfqButton from '@/components/RfqButton';
 import {
-  FABRICS,
   FABRIC_PROPERTY_LABELS,
   getFamilyBySlug,
   getFamilySlugs,
+  getFabricsBySubFamily,
   type FabricProperty,
 } from '@/content/fabrics';
 import ASSETS_RAW from '@/content/families-assets.json';
@@ -50,7 +50,7 @@ export async function generateMetadata({
   const fam = getFamilyBySlug(family);
   if (!fam) return {};
   const loc = locale as Locale;
-  const count = FABRICS.filter((fabric) => fabric.family === fam.name).length;
+  const count = getFabricsBySubFamily(family).length;
   return {
     title: `${fam.name} — ${fam.descriptor[loc]}`.slice(0, 70),
     description:
@@ -73,7 +73,7 @@ export default async function FamilyPage({
   const loc = locale as Locale;
   const cta = await getTranslations('home.cta');
 
-  const fabrics = FABRICS.filter((fabric) => fabric.family === fam.name);
+  const fabrics = getFabricsBySubFamily(family);
   const assets = ASSETS[family] ?? {};
 
   // agregaty linii — tylko z danych czlonkow (zero pustych sekcji)

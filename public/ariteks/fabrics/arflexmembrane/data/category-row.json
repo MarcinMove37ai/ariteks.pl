@@ -1,0 +1,249 @@
+{
+  "category_url": "https://www.ariteks.net/building-technical-textiles.asp",
+  "row_index": 56,
+  "group": {
+    "title": "",
+    "row_index": null,
+    "row_text": "",
+    "documents": [],
+    "images": [],
+    "links": []
+  },
+  "product_name_from_category": "ArFlexMembrane",
+  "product_url": "https://www.ariteks.net/arflexmembrane.asp",
+  "row_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+  "cells": [
+    "900 g/m²",
+    "28% PES 2% EL 70% PU",
+    "ArFlexMembrane",
+    "Interlock"
+  ],
+  "summary": {
+    "weight": "900 g/m²",
+    "composition": "28% PES 2% EL 70% PU",
+    "weave": "Interlock"
+  },
+  "technology_partners": [],
+  "function_icons": [
+    {
+      "url": "https://www.ariteks.net/images/functions/recyclable.jpg",
+      "alt": "Recyclable",
+      "title": "Recyclable",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\recyclable__4ea56600e8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\recyclable__4ea56600e8.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/recyclable__4ea56600e8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10241,
+      "sha1": "e3f092f3c5894640c954dbce2c89f2758e61c356"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/less_steel_usage.jpg",
+      "alt": "Less Steel Usage",
+      "title": "Less Steel Usage",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\less-steel-usage__1777345555.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\less-steel-usage__1777345555.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/less-steel-usage__1777345555.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8505,
+      "sha1": "f5dc0d1ae68d142c1b3c84b94b69e4cf62419426"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/ecologic.jpg",
+      "alt": "Ecologic",
+      "title": "Ecologic",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\ecologic__11e6b031f2.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\ecologic__11e6b031f2.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/ecologic__11e6b031f2.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10600,
+      "sha1": "57764b42ac9db1e343896b064f83e249182b2a48"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/stretchable.jpg",
+      "alt": "Stretchable",
+      "title": "Stretchable",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\stretchable__0596a42c8d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\stretchable__0596a42c8d.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/stretchable__0596a42c8d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8698,
+      "sha1": "c658564bedb014bf2004e8647083eee2089ae590"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/EN_14116.jpg",
+      "alt": "Flame Retardant",
+      "title": "Flame Retardant",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\en-14116__43b497ecc3.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\en-14116__43b497ecc3.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/en-14116__43b497ecc3.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 13594,
+      "sha1": "5aa303deae153a2992fae841ff043362aeefd69f"
+    }
+  ],
+  "certificate_badges": [],
+  "structure": {
+    "name": "Interlock",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/knit.jpg",
+        "alt": "Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Interlock",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\knit__71fef29325.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\knit__71fef29325.jpg",
+        "public_url": "/ariteks/fabrics/arflexmembrane/images/knit__71fef29325.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 26737,
+        "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(220, 230, 255)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(255, 216, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(178, 67, 91)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(249, 112, 45)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(182, 55, 67)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(37, 159, 214)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(103, 80, 74)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "alt": "Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Interlock",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\knit__71fef29325.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/knit__71fef29325.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/recyclable.jpg",
+      "alt": "Recyclable",
+      "title": "Recyclable",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\recyclable__4ea56600e8.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\recyclable__4ea56600e8.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/recyclable__4ea56600e8.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10241,
+      "sha1": "e3f092f3c5894640c954dbce2c89f2758e61c356"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/less_steel_usage.jpg",
+      "alt": "Less Steel Usage",
+      "title": "Less Steel Usage",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\less-steel-usage__1777345555.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\less-steel-usage__1777345555.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/less-steel-usage__1777345555.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8505,
+      "sha1": "f5dc0d1ae68d142c1b3c84b94b69e4cf62419426"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/ecologic.jpg",
+      "alt": "Ecologic",
+      "title": "Ecologic",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\ecologic__11e6b031f2.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\ecologic__11e6b031f2.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/ecologic__11e6b031f2.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10600,
+      "sha1": "57764b42ac9db1e343896b064f83e249182b2a48"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/stretchable.jpg",
+      "alt": "Stretchable",
+      "title": "Stretchable",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\stretchable__0596a42c8d.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\stretchable__0596a42c8d.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/stretchable__0596a42c8d.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8698,
+      "sha1": "c658564bedb014bf2004e8647083eee2089ae590"
+    },
+    {
+      "url": "https://www.ariteks.net/images/functions/EN_14116.jpg",
+      "alt": "Flame Retardant",
+      "title": "Flame Retardant",
+      "context_text": "900 g/m² 28% PES 2% EL 70% PU ArFlexMembrane Interlock",
+      "classification": "function_icon",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arflexmembrane\\images\\en-14116__43b497ecc3.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arflexmembrane\\images\\en-14116__43b497ecc3.jpg",
+      "public_url": "/ariteks/fabrics/arflexmembrane/images/en-14116__43b497ecc3.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 13594,
+      "sha1": "5aa303deae153a2992fae841ff043362aeefd69f"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arflexmembrane.asp",
+      "label": "ArFlexMembrane",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArFlexMembrane",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "category_url": "https://www.ariteks.net/cloth-technical-textiles.asp",
+  "row_index": 53,
+  "group": {
+    "title": "Polar Fabrics",
+    "row_index": 48,
+    "row_text": "Polar Fabrics",
+    "documents": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArPo_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Polar Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arpo\\documents\\arpo-ru-ds-ver2__e2da7651e1.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arpo\\documents\\arpo-ru-ds-ver2__e2da7651e1.pdf",
+        "public_url": "/ariteks/fabrics/arpo/documents/arpo-ru-ds-ver2__e2da7651e1.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 114186,
+        "sha1": "45c562ae7b0067a6da4db6f231d25f4cabd41b84"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/product/ArPo_ver2_s.jpg",
+        "alt": "Polar Fabrics",
+        "title": "Polar Fabrics",
+        "context_text": "Polar Fabrics",
+        "classification": "product_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arpo\\images\\arpo-ver2-s__2e6cdae869.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arpo\\images\\arpo-ver2-s__2e6cdae869.jpg",
+        "public_url": "/ariteks/fabrics/arpo/images/arpo-ver2-s__2e6cdae869.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 48054,
+        "sha1": "d550edcab577aea1284350929941a83b2cd9d3b0"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ariteks.net/pdf/ArPo_ru_ds_ver2.pdf",
+        "label": "",
+        "title": "",
+        "is_asset": true,
+        "is_document": true,
+        "is_image": false,
+        "is_product_page": false,
+        "context_text": "Polar Fabrics",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arpo\\documents\\arpo-ru-ds-ver2__e2da7651e1.pdf",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arpo\\documents\\arpo-ru-ds-ver2__e2da7651e1.pdf",
+        "public_url": "/ariteks/fabrics/arpo/documents/arpo-ru-ds-ver2__e2da7651e1.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 114186,
+        "sha1": "45c562ae7b0067a6da4db6f231d25f4cabd41b84"
+      }
+    ]
+  },
+  "product_name_from_category": "ArPo",
+  "product_url": "https://www.ariteks.net/arpo.asp",
+  "row_text": "290 g/m² 100% PES ArPo ArPo Polar 3 Layer (woven fabric + TPU Membrane + knit Fabric) laminated fabrics. Polar Fabrics 1/1 Plain Polar Fabrics ArAstar ArSotina Polar Fabrics",
+  "cells": [
+    "290 g/m²",
+    "100% PES",
+    "ArPo",
+    ""
+  ],
+  "summary": {
+    "weight": "290 g/m²",
+    "composition": "100% PES",
+    "weave": ""
+  },
+  "technology_partners": [],
+  "function_icons": [],
+  "certificate_badges": [],
+  "structure": {
+    "name": "",
+    "images": [
+      {
+        "url": "https://www.ariteks.net/images/structures/knit.jpg",
+        "alt": "Knit Fabric",
+        "title": "Knit Fabric",
+        "context_text": "Polar",
+        "classification": "structure_image",
+        "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arpo\\images\\knit__71fef29325.jpg",
+        "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arpo\\images\\knit__71fef29325.jpg",
+        "public_url": "/ariteks/fabrics/arpo/images/knit__71fef29325.jpg",
+        "content_type": "image/jpeg",
+        "size_bytes": 26737,
+        "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+      }
+    ]
+  },
+  "color_swatches": [
+    {
+      "color_value": "rgb(0, 0, 0)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(31, 31, 201)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(27, 18, 73)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    },
+    {
+      "color_value": "rgb(195, 195, 195)",
+      "label": "",
+      "source": "bgcolor_or_style"
+    }
+  ],
+  "row_documents": [
+    {
+      "url": "https://www.ariteks.net/pdf/ArDoku_ArDolu_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "3 Layer (woven fabric + TPU Membrane + knit Fabric) laminated fabrics.",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arpo\\documents\\ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arpo\\documents\\ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf",
+      "public_url": "/ariteks/fabrics/arpo/documents/ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 110003,
+      "sha1": "081eb69d4f60334591a5252def29e4fc9284d40c"
+    }
+  ],
+  "row_images": [
+    {
+      "url": "https://www.ariteks.net/images/structures/knit.jpg",
+      "alt": "Knit Fabric",
+      "title": "Knit Fabric",
+      "context_text": "Polar",
+      "classification": "structure_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arpo\\images\\knit__71fef29325.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arpo\\images\\knit__71fef29325.jpg",
+      "public_url": "/ariteks/fabrics/arpo/images/knit__71fef29325.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26737,
+      "sha1": "9e6eee67b4c62643afbcf7141306a49cbba7110e"
+    },
+    {
+      "url": "https://www.ariteks.net/images/product/ArDoku_ArDolu_ver2_s.jpg",
+      "alt": "3 Layer Laminated Fabrics",
+      "title": "3 Layer Laminated Fabrics",
+      "context_text": "3 Layer (woven fabric + TPU Membrane + knit Fabric) laminated fabrics.",
+      "classification": "product_image",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arpo\\images\\ardoku-ardolu-ver2-s__a0eec669ac.jpg",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arpo\\images\\ardoku-ardolu-ver2-s__a0eec669ac.jpg",
+      "public_url": "/ariteks/fabrics/arpo/images/ardoku-ardolu-ver2-s__a0eec669ac.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 48654,
+      "sha1": "7b9e985004f6fa477050dd7f3979389186501331"
+    }
+  ],
+  "row_links": [
+    {
+      "url": "https://www.ariteks.net/arpo.asp",
+      "label": "ArPo",
+      "title": "",
+      "is_asset": false,
+      "is_document": false,
+      "is_image": false,
+      "is_product_page": true,
+      "context_text": "ArPo",
+      "raw_local_path": "",
+      "public_local_path": "",
+      "public_url": "",
+      "content_type": "",
+      "size_bytes": "",
+      "sha1": ""
+    },
+    {
+      "url": "https://www.ariteks.net/pdf/ArDoku_ArDolu_ru_ds_ver2.pdf",
+      "label": "",
+      "title": "",
+      "is_asset": true,
+      "is_document": true,
+      "is_image": false,
+      "is_product_page": false,
+      "context_text": "3 Layer (woven fabric + TPU Membrane + knit Fabric) laminated fabrics.",
+      "raw_local_path": "C:\\Projekty\\galia-navi\\_scraped\\fabrics_complete\\arpo\\documents\\ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf",
+      "public_local_path": "C:\\Projekty\\galia-navi\\public\\ariteks\\fabrics\\arpo\\documents\\ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf",
+      "public_url": "/ariteks/fabrics/arpo/documents/ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 110003,
+      "sha1": "081eb69d4f60334591a5252def29e4fc9284d40c"
+    }
+  ]
+}

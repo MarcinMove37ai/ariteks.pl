@@ -2,7 +2,7 @@
 // KARTA PRODUKTU — jeden szablon dla 134 tkanin (trasa: rodzina/produkt,
 // breadcrumb: Catalogue · Rodzina · Produkt; KROK 6 przebudowy 2026-07-11).
 // Zrodla danych:
-//  - src/content/fabrics.ts (slug, family, normy kurowane, rodzina),
+//  - src/content/fabrics.ts (slug, subFamily, normy kurowane, rodzina),
 //  - public/.../fabric-complete-record.json (pelny rekord: parametry,
 //    kolory, dokumenty, galerie) — czytany z dysku w czasie budowania (SSG).
 // ZASADA: renderujemy WYLACZNIE sekcje, ktore maja dane — zero pustych.
@@ -23,10 +23,9 @@ import RfqButton from '@/components/RfqButton';
 import FabricGallery from '@/components/fabrics/FabricGallery';
 import {
   FABRICS,
-  FABRIC_FAMILIES,
   getFabricBySlug,
   getFamilyBySlug,
-  type FabricDef,
+  getFabricsBySubFamily,
 } from '@/content/fabrics';
 import PL_RAW from '@/content/fabrics-pl.json';
 import COLOR_PATCH_RAW from '@/content/fabrics-colors-patch.json';
@@ -96,6 +95,18 @@ type FabricRecord = {
  *  screeny 2026-07-11). Sklejamy pary z powrotem w jeden logiczny wiersz.
  *  Wiersze poprawne przechodza nietkniete. */
 const FINISH_MARKER = /^[-–\s]*STANDAR[TD][-–\s]*$/i;
+
+/** Scraper policzyl elementy stopki strony (kontakt, copyright) i chipy
+ *  specyfikacji jako swatche kolorow (check_colors_report, 2026-07-11).
+ *  Odfiltrowujemy po etykiecie; swatche bez etykiety zostaja. */
+const JUNK_SWATCH =
+  /copyright|©|headquarters|phone|e-?mail|www\.|address|g\/m²|g\/m2/i;
+
+function isRealSwatch(label?: string): boolean {
+  const l = (label || '').trim();
+  if (!l) return true;
+  return !JUNK_SWATCH.test(l) && l.length <= 40;
+}
 
 function normalizeColors(rows: ColorRow[]): ColorRow[] {
   const out: ColorRow[] = [];
@@ -174,20 +185,11 @@ const T = {
   openDoc: { pl: 'Otwórz', en: 'Open' },
 } as const;
 
-function getFamilyForFabric(fabric: FabricDef) {
-  return FABRIC_FAMILIES.find((family) => family.name === fabric.family);
-}
-
 // ------------------------------- SSG / SEO --------------------------------
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
-    FABRICS.flatMap((fabric) => {
-      const family = getFamilyForFabric(fabric);
-      return family
-        ? [{ locale, family: family.slug, slug: fabric.slug }]
-        : [];
-    })
+    FABRICS.map((f) => ({ locale, family: f.subFamily, slug: f.slug }))
   );
 }
 
@@ -218,7 +220,7 @@ export default async function FabricPage({
   const f = getFabricBySlug(slug);
   if (!f) notFound();
   const fam = getFamilyBySlug(family);
-  if (!fam || fam.name !== f.family) notFound();
+  if (!fam || f.subFamily !== family) notFound();
 
   setRequestLocale(locale);
   const cta = await getTranslations('home.cta');
@@ -262,7 +264,7 @@ export default async function FabricPage({
       : COLOR_PATCH[f.slug] ?? []
   );
   const swatches = (rec?.category_row?.color_swatches ?? []).filter(
-    (s) => s.color_value
+    (s) => s.color_value && isRealSwatch(s.label)
   );
   // Rowna licznosc (126/126 wg check_colors) => swatch wchodzi do wiersza
   // tabeli jak w zrodle; osobny pasek kwadratow zostaje tylko fallbackiem.
@@ -287,8 +289,8 @@ export default async function FabricPage({
   const structureImg = (structure?.images ?? []).find((i) => i.public_url);
   const galleryImages = [...appImages, ...fabricPhotos];
 
-  const variants = FABRICS.filter(
-    (candidate) => candidate.family === fam.name && candidate.slug !== f.slug
+  const variants = getFabricsBySubFamily(family).filter(
+    (x) => x.slug !== f.slug
   );
 
   const docLabel = (d: TechDoc) =>
@@ -332,14 +334,24 @@ export default async function FabricPage({
           </div>
 
           <div className="relative -mx-5 h-64 sm:-mx-8 sm:h-80 lg:mx-0 lg:h-full lg:min-h-[480px]">
-            <Image
-              src={f.heroImage ?? ''}
-              alt={name}
-              fill
-              priority
-              sizes="(min-width: 1024px) 45vw, 100vw"
-              className="object-cover"
-            />
+            {f.heroImage ? (
+              <Image
+                src={f.heroImage}
+                alt={name}
+                fill
+                priority
+                sizes="(min-width: 1024px) 45vw, 100vw"
+                className="object-cover"
+              />
+            ) : (
+              /* czesc nowych linii (integracja 159) nie ma zdjec hero
+                 w zrodle — panel ze splotem, spojnie z kaflami katalogu */
+              <div className="mesh-dark flex h-full w-full items-center justify-center">
+                <span className="font-mono text-sm uppercase tracking-[0.3em] text-carbon-400">
+                  {f.weave}
+                </span>
+              </div>
+            )}
             <div
               className="absolute inset-0 lg:bg-gradient-to-r lg:from-carbon-900/60 lg:via-transparent lg:to-transparent"
               aria-hidden="true"
@@ -443,6 +455,9 @@ export default async function FabricPage({
               </Link>
             </div>
 
+            {/* Dokumenty: karta tylko gdy jest CO pokazac — czesc nowych
+                linii (np. arflexmembrane) nie ma dokumentow u zrodla */}
+            {dataSheets.length + certDocs.length > 0 && (
             <div className="rounded-lg border border-steel-line bg-paper p-6 shadow-card">
               <p className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-steel">
                 {T.documents[loc]}
@@ -487,6 +502,7 @@ export default async function FabricPage({
                 </>
               )}
             </div>
+            )}
           </aside>
         </div>
       </section>
