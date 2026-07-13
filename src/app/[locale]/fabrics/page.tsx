@@ -8,13 +8,10 @@ import { setRequestLocale } from 'next-intl/server';
 import { routing, type Locale } from '@/i18n/routing';
 import FabricExplorer from '@/components/fabrics/FabricExplorer';
 import { FABRICS, FABRIC_FAMILIES } from '@/content/fabrics';
-import STATS_RAW from '@/content/catalog-stats.json';
 
-// Pelna liczba standardow (normy + metody badawcze, dedupe cytowan) —
-// generowana skryptem count_standards.py ze 134 rekordow. Fallback:
-// unikatowe normy kanonu z fabrics.ts (gdy plik jeszcze niewypelniony).
-const CATALOG_STATS = STATS_RAW as { standardsCovered: number | null };
 const BASE_URL = 'https://ariteks.pl';
+const RAW_STANDARD_DESIGNATIONS = 75;
+const PRODUCT_STANDARD_REFERENCES = 3058;
 const PAGE = {
   eyebrow: { pl: 'Ariteks · Katalog', en: 'Ariteks · Catalogue' },
   title: {
@@ -28,8 +25,14 @@ const PAGE = {
   stats: {
     fabrics: { pl: 'tkanin w katalogu', en: 'fabrics in the catalogue' },
     families: { pl: 'rodzin produktowych', en: 'product families' },
-    norms: { pl: 'norm i standardów', en: 'standards covered' },
-    docs: { pl: 'kart i certyfikatów PDF', en: 'data sheets & certificates' },
+    designations: {
+      pl: 'oznaczeń norm i metod',
+      en: 'standard & method designations',
+    },
+    references: {
+      pl: 'powiązań parametrów z normami',
+      en: 'parameter-to-standard references',
+    },
   },
 } as const;
 
@@ -74,19 +77,17 @@ export default async function FabricsPage({
   setRequestLocale(locale);
   const loc = locale as Locale;
 
-  const docsCount = FABRICS.reduce(
-    (n, f) => n + f.dataSheets.length + f.certificates.length,
-    0
-  );
-  const normsCount =
-    CATALOG_STATS.standardsCovered ??
-    new Set(FABRICS.flatMap((f) => f.norms)).size;
-
   const stats: Array<[string, string]> = [
-    [String(FABRICS.length), PAGE.stats.fabrics[loc]],
-    [String(FABRIC_FAMILIES.length), PAGE.stats.families[loc]],
-    [String(normsCount), PAGE.stats.norms[loc]],
-    [String(docsCount), PAGE.stats.docs[loc]],
+      [String(FABRICS.length), PAGE.stats.fabrics[loc]],
+      [String(FABRIC_FAMILIES.length), PAGE.stats.families[loc]],
+      [
+        String(RAW_STANDARD_DESIGNATIONS),
+        PAGE.stats.designations[loc],
+      ],
+      [
+        loc === 'pl' ? '3 058' : '3,058',
+        PAGE.stats.references[loc],
+      ],
   ];
 
   return (

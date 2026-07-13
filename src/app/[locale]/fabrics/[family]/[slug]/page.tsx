@@ -186,7 +186,7 @@ const T = {
   variants: { pl: 'Inne warianty rodziny', en: 'Other variants in this family' },
   openDoc: { pl: 'Otwórz', en: 'Open' },
 } as const;
-
+const BASE_URL = 'https://ariteks.pl';
 // ------------------------------- SSG / SEO --------------------------------
 
 export function generateStaticParams() {
@@ -198,14 +198,36 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: string; slug: string }>;
+  params: Promise<{
+    locale: string;
+    family: string;
+    slug: string;
+  }>;
 }): Promise<Metadata> {
-  const { locale, slug } = await params;
+  const { locale, family, slug } = await params;
+  const loc = locale as Locale;
+
   const f = getFabricBySlug(slug);
-  if (!f) return {};
+
+  if (!f || f.subFamily !== family) {
+    return {};
+  }
+
+  const plUrl = `${BASE_URL}/fabrics/${family}/${slug}`;
+  const enUrl = `${BASE_URL}/en/fabrics/${family}/${slug}`;
+  const canonical = loc === 'en' ? enUrl : plUrl;
+
   return {
     title: `${f.name} — ${f.specLine || f.titleDescriptor}`.slice(0, 70),
     description: `${f.titleDescriptor}. ${f.specLine}`.slice(0, 160),
+    alternates: {
+      canonical,
+      languages: {
+        pl: plUrl,
+        en: enUrl,
+        'x-default': plUrl,
+      },
+    },
   };
 }
 

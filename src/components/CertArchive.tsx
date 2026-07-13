@@ -5,7 +5,7 @@ import type { CertTarget } from '@/content/certificates';
 
 /**
  * Rozwijacz starszych roczników certyfikatu.
- * Domyslnie zwiniety — po klik pokazuje liste lat jako linki (nowa karta).
+ * Domyślnie zwinięty — po kliknięciu pokazuje listę lat jako linki.
  */
 export default function CertArchive({
   archive,
@@ -16,38 +16,43 @@ export default function CertArchive({
 }) {
   const [open, setOpen] = useState(false);
 
-  if (archive.length === 0) return null;
+  if (archive.length === 0) {
+    return null;
+  }
 
   return (
-    <div className="mt-4 border-t border-carbon-100 pt-3">
+    <div className="border-t border-carbon-100 pt-3">
       <button
         type="button"
-        onClick={() => setOpen((v) => !v)}
+        onClick={() => setOpen((value) => !value)}
         aria-expanded={open}
-        className="flex w-full items-center justify-between font-mono text-[11px] uppercase tracking-wider text-steel transition-colors hover:text-red"
+        className="flex min-h-10 w-full items-center justify-between gap-4 text-left font-mono text-[10px] uppercase leading-relaxed tracking-wider text-steel transition-colors hover:text-red"
       >
-        <span>
+        <span className="min-w-0">
           {toggleLabel} ({archive.length})
         </span>
+
         <span
-          className={`transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
           aria-hidden
+          className={`flex h-6 w-6 shrink-0 items-center justify-center transition-transform duration-200 ${
+            open ? 'rotate-180' : ''
+          }`}
         >
           &#8964;
         </span>
       </button>
 
       {open && (
-        <ul className="mt-3 flex flex-wrap gap-x-3 gap-y-2">
-          {archive.map((t, i) => (
-            <li key={i}>
+        <ul className="grid grid-cols-3 gap-2 pt-3">
+          {archive.map((target) => (
+            <li key={`${target.year ?? 'unknown'}-${target.url}`}>
               <a
-                href={t.url}
+                href={target.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block rounded border border-carbon-100 px-2.5 py-1 font-mono text-xs text-ink transition-colors hover:border-red hover:text-red"
+                className="flex min-h-8 w-full items-center justify-center rounded border border-carbon-100 px-2 py-1 text-center font-mono text-xs text-ink transition-colors hover:border-red hover:text-red"
               >
-                {t.year ?? '—'}
+                {target.year ?? '—'}
               </a>
             </li>
           ))}
