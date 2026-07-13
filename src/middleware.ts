@@ -5,7 +5,8 @@
 // jeszcze jezyka jawnie — brak ciasteczka NEXT_LOCALE):
 //   1. polski PIERWSZY w Accept-Language        -> PL  (korzen "/")
 //   2. polski obecny, ale NIE pierwszy          -> EN  ("/en")
-//   3. polskiego BRAK                            -> EN  ("/en")
+//   3. brak naglowka Accept-Language             -> PL  (korzen "/")
+//   4. naglowek jest, ale polskiego w nim BRAK    -> EN  ("/en")
 // Regula 1 jest niestandardowa (domyslny detektor next-intl wybralby PL,
 // gdyby polski byl gdziekolwiek na liscie) — dlatego liczymy sami.
 //
@@ -22,7 +23,7 @@ const intlMiddleware = createMiddleware(routing);
 // Czy w Accept-Language polski jest PIERWSZYM preferowanym jezykiem?
 // Parsujemy naglowek: "pl-PL,pl;q=0.9,en;q=0.8" -> lista wg malejacego q.
 function polishIsFirst(acceptLanguage: string | null): boolean {
-  if (!acceptLanguage) return false;
+  if (!acceptLanguage) return true;
   const langs = acceptLanguage
     .split(',')
     .map((part) => {
