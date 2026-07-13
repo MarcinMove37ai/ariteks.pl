@@ -19,8 +19,7 @@ import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Menu, X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
-import { openRfq } from '../RfqModal';
+import { Link, usePathname } from '@/i18n/routing';
 import LangSwitch from './LangSwitch';
 
 type NavItem = { href: string; label: string };
@@ -35,12 +34,34 @@ const OVERLAY_BG: React.CSSProperties = {
 
 export default function MobileNav({
   items,
-  rfqLabel,
+  catalogLabel,
 }: {
   items: NavItem[];
-  rfqLabel: string;
+  catalogLabel: string;
 }) {
-  const [open, setOpen] = useState(false);
+  // Stan otwarcia czytany SYNCHRONICZNIE przy montowaniu (inicjalizator
+  // useState) — po nawigacji jezykowej nakladka jest otwarta juz w pierwszym
+  // renderze, bez klatki "zamkniete->otwarte". Flagi NIE zdejmujemy w
+  // inicjalizatorze (StrictMode woła go 2x w dev) — sprzatamy w efekcie.
+  const [open, setOpen] = useState(
+    () =>
+      typeof window !== 'undefined' &&
+      sessionStorage.getItem('mobileNavOpen') === '1',
+  );
+
+  useEffect(() => {
+    sessionStorage.removeItem('mobileNavOpen');
+  }, []);
+
+  // Zamkniecie nakladki DOPIERO po zmianie trasy — nakladka przykrywa
+  // przejscie miedzy stronami (bez blysku starej strony). usePathname
+  // z i18n zwraca sciezke bez prefiksu jezyka, wiec zmiana samego
+  // jezyka NIE zamyka nakladki (wspolgra z flaga mobileNavOpen).
+  const pathname = usePathname();
+  useEffect(() => {
+    setOpen(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
   const t = useTranslations('common');
 
   useEffect(() => {
@@ -103,23 +124,33 @@ export default function MobileNav({
                 <Link
                   key={item.href}
                   href={item.href}
-                  onClick={() => setOpen(false)}
+                  onClick={() => {
+                    // kotwice i link do biezacej strony: trasa sie nie
+                    // zmieni, wiec zamykamy od razu; resztę zamknie
+                    // efekt po zmianie pathname
+                    if (
+                      item.href.startsWith('/#') ||
+                      item.href.startsWith('#') ||
+                      item.href === pathname
+                    ) {
+                      setOpen(false);
+                    }
+                  }}
                   className="border-b border-carbon-700 py-3 font-display text-2xl font-bold text-white transition-colors hover:text-red-400 sm:py-4 sm:text-3xl"
                 >
                   {item.label}
                 </Link>
               ))}
 
-              <button
-                type="button"
+              <Link
+                href="/fabrics"
                 onClick={() => {
-                  setOpen(false);
-                  openRfq();
+                  if (pathname === '/fabrics') setOpen(false);
                 }}
-                className="mt-6 flex w-full items-center justify-center rounded bg-red-600 px-6 py-4 text-base font-semibold text-white transition-colors hover:bg-red-500"
+                className="mt-6 flex w-full items-center justify-center rounded bg-red-600 px-6 py-4 text-base font-semibold text-white transition-colors hover:bg-carbon-900"
               >
-                {rfqLabel}
-              </button>
+                {catalogLabel}
+              </Link>
             </div>
             </nav>
           </div>,

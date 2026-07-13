@@ -33,8 +33,8 @@ export default async function HomePage({
     <main>
       {/* ==================== 1 · HERO ==================== */}
       <section className="mesh-dark relative overflow-hidden">
-        <div className="container-site grid items-center gap-12 py-20 sm:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-0">
-          <div className="lg:py-28">
+        <div className="container-site grid items-center gap-12 py-8 sm:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-0">
+          <div className="lg:pt-10 lg:pb-28">
             <p className="eyebrow eyebrow-dark">{t('hero.eyebrow')}</p>
 
             <h1 className="mt-6 font-display text-display-xl font-bold text-white text-balance">
@@ -61,10 +61,14 @@ export default async function HomePage({
             </div>
 
             <div className="mt-14 flex flex-wrap gap-2.5">
-              <span className="norm-badge norm-badge-dark">EN ISO 20471</span>
-              <span className="norm-badge norm-badge-dark">EN ISO 11612</span>
-              <span className="norm-badge norm-badge-dark">EN 61482</span>
-              <span className="norm-badge norm-badge-dark">OEKO-TEX</span>
+              {PARTNERS.map((partner) => (
+                <span
+                  key={partner.id}
+                  className="norm-badge norm-badge-dark"
+                >
+                  {partner.name}
+                </span>
+              ))}
             </div>
           </div>
 
@@ -102,7 +106,7 @@ export default async function HomePage({
       </section>
 
       {/* ==================== 3 · KWALIFIKACJA DOSTAWCY (kotwica #why) ==================== */}
-      <section id="why" className="scroll-mt-20 bg-paper">
+      <section id="why" className="scroll-mt-10 bg-paper">
         <div className="container-site py-20 sm:py-24">
           <h2 className="max-w-4xl font-display text-display-lg font-bold text-ink text-balance">
             {t('qualification.heading')}
@@ -137,7 +141,7 @@ export default async function HomePage({
       </section>
 
       {/* ==================== 4 · BRANZE (kotwica #industries) ==================== */}
-      <section id="industries" className="mesh-light scroll-mt-20 border-y border-steel-line">
+      <section id="industries" className="mesh-light scroll-mt-8 border-y border-steel-line">
         <div className="container-site py-20 sm:py-24">
           <h2 className="font-display text-display-lg font-bold text-ink">
             {t('industries.heading')}
@@ -153,7 +157,7 @@ export default async function HomePage({
       </section>
 
       {/* ==================== 5 · TECHNOLOGIE (kotwica #technologies) ==================== */}
-      <section id="technologies" className="mesh-dark scroll-mt-20">
+      <section id="technologies" className="mesh-dark scroll-mt-8">
         <div className="container-site py-20 sm:py-24">
           <p className="eyebrow eyebrow-dark">{t('technologies.eyebrow')}</p>
           <h2 className="mt-4 font-display text-display-lg font-bold text-white">
@@ -176,7 +180,7 @@ export default async function HomePage({
       </section>
 
       {/* ==================== 6 · LICENCJE I PARTNERZY (kotwica #partners) ==================== */}
-      <section id="partners" className="scroll-mt-20 bg-surface">
+      <section id="partners" className="scroll-mt-8 bg-surface">
         <div className="container-site py-20 sm:py-24">
           <h2 className="font-display text-display-lg font-bold text-ink">
             {t('partners.heading')}

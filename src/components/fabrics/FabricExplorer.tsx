@@ -321,12 +321,12 @@ function FacetSection({
       >
         <span className="shrink-0">{heading}</span>
         {!open && activeLabels.length > 0 && (
-          <span className="flex min-w-0 items-center gap-1.5 overflow-hidden font-normal normal-case tracking-normal">
+          <span className="flex min-w-0 flex-wrap items-center gap-1.5 font-normal normal-case tracking-normal">
             <span className="shrink-0 text-steel">{activeWord}:</span>
             {activeLabels.map((l) => (
               <span
                 key={l}
-                className="shrink-0 whitespace-nowrap rounded-sm bg-carbon-900 px-2 py-0.5 font-mono text-[10px] font-medium uppercase tracking-wider text-paper"
+                className="whitespace-nowrap rounded-sm bg-carbon-900 px-2 py-0.5 font-mono text-[10px] font-medium uppercase tracking-wider text-paper"
               >
                 {l}
               </span>
@@ -440,8 +440,6 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
     const fiberCounts = new Map<FabricFiber, number>();
     const weaveCounts = new Map<FabricWeaveType, number>();
     const propertyCounts = new Map<FabricProperty, number>();
-    const applicationCounts = new Map<ApplicationId, number>();
-    const familyCounts = new Map<string, number>();
 
     // Chipy pozostaja liczone z finalnego wyniku.
     for (const f of filtered) {
@@ -469,85 +467,13 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
       );
     }
 
-    // Aplikacje: wszystkie pozostale filtry, ale bez aktualnej aplikacji.
-    const applicationBase = FABRICS.filter((f) =>
-      matches(
-        f,
-        haystacks.get(f.slug) ?? [],
-        queryWords,
-        "",
-        family,
-        props,
-        norms,
-        fibers,
-        weaves,
-      ),
-    );
-
-    for (const f of applicationBase) {
-      const applications =
-        getApplicationsForFabric(f.slug);
-
-      if (!applications) continue;
-
-      applicationCounts.set(
-        applications.primary,
-        (applicationCounts.get(
-          applications.primary,
-        ) ?? 0) + 1,
-      );
-
-      if (applications.secondary) {
-        applicationCounts.set(
-          applications.secondary,
-          (applicationCounts.get(
-            applications.secondary,
-          ) ?? 0) + 1,
-        );
-      }
-    }
-
-    // Rodziny: wszystkie pozostale filtry, ale bez aktualnej rodziny.
-    const familyBase = FABRICS.filter((f) =>
-      matches(
-        f,
-        haystacks.get(f.slug) ?? [],
-        queryWords,
-        applicationId,
-        "",
-        props,
-        norms,
-        fibers,
-        weaves,
-      ),
-    );
-
-    for (const f of familyBase) {
-      familyCounts.set(
-        f.subFamily,
-        (familyCounts.get(f.subFamily) ?? 0) + 1,
-      );
-    }
-
     return {
       norms: normCounts,
       fibers: fiberCounts,
       weaves: weaveCounts,
       props: propertyCounts,
-      apps: applicationCounts,
-      fams: familyCounts,
     };
-  }, [
-    filtered,
-    haystacks,
-    queryWords,
-    applicationId,
-    family,
-    props,
-    norms,
-    fibers,
-    weaves,
-  ]);
+  }, [filtered]);
 
   // liczba aktywnych FILTROW (bez szukajki — ta ma wlasny wskaznik w polu)
   const activeCount =
@@ -655,14 +581,9 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
 
   const pillsRow =
     pills.length === 0 ? null : (
-      <div className="flex flex-wrap items-center gap-y-2">
-        {pills.map((p, i) => (
+      <div className="flex flex-wrap items-center gap-2">
+        {pills.map((p) => (
           <span key={p.key} className="flex items-center">
-            {i > 0 && (
-              <span className="mx-1.5 font-mono text-xs text-steel" aria-hidden>
-                +
-              </span>
-            )}
             <button
               type="button"
               onClick={p.onRemove}
@@ -1044,6 +965,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                 collapsible
                 open={openSection === "norms"}
                 onToggle={() => toggleSection("norms")}
+                activeWord={UI.activeWord[locale]}
+                activeLabels={activeNormLabels}
               >
                 {normChips}
               </FacetSection>
@@ -1053,6 +976,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                 collapsible
                 open={openSection === "fibers"}
                 onToggle={() => toggleSection("fibers")}
+                activeWord={UI.activeWord[locale]}
+                activeLabels={activeFiberLabels}
               >
                 {fiberChips}
               </FacetSection>
@@ -1062,6 +987,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                 collapsible
                 open={openSection === "weaves"}
                 onToggle={() => toggleSection("weaves")}
+                activeWord={UI.activeWord[locale]}
+                activeLabels={activeWeaveLabels}
               >
                 {weaveChips}
               </FacetSection>
@@ -1071,6 +998,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                 collapsible
                 open={openSection === "props"}
                 onToggle={() => toggleSection("props")}
+                activeWord={UI.activeWord[locale]}
+                activeLabels={activePropLabels}
               >
                 {propChips}
               </FacetSection>

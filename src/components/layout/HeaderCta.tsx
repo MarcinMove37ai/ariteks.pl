@@ -8,9 +8,9 @@
 import { Link } from '@/i18n/routing';
 
 const BTN =
-  'hidden items-center rounded bg-carbon-900 px-5 py-2.5 text-sm ' +
+  'hidden items-center rounded bg-red-600 px-5 py-2.5 text-sm ' +
   'font-semibold text-white transition-colors duration-200 ' +
-  'hover:bg-red-600 sm:inline-flex';
+  'hover:bg-carbon-900 sm:inline-flex';
 
 export default function HeaderCta({
   catalogLabel,

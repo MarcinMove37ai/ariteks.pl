@@ -49,12 +49,20 @@ export default function LangSwitch({ variant = 'desktop' }: { variant?: Variant 
 
   const switchTo = () => {
     document.cookie = `NEXT_LOCALE=${target};path=/;max-age=31536000;samesite=lax`;
+    // zmiana jezyka wewnatrz mobilnej nakladki nie moze jej zamykac —
+    // nawigacja remontuje MobileNav, wiec zostawiamy flage przetrwania
+    if (variant === 'mobile') {
+      sessionStorage.setItem('mobileNavOpen', '1');
+    }
 
     const targetPathname =
       getLocalizedApplicationPath(pathname, target);
 
     router.replace(targetPathname, {
       locale: target,
+      // zmiana jezyka NIE zmienia pozycji na stronie — zostajemy
+      // na tej samej wysokosci scrolla
+      scroll: false,
     });
   };
 

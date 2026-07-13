@@ -368,7 +368,7 @@ export default async function FabricPage({
       <section className="bg-surface">
         <div className="container-site grid gap-10 py-16 sm:py-20 lg:grid-cols-[1.15fr_0.85fr] lg:gap-14">
           {/* Opis */}
-          <div>
+          <div className="min-w-0">
             <h2 className="font-display text-display-md font-bold text-ink">
               {T.description[loc]}
             </h2>
@@ -403,7 +403,7 @@ export default async function FabricPage({
           </div>
 
           {/* Panel boczny: specyfikacja + dokumenty */}
-          <aside className="space-y-6">
+          <aside className="min-w-0 space-y-6">
             <div className="rounded-lg border border-steel-line bg-paper p-6 shadow-card">
               <p className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-steel">
                 {T.quickFacts[loc]}
@@ -522,8 +522,8 @@ export default async function FabricPage({
               </span>
             </h2>
 
-            <div className="mt-8 overflow-hidden rounded-lg bg-white shadow-card">
-              <table className="w-full text-left text-sm">
+            <div className="mt-8 overflow-x-auto rounded-lg bg-white shadow-card">
+              <table className="w-full min-w-[560px] text-left text-sm">
                 <thead>
                   <tr className="border-b border-carbon-100 bg-paper">
                     <th className="px-5 py-3 font-mono text-[11px] uppercase tracking-wider text-steel">
@@ -579,8 +579,8 @@ export default async function FabricPage({
             )}
 
             {colors.length > 0 && (
-              <div className="mt-8 overflow-hidden rounded-lg bg-white shadow-card">
-                <table className="w-full text-left text-sm">
+              <div className="mt-8 overflow-x-auto rounded-lg bg-white shadow-card">
+                <table className="w-full min-w-[560px] text-left text-sm">
                   <thead>
                     <tr className="border-b border-carbon-100 bg-paper">
                       {[

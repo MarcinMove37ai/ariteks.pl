@@ -52,7 +52,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="mesh-deep border-t-2 border-red-500 text-carbon-300">
+    <footer id="contact" className="scroll-mt-10 mesh-deep border-t-2 border-red-500 text-carbon-300">
       {/* ============ PIETRO 1: MARKA / NAWIGACJA / KONTAKTY ============ */}
       <div className={`container-site ${GRID} py-16 sm:py-20`}>
         <div>
@@ -70,28 +70,8 @@ export default function Footer() {
           </p>
         </div>
 
-        <nav aria-label="Footer">
-          <ColumnHeading>{t('navHeading')}</ColumnHeading>
-          <ul className="mt-6 space-y-3.5 text-[15px]">
-            {FOOTER_NAV.map((item) => (
-              <li key={item.key}>
-                <Link
-                  href={item.href}
-                  className="transition-colors duration-150 hover:text-white"
-                >
-                  {nav(item.key)}
-                </Link>
-              </li>
-            ))}
-            <li>
-              <RfqButton className="transition-colors duration-150 hover:text-white">
-                {nav('rfq')}
-              </RfqButton>
-            </li>
-          </ul>
-        </nav>
-
-        <div>
+        {/* mobile: subtelna linia miedzy marka a Representative */}
+        <div className="border-t border-carbon-800 pt-8 lg:border-none lg:pt-0">
           <ColumnHeading>{t('repHeading')}</ColumnHeading>
           <div className="mt-6 space-y-3.5 text-[15px]">
             <p className="font-medium text-white">Aquatrek Solutions P.S.A.</p>
@@ -119,7 +99,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div>
+        {/* mobile: subtelna linia miedzy Representative a Manufacturer */}
+        <div className="border-t border-carbon-800 pt-8 lg:border-none lg:pt-0">
           <ColumnHeading>{t('hqHeading')}</ColumnHeading>
           <div className="mt-6 space-y-3.5 text-[15px]">
             <p className="font-medium text-white">Ariteks A.Ş.</p>
@@ -140,6 +121,31 @@ export default function Footer() {
             </p>
           </div>
         </div>
+
+        {/* mobile: subtelna linia miedzy Manufacturer a Navigation */}
+        <nav
+          aria-label="Footer"
+          className="border-t border-carbon-800 pt-8 lg:border-none lg:pt-0"
+        >
+          <ColumnHeading>{t('navHeading')}</ColumnHeading>
+          <ul className="mt-6 space-y-3.5 text-[15px]">
+            {FOOTER_NAV.map((item) => (
+              <li key={item.key}>
+                <Link
+                  href={item.href}
+                  className="transition-colors duration-150 hover:text-white"
+                >
+                  {nav(item.key)}
+                </Link>
+              </li>
+            ))}
+            <li>
+              <RfqButton className="transition-colors duration-150 hover:text-white">
+                {nav('rfq')}
+              </RfqButton>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       {/* ============ PIETRO 2: ZNAKI TOWAROWE (ta sama siatka) ============ */}

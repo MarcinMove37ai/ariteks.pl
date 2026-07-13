@@ -35,10 +35,14 @@ export default function Header() {
     label: t(key),
   }));
 
-  // menu mobilne dostaje dodatkowo pozycje Katalog (desktop ma przycisk)
+  // menu mobilne: katalog NIE jest pozycja listy — ma wlasny czerwony
+  // przycisk na dole nakladki (MobileNav.catalogLabel);
+  // + Kontakt -> kotwica stopki BIEZACEJ strony (mobile only — na desktopie
+  // stopka jest na wyciagniecie scrolla, nav i tak ciasny)
+  const CONTACT_LABEL = { pl: 'Kontakt', en: 'Contact' } as const;
   const mobileItems = [
     ...items,
-    { href: '/fabrics', label: catalogueLabel },
+    { href: '#contact', label: CONTACT_LABEL[locale] ?? CONTACT_LABEL.en },
   ];
 
   return (
@@ -70,7 +74,7 @@ export default function Header() {
           {/* Stałe CTA prowadzące do katalogu produktów */}
           <HeaderCta catalogLabel={catalogueLabel} />
 
-          <MobileNav items={mobileItems} rfqLabel={t('rfq')} />
+          <MobileNav items={mobileItems} catalogLabel={catalogueLabel} />
         </div>
       </div>
     </header>
