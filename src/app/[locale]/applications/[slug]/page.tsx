@@ -18,7 +18,7 @@ import {
   getApplicationBySlug,
 } from '@/content/applications';
 import { getApplicationMarketingContent } from '@/content/application-page-content';
-
+const BASE_URL = 'https://ariteks.pl';
 // Statyczne generowanie: wszystkie branze x wszystkie jezyki
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -32,11 +32,26 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const app = getApplicationBySlug(locale as Locale, slug);
+  const loc = locale as Locale;
+
+  const app = getApplicationBySlug(loc, slug);
   if (!app) return {};
+
+  const plUrl = `${BASE_URL}/applications/${app.slug.pl}`;
+  const enUrl = `${BASE_URL}/en/applications/${app.slug.en}`;
+  const canonical = loc === 'en' ? enUrl : plUrl;
+
   return {
-    title: app.name[locale as Locale],
-    description: app.short[locale as Locale],
+    title: app.name[loc],
+    description: app.short[loc],
+    alternates: {
+      canonical,
+      languages: {
+        pl: plUrl,
+        en: enUrl,
+        'x-default': plUrl,
+      },
+    },
   };
 }
 

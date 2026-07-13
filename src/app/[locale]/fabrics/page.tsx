@@ -14,7 +14,7 @@ import STATS_RAW from '@/content/catalog-stats.json';
 // generowana skryptem count_standards.py ze 134 rekordow. Fallback:
 // unikatowe normy kanonu z fabrics.ts (gdy plik jeszcze niewypelniony).
 const CATALOG_STATS = STATS_RAW as { standardsCovered: number | null };
-
+const BASE_URL = 'https://ariteks.pl';
 const PAGE = {
   eyebrow: { pl: 'Ariteks · Katalog', en: 'Ariteks · Catalogue' },
   title: {
@@ -43,12 +43,25 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+
+  const plUrl = `${BASE_URL}/fabrics`;
+  const enUrl = `${BASE_URL}/en/fabrics`;
+  const canonical = locale === 'en' ? enUrl : plUrl;
+
   return {
     title: PAGE.title[locale],
     description:
       locale === 'pl'
         ? `Katalog ${FABRICS.length} tkanin technicznych Ariteks: hi-vis, trudnopalne, antystatyczne, aramidowe. Filtrowanie po właściwościach, normach EN i gramaturze.`
         : `Catalogue of ${FABRICS.length} Ariteks technical fabrics: hi-vis, flame-retardant, antistatic, aramid. Filter by properties, EN standards and weight.`,
+    alternates: {
+      canonical,
+      languages: {
+        pl: plUrl,
+        en: enUrl,
+        'x-default': plUrl,
+      },
+    },
   };
 }
 

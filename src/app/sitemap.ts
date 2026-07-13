@@ -37,7 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes: RoutePair[] = [
     { plPath: '', enPath: '' },
     { plPath: '/about', enPath: '/about' },
-    { plPath: '/applications', enPath: '/applications' },
     { plPath: '/fabrics', enPath: '/fabrics' },
     { plPath: '/certificates', enPath: '/certificates' },
 

@@ -169,6 +169,7 @@ const T = {
   dataSheet: { pl: 'Karta techniczna (PDF)', en: 'Data sheet (PDF)' },
 
   certificates: { pl: 'Certyfikaty i raporty z badań', en: 'Certificates & test reports' },
+  functions: { pl: 'Normy i funkcje', en: 'Standards & functions' },
   care: { pl: 'Konserwacja', en: 'Care instructions' },
   parameters: { pl: 'Parametry techniczne', en: 'Technical parameters' },
   colParam: { pl: 'Parametr', en: 'Parameter' },
@@ -283,9 +284,21 @@ export default async function FabricPage({
     finish: colors.some((c) => cleanFinish(c.finish)),
     article: colors.some((c) => (c.article_number || '').trim()),
   };
-  const appImages = (groups.application_images ?? []).filter((i) => i.public_url);
-  const fabricPhotos = (groups.fabric_photos ?? []).filter((i) => i.public_url);
-  const careIcons = (groups.care_instructions ?? []).filter((i) => i.public_url);
+  const appImages = (groups.application_images ?? []).filter(
+    (i) => i.public_url
+  );
+
+  const fabricPhotos = (groups.fabric_photos ?? []).filter(
+    (i) => i.public_url
+  );
+
+  const functionIcons = (groups.function_icons ?? []).filter(
+    (i) => i.public_url
+  );
+
+  const careIcons = (groups.care_instructions ?? []).filter(
+    (i) => i.public_url
+  );
   const partnerLogos = (groups.technology_partners ?? []).filter(
     (i) => i.public_url
   );
@@ -379,6 +392,44 @@ export default async function FabricPage({
                 </p>
               ))}
             </div>
+            {/* Graficzne ikony norm i funkcji produktu */}
+            {functionIcons.length > 0 && (
+              <div className="mt-10 border-t border-steel-line pt-6">
+                <p className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-steel">
+                  {T.functions[loc]}
+                </p>
+
+                <div className="mt-4 flex flex-wrap gap-4">
+                  {functionIcons.map((icon, i) => {
+                    const label = icon.alt || icon.title || '';
+
+                    return (
+                      <figure
+                        key={`${icon.public_url}-${i}`}
+                        className="w-28"
+                      >
+                        <div className="flex h-24 w-28 items-center justify-center rounded border border-steel-line bg-white p-2 shadow-card">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={icon.public_url!}
+                            alt={label}
+                            title={label}
+                            loading="lazy"
+                            className="max-h-full max-w-full object-contain"
+                          />
+                        </div>
+
+                        {label && (
+                          <figcaption className="mt-2 text-center font-mono text-[10px] leading-snug text-steel">
+                            {label}
+                          </figcaption>
+                        )}
+                      </figure>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
 
             {/* Piktogramy konserwacji — zawsze 5 */}
             {careIcons.length > 0 && (

@@ -24,7 +24,7 @@ const ASSETS = ASSETS_RAW as Record<
   string,
   { hero?: string; heroWidth?: number; heroHeight?: number; pdf?: string }
 >;
-
+const BASE_URL = 'https://ariteks.pl';
 const T = {
   catalogue: { pl: 'Katalog', en: 'Catalogue' },
   variants: { pl: 'Warianty w rodzinie', en: 'Variants in this family' },
@@ -48,15 +48,30 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale, family } = await params;
   const fam = getFamilyBySlug(family);
+
   if (!fam) return {};
+
   const loc = locale as Locale;
   const count = getFabricsBySubFamily(family).length;
+
+  const plUrl = `${BASE_URL}/fabrics/${family}`;
+  const enUrl = `${BASE_URL}/en/fabrics/${family}`;
+  const canonical = loc === 'en' ? enUrl : plUrl;
+
   return {
     title: `${fam.name} — ${fam.descriptor[loc]}`.slice(0, 70),
     description:
       loc === 'pl'
         ? `${fam.name}: ${fam.descriptor.pl}. ${count} wariantów tkanin w linii.`
         : `${fam.name}: ${fam.descriptor.en}. ${count} fabric variants in the line.`,
+    alternates: {
+      canonical,
+      languages: {
+        pl: plUrl,
+        en: enUrl,
+        'x-default': plUrl,
+      },
+    },
   };
 }
 
