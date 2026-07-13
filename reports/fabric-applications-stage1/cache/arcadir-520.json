@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:19:01.685Z",
+    "requestId": "req_011CcxwU2kdabwDZk3y7GWeJ",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6019,
+      "outputTokens": 151
+    }
+  },
+  "product": {
+    "slug": "arcadir-520",
+    "name": "ArCadır 520",
+    "family": "ArCad",
+    "subFamily": "arcadir",
+    "familyDescriptorPl": "Bawełniana tkanina namiotowa",
+    "familyDescriptorEn": "Cotton tent fabric",
+    "categoryId": "",
+    "categoryNamePl": "",
+    "categoryNameEn": "",
+    "categorySourceGroup": "",
+    "weight": "520 g/m²",
+    "composition": "100% CO",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "100% Cotton Disaster Tent Fabric, 520 gr/m'2",
+    "specLine": "520 g/m², 100% Cotton, Flame Retardant, Antifungal, Waterproof tent fabric. ArÇadir 520",
+    "properties": [
+      "fr",
+      "waterproof"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "is %100 cotton flame retardant tent fabric. Due to cotton content its ecological choise on tent production.",
+      "It is used as military and disaster tent application. The fabric is tested for waterproof and antifungal functions.",
+      "100% Cotton Disaster Tent Fabric, 520 g/m²",
+      "100% Cotton Disaster Tent Fabric, 520 gr/m'2",
+      "520 g/m², 100% Cotton, Flame Retardant, Antifungal, Waterproof tent fabric. ArÇadir 520"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Cotton (CO) | EN ISO 2076",
+      "Yarn | Warp:8/2Ne; Weft:8/2Ne | EN ISO 2060",
+      "Weight | 520 ±20 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>2000N; Weft>1100N | EN ISO 13934-1",
+      "Tear Strength | Warp>60N; Weft>110N | EN ISO 13937-4",
+      "pH | 4,0-9,0 | TS EN ISO 3071",
+      "Sulfur Amount | None | TS 3596:1981 /Madde 2.3.5",
+      "Waterproof | >450mm H20 | TS 257 En 20811",
+      "Waterproof after 72 hour in Water | >450mm H20 | TS 257 En 20811",
+      "Antifungal | Yes | ISO 11721-1",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Miltary Tents",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Disaster Tent",
+      "Military Tent",
+      "Miltary Tent",
+      "Refugee Canvas Tent"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Dirt Repellent",
+      "Antibacterial",
+      "Flame Retardant",
+      "Waterproof",
+      ">> ArÇadir 520 Data Sheet",
+      "data_sheet",
+      "TS 3596 ; ISO 3081 ; ISO 13934-1 ; ISO 13937-4 ; TS EN ISO 3071 ; TS 3596 ; TS 257 EN 20811",
+      "certificate_or_test_report",
+      "ISO 6940 ; ISO 6941",
+      "ISO 11721-1"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/arcadir-520/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arcadir-520",
+    "matches": [
+      {
+        "applicationId": "military",
+        "confidence": 97,
+        "evidence": [
+          "It is used as military and disaster tent application.",
+          "Application | Miltary Tents",
+          "applicationImageLabels: Military Tent, Miltary Tent"
+        ],
+        "rationale": "Product explicitly states military tent application in description, technical parameters, and image labels."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arcadir-520",
+    "status": "matched",
+    "acceptedMatches": [
+      {
+        "applicationId": "military",
+        "confidence": 97,
+        "evidence": [
+          "It is used as military and disaster tent application.",
+          "Application | Miltary Tents",
+          "applicationImageLabels: Military Tent, Miltary Tent"
+        ],
+        "rationale": "Product explicitly states military tent application in description, technical parameters, and image labels."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "",
+    "needsReview": false
+  }
+}

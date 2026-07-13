@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:15.004Z",
+    "requestId": "req_011CcxyEcVEzT7oYtk3MUjmn",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9333,
+      "outputTokens": 389
+    }
+  },
+  "product": {
+    "slug": "arpower-knit",
+    "name": "ArPower Knit",
+    "family": "ArPower",
+    "subFamily": "arpower-knit",
+    "familyDescriptorPl": "Dzianiny elastyczne wysokiej wytrzymałości",
+    "familyDescriptorEn": "High-strength elastic knits",
+    "categoryId": "medical-elastic",
+    "categoryNamePl": "Elastyczne medyczne",
+    "categoryNameEn": "Elastic medical fabrics",
+    "categorySourceGroup": "Ultra elastic medical fabrics for orthopedical,corset and face mask applications.",
+    "weight": "400 g/m²",
+    "composition": "40% PES 30% CV 22% PA6 8% EL",
+    "weave": "Interlock",
+    "titleDescriptor": "Ultra Elastic Antibacterial Water Repellent Knit Fabric",
+    "specLine": "400 g/m², 45% Polyester 35% Viscose 22% Polyamide 8% Elastane, Water Repellent, Antibacterial, Elastic Knit Fabric",
+    "properties": [
+      "water-repellent",
+      "stretch",
+      "antibacterial"
+    ],
+    "norms": [
+      "EN 14683",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArPower Knit is 40% Polyester 30% Viscose 22% Polyamide 8% Elastane, 400 g/m² ultra elastic knit fabric for corset applications.",
+      "It is antibacterial and resistant up to 20 wash.",
+      "ArPower Knit is water and oil repellent, can be used during orthopedical treatments.",
+      "2 layer of this fabric can be easily used to produce certified EN 14683 face masks.",
+      "Ultra Elastic Antibacterial Water Repellent Knit Fabric",
+      "400 g/m², 45% Polyester 35% Viscose 22% Polyamide 8% Elastane, Water Repellent, Antibacterial, Elastic Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 40% Polyester (PES) 30% Viscose (CV) 22% Polyamide (PU) 8% Elastane (EL) | EN ISO 2076",
+      "Yarn | 28/1 Ne | EN ISO 2060",
+      "Weight | 400 ±10 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4.0- 6.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants | EN ISO 14362-1",
+      "Application | Medical Corset",
+      "Quality Management | Done | ISO 9001",
+      "Spray Test | ISO 5 | EN ISO 24920",
+      "Bacterial Filtration | Type IIR | EN 14683"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Water and Oil Repellent",
+      "Antibacterial",
+      "EN 14683",
+      ">> ArPower Knit Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Interlock",
+    "recordUrl": "/ariteks/fabrics/arpower-knit/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "medical",
+        "confidence": 97,
+        "evidence": [
+          "categorySourceGroup: Ultra elastic medical fabrics for orthopedical, corset and face mask applications.",
+          "for corset applications... can be used during orthopedical treatments",
+          "2 layer of this fabric can be easily used to produce certified EN 14683 face masks",
+          "Application | Medical Corset",
+          "norms: EN 14683",
+          "Bacterial Filtration | Type IIR | EN 14683"
+        ],
+        "rationale": "Explicitly designed and certified for medical corset and face mask applications with EN 14683 testing, directly matching the medical category."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arpower-knit",
+    "primary": {
+      "applicationId": "medical",
+      "confidence": 97,
+      "evidence": [
+        "categorySourceGroup: Ultra elastic medical fabrics for orthopedical, corset and face mask applications.",
+        "for corset applications... can be used during orthopedical treatments",
+        "2 layer of this fabric can be easily used to produce certified EN 14683 face masks",
+        "Application | Medical Corset",
+        "norms: EN 14683",
+        "Bacterial Filtration | Type IIR | EN 14683"
+      ],
+      "rationale": "Product is explicitly positioned for medical corset and face mask applications, tested to EN 14683, matching the medical category directly."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently supported secondary application is stated; stretch and antibacterial properties are part of the medical use itself, not a separate sector."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Stretch/antibacterial properties alone do not indicate athletic apparel use; no sport-specific claim exists."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arpower-knit",
+    "status": "resolved",
+    "primaryApplication": "medical",
+    "secondaryApplication": null,
+    "primaryConfidence": 97,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categorySourceGroup: Ultra elastic medical fabrics for orthopedical, corset and face mask applications.",
+      "for corset applications... can be used during orthopedical treatments",
+      "2 layer of this fabric can be easily used to produce certified EN 14683 face masks",
+      "Application | Medical Corset",
+      "norms: EN 14683",
+      "Bacterial Filtration | Type IIR | EN 14683"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Product is explicitly positioned for medical corset and face mask applications, tested to EN 14683, matching the medical category directly.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Stretch/antibacterial properties alone do not indicate athletic apparel use; no sport-specific claim exists."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

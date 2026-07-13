@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:01.809Z",
+    "requestId": "req_011CcxyDB13LdbLvokEbpedx",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 10036,
+      "outputTokens": 1026
+    }
+  },
+  "product": {
+    "slug": "ar3iplik-moda-pro",
+    "name": "Ar3İplik Moda Pro",
+    "family": "Ar3Iplik",
+    "subFamily": "arwowear-moda-pro-2",
+    "familyDescriptorPl": "Robocze modowe — stretch i polar, wielobrandowe",
+    "familyDescriptorEn": "Fashion workwear — stretch and fleece, multi-brand",
+    "categoryId": "fr-stretch-fleece",
+    "categoryNamePl": "Trudnopalne stretch i polar",
+    "categoryNameEn": "FR stretch & fleece",
+    "categorySourceGroup": "Inherent Flame Retardant Elasthane and Fleece Workwear Fabrics",
+    "weight": "300 g/m²",
+    "composition": "60% MAC 38% CO 2% CF",
+    "weave": "Fleece",
+    "titleDescriptor": "60% Modacrylic 38% Cotton 2% Carbon, Inherent Fleece Flame Retardant Antistatic Fabric",
+    "specLine": "300 g/m², 60% Modacrylic 38% Cotton 2% Carbon, Inherent Flame Retardant",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc",
+      "chemical",
+      "stretch"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 11612",
+      "EN 1149",
+      "EN 61482",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Antistatic Fleece Knit Fabric 60% modacrylic 38% cotton 2% carbon, inherent flame retardant antistatic fleece fabric. Ar3İplik Moda Pro fabric is used by oil and gas distribution drivers cloths. Chemical factories and cold zone flame retardant applications is another usage of the fabric.",
+      "It is resistant to very high sun level, with fastness level of 6 to 7.",
+      "Ar3Iplik Moda Pro are inherent flame retardant with EN 11612 certification.",
+      "Suitable for antistatic applications, certified for EN ISO 1149-5",
+      "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+      "EN 20471 certified.",
+      "60% Modacrylic 38% Cotton 2% Carbon, Inherent Fleece Flame Retardant Antistatic Fabric",
+      "300 g/m², 60% Modacrylic 38% Cotton 2% Carbon, Inherent Flame Retardant"
+    ],
+    "technicalParameters": [
+      "Fiber | 60% Modacrylic (MAC) 38% Cotton (CO) 2%Carbon (CF) | EN ISO 2076",
+      "Yarn | 40/2 Ne Combed | EN ISO 2060",
+      "Weight | 300 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1200 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 4.0-7.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Fleece",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471",
+      "Antistatic | Done | EN ISO 1149-5",
+      "Flame and Heat Protection | Done | EN ISO 11612",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 7 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [
+      "Flame Retardant Sweatshirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      "EN 1149",
+      "EN 11612",
+      "EN 61482",
+      ">> Ar3Iplik Moda Pro Data Sheet",
+      "data_sheet",
+      "EN ISO 11612",
+      "certificate_or_test_report",
+      "EN ISO 11612 Test Report",
+      "EN ISO 1149-5(1149-3)",
+      "EN ISO 1149-5(1149-3) Test Report"
+    ],
+    "structure": "Fleece",
+    "recordUrl": "/ariteks/fabrics/ar3iplik-moda-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 90,
+        "evidence": [
+          "properties: hi-vis",
+          "norms: EN ISO 20471",
+          "technicalParameters: High Visibility | Done | EN ISO 20471",
+          "functionIconLabels: EN 20471"
+        ],
+        "rationale": "The fabric is explicitly certified to EN ISO 20471 high-visibility standard and lists hi-vis as a core property, matching the explicit high-visibility apparel criteria."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "The product description explicitly states use for oil and gas distribution driver garments and carries certified electric-arc protection (EN 61482), directly matching the energy sector's inclusion of electric-arc protection and high-voltage/energy-distribution work."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "No explicit medical or healthcare use stated despite antistatic and chemical protection properties."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Fabric is inherent FR and antistatic, which could theoretically suit welding-adjacent industrial heat exposure, but no explicit welding, foundry or metal-processing use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ar3iplik-moda-pro",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 85,
+      "evidence": [
+        "properties: hi-vis",
+        "norms: EN ISO 20471",
+        "technicalParameters: High Visibility | Done | EN ISO 20471",
+        "functionIconLabels: EN 20471"
+      ],
+      "rationale": "The fabric is explicitly certified to EN ISO 20471 high-visibility standard and lists hi-vis as a core property, making certified warning apparel its most specific and directly supported end use."
+    },
+    "secondary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 65,
+      "evidence": [
+        "descriptions: 'used by oil and gas distribution drivers cloths. Chemical factories and cold zone flame retardant applications'",
+        "properties: fr, chemical, antistatic",
+        "norms: EN 13034, EN ISO 11612"
+      ],
+      "rationale": "The product is explicitly described as general industrial protective workwear for oil & gas drivers and chemical factory use, matching general workwear/industrial apparel independent of the hi-vis certification."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Arc protection and oil/gas mention exist, but no explicit electrical utility or high-voltage installation use is stated; antistatic/arc alone is insufficient per rules."
+      },
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit welding, foundry or metal-processing use stated despite FR and antistatic properties."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "No explicit medical or healthcare use stated."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ar3iplik-moda-pro",
+    "status": "resolved-review",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 85,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "properties: hi-vis",
+      "norms: EN ISO 20471",
+      "technicalParameters: High Visibility | Done | EN ISO 20471",
+      "functionIconLabels: EN 20471"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly certified to EN ISO 20471 high-visibility standard and lists hi-vis as a core property, making certified warning apparel its most specific and directly supported end use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Arc protection and oil/gas mention exist, but no explicit electrical utility or high-voltage installation use is stated; antistatic/arc alone is insufficient per rules."
+      },
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit welding, foundry or metal-processing use stated despite FR and antistatic properties."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "No explicit medical or healthcare use stated."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

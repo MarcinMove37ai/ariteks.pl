@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:13.480Z",
+    "requestId": "req_011Ccxy9xca8Uox4bvmj6Rq3",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9934,
+      "outputTokens": 529
+    }
+  },
+  "product": {
+    "slug": "arwowear-t20-flame-arc-pro",
+    "name": "ArWoWear T20 Flame Arc Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-flame-arc-pro",
+    "familyDescriptorPl": "Trudnopalne z ochroną przed łukiem elektrycznym",
+    "familyDescriptorEn": "FR with electric-arc protection",
+    "categoryId": "fr-antistatic",
+    "categoryNamePl": "Trudnopalne antystatyczne",
+    "categoryNameEn": "FR antistatic workwear",
+    "categorySourceGroup": "Flame Retardant, Antistatic, Vat Dyed, Workwear Fabrics Resistant up to 100 Wash",
+    "weight": "260 g/m²",
+    "composition": "79% CO 20% PES 1% CF",
+    "weave": "3/1S Twill",
+    "titleDescriptor": "79% Cotton 20% Polyester 1% Carbon Twill, Flame Retardant, Antisatic Fabric, 260 gr/m'2",
+    "specLine": "260 g/m², 79% Cotton 20% Polyester 1% Carbon, VAT Dyed, Flame Retardant (100 Wash Resistant), Antistatic, 3/1S Twill Fabric",
+    "properties": [
+      "fr",
+      "antistatic",
+      "arc",
+      "molten-metal",
+      "wash-100"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 1149",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T20 Flame Arc Pro is light weight 260 gr/m', 79% Cotton %20 Polyester 1% Carbon, vat dyed, flame retardant, antistatic workwear fabric.",
+      "It has flame retardant function with EN ISO 11612 and EN ISO 11611 certification.",
+      "Due to carbon fibers used on the back side of the fabric it has antistatic certification. (EN 1149-5)",
+      "Protection against thermal hazards of electrical arc. (EN 61482-1-2)",
+      "It is durable up to 100 washing.",
+      "79% Cotton 20% Polyester 1% Carbon Twill, Flame Retardant, Antisatic Fabric, 260 gr/m'2",
+      "260 g/m², 79% Cotton 20% Polyester 1% Carbon, VAT Dyed, Flame Retardant (100 Wash Resistant), Antistatic, 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 79% Cotton (CO) 20% Polyester 1% Carbon(CF) | EN ISO 2076",
+      "Yarn | Warp:30/2Ne ; Weft:30/2Ne | EN ISO 2060",
+      "Weight | 260 ±10 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1000N; Weft>800N | EN ISO 13934-1",
+      "Tear Strength | Warp>20N; Weft>15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Shirt",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 10 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [
+      "Cotton Polyester Flame Retardant Coverall"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 1149",
+      "EN 61482",
+      ">> ArWoWear T20 Flame+Arc Pro Data Sheet",
+      "data_sheet",
+      "EN 1149-5",
+      "certificate_or_test_report",
+      "EN 1149-5 Test Report"
+    ],
+    "structure": "3/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t20-flame-arc-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "welding",
+        "confidence": 95,
+        "evidence": [
+          "Welding Protection | Yes | EN ISO 11611",
+          "norms include EN ISO 11611",
+          "Application | Flame Retardant Shirt"
+        ],
+        "rationale": "Explicit EN ISO 11611 welding protection certification directly ties the fabric to welding/metalworking protective use."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Explicit electric-arc protection certification (EN 61482) directly supports electrical/energy sector protective use, beyond generic antistatic properties."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "EN ISO 11612 flame and heat protection is present, but no explicit firefighting/turnout-gear use is stated; this is generic FR workwear certification."
+      },
+      {
+        "applicationId": "military",
+        "reason": "No explicit military, police or uniformed-service use is stated in the data."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t20-flame-arc-pro",
+    "primary": {
+      "applicationId": "welding",
+      "confidence": 80,
+      "evidence": [
+        "Welding Protection | Yes | EN ISO 11611",
+        "norms include EN ISO 11611",
+        "Application | Flame Retardant Shirt"
+      ],
+      "rationale": "Explicit EN ISO 11611 welding protection certification directly ties this fabric to welding/metal-processing protective clothing, making it the most specific named end use in the data."
+    },
+    "secondary": {
+      "applicationId": "energy",
+      "confidence": 70,
+      "evidence": [
+        "EN 61482 arc protection",
+        "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+        "ATPV > 10 cal/cm² | EN ISO 61482-1-1",
+        "Protection against thermal hazards of electrical arc"
+      ],
+      "rationale": "Explicit electric-arc protection certification (EN 61482) independently supports use in electrical/energy sector protective clothing beyond generic antistatic properties."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "EN ISO 11612 is generic flame/heat protection certification without explicit firefighter turnout gear use stated."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "More specific welding and arc-protection certifications dominate over generic industrial workwear classification."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military or uniformed-service use stated in the data."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t20-flame-arc-pro",
+    "status": "resolved",
+    "primaryApplication": "welding",
+    "secondaryApplication": "energy",
+    "primaryConfidence": 80,
+    "secondaryConfidence": 70,
+    "primaryEvidence": [
+      "Welding Protection | Yes | EN ISO 11611",
+      "norms include EN ISO 11611",
+      "Application | Flame Retardant Shirt"
+    ],
+    "secondaryEvidence": [
+      "EN 61482 arc protection",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV > 10 cal/cm² | EN ISO 61482-1-1",
+      "Protection against thermal hazards of electrical arc"
+    ],
+    "primaryRationale": "Explicit EN ISO 11611 welding protection certification directly ties this fabric to welding/metal-processing protective clothing, making it the most specific named end use in the data.",
+    "secondaryRationale": "Explicit electric-arc protection certification (EN 61482) independently supports use in electrical/energy sector protective clothing beyond generic antistatic properties.",
+    "alternativesConsidered": [
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "EN ISO 11612 is generic flame/heat protection certification without explicit firefighter turnout gear use stated."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "More specific welding and arc-protection certifications dominate over generic industrial workwear classification."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military or uniformed-service use stated in the data."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

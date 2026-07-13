@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:40:12.694Z",
+    "requestId": "req_011Ccxy52vPp5vifLLQiQYbc",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9266,
+      "outputTokens": 1067
+    }
+  },
+  "product": {
+    "slug": "arsuprem",
+    "name": "ArSuprem",
+    "family": "ArSuprem",
+    "subFamily": "arshirt-arsuprem",
+    "familyDescriptorPl": "Dzianiny koszulowe hi-vis",
+    "familyDescriptorEn": "Hi-vis shirting knits",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "220 g/m²",
+    "composition": "100% CO",
+    "weave": "Jersey",
+    "titleDescriptor": "100% Cotton Vat Dyed Single Jersey Fabric",
+    "specLine": "220 g/m², 100% Cotton, Single Jersey, Vat Dyed Knit Fabric",
+    "properties": [
+      "hi-vis",
+      "uv-protection"
+    ],
+    "norms": [
+      "EN 13758",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% cotton single jersey workwear knit fabric with very high chlorinated bleaching and light fastness.",
+      "ArSuprem fabric are produced from the best quality combed yarn Turkish Cotton.",
+      "It is resistant to very high sun level, with fastness level of 6 to 7.",
+      "ArSuprem fabrics can be bleached with peroxide and hypochloride without whitening in color.",
+      "Vat dyed ArSuprem products can be used in the most hard working conditions and in military area.",
+      "100% Cotton Vat Dyed Single Jersey Fabric",
+      "220 g/m², 100% Cotton, Single Jersey, Vat Dyed Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Cotton (CO) | EN ISO 2076",
+      "Yarn | 20/1 Ne Combed | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Workwear",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "High Fastness T-Shirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Uv Protection",
+      ">> ArSuprem Data Sheet",
+      "data_sheet",
+      "EN 15025 (Optional)",
+      "certificate_or_test_report"
+    ],
+    "structure": "Jersey",
+    "recordUrl": "/ariteks/fabrics/arsuprem/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "hivis",
+        "reason": "Product is explicitly categorized under the hi-vis warp knit fabric group intended for safety jackets, directly supporting the high-visibility application."
+      },
+      {
+        "applicationId": "military",
+        "reason": "The product description explicitly states use in the military area, providing direct textual evidence for military application, though the statement is brief and not detailed with specific military garment context."
+      },
+      {
+        "applicationId": "sport",
+        "reason": "UV protection and jersey knit could suit sportswear, but no explicit sport or athletic use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arsuprem",
+    "primary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 55,
+      "evidence": [
+        "Application | Workwear",
+        "Vat dyed ArSuprem products can be used in the most hard working conditions",
+        "100% cotton single jersey workwear knit fabric"
+      ],
+      "rationale": "The explicit technical parameter states 'Application: Workwear' and the description repeatedly frames the fabric as a durable, colorfast cotton jersey for hard working conditions, i.e., general industrial workwear, despite being grouped under a hi-vis warp knit category that doesn't match this plain vat-dyed jersey's described use as a T-shirt fabric."
+    },
+    "secondary": {
+      "applicationId": "military",
+      "confidence": 40,
+      "evidence": [
+        "Vat dyed ArSuprem products can be used in the most hard working conditions and in military area."
+      ],
+      "rationale": "Military use is explicitly stated in the product description, independent of the primary workwear framing, supporting a secondary military application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "Category source group references hi-vis warp knit for safety jackets, but the product itself is a plain vat-dyed cotton jersey with no fluorescent color, EN ISO 20471 or reflective element stated; application image label is 'High Fastness T-Shirt', suggesting it's a base-layer/T-shirt fabric rather than a certified hi-vis garment fabric."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "UV protection and jersey knit are present but no explicit sport or athletic use is stated."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Category placement (hi-vis warp knit for safety jackets) conflicts with the product's own description as a workwear T-shirt fabric with no fluorescent/reflective properties stated, creating ambiguity between hivis and workwear-industrial as primary."
+  },
+  "normalized": {
+    "fabricSlug": "arsuprem",
+    "status": "resolved-review",
+    "primaryApplication": "workwear-industrial",
+    "secondaryApplication": null,
+    "primaryConfidence": 55,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Application | Workwear",
+      "Vat dyed ArSuprem products can be used in the most hard working conditions",
+      "100% cotton single jersey workwear knit fabric"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The explicit technical parameter states 'Application: Workwear' and the description repeatedly frames the fabric as a durable, colorfast cotton jersey for hard working conditions, i.e., general industrial workwear, despite being grouped under a hi-vis warp knit category that doesn't match this plain vat-dyed jersey's described use as a T-shirt fabric.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "Category source group references hi-vis warp knit for safety jackets, but the product itself is a plain vat-dyed cotton jersey with no fluorescent color, EN ISO 20471 or reflective element stated; application image label is 'High Fastness T-Shirt', suggesting it's a base-layer/T-shirt fabric rather than a certified hi-vis garment fabric."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "UV protection and jersey knit are present but no explicit sport or athletic use is stated."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Category placement (hi-vis warp knit for safety jackets) conflicts with the product's own description as a workwear T-shirt fabric with no fluorescent/reflective properties stated, creating ambiguity between hivis and workwear-industrial as primary."
+  }
+}

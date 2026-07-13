@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:35:52.464Z",
+    "requestId": "req_011Ccxxk3MQXKytcb3zwPazi",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9089,
+      "outputTokens": 341
+    }
+  },
+  "product": {
+    "slug": "arwowear-t2-soft",
+    "name": "ArWoWear T2 Soft",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-soft",
+    "familyDescriptorPl": "Miękkie tkaniny robocze",
+    "familyDescriptorEn": "Soft-touch workwear",
+    "categoryId": "economical-twill",
+    "categoryNamePl": "Ekonomiczne robocze twill",
+    "categoryNameEn": "Economical twill workwear",
+    "categorySourceGroup": "Economical Twill Workwear Fabrics",
+    "weight": "245 g/m²",
+    "composition": "100% CO",
+    "weave": "3/1S Twill",
+    "titleDescriptor": "100% Cotton Twill Fabric, 245 gr/m'2",
+    "specLine": "245 g/m², 100% Cotton, 3/1S Twill Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T2 Soft is light weight 245 g/m², 100% cotton workwear twill fabric.",
+      "It is the economical version of ArWoWear T2 series.",
+      "100% Cotton Twill Fabric, 245 gr/m'2",
+      "245 g/m², 100% Cotton, 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Cotton (CO) | EN ISO 2076",
+      "Yarn | Warp:14/1Ne; Weft:14/1Ne | EN ISO 2060",
+      "Weight | 245 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>800N; Weft>600N | EN ISO 13934-1",
+      "Tear Strength | Warp>20N; Weft>15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 2-3 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 2-3 | EN ISO 105 N01",
+      "Peroxide Fastness | 3-4 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 2-3 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Water and Oil Repellent | 4 | EN ISO 4920"
+    ],
+    "applicationImageLabels": [
+      "100% Cotton Twill Pans"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Water and Oil Repellent",
+      ">> ArWoWear T2 Soft Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "3/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t2-soft/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Coveralls/workwear could be used by uniformed services but no explicit military/police reference is provided."
+      }
+    ],
+    "noMatchReason": "Product is a generic economical 100% cotton twill workwear fabric intended for coveralls, with no explicit statement linking it to military, firefighting, energy, welding, motorcycle, hi-vis, medical, sport, architecture-building or transport applications."
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t2-soft",
+    "primary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 85,
+      "evidence": [
+        "Application | Coveralls",
+        "Economical Twill Workwear Fabrics category",
+        "100% Cotton Twill Fabric for coveralls"
+      ],
+      "rationale": "This is a generic economical cotton twill workwear fabric explicitly intended for coveralls, with no narrower named sector (military, firefighting, energy, welding, etc.) stated, making general workwear/industrial apparel the most defensible primary application."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independent evidence supports a second distinct application; the product is a straightforward general workwear fabric."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or uniformed-service reference; stage1 advisory noted this as unconfirmed."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t2-soft",
+    "status": "resolved",
+    "primaryApplication": "workwear-industrial",
+    "secondaryApplication": null,
+    "primaryConfidence": 85,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Application | Coveralls",
+      "Economical Twill Workwear Fabrics category",
+      "100% Cotton Twill Fabric for coveralls"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "This is a generic economical cotton twill workwear fabric explicitly intended for coveralls, with no narrower named sector (military, firefighting, energy, welding, etc.) stated, making general workwear/industrial apparel the most defensible primary application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or uniformed-service reference; stage1 advisory noted this as unconfirmed."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:43:16.016Z",
+    "requestId": "req_011CcxyK7649nBdBJVBCjNXF",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 8945,
+      "outputTokens": 383
+    }
+  },
+  "product": {
+    "slug": "aripike",
+    "name": "Ari Pike",
+    "family": "Ari",
+    "subFamily": "aripam",
+    "familyDescriptorPl": "Tkaniny i dzianiny z włókna AriPam odporne na UV",
+    "familyDescriptorEn": "UV-resistant AriPam fibre fabrics and knits",
+    "categoryId": "aripam-spun",
+    "categoryNamePl": "Tkaniny z włókna AriPam",
+    "categoryNameEn": "AriPam spun fabrics",
+    "categorySourceGroup": "AriPam spun fabrics for shoe lining",
+    "weight": "210 g/m²",
+    "composition": "100% AriPam",
+    "weave": "Twill",
+    "titleDescriptor": "100% AriPam uv resistant pique fabric",
+    "specLine": "210 g/m², 100% AriPam, Uv protective, Pique Knit Fabric",
+    "properties": [
+      "uv-protection"
+    ],
+    "norms": [
+      "EN 13758",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% AriPam pique knit fabric.",
+      "It is used as a lining inside of the shoes.",
+      "Ari Pike can also be used on promotional t-shirts.",
+      "100% AriPam uv resistant pique fabric",
+      "210 g/m², 100% AriPam, Uv protective, Pique Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% AriPam | EN ISO 2076",
+      "Yarn | 30/1 Ne | EN ISO 2060",
+      "Weight | 210 ±10 g/m² | EN ISO 3081",
+      "Width | 1700 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1400 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4,0 - 7,5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Lining for shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Uv Protection",
+      ">> Ari Pike Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Twill",
+    "recordUrl": "/ariteks/fabrics/aripike/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Product mentions use on promotional t-shirts and UV protection, but no explicit athletic/sport use is stated."
+      }
+    ],
+    "noMatchReason": "Product is explicitly described as a shoe lining fabric (pique knit for lining inside shoes) and as usable on promotional t-shirts, with UV protection and OEKO-TEX certification. No explicit military, firefighting, energy, welding, motorcycle, hivis, medical, sport, architecture-building, or transport application is stated."
+  },
+  "modelOutput": {
+    "fabricSlug": "aripike",
+    "primary": {
+      "applicationId": "footwear-components",
+      "confidence": 85,
+      "evidence": [
+        "It is used as a lining inside of the shoes.",
+        "categorySourceGroup: AriPam spun fabrics for shoe lining",
+        "Application | Lining for shoes"
+      ],
+      "rationale": "The product is explicitly described and specified as a lining fabric for shoes, matching the footwear-components category directly."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "The mention of promotional t-shirts is too generic and not tied to a specific application (sport, workwear, etc.) to justify a secondary classification."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Only vague mention of 'promotional t-shirts' with UV protection; no explicit athletic or sport-specific use stated."
+      },
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "UV resistance and t-shirt use could suggest general apparel, but no outdoor/functional-specific claim is made."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "aripike",
+    "status": "resolved",
+    "primaryApplication": "footwear-components",
+    "secondaryApplication": null,
+    "primaryConfidence": 85,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "It is used as a lining inside of the shoes.",
+      "categorySourceGroup: AriPam spun fabrics for shoe lining",
+      "Application | Lining for shoes"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly described and specified as a lining fabric for shoes, matching the footwear-components category directly.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Only vague mention of 'promotional t-shirts' with UV protection; no explicit athletic or sport-specific use stated."
+      },
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "UV resistance and t-shirt use could suggest general apparel, but no outdoor/functional-specific claim is made."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

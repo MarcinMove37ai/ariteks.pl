@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:50.619Z",
+    "requestId": "req_011CcxyCDx7T4riLssoXkpv2",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9997,
+      "outputTokens": 1197
+    }
+  },
+  "product": {
+    "slug": "aramid-vis-150",
+    "name": "Aramid Vis 150",
+    "family": "Aramid",
+    "subFamily": "aramid-vis",
+    "familyDescriptorPl": "Tkane tkaniny aramidowo-wiskozowe FR",
+    "familyDescriptorEn": "Woven aramid-viscose FR fabrics",
+    "categoryId": "aramid-viscose",
+    "categoryNamePl": "Tkaniny aramid-wiskoza FR",
+    "categoryNameEn": "Aramid-viscose FR wovens",
+    "categorySourceGroup": "Inherent Flame Retardant Aramid Viscose Fr Woven Workwear Fabrics",
+    "weight": "150 g/m²",
+    "composition": "53% CV 40% m-AR 5% p-AR 2% CF",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "Aramid Viscose Fr Fabric, 53% Viscose Fr 40% meta Aramid 5% para Aramid 2% Carbon , 150 gr/m'2",
+    "specLine": "150 g/m², 53% Viscose fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant, Antistatic, 1/1 Plain Fabric Aramid Viscose fr blend fabric",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "molten-metal",
+      "chemical"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 1149",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "150 g/m², 53% viscose fr 40% m-Aramid, 5% p-Aramid, 2% Carbon.",
+      "Inherent flame retardant fabric",
+      "for firefighters cloth inside lining, , oil and gas industry workers.",
+      "With high contect of viscose fr fiber, the fabric is ultra comfortable to wear and and absorb sweat. Inherent flame retardant fabric with EN ISO 11612 certification.",
+      "Antistatic (EN 1149-5) certified",
+      "Resistant to most industrial chemicals. (EN ISO 13034)",
+      "Aramid Viscose Fr Fabric, 53% Viscose Fr 40% meta Aramid 5% para Aramid 2% Carbon , 150 gr/m'2",
+      "150 g/m², 53% Viscose fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant, Antistatic, 1/1 Plain Fabric Aramid Viscose fr blend fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 53% Viscose Fr (cv fr) 40% m-Aramid (m-AR) 5% p-Aramid (p-AR) 2% Carbon(CF) | EN ISO 2076",
+      "Yarn | Warp:40/2Ne; Weft:40/2Ne | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 750N; Weft > 600N | EN ISO 13934-1",
+      "Tear Strength | Warp>40N ; Weft>30N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 4.0-7.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Pilot Costumes",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Antistatic | Yes | EN ISO 1149-5",
+      "Chemical Resistant | Yes | EN ISO 13034"
+    ],
+    "applicationImageLabels": [
+      "Firefighter lining viscose fr"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11611",
+      "EN 1149",
+      "EN 13034",
+      ">> Aramid Vis 150 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/aramid-vis-150/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Explicit mention of oil and gas industry workers as intended users places the fabric directly in the energy sector."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "Explicit statement that the fabric is used as firefighter cloth inside lining, directly supporting firefighting application."
+      },
+      {
+        "applicationId": "hivis",
+        "reason": "The product explicitly lists hi-vis as a property and is certified to EN ISO 20471, the high-visibility safety standard, directly supporting hi-vis application."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Technical parameter lists 'Application | Pilot Costumes' which could relate to military aviation, but no explicit military, police or uniformed-service wording is given."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "'Pilot Costumes' could hint at aviation transport use, but there is no explicit statement tying the fabric to vehicles, aircraft or vessels."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "EN ISO 11611 is the explicit standard for protective clothing used in welding and allied processes, directly tying the fabric to welding/metal-splash protection."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "aramid-vis-150",
+    "primary": {
+      "applicationId": "firefighting",
+      "confidence": 75,
+      "evidence": [
+        "for firefighters cloth inside lining, oil and gas industry workers.",
+        "Firefighter lining viscose fr (application image label)",
+        "Inherent flame retardant fabric with EN ISO 11612 certification"
+      ],
+      "rationale": "The product description explicitly states use as firefighter cloth inside lining, reinforced by the application image label 'Firefighter lining viscose fr' and EN ISO 11612 heat/flame certification, making firefighting the most direct and explicitly stated end use."
+    },
+    "secondary": {
+      "applicationId": "energy",
+      "confidence": 55,
+      "evidence": [
+        "for firefighters cloth inside lining, , oil and gas industry workers.",
+        "Resistant to most industrial chemicals (EN ISO 13034)",
+        "Antistatic (EN 1149-5) certified"
+      ],
+      "rationale": "Oil and gas industry workers are explicitly named as an intended user group, independently supporting the energy sector application alongside chemical resistance and antistatic certification relevant to that environment."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "EN ISO 11611 certification is present but no explicit welding, foundry or molten-metal use case is stated beyond the standard itself."
+      },
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "Hi-vis is listed as a property with EN ISO 20471 certification, but no explicit high-visibility garment end-use description is given; secondary slot already filled by an independently stated use."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Pilot Costumes parameter is ambiguous and does not explicitly state military, police or uniformed-service use."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No explicit vehicle, aircraft or vessel use is stated; 'Pilot Costumes' is too ambiguous to support transport."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "More specific explicit uses (firefighting, energy) dominate over generic industrial workwear framing."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Multiple explicit hazard-related uses (firefighting lining, oil and gas workers, welding standard, hi-vis certification) are present in the same source, requiring judgment on which are genuine end uses versus supporting standards."
+  },
+  "normalized": {
+    "fabricSlug": "aramid-vis-150",
+    "status": "resolved-review",
+    "primaryApplication": "firefighting",
+    "secondaryApplication": null,
+    "primaryConfidence": 75,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "for firefighters cloth inside lining, oil and gas industry workers.",
+      "Firefighter lining viscose fr (application image label)",
+      "Inherent flame retardant fabric with EN ISO 11612 certification"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product description explicitly states use as firefighter cloth inside lining, reinforced by the application image label 'Firefighter lining viscose fr' and EN ISO 11612 heat/flame certification, making firefighting the most direct and explicitly stated end use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "EN ISO 11611 certification is present but no explicit welding, foundry or molten-metal use case is stated beyond the standard itself."
+      },
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "Hi-vis is listed as a property with EN ISO 20471 certification, but no explicit high-visibility garment end-use description is given; secondary slot already filled by an independently stated use."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Pilot Costumes parameter is ambiguous and does not explicitly state military, police or uniformed-service use."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No explicit vehicle, aircraft or vessel use is stated; 'Pilot Costumes' is too ambiguous to support transport."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Multiple explicit hazard-related uses (firefighting lining, oil and gas workers, welding standard, hi-vis certification) are present in the same source, requiring judgment on which are genuine end uses versus supporting standards."
+  }
+}

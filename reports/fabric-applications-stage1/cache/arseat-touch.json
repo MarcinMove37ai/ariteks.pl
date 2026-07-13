@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:20:07.804Z",
+    "requestId": "req_011CcxwYcWFw2QywsyRuiGvi",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5858,
+      "outputTokens": 183
+    }
+  },
+  "product": {
+    "slug": "arseat-touch",
+    "name": "ArSeat Touch",
+    "family": "ArSeat",
+    "subFamily": "arseat",
+    "familyDescriptorPl": "Dzianiny tapicerskie na fotele i obuwie",
+    "familyDescriptorEn": "Upholstery knits for seats and footwear",
+    "categoryId": "upholstery-knits",
+    "categoryNamePl": "Dzianiny tapicerskie i obuwnicze",
+    "categoryNameEn": "Upholstery & footwear knits",
+    "categorySourceGroup": "Warp Knit Fabrics for Upholstery and Shoes",
+    "weight": "150 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Micro Alcantara Fabric",
+    "specLine": "150 g/m², 100% Polyester, Micro alcantara one side fleece knit fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArSeat Touch is 100% polyester, 150 g/m², micro alcantara warp knit fabric.",
+      "It is suitable for upholstery.",
+      "Micro Alcantara Fabric",
+      "150 g/m², 100% Polyester, Micro alcantara one side fleece knit fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 75/144 Denier | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Upholstery",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArSeat Touch Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arseat-touch/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arseat-touch",
+    "matches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Named 'ArSeat' suggests seating use, but data only states generic 'upholstery' application without explicit vehicle/vessel context."
+      }
+    ],
+    "noMatchReason": "Product is explicitly described as a general upholstery knit fabric (micro alcantara, warp knit) for seats/footwear; no explicit vehicle, vessel, military, medical, or other taxonomy-specific use is stated."
+  },
+  "normalized": {
+    "fabricSlug": "arseat-touch",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Named 'ArSeat' suggests seating use, but data only states generic 'upholstery' application without explicit vehicle/vessel context."
+      }
+    ],
+    "noMatchReason": "Product is explicitly described as a general upholstery knit fabric (micro alcantara, warp knit) for seats/footwear; no explicit vehicle, vessel, military, medical, or other taxonomy-specific use is stated.",
+    "needsReview": true
+  }
+}

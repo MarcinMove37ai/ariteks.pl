@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:36:40.631Z",
+    "requestId": "req_011Ccxxoth84gf2ZC9UbGz8d",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 8975,
+      "outputTokens": 397
+    }
+  },
+  "product": {
+    "slug": "ardilight",
+    "name": "ArDiLight",
+    "family": "ArDiLight",
+    "subFamily": "ardilight",
+    "familyDescriptorPl": "Napinane sufity tekstylne — miękkie, rozproszone światło",
+    "familyDescriptorEn": "Stretch-ceiling fabric for soft diffuse light",
+    "categoryId": "",
+    "categoryNamePl": "",
+    "categoryNameEn": "",
+    "categorySourceGroup": "",
+    "weight": "350 g/m²",
+    "composition": "46% PES 4% EL 50% PVC",
+    "weave": "Interlock",
+    "titleDescriptor": "Stretch Ceiling PVC Fabric",
+    "specLine": "350 g/m², 46% Polyester 4% Elastane 50% PVC, Stretch Ceiling Fabric Flexible, pvc stretch ceiling fabric systems",
+    "properties": [
+      "stretch"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "No need for special profiles nor heating during start-up.",
+      "No insect accumulation during time.",
+      "Very fast start-up.",
+      "No shrinkage due to heat stabilized fabric system.",
+      "More homojenious light distribution.",
+      "Suitable for digital printing",
+      "Stretch Ceiling PVC Fabric",
+      "350 g/m², 46% Polyester 4% Elastane 50% PVC, Stretch Ceiling Fabric Flexible, pvc stretch ceiling fabric systems"
+    ],
+    "technicalParameters": [
+      "Fiber | 46% Polyester (PES) 4% Elastane (EL) 50% PVC | EN ISO 2076",
+      "Yarn | 75 Denier | EN ISO 2060",
+      "Weight | 350 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1500 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Flame Retardancy | B1 | DIN 4102-1",
+      "Uv Permeability | < 1% | AATCC 183",
+      "Working Temperature | -30'C to 70'C | DIN 4102-1",
+      "Application | Stretch Ceiling",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Ardilight",
+      "Stretch Ceiling 2",
+      "Stretch Ceiling 3",
+      "Stretch Ceiling 9"
+    ],
+    "functionIconLabels": [
+      "Oeko Teks Standard 100",
+      "Recyclable",
+      "Flame Retardant",
+      "Stretchable",
+      "Uniform Light"
+    ],
+    "structure": "",
+    "recordUrl": "/ariteks/fabrics/ardilight/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "architecture-building",
+        "confidence": 98,
+        "evidence": [
+          "familyDescriptorEn: Stretch-ceiling fabric for soft diffuse light",
+          "titleDescriptor: Stretch Ceiling PVC Fabric",
+          "technicalParameters: Application | Stretch Ceiling",
+          "applicationImageLabels: Stretch Ceiling 2, Stretch Ceiling 3, Stretch Ceiling 9"
+        ],
+        "rationale": "Product is explicitly described and labeled as a stretch-ceiling fabric/system, which directly matches the architecture-building application per the stated overlap rule."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ardilight",
+    "primary": {
+      "applicationId": "architecture-building",
+      "confidence": 98,
+      "evidence": [
+        "titleDescriptor: Stretch Ceiling PVC Fabric",
+        "technicalParameters: Application | Stretch Ceiling",
+        "applicationImageLabels: Stretch Ceiling 2, Stretch Ceiling 3, Stretch Ceiling 9",
+        "familyDescriptorEn: Stretch-ceiling fabric for soft diffuse light"
+      ],
+      "rationale": "Product is explicitly and repeatedly described as a stretch-ceiling fabric/system intended for building interiors, matching the architecture-building application directly per rule 16."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently supported secondary application is stated; digital printing suitability is a property, not a distinct end-use claim."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "print-signage",
+        "reasonNotSelected": "Only a mention of digital-print suitability, not a stated end-product like flags or signage; insufficient to establish independent secondary use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ardilight",
+    "status": "resolved",
+    "primaryApplication": "architecture-building",
+    "secondaryApplication": null,
+    "primaryConfidence": 98,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "titleDescriptor: Stretch Ceiling PVC Fabric",
+      "technicalParameters: Application | Stretch Ceiling",
+      "applicationImageLabels: Stretch Ceiling 2, Stretch Ceiling 3, Stretch Ceiling 9",
+      "familyDescriptorEn: Stretch-ceiling fabric for soft diffuse light"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Product is explicitly and repeatedly described as a stretch-ceiling fabric/system intended for building interiors, matching the architecture-building application directly per rule 16.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "print-signage",
+        "reasonNotSelected": "Only a mention of digital-print suitability, not a stated end-product like flags or signage; insufficient to establish independent secondary use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

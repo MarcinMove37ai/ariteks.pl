@@ -67,8 +67,8 @@ export default function Header() {
             <LangSwitch variant="desktop" />
           </div>
 
-          {/* CTA dynamiczne: Katalog / RFQ zaleznie od trasy */}
-          <HeaderCta catalogLabel={catalogueLabel} rfqLabel={t('rfq')} />
+          {/* Stałe CTA prowadzące do katalogu produktów */}
+          <HeaderCta catalogLabel={catalogueLabel} />
 
           <MobileNav items={mobileItems} rfqLabel={t('rfq')} />
         </div>

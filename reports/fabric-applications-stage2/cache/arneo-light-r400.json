@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:39:59.312Z",
+    "requestId": "req_011Ccxy4ahKBFnEpQ5wKHhxL",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9240,
+      "outputTokens": 410
+    }
+  },
+  "product": {
+    "slug": "arneo-light-r400",
+    "name": "ArNeo Light +R400",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "70 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Economical Safety Jacket Fabric Laminated with Reflective Strips",
+    "specLine": "70 g/m², 100% Polyester, Reflective Strips Laminated, High Visible Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Light +R400 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric.",
+      "It is an economic alternative to ArNeo Eco for non professional usage.",
+      "Designed for construction and mining workwear applications.",
+      "The edge of the fabric is laminated with 5 cm EN 20471 certified reflective strips.",
+      "Economical Safety Jacket Fabric Laminated with Reflective Strips",
+      "70 g/m², 100% Polyester, Reflective Strips Laminated, High Visible Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 70 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 400 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Safety Jacket",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Economical High Visible Yellow Safety Jacket"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArNeo Light +R400 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-light-r400/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "categoryId: hi-vis",
+          "familyDescriptorEn: Fluorescent hi-vis knits for safety wear",
+          "Designed for construction and mining workwear applications.",
+          "5 cm EN 20471 certified reflective strips",
+          "Application | Safety Jacket",
+          "applicationImageLabels: Economical High Visible Yellow Safety Jacket"
+        ],
+        "rationale": "Explicitly categorized as hi-vis warp knit fabric for safety jackets, EN ISO 20471 certified reflective strips, and application image labeled as a high-visibility safety jacket."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Construction/mining workwear mentioned, not explicitly vehicle or vessel related; no direct transport-sector statement."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-light-r400",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 97,
+      "evidence": [
+        "categoryId: hi-vis",
+        "5 cm EN 20471 certified reflective strips",
+        "Application | Safety Jacket",
+        "applicationImageLabels: Economical High Visible Yellow Safety Jacket"
+      ],
+      "rationale": "Fabric is explicitly categorized as a hi-vis warp knit safety jacket fabric with EN ISO 20471 certified reflective strips, directly matching the hi-vis application."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "Construction and mining workwear mention is generic context, not a distinct independently supported secondary application; no explicit second sector such as transport is stated."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Construction/mining workwear mention is contextual, but hi-vis certification is the clear, narrower and dominant application."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No explicit vehicle or vessel related use stated; only construction and mining context given."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-light-r400",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 97,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categoryId: hi-vis",
+      "5 cm EN 20471 certified reflective strips",
+      "Application | Safety Jacket",
+      "applicationImageLabels: Economical High Visible Yellow Safety Jacket"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Fabric is explicitly categorized as a hi-vis warp knit safety jacket fabric with EN ISO 20471 certified reflective strips, directly matching the hi-vis application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Construction/mining workwear mention is contextual, but hi-vis certification is the clear, narrower and dominant application."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No explicit vehicle or vessel related use stated; only construction and mining context given."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

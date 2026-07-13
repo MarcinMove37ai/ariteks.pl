@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:11:55.963Z",
+    "requestId": "req_011Ccxvvahc6T7TZX9upNsbX",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6009,
+      "outputTokens": 226
+    }
+  },
+  "product": {
+    "slug": "arshirt-neo",
+    "name": "ArShirt Neo",
+    "family": "ArShirt",
+    "subFamily": "arshirt-arsuprem",
+    "familyDescriptorPl": "Dzianiny koszulowe hi-vis",
+    "familyDescriptorEn": "Hi-vis shirting knits",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "220 g/m²",
+    "composition": "100% CO",
+    "weave": "Pique",
+    "titleDescriptor": "Cotton Fluorescent Pique Fabric",
+    "specLine": "220 g/m², 100% Cotton, Pique, High Visible Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArShirt Neo is 100% cotton pique knit fabric with neon fluorescent colors. Arıteks developed a new process to dye 100% cotton with fluorescent colors.",
+      "Cotton Fluorescent Pique Fabric",
+      "220 g/m², 100% Cotton, Pique, High Visible Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Cotton (CO) | EN ISO 2076",
+      "Yarn | 20/1 Ne Combed | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 3 | EN ISO 105 X12",
+      "Perspiration Fastness | 3-4 | EN ISO 105 E04",
+      "Washing Fastness | 3-4 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 3-4 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 3-4 | EN ISO 105 N01",
+      "Peroxide Fastness | 3-4 | EN ISO 105 N02",
+      "Hot Press Fastness | 3 | EN ISO 105 X11",
+      "Light Fastness | 3 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 3-4 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | T-Shirt",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "%100 Cotton Hivis T-Shirt",
+      "Flourosescent Yellow T Shirt",
+      "Fluorescent Yellow T Shirt",
+      "Flourosescent Orange T Shirt",
+      "Fluorescent Orange T Shirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArShirt Neo Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Pique",
+    "recordUrl": "/ariteks/fabrics/arshirt-neo/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arshirt-neo",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "categorySourceGroup: High Visible Warp Knit Fabrics for Safety Jackets",
+          "properties: hi-vis",
+          "applicationImageLabels: %100 Cotton Hivis T-Shirt, Fluorescent Yellow/Orange T Shirt"
+        ],
+        "rationale": "Explicitly categorized and marketed as a high-visibility warp knit fabric for safety jackets/garments with fluorescent colors, directly matching the hi-vis application."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arshirt-neo",
+    "status": "matched",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "categorySourceGroup: High Visible Warp Knit Fabrics for Safety Jackets",
+          "properties: hi-vis",
+          "applicationImageLabels: %100 Cotton Hivis T-Shirt, Fluorescent Yellow/Orange T Shirt"
+        ],
+        "rationale": "Explicitly categorized and marketed as a high-visibility warp knit fabric for safety jackets/garments with fluorescent colors, directly matching the hi-vis application."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "",
+    "needsReview": false
+  }
+}

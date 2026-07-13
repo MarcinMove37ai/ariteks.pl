@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:36:19.207Z",
+    "requestId": "req_011CcxxmhPRYcwLpFd8nZaqi",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9139,
+      "outputTokens": 1299
+    }
+  },
+  "product": {
+    "slug": "ar-air-mesh-aa-150",
+    "name": "ArAir Mesh AA 150",
+    "family": "ArAir",
+    "subFamily": "arairmesh",
+    "familyDescriptorPl": "Dzianiny dystansowe 3D na siedziska i obuwie",
+    "familyDescriptorEn": "3D spacer mesh for seating and footwear",
+    "categoryId": "air-mesh-3d",
+    "categoryNamePl": "Siatki dystansowe 3D",
+    "categoryNameEn": "3D air mesh fabrics",
+    "categorySourceGroup": "3D Air Mesh Fabrics",
+    "weight": "150 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "3D Air Mesh Fabric",
+    "specLine": "150 g/m², 100% Polyester, Air Mesh Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 150 g/m² 3d warp knitted air mesh fabric.",
+      "ArAir Mesh AA 150 fabric due to its 3d warp knitting structure has high suspension function.",
+      "It can be used as upholstery mesh for office furniture.",
+      "Suitable for sport and military shoes.",
+      "One of the usage of ArAir Mesh AA 150 is shock aboserber in medical.",
+      "Ultra confortable bag fabric.",
+      "3D Air Mesh Fabric",
+      "150 g/m², 100% Polyester, Air Mesh Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 2000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Uphosltery, Bag, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "3D Air Mesh dishcloth"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArAir Mesh AA 150 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/ar-air-mesh-aa-150/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "medical",
+        "reason": "Explicit mention of medical use as a shock absorber supports direct application in the medical sector."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Explicit statement that the fabric is suitable for military shoes directly ties it to military use."
+      },
+      {
+        "applicationId": "sport",
+        "reason": "Explicitly stated suitability for sport shoes directly supports sport application."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Upholstery use for office furniture is mentioned but no vehicle or vessel context is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ar-air-mesh-aa-150",
+    "primary": {
+      "applicationId": "footwear-components",
+      "confidence": 72,
+      "evidence": [
+        "Suitable for sport and military shoes.",
+        "Application | Upholstery, Bag, Shoes",
+        "3d warp knitted air mesh fabric with high suspension function"
+      ],
+      "rationale": "The fabric is explicitly stated as suitable for shoes (sport and military), and the technical application field lists 'Shoes' directly, making footwear the most specific and directly named end use among the multiple applications listed."
+    },
+    "secondary": {
+      "applicationId": "upholstery-interiors",
+      "confidence": 60,
+      "evidence": [
+        "It can be used as upholstery mesh for office furniture.",
+        "familyDescriptorEn: 3D spacer mesh for seating and footwear"
+      ],
+      "rationale": "The product data explicitly states use as upholstery mesh for office furniture, an independent and clearly stated use distinct from footwear, supporting upholstery-interiors as a secondary application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Mentioned only as one usage example ('shock absorber in medical') without further sector-specific detail; not the dominant use."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Only referenced as suitability for military shoes, which is captured under footwear-components rather than a standalone military application."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Referenced as suitability for sport shoes, subsumed under footwear-components rather than a distinct sport apparel use."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No vehicle or vessel context stated; upholstery use is for office furniture, not transport."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "The product is a multi-purpose 3D mesh fabric with several explicitly stated end uses (shoes, office upholstery, bags, medical shock absorption), making the choice between footwear and upholstery as primary somewhat ambiguous."
+  },
+  "normalized": {
+    "fabricSlug": "ar-air-mesh-aa-150",
+    "status": "resolved-review",
+    "primaryApplication": "footwear-components",
+    "secondaryApplication": null,
+    "primaryConfidence": 72,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Suitable for sport and military shoes.",
+      "Application | Upholstery, Bag, Shoes",
+      "3d warp knitted air mesh fabric with high suspension function"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly stated as suitable for shoes (sport and military), and the technical application field lists 'Shoes' directly, making footwear the most specific and directly named end use among the multiple applications listed.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Mentioned only as one usage example ('shock absorber in medical') without further sector-specific detail; not the dominant use."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Only referenced as suitability for military shoes, which is captured under footwear-components rather than a standalone military application."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Referenced as suitability for sport shoes, subsumed under footwear-components rather than a distinct sport apparel use."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No vehicle or vessel context stated; upholstery use is for office furniture, not transport."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "The product is a multi-purpose 3D mesh fabric with several explicitly stated end uses (shoes, office upholstery, bags, medical shock absorption), making the choice between footwear and upholstery as primary somewhat ambiguous."
+  }
+}

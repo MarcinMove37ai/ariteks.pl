@@ -21,6 +21,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link, routing, type Locale } from '@/i18n/routing';
 import RfqButton from '@/components/RfqButton';
 import FabricGallery from '@/components/fabrics/FabricGallery';
+import { getFabricApplicationAssignment } from '@/lib/fabricApplications';
 import {
   FABRICS,
   getFabricBySlug,
@@ -219,6 +220,9 @@ export default async function FabricPage({
 
   const f = getFabricBySlug(slug);
   if (!f) notFound();
+
+  const applicationAssignment =
+    getFabricApplicationAssignment(f.slug);
   const fam = getFamilyBySlug(family);
   if (!fam || f.subFamily !== family) notFound();
 
@@ -743,7 +747,12 @@ export default async function FabricPage({
             <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-carbon-200">
               {cta('lead')}
             </p>
-            <RfqButton className="mt-10 inline-flex items-center rounded bg-red-500 px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-colors duration-200 hover:bg-red-600">
+            <RfqButton
+              applicationId={
+                applicationAssignment?.primaryApplication
+              }
+              className="mt-10 inline-flex items-center rounded bg-red-500 px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-colors duration-200 hover:bg-red-600"
+            >
               {cta('button')}
             </RfqButton>
           </div>

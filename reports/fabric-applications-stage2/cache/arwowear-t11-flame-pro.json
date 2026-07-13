@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:05.650Z",
+    "requestId": "req_011Ccxy8thQDM7fcSLdAU8s4",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9877,
+      "outputTokens": 1089
+    }
+  },
+  "product": {
+    "slug": "arwowear-t11-flame-pro",
+    "name": "ArWoWear T11 Flame Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-flame-pro",
+    "familyDescriptorPl": "Trudnopalne tkaniny robocze (100 prań)",
+    "familyDescriptorEn": "FR workwear fabrics (100 washes)",
+    "categoryId": "fr-workwear",
+    "categoryNamePl": "Trudnopalne robocze",
+    "categoryNameEn": "FR workwear",
+    "categorySourceGroup": "Flame Retardant, Vat Dyed, Workwear Fabrics Resistant up to 100 Wash",
+    "weight": "360 g/m²",
+    "composition": "100% CO",
+    "weave": "3/1S Twill",
+    "titleDescriptor": "100% Cotton Twill, Flame Retardant Fabric, 360 gr/m'2",
+    "specLine": "360 g/m², 100% Cotton, VAT Dyed, Flame Retardant (100 Wash Resistant), 3/1S Twill Fabric",
+    "properties": [
+      "fr",
+      "arc",
+      "molten-metal",
+      "wash-100"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T11 Flame Pro is heavy weight 360 gr/m', 100% cotton, vat dyed, flame retardant workwear fabric.",
+      "It has flame retardant function with EN ISO 11612 and EN ISO 11611 certification.",
+      "It is durable up to 100 washing.",
+      "100% Cotton Twill, Flame Retardant Fabric, 360 gr/m'2",
+      "360 g/m², 100% Cotton, VAT Dyed, Flame Retardant (100 Wash Resistant), 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Cotton (CO) | EN ISO 2076",
+      "Yarn | Warp:20/2Ne; Weft:20/2Ne | EN ISO 2060",
+      "Weight | 360 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1600N; Weft>1000N | EN ISO 13934-1",
+      "Tear Strength | Warp>30N; Weft>25N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 15 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [
+      "Flame Retardant Jacket and Pan"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 61482",
+      ">> ArWoWear T11 Flame Pro Data Sheet",
+      "data_sheet",
+      "EN 11612 ; EN 11611",
+      "certificate_or_test_report",
+      "EN 11612 ; EN 11611 Test Report",
+      "50 Wash (60'C) (ISO 15025)",
+      "100 Wash (60'C) (ISO 15025)",
+      "EN ISO 105 B02",
+      "EN ISO 105 C06",
+      "EN ISO 105 E04",
+      "EN ISO 105 N01",
+      "EN ISO 105 N02",
+      "EN ISO 105 X11",
+      "EN ISO 105 X12"
+    ],
+    "structure": "3/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t11-flame-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "welding",
+        "confidence": 92,
+        "evidence": [
+          "Welding Protection | Yes | EN ISO 11611",
+          "EN ISO 11611 certification",
+          "molten-metal property listed"
+        ],
+        "rationale": "Product explicitly states 'Welding Protection: Yes' with EN ISO 11611 certification, which is the standard for protective clothing used in welding and allied processes, and lists molten-metal splash protection directly."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "The fabric is explicitly rated and certified for electric-arc protection per EN 61482 with a specific ATPV rating and arc class, directly matching the energy sector's electric-arc protection use case."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "EN ISO 11612 covers general flame/heat protection but is not the firefighter-specific EN 469 standard, and no explicit firefighting/turnout gear use is stated."
+      },
+      {
+        "applicationId": "military",
+        "reason": "No explicit mention of military, police, or uniformed-service use in the product data."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t11-flame-pro",
+    "primary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 62,
+      "evidence": [
+        "Application | Flame Retardant Coveralls",
+        "Flame retardant, vat dyed, workwear fabrics resistant up to 100 wash",
+        "categorySourceGroup: Flame Retardant, Vat Dyed, Workwear Fabrics"
+      ],
+      "rationale": "The product is explicitly framed as a general flame-retardant workwear fabric intended for coveralls, positioned within the broader FR-workwear category rather than a single narrow sector. While it carries welding and arc certifications, the primary commercial framing is general industrial protective workwear."
+    },
+    "secondary": {
+      "applicationId": "welding",
+      "confidence": 70,
+      "evidence": [
+        "Welding Protection | Yes | EN ISO 11611",
+        "molten-metal property listed",
+        "EN ISO 11611 certification icon"
+      ],
+      "rationale": "The fabric explicitly states 'Welding Protection: Yes' with EN ISO 11611 certification and molten-metal splash resistance, providing direct independent evidence of a welding/metalworking end use beyond generic FR properties."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "EN 61482 arc rating is present but no explicit statement of electrical utility or high-voltage work context beyond the certification itself, making it weaker than the explicit welding statement."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "EN ISO 11612 is a general heat/flame protection standard, not the firefighter-specific EN 469, and no firefighting use is explicitly stated."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or uniformed-service reference in the product data."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product carries three overlapping protective certifications (welding, arc, general FR) without a single dominant explicit end-use statement, making the primary/secondary split between workwear-industrial, welding and energy somewhat ambiguous."
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t11-flame-pro",
+    "status": "resolved-review",
+    "primaryApplication": "workwear-industrial",
+    "secondaryApplication": "welding",
+    "primaryConfidence": 62,
+    "secondaryConfidence": 70,
+    "primaryEvidence": [
+      "Application | Flame Retardant Coveralls",
+      "Flame retardant, vat dyed, workwear fabrics resistant up to 100 wash",
+      "categorySourceGroup: Flame Retardant, Vat Dyed, Workwear Fabrics"
+    ],
+    "secondaryEvidence": [
+      "Welding Protection | Yes | EN ISO 11611",
+      "molten-metal property listed",
+      "EN ISO 11611 certification icon"
+    ],
+    "primaryRationale": "The product is explicitly framed as a general flame-retardant workwear fabric intended for coveralls, positioned within the broader FR-workwear category rather than a single narrow sector. While it carries welding and arc certifications, the primary commercial framing is general industrial protective workwear.",
+    "secondaryRationale": "The fabric explicitly states 'Welding Protection: Yes' with EN ISO 11611 certification and molten-metal splash resistance, providing direct independent evidence of a welding/metalworking end use beyond generic FR properties.",
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "EN 61482 arc rating is present but no explicit statement of electrical utility or high-voltage work context beyond the certification itself, making it weaker than the explicit welding statement."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "EN ISO 11612 is a general heat/flame protection standard, not the firefighter-specific EN 469, and no firefighting use is explicitly stated."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or uniformed-service reference in the product data."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product carries three overlapping protective certifications (welding, arc, general FR) without a single dominant explicit end-use statement, making the primary/secondary split between workwear-industrial, welding and energy somewhat ambiguous."
+  }
+}

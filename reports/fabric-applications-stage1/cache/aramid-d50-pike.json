@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:16:08.903Z",
+    "requestId": "req_011CcxwEqzMxPQdebaHnUFNS",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6469,
+      "outputTokens": 773
+    }
+  },
+  "product": {
+    "slug": "aramid-d50-pike",
+    "name": "Aramid D50 Pike",
+    "family": "Aramid",
+    "subFamily": "aramid-knit",
+    "familyDescriptorPl": "Dzianiny aramidowe — stretch i pika",
+    "familyDescriptorEn": "Aramid knits — stretch and piqué",
+    "categoryId": "aramid-knits",
+    "categoryNamePl": "Dzianiny aramidowe",
+    "categoryNameEn": "Aramid knits",
+    "categorySourceGroup": "Inherent Flame Retardant Aramid Knit Workwear Fabrics",
+    "weight": "220 g/m²",
+    "composition": "93% m-AR 5% p-AR 2% CF",
+    "weave": "Pike",
+    "titleDescriptor": "93% m-Aramid 5% p-Aramid 2% Carbon, Inherent Pique Flame Retardant Antistatic Fabric",
+    "specLine": "220 g/m², 93% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant",
+    "properties": [
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN 1149",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Antistatic Pique Knit Fabric 93% m-Aramid 5% p-Aramid 2% Carbon, inherent flame retardant antistatic pique knit fabric. Aramid d50 Pike fabric is universal flame retardant knit fabric for many applications.",
+      "Aramid D50 Pike is inherent flame retardant with EN 11612 certification.",
+      "Suitable for antistatic applications, certified for EN ISO 1149.",
+      "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+      "93% m-Aramid 5% p-Aramid 2% Carbon, Inherent Pique Flame Retardant Antistatic Fabric",
+      "220 g/m², 93% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant"
+    ],
+    "technicalParameters": [
+      "Fiber | 93% m-Aramid (m-AR) 5% p-Aramid (p-AR) 2% Carbon (CF) | EN ISO 2076",
+      "Yarn | 40/2 Ne Combed | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1200 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 4.0-7.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Universal T-Shirt",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Done | EN ISO 1149-5",
+      "Flame and Heat Protection | Done | EN ISO 11612",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 7 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [
+      "Flame Retardant Aramid Long Sleece Knit Shirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 1149",
+      "EN 11612",
+      "EN 61482",
+      ">> Aramid D50 Pike Data Sheet",
+      "data_sheet",
+      "EN ISO 11612 and EN 1149-5",
+      "certificate_or_test_report",
+      "EN 61482-1-2",
+      "EN 14362-1"
+    ],
+    "structure": "Pike",
+    "recordUrl": "/ariteks/fabrics/aramid-d50-pike/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "aramid-d50-pike",
+    "matches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Fabric has EN 61482 arc-flash protection (Class 1, ATPV >7 cal/cm²) and EN 1149 antistatic certification, which are relevant to electrical hazard protection, but no explicit statement ties the product to the energy sector, electrical utilities or high-voltage work."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Inherent FR aramid/carbon knit could theoretically suit heat-hazard trades, but no explicit welding, foundry or metallurgy use is stated."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "Flame retardant and heat protection standards (EN ISO 11612) are present, but no explicit firefighter or turnout-gear use is mentioned."
+      }
+    ],
+    "noMatchReason": "The product is described as a universal, inherent flame-retardant, antistatic, arc-protective aramid/carbon knit fabric intended for general FR workwear (e.g., 'Flame Retardant Universal T-Shirt'), with no explicit statement tying it to a specific taxonomy sector such as firefighting, welding, energy, or military use."
+  },
+  "normalized": {
+    "fabricSlug": "aramid-d50-pike",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Fabric has EN 61482 arc-flash protection (Class 1, ATPV >7 cal/cm²) and EN 1149 antistatic certification, which are relevant to electrical hazard protection, but no explicit statement ties the product to the energy sector, electrical utilities or high-voltage work."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "Flame retardant and heat protection standards (EN ISO 11612) are present, but no explicit firefighter or turnout-gear use is mentioned."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Inherent FR aramid/carbon knit could theoretically suit heat-hazard trades, but no explicit welding, foundry or metallurgy use is stated."
+      }
+    ],
+    "noMatchReason": "The product is described as a universal, inherent flame-retardant, antistatic, arc-protective aramid/carbon knit fabric intended for general FR workwear (e.g., 'Flame Retardant Universal T-Shirt'), with no explicit statement tying it to a specific taxonomy sector such as firefighting, welding, energy, or military use.",
+    "needsReview": true
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:43:16.047Z",
+    "requestId": "req_011CcxyK421qHLGQgmFigHb1",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 8937,
+      "outputTokens": 467
+    }
+  },
+  "product": {
+    "slug": "aripenye",
+    "name": "Ari Penye",
+    "family": "Ari",
+    "subFamily": "aripam",
+    "familyDescriptorPl": "Tkaniny i dzianiny z włókna AriPam odporne na UV",
+    "familyDescriptorEn": "UV-resistant AriPam fibre fabrics and knits",
+    "categoryId": "aripam-spun",
+    "categoryNamePl": "Tkaniny z włókna AriPam",
+    "categoryNameEn": "AriPam spun fabrics",
+    "categorySourceGroup": "AriPam spun fabrics for shoe lining",
+    "weight": "140 g/m²",
+    "composition": "100% AriPam",
+    "weave": "Twill",
+    "titleDescriptor": "100% AriPam uv resistant jersey fabric",
+    "specLine": "140 g/m², 100% AriPam, Uv protective, Jersey Knit Fabric",
+    "properties": [
+      "uv-protection"
+    ],
+    "norms": [
+      "EN 13758",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% AriPam jersey knit fabric.",
+      "It is used as a lining inside of the shoes.",
+      "Ari Penye can also be used on promotional t-shirts.",
+      "100% AriPam uv resistant jersey fabric",
+      "140 g/m², 100% AriPam, Uv protective, Jersey Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% AriPam | EN ISO 2076",
+      "Yarn | 30/1 Ne | EN ISO 2060",
+      "Weight | 140 ±10 g/m² | EN ISO 3081",
+      "Width | 1700 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4,0 - 7,5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Lining for shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Uv Protection",
+      ">> Ari Penye Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Twill",
+    "recordUrl": "/ariteks/fabrics/aripenye/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Description mentions use on promotional t-shirts, but no explicit athletic/sportswear use is stated."
+      }
+    ],
+    "noMatchReason": "Product is explicitly described as a UV-resistant jersey knit fabric used as shoe lining and for promotional t-shirts; no explicit connection to any listed industry application (military, firefighting, energy, welding, motorcycle, hivis, medical, sport, architecture-building, transport) is stated."
+  },
+  "modelOutput": {
+    "fabricSlug": "aripenye",
+    "primary": {
+      "applicationId": "footwear-components",
+      "confidence": 85,
+      "evidence": [
+        "categorySourceGroup: AriPam spun fabrics for shoe lining",
+        "Application | Lining for shoes",
+        "It is used as a lining inside of the shoes."
+      ],
+      "rationale": "The product is explicitly and repeatedly described as a shoe lining fabric, with the category itself named for shoe lining and a technical parameter stating 'Application | Lining for shoes'. This is the clearest, most direct commercial use."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "The promotional t-shirt mention is a secondary alternative use but does not correspond to any specific taxonomy application (not explicitly sport, outdoor, or workwear); it's too generic to support a distinct secondary application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Only promotional t-shirts are mentioned, not athletic or performance sportswear use."
+      },
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "No explicit outdoor or leisure garment use stated."
+      },
+      {
+        "applicationId": "print-signage",
+        "reasonNotSelected": "Promotional t-shirts are not printed signage products; no explicit print/display use stated."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "aripenye",
+    "status": "resolved",
+    "primaryApplication": "footwear-components",
+    "secondaryApplication": null,
+    "primaryConfidence": 85,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categorySourceGroup: AriPam spun fabrics for shoe lining",
+      "Application | Lining for shoes",
+      "It is used as a lining inside of the shoes."
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly and repeatedly described as a shoe lining fabric, with the category itself named for shoe lining and a technical parameter stating 'Application | Lining for shoes'. This is the clearest, most direct commercial use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Only promotional t-shirts are mentioned, not athletic or performance sportswear use."
+      },
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "No explicit outdoor or leisure garment use stated."
+      },
+      {
+        "applicationId": "print-signage",
+        "reasonNotSelected": "Promotional t-shirts are not printed signage products; no explicit print/display use stated."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

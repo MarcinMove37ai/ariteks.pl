@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:03:48.499Z",
+    "requestId": "req_011CcxvJQ4PgBvqAHRkLfB1A",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5794,
+      "outputTokens": 283
+    }
+  },
+  "product": {
+    "slug": "arbayrak",
+    "name": "ArBayrak",
+    "family": "ArBayrak",
+    "subFamily": "arbayrak",
+    "familyDescriptorPl": "Tkanina flagowa i sygnalizacyjna",
+    "familyDescriptorEn": "Flag and signal fabric",
+    "categoryId": "flag-fabrics",
+    "categoryNamePl": "Tkaniny flagowe",
+    "categoryNameEn": "Flag fabrics",
+    "categorySourceGroup": "Fabrics For Flags",
+    "weight": "120 g/m²",
+    "composition": "100% PES",
+    "weave": "Plain",
+    "titleDescriptor": "Fabric for Car Emergency Tripod",
+    "specLine": "120 g/m², 100% Polyester, Flag Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "%100 polyester fabric for car reflective emergency warning tripod",
+      "Fabric for Car Emergency Tripod",
+      "120 g/m², 100% Polyester, Flag Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 75/36 Denier | EN ISO 2060",
+      "Weight | 120 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flag for Emergency Tripod",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Car Reflective Emergency Tripod"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArBayrak Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Plain",
+    "recordUrl": "/ariteks/fabrics/arbayrak/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arbayrak",
+    "matches": [
+      {
+        "applicationId": "transport",
+        "confidence": 85,
+        "evidence": [
+          "Fabric for Car Emergency Tripod",
+          "%100 polyester fabric for car reflective emergency warning tripod",
+          "Application | Flag for Emergency Tripod",
+          "applicationImageLabels: Car Reflective Emergency Tripod"
+        ],
+        "rationale": "The fabric is explicitly stated to be used for a car emergency warning tripod, a vehicle-related safety equipment item, directly tying it to the transport/automotive sector."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "hivis",
+        "reason": "Product is used as a reflective/warning tripod component but no explicit hi-vis EN ISO 20471 garment or certified high-visibility clothing use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arbayrak",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "hivis",
+        "reason": "Product is used as a reflective/warning tripod component but no explicit hi-vis EN ISO 20471 garment or certified high-visibility clothing use is stated."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "The fabric is explicitly stated to be used for a car emergency warning tripod, a vehicle-related safety equipment item, directly tying it to the transport/automotive sector."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

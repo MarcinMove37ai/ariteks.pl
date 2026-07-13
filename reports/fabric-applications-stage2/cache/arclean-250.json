@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:36:04.198Z",
+    "requestId": "req_011CcxxmJ8vuMc5qWFCPeWdr",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 8961,
+      "outputTokens": 399
+    }
+  },
+  "product": {
+    "slug": "arclean-250",
+    "name": "ArClean 250",
+    "family": "ArClean",
+    "subFamily": "arclean",
+    "familyDescriptorPl": "Mikrofibra czyszcząca do zastosowań przemysłowych",
+    "familyDescriptorEn": "Industrial microfibre cleaning fabric",
+    "categoryId": "cleaning",
+    "categoryNamePl": "Tkaniny czyszczące",
+    "categoryNameEn": "Cleaning fabrics",
+    "categorySourceGroup": "Cleaning Fabrics",
+    "weight": "250 g/m²",
+    "composition": "80% PES 20% PA6",
+    "weave": "Plain",
+    "titleDescriptor": "80% polyester 20% polyamide microfiber cleaning cloth fabric",
+    "specLine": "250 g/m², 80% Polyester 20% Polyamide, microfiber warp knit fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArClean 250 is microfiber cloth fabric, mostly used to make cleaning cloth.",
+      "Available in neon color and large width.",
+      "80% polyester 20% polyamide microfiber cleaning cloth fabric",
+      "250 g/m², 80% Polyester 20% Polyamide, microfiber warp knit fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 80% Polyester(PES) 20% Polyamide(Pa6) | EN ISO 2076",
+      "Yarn | 150/288 Ne | EN ISO 2060",
+      "Weight | 250 ±10 g/m² | EN ISO 3081",
+      "Width | 2100 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 2000 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4,0 - 7,5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Microfiber Cleaning Cloth",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Microfiber Cleaning Cloth",
+      "Mcrofiber Cleaning Cloth",
+      "Microfiber Cleaning Cloth Printed",
+      "Mcrofiber Cleaning Cloth Printed"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArClean 250 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Plain",
+    "recordUrl": "/ariteks/fabrics/arclean-250/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "Product is a microfiber cleaning cloth fabric intended for industrial cleaning applications (cleaning cloth manufacture); no explicit link to any listed application sector such as military, firefighting, energy, welding, motorcycle, hivis, medical, sport, architecture-building or transport is stated in the supplied data."
+  },
+  "modelOutput": {
+    "fabricSlug": "arclean-250",
+    "primary": {
+      "applicationId": "professional-cleaning",
+      "confidence": 97,
+      "evidence": [
+        "Application | Microfiber Cleaning Cloth",
+        "descriptions: 'mostly used to make cleaning cloth'",
+        "categorySourceGroup: Cleaning Fabrics",
+        "applicationImageLabels: Microfiber Cleaning Cloth"
+      ],
+      "rationale": "The product is explicitly and consistently described as a microfiber cleaning cloth fabric intended for industrial cleaning applications, matching professional-cleaning directly."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independent secondary end use is stated; all evidence points solely to cleaning cloth manufacture."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No garment or protective workwear use is stated; the product is specifically a cleaning cloth fabric."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "No medical or healthcare use is stated despite OEKO-TEX certification."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arclean-250",
+    "status": "resolved",
+    "primaryApplication": "professional-cleaning",
+    "secondaryApplication": null,
+    "primaryConfidence": 97,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Application | Microfiber Cleaning Cloth",
+      "descriptions: 'mostly used to make cleaning cloth'",
+      "categorySourceGroup: Cleaning Fabrics",
+      "applicationImageLabels: Microfiber Cleaning Cloth"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly and consistently described as a microfiber cleaning cloth fabric intended for industrial cleaning applications, matching professional-cleaning directly.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No garment or protective workwear use is stated; the product is specifically a cleaning cloth fabric."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "No medical or healthcare use is stated despite OEKO-TEX certification."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

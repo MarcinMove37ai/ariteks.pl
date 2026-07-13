@@ -10,10 +10,14 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link, routing, type Locale } from '@/i18n/routing';
 import RfqButton from '@/components/RfqButton';
+import ApplicationProductSections from '@/components/applications/ApplicationProductSections';
+import type { ApplicationId } from '@/content/fabric-application-overrides';
+import { getApplicationHighlights } from '@/lib/applicationHighlights';
 import {
   APPLICATIONS,
   getApplicationBySlug,
 } from '@/content/applications';
+import { getApplicationMarketingContent } from '@/content/application-page-content';
 
 // Statyczne generowanie: wszystkie branze x wszystkie jezyki
 export function generateStaticParams() {
@@ -53,7 +57,14 @@ export default async function ApplicationPage({
   const common = await getTranslations('common');
   const cta = await getTranslations('home.cta');
 
-  const content = app.content;
+  const content =
+    app.content ??
+    getApplicationMarketingContent(
+      app.id as ApplicationId,
+    );
+  const highlights = getApplicationHighlights(
+    app.id as ApplicationId,
+  );
 
   return (
     <main>
@@ -73,10 +84,13 @@ export default async function ApplicationPage({
               {content ? content.heroLead[loc] : app.short[loc]}
             </p>
 
-            {app.badges.length > 0 && (
+            {highlights.featured.length > 0 && (
               <div className="mt-10 flex flex-wrap gap-2.5">
-                {app.badges.map((badge) => (
-                  <span key={badge} className="norm-badge norm-badge-dark">
+                {highlights.featured.map((badge) => (
+                  <span
+                    key={badge}
+                    className="norm-badge norm-badge-dark"
+                  >
                     {badge}
                   </span>
                 ))}
@@ -131,57 +145,29 @@ export default async function ApplicationPage({
         </section>
       )}
 
-      {/* ==================== RODZINY TKANIN (tresc bogata) ==================== */}
-      {content && content.families.length > 0 && (
-        <section className="bg-paper border-y border-steel-line">
-          <div className="container-site py-16 sm:py-20">
-            <h2 className="font-display text-display-lg font-bold text-ink text-balance">
-              {content.familiesHeading[loc]}
-            </h2>
+      {/* ==================== PRODUKTY APLIKACJI ==================== */}
+      <ApplicationProductSections
+        applicationId={app.id as ApplicationId}
+        locale={loc}
+      />
 
-            <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
-              {content.families.map((family) => (
-                <article
-                  key={family.name}
-                  className="rounded-lg border border-steel-line bg-surface p-6 shadow-card"
-                >
-                  <h3 className="font-display text-2xl font-bold tracking-tight text-ink">
-                    {family.name}
-                  </h3>
-                  <p className="mt-2 font-mono text-xs uppercase tracking-wider text-steel">
-                    {family.spec}
-                  </p>
-                  <p className="mt-4 text-sm leading-relaxed text-ink-soft">
-                    {family.desc[loc]}
-                  </p>
-                  {family.badges && family.badges.length > 0 && (
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      {family.badges.map((badge) => (
-                        <span key={badge} className="norm-badge">
-                          {badge}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </article>
+      {/* ==================== POZOSTALE DOWODY TECHNICZNE ==================== */}
+      {highlights.remaining.length > 0 && (
+        <section className="border-b border-steel-line bg-paper">
+          <div className="container-site py-10 sm:py-12">
+            <p className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-steel">
+              {loc === 'pl'
+                ? 'Pozostałe technologie, normy i metody badań'
+                : 'Additional technologies, standards and test methods'}
+            </p>
+
+            <div className="mt-4 flex flex-wrap items-center gap-2.5">
+              {highlights.remaining.map((badge) => (
+                <span key={badge} className="norm-badge">
+                  {badge}
+                </span>
               ))}
             </div>
-
-            {/* Pas norm badawczych tej branzy */}
-            {content.norms.length > 0 && (
-              <div className="mt-12 border-t border-steel-line pt-8">
-                <p className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-steel">
-                  {content.normsHeading[loc]}
-                </p>
-                <div className="mt-4 flex flex-wrap items-center gap-2.5">
-                  {content.norms.map((norm) => (
-                    <span key={norm} className="norm-badge">
-                      {norm}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
         </section>
       )}
@@ -202,7 +188,7 @@ export default async function ApplicationPage({
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
               <RfqButton
-
+                applicationId={app.id as ApplicationId}
                 className="inline-flex items-center rounded bg-red-500 px-8 py-4 text-sm font-semibold uppercase tracking-wide text-white transition-colors duration-200 hover:bg-red-600"
               >
                 {cta('button')}

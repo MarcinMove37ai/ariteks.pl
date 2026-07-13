@@ -1,24 +1,28 @@
 // src/components/RfqButton.tsx
-// Kliencki przycisk otwierajacy modal RFQ — zamiennik <Link href="/contact">
-// w komponentach serwerowych (strona glowna, podstrony branzowe).
-// Przyjmuje className i children 1:1, wiec podmiana jest mechaniczna:
-//   <Link href="/contact" className="...">X</Link>
-//   -> <RfqButton className="...">X</RfqButton>
+// Kliencki przycisk otwierajacy modal RFQ.
+// Moze przekazac domyslna aplikacje do selecta formularza.
 
 'use client';
 
 import type { ReactNode } from 'react';
+import type { ApplicationId } from '@/content/fabric-application-overrides';
 import { openRfq } from './RfqModal';
 
 export default function RfqButton({
   className,
   children,
+  applicationId,
 }: {
   className?: string;
   children: ReactNode;
+  applicationId?: ApplicationId;
 }) {
   return (
-    <button type="button" onClick={openRfq} className={className}>
+    <button
+      type="button"
+      onClick={() => openRfq(applicationId)}
+      className={className}
+    >
       {children}
     </button>
   );

@@ -1,0 +1,182 @@
+{
+  "promptVersion": 1,
+  "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+  "applications": [
+    {
+      "id": "military",
+      "namePl": "Wojsko i służby mundurowe",
+      "nameEn": "Military and uniformed services",
+      "shortPl": "Tkaniny mundurowe ArDura (PA 6.6) dla wojska i policji, kombinezony pirotechniczne, siatki maskujące, dzianiny 3D.",
+      "shortEn": "ArDura (PA 6.6) uniform fabrics for military and police, bomb-disposal suits, camouflage mesh, 3D warp knits.",
+      "include": "Military, police, uniformed services, tactical uniforms, bomb-disposal suits, camouflage or service equipment explicitly stated in the product data.",
+      "exclude": "Do not match generic durable workwear, generic PA 6.6, ripstop or cut resistance unless military, police, tactical or uniformed-service use is explicitly stated.",
+      "priorityGuidance": "Choose this as primary when it is the most direct and commercially central end use stated by the product data.",
+      "source": "existing"
+    },
+    {
+      "id": "firefighting",
+      "namePl": "Straż pożarna",
+      "nameEn": "Firefighting",
+      "shortPl": "Ubrania bojowe: tkanina ArBo z włóknem PBO — najwytrzymalsza syntetyczna tkanina świata, badana według EN 469.",
+      "shortEn": "Turnout gear: ArBo fabric with PBO fibre — the world’s strongest synthetic fabric, tested to EN 469.",
+      "include": "Structural firefighting, turnout gear, firefighter suits or fabrics explicitly described for fire brigades and firefighting protective clothing.",
+      "exclude": "Do not match merely because a fabric is flame-retardant, heat-resistant or aramid. Generic FR workwear belongs elsewhere unless firefighter use is explicit.",
+      "priorityGuidance": "Choose this as primary when it is the most direct and commercially central end use stated by the product data.",
+      "source": "existing"
+    },
+    {
+      "id": "energy",
+      "namePl": "Energetyka",
+      "nameEn": "Energy sector",
+      "shortPl": "Ochrona przed łukiem elektrycznym i tkaniny antystatyczne. Rodzina ArWoWear EMK: ekranowanie EMI, ochrona przy wysokim napięciu.",
+      "shortEn": "Electric-arc protection and antistatic fabrics. The ArWoWear EMK family: EMI shielding and high-voltage protection.",
+      "include": "Electrical utilities, electric-arc protection, high-voltage work, electrical installations or EMI shielding explicitly connected with electrical/electronic environments.",
+      "exclude": "Antistatic or flame-retardant properties alone are insufficient. Do not infer the energy sector from EN 1149 or FR performance alone.",
+      "priorityGuidance": "Choose this as primary when it is the most direct and commercially central end use stated by the product data.",
+      "source": "existing"
+    },
+    {
+      "id": "welding",
+      "namePl": "Hutnictwo i spawalnictwo",
+      "nameEn": "Metallurgy and welding",
+      "shortPl": "Tkaniny chroniące przed rozbryzgiem metalu, ciepłem i płomieniem: bawełna FR, mieszanki antystatyczne.",
+      "shortEn": "Fabrics protecting against metal splash, heat and flame: FR cotton and antistatic blends.",
+      "include": "Welding, foundry, metallurgy, molten-metal splash, metalworking or explicitly stated heat/flame hazards in industrial metal processing.",
+      "exclude": "Generic FR workwear is insufficient unless welding, foundry, metallurgy, molten metal or closely related metal-processing use is explicit.",
+      "priorityGuidance": "Choose this as primary when it is the most direct and commercially central end use stated by the product data.",
+      "source": "existing"
+    },
+    {
+      "id": "motorcycle",
+      "namePl": "Odzież motocyklowa",
+      "nameEn": "Motorcycle apparel",
+      "shortPl": "Tkaniny ArDura (PA 6.6) i denim odporny na ścieranie. Produkcja na bazie włókien CORDURA®.",
+      "shortEn": "ArDura (PA 6.6) fabrics and abrasion-resistant denim. Manufactured with CORDURA® fibres.",
+      "include": "Motorcycle protective apparel, motorcyclist garments or materials explicitly developed for motorcycle abrasion, impact-zone or riding apparel.",
+      "exclude": "Do not match automotive upholstery, vehicle interiors or generic abrasion-resistant clothing without explicit motorcycle use.",
+      "priorityGuidance": "Choose this as primary when it is the most direct and commercially central end use stated by the product data.",
+      "source": "existing"
+    },
+    {
+      "id": "hivis",
+      "namePl": "Odzież ostrzegawcza hi-vis",
+      "nameEn": "High-visibility apparel",
+      "shortPl": "Rodzina dzianin ArNeo — ponad 15 wariantów tkanin fluorescencyjnych, także w wersji trudnopalnej.",
+      "shortEn": "The ArNeo family — over 15 fluorescent warp knit variants, including flame-retardant versions.",
+      "include": "Certified high-visibility warning clothing, fluorescent safety garments or explicit EN ISO 20471 / safety-jacket use.",
+      "exclude": "Bright colour, neon colour or reflective appearance alone is insufficient without explicit high-visibility safety use.",
+      "priorityGuidance": "Choose this as primary when it is the most direct and commercially central end use stated by the product data.",
+      "source": "existing"
+    },
+    {
+      "id": "medical",
+      "namePl": "Medycyna",
+      "nameEn": "Medical",
+      "shortPl": "Tkaniny antywirusowe i antybakteryjne na odzież medyczną wielokrotnego użytku oraz tkaniny barierowe.",
+      "shortEn": "Antiviral and antibacterial fabrics for reusable medical wear, plus barrier fabrics.",
+      "include": "Medical, healthcare, hospital, protective medical garments, medical barriers, or antibacterial/antiviral products explicitly positioned for medical use.",
+      "exclude": "Antibacterial, antiviral, waterproof or easy-clean properties alone are insufficient if the source does not state a medical or healthcare use.",
+      "priorityGuidance": "Choose this as primary when it is the most direct and commercially central end use stated by the product data.",
+      "source": "existing"
+    },
+    {
+      "id": "sport",
+      "namePl": "Sport",
+      "nameEn": "Sport",
+      "shortPl": "Dzianiny funkcyjne: oddychające, szybkoschnące, z ochroną UV i wykończeniem antybakteryjnym.",
+      "shortEn": "Functional knits: breathable, quick-drying, with UV protection and antibacterial finishes.",
+      "include": "Sportswear, athletic garments, training apparel or explicitly stated performance-sport use.",
+      "exclude": "Stretch, breathability, mesh or moisture management alone are insufficient without explicit sport or athletic use.",
+      "priorityGuidance": "Choose this as primary when it is the most direct and commercially central end use stated by the product data.",
+      "source": "existing"
+    },
+    {
+      "id": "architecture-building",
+      "namePl": "Tkaniny architektoniczne i budowlane",
+      "nameEn": "Architectural and building fabrics",
+      "shortPl": "Membrany architektoniczne, sufity napinane, tekstylne elementy wnętrz oraz materiały przeznaczone bezpośrednio do budownictwa.",
+      "shortEn": "Architectural membranes, stretch ceilings, textile interior systems and fabrics explicitly intended for building applications.",
+      "include": "Architectural membranes, tensile structures, stretch ceilings, textile building systems, interior tension panels, light-diffusing architectural textiles or products explicitly intended as part of a building.",
+      "exclude": "Do not match ordinary apparel, generic outdoor fabric, furniture fabric, flags, cleaning textiles or print media. Tents and awnings qualify only when the source explicitly frames them as architectural/building systems.",
+      "priorityGuidance": "Stretch-ceiling products belong to architecture-building when the product data explicitly states a ceiling or architectural building-system use.",
+      "source": "stage1-new"
+    },
+    {
+      "id": "transport",
+      "namePl": "Tkaniny dla transportu",
+      "nameEn": "Transport fabrics",
+      "shortPl": "Tkaniny do samochodów, kolei, transportu publicznego, jednostek pływających oraz wyposażenia i tapicerki pojazdów.",
+      "shortEn": "Fabrics for automotive, rail, public transport, marine vessels, vehicle equipment, interiors and upholstery.",
+      "include": "Automotive, rail, public transport, marine/boat, aircraft, vehicle seating, vehicle interiors, transport upholstery or technical equipment explicitly intended for vehicles or vessels.",
+      "exclude": "Do not match ordinary footwear, furniture upholstery or generic outdoor fabric. Motorcycle protective clothing stays under motorcycle and does not automatically inherit transport.",
+      "priorityGuidance": "A product may match motorcycle and transport only when the supplied data independently states both uses.",
+      "source": "stage1-new"
+    },
+    {
+      "id": "workwear-industrial",
+      "namePl": "Odzież robocza i przemysłowa",
+      "nameEn": "Workwear and industrial apparel",
+      "shortPl": "Tkaniny na ogólną odzież roboczą i ochronną dla przemysłu, produkcji, serwisu, logistyki, branży chemicznej oraz oil & gas.",
+      "shortEn": "Fabrics for general workwear and protective industrial apparel used in manufacturing, service, logistics, chemical and oil & gas environments.",
+      "include": "General workwear, industrial uniforms, coveralls, workshop garments, chemical-resistant workwear, generic FR or antistatic workwear, oil-and-gas work clothing and durable occupational apparel.",
+      "exclude": "Use a more specific application as primary when the product is explicitly for military, firefighting, electrical utilities, welding/metallurgy, medical, motorcycle or certified high-visibility clothing.",
+      "priorityGuidance": "Choose as primary when the product is fundamentally general workwear or industrial protective apparel rather than a narrower named sector.",
+      "source": "stage2-new"
+    },
+    {
+      "id": "outdoor-functional",
+      "namePl": "Outdoor i odzież funkcjonalna",
+      "nameEn": "Outdoor and functional apparel",
+      "shortPl": "Tkaniny na kurtki, płaszcze, odzież outdoorową, przeciwdeszczową i funkcjonalną oraz tekstylia turystyczne i rekreacyjne.",
+      "shortEn": "Fabrics for jackets, rainwear, outdoor and functional garments, plus tourism, camping and recreational textile products.",
+      "include": "Outdoor clothing, jackets, raincoats, bodywarmers, functional apparel, leisure garments, camping textiles, non-architectural tents and weather-protective textile products.",
+      "exclude": "Do not use for structural architectural membranes, vehicle upholstery, technical footwear components, sportswear explicitly positioned for athletics, or ordinary industrial workwear.",
+      "priorityGuidance": "Choose as primary when outdoor, leisure, rainwear, camping or general functional garment use is the clearest commercial purpose.",
+      "source": "stage2-new"
+    },
+    {
+      "id": "footwear-components",
+      "namePl": "Obuwie i komponenty techniczne",
+      "nameEn": "Footwear and technical components",
+      "shortPl": "Tkaniny i dzianiny do obuwia, cholewek, podszewek, wkładek, amortyzacji, siatek dystansowych i ochronnych komponentów technicznych.",
+      "shortEn": "Fabrics and knits for footwear, uppers, linings, insoles, cushioning, spacer meshes and protective technical components.",
+      "include": "Shoe fabrics, footwear uppers, linings, insoles, spacer meshes, cushioning, breathable shoe structures and protective footwear components.",
+      "exclude": "Do not use merely because an image shows a person wearing shoes. Vehicle seating belongs to transport; ordinary furniture upholstery belongs to upholstery-interiors.",
+      "priorityGuidance": "Choose as primary when footwear or a shoe component is the product’s clearest direct use. A sector such as military or sport may be secondary when independently stated.",
+      "source": "stage2-new"
+    },
+    {
+      "id": "upholstery-interiors",
+      "namePl": "Tapicerka i wyposażenie wnętrz",
+      "nameEn": "Upholstery and interior furnishings",
+      "shortPl": "Tkaniny do mebli, foteli biurowych, siedzisk, dekoracji wnętrz, paneli i innych nietransportowych zastosowań tapicerskich.",
+      "shortEn": "Fabrics for furniture, office seating, non-vehicle seats, interior decoration, panels and other non-transport upholstery.",
+      "include": "Furniture upholstery, office chairs, interior furnishings, non-vehicle seating, decorative interior textiles and soft interior components.",
+      "exclude": "Vehicle, rail, aircraft or marine interiors belong primarily to transport. Architectural tension systems belong to architecture-building.",
+      "priorityGuidance": "Choose as primary when furniture, office seating or ordinary interior furnishing is the clearest product use.",
+      "source": "stage2-new"
+    },
+    {
+      "id": "print-signage",
+      "namePl": "Druk, reklama i oznakowanie",
+      "nameEn": "Printing, advertising and signage",
+      "shortPl": "Tkaniny do druku cyfrowego, flag, banerów, oznakowania, reklamy, ekspozycji i tekstylnych elementów sygnalizacyjnych.",
+      "shortEn": "Fabrics for digital printing, flags, banners, signage, advertising, displays and textile warning or signalling elements.",
+      "include": "Digital-print fabrics, flags, banners, advertising textiles, display materials, signs, warning tripods and textile signalling products.",
+      "exclude": "Certified high-visibility garments belong to hivis. Structural architectural membranes belong to architecture-building.",
+      "priorityGuidance": "Choose as primary when the fabric’s final product is printed, displayed, used as a flag, sign or signalling object.",
+      "source": "stage2-new"
+    },
+    {
+      "id": "professional-cleaning",
+      "namePl": "Czyszczenie profesjonalne",
+      "nameEn": "Professional cleaning",
+      "shortPl": "Mikrofibry i tekstylia do czyszczenia przemysłowego, profesjonalnego i specjalistycznego.",
+      "shortEn": "Microfibres and textiles for industrial, professional and specialist cleaning.",
+      "include": "Cleaning cloths, industrial microfibre, wiping, polishing and professional surface-cleaning textiles.",
+      "exclude": "Do not use for medical barrier fabrics or ordinary apparel merely because they are washable or easy to clean.",
+      "priorityGuidance": "Choose as primary when cleaning or wiping is the direct intended use.",
+      "source": "stage2-new"
+    }
+  ]
+}

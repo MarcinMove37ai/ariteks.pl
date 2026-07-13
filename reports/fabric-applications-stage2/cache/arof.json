@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:18.839Z",
+    "requestId": "req_011CcxyEtJFnjtTAJ1rpkdA8",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9103,
+      "outputTokens": 382
+    }
+  },
+  "product": {
+    "slug": "arof",
+    "name": "Arof",
+    "family": "Arof",
+    "subFamily": "arof",
+    "familyDescriptorPl": "Lekkie siatki i dresówki",
+    "familyDescriptorEn": "Light mesh and tracksuit fabrics",
+    "categoryId": "tracksuit-mesh",
+    "categoryNamePl": "Dresówki i lekkie siatki",
+    "categoryNameEn": "Tracksuit & light mesh",
+    "categorySourceGroup": "Track Suit and Light Mesh Fabrics",
+    "weight": "220 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Track Suit Fabric",
+    "specLine": "220 g/m², 100% Polyester, Warp Knit Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Arof 100% polyester, 220 g/m² warp knitted fabric for track suit with thermal protection function. Backside of the fabric is fleece.",
+      "It is mostly used as sport suits for runners and soldiers.",
+      "Track Suit Fabric",
+      "220 g/m², 100% Polyester, Warp Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 75/144 Denier | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1500 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Track Suit",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Track Suit"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> Arof Data Sheet",
+      "data_sheet",
+      "TS EN ISO 105 B02",
+      "certificate_or_test_report",
+      "TS EN ISO 105 X12",
+      "ISO 13938-1",
+      "TS EN ISO 105 C01",
+      "TS EN ISO 105 E04",
+      "TS_530",
+      "TS_1833",
+      "TS_3071",
+      "TS_6330",
+      "TS_12127"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arof/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "sport",
+        "confidence": 90,
+        "evidence": [
+          "It is mostly used as sport suits for runners and soldiers.",
+          "Track Suit Fabric",
+          "applicationImageLabels: Track Suit"
+        ],
+        "rationale": "Explicitly described as a track suit fabric used for runners' sport suits, with track suit application image label."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Explicit statement that the fabric is used for soldiers, indicating direct military use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arof",
+    "primary": {
+      "applicationId": "sport",
+      "confidence": 85,
+      "evidence": [
+        "It is mostly used as sport suits for runners and soldiers.",
+        "Track Suit Fabric",
+        "applicationImageLabels: Track Suit"
+      ],
+      "rationale": "The fabric is explicitly described as a track suit fabric primarily used for sports (runners), with the application field and image label both indicating Track Suit as the direct commercial use."
+    },
+    "secondary": {
+      "applicationId": "military",
+      "confidence": 55,
+      "evidence": [
+        "It is mostly used as sport suits for runners and soldiers."
+      ],
+      "rationale": "The description explicitly states use by soldiers, an independent stated end use distinct from sport, supporting military as a secondary application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "No explicit outdoor/leisure use stated; track suit context is sport-specific."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No general industrial workwear use stated; product is a sport/military track suit fabric."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arof",
+    "status": "resolved-review",
+    "primaryApplication": "sport",
+    "secondaryApplication": null,
+    "primaryConfidence": 85,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "It is mostly used as sport suits for runners and soldiers.",
+      "Track Suit Fabric",
+      "applicationImageLabels: Track Suit"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly described as a track suit fabric primarily used for sports (runners), with the application field and image label both indicating Track Suit as the direct commercial use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "No explicit outdoor/leisure use stated; track suit context is sport-specific."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No general industrial workwear use stated; product is a sport/military track suit fabric."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

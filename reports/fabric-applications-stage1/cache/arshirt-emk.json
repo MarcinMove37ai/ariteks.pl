@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:16:51.329Z",
+    "requestId": "req_011CcxwHc4JNzeKCMzYULzUi",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6133,
+      "outputTokens": 1236
+    }
+  },
+  "product": {
+    "slug": "arshirt-emk",
+    "name": "ArShirt EMK",
+    "family": "ArShirt",
+    "subFamily": "aremk",
+    "familyDescriptorPl": "Tkaniny ekranujące EMI",
+    "familyDescriptorEn": "EMI shielding fabrics",
+    "categoryId": "emi",
+    "categoryNamePl": "Tkaniny ekranujące EMI",
+    "categoryNameEn": "EMI shielding fabrics",
+    "categorySourceGroup": "Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+    "weight": "220 g/m²",
+    "composition": "80% PES 20% MTF",
+    "weave": "Pique",
+    "titleDescriptor": "80% Polyester 20% Stainless Steel Knit Fabric",
+    "specLine": "220 g/m², 80% Polyester 20% Stainless Steel, EMI shielding, pique knit fabric. 80% Polyester 20% Stainless Steel emi shielding pique knit fabric",
+    "properties": [
+      "emi"
+    ],
+    "norms": [
+      "IEC 60895",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArShirt EMK fabrics can be used as emi shileding for walls and baby cloth by reducing all kind of elecrectromagneic waves.",
+      "Another application is conductive clothing for live line workers, anti-radar applications for military cages, ani-stress, and pain reducer bandages.",
+      "ArShirt EMK is certfied as 60895 for line workers clothing.",
+      "80% Polyester 20% Stainless Steel Knit Fabric",
+      "220 g/m², 80% Polyester 20% Stainless Steel, EMI shielding, pique knit fabric. 80% Polyester 20% Stainless Steel emi shielding pique knit fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 80% Polyester (CO) 20% Stainless Steel (MTF) | EN ISO 2076",
+      "Yarn | 40/2 Ne Combed | EN ISO 2060",
+      "Weight | 220 ±15 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1500 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 2-3 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 2-3 | EN ISO 105 N01",
+      "Peroxide Fastness | 3-4 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 2-3 | EN ISO 105 B07",
+      "pH | 4.0-9.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Faraday Cage Suits",
+      "Quality Management | Done | ISO 9001",
+      "Line Workers | Done | IEC 60895"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "IEC 60895",
+      "EMI SHIELDING",
+      ">> ArShirt EMK Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Pique",
+    "recordUrl": "/ariteks/fabrics/arshirt-emk/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arshirt-emk",
+    "matches": [
+      {
+        "applicationId": "energy",
+        "confidence": 90,
+        "evidence": [
+          "Conductive clothing for live line workers, anti-radar applications for military cages, ani-stress, and pain reducer bandages.",
+          "ArShirt EMK is certfied as 60895 for line workers clothing.",
+          "categorySourceGroup: Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+          "norms: IEC 60895"
+        ],
+        "rationale": "Explicit certification (IEC 60895) and description of conductive clothing for live line workers directly ties the fabric to high-voltage energy sector work."
+      },
+      {
+        "applicationId": "military",
+        "confidence": 70,
+        "evidence": [
+          "Another application is conductive clothing for live line workers, anti-radar applications for military cages, ani-stress, and pain reducer bandages."
+        ],
+        "rationale": "The product description explicitly states an anti-radar application for 'military cages', directly linking it to a military use case."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "architecture-building",
+        "reason": "Description mentions EMI shielding for walls, which suggests a building-integrated use, but this is not framed as an architectural membrane or formal building system, so evidence is insufficient for a precise match."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Mentions 'baby cloth' and 'pain reducer bandages' and anti-stress use, but these are generic wellness mentions rather than an explicit medical/healthcare application context."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arshirt-emk",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "energy",
+        "confidence": 90,
+        "evidence": [
+          "Conductive clothing for live line workers, anti-radar applications for military cages, ani-stress, and pain reducer bandages.",
+          "ArShirt EMK is certfied as 60895 for line workers clothing.",
+          "categorySourceGroup: Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+          "norms: IEC 60895"
+        ],
+        "rationale": "Explicit certification (IEC 60895) and description of conductive clothing for live line workers directly ties the fabric to high-voltage energy sector work."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "architecture-building",
+        "reason": "Description mentions EMI shielding for walls, which suggests a building-integrated use, but this is not framed as an architectural membrane or formal building system, so evidence is insufficient for a precise match."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Mentions 'baby cloth' and 'pain reducer bandages' and anti-stress use, but these are generic wellness mentions rather than an explicit medical/healthcare application context."
+      },
+      {
+        "applicationId": "military",
+        "reason": "The product description explicitly states an anti-radar application for 'military cages', directly linking it to a military use case."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

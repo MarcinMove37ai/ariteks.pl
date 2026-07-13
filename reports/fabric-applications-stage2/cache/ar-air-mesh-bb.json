@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:43:26.388Z",
+    "requestId": "req_011CcxyKaSbrPLdoT7T17B3h",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9318,
+      "outputTokens": 747
+    }
+  },
+  "product": {
+    "slug": "ar-air-mesh-bb",
+    "name": "ArAir Mesh BB",
+    "family": "ArAir",
+    "subFamily": "arairmesh",
+    "familyDescriptorPl": "Dzianiny dystansowe 3D na siedziska i obuwie",
+    "familyDescriptorEn": "3D spacer mesh for seating and footwear",
+    "categoryId": "air-mesh-3d",
+    "categoryNamePl": "Siatki dystansowe 3D",
+    "categoryNameEn": "3D air mesh fabrics",
+    "categorySourceGroup": "3D Air Mesh Fabrics",
+    "weight": "250 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "3D Hard Air Mesh Fabric",
+    "specLine": "250 g/m², 100% Polyester, Hard Air Mesh Fabric",
+    "properties": [],
+    "norms": [
+      "EN 14683",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 250 g/m² 3D warp knitted air mesh fabric.",
+      "ArAir Mesh BB fabric due to its 3D warp knitting structure has high suspension function.",
+      "It can be used as upholstery mesh for office furniture.",
+      "Bulletproof vest application is possible with ArAir Mesh BB fabric.",
+      "Suitable for sport and military shoes.",
+      "One of the usage of ArAir Mesh BB is shock aboserber in medical.",
+      "Ultra confortable bag fabric.",
+      "3D Hard Air Mesh Fabric",
+      "250 g/m², 100% Polyester, Hard Air Mesh Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 250 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 3000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Uphosltery, Bag, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Fabric Face Mask EN 14683 certified"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArAir Mesh BB Data Sheet",
+      "data_sheet",
+      "EN 14683 part 2",
+      "certificate_or_test_report",
+      "EN 14683 part 3"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/ar-air-mesh-bb/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "firefighting",
+        "reason": "No explicit firefighting or turnout-gear use stated; only general protective wording."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Explicit statement of medical shock-absorber use plus certification to the EN 14683 face-mask standard directly ties the fabric to medical applications."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Explicit mention of possible bulletproof vest use and military shoe suitability provides direct, though somewhat tentative, evidence of military application."
+      },
+      {
+        "applicationId": "sport",
+        "reason": "Product description explicitly states suitability for sport shoes, directly indicating a sport-related application."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Fabric is described as upholstery for office furniture and bags, not explicitly for vehicles or vessels."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ar-air-mesh-bb",
+    "primary": {
+      "applicationId": "footwear-components",
+      "confidence": 55,
+      "evidence": [
+        "Suitable for sport and military shoes.",
+        "Application | Uphosltery, Bag, Shoes",
+        "3D warp knitted spacer mesh with high suspension function"
+      ],
+      "rationale": "The fabric is explicitly listed as suitable for shoes among its stated applications, and the family descriptor itself positions this as a spacer mesh 'for seating and footwear'. Footwear is a direct, named use and per taxonomy rule 13 footwear fabrics default to footwear-components unless another sector clearly dominates, which is not the case here given the many parallel, equally-weighted uses (upholstery, bag, medical, military, sport)."
+    },
+    "secondary": {
+      "applicationId": "upholstery-interiors",
+      "confidence": 45,
+      "evidence": [
+        "It can be used as upholstery mesh for office furniture.",
+        "Application | Uphosltery, Bag, Shoes"
+      ],
+      "rationale": "Explicit statement of use as upholstery mesh for office furniture supports a genuine, independent secondary application distinct from footwear, per rule 12/19."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Mentioned as shock absorber and EN 14683 mask certified, but this is one of several parallel uses, not the dominant one; treated as weaker evidence than footwear/upholstery."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Bulletproof vest and military shoe use mentioned tentatively ('possible'), not the clearest dominant use."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Sport shoe suitability mentioned but subsumed under footwear-components as the more specific category per rule 13."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No vehicle-specific upholstery mentioned; only office furniture, which is upholstery-interiors not transport."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product lists many parallel, equally weighted applications (shoes, bags, office upholstery, medical, military, sport) without a clearly dominant one, making the primary/secondary split somewhat ambiguous."
+  },
+  "normalized": {
+    "fabricSlug": "ar-air-mesh-bb",
+    "status": "resolved-review",
+    "primaryApplication": "footwear-components",
+    "secondaryApplication": null,
+    "primaryConfidence": 55,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Suitable for sport and military shoes.",
+      "Application | Uphosltery, Bag, Shoes",
+      "3D warp knitted spacer mesh with high suspension function"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly listed as suitable for shoes among its stated applications, and the family descriptor itself positions this as a spacer mesh 'for seating and footwear'. Footwear is a direct, named use and per taxonomy rule 13 footwear fabrics default to footwear-components unless another sector clearly dominates, which is not the case here given the many parallel, equally-weighted uses (upholstery, bag, medical, military, sport).",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Mentioned as shock absorber and EN 14683 mask certified, but this is one of several parallel uses, not the dominant one; treated as weaker evidence than footwear/upholstery."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Bulletproof vest and military shoe use mentioned tentatively ('possible'), not the clearest dominant use."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Sport shoe suitability mentioned but subsumed under footwear-components as the more specific category per rule 13."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No vehicle-specific upholstery mentioned; only office furniture, which is upholstery-interiors not transport."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product lists many parallel, equally weighted applications (shoes, bags, office upholstery, medical, military, sport) without a clearly dominant one, making the primary/secondary split somewhat ambiguous."
+  }
+}

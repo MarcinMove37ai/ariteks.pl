@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:51.481Z",
+    "requestId": "req_011CcxyCmjow1jtajGnSej1k",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 10184,
+      "outputTokens": 558
+    }
+  },
+  "product": {
+    "slug": "aramid-d1-210-denim",
+    "name": "Aramid D1 210 Denim",
+    "family": "Aramid",
+    "subFamily": "aramid-2",
+    "familyDescriptorPl": "Aramidowy denim trudnopalny",
+    "familyDescriptorEn": "FR aramid denim",
+    "categoryId": "aramid-denim",
+    "categoryNamePl": "Aramid denim i stretch",
+    "categoryNameEn": "Aramid denim & stretch",
+    "categorySourceGroup": "Inherent Flame Retardant Denim and Elasthane Aramid Fabrics",
+    "weight": "210 g/m²",
+    "composition": "5% p-AR 2% CF",
+    "weave": "3/1 Twill",
+    "titleDescriptor": "Aramid Denim Fabric, 93% meta Aramid 5% para Aramid 2% Carbon , 210 gr/m'2",
+    "specLine": "210 g/m², 93% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant, Antistatic, Denim Fabric Aramid denim fabric",
+    "properties": [
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc",
+      "molten-metal",
+      "chemical",
+      "stretch"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 1149",
+      "EN 61482",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "210 g/m², 93% m-Aramid, 5% p-Aramid, 2% Carbon.",
+      "Inherent flame retardant fabric",
+      "for electricity distribution companies and oil and gas industry workers.",
+      "Inherent flame retardant fabric with EN ISO 11612 and EN ISO 11611 certification.",
+      "Antistatic (EN 1149-5) certified.",
+      "Protection against thermal hazards of electrical arc. (EN 61482-1-2)",
+      "Resistant to most industrial chemicals. (EN ISO 13034)",
+      "Aramid Denim Fabric, 93% meta Aramid 5% para Aramid 2% Carbon , 210 gr/m'2",
+      "210 g/m², 93% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant, Antistatic, Denim Fabric Aramid denim fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 93% m-Aramid (m-AR) 5% p-Aramid (p-AR) 2% Carbon(CF) | EN ISO 2076",
+      "Yarn | Warp:30/2Ne; Weft:30/2Ne | EN ISO 2060",
+      "Weight | 210 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 1500N; Weft > 1000N | EN ISO 13934-1",
+      "Tear Strength | Warp>70N ; Weft>60N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 4,0 - 7,5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Electricity distribution",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Antistatic | Yes | EN ISO 1149-5",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 7 cal/cm² | EN ISO 61482-1-1",
+      "Chemical Resistant | Yes | EN ISO 13034"
+    ],
+    "applicationImageLabels": [
+      "Denim Class1 Arc Suit",
+      "Denim Class1 Ark Suit",
+      "Denim Aramid Class1 Ark Suit"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 1149",
+      "EN 61482",
+      "EN 13034",
+      ">> Aramid D1 210 Denim Data Sheet",
+      "data_sheet",
+      "EN ISO 11612",
+      "certificate_or_test_report",
+      "EN ISO 1149-5 (1149-3 Method 2)",
+      "EN ISO 1149-5 (1149-3 Method 2) Test Report",
+      "EN 61482-1-1 ATPV",
+      "EN 61482-1-1 ATPV (2 layer)",
+      "EN 61482-1-2 Class 1",
+      "EN ISO 13934-1 EN ISO 13937-2",
+      "EN ISO 24920",
+      "EN ISO 105 B02",
+      "EN ISO 105 C06",
+      "EN ISO 105 E04",
+      "EN ISO 105 N01",
+      "EN ISO 105 N02",
+      "EN ISO 105 X11",
+      "EN ISO 105 X12"
+    ],
+    "structure": "3/1 Twill",
+    "recordUrl": "/ariteks/fabrics/aramid-d1-210-denim/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "energy",
+        "confidence": 95,
+        "evidence": [
+          "for electricity distribution companies and oil and gas industry workers.",
+          "Application | Electricity distribution",
+          "Protection against thermal hazards of electrical arc. (EN 61482-1-2)",
+          "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2"
+        ],
+        "rationale": "Explicitly stated intended use for electricity distribution companies with arc-flash protection certification, directly supporting the energy sector application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "No explicit military, police or tactical use mentioned in the product data."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Explicit EN ISO 11611 welding protection certification with 'Welding Protection: Yes' directly supports use in welding/metalworking protective clothing."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "aramid-d1-210-denim",
+    "primary": {
+      "applicationId": "energy",
+      "confidence": 90,
+      "evidence": [
+        "for electricity distribution companies and oil and gas industry workers.",
+        "Application | Electricity distribution",
+        "Protection against thermal hazards of electrical arc. (EN 61482-1-2)",
+        "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+        "Denim Class1 Arc Suit"
+      ],
+      "rationale": "The product explicitly states its target use as electricity distribution companies and oil & gas workers, with certified arc-flash protection (EN 61482), making energy sector the clearest direct application."
+    },
+    "secondary": {
+      "applicationId": "welding",
+      "confidence": 65,
+      "evidence": [
+        "Welding Protection | Yes | EN ISO 11611",
+        "Flame and Heat Protection | Yes | EN ISO 11612",
+        "Resistant to most industrial chemicals. (EN ISO 13034)"
+      ],
+      "rationale": "Explicit EN ISO 11611 welding protection certification independently supports a secondary welding/metallurgy protective clothing use, distinct from the energy-sector arc protection."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General industrial workwear is too broad given the explicit named electrical/oil & gas and welding sectors."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No military or uniformed-service use stated."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "No firefighter-specific use stated; FR properties alone are insufficient."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "aramid-d1-210-denim",
+    "status": "resolved-review",
+    "primaryApplication": "energy",
+    "secondaryApplication": null,
+    "primaryConfidence": 90,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "for electricity distribution companies and oil and gas industry workers.",
+      "Application | Electricity distribution",
+      "Protection against thermal hazards of electrical arc. (EN 61482-1-2)",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "Denim Class1 Arc Suit"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product explicitly states its target use as electricity distribution companies and oil & gas workers, with certified arc-flash protection (EN 61482), making energy sector the clearest direct application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General industrial workwear is too broad given the explicit named electrical/oil & gas and welding sectors."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No military or uniformed-service use stated."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "No firefighter-specific use stated; FR properties alone are insufficient."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

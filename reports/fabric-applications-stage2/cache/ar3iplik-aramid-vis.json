@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:49.736Z",
+    "requestId": "req_011CcxyCfhRJheEnDaYuoqVP",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9721,
+      "outputTokens": 536
+    }
+  },
+  "product": {
+    "slug": "ar3iplik-aramid-vis",
+    "name": "Ar3 İplik Aramid Vis",
+    "family": "Ar3",
+    "subFamily": "aramid-vis-knit",
+    "familyDescriptorPl": "Dzianiny aramidowo-wiskozowe FR",
+    "familyDescriptorEn": "Aramid-viscose FR knits",
+    "categoryId": "aramid-viscose-knits",
+    "categoryNamePl": "Dzianiny aramid-wiskoza FR",
+    "categoryNameEn": "Aramid-viscose FR knits",
+    "categorySourceGroup": "Inherent Flame Retardant Aramid Viscose Fr Knit Workwear Fabrics",
+    "weight": "300 g/m²",
+    "composition": "53% CV 40% m-AR 5% p-AR 2% CF",
+    "weave": "Fleece",
+    "titleDescriptor": "53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant Antistatic Fleece Fabric",
+    "specLine": "300 g/m², 53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant",
+    "properties": [
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN 1149",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Antistatic Fleece Knit Fabric 53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, inherent flame retardant antistatic fleece knit fabric . Ar3İplik Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+      "With fleece stucture it is suitable to use in cold zones.",
+      "Ar3İplik Aramid Vis is inherent flame retardant with EN 11612 certification.",
+      "Suitable for antistatic applications, certified for EN ISO 1149.",
+      "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+      "53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant Antistatic Fleece Fabric",
+      "300 g/m², 53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant"
+    ],
+    "technicalParameters": [
+      "Fiber | 53% Viscose Fr (CV FR) 40% m-Aramid (m-AR) 5% p-Aramid (p-AR) 2% Carbon (CF) | EN ISO 2076",
+      "Yarn | 20/1 Ne Combed | EN ISO 2060",
+      "Weight | 300 ±20 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1600 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 4.0-7.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Hoodies",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Done | EN ISO 1149-5",
+      "Flame and Heat Protection | Done | EN ISO 11612",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 7 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 1149",
+      "EN 11612",
+      "EN 61482",
+      ">> Ar3İplik Aramid Vis Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Fleece",
+    "recordUrl": "/ariteks/fabrics/ar3iplik-aramid-vis/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "firefighting",
+        "confidence": 90,
+        "evidence": [
+          "Ar3İplik Aramid Vis fabric are mostly used by electrical workers and firefighters."
+        ],
+        "rationale": "Description explicitly states the fabric is used by firefighters, directly supporting firefighting application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Explicit statement of use by electrical workers combined with arc-flash protection certification supports the energy sector application."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Flame retardant and heat protective properties could be relevant to metal-processing hazards but no explicit welding or foundry use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ar3iplik-aramid-vis",
+    "primary": {
+      "applicationId": "firefighting",
+      "confidence": 85,
+      "evidence": [
+        "Ar3İplik Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+        "Inherent flame retardant with EN 11612 certification",
+        "EN 61482 arc flash protection class 1 (4 kA)"
+      ],
+      "rationale": "Explicit statement that the fabric is mostly used by firefighters, combined with EN ISO 11612 flame/heat protection certification, directly supports firefighting as the primary application."
+    },
+    "secondary": {
+      "applicationId": "energy",
+      "confidence": 70,
+      "evidence": [
+        "Ar3İplik Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+        "Antistatic Done EN ISO 1149-5",
+        "Arc Protection Class 1 (4kA) EN ISO 61482-1-2",
+        "ATPV > 7 cal/cm²"
+      ],
+      "rationale": "Explicit mention of use by electrical workers plus dedicated arc-flash protection certification (EN 61482) independently supports the energy sector as a secondary application, beyond mere antistatic property."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit welding, foundry or molten-metal use stated; only generic heat/flame protection."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "More specific firefighting and energy sector uses are explicitly stated, making general workwear less specific."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ar3iplik-aramid-vis",
+    "status": "resolved",
+    "primaryApplication": "firefighting",
+    "secondaryApplication": "energy",
+    "primaryConfidence": 85,
+    "secondaryConfidence": 70,
+    "primaryEvidence": [
+      "Ar3İplik Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+      "Inherent flame retardant with EN 11612 certification",
+      "EN 61482 arc flash protection class 1 (4 kA)"
+    ],
+    "secondaryEvidence": [
+      "Ar3İplik Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+      "Antistatic Done EN ISO 1149-5",
+      "Arc Protection Class 1 (4kA) EN ISO 61482-1-2",
+      "ATPV > 7 cal/cm²"
+    ],
+    "primaryRationale": "Explicit statement that the fabric is mostly used by firefighters, combined with EN ISO 11612 flame/heat protection certification, directly supports firefighting as the primary application.",
+    "secondaryRationale": "Explicit mention of use by electrical workers plus dedicated arc-flash protection certification (EN 61482) independently supports the energy sector as a secondary application, beyond mere antistatic property.",
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit welding, foundry or molten-metal use stated; only generic heat/flame protection."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "More specific firefighting and energy sector uses are explicitly stated, making general workwear less specific."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

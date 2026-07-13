@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:16:29.900Z",
+    "requestId": "req_011CcxwGgg5qEoQMDqoFj7Uh",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6406,
+      "outputTokens": 382
+    }
+  },
+  "product": {
+    "slug": "arbo-dark",
+    "name": "ArBo Dark",
+    "family": "ArBo",
+    "subFamily": "arbo",
+    "familyDescriptorPl": "Tkaniny dla straży pożarnej",
+    "familyDescriptorEn": "Firefighter fabrics",
+    "categoryId": "pbo",
+    "categoryNamePl": "Tkaniny PBO ultra ognioodporne",
+    "categoryNameEn": "PBO ultra fire-resistant",
+    "categorySourceGroup": "Ultra fire resistant, world's strongest synthetic fabrics from Pbo (polyphenylene benzobisoxazole)",
+    "weight": "220 g/m²",
+    "composition": "58% p-AR 40% PBO 2% CF",
+    "weave": "Plain",
+    "titleDescriptor": "58% para Aramid 40% Pbo 2% Carbon fabric, 220 gr/m'2",
+    "specLine": "220 g/m², 58% p-Aramid 40% Pbo 2% Carbon, Inherent Flame Retardant, Antistatic, Plain Fabric",
+    "properties": [
+      "fr",
+      "inherent-fr",
+      "antistatic"
+    ],
+    "norms": [
+      "EN 1149",
+      "EN 469",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "World's strongest systhetic fabric which contains Pbo (poly phenylene benzobisoxazole)",
+      "220 g/m², 58% p-Aramid, 40% Pbo, 2% Carbon. ArBo Dark is designed for miltary application.",
+      "ArBo Dark is ultra fire resistant fabric",
+      "Flame resistant (Flame retardant) fabric with EN 469 certification.",
+      "Antistatic (EN 1149-5)",
+      "ArBo Dark is the best fabric in all categories for military applications.",
+      "58% para Aramid 40% Pbo 2% Carbon fabric, 220 gr/m'2",
+      "220 g/m², 58% p-Aramid 40% Pbo 2% Carbon, Inherent Flame Retardant, Antistatic, Plain Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 58% p-Aramid (p-AR) 40% PBO (Pbo) 2% Carbon(CF) | EN ISO 2076",
+      "Yarn | Warp:24/2Ne; Weft:24/2Ne | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>5500N; Weft>5000N | EN ISO 13934-1",
+      "Tear Strength | Warp>270N ; Weft>310N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "Weathering Fastness | 4-5 | EN ISO 105 B04",
+      "pH | 4,0-7.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Military Applications",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Yes | EN ISO 1149-5",
+      "Firefighters | Yes | EN ISO 469"
+    ],
+    "applicationImageLabels": [
+      "Pbo 4 layer firefighter suit",
+      "Pbo 4 layer firefighter suit side",
+      "Pbo Dark 4 layer firefighter suit side"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 469",
+      "EN 1149-5",
+      ">> ArBo Dark Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Plain",
+    "recordUrl": "/ariteks/fabrics/arbo-dark/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arbo-dark",
+    "matches": [
+      {
+        "applicationId": "firefighting",
+        "confidence": 97,
+        "evidence": [
+          "familyDescriptorEn: Firefighter fabrics",
+          "EN 469 certification",
+          "applicationImageLabels: 'Pbo 4 layer firefighter suit'",
+          "technicalParameters: 'Firefighters | Yes | EN ISO 469'"
+        ],
+        "rationale": "Product is explicitly described as firefighter fabric, certified to EN 469, and depicted in firefighter suit application images."
+      },
+      {
+        "applicationId": "military",
+        "confidence": 95,
+        "evidence": [
+          "descriptions: 'ArBo Dark is designed for military application.'",
+          "descriptions: 'ArBo Dark is the best fabric in all categories for military applications.'",
+          "technicalParameters: 'Application | Military Applications'"
+        ],
+        "rationale": "Multiple explicit statements directly assign this fabric to military applications."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Antistatic property (EN 1149-5) present, but no explicit statement linking to electrical/energy sector use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arbo-dark",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "firefighting",
+        "confidence": 97,
+        "evidence": [
+          "familyDescriptorEn: Firefighter fabrics",
+          "EN 469 certification",
+          "applicationImageLabels: 'Pbo 4 layer firefighter suit'",
+          "technicalParameters: 'Firefighters | Yes | EN ISO 469'"
+        ],
+        "rationale": "Product is explicitly described as firefighter fabric, certified to EN 469, and depicted in firefighter suit application images."
+      },
+      {
+        "applicationId": "military",
+        "confidence": 95,
+        "evidence": [
+          "descriptions: 'ArBo Dark is designed for military application.'",
+          "descriptions: 'ArBo Dark is the best fabric in all categories for military applications.'",
+          "technicalParameters: 'Application | Military Applications'"
+        ],
+        "rationale": "Multiple explicit statements directly assign this fabric to military applications."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Antistatic property (EN 1149-5) present, but no explicit statement linking to electrical/energy sector use."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

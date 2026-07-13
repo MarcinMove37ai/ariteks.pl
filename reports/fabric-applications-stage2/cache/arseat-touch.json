@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:43:28.315Z",
+    "requestId": "req_011CcxyKq9dtYU6kPrEwWELo",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 8947,
+      "outputTokens": 687
+    }
+  },
+  "product": {
+    "slug": "arseat-touch",
+    "name": "ArSeat Touch",
+    "family": "ArSeat",
+    "subFamily": "arseat",
+    "familyDescriptorPl": "Dzianiny tapicerskie na fotele i obuwie",
+    "familyDescriptorEn": "Upholstery knits for seats and footwear",
+    "categoryId": "upholstery-knits",
+    "categoryNamePl": "Dzianiny tapicerskie i obuwnicze",
+    "categoryNameEn": "Upholstery & footwear knits",
+    "categorySourceGroup": "Warp Knit Fabrics for Upholstery and Shoes",
+    "weight": "150 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Micro Alcantara Fabric",
+    "specLine": "150 g/m², 100% Polyester, Micro alcantara one side fleece knit fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArSeat Touch is 100% polyester, 150 g/m², micro alcantara warp knit fabric.",
+      "It is suitable for upholstery.",
+      "Micro Alcantara Fabric",
+      "150 g/m², 100% Polyester, Micro alcantara one side fleece knit fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 75/144 Denier | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Upholstery",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArSeat Touch Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arseat-touch/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Named 'ArSeat' suggests seating use, but data only states generic 'upholstery' application without explicit vehicle/vessel context."
+      }
+    ],
+    "noMatchReason": "Product is explicitly described as a general upholstery knit fabric (micro alcantara, warp knit) for seats/footwear; no explicit vehicle, vessel, military, medical, or other taxonomy-specific use is stated."
+  },
+  "modelOutput": {
+    "fabricSlug": "arseat-touch",
+    "primary": {
+      "applicationId": "upholstery-interiors",
+      "confidence": 62,
+      "evidence": [
+        "It is suitable for upholstery.",
+        "Application | Upholstery",
+        "familyDescriptorEn: Upholstery knits for seats and footwear",
+        "categoryNameEn: Upholstery & footwear knits"
+      ],
+      "rationale": "The product is explicitly described as an upholstery knit fabric with 'Application: Upholstery' stated directly. No vehicle, rail, marine or aircraft context is given, so it defaults to general upholstery/interiors rather than transport."
+    },
+    "secondary": {
+      "applicationId": "footwear-components",
+      "confidence": 45,
+      "evidence": [
+        "familyDescriptorEn: Upholstery knits for seats and footwear",
+        "categorySourceGroup: Warp Knit Fabrics for Upholstery and Shoes",
+        "categoryNameEn: Upholstery & footwear knits"
+      ],
+      "rationale": "The family and category descriptors explicitly and independently state footwear as a secondary intended use for these warp knit fabrics, alongside upholstery."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Name 'ArSeat' hints at seating but no vehicle, vessel or automotive context is explicitly stated; only generic 'upholstery' application is given."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "No sportswear or athletic use is stated in the data."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "The product name 'ArSeat' could imply automotive seating, but the explicit application text only states generic 'upholstery', making the transport interpretation uncertain and warranting human confirmation."
+  },
+  "normalized": {
+    "fabricSlug": "arseat-touch",
+    "status": "resolved-review",
+    "primaryApplication": "upholstery-interiors",
+    "secondaryApplication": null,
+    "primaryConfidence": 62,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "It is suitable for upholstery.",
+      "Application | Upholstery",
+      "familyDescriptorEn: Upholstery knits for seats and footwear",
+      "categoryNameEn: Upholstery & footwear knits"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly described as an upholstery knit fabric with 'Application: Upholstery' stated directly. No vehicle, rail, marine or aircraft context is given, so it defaults to general upholstery/interiors rather than transport.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Name 'ArSeat' hints at seating but no vehicle, vessel or automotive context is explicitly stated; only generic 'upholstery' application is given."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "No sportswear or athletic use is stated in the data."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "The product name 'ArSeat' could imply automotive seating, but the explicit application text only states generic 'upholstery', making the transport interpretation uncertain and warranting human confirmation."
+  }
+}

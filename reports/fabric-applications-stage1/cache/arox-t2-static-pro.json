@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:15:09.285Z",
+    "requestId": "req_011CcxwAZek2avBuGWjZZTAB",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6138,
+      "outputTokens": 628
+    }
+  },
+  "product": {
+    "slug": "arox-t2-static-pro",
+    "name": "Arox T2 Static Pro",
+    "family": "Arox",
+    "subFamily": "arox",
+    "familyDescriptorPl": "Tkaniny robocze funkcyjne — antystatyczne i hydrofobowe",
+    "familyDescriptorEn": "Functional workwear — antistatic and water-repellent",
+    "categoryId": "polyester-outerwear",
+    "categoryNamePl": "Poliestrowe na odzież wierzchnią",
+    "categoryNameEn": "Polyester outerwear fabrics",
+    "categorySourceGroup": "Polyester Woven Fabrics for Raincoats, Jackets and Coveralls",
+    "weight": "160 g/m²",
+    "composition": "99% PES 1% CF",
+    "weave": "2/1 Twill",
+    "titleDescriptor": "99% Polyester 1% Carbon Antisatic Fabric",
+    "specLine": "160 g/m², 99% Polyester 1% Carbon, Antistatic, 2/1 S Twill Fabric",
+    "properties": [
+      "antistatic",
+      "chemical"
+    ],
+    "norms": [
+      "EN 1149",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "99% polyester 1% carbon, antistatic ESD workwear twill fabric.",
+      "Arox T2 Static pro fabrics are mostly used for clean room's cloths.",
+      "Suitable for antistatic ESD application like electronic industry, certified for EN ISO 1149-5.",
+      "99% Polyester 1% Carbon Antisatic Fabric",
+      "160 g/m², 99% Polyester 1% Carbon, Antistatic, 2/1 S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 99% Polyester (PES) 1% Carbon (CF) | EN ISO 2076",
+      "Yarn | 300 Denier | EN ISO 2060",
+      "Weight | 160 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 900N ; Weft > 700N | EN ISO 13934-1",
+      "Tear Strength | Warp > 25N ; Weft > 20N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Antisatic ESD Cloths",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Done | EN ISO 1149-5",
+      "Chemical Protection | Yes | ISO 13034"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 1149",
+      "EN 13034",
+      ">> Arox T2 Static Pro Data Sheet",
+      "data_sheet",
+      "EN ISO 1149-5(EN 1149-3)",
+      "certificate_or_test_report",
+      "EN ISO 1149-5(EN 1149-3) Test Report"
+    ],
+    "structure": "2/1 Twill",
+    "recordUrl": "/ariteks/fabrics/arox-t2-static-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arox-t2-static-pro",
+    "matches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Product is antistatic (EN 1149-5) and used for ESD/electronic industry, but no explicit electrical utility, high-voltage or EMI shielding use is stated, only electronic manufacturing/cleanroom context."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Description mentions cleanroom clothing, which could relate to pharma/medical cleanrooms, but no explicit healthcare or hospital use is stated."
+      }
+    ],
+    "noMatchReason": "The product is described explicitly as an antistatic ESD twill fabric for cleanroom clothing and the electronic industry, certified to EN ISO 1149-5 and EN 13034 for chemical protection. No explicit sector such as energy, medical, firefighting, military, welding, motorcycle, hivis, architecture-building or transport use is stated in the supplied data."
+  },
+  "normalized": {
+    "fabricSlug": "arox-t2-static-pro",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Product is antistatic (EN 1149-5) and used for ESD/electronic industry, but no explicit electrical utility, high-voltage or EMI shielding use is stated, only electronic manufacturing/cleanroom context."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Description mentions cleanroom clothing, which could relate to pharma/medical cleanrooms, but no explicit healthcare or hospital use is stated."
+      }
+    ],
+    "noMatchReason": "The product is described explicitly as an antistatic ESD twill fabric for cleanroom clothing and the electronic industry, certified to EN ISO 1149-5 and EN 13034 for chemical protection. No explicit sector such as energy, medical, firefighting, military, welding, motorcycle, hivis, architecture-building or transport use is stated in the supplied data.",
+    "needsReview": true
+  }
+}

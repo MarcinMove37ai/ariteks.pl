@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:17:52.998Z",
+    "requestId": "req_011CcxwNtNi3QBJseYGUWyFF",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6120,
+      "outputTokens": 230
+    }
+  },
+  "product": {
+    "slug": "arwowear-t5-soft-el",
+    "name": "ArWoWear T5 Soft El",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-t0-soft",
+    "familyDescriptorPl": "Lekkie miękkie robocze — biel i pastele",
+    "familyDescriptorEn": "Light soft workwear — whites and pastels",
+    "categoryId": "ripstop-outdoor",
+    "categoryNamePl": "Ripstop i denim outdoor",
+    "categoryNameEn": "Ripstop & outdoor denim",
+    "categorySourceGroup": "Ripstop, elasthane and denim fabrics for outdoor wear.",
+    "weight": "245 g/m²",
+    "composition": "65% Pes 30% Co 5% El",
+    "weave": "Twill",
+    "titleDescriptor": "65% Polyester 30% Cotton 5% Elasthane Twill Fabric, 245 gr/m'2",
+    "specLine": "245 g/m², 65% Polyester 30% Cotton 5% El, 3/1S Twill Fabric",
+    "properties": [
+      "stretch"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T5 Soft is light weight 245 g/m², 65% Polyester 30% Cotton 5% Elasthane durable, stretchable workwear twill fabric.",
+      "It is the stretchable version of ArWoWear T5 series.",
+      "65% Polyester 30% Cotton 5% Elasthane Twill Fabric, 245 gr/m'2",
+      "245 g/m², 65% Polyester 30% Cotton 5% El, 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 65% Polyester (PES) 30% Cotton (CO) 5% Elasthane (EL) | EN ISO 2076",
+      "Yarn | Warp:14/1Ne; Weft:14/1Ne | EN ISO 2060",
+      "Weight | 245 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1000N; Weft>800N | EN ISO 13934-1",
+      "Tear Strength | Warp>20N; Weft>15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 3-4 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 2-3 | EN ISO 105 N01",
+      "Peroxide Fastness | 2-3 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 2-3 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Coveralls",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArWoWear T5 Soft El Data Sheet",
+      "data_sheet",
+      "ISO 12945-1",
+      "certificate_or_test_report"
+    ],
+    "structure": "Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t5-soft-el/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t5-soft-el",
+    "matches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Application field states 'Coveralls', a generic workwear term, without any explicit military, police or uniformed-service reference."
+      }
+    ],
+    "noMatchReason": "This is a generic light-weight stretch workwear twill fabric (65% Polyester/30% Cotton/5% Elasthane) intended for coveralls, with OEKO-TEX 100 certification. No explicit sector-specific application (military, firefighting, energy, welding, motorcycle, hivis, medical, sport, architecture-building, transport) is stated in the product data."
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t5-soft-el",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Application field states 'Coveralls', a generic workwear term, without any explicit military, police or uniformed-service reference."
+      }
+    ],
+    "noMatchReason": "This is a generic light-weight stretch workwear twill fabric (65% Polyester/30% Cotton/5% Elasthane) intended for coveralls, with OEKO-TEX 100 certification. No explicit sector-specific application (military, firefighting, energy, welding, motorcycle, hivis, medical, sport, architecture-building, transport) is stated in the product data.",
+    "needsReview": true
+  }
+}

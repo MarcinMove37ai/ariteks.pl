@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:12:31.612Z",
+    "requestId": "req_011Ccxvy9BmzSRe7yX97xA5G",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6104,
+      "outputTokens": 317
+    }
+  },
+  "product": {
+    "slug": "arbir-su-itici",
+    "name": "ArBir Su İtici",
+    "family": "ArBir",
+    "subFamily": "arbir",
+    "familyDescriptorPl": "Dzianiny tkaninopodobne na odzież wierzchnią, także wodoodporne",
+    "familyDescriptorEn": "Woven-like knits for outerwear, incl. water-repellent",
+    "categoryId": "woven-like-knits",
+    "categoryNamePl": "Dzianiny tkaninopodobne",
+    "categoryNameEn": "Woven-like knits",
+    "categorySourceGroup": "Woven like Knit Fabrics for Bodywarmers, Jackets and Raincoats",
+    "weight": "140 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Water Repellent Knit Raincoat Fabric",
+    "specLine": "140 g/m², 100% Polyester, High Visible, Water and Oil Repellent, Woven Like Knit Fabric",
+    "properties": [
+      "hi-vis",
+      "chemical",
+      "water-repellent"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "%100 polyester, 140 g/m² woven like warp knit fabric developed for Jackets and Raincoats",
+      "EN ISO 20471 certified.",
+      "Neon dyed fabrics they attract more attention than other colors. They absorb uv light and reflect as a visible light.",
+      "As a result they shine more than other objects.",
+      "Resistant to liquid chemicals. (EN 13034)",
+      "Water Repellent Knit Raincoat Fabric",
+      "140 g/m², 100% Polyester, High Visible, Water and Oil Repellent, Woven Like Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 140 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1200 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Raincoat, Jacket, Parka",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471",
+      "Chemical Resistant | Done | EN 13034"
+    ],
+    "applicationImageLabels": [
+      "Orange Safety Jacket EN 20471",
+      "Yellow Safety Jacket EN 20471"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      "EN 13034",
+      ">> ArBir Su İtici Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arbir-su-itici/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arbir-su-itici",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "EN ISO 20471 certified",
+          "Application image labels: Orange Safety Jacket EN 20471, Yellow Safety Jacket EN 20471",
+          "properties: hi-vis",
+          "High Visibility | Done | EN ISO 20471"
+        ],
+        "rationale": "Explicit EN ISO 20471 certification, high-visibility property, and safety jacket application images directly support high-visibility apparel classification."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Raincoats/jackets could be used by transport workers, but no explicit vehicle, vessel or transport-sector use is stated."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Chemical resistance and hi-vis could be relevant to uniformed services, but no military or police use is explicitly stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arbir-su-itici",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "EN ISO 20471 certified",
+          "Application image labels: Orange Safety Jacket EN 20471, Yellow Safety Jacket EN 20471",
+          "properties: hi-vis",
+          "High Visibility | Done | EN ISO 20471"
+        ],
+        "rationale": "Explicit EN ISO 20471 certification, high-visibility property, and safety jacket application images directly support high-visibility apparel classification."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Chemical resistance and hi-vis could be relevant to uniformed services, but no military or police use is explicitly stated."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Raincoats/jackets could be used by transport workers, but no explicit vehicle, vessel or transport-sector use is stated."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

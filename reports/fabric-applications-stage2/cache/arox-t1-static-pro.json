@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:29.519Z",
+    "requestId": "req_011CcxyBBR3BoyEac3mCjPDJ",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9229,
+      "outputTokens": 504
+    }
+  },
+  "product": {
+    "slug": "arox-t1-static-pro",
+    "name": "Arox T1 Static Pro",
+    "family": "Arox",
+    "subFamily": "arox",
+    "familyDescriptorPl": "Tkaniny robocze funkcyjne — antystatyczne i hydrofobowe",
+    "familyDescriptorEn": "Functional workwear — antistatic and water-repellent",
+    "categoryId": "polyester-outerwear",
+    "categoryNamePl": "Poliestrowe na odzież wierzchnią",
+    "categoryNameEn": "Polyester outerwear fabrics",
+    "categorySourceGroup": "Polyester Woven Fabrics for Raincoats, Jackets and Coveralls",
+    "weight": "110 g/m²",
+    "composition": "99% PES 1% CF",
+    "weave": "Twill",
+    "titleDescriptor": "99% Polyester 1% Carbon Antisatic Fabric",
+    "specLine": "110 g/m², 99% Polyester 1% Carbon, Antistatic, 3/2 S Twill Fabric",
+    "properties": [
+      "antistatic",
+      "chemical"
+    ],
+    "norms": [
+      "EN 1149",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "99% polyester 1% carbon, antistatic ESD workwear twill fabric.",
+      "Arox T1 Static pro fabrics are mostly used for clean room's cloths.",
+      "Suitable for antistatic ESD application like electronic industry, certified for EN ISO 1149-5.",
+      "99% Polyester 1% Carbon Antisatic Fabric",
+      "110 g/m², 99% Polyester 1% Carbon, Antistatic, 3/2 S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 99% Polyester (PES) 1% Carbon (CF) | EN ISO 2076",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 110 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 400N ; Weft > 300N | EN ISO 13934-1",
+      "Tear Strength | Warp > 20N ; Weft > 15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Antisatic ESD Cloths",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Done | EN ISO 1149-5",
+      "Chemical Protection | Yes | ISO 13034"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 1149",
+      "EN 13034",
+      ">> Arox T1 Static Pro Data Sheet",
+      "data_sheet",
+      "EN ISO 1149-5(EN 1149-3)",
+      "certificate_or_test_report",
+      "EN ISO 1149-5(EN 1149-3) Test Report"
+    ],
+    "structure": "Twill",
+    "recordUrl": "/ariteks/fabrics/arox-t1-static-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Antistatic property alone does not establish energy-sector use per exclusion rules; ESD/electronics context is closer to industrial cleanroom than energy utilities."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Described for 'clean room's cloths' which could relate to controlled environments including pharma/medical, but no explicit medical/healthcare use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arox-t1-static-pro",
+    "primary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 72,
+      "evidence": [
+        "Antistatic ESD workwear twill fabric",
+        "Mostly used for clean room's cloths",
+        "Suitable for antistatic ESD application like electronic industry",
+        "EN 1149",
+        "Category source group: Polyester Woven Fabrics for Raincoats, Jackets and Coveralls"
+      ],
+      "rationale": "The fabric is an antistatic ESD workwear textile intended for cleanroom/industrial protective garments (coveralls, cloths). No narrower named sector such as energy, medical, or electronics manufacturing is explicitly stated as the dominant commercial use—only generic ESD/cleanroom workwear, which fits general industrial protective apparel best."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently supported secondary application; 'clean room' reference is too generic to establish medical use, and antistatic property alone cannot establish energy per exclusion rules."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Antistatic property alone does not establish energy-sector use per rule 8; no explicit electrical utility or high-voltage context stated."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Cleanroom mention is generic and not explicitly tied to healthcare/medical use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arox-t1-static-pro",
+    "status": "resolved-review",
+    "primaryApplication": "workwear-industrial",
+    "secondaryApplication": null,
+    "primaryConfidence": 72,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Antistatic ESD workwear twill fabric",
+      "Mostly used for clean room's cloths",
+      "Suitable for antistatic ESD application like electronic industry",
+      "EN 1149",
+      "Category source group: Polyester Woven Fabrics for Raincoats, Jackets and Coveralls"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is an antistatic ESD workwear textile intended for cleanroom/industrial protective garments (coveralls, cloths). No narrower named sector such as energy, medical, or electronics manufacturing is explicitly stated as the dominant commercial use—only generic ESD/cleanroom workwear, which fits general industrial protective apparel best.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Antistatic property alone does not establish energy-sector use per rule 8; no explicit electrical utility or high-voltage context stated."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Cleanroom mention is generic and not explicitly tied to healthcare/medical use."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Primary application retained, but confidence 72 is below review threshold 80."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:19:31.525Z",
+    "requestId": "req_011CcxwVpFrPRwaF3Z4uw8jP",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5980,
+      "outputTokens": 326
+    }
+  },
+  "product": {
+    "slug": "arigabardin-245",
+    "name": "Ari Gabardin 245",
+    "family": "Ari",
+    "subFamily": "aripam",
+    "familyDescriptorPl": "Tkaniny i dzianiny z włókna AriPam odporne na UV",
+    "familyDescriptorEn": "UV-resistant AriPam fibre fabrics and knits",
+    "categoryId": "aripam-spun",
+    "categoryNamePl": "Tkaniny z włókna AriPam",
+    "categoryNameEn": "AriPam spun fabrics",
+    "categorySourceGroup": "AriPam spun fabrics for shoe lining",
+    "weight": "245 g/m²",
+    "composition": "100% AriPam",
+    "weave": "Twill",
+    "titleDescriptor": "100% AriPam uv resistant twill fabric",
+    "specLine": "245 g/m², 100% AriPam, Uv protective, 3/1 S Twill Woven Fabric",
+    "properties": [
+      "hi-vis",
+      "uv-protection"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN 343",
+      "EN 13758",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% AriPam spun twill fabric.",
+      "It is used as a lining inside of the shoes.",
+      "Ari Gabardin 245 can also be used for outdoor jackets, safety jackets, pants and trousers.",
+      "100% AriPam uv resistant twill fabric",
+      "245 g/m², 100% AriPam, Uv protective, 3/1 S Twill Woven Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% AriPam | EN ISO 2076",
+      "Yarn | 30/2 Ne | EN ISO 2060",
+      "Weight | 245 ±10 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 1800N ; Weft > 1200N | EN ISO 13934-1",
+      "Tear Strength | Warp > 35N ; Weft > 40N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4,0 - 7,5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Lining for Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Uv Protection",
+      ">> Ari Gabardin 245 Data Sheet",
+      "data_sheet",
+      "AriGabardin 245-5469 AATCC 79",
+      "certificate_or_test_report"
+    ],
+    "structure": "Twill",
+    "recordUrl": "/ariteks/fabrics/arigabardin-245/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arigabardin-245",
+    "matches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "hivis",
+        "reason": "Has 'hi-vis' property and EN ISO 20471 norm listed, but description does not explicitly frame this fabric as a certified hi-vis warning garment; primary stated use is shoe lining and outdoor/safety jackets without explicit fluorescent hi-vis application description."
+      }
+    ],
+    "noMatchReason": "Product is explicitly described as a shoe lining fabric, also usable for outdoor jackets, safety jackets, pants and trousers. No explicit sector such as military, firefighting, energy, welding, motorcycle, medical, sport, architecture-building or transport is stated. Listed norms (EN 343, EN ISO 20471, EN 13758) and properties (hi-vis, UV protection) indicate general safety/outdoor performance but do not tie the product to a specific taxonomy application with direct evidence."
+  },
+  "normalized": {
+    "fabricSlug": "arigabardin-245",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "hivis",
+        "reason": "Has 'hi-vis' property and EN ISO 20471 norm listed, but description does not explicitly frame this fabric as a certified hi-vis warning garment; primary stated use is shoe lining and outdoor/safety jackets without explicit fluorescent hi-vis application description."
+      }
+    ],
+    "noMatchReason": "Product is explicitly described as a shoe lining fabric, also usable for outdoor jackets, safety jackets, pants and trousers. No explicit sector such as military, firefighting, energy, welding, motorcycle, medical, sport, architecture-building or transport is stated. Listed norms (EN 343, EN ISO 20471, EN 13758) and properties (hi-vis, UV protection) indicate general safety/outdoor performance but do not tie the product to a specific taxonomy application with direct evidence.",
+    "needsReview": true
+  }
+}

@@ -1,8 +1,9 @@
 // src/content/rfq.ts
 // Tresc modalu "Zapytanie ofertowe" — dwujezyczna (wzorzec applications.ts).
-// Zatwierdzone teksty PL/EN. Lista branz = 9 zastosowan + "Inne".
+// Zatwierdzone teksty PL/EN. Lista branż = 16 zastosowań + "Inne".
 
 import type { Locale } from '@/i18n/routing';
+import type { ApplicationId } from '@/content/fabric-application-overrides';
 
 export const RFQ = {
   header: { pl: 'Zapytanie ofertowe', en: 'Request a quote' },
@@ -56,17 +57,65 @@ export const RFQ = {
 // Branze do listy rozwijanej — id spojne z applications.ts + wariant "other".
 // Etykieta wysylana w mailu jako czytelny tekst (EN, neutralny dla odbiorcy).
 export const RFQ_INDUSTRIES: ReadonlyArray<{
-  id: string;
+  id: ApplicationId | 'other';
   label: Record<Locale, string>;
 }> = [
+  { id: 'military', label: { pl: 'Wojsko i służby mundurowe', en: 'Military and uniformed services' } },
   { id: 'firefighting', label: { pl: 'Straż pożarna', en: 'Firefighting' } },
-  { id: 'military', label: { pl: 'Wojsko i służby', en: 'Military & services' } },
-  { id: 'energy', label: { pl: 'Energetyka', en: 'Energy' } },
-  { id: 'welding', label: { pl: 'Hutnictwo i spawalnictwo', en: 'Metallurgy & welding' } },
+  { id: 'energy', label: { pl: 'Energetyka', en: 'Energy sector' } },
+  { id: 'welding', label: { pl: 'Hutnictwo i spawalnictwo', en: 'Metallurgy and welding' } },
   { id: 'motorcycle', label: { pl: 'Odzież motocyklowa', en: 'Motorcycle apparel' } },
-  { id: 'hivis', label: { pl: 'Odzież ostrzegawcza', en: 'High-visibility apparel' } },
+  { id: 'hivis', label: { pl: 'Odzież ostrzegawcza hi-vis', en: 'High-visibility apparel' } },
   { id: 'medical', label: { pl: 'Medycyna', en: 'Medical' } },
   { id: 'sport', label: { pl: 'Sport', en: 'Sport' } },
-  { id: 'ceilings', label: { pl: 'Sufity napinane', en: 'Stretch ceilings' } },
-  { id: 'other', label: { pl: 'Inne / nie wiem jeszcze', en: 'Other / not sure yet' } },
+  {
+    id: 'architecture-building',
+    label: {
+      pl: 'Tkaniny architektoniczne i budowlane',
+      en: 'Architectural and building fabrics',
+    },
+  },
+  { id: 'transport', label: { pl: 'Tkaniny dla transportu', en: 'Transport fabrics' } },
+  {
+    id: 'workwear-industrial',
+    label: {
+      pl: 'Odzież robocza i przemysłowa',
+      en: 'Workwear and industrial apparel',
+    },
+  },
+  {
+    id: 'outdoor-functional',
+    label: {
+      pl: 'Outdoor i odzież funkcjonalna',
+      en: 'Outdoor and functional apparel',
+    },
+  },
+  {
+    id: 'upholstery-interiors',
+    label: {
+      pl: 'Tapicerka i wyposażenie wnętrz',
+      en: 'Upholstery and interior furnishings',
+    },
+  },
+  {
+    id: 'print-signage',
+    label: {
+      pl: 'Druk, reklama i oznakowanie',
+      en: 'Printing, advertising and signage',
+    },
+  },
+  {
+    id: 'professional-cleaning',
+    label: {
+      pl: 'Czyszczenie profesjonalne',
+      en: 'Professional cleaning',
+    },
+  },
+  {
+    id: 'other',
+    label: {
+      pl: 'Inne / nie wiem jeszcze',
+      en: 'Other / not sure yet',
+    },
+  },
 ];

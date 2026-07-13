@@ -1,0 +1,6 @@
+{
+  "slug": "arclean-250",
+  "name": "ArClean 250",
+  "error": "Error: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"output_config.format.schema: For 'array' type, property 'maxItems' is not supported\"},\"request_id\":\"req_011CcxxKrJEEP2g6sgpzN3ok\"}\n    at APIError.generate (D:\\Ariteks\\ariteks_www\\node_modules\\@anthropic-ai\\sdk\\src\\core\\error.ts:75:14)\n    at Anthropic.makeStatusError (D:\\Ariteks\\ariteks_www\\node_modules\\@anthropic-ai\\sdk\\src\\client.ts:861:28)\n    at Anthropic.makeRequest (D:\\Ariteks\\ariteks_www\\node_modules\\@anthropic-ai\\sdk\\src\\client.ts:1166:24)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async classifyOne (D:\\Ariteks\\ariteks_www\\classify-fabric-applications-stage2.ts:860:20)\n    at async worker (D:\\Ariteks\\ariteks_www\\classify-fabric-applications-stage2.ts:1403:36)\n    at async Promise.all (index 0)\n    at async main (D:\\Ariteks\\ariteks_www\\classify-fabric-applications-stage2.ts:1469:3)",
+  "generatedAt": "2026-07-12T22:30:13.858Z"
+}

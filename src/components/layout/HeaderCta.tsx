@@ -1,14 +1,11 @@
-'use client';
-
 // src/components/layout/HeaderCta.tsx
-// Dynamiczne CTA nagłówka (decyzja 2026-07-11):
-//  - poza katalogiem: czarny przycisk "Product catalog" -> /fabrics,
-//  - WEWNATRZ katalogu (/fabrics...): przycisk zmienia sie w
-//    "Request a quote" (otwiera modal RFQ) — katalog ma wtedy swoje
-//    naturalne CTA, a link do samego siebie bylby pusty.
+// Stałe CTA nagłówka:
+// zawsze pokazuje „Product catalog” i prowadzi do katalogu.
+//
+// Komponent pozostaje wydzielony, aby można było później
+// zmienić jego zachowanie bez przebudowy Header.tsx.
 
-import { Link, usePathname } from '@/i18n/routing';
-import { openRfq } from '../RfqModal';
+import { Link } from '@/i18n/routing';
 
 const BTN =
   'hidden items-center rounded bg-carbon-900 px-5 py-2.5 text-sm ' +
@@ -17,21 +14,9 @@ const BTN =
 
 export default function HeaderCta({
   catalogLabel,
-  rfqLabel,
 }: {
   catalogLabel: string;
-  rfqLabel: string;
 }) {
-  const pathname = usePathname();
-  const inCatalog = pathname === '/fabrics' || pathname.startsWith('/fabrics/');
-
-  if (inCatalog) {
-    return (
-      <button type="button" onClick={openRfq} className={BTN}>
-        {rfqLabel}
-      </button>
-    );
-  }
   return (
     <Link href="/fabrics" className={BTN}>
       {catalogLabel}

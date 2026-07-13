@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:06.119Z",
+    "requestId": "req_011CcxyDpwp7jPvqMsLyphAn",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9643,
+      "outputTokens": 525
+    }
+  },
+  "product": {
+    "slug": "arwowear-t4-emk",
+    "name": "ArWoWear T4 EMK",
+    "family": "ArWoWear",
+    "subFamily": "aremk",
+    "familyDescriptorPl": "Tkaniny ekranujące EMI",
+    "familyDescriptorEn": "EMI shielding fabrics",
+    "categoryId": "emi",
+    "categoryNamePl": "Tkaniny ekranujące EMI",
+    "categoryNameEn": "EMI shielding fabrics",
+    "categorySourceGroup": "Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.",
+    "weight": "200 g/m²",
+    "composition": "55% PES 25% CO 20% MTF",
+    "weave": "2/1S Twill",
+    "titleDescriptor": "55% Polyester 25% Cotton 20% Stainless Steel Fabric",
+    "specLine": "200 g/m², 55% Polyester 25% Cotton 20% Stainless Steel, EMI shielding, Conductive 2/1 S Twill Fabric",
+    "properties": [
+      "antistatic",
+      "emi"
+    ],
+    "norms": [
+      "IEC 60895",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "55% polyester 25% Cotton 20% Stainless Steel emi shielding twill fabric.",
+      "Arwowear T4 EMK fabrics can be used as emi shileding for walls and baby cloth by reducing all kind of electromagnetic waves.",
+      "Another application is conductive clothing for live line workers, anti-radar applications for military cages, anti-stress and pain reducer bandages.",
+      "Arox T4 Antibac is certfied as IEC 60895 for line workers clothing.",
+      "55% Polyester 25% Cotton 20% Stainless Steel Fabric",
+      "200 g/m², 55% Polyester 25% Cotton 20% Stainless Steel, EMI shielding, Conductive 2/1 S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 55% Polyester (PES) 25% Cotton (CO) 20% Stainless Steel (MTF) | EN ISO 2076",
+      "Yarn | 40/2 Ne | EN ISO 2060",
+      "Weight | 200 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 900N ; Weft > 700N | EN ISO 13934-1",
+      "Tear Strength | Warp > 25N ; Weft > 20N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 3-4 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 2-3 | EN ISO 105 N01",
+      "Peroxide Fastness | 2-3 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 2-3 | EN ISO 105 B07",
+      "pH | 4.0-9.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Faraday Cage Suits",
+      "Quality Management | Done | ISO 9001",
+      "Line Workers | Done | IEC 60895"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "IEC 60895",
+      "EMI SHIELDING",
+      ">> ArWoWear T4 EMK Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "2/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t4-emk/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "energy",
+        "confidence": 90,
+        "evidence": [
+          "Categorized under 'Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.'",
+          "\"Another application is conductive clothing for live line workers...\"",
+          "\"Arox T4 Antibac is certfied as IEC 60895 for line workers clothing.\"",
+          "Technical parameter: 'Application | Faraday Cage Suits', 'Line Workers | Done | IEC 60895'"
+        ],
+        "rationale": "The fabric is explicitly described and certified for conductive clothing used by live line (high-voltage) workers, directly tying it to the energy sector."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "architecture-building",
+        "reason": "Description mentions EMI shielding 'for walls', which could relate to building applications, but there is no explicit statement of an architectural/building system, ceiling, or construction product context."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Description mentions 'anti-stress and pain reducer bandages' as an application, but this is a brief, non-certified mention without further medical context or standards."
+      },
+      {
+        "applicationId": "military",
+        "reason": "The product description explicitly states an anti-radar application for military Faraday cages, a direct military use case."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t4-emk",
+    "primary": {
+      "applicationId": "energy",
+      "confidence": 88,
+      "evidence": [
+        "Category source group: 'Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.'",
+        "\"Another application is conductive clothing for live line workers...\"",
+        "\"Arox T4 Antibac is certfied as IEC 60895 for line workers clothing.\"",
+        "Technical parameter: 'Line Workers | Done | IEC 60895'"
+      ],
+      "rationale": "The fabric is explicitly certified to IEC 60895 for conductive clothing used by live-line high-voltage workers, making the energy sector the most direct and certified commercial end use."
+    },
+    "secondary": {
+      "applicationId": "military",
+      "confidence": 55,
+      "evidence": [
+        "\"Another application is conductive clothing for live line workers, anti-radar applications for military cages...\"",
+        "Technical parameter: 'Application | Faraday Cage Suits'"
+      ],
+      "rationale": "The product data explicitly states an anti-radar use for military Faraday cages, which is a distinct and independently supported military end use beyond the energy application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Only a brief, uncertified mention of 'anti-stress and pain reducer bandages' without further medical framing or standards."
+      },
+      {
+        "applicationId": "architecture-building",
+        "reasonNotSelected": "Mention of shielding 'for walls' does not describe an architectural/building system or structural membrane use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t4-emk",
+    "status": "resolved-review",
+    "primaryApplication": "energy",
+    "secondaryApplication": null,
+    "primaryConfidence": 88,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Category source group: 'Fabrics for Emi shielding, anti-radar, antistress, high voltage protection.'",
+      "\"Another application is conductive clothing for live line workers...\"",
+      "\"Arox T4 Antibac is certfied as IEC 60895 for line workers clothing.\"",
+      "Technical parameter: 'Line Workers | Done | IEC 60895'"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly certified to IEC 60895 for conductive clothing used by live-line high-voltage workers, making the energy sector the most direct and certified commercial end use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Only a brief, uncertified mention of 'anti-stress and pain reducer bandages' without further medical framing or standards."
+      },
+      {
+        "applicationId": "architecture-building",
+        "reasonNotSelected": "Mention of shielding 'for walls' does not describe an architectural/building system or structural membrane use."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

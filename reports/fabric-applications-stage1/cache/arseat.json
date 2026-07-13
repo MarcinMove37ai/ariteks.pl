@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:03:53.267Z",
+    "requestId": "req_011CcxvK1Djv77fyGJVozCXz",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5858,
+      "outputTokens": 204
+    }
+  },
+  "product": {
+    "slug": "arseat",
+    "name": "ArSeat",
+    "family": "ArSeat",
+    "subFamily": "arseat",
+    "familyDescriptorPl": "Dzianiny tapicerskie na fotele i obuwie",
+    "familyDescriptorEn": "Upholstery knits for seats and footwear",
+    "categoryId": "upholstery-knits",
+    "categoryNamePl": "Dzianiny tapicerskie i obuwnicze",
+    "categoryNameEn": "Upholstery & footwear knits",
+    "categorySourceGroup": "Warp Knit Fabrics for Upholstery and Shoes",
+    "weight": "150 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit",
+    "titleDescriptor": "Warp Knit Pique Fabric for Shoes, 150 gr/m'2",
+    "specLine": "150 g/m², 100% Polyester, Pique Knit Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 150 g/m² warp knitted pique fabric.",
+      "Suitable for car upholstery and sport shoes.",
+      "Warp Knit Pique Fabric for Shoes, 150 gr/m'2",
+      "150 g/m², 100% Polyester, Pique Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Car Upholstery, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArSeat Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit",
+    "recordUrl": "/ariteks/fabrics/arseat/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arseat",
+    "matches": [
+      {
+        "applicationId": "transport",
+        "confidence": 93,
+        "evidence": [
+          "Suitable for car upholstery and sport shoes.",
+          "Application | Car Upholstery, Shoes"
+        ],
+        "rationale": "Explicit statement of car upholstery use directly supports transport application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Product mentions 'sport shoes' use but this refers to footwear material, not athletic apparel explicitly designed for sport performance; insufficient explicit sport-garment context."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arseat",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "transport",
+        "confidence": 93,
+        "evidence": [
+          "Suitable for car upholstery and sport shoes.",
+          "Application | Car Upholstery, Shoes"
+        ],
+        "rationale": "Explicit statement of car upholstery use directly supports transport application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Product mentions 'sport shoes' use but this refers to footwear material, not athletic apparel explicitly designed for sport performance; insufficient explicit sport-garment context."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

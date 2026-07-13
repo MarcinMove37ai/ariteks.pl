@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:00.308Z",
+    "requestId": "req_011CcxyD7EpRwEKyboJhQ2i4",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9934,
+      "outputTokens": 933
+    }
+  },
+  "product": {
+    "slug": "arwowear-330-moda-pro-el",
+    "name": "ArWoWear 330 Moda Pro El",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-moda-pro-2",
+    "familyDescriptorPl": "Robocze modowe — stretch i polar, wielobrandowe",
+    "familyDescriptorEn": "Fashion workwear — stretch and fleece, multi-brand",
+    "categoryId": "fr-stretch-fleece",
+    "categoryNamePl": "Trudnopalne stretch i polar",
+    "categoryNameEn": "FR stretch & fleece",
+    "categorySourceGroup": "Inherent Flame Retardant Elasthane and Fleece Workwear Fabrics",
+    "weight": "330 g/m²",
+    "composition": "58% MAC 35% CO 2% CF 5% EL",
+    "weave": "3/1 Twill",
+    "titleDescriptor": "58% Modacrylic 35% Cotton 2% Carbon 5% Elasthane, Inherent Flame Retardant Elastane Antistatic Fabric",
+    "specLine": "330 g/m², 58% Modacrylic 35% Cotton 2% Carbon 5% Elastane, Inherent Flame Retardant, Elastane,Antistatic 3/1S Twill Fabric",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc",
+      "chemical",
+      "stretch"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 11612",
+      "EN 1149",
+      "EN 61482",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "58% Modacrylic 35% Cotton 2% Carbon 5% Elastane, inherent flame retardant elasthane antistatic twill fabric .",
+      "ArWoWear 330 Moda Pro El fabric is mostly used by electrical workers and miltary applications.",
+      "It is resistant to very high sun level, with fastness level of 4 to 5.",
+      "ArWoWear 330 Moda Pro are inherent flame retardant with EN 11612 certification.",
+      "Suitable for antistatic application, certified for EN ISO 1149.",
+      "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+      "58% Modacrylic 35% Cotton 2% Carbon 5% Elasthane, Inherent Flame Retardant Elastane Antistatic Fabric",
+      "330 g/m², 58% Modacrylic 35% Cotton 2% Carbon 5% Elastane, Inherent Flame Retardant, Elastane,Antistatic 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 58% Modacrylic (MAC) 35% Cotton (CO) 2%Carbon (CF) 5% Elastane (El) | EN ISO 2076",
+      "Yarn | Warp:30/2 Ne; Weft:30/2 Ne | EN ISO 2060",
+      "Weight | 330 ±10 g/m² | EN ISO 3081",
+      "Width | 1400 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 1000N ; Weft > 800N | EN ISO 13934-1",
+      "Tear Strength | Warp > 25N ; Weft > 25N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 4.0-7.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Antistatic | Yes | EN ISO 1149-5",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 10 cal/cm² | EN ISO 61482-1-1",
+      "Chemical Resistant | Yes | EN ISO 13034",
+      "High Visibility | Done | EN ISO 20471"
+    ],
+    "applicationImageLabels": [
+      "Flame Retardant Elasthane Cloth"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 1149-5",
+      "EN 61482",
+      "EN 13034",
+      "EN 20471",
+      ">> ArWoWear 330 Moda Pro El Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "3/1 Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-330-moda-pro-el/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Product description explicitly states use by electrical workers, and technical data confirms arc-flash protection and antistatic certification directly relevant to electrical/energy work."
+      },
+      {
+        "applicationId": "hivis",
+        "reason": "EN ISO 20471 certification and hi-vis property listed, but no explicit high-visibility safety garment context beyond the standard reference."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Description explicitly names military applications as an intended use of the fabric."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "FR and antistatic properties could relate to metal industry hazards, but no explicit welding or foundry use stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-330-moda-pro-el",
+    "primary": {
+      "applicationId": "energy",
+      "confidence": 78,
+      "evidence": [
+        "ArWoWear 330 Moda Pro El fabric is mostly used by electrical workers and miltary applications.",
+        "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+        "Suitable for antistatic application, certified for EN ISO 1149.",
+        "Application | Flame Retardant Coveralls"
+      ],
+      "rationale": "The product is explicitly described as used by electrical workers, with strong technical support for arc-flash protection (EN 61482) and antistatic performance (EN 1149-5), which are the defining certifications for electrical/energy sector protective fabrics."
+    },
+    "secondary": {
+      "applicationId": "military",
+      "confidence": 55,
+      "evidence": [
+        "ArWoWear 330 Moda Pro El fabric is mostly used by electrical workers and miltary applications."
+      ],
+      "rationale": "Military use is explicitly named as an intended application in the product description, independently supporting a secondary military classification, though with less technical detail than the electrical/energy use case."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "EN ISO 20471 certification and hi-vis property listed, but no explicit garment or safety-warning use context beyond the standard reference."
+      },
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "FR and antistatic properties could theoretically apply to metalworking, but no explicit welding, foundry or metallurgy use is stated."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General workwear fits the FR coverall application field, but explicit narrower sectors (energy, military) are directly stated, making this less specific."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Two explicit end uses (electrical workers and military) are stated with similar phrasing, requiring judgment on which is primary versus secondary."
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-330-moda-pro-el",
+    "status": "resolved-review",
+    "primaryApplication": "energy",
+    "secondaryApplication": null,
+    "primaryConfidence": 78,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "ArWoWear 330 Moda Pro El fabric is mostly used by electrical workers and miltary applications.",
+      "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+      "Suitable for antistatic application, certified for EN ISO 1149.",
+      "Application | Flame Retardant Coveralls"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly described as used by electrical workers, with strong technical support for arc-flash protection (EN 61482) and antistatic performance (EN 1149-5), which are the defining certifications for electrical/energy sector protective fabrics.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "EN ISO 20471 certification and hi-vis property listed, but no explicit garment or safety-warning use context beyond the standard reference."
+      },
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "FR and antistatic properties could theoretically apply to metalworking, but no explicit welding, foundry or metallurgy use is stated."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General workwear fits the FR coverall application field, but explicit narrower sectors (energy, military) are directly stated, making this less specific."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Two explicit end uses (electrical workers and military) are stated with similar phrasing, requiring judgment on which is primary versus secondary."
+  }
+}

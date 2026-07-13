@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:27.159Z",
+    "requestId": "req_011CcxyAnqEF7DHmbfc1L6sr",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 10252,
+      "outputTokens": 737
+    }
+  },
+  "product": {
+    "slug": "arwowear-260-moda-pro",
+    "name": "ArWoWear 260 Moda Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-moda-pro",
+    "familyDescriptorPl": "Robocze tkaniny modowe",
+    "familyDescriptorEn": "Fashion-grade workwear",
+    "categoryId": "modacrylic",
+    "categoryNamePl": "Tkaniny modakrylowe",
+    "categoryNameEn": "Modacrylic workwear",
+    "categorySourceGroup": "Inherent Flame Retardant Modacrylic Workwear Fabrics",
+    "weight": "260 g/m²",
+    "composition": "60% MAC 38% CO 2% CF",
+    "weave": "3/1S Twill",
+    "titleDescriptor": "60% Modacrylic 38% Cotton 2% Carbon, Inherent Flame Retardant Antistatic Fabric",
+    "specLine": "260 g/m², 60% Modacrylic 38% Cotton 2% Carbon, Inherent Flame Retardant",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc",
+      "molten-metal",
+      "chemical"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 1149",
+      "EN 61482",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Antistatic 3/1S Twill Fabric 60% modacrylic 38% cotton 2% carbon, inherent flame retardant antistatic twill fabric . ArWoWear 260 Moda Pro fabric are mostly used by welders, electrical workers and firefighters.",
+      "It is resistant to very high sun level, with fastness level of 4 to 5.",
+      "ArWoWear 260 Moda Pro are inherent flame retardant with EN 11612 certification.",
+      "Suitable for antistatic application, certified for EN ISO 1149.",
+      "Arc flash protection with EN 61482 class 1 (4 kA) certification.",
+      "60% Modacrylic 38% Cotton 2% Carbon, Inherent Flame Retardant Antistatic Fabric",
+      "260 g/m², 60% Modacrylic 38% Cotton 2% Carbon, Inherent Flame Retardant"
+    ],
+    "technicalParameters": [
+      "Fiber | 60% Modacrylic (MAC) 38% Cotton (CO) 2%Carbon (CF) | EN ISO 2076",
+      "Yarn | Warp:30/2 Ne; Weft:30/2 Ne | EN ISO 2060",
+      "Weight | 260 ±10 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 900N ; Weft > 700N | EN ISO 13934-1",
+      "Tear Strength | Warp > 15N ; Weft > 15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Antistatic | Yes | EN ISO 1149-5",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 10 cal/cm² | EN ISO 61482-1-1",
+      "Chemical Resistant | Yes | EN ISO 13034",
+      "High Visibility | Done | EN ISO 20471"
+    ],
+    "applicationImageLabels": [
+      "Modacrylic Coverall for Oil and Gas Industry",
+      "multinorms raincoat"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 1149-5",
+      "EN 61482",
+      "EN 13034",
+      "EN 20471",
+      ">> ArWoWear 260 Moda Pro Data Sheet",
+      "data_sheet",
+      "EN ISO 1149-5(1149-3)",
+      "certificate_or_test_report",
+      "EN ISO 1149-5(1149-3) Test Report",
+      "EN ISO 61482-1-2 (Class 1)",
+      "EN-20932-1 , EN-12947-2 , EN-9237"
+    ],
+    "structure": "3/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-260-moda-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "welding",
+        "confidence": 97,
+        "evidence": [
+          "Mostly used by welders, electrical workers and firefighters",
+          "EN ISO 11611 certification",
+          "Welding Protection | Yes | EN ISO 11611",
+          "Molten-metal property listed"
+        ],
+        "rationale": "Explicit statement that the fabric is used by welders, combined with EN ISO 11611 welding protection certification, directly supports welding application."
+      },
+      {
+        "applicationId": "hivis",
+        "confidence": 90,
+        "evidence": [
+          "High Visibility | Done | EN ISO 20471",
+          "hi-vis property listed",
+          "EN ISO 20471 norm listed"
+        ],
+        "rationale": "Explicit EN ISO 20471 high-visibility certification directly supports hi-vis application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Explicit mention of electrical workers as target users along with arc-flash (EN 61482) protection directly supports energy sector application."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "Explicit mention of firefighters as intended users plus EN ISO 11612 heat/flame protection supports firefighting use."
+      },
+      {
+        "applicationId": "military",
+        "reason": "No explicit military or uniformed service use mentioned in the product data."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Application image label mentions 'Oil and Gas Industry' coverall but no explicit vehicle/vessel transport use stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-260-moda-pro",
+    "primary": {
+      "applicationId": "welding",
+      "confidence": 90,
+      "evidence": [
+        "Mostly used by welders, electrical workers and firefighters",
+        "EN ISO 11611 certification",
+        "Welding Protection | Yes | EN ISO 11611",
+        "Molten-metal property listed"
+      ],
+      "rationale": "The product description explicitly states it is used by welders and carries EN ISO 11611 welding protection certification, making welding the most direct and dominant stated end use."
+    },
+    "secondary": {
+      "applicationId": "hivis",
+      "confidence": 80,
+      "evidence": [
+        "High Visibility | Done | EN ISO 20471",
+        "hi-vis property listed",
+        "EN ISO 20471 norm listed"
+      ],
+      "rationale": "Explicit EN ISO 20471 certification and hi-vis property independently support high-visibility use as a secondary application, distinct from the welding use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "Firefighters are mentioned among users and EN ISO 11612 is present, but welding is more explicitly the leading stated use; firefighting lacks dedicated turnout gear framing."
+      },
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Electrical workers and arc protection are mentioned, but this is secondary to the explicit welding use and not independently dominant."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General industrial workwear framing exists but a narrower named sector (welding) is explicitly stated, making it unnecessary as primary."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Oil and gas coverall image label does not indicate vehicle or vessel transport use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-260-moda-pro",
+    "status": "resolved",
+    "primaryApplication": "welding",
+    "secondaryApplication": "hivis",
+    "primaryConfidence": 90,
+    "secondaryConfidence": 80,
+    "primaryEvidence": [
+      "Mostly used by welders, electrical workers and firefighters",
+      "EN ISO 11611 certification",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Molten-metal property listed"
+    ],
+    "secondaryEvidence": [
+      "High Visibility | Done | EN ISO 20471",
+      "hi-vis property listed",
+      "EN ISO 20471 norm listed"
+    ],
+    "primaryRationale": "The product description explicitly states it is used by welders and carries EN ISO 11611 welding protection certification, making welding the most direct and dominant stated end use.",
+    "secondaryRationale": "Explicit EN ISO 20471 certification and hi-vis property independently support high-visibility use as a secondary application, distinct from the welding use.",
+    "alternativesConsidered": [
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "Firefighters are mentioned among users and EN ISO 11612 is present, but welding is more explicitly the leading stated use; firefighting lacks dedicated turnout gear framing."
+      },
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Electrical workers and arc protection are mentioned, but this is secondary to the explicit welding use and not independently dominant."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General industrial workwear framing exists but a narrower named sector (welding) is explicitly stated, making it unnecessary as primary."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Oil and gas coverall image label does not indicate vehicle or vessel transport use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

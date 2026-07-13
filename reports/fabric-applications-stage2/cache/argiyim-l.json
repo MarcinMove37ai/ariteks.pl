@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:34.388Z",
+    "requestId": "req_011CcxyFwV2SD51sde9jvvp3",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9247,
+      "outputTokens": 363
+    }
+  },
+  "product": {
+    "slug": "argiyim-l",
+    "name": "ArGiyim L",
+    "family": "ArGiyim",
+    "subFamily": "argiyim-2",
+    "familyDescriptorPl": "Denim i ripstop na odzież outdoor",
+    "familyDescriptorEn": "Denim and ripstop for outdoor wear",
+    "categoryId": "ripstop-outdoor",
+    "categoryNamePl": "Ripstop i denim outdoor",
+    "categoryNameEn": "Ripstop & outdoor denim",
+    "categorySourceGroup": "Ripstop, elasthane and denim fabrics for outdoor wear.",
+    "weight": "220 g/m²",
+    "composition": "70% Co 22% Pes 8% El",
+    "weave": "Twill",
+    "titleDescriptor": "70% Cotton 22% Polyester 8% Elasthane 2/1S Twill Fabric, 220 gr/m'2",
+    "specLine": "220 g/m², 70% Cotton 22% Polyester 8% Elasthane, 2/1S Twill Fabric",
+    "properties": [
+      "stretch"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArGiyim L is elasthane 220 g/m² fabric, it creates extra comfort to the user by high stretch function. The fabric can be stretched easliy during hard work conditions. ArGiyim L is the most requested fabric for elastic medical wear scrubs and pants.",
+      "70% Cotton 22% Polyester 8% Elasthane 2/1S Twill Fabric, 220 g/m²",
+      "70% Cotton 22% Polyester 8% Elasthane 2/1S Twill Fabric, 220 gr/m'2",
+      "220 g/m², 70% Cotton 22% Polyester 8% Elasthane, 2/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 70% Cotton (CO) 22% Polyester (Pes) 8% Elasthane (EL) | EN ISO 2076",
+      "Yarn | Warp:20/1Ne | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | EN ISO 3081",
+      "Width | 1400 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>800N; Weft>600N | EN ISO 13934-1",
+      "Tear Strength | Warp>20N; Weft>15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 2-3 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 2-3 | EN ISO 105 N01",
+      "Peroxide Fastness | 3-4 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 2-3 | EN ISO 105 B07",
+      "pH | 4-9 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Pants",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArGiyim L Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Twill",
+    "recordUrl": "/ariteks/fabrics/argiyim-l/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "medical",
+        "confidence": 92,
+        "evidence": [
+          "ArGiyim L is the most requested fabric for elastic medical wear scrubs and pants."
+        ],
+        "rationale": "Description explicitly states the fabric is most requested for medical scrubs and pants, directly linking it to medical apparel use."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Stretch comfort property could suggest athletic wear, but no explicit sport use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "argiyim-l",
+    "primary": {
+      "applicationId": "medical",
+      "confidence": 88,
+      "evidence": [
+        "ArGiyim L is the most requested fabric for elastic medical wear scrubs and pants.",
+        "Application | Pants"
+      ],
+      "rationale": "The product description explicitly and directly states this fabric is most requested for elastic medical wear scrubs and pants, making medical the clear dominant end use."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No other explicit end use is stated; sport is only speculative based on stretch property, which is insufficient per rules."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Stretch comfort property is mentioned but no explicit sport or athletic use is stated in the source data."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General term 'hard work conditions' is used but the explicit dominant use is medical scrubs, not generic industrial workwear."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "argiyim-l",
+    "status": "resolved",
+    "primaryApplication": "medical",
+    "secondaryApplication": null,
+    "primaryConfidence": 88,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "ArGiyim L is the most requested fabric for elastic medical wear scrubs and pants.",
+      "Application | Pants"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product description explicitly and directly states this fabric is most requested for elastic medical wear scrubs and pants, making medical the clear dominant end use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Stretch comfort property is mentioned but no explicit sport or athletic use is stated in the source data."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General term 'hard work conditions' is used but the explicit dominant use is medical scrubs, not generic industrial workwear."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

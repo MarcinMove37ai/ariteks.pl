@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:17:15.889Z",
+    "requestId": "req_011CcxwLCubVJZWYqN2KcDp7",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5968,
+      "outputTokens": 230
+    }
+  },
+  "product": {
+    "slug": "arof",
+    "name": "Arof",
+    "family": "Arof",
+    "subFamily": "arof",
+    "familyDescriptorPl": "Lekkie siatki i dresówki",
+    "familyDescriptorEn": "Light mesh and tracksuit fabrics",
+    "categoryId": "tracksuit-mesh",
+    "categoryNamePl": "Dresówki i lekkie siatki",
+    "categoryNameEn": "Tracksuit & light mesh",
+    "categorySourceGroup": "Track Suit and Light Mesh Fabrics",
+    "weight": "220 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Track Suit Fabric",
+    "specLine": "220 g/m², 100% Polyester, Warp Knit Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Arof 100% polyester, 220 g/m² warp knitted fabric for track suit with thermal protection function. Backside of the fabric is fleece.",
+      "It is mostly used as sport suits for runners and soldiers.",
+      "Track Suit Fabric",
+      "220 g/m², 100% Polyester, Warp Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 75/144 Denier | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1500 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Track Suit",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Track Suit"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> Arof Data Sheet",
+      "data_sheet",
+      "TS EN ISO 105 B02",
+      "certificate_or_test_report",
+      "TS EN ISO 105 X12",
+      "ISO 13938-1",
+      "TS EN ISO 105 C01",
+      "TS EN ISO 105 E04",
+      "TS_530",
+      "TS_1833",
+      "TS_3071",
+      "TS_6330",
+      "TS_12127"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arof/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arof",
+    "matches": [
+      {
+        "applicationId": "sport",
+        "confidence": 90,
+        "evidence": [
+          "It is mostly used as sport suits for runners and soldiers.",
+          "Track Suit Fabric",
+          "applicationImageLabels: Track Suit"
+        ],
+        "rationale": "Explicitly described as a track suit fabric used for runners' sport suits, with track suit application image label."
+      },
+      {
+        "applicationId": "military",
+        "confidence": 70,
+        "evidence": [
+          "It is mostly used as sport suits for runners and soldiers."
+        ],
+        "rationale": "Explicit statement that the fabric is used for soldiers, indicating direct military use."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arof",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "sport",
+        "confidence": 90,
+        "evidence": [
+          "It is mostly used as sport suits for runners and soldiers.",
+          "Track Suit Fabric",
+          "applicationImageLabels: Track Suit"
+        ],
+        "rationale": "Explicitly described as a track suit fabric used for runners' sport suits, with track suit application image label."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Explicit statement that the fabric is used for soldiers, indicating direct military use."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

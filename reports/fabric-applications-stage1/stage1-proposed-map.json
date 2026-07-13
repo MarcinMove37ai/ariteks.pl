@@ -1,0 +1,487 @@
+{
+  "stage": 1,
+  "productionReady": false,
+  "generatedAt": "2026-07-12T22:20:07.805Z",
+  "model": "claude-sonnet-5",
+  "minConfidence": 90,
+  "applications": [
+    {
+      "id": "military",
+      "name": {
+        "pl": "Wojsko i służby mundurowe",
+        "en": "Military and uniformed services"
+      },
+      "source": "existing"
+    },
+    {
+      "id": "firefighting",
+      "name": {
+        "pl": "Straż pożarna",
+        "en": "Firefighting"
+      },
+      "source": "existing"
+    },
+    {
+      "id": "energy",
+      "name": {
+        "pl": "Energetyka",
+        "en": "Energy sector"
+      },
+      "source": "existing"
+    },
+    {
+      "id": "welding",
+      "name": {
+        "pl": "Hutnictwo i spawalnictwo",
+        "en": "Metallurgy and welding"
+      },
+      "source": "existing"
+    },
+    {
+      "id": "motorcycle",
+      "name": {
+        "pl": "Odzież motocyklowa",
+        "en": "Motorcycle apparel"
+      },
+      "source": "existing"
+    },
+    {
+      "id": "hivis",
+      "name": {
+        "pl": "Odzież ostrzegawcza hi-vis",
+        "en": "High-visibility apparel"
+      },
+      "source": "existing"
+    },
+    {
+      "id": "medical",
+      "name": {
+        "pl": "Medycyna",
+        "en": "Medical"
+      },
+      "source": "existing"
+    },
+    {
+      "id": "sport",
+      "name": {
+        "pl": "Sport",
+        "en": "Sport"
+      },
+      "source": "existing"
+    },
+    {
+      "id": "architecture-building",
+      "name": {
+        "pl": "Tkaniny architektoniczne i budowlane",
+        "en": "Architectural and building fabrics"
+      },
+      "source": "certain-new"
+    },
+    {
+      "id": "transport",
+      "name": {
+        "pl": "Tkaniny dla transportu",
+        "en": "Transport fabrics"
+      },
+      "source": "certain-new"
+    }
+  ],
+  "products": {
+    "arneo": [
+      "hivis"
+    ],
+    "arneo-pro": [
+      "hivis"
+    ],
+    "arneo-flame-static-pro": [
+      "hivis"
+    ],
+    "arneo-eco-r400": [
+      "hivis"
+    ],
+    "arneo-color": [
+      "hivis"
+    ],
+    "arneo-file": [
+      "hivis"
+    ],
+    "arneo-color-file": [
+      "hivis"
+    ],
+    "arneo-dirt-pro": [
+      "hivis"
+    ],
+    "arneo-supereco": [
+      "hivis"
+    ],
+    "arneo-supereco-r50": [
+      "hivis"
+    ],
+    "arneo-light": [
+      "hivis"
+    ],
+    "arneo-light-r50": [
+      "hivis"
+    ],
+    "arneo-light-r400": [
+      "hivis"
+    ],
+    "arneo-color-light": [
+      "hivis"
+    ],
+    "arshirt-neo": [
+      "hivis"
+    ],
+    "arshirt": [
+      "hivis"
+    ],
+    "arshirt-static-pro": [],
+    "arshirt-moda-pro": [
+      "hivis"
+    ],
+    "arsuprem": [],
+    "arsuprem-static-pro": [],
+    "arsuprem-moda-pro": [
+      "hivis",
+      "welding"
+    ],
+    "arbir": [
+      "hivis"
+    ],
+    "arbir-su-itici": [
+      "hivis"
+    ],
+    "arbir-su-itici-su-gecirmez": [
+      "hivis"
+    ],
+    "arbir-200": [
+      "hivis"
+    ],
+    "arwowear-t2-soft": [],
+    "arwowear-t4-soft": [],
+    "arwowear-t5-soft": [],
+    "arwowear-t6-soft": [],
+    "arwowear-t7-soft": [],
+    "arwowear-t11-soft": [],
+    "arwowear-t2-static-pro": [
+      "energy"
+    ],
+    "arwowear-t4-static-pro": [
+      "energy"
+    ],
+    "arwowear-t11-static-pro": [
+      "energy"
+    ],
+    "arwowear-t20-static-pro": [
+      "energy"
+    ],
+    "arwowear-t21-static-pro": [
+      "energy"
+    ],
+    "arwowear-t2-chem-pro": [],
+    "arwowear-t4-chem-pro": [],
+    "arwowear-t5-chem-pro": [],
+    "arwowear-t6-chem-pro": [],
+    "arwowear-t7-chem-pro": [],
+    "arwowear-t11-chem-pro": [],
+    "arwowear-t1-flame-pro": [],
+    "arwowear-t2-flame-pro": [
+      "welding"
+    ],
+    "arwowear-t11-flame-pro": [
+      "welding"
+    ],
+    "arwowear-t12-flame-pro": [
+      "welding"
+    ],
+    "arwowear-t13-flame-pro": [
+      "welding"
+    ],
+    "arwowear-t20-flame-pro": [
+      "welding"
+    ],
+    "arwowear-t21-flame-pro": [
+      "welding"
+    ],
+    "arwowear-t30-flame-pro": [
+      "welding"
+    ],
+    "arwowear-t31-flame-pro": [
+      "welding"
+    ],
+    "arwowear-t0-flame-arc-pro": [],
+    "arwowear-t1-flame-arc-pro": [],
+    "arwowear-t2-flame-arc-pro": [
+      "welding"
+    ],
+    "arwowear-t11-flame-arc-pro": [
+      "welding",
+      "energy"
+    ],
+    "arwowear-t20-flame-arc-pro": [
+      "welding"
+    ],
+    "arwowear-t21-flame-arc-pro": [
+      "welding"
+    ],
+    "arwowear-t30-flame-arc-pro": [
+      "welding",
+      "energy"
+    ],
+    "arwowear-t31-flame-arc-pro": [
+      "welding"
+    ],
+    "aramid-d0-150": [],
+    "aramid-d1-210": [
+      "welding"
+    ],
+    "aramid-d2-260": [
+      "firefighting",
+      "welding"
+    ],
+    "aramid-d3-200": [
+      "firefighting"
+    ],
+    "arwowear-260-moda-pro": [
+      "welding",
+      "hivis"
+    ],
+    "arwowear-330-moda-pro": [
+      "welding",
+      "hivis"
+    ],
+    "arox-t1-static-pro": [],
+    "arox-t2-static-pro": [],
+    "arox-t2-wr": [
+      "hivis"
+    ],
+    "arox-t4-wr-wp": [
+      "hivis"
+    ],
+    "arox-t5-multi": [
+      "hivis"
+    ],
+    "argiyim-245": [
+      "hivis"
+    ],
+    "argiyim-290": [
+      "hivis"
+    ],
+    "argiyim-245-static-pro": [
+      "hivis"
+    ],
+    "argiyim-bird-eye": [
+      "hivis"
+    ],
+    "argiyim-sultan": [
+      "hivis"
+    ],
+    "argiyim-ic": [
+      "hivis"
+    ],
+    "aramid-vis-150": [],
+    "aramid-vis-250": [],
+    "arsuprem-aramid-vis": [
+      "firefighting"
+    ],
+    "arshirt-aramid-vis": [
+      "energy"
+    ],
+    "ar3iplik-aramid-vis": [
+      "firefighting"
+    ],
+    "aramid-d1-210-denim": [
+      "energy"
+    ],
+    "aramid-d2-260-el": [
+      "military",
+      "firefighting"
+    ],
+    "aramid-d50-pike": [],
+    "arwowear-330-moda-pro-el": [],
+    "ar3iplik-moda-pro": [
+      "hivis"
+    ],
+    "ard3e3": [
+      "welding"
+    ],
+    "arbo": [
+      "firefighting"
+    ],
+    "arbo-dark": [
+      "firefighting",
+      "military"
+    ],
+    "aramid-d5-180-rb": [
+      "firefighting"
+    ],
+    "arbo-knit": [
+      "firefighting"
+    ],
+    "arwowear-t4-emk": [
+      "energy"
+    ],
+    "arshirt-emk": [
+      "energy"
+    ],
+    "armedi": [
+      "medical"
+    ],
+    "arox-t2-wr-antibac": [
+      "medical"
+    ],
+    "arwowear-t4-antibac": [
+      "medical"
+    ],
+    "arox-t0-wr-wp": [
+      "medical"
+    ],
+    "arox-t1-wr-wp": [
+      "medical"
+    ],
+    "arpower-knit-p": [
+      "medical"
+    ],
+    "arpower-knit": [
+      "medical"
+    ],
+    "arwowear-t0-soft": [
+      "medical"
+    ],
+    "arshirt-antiviral": [
+      "medical"
+    ],
+    "arof": [
+      "sport"
+    ],
+    "arof-mesh-2-2": [],
+    "arsport": [
+      "sport"
+    ],
+    "arsport-x": [
+      "hivis"
+    ],
+    "armoto": [
+      "motorcycle",
+      "hivis"
+    ],
+    "armoto-dura": [
+      "military"
+    ],
+    "arhard-mesh": [
+      "military"
+    ],
+    "arhard-mesh-300": [],
+    "arsport-dry": [
+      "hivis"
+    ],
+    "arsport-el": [
+      "hivis"
+    ],
+    "arsport-wp-flame-pro": [
+      "firefighting"
+    ],
+    "argiyim-360-denim": [],
+    "argiyim-l": [
+      "medical"
+    ],
+    "arwowear-t5-soft-el": [],
+    "ariripstop": [],
+    "ariripstop-el": [],
+    "ardura-500": [
+      "military"
+    ],
+    "ardura-1000": [
+      "military"
+    ],
+    "ardura-500-c": [
+      "military",
+      "motorcycle"
+    ],
+    "ardura-500-c-neo": [
+      "hivis",
+      "military",
+      "motorcycle"
+    ],
+    "ardura-500-c-rb": [
+      "military",
+      "motorcycle"
+    ],
+    "ardura-500-kirik-dimi": [
+      "military",
+      "motorcycle"
+    ],
+    "ardura-500-fr": [
+      "military",
+      "motorcycle"
+    ],
+    "ardura-1000-c": [
+      "military"
+    ],
+    "ardura-1000-c-rb": [
+      "military"
+    ],
+    "ardura-1000-kirik-dimi": [
+      "military"
+    ],
+    "ardura-1000-fr": [
+      "military",
+      "motorcycle"
+    ],
+    "argiyim-dura": [
+      "military",
+      "motorcycle"
+    ],
+    "argiyim-knit-knife-pro": [
+      "motorcycle"
+    ],
+    "argiyim-denim-kursun": [
+      "motorcycle"
+    ],
+    "argiyim-denim-kursun-ck": [],
+    "ardura-500-cg": [
+      "military"
+    ],
+    "arcadir-520": [
+      "military"
+    ],
+    "ardigiprint": [],
+    "arflexmembrane": [
+      "architecture-building"
+    ],
+    "argun-260": [],
+    "arinter": [
+      "architecture-building"
+    ],
+    "arastar": [],
+    "ardoku": [
+      "hivis"
+    ],
+    "ardolu": [
+      "hivis"
+    ],
+    "aribez": [],
+    "arigabardin-245": [],
+    "arigabardin-77": [],
+    "aripenye": [],
+    "aripike": [],
+    "arpo": [],
+    "arsotina": [],
+    "arclean-250": [],
+    "ar-air-mesh-aa-150": [],
+    "ar-air-mesh-aa-250": [],
+    "ar-air-mesh-bb": [],
+    "ar-air-mesh-bond": [],
+    "arbayrak": [],
+    "arseat": [
+      "transport"
+    ],
+    "arseat-eco": [
+      "transport"
+    ],
+    "arseat-touch": [],
+    "ardilight": [
+      "architecture-building"
+    ]
+  }
+}

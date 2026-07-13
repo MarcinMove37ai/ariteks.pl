@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:11:49.618Z",
+    "requestId": "req_011Ccxvv7FcAfTeVfM9cMx8K",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5974,
+      "outputTokens": 265
+    }
+  },
+  "product": {
+    "slug": "arneo-light-r50",
+    "name": "ArNeo Light + R50",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "70 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Economical Safety Jacket Fabric Laminated with Brillant Strips",
+    "specLine": "70 g/m², 100% Polyester, Brillant Strips Laminated, High Visible Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Light +R50 is 100% polyester, 65-70 g/m² warp knitted neon colored jacket fabric.",
+      "It is an economic alternative to ArNeo Eco for non professional usage.",
+      "Designed for construction and mining workwear applications.",
+      "The edge of the fabric is laminated with 5 cm brillant strips.",
+      "Economical Safety Jacket Fabric Laminated with Brillant Strips",
+      "70 g/m², 100% Polyester, Brillant Strips Laminated, High Visible Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 70 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 400 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Safety Jacket",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Economical High Visible Yellow Safety Jacket"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArNeo Light +R50 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-light-r50/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-light-r50",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "categoryId: hi-vis",
+          "Application | Safety Jacket",
+          "Designed for construction and mining workwear applications.",
+          "Economical High Visible Yellow Safety Jacket",
+          "High Visible Knit Fabric"
+        ],
+        "rationale": "Product is explicitly categorized as a hi-vis warp knit fabric for safety jackets, with explicit application field 'Safety Jacket' and hi-vis imagery/labels."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Mining/construction context could relate to energy or utility work sites, but no explicit electrical/energy sector use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-light-r50",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "categoryId: hi-vis",
+          "Application | Safety Jacket",
+          "Designed for construction and mining workwear applications.",
+          "Economical High Visible Yellow Safety Jacket",
+          "High Visible Knit Fabric"
+        ],
+        "rationale": "Product is explicitly categorized as a hi-vis warp knit fabric for safety jackets, with explicit application field 'Safety Jacket' and hi-vis imagery/labels."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Mining/construction context could relate to energy or utility work sites, but no explicit electrical/energy sector use is stated."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

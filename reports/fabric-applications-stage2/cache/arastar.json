@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:43:11.463Z",
+    "requestId": "req_011CcxyJNzFTptrRut8QevKj",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 8797,
+      "outputTokens": 858
+    }
+  },
+  "product": {
+    "slug": "arastar",
+    "name": "ArAstar",
+    "family": "ArAstar",
+    "subFamily": "arastar-arsotina",
+    "familyDescriptorPl": "Podszewki poliestrowe",
+    "familyDescriptorEn": "Polyester lining fabrics",
+    "categoryId": "lining",
+    "categoryNamePl": "Podszewki",
+    "categoryNameEn": "Lining fabrics",
+    "categorySourceGroup": "Lining Fabrics",
+    "weight": "60 g/m²",
+    "composition": "100% PES",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "100% polyester lining fabric",
+    "specLine": "60 g/m², 100% Polyester, 1/1 Plain Woven Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArAstar, 100% Polyester taffeta fabric for garment lining.",
+      "It can be used as a lining inside of the shoes.",
+      "ArAstar is the most economical woven fabric on the market as textile material.",
+      "100% polyester lining fabric",
+      "60 g/m², 100% Polyester, 1/1 Plain Woven Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester | EN ISO 2076",
+      "Yarn | 75 Denier | EN ISO 2060",
+      "Weight | 60 ±10 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 500N ; Weft > 400N | EN ISO 13934-1",
+      "Tear Strength | Warp > 20N ; Weft > 15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4,0 - 7,5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Lining",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArAstar Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/arastar/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "ArAstar is a generic 100% polyester lining fabric for garments and shoe linings, with no explicit sector application (military, medical, sport, transport, etc.) stated in the product data."
+  },
+  "modelOutput": {
+    "fabricSlug": "arastar",
+    "primary": {
+      "applicationId": "footwear-components",
+      "confidence": 55,
+      "evidence": [
+        "It can be used as a lining inside of the shoes.",
+        "Application | Lining"
+      ],
+      "rationale": "The product is explicitly described as usable for shoe lining, which is the only concrete named application; other uses (general garment lining) are not tied to a specific sector in the taxonomy."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independent secondary sector is explicitly stated; the fabric's other use is generic garment lining without a named industry."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No explicit statement of industrial or workwear-specific use; only generic garment lining is mentioned."
+      },
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "No mention of outdoor, rainwear, or leisure garment application."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product is a generic polyester lining fabric with only a brief mention of shoe lining use; the dominant intended application is ambiguous and weakly supported by the available evidence."
+  },
+  "normalized": {
+    "fabricSlug": "arastar",
+    "status": "resolved-review",
+    "primaryApplication": "footwear-components",
+    "secondaryApplication": null,
+    "primaryConfidence": 55,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "It can be used as a lining inside of the shoes.",
+      "Application | Lining"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly described as usable for shoe lining, which is the only concrete named application; other uses (general garment lining) are not tied to a specific sector in the taxonomy.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No explicit statement of industrial or workwear-specific use; only generic garment lining is mentioned."
+      },
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "No mention of outdoor, rainwear, or leisure garment application."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product is a generic polyester lining fabric with only a brief mention of shoe lining use; the dominant intended application is ambiguous and weakly supported by the available evidence."
+  }
+}

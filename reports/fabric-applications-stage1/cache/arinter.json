@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:19:12.614Z",
+    "requestId": "req_011CcxwUdfLjz9zD78xUZ4Lj",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6210,
+      "outputTokens": 445
+    }
+  },
+  "product": {
+    "slug": "arinter",
+    "name": "ArInter",
+    "family": "ArInter",
+    "subFamily": "arinter",
+    "familyDescriptorPl": "Tkanina napinana do dekoracji wnętrz",
+    "familyDescriptorEn": "Tension fabric for interior decoration",
+    "categoryId": "",
+    "categoryNamePl": "",
+    "categoryNameEn": "",
+    "categorySourceGroup": "",
+    "weight": "250 g/m²",
+    "composition": "92% PES 8% EL",
+    "weave": "Interlock",
+    "titleDescriptor": "Tension Fabric Stuctures for Inside Decoration",
+    "specLine": "250 g/m², 92% Polyester 8% Elastane, Flexible, Dirt Repellent, Antibacterial, Tension Fabric",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "stretch",
+      "antibacterial",
+      "uv-protection"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100",
+      "EN 13758",
+      "EN ISO 14116"
+    ],
+    "descriptions": [
+      "ArInter can be used by designers and architects to decorate an environment and",
+      "to give function to the area.",
+      "It is possible to add extra function like high visibility. The fabric has odor cleaning photocatalytic function.",
+      "Flame retardant function is usefull for indoor usage.",
+      "Any aestetic properties can be added by creating flat or curved shapes, globes,",
+      "pyramids, spirals or cubes.",
+      "Tension Fabric Stuctures for Inside Decoration",
+      "250 g/m², 92% Polyester 8% Elastane, Flexible, Dirt Repellent, Antibacterial, Tension Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 92% Polyester (PES) 8% Elastane (EL) | EN ISO 2076",
+      "Yarn | 100*2 Denier | EN ISO 2060",
+      "Weight | 250 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | >1100 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 7 | EN ISO 105 B02",
+      "pH | 5-7 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Indoor Tension Fabric",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Turkmenistan Airport",
+      "TRT Studio",
+      "Neomarin Shopping Center"
+    ],
+    "functionIconLabels": [
+      "Oeko Teks Standard 100",
+      "Dirt Repellent",
+      "Uv protection",
+      "Recyclable",
+      "Antibacterial",
+      "En 20471",
+      "Ecologic",
+      "Stretchable",
+      "Flame Retardant",
+      "AATCC 147, ASTME 2129",
+      "certificate_or_test_report",
+      "EN6940, EN 6941",
+      "EN ISO 13934-1",
+      "EN ISO 13937-1, EN ISO 13938-1",
+      "EN 14419, ISO 7211-5",
+      "AATCC 183, EN ISO 105 D01",
+      "EN ISO 105 B02"
+    ],
+    "structure": "Interlock",
+    "recordUrl": "/ariteks/fabrics/arinter/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arinter",
+    "matches": [
+      {
+        "applicationId": "architecture-building",
+        "confidence": 95,
+        "evidence": [
+          "Tension fabric for interior decoration",
+          "Tension Fabric Stuctures for Inside Decoration",
+          "Application | Indoor Tension Fabric",
+          "'ArInter can be used by designers and architects to decorate an environment'",
+          "Application image labels: Turkmenistan Airport, TRT Studio, Neomarin Shopping Center"
+        ],
+        "rationale": "Explicitly marketed as a tension fabric structure for interior/architectural decoration, used in building projects like an airport and shopping center, matching architecture-building's tensile structure and interior textile system criteria."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "hivis",
+        "reason": "Hi-vis property and EN ISO 20471 norm listed, but no explicit statement of use as high-visibility safety apparel—this is an interior decoration fabric, not a garment."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial property present, but no explicit medical/healthcare use stated; product is positioned for interior decoration."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Application image label mentions 'Turkmenistan Airport' but this reflects an architectural installation in a building, not vehicle/vessel use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arinter",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "architecture-building",
+        "confidence": 95,
+        "evidence": [
+          "Tension fabric for interior decoration",
+          "Tension Fabric Stuctures for Inside Decoration",
+          "Application | Indoor Tension Fabric",
+          "'ArInter can be used by designers and architects to decorate an environment'",
+          "Application image labels: Turkmenistan Airport, TRT Studio, Neomarin Shopping Center"
+        ],
+        "rationale": "Explicitly marketed as a tension fabric structure for interior/architectural decoration, used in building projects like an airport and shopping center, matching architecture-building's tensile structure and interior textile system criteria."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "hivis",
+        "reason": "Hi-vis property and EN ISO 20471 norm listed, but no explicit statement of use as high-visibility safety apparel—this is an interior decoration fabric, not a garment."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial property present, but no explicit medical/healthcare use stated; product is positioned for interior decoration."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Application image label mentions 'Turkmenistan Airport' but this reflects an architectural installation in a building, not vehicle/vessel use."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

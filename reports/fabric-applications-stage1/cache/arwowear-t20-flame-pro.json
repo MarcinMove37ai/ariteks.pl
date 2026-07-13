@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:13:50.213Z",
+    "requestId": "req_011Ccxw4qwc9wYHoqhvTvBwq",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6380,
+      "outputTokens": 382
+    }
+  },
+  "product": {
+    "slug": "arwowear-t20-flame-pro",
+    "name": "ArWoWear T20 Flame Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-flame-pro",
+    "familyDescriptorPl": "Trudnopalne tkaniny robocze (100 prań)",
+    "familyDescriptorEn": "FR workwear fabrics (100 washes)",
+    "categoryId": "fr-workwear",
+    "categoryNamePl": "Trudnopalne robocze",
+    "categoryNameEn": "FR workwear",
+    "categorySourceGroup": "Flame Retardant, Vat Dyed, Workwear Fabrics Resistant up to 100 Wash",
+    "weight": "260 g/m²",
+    "composition": "80% CO 20% PES",
+    "weave": "3/1S Twill",
+    "titleDescriptor": "80% Cotton 20% Polyester, Flame Retardant Fabric , 260 gr/m'2",
+    "specLine": "260 g/m², 80% Cotton 20% Polyester, VAT Dyed, Flame Retardant (100 Wash Resistant), 3/1S Twill Fabric",
+    "properties": [
+      "fr",
+      "arc",
+      "molten-metal",
+      "wash-100"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T20 Flame Pro is light weight 260 g/m², 80% cotton 20% polyester, vat dyed, flame retardant workwear fabric.",
+      "It has flame retardant function with EN ISO 11612 and EN ISO 11611 certification.",
+      "It is durable up to 100 washing.",
+      "80% Cotton 20% Polyester, Flame Retardant Fabric , 260 gr/m'2",
+      "260 g/m², 80% Cotton 20% Polyester, VAT Dyed, Flame Retardant (100 Wash Resistant), 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 80% Cotton (CO) 20% Polyester (PES) | EN ISO 2076",
+      "Yarn | Warp:30/2Ne; Weft:30/2Ne | EN ISO 2060",
+      "Weight | 260 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1000N; Weft>800N | EN ISO 13934-1",
+      "Tear Strength | Warp>20N; Weft>15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 10 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [
+      "Flame Retardant Pan"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 61482",
+      ">> ArWoWear T20 Flame Pro Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "3/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t20-flame-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t20-flame-pro",
+    "matches": [
+      {
+        "applicationId": "welding",
+        "confidence": 95,
+        "evidence": [
+          "Welding Protection | Yes | EN ISO 11611",
+          "norms include EN ISO 11611",
+          "properties include molten-metal"
+        ],
+        "rationale": "Explicit EN ISO 11611 welding protection certification and molten-metal splash resistance directly indicate welding/metalworking use."
+      },
+      {
+        "applicationId": "energy",
+        "confidence": 75,
+        "evidence": [
+          "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+          "ATPV | > 10 cal/cm² | EN ISO 61482-1-1",
+          "norms include EN 61482"
+        ],
+        "rationale": "Explicit electric-arc protection rating (EN 61482, ATPV) directly indicates suitability for electrical/high-voltage work environments."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "firefighting",
+        "reason": "EN ISO 11612 flame/heat protection is present but this is generic FR workwear certification, not explicit firefighter turnout gear use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t20-flame-pro",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "welding",
+        "confidence": 95,
+        "evidence": [
+          "Welding Protection | Yes | EN ISO 11611",
+          "norms include EN ISO 11611",
+          "properties include molten-metal"
+        ],
+        "rationale": "Explicit EN ISO 11611 welding protection certification and molten-metal splash resistance directly indicate welding/metalworking use."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Explicit electric-arc protection rating (EN 61482, ATPV) directly indicates suitability for electrical/high-voltage work environments."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "EN ISO 11612 flame/heat protection is present but this is generic FR workwear certification, not explicit firefighter turnout gear use."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

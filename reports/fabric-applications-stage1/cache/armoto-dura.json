@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:17:30.567Z",
+    "requestId": "req_011CcxwMEjGDgeEyqbWgVPNb",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5896,
+      "outputTokens": 266
+    }
+  },
+  "product": {
+    "slug": "armoto-dura",
+    "name": "ArMoto Dura",
+    "family": "ArMoto",
+    "subFamily": "armoto",
+    "familyDescriptorPl": "Tkaniny na odzież motocyklową",
+    "familyDescriptorEn": "Motorcycle apparel fabrics",
+    "categoryId": "heavy-warp-knits",
+    "categoryNamePl": "Ciężkie dzianiny kolumienkowe",
+    "categoryNameEn": "Heavy warp knits",
+    "categorySourceGroup": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+    "weight": "240 g/m²",
+    "composition": "100% PA",
+    "weave": "Warp Knit",
+    "titleDescriptor": "Pa 6.6 Fabric for Shoes",
+    "specLine": "240 g/m², 100% Pa 6.6, Warp Knit Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArMoto Dura is made of high tenacity polyamide fibers.",
+      "For the military shoes industry it is popular fabric to laminate on base and edge of shoes.",
+      "100% polyamide 6.6 warp knit fabric for heavy duty and military shoes.",
+      "Pa 6.6 Fabric for Shoes",
+      "240 g/m², 100% Pa 6.6, Warp Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% HT Polyamide (PA 6.6) | TS EN ISO 1833",
+      "Yarn | 300 Denier | EN ISO 2060",
+      "Weight | 240 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 5000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Military Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArMoto Dura Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit",
+    "recordUrl": "/ariteks/fabrics/armoto-dura/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "armoto-dura",
+    "matches": [
+      {
+        "applicationId": "military",
+        "confidence": 95,
+        "evidence": [
+          "For the military shoes industry it is popular fabric to laminate on base and edge of shoes.",
+          "100% polyamide 6.6 warp knit fabric for heavy duty and military shoes.",
+          "Application | Military Shoes"
+        ],
+        "rationale": "Product data explicitly and repeatedly states intended use for military shoes, directly matching the military application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "motorcycle",
+        "reason": "Family/subFamily name is 'ArMoto' and family descriptor references motorcycle apparel fabrics, but no explicit statement ties this specific product to motorcycle riding gear rather than shoes."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "armoto-dura",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "military",
+        "confidence": 95,
+        "evidence": [
+          "For the military shoes industry it is popular fabric to laminate on base and edge of shoes.",
+          "100% polyamide 6.6 warp knit fabric for heavy duty and military shoes.",
+          "Application | Military Shoes"
+        ],
+        "rationale": "Product data explicitly and repeatedly states intended use for military shoes, directly matching the military application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "motorcycle",
+        "reason": "Family/subFamily name is 'ArMoto' and family descriptor references motorcycle apparel fabrics, but no explicit statement ties this specific product to motorcycle riding gear rather than shoes."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:27.648Z",
+    "requestId": "req_011CcxyEwwXsn9YCMWoZW6wT",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 8917,
+      "outputTokens": 868
+    }
+  },
+  "product": {
+    "slug": "arof-mesh-2-2",
+    "name": "Arof Mesh 2*2",
+    "family": "Arof",
+    "subFamily": "arof",
+    "familyDescriptorPl": "Lekkie siatki i dresówki",
+    "familyDescriptorEn": "Light mesh and tracksuit fabrics",
+    "categoryId": "tracksuit-mesh",
+    "categoryNamePl": "Dresówki i lekkie siatki",
+    "categoryNameEn": "Tracksuit & light mesh",
+    "categorySourceGroup": "Track Suit and Light Mesh Fabrics",
+    "weight": "55 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "2*2 Mesh Fabric",
+    "specLine": "55 g/m², 100% Polyester, 2*2 Mesh Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Arof Mesh 2*2 is 100% polyester, 50-60 g/m² warp knitted 2*2 mesh fabric.",
+      "Due to mesh structure it can provide both safety for the material and transparency.",
+      "It can be used as a bag's side pocket, parka interlining, raincoat back fabric and car seat's back cover.",
+      "2*2 Mesh Fabric",
+      "55 g/m², 100% Polyester, 2*2 Mesh Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 55 ±5 g/m² | TS EN 12127",
+      "Width | 1600 ±20 mm | TS EN 1773",
+      "Bursting strength | > 500 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Mesh for Bag, Car Seat, Raincoat",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> Arof Mesh 2*2 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/arof-mesh-2-2/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Explicitly stated as a car seat's back cover material, directly supporting vehicle interior/upholstery use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arof-mesh-2-2",
+    "primary": {
+      "applicationId": "outdoor-functional",
+      "confidence": 55,
+      "evidence": [
+        "It can be used as a bag's side pocket, parka interlining, raincoat back fabric and car seat's back cover.",
+        "Application | Mesh for Bag, Car Seat, Raincoat"
+      ],
+      "rationale": "The fabric is explicitly described for use as parka interlining and raincoat back fabric, positioning it primarily as a functional apparel lining/mesh material for outdoor and weather-protective garments."
+    },
+    "secondary": {
+      "applicationId": "transport",
+      "confidence": 45,
+      "evidence": [
+        "car seat's back cover",
+        "Application | Mesh for Bag, Car Seat, Raincoat"
+      ],
+      "rationale": "The product data explicitly states use as a car seat back cover, an independently stated vehicle interior application distinct from the apparel-lining use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "upholstery-interiors",
+        "reasonNotSelected": "The upholstery use stated is specifically for car seats, which falls under transport rather than generic furniture upholstery."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Category is tracksuit/light mesh but no explicit sportswear end use is stated; descriptions focus on bags, parkas, raincoats and car seats instead."
+      },
+      {
+        "applicationId": "footwear-components",
+        "reasonNotSelected": "No footwear use mentioned in the product data."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product lists multiple distinct end uses (bag, parka interlining, raincoat, car seat cover) without a clearly dominant single application, requiring human judgment on the most central use."
+  },
+  "normalized": {
+    "fabricSlug": "arof-mesh-2-2",
+    "status": "resolved-review",
+    "primaryApplication": "outdoor-functional",
+    "secondaryApplication": null,
+    "primaryConfidence": 55,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "It can be used as a bag's side pocket, parka interlining, raincoat back fabric and car seat's back cover.",
+      "Application | Mesh for Bag, Car Seat, Raincoat"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly described for use as parka interlining and raincoat back fabric, positioning it primarily as a functional apparel lining/mesh material for outdoor and weather-protective garments.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "upholstery-interiors",
+        "reasonNotSelected": "The upholstery use stated is specifically for car seats, which falls under transport rather than generic furniture upholstery."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Category is tracksuit/light mesh but no explicit sportswear end use is stated; descriptions focus on bags, parkas, raincoats and car seats instead."
+      },
+      {
+        "applicationId": "footwear-components",
+        "reasonNotSelected": "No footwear use mentioned in the product data."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product lists multiple distinct end uses (bag, parka interlining, raincoat, car seat cover) without a clearly dominant single application, requiring human judgment on the most central use."
+  }
+}

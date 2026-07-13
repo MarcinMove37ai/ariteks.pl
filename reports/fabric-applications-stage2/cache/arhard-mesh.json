@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:25.758Z",
+    "requestId": "req_011CcxyFKFBvYDdmtA6UbuvF",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9024,
+      "outputTokens": 502
+    }
+  },
+  "product": {
+    "slug": "arhard-mesh",
+    "name": "ArHard Mesh",
+    "family": "ArHard",
+    "subFamily": "arhard-mesh",
+    "familyDescriptorPl": "Ciężkie siatki techniczne",
+    "familyDescriptorEn": "Heavy technical mesh",
+    "categoryId": "heavy-mesh",
+    "categoryNamePl": "Ciężkie siatki",
+    "categoryNameEn": "Heavy mesh fabrics",
+    "categorySourceGroup": "Heavy Mesh Fabrics",
+    "weight": "420 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "Mesh Fabric for Military Tactical Vest",
+    "specLine": "420 g/m², 100% Polyester, Mesh Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 420 g/m² warp knitted military mesh fabric.",
+      "The main application is for tactical vest. It can be also used as",
+      "upholstery mesh for office furniture.",
+      "Mesh Fabric for Military Tactical Vest",
+      "420 g/m², 100% Polyester, Mesh Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 300 Denier | EN ISO 2060",
+      "Weight | 420 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 3500 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Military Tactical Vest",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Tactical Vest 1",
+      "Tactical Vest 2",
+      "Tactical Vest 3"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArHard Mesh Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/arhard-mesh/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "military",
+        "confidence": 97,
+        "evidence": [
+          "Title: 'Mesh Fabric for Military Tactical Vest'",
+          "Description: 'The main application is for tactical vest.'",
+          "technicalParameters: 'Application | Military Tactical Vest'",
+          "applicationImageLabels: ['Tactical Vest 1','Tactical Vest 2','Tactical Vest 3']"
+        ],
+        "rationale": "Explicit and repeated statement that the fabric's main application is military tactical vests, supported by application images labeled tactical vest."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arhard-mesh",
+    "primary": {
+      "applicationId": "military",
+      "confidence": 96,
+      "evidence": [
+        "Title: 'Mesh Fabric for Military Tactical Vest'",
+        "Description: 'The main application is for tactical vest.'",
+        "technicalParameters: 'Application | Military Tactical Vest'",
+        "applicationImageLabels: ['Tactical Vest 1','Tactical Vest 2','Tactical Vest 3']"
+      ],
+      "rationale": "The fabric is explicitly and repeatedly described as intended for military tactical vests, with dedicated application images and technical parameters confirming this as the dominant use."
+    },
+    "secondary": {
+      "applicationId": "upholstery-interiors",
+      "confidence": 55,
+      "evidence": [
+        "Description: 'It can be also used as upholstery mesh for office furniture.'"
+      ],
+      "rationale": "The source independently states a secondary use as upholstery mesh for office furniture, matching the upholstery-interiors application for non-vehicle furniture."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No generic industrial workwear use stated; military tactical vest is more specific and explicit."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "No sport or athletic use mentioned; mesh is for tactical and furniture use only."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arhard-mesh",
+    "status": "resolved-review",
+    "primaryApplication": "military",
+    "secondaryApplication": null,
+    "primaryConfidence": 96,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Title: 'Mesh Fabric for Military Tactical Vest'",
+      "Description: 'The main application is for tactical vest.'",
+      "technicalParameters: 'Application | Military Tactical Vest'",
+      "applicationImageLabels: ['Tactical Vest 1','Tactical Vest 2','Tactical Vest 3']"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly and repeatedly described as intended for military tactical vests, with dedicated application images and technical parameters confirming this as the dominant use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No generic industrial workwear use stated; military tactical vest is more specific and explicit."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "No sport or athletic use mentioned; mesh is for tactical and furniture use only."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

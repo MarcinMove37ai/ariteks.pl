@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:40:17.232Z",
+    "requestId": "req_011Ccxy55koRVohzNLU5cqSt",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9635,
+      "outputTokens": 1447
+    }
+  },
+  "product": {
+    "slug": "arsuprem-static-pro",
+    "name": "ArSuprem Static Pro",
+    "family": "ArSuprem",
+    "subFamily": "arwowear-static-pro",
+    "familyDescriptorPl": "Antystatyczne tkaniny robocze",
+    "familyDescriptorEn": "Antistatic workwear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "220 g/m²",
+    "composition": "97% CO 3% CF",
+    "weave": "Jersey",
+    "titleDescriptor": "97% Cotton 3% Carbon Antistatic, Vat Dyed Single Jersey Fabric",
+    "specLine": "220 g/m², 97% Cotton 3% Carbon, Single Jersey, Antistatic, Vat Dyed Knit Fabric",
+    "properties": [
+      "hi-vis",
+      "antistatic"
+    ],
+    "norms": [
+      "EN 1149",
+      "EN 61340",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "97% cotton 3% Carbon single jersey, antisatic workwear knit fabric with very high chlorinated bleaching and light fastness.",
+      "ArSuprem Static Pro fabric are produced from the best quality combed yarn Turkish Cotton.",
+      "It is resistant to very high sun level, with fastness level of 6 to 7.",
+      "ArSuprem Static Pro fabrics can be bleached with peroxide and hypochloride without whitening in color.",
+      "Suitable for antistatic ESD application, certified for EN ISO 1149",
+      "Vat dyed ArSuprem Static Pro products can be used in the most hard working conditions and in military area.",
+      "97% Cotton 3% Carbon Antistatic, Vat Dyed Single Jersey Fabric",
+      "220 g/m², 97% Cotton 3% Carbon, Single Jersey, Antistatic, Vat Dyed Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 97% Cotton (CO) 3% Carbon (CF) | EN ISO 2076",
+      "Yarn | 20/1 Ne Combed | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Antisatic ESD Shirt",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Done | EN ISO 1149-5",
+      "ESD | Done | EN 61340"
+    ],
+    "applicationImageLabels": [
+      "High Fastness Antisatic T-Shirt",
+      "High Fastness Antistatic T-Shirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 1149",
+      "ESD",
+      ">> ArSuprem Static Pro Data Sheet",
+      "data_sheet",
+      "TS EN ISO 1149-5 (EN 1149-3)",
+      "certificate_or_test_report",
+      "TS EN ISO 1149-5 (EN 1149-3) Test Report"
+    ],
+    "structure": "Jersey",
+    "recordUrl": "/ariteks/fabrics/arsuprem-static-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Fabric is antistatic (EN 1149, EN 61340) and ESD-certified, which are properties often relevant to electrical environments, but no explicit statement ties it to the energy sector or high-voltage work."
+      },
+      {
+        "applicationId": "hivis",
+        "reason": "Product is explicitly categorized under the hi-vis category and source group for safety jackets, and lists hi-vis as a property, despite being a jersey knit rather than warp knit."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial/antistatic finishes could theoretically support hospital-adjacent uses, but no medical or healthcare application is explicitly stated."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Explicit textual statement identifies suitability for military-area use, providing direct though brief evidence."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arsuprem-static-pro",
+    "primary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 62,
+      "evidence": [
+        "Application | Antisatic ESD Shirt",
+        "Suitable for antistatic ESD application, certified for EN ISO 1149",
+        "norms: EN 1149, EN 61340, OEKO-TEX 100",
+        "familyDescriptorEn: Antistatic workwear"
+      ],
+      "rationale": "The fabric is explicitly described as an antistatic ESD shirt fabric intended for general industrial protective workwear. Despite being catalogued under a hi-vis category source group, the technical data, application field and descriptions center on antistatic/ESD workwear rather than certified high-visibility warning use (no EN ISO 20471 or fluorescent colour evidence), so the most defensible primary use is general industrial workwear."
+    },
+    "secondary": {
+      "applicationId": "military",
+      "confidence": 35,
+      "evidence": [
+        "Vat dyed ArSuprem Static Pro products can be used in the most hard working conditions and in military area."
+      ],
+      "rationale": "An explicit, though brief, statement ties the fabric to military-area use, providing independent support for a secondary military application distinct from the general workwear use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "Category and source group labels reference hi-vis warp knit safety jackets, but the actual structure is a jersey knit and no certified high-visibility standard (e.g., EN ISO 20471) or fluorescent colour is stated; evidence instead centers on ESD/antistatic use, so hivis is not clearly supported as the dominant use."
+      },
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Antistatic and ESD certification (EN 1149, EN 61340) alone do not establish an explicit electrical-utility or high-voltage application per rule 8/exclusion guidance."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "No explicit medical or healthcare use stated; antistatic property alone is insufficient."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Category metadata (hi-vis warp knit safety jacket group) conflicts with the product's actual jersey knit structure and ESD-focused description, creating ambiguity about whether hi-vis certification is truly intended; human review recommended to confirm correct primary classification."
+  },
+  "normalized": {
+    "fabricSlug": "arsuprem-static-pro",
+    "status": "resolved-review",
+    "primaryApplication": "workwear-industrial",
+    "secondaryApplication": null,
+    "primaryConfidence": 62,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Application | Antisatic ESD Shirt",
+      "Suitable for antistatic ESD application, certified for EN ISO 1149",
+      "norms: EN 1149, EN 61340, OEKO-TEX 100",
+      "familyDescriptorEn: Antistatic workwear"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly described as an antistatic ESD shirt fabric intended for general industrial protective workwear. Despite being catalogued under a hi-vis category source group, the technical data, application field and descriptions center on antistatic/ESD workwear rather than certified high-visibility warning use (no EN ISO 20471 or fluorescent colour evidence), so the most defensible primary use is general industrial workwear.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "Category and source group labels reference hi-vis warp knit safety jackets, but the actual structure is a jersey knit and no certified high-visibility standard (e.g., EN ISO 20471) or fluorescent colour is stated; evidence instead centers on ESD/antistatic use, so hivis is not clearly supported as the dominant use."
+      },
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Antistatic and ESD certification (EN 1149, EN 61340) alone do not establish an explicit electrical-utility or high-voltage application per rule 8/exclusion guidance."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "No explicit medical or healthcare use stated; antistatic property alone is insufficient."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Category metadata (hi-vis warp knit safety jacket group) conflicts with the product's actual jersey knit structure and ESD-focused description, creating ambiguity about whether hi-vis certification is truly intended; human review recommended to confirm correct primary classification."
+  }
+}

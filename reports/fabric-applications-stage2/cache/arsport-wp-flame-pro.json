@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:34.667Z",
+    "requestId": "req_011CcxyFpvdN1PHsqLHSkJZz",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9174,
+      "outputTokens": 494
+    }
+  },
+  "product": {
+    "slug": "arsport-wp-flame-pro",
+    "name": "ArSport Wp/Flame Pro",
+    "family": "ArSport",
+    "subFamily": "arsport2",
+    "familyDescriptorPl": "Dzianiny sportowe — oddychające i stretch",
+    "familyDescriptorEn": "Sports knits — breathable and stretch",
+    "categoryId": "functional-interlock",
+    "categoryNamePl": "Dzianiny funkcyjne interlock",
+    "categoryNameEn": "Functional interlock knits",
+    "categorySourceGroup": "Functional knit interlock polyester fabrics.",
+    "weight": "160 g/m²",
+    "composition": "75% PES 25% PU",
+    "weave": "Interlock",
+    "titleDescriptor": "Humidity Barrier Flame retardant fabric",
+    "specLine": "160 g/m², 75% Polyester 25% Polyurethane, Waterproof, Breathable, Flame Retardant Interlock Knit Fabric",
+    "properties": [
+      "fr",
+      "waterproof",
+      "breathable"
+    ],
+    "norms": [
+      "EN ISO 14116",
+      "EN 343",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "is humidity barrier fabric for firefighters suits.",
+      "It is flame retardant thus can be used on the inner layer of the firefighters cloth. The brethable membrane laminated to the fabric provides waterproof function. With very light and knit structure it is good alternative to woven humidty barrier fabrics.",
+      "Humidity Barrier Flame retardant fabric",
+      "160 g/m², 75% Polyester 25% Polyurethane, Waterproof, Breathable, Flame Retardant Interlock Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 75% Polyester 25% Polyurethane (PU) | TS EN ISO 1833",
+      "Yarn | 100 Denier | EN ISO 2060",
+      "Weight | 160 ±10 g/m² | TS EN 12127",
+      "Width | 1800 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 4-9 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Humidity Barrier",
+      "Quality Management | Done | ISO 9001",
+      "Waterproof | Yes | EN 343"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Waterproof",
+      "Flame Retardant",
+      ">> ArSport Wp Flame Pro",
+      "data_sheet"
+    ],
+    "structure": "Interlock",
+    "recordUrl": "/ariteks/fabrics/arsport-wp-flame-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "firefighting",
+        "confidence": 97,
+        "evidence": [
+          "is humidity barrier fabric for firefighters suits.",
+          "It is flame retardant thus can be used on the inner layer of the firefighters cloth.",
+          "EN ISO 14116",
+          "EN 343"
+        ],
+        "rationale": "Product description explicitly states it is a humidity barrier fabric designed for firefighter suits, used in the inner layer of firefighter clothing, directly supporting the firefighting application."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arsport-wp-flame-pro",
+    "primary": {
+      "applicationId": "firefighting",
+      "confidence": 96,
+      "evidence": [
+        "is humidity barrier fabric for firefighters suits.",
+        "It is flame retardant thus can be used on the inner layer of the firefighters cloth.",
+        "EN ISO 14116",
+        "EN 343"
+      ],
+      "rationale": "The product is explicitly described as a humidity barrier fabric for firefighter suits, intended for the inner layer of firefighting clothing, with relevant FR and waterproof certification supporting this direct application."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independent secondary end use is stated; despite the 'ArSport' family naming suggesting sport, the description and application field explicitly and solely target firefighter turnout gear."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Family name 'ArSport' and interlock knit structure suggest sportswear lineage, but no sport-specific end use is stated; description exclusively targets firefighter suits."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Generic workwear is too broad; a more specific firefighting use is explicitly stated."
+      },
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "Flame retardant property alone does not indicate welding/metallurgy use; no such context given."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arsport-wp-flame-pro",
+    "status": "resolved",
+    "primaryApplication": "firefighting",
+    "secondaryApplication": null,
+    "primaryConfidence": 96,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "is humidity barrier fabric for firefighters suits.",
+      "It is flame retardant thus can be used on the inner layer of the firefighters cloth.",
+      "EN ISO 14116",
+      "EN 343"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly described as a humidity barrier fabric for firefighter suits, intended for the inner layer of firefighting clothing, with relevant FR and waterproof certification supporting this direct application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Family name 'ArSport' and interlock knit structure suggest sportswear lineage, but no sport-specific end use is stated; description exclusively targets firefighter suits."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Generic workwear is too broad; a more specific firefighting use is explicitly stated."
+      },
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "Flame retardant property alone does not indicate welding/metallurgy use; no such context given."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:20:04.023Z",
+    "requestId": "req_011CcxwYW7HPDScjMxLWd85g",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5861,
+      "outputTokens": 193
+    }
+  },
+  "product": {
+    "slug": "arseat-eco",
+    "name": "ArSeat Eco",
+    "family": "ArSeat",
+    "subFamily": "arseat",
+    "familyDescriptorPl": "Dzianiny tapicerskie na fotele i obuwie",
+    "familyDescriptorEn": "Upholstery knits for seats and footwear",
+    "categoryId": "upholstery-knits",
+    "categoryNamePl": "Dzianiny tapicerskie i obuwnicze",
+    "categoryNameEn": "Upholstery & footwear knits",
+    "categorySourceGroup": "Warp Knit Fabrics for Upholstery and Shoes",
+    "weight": "120 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit",
+    "titleDescriptor": "Warp Knit Pique Fabric for Shoes",
+    "specLine": "120 g/m², 100% Polyester, Pique Knit Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArSeat Eco is 100% polyester, 120 g/m² warp knitted pique fabric.",
+      "It is suitable for car upholstery and sport shoes.",
+      "Warp Knit Pique Fabric for Shoes",
+      "120 g/m², 100% Polyester, Pique Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 120 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Car Upholstery, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArSeat Eco Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit",
+    "recordUrl": "/ariteks/fabrics/arseat-eco/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arseat-eco",
+    "matches": [
+      {
+        "applicationId": "transport",
+        "confidence": 92,
+        "evidence": [
+          "It is suitable for car upholstery and sport shoes.",
+          "Application | Car Upholstery, Shoes"
+        ],
+        "rationale": "Product description and technical parameters explicitly state car upholstery use."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Description mentions sport shoes, but this is footwear material rather than athletic apparel, and no explicit sportswear use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arseat-eco",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "transport",
+        "confidence": 92,
+        "evidence": [
+          "It is suitable for car upholstery and sport shoes.",
+          "Application | Car Upholstery, Shoes"
+        ],
+        "rationale": "Product description and technical parameters explicitly state car upholstery use."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Description mentions sport shoes, but this is footwear material rather than athletic apparel, and no explicit sportswear use is stated."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

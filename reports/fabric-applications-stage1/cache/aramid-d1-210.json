@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:14:43.658Z",
+    "requestId": "req_011Ccxw8epVW5wYbpTLSVkmX",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6970,
+      "outputTokens": 806
+    }
+  },
+  "product": {
+    "slug": "aramid-d1-210",
+    "name": "Aramid D1 210",
+    "family": "Aramid",
+    "subFamily": "aramid",
+    "familyDescriptorPl": "Tkane tkaniny aramidowe serii D do odzieży trudnopalnej",
+    "familyDescriptorEn": "Woven D-series aramid fabrics for FR workwear",
+    "categoryId": "aramid",
+    "categoryNamePl": "Tkaniny aramidowe",
+    "categoryNameEn": "Aramid workwear fabrics",
+    "categorySourceGroup": "Inherent Flame Retardant Aramid Workwear Fabrics",
+    "weight": "210 g/m²",
+    "composition": "93% m-AR 5% p-AR 2% CF",
+    "weave": "2/1S Twill",
+    "titleDescriptor": "Aramid Fabric, 93% meta Aramid 5% para Aramid 2% Carbon , 210 gr/m'2",
+    "specLine": "210 g/m², 93% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant, Antistatic, 2/1S Twill Fabric Aramid twill fabric",
+    "properties": [
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc",
+      "molten-metal",
+      "chemical"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 1149",
+      "EN 61482",
+      "EN 13034",
+      "EN 15614",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "210 g/m², 93% m-Aramid, 5% p-Aramid, 2% Carbon.",
+      "Inherent flame retardant fabric",
+      "for wildland firefighters, oil and gas industry workers.",
+      "Inherent flame retardant fabric with EN ISO 11612 and EN ISO 11611 certification.",
+      "Antistatic (EN 1149-5) certified.",
+      "Protection against thermal hazards of electrical arc. (EN 61482-1-2)",
+      "Resistant to most industrial chemicals. (EN ISO 13034)",
+      "Aramid Fabric, 93% meta Aramid 5% para Aramid 2% Carbon , 210 gr/m'2",
+      "210 g/m², 93% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant, Antistatic, 2/1S Twill Fabric Aramid twill fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 93% m-Aramid (m-AR) 5% p-Aramid (p-AR) 2% Carbon(CF) | EN ISO 2076",
+      "Yarn | Warp:30/2Ne; Weft:30/2Ne | EN ISO 2060",
+      "Weight | 210 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 1500N; Weft > 1000N | EN ISO 13934-1",
+      "Tear Strength | Warp>70N ; Weft>60N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Firefighters Costumes",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Antistatic | Yes | EN ISO 1149-5",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 7 cal/cm² | EN ISO 61482-1-1",
+      "Chemical Resistant | Yes | EN ISO 13034",
+      "Forest Firefighters | Yes | EN ISO 15614"
+    ],
+    "applicationImageLabels": [
+      "Aramid Coveroll for Oil and Gas Industry",
+      "Aramid Arc Suit for Electrical Distribution"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 1149",
+      "EN 61482",
+      "EN 13034",
+      "EN 15614",
+      ">> Aramid D1 210 Data Sheet",
+      "data_sheet",
+      "EN ISO 11612",
+      "certificate_or_test_report",
+      "EN ISO 11612 Test Report",
+      "EN ISO 1149-5 (1149-3 Method 2)",
+      "EN ISO 1149-5 (1149-3 Method 2) Test Report",
+      "EN 61482-1-1 ATPV",
+      "EN 61482-1-2 Class 1",
+      "EN 61482-1-2 Class 2",
+      "EN ISO 13934-1 EN ISO 13937-2",
+      "EN ISO 24920",
+      "EN ISO 105 B02",
+      "EN ISO 105 C06",
+      "EN ISO 105 E04",
+      "EN ISO 105 N01",
+      "EN ISO 105 N02",
+      "EN ISO 105 X11",
+      "EN ISO 105 X12"
+    ],
+    "structure": "2/1S Twill",
+    "recordUrl": "/ariteks/fabrics/aramid-d1-210/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "aramid-d1-210",
+    "matches": [
+      {
+        "applicationId": "welding",
+        "confidence": 92,
+        "evidence": [
+          "Welding Protection | Yes | EN ISO 11611",
+          "EN ISO 11611 certification",
+          "norms include EN ISO 11611"
+        ],
+        "rationale": "Explicit welding protection certification (EN ISO 11611) is directly stated as a technical parameter, confirming intended welding use."
+      },
+      {
+        "applicationId": "firefighting",
+        "confidence": 88,
+        "evidence": [
+          "for wildland firefighters, oil and gas industry workers.",
+          "Forest Firefighters | Yes | EN ISO 15614",
+          "norms include EN 15614"
+        ],
+        "rationale": "Product description explicitly states use for wildland firefighters and is certified to EN ISO 15614 (Forest Firefighters), directly supporting firefighting application."
+      },
+      {
+        "applicationId": "energy",
+        "confidence": 85,
+        "evidence": [
+          "Aramid Arc Suit for Electrical Distribution",
+          "Protection against thermal hazards of electrical arc. (EN 61482-1-2)",
+          "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2"
+        ],
+        "rationale": "Application image label explicitly ties the fabric to electrical distribution arc suits, and EN 61482 arc-flash certification directly supports electrical/energy sector use."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "No explicit military, police or tactical use stated; only generic FR/industrial workwear context."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "aramid-d1-210",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "welding",
+        "confidence": 92,
+        "evidence": [
+          "Welding Protection | Yes | EN ISO 11611",
+          "EN ISO 11611 certification",
+          "norms include EN ISO 11611"
+        ],
+        "rationale": "Explicit welding protection certification (EN ISO 11611) is directly stated as a technical parameter, confirming intended welding use."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Application image label explicitly ties the fabric to electrical distribution arc suits, and EN 61482 arc-flash certification directly supports electrical/energy sector use."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "Product description explicitly states use for wildland firefighters and is certified to EN ISO 15614 (Forest Firefighters), directly supporting firefighting application."
+      },
+      {
+        "applicationId": "military",
+        "reason": "No explicit military, police or tactical use stated; only generic FR/industrial workwear context."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

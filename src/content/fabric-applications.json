@@ -1,0 +1,981 @@
+{
+  "schemaVersion": 1,
+  "productionReady": false,
+  "source": {
+    "stage": 2,
+    "generatedAt": "2026-07-12T22:43:29.907Z"
+  },
+  "applications": [
+    "military",
+    "firefighting",
+    "energy",
+    "welding",
+    "motorcycle",
+    "hivis",
+    "medical",
+    "sport",
+    "architecture-building",
+    "transport",
+    "workwear-industrial",
+    "outdoor-functional",
+    "upholstery-interiors",
+    "print-signage",
+    "professional-cleaning"
+  ],
+  "products": {
+    "arneo": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arneo-pro": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arneo-flame-static-pro": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arneo-eco-r400": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arneo-color": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "arneo-file": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arneo-color-file": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arneo-dirt-pro": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arneo-supereco": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arneo-supereco-r50": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arneo-light": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arneo-light-r50": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arneo-light-r400": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arneo-color-light": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arshirt-neo": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "arshirt": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 88,
+      "secondaryConfidence": 0
+    },
+    "arshirt-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 62,
+      "secondaryConfidence": 0
+    },
+    "arshirt-moda-pro": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 92,
+      "secondaryConfidence": 0
+    },
+    "arsuprem": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 55,
+      "secondaryConfidence": 0
+    },
+    "arsuprem-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 62,
+      "secondaryConfidence": 0
+    },
+    "arsuprem-moda-pro": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": "welding",
+      "primaryConfidence": 92,
+      "secondaryConfidence": 75
+    },
+    "arbir": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 96,
+      "secondaryConfidence": 0
+    },
+    "arbir-su-itici": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 93,
+      "secondaryConfidence": 0
+    },
+    "arbir-su-itici-su-gecirmez": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "arbir-200": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 96,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t2-soft": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t4-soft": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 80,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t5-soft": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t6-soft": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t7-soft": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 80,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t11-soft": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t20-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 70,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t11-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 65,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t2-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t2-chem-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t4-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 65,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t21-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 62,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t4-chem-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t5-chem-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t7-chem-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t11-chem-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 88,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t6-chem-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 88,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t1-flame-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t2-flame-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t13-flame-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": null,
+      "primaryConfidence": 92,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t20-flame-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t12-flame-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t21-flame-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": null,
+      "primaryConfidence": 88,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t11-flame-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": "welding",
+      "primaryConfidence": 62,
+      "secondaryConfidence": 70
+    },
+    "arwowear-t30-flame-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t31-flame-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": "energy",
+      "primaryConfidence": 90,
+      "secondaryConfidence": 70
+    },
+    "arwowear-t1-flame-arc-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t0-flame-arc-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t2-flame-arc-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": "energy",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 75
+    },
+    "arwowear-t20-flame-arc-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": "energy",
+      "primaryConfidence": 80,
+      "secondaryConfidence": 70
+    },
+    "arwowear-t11-flame-arc-pro": {
+      "primaryApplication": "energy",
+      "secondaryApplication": "welding",
+      "primaryConfidence": 80,
+      "secondaryConfidence": 75
+    },
+    "arwowear-t21-flame-arc-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": "energy",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 70
+    },
+    "arwowear-t31-flame-arc-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": "energy",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 70
+    },
+    "arwowear-t30-flame-arc-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": "energy",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 80
+    },
+    "aramid-d2-260": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": "welding",
+      "primaryConfidence": 90,
+      "secondaryConfidence": 75
+    },
+    "aramid-d0-150": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "aramid-d3-200": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "arwowear-260-moda-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": "hivis",
+      "primaryConfidence": 90,
+      "secondaryConfidence": 80
+    },
+    "aramid-d1-210": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "arwowear-330-moda-pro": {
+      "primaryApplication": "welding",
+      "secondaryApplication": "hivis",
+      "primaryConfidence": 90,
+      "secondaryConfidence": 80
+    },
+    "arox-t1-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "arox-t2-static-pro": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 68,
+      "secondaryConfidence": 0
+    },
+    "arox-t2-wr": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "arox-t4-wr-wp": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 93,
+      "secondaryConfidence": 0
+    },
+    "arox-t5-multi": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 93,
+      "secondaryConfidence": 0
+    },
+    "argiyim-290": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 96,
+      "secondaryConfidence": 0
+    },
+    "argiyim-245": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "argiyim-245-static-pro": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "argiyim-bird-eye": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "argiyim-sultan": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "argiyim-ic": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "arsuprem-aramid-vis": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": "energy",
+      "primaryConfidence": 80,
+      "secondaryConfidence": 70
+    },
+    "arshirt-aramid-vis": {
+      "primaryApplication": "energy",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "aramid-vis-250": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "ar3iplik-aramid-vis": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": "energy",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 70
+    },
+    "aramid-vis-150": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": null,
+      "primaryConfidence": 75,
+      "secondaryConfidence": 0
+    },
+    "aramid-d1-210-denim": {
+      "primaryApplication": "energy",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "aramid-d2-260-el": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": "military",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 80
+    },
+    "aramid-d50-pike": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "arbo": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": null,
+      "primaryConfidence": 99,
+      "secondaryConfidence": 0
+    },
+    "arbo-dark": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": "military",
+      "primaryConfidence": 95,
+      "secondaryConfidence": 85
+    },
+    "arwowear-330-moda-pro-el": {
+      "primaryApplication": "energy",
+      "secondaryApplication": null,
+      "primaryConfidence": 78,
+      "secondaryConfidence": 0
+    },
+    "ard3e3": {
+      "primaryApplication": "welding",
+      "secondaryApplication": null,
+      "primaryConfidence": 93,
+      "secondaryConfidence": 0
+    },
+    "ar3iplik-moda-pro": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "aramid-d5-180-rb": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": null,
+      "primaryConfidence": 96,
+      "secondaryConfidence": 0
+    },
+    "arbo-knit": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t4-emk": {
+      "primaryApplication": "energy",
+      "secondaryApplication": null,
+      "primaryConfidence": 88,
+      "secondaryConfidence": 0
+    },
+    "armedi": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "arox-t2-wr-antibac": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 96,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t4-antibac": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arshirt-emk": {
+      "primaryApplication": "energy",
+      "secondaryApplication": null,
+      "primaryConfidence": 88,
+      "secondaryConfidence": 0
+    },
+    "arox-t1-wr-wp": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arpower-knit-p": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arpower-knit": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t0-soft": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "arox-t0-wr-wp": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "arshirt-antiviral": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "arof": {
+      "primaryApplication": "sport",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arsport": {
+      "primaryApplication": "sport",
+      "secondaryApplication": null,
+      "primaryConfidence": 92,
+      "secondaryConfidence": 0
+    },
+    "arsport-x": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "armoto-dura": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": "military",
+      "primaryConfidence": 80,
+      "secondaryConfidence": 75
+    },
+    "arhard-mesh": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 96,
+      "secondaryConfidence": 0
+    },
+    "arhard-mesh-300": {
+      "primaryApplication": "upholstery-interiors",
+      "secondaryApplication": null,
+      "primaryConfidence": 80,
+      "secondaryConfidence": 0
+    },
+    "argiyim-360-denim": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 80,
+      "secondaryConfidence": 0
+    },
+    "arof-mesh-2-2": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 55,
+      "secondaryConfidence": 0
+    },
+    "armoto": {
+      "primaryApplication": "motorcycle",
+      "secondaryApplication": "outdoor-functional",
+      "primaryConfidence": 88,
+      "secondaryConfidence": 80
+    },
+    "arsport-el": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": "sport",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 70
+    },
+    "arsport-dry": {
+      "primaryApplication": "sport",
+      "secondaryApplication": "hivis",
+      "primaryConfidence": 75,
+      "secondaryConfidence": 80
+    },
+    "argiyim-l": {
+      "primaryApplication": "medical",
+      "secondaryApplication": null,
+      "primaryConfidence": 88,
+      "secondaryConfidence": 0
+    },
+    "arsport-wp-flame-pro": {
+      "primaryApplication": "firefighting",
+      "secondaryApplication": null,
+      "primaryConfidence": 96,
+      "secondaryConfidence": 0
+    },
+    "arwowear-t5-soft-el": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 80,
+      "secondaryConfidence": 0
+    },
+    "ariripstop": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 80,
+      "secondaryConfidence": 0
+    },
+    "ariripstop-el": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "ardura-1000": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "ardura-500": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "ardura-500-c-rb": {
+      "primaryApplication": "military",
+      "secondaryApplication": "motorcycle",
+      "primaryConfidence": 93,
+      "secondaryConfidence": 80
+    },
+    "ardura-500-c": {
+      "primaryApplication": "military",
+      "secondaryApplication": "motorcycle",
+      "primaryConfidence": 90,
+      "secondaryConfidence": 85
+    },
+    "ardura-500-c-neo": {
+      "primaryApplication": "military",
+      "secondaryApplication": "hivis",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 80
+    },
+    "ardura-500-kirik-dimi": {
+      "primaryApplication": "military",
+      "secondaryApplication": "motorcycle",
+      "primaryConfidence": 95,
+      "secondaryConfidence": 80
+    },
+    "ardura-1000-c": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 93,
+      "secondaryConfidence": 0
+    },
+    "ardura-500-fr": {
+      "primaryApplication": "military",
+      "secondaryApplication": "motorcycle",
+      "primaryConfidence": 85,
+      "secondaryConfidence": 75
+    },
+    "ardura-1000-c-rb": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 92,
+      "secondaryConfidence": 0
+    },
+    "ardura-1000-fr": {
+      "primaryApplication": "military",
+      "secondaryApplication": "motorcycle",
+      "primaryConfidence": 93,
+      "secondaryConfidence": 85
+    },
+    "argiyim-dura": {
+      "primaryApplication": "military",
+      "secondaryApplication": "motorcycle",
+      "primaryConfidence": 90,
+      "secondaryConfidence": 80
+    },
+    "ardura-1000-kirik-dimi": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 93,
+      "secondaryConfidence": 0
+    },
+    "argiyim-denim-kursun": {
+      "primaryApplication": "motorcycle",
+      "secondaryApplication": null,
+      "primaryConfidence": 96,
+      "secondaryConfidence": 0
+    },
+    "argiyim-knit-knife-pro": {
+      "primaryApplication": "motorcycle",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "ardura-500-cg": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "ardigiprint": {
+      "primaryApplication": "print-signage",
+      "secondaryApplication": null,
+      "primaryConfidence": 92,
+      "secondaryConfidence": 0
+    },
+    "arflexmembrane": {
+      "primaryApplication": "architecture-building",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "argiyim-denim-kursun-ck": {
+      "primaryApplication": "workwear-industrial",
+      "secondaryApplication": null,
+      "primaryConfidence": 75,
+      "secondaryConfidence": 0
+    },
+    "arcadir-520": {
+      "primaryApplication": "military",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "ardolu": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 92,
+      "secondaryConfidence": 0
+    },
+    "ardoku": {
+      "primaryApplication": "hivis",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "aribez": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 90,
+      "secondaryConfidence": 0
+    },
+    "arinter": {
+      "primaryApplication": "architecture-building",
+      "secondaryApplication": null,
+      "primaryConfidence": 95,
+      "secondaryConfidence": 0
+    },
+    "arastar": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 55,
+      "secondaryConfidence": 0
+    },
+    "aripike": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "aripenye": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arclean-250": {
+      "primaryApplication": "professional-cleaning",
+      "secondaryApplication": null,
+      "primaryConfidence": 97,
+      "secondaryConfidence": 0
+    },
+    "ar-air-mesh-aa-150": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "argun-260": {
+      "primaryApplication": "transport",
+      "secondaryApplication": null,
+      "primaryConfidence": 55,
+      "secondaryConfidence": 0
+    },
+    "arigabardin-77": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 80,
+      "secondaryConfidence": 0
+    },
+    "arpo": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 72,
+      "secondaryConfidence": 0
+    },
+    "arbayrak": {
+      "primaryApplication": "print-signage",
+      "secondaryApplication": null,
+      "primaryConfidence": 75,
+      "secondaryConfidence": 0
+    },
+    "arseat": {
+      "primaryApplication": "transport",
+      "secondaryApplication": null,
+      "primaryConfidence": 85,
+      "secondaryConfidence": 0
+    },
+    "arigabardin-245": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 78,
+      "secondaryConfidence": 0
+    },
+    "arsotina": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 55,
+      "secondaryConfidence": 0
+    },
+    "ardilight": {
+      "primaryApplication": "architecture-building",
+      "secondaryApplication": null,
+      "primaryConfidence": 98,
+      "secondaryConfidence": 0
+    },
+    "ar-air-mesh-bb": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 55,
+      "secondaryConfidence": 0
+    },
+    "arseat-eco": {
+      "primaryApplication": "transport",
+      "secondaryApplication": "outdoor-functional",
+      "primaryConfidence": 88,
+      "secondaryConfidence": 70
+    },
+    "ar-air-mesh-aa-250": {
+      "primaryApplication": "outdoor-functional",
+      "secondaryApplication": null,
+      "primaryConfidence": 78,
+      "secondaryConfidence": 0
+    },
+    "arseat-touch": {
+      "primaryApplication": "upholstery-interiors",
+      "secondaryApplication": null,
+      "primaryConfidence": 62,
+      "secondaryConfidence": 0
+    },
+    "ar-air-mesh-bond": {
+      "primaryApplication": "upholstery-interiors",
+      "secondaryApplication": null,
+      "primaryConfidence": 60,
+      "secondaryConfidence": 0
+    }
+  }
+}

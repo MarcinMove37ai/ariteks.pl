@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:39:49.624Z",
+    "requestId": "req_011Ccxy3mSCY1heGBZ49thmR",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9580,
+      "outputTokens": 520
+    }
+  },
+  "product": {
+    "slug": "arneo-flame-static-pro",
+    "name": "ArNeo Flame + Static Pro",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "150 g/m²",
+    "composition": "99% PES 1%CF",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Flame Retardant, Antistatic, High Visible, Safety Jacket Fabric",
+    "specLine": "150 g/m², 99% Polyester 1% Carbon, High Visible, Flame Retardant",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "antistatic"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 14116",
+      "EN 1149",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Antistatic Knit Fabric ArNeo Pro is 99% polyester 1% carbon, 150 g/m² warp knitted flame retardant, antistatic, neon colored fabric for safety jackets.",
+      "It is mostly used by aeroport apron workers also for oil and gas industries.",
+      "EN ISO 20471 certified.",
+      "Neon dyed fabrics they attract more attention than other colors. They absorb uv light and reflect as a visible light.",
+      "As a result they shine more than other objects.",
+      "Antistatic certified. (EN ISO 1149) (inherent antistatic)",
+      "Flame retardant certified. (TS EN ISO 14116) (resistant to 10 washing)",
+      "Flame Retardant, Antistatic, High Visible, Safety Jacket Fabric",
+      "150 g/m², 99% Polyester 1% Carbon, High Visible, Flame Retardant"
+    ],
+    "technicalParameters": [
+      "Fiber | 99% Polyester (PES) 1% Carbon (CF) | EN ISO 2076",
+      "Yarn | 75/72 Denier // 40 Denier | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strengt | > 1000 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Safety Jacket",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471",
+      "Antistatic | Done | EN ISO 1149-5"
+    ],
+    "applicationImageLabels": [
+      "Flame Retardant Antistatic Safety Jacket EN 20471"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      "EN 14116",
+      "EN 1149-5",
+      ">> ArNeo Flame Static Pro Data Sheet",
+      "data_sheet",
+      "TS EN ISO 20471",
+      "certificate_or_test_report",
+      "TS EN ISO 14116",
+      "TS EN ISO 20471 Test Report"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-flame-static-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 98,
+        "evidence": [
+          "categoryId: hi-vis",
+          "EN ISO 20471 certified",
+          "Application | Safety Jacket",
+          "applicationImageLabels: Flame Retardant Antistatic Safety Jacket EN 20471"
+        ],
+        "rationale": "Explicitly certified and marketed as high-visibility warp knit fabric for safety jackets under EN ISO 20471."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Used by oil and gas industry workers and antistatic per EN 1149, but no explicit electrical-utility, arc-protection or high-voltage application stated."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Mentioned use by airport apron workers, but this is an occupational context, not an explicit vehicle/vessel transport application."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-flame-static-pro",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 97,
+      "evidence": [
+        "categoryId: hi-vis",
+        "EN ISO 20471 certified",
+        "Application | Safety Jacket",
+        "applicationImageLabels: Flame Retardant Antistatic Safety Jacket EN 20471"
+      ],
+      "rationale": "Product is explicitly a certified high-visibility warp knit fabric for safety jackets under EN ISO 20471, positioned as the core commercial use."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "Mentions of airport apron and oil & gas worker use are occupational context rather than an independently stated distinct application; no explicit transport, energy, or workwear-industrial end-product framing beyond the hi-vis safety jacket use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Antistatic and used near oil/gas industries, but no explicit electrical-utility or arc-protection application stated; rule 8 excludes antistatic alone as basis."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Airport apron worker mention is occupational context, not an explicit vehicle/vessel transport application per rule 10."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General industrial use is implied but hivis is clearly the dominant and more specific certified application, superseding generic workwear classification."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-flame-static-pro",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 97,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categoryId: hi-vis",
+      "EN ISO 20471 certified",
+      "Application | Safety Jacket",
+      "applicationImageLabels: Flame Retardant Antistatic Safety Jacket EN 20471"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Product is explicitly a certified high-visibility warp knit fabric for safety jackets under EN ISO 20471, positioned as the core commercial use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Antistatic and used near oil/gas industries, but no explicit electrical-utility or arc-protection application stated; rule 8 excludes antistatic alone as basis."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Airport apron worker mention is occupational context, not an explicit vehicle/vessel transport application per rule 10."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General industrial use is implied but hivis is clearly the dominant and more specific certified application, superseding generic workwear classification."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

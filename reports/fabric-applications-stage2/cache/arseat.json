@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:36:33.967Z",
+    "requestId": "req_011CcxxoKTcLfSMJ7KD9YjAV",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 8998,
+      "outputTokens": 475
+    }
+  },
+  "product": {
+    "slug": "arseat",
+    "name": "ArSeat",
+    "family": "ArSeat",
+    "subFamily": "arseat",
+    "familyDescriptorPl": "Dzianiny tapicerskie na fotele i obuwie",
+    "familyDescriptorEn": "Upholstery knits for seats and footwear",
+    "categoryId": "upholstery-knits",
+    "categoryNamePl": "Dzianiny tapicerskie i obuwnicze",
+    "categoryNameEn": "Upholstery & footwear knits",
+    "categorySourceGroup": "Warp Knit Fabrics for Upholstery and Shoes",
+    "weight": "150 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit",
+    "titleDescriptor": "Warp Knit Pique Fabric for Shoes, 150 gr/m'2",
+    "specLine": "150 g/m², 100% Polyester, Pique Knit Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 150 g/m² warp knitted pique fabric.",
+      "Suitable for car upholstery and sport shoes.",
+      "Warp Knit Pique Fabric for Shoes, 150 gr/m'2",
+      "150 g/m², 100% Polyester, Pique Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Car Upholstery, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArSeat Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit",
+    "recordUrl": "/ariteks/fabrics/arseat/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "transport",
+        "confidence": 93,
+        "evidence": [
+          "Suitable for car upholstery and sport shoes.",
+          "Application | Car Upholstery, Shoes"
+        ],
+        "rationale": "Explicit statement of car upholstery use directly supports transport application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Product mentions 'sport shoes' use but this refers to footwear material, not athletic apparel explicitly designed for sport performance; insufficient explicit sport-garment context."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arseat",
+    "primary": {
+      "applicationId": "transport",
+      "confidence": 85,
+      "evidence": [
+        "Suitable for car upholstery and sport shoes.",
+        "Application | Car Upholstery, Shoes"
+      ],
+      "rationale": "Explicit statement of car upholstery use directly supports transport as the primary application, and the category source group (upholstery knits for seats and footwear) reinforces automotive seating as a dominant use."
+    },
+    "secondary": {
+      "applicationId": "footwear-components",
+      "confidence": 65,
+      "evidence": [
+        "Warp Knit Pique Fabric for Shoes, 150 gr/m'2",
+        "Application | Car Upholstery, Shoes",
+        "categorySourceGroup: Warp Knit Fabrics for Upholstery and Shoes"
+      ],
+      "rationale": "The product explicitly states use for shoes alongside car upholstery, and the title/category directly reference footwear applications, supporting footwear-components as an independently stated secondary use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "'Sport shoes' refers to footwear material use, not athletic apparel; insufficient explicit sport-garment context."
+      },
+      {
+        "applicationId": "upholstery-interiors",
+        "reasonNotSelected": "Upholstery use is explicitly automotive (car upholstery), which falls under transport, not generic furniture interiors."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arseat",
+    "status": "resolved-review",
+    "primaryApplication": "transport",
+    "secondaryApplication": null,
+    "primaryConfidence": 85,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Suitable for car upholstery and sport shoes.",
+      "Application | Car Upholstery, Shoes"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicit statement of car upholstery use directly supports transport as the primary application, and the category source group (upholstery knits for seats and footwear) reinforces automotive seating as a dominant use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "'Sport shoes' refers to footwear material use, not athletic apparel; insufficient explicit sport-garment context."
+      },
+      {
+        "applicationId": "upholstery-interiors",
+        "reasonNotSelected": "Upholstery use is explicitly automotive (car upholstery), which falls under transport, not generic furniture interiors."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

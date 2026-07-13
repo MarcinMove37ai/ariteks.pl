@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:43:27.205Z",
+    "requestId": "req_011CcxyKXkdGUT5dAGKgzntw",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9106,
+      "outputTokens": 944
+    }
+  },
+  "product": {
+    "slug": "ar-air-mesh-aa-250",
+    "name": "ArAir Mesh AA 250",
+    "family": "ArAir",
+    "subFamily": "arairmesh",
+    "familyDescriptorPl": "Dzianiny dystansowe 3D na siedziska i obuwie",
+    "familyDescriptorEn": "3D spacer mesh for seating and footwear",
+    "categoryId": "air-mesh-3d",
+    "categoryNamePl": "Siatki dystansowe 3D",
+    "categoryNameEn": "3D air mesh fabrics",
+    "categorySourceGroup": "3D Air Mesh Fabrics",
+    "weight": "250 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "3D Air Mesh Fabric",
+    "specLine": "250 g/m², 100% Polyester, Air Mesh Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 250 g/m² 3d warp knitted air mesh fabric.",
+      "ArAir Mesh AA 250 fabric due to its 3d warp knitting structure has high suspension function.",
+      "It can be used as upholstery mesh for office furniture.",
+      "Suitable for sport and military shoes.",
+      "One of the usage of ArAir Mesh AA 250 is shock absorber in medical.",
+      "Ultra confortable bag fabric.",
+      "3D Air Mesh Fabric",
+      "250 g/m², 100% Polyester, Air Mesh Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 250 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 2000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Uphosltery, Bag, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "3D Air Mesh for Shoes"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArAir Mesh AA 250 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/ar-air-mesh-aa-250/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "medical",
+        "reason": "Explicit statement of medical shock-absorber usage."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Product description explicitly states suitability for military shoes."
+      },
+      {
+        "applicationId": "sport",
+        "reason": "Product description explicitly states suitability for sport shoes."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Upholstery use is mentioned only for office furniture, not vehicles or vessels."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ar-air-mesh-aa-250",
+    "primary": {
+      "applicationId": "footwear-components",
+      "confidence": 78,
+      "evidence": [
+        "Suitable for sport and military shoes.",
+        "Application | Uphosltery, Bag, Shoes",
+        "3D Air Mesh for Shoes (application image label)"
+      ],
+      "rationale": "The fabric is explicitly marketed and imaged as a 3D air mesh for shoes, with footwear listed as a core application alongside upholstery and bags, making footwear the most specific and directly evidenced use."
+    },
+    "secondary": {
+      "applicationId": "upholstery-interiors",
+      "confidence": 55,
+      "evidence": [
+        "It can be used as upholstery mesh for office furniture.",
+        "Application | Uphosltery, Bag, Shoes"
+      ],
+      "rationale": "The product data explicitly and independently states use as upholstery for office furniture, a non-vehicle interior application distinct from footwear."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Only a single incidental mention of shock absorption in medical context; not the dominant or independently developed use."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Mentioned only as one of several shoe end-uses (military shoes), not a standalone military product application."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Mentioned only as one of several shoe end-uses (sport shoes), not a distinct sportswear application."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Upholstery use is explicitly limited to office furniture, not vehicles or vessels, so transport is excluded per rule 10/12."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ar-air-mesh-aa-250",
+    "status": "resolved-review",
+    "primaryApplication": "footwear-components",
+    "secondaryApplication": null,
+    "primaryConfidence": 78,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Suitable for sport and military shoes.",
+      "Application | Uphosltery, Bag, Shoes",
+      "3D Air Mesh for Shoes (application image label)"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly marketed and imaged as a 3D air mesh for shoes, with footwear listed as a core application alongside upholstery and bags, making footwear the most specific and directly evidenced use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "Only a single incidental mention of shock absorption in medical context; not the dominant or independently developed use."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Mentioned only as one of several shoe end-uses (military shoes), not a standalone military product application."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Mentioned only as one of several shoe end-uses (sport shoes), not a distinct sportswear application."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Upholstery use is explicitly limited to office furniture, not vehicles or vessels, so transport is excluded per rule 10/12."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Primary application retained, but confidence 78 is below review threshold 80."
+  }
+}

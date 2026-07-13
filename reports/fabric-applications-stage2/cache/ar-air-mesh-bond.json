@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:43:29.906Z",
+    "requestId": "req_011CcxyKfEq4ZCg5tXsVUvEo",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9063,
+      "outputTokens": 981
+    }
+  },
+  "product": {
+    "slug": "ar-air-mesh-bond",
+    "name": "ArAir Mesh Bond",
+    "family": "ArAir",
+    "subFamily": "arairmesh",
+    "familyDescriptorPl": "Dzianiny dystansowe 3D na siedziska i obuwie",
+    "familyDescriptorEn": "3D spacer mesh for seating and footwear",
+    "categoryId": "air-mesh-3d",
+    "categoryNamePl": "Siatki dystansowe 3D",
+    "categoryNameEn": "3D air mesh fabrics",
+    "categorySourceGroup": "3D Air Mesh Fabrics",
+    "weight": "230 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "3D Air Mesh Bond Fabric",
+    "specLine": "230 g/m², 100% Polyester, Air Mesh Open Structure Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 230 g/m² 3d warp knitted air mesh open structure fabric.",
+      "ArAir Mesh Bond fabric due to its 3d warp knitting structure has high suspension function.",
+      "It can be used as upholstery mesh for office furniture.",
+      "Suitable for sport and military shoes.",
+      "Another application is the acoustic control panels for theatre and cinema walls.",
+      "3D Air Mesh Bond Fabric",
+      "230 g/m², 100% Polyester, Air Mesh Open Structure Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 150 Denier | EN ISO 2060",
+      "Weight | 230 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 2000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Uphosltery, Bag, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArAir Mesh Bond Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/ar-air-mesh-bond/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "architecture-building",
+        "reason": "Mentions acoustic control panels for theatre and cinema walls, which is architectural interior use but not a building/tensile structure system explicitly."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Product explicitly states suitability for military shoes, a direct stated use."
+      },
+      {
+        "applicationId": "sport",
+        "reason": "Product explicitly states suitability for sport shoes, a direct stated use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ar-air-mesh-bond",
+    "primary": {
+      "applicationId": "upholstery-interiors",
+      "confidence": 60,
+      "evidence": [
+        "It can be used as upholstery mesh for office furniture.",
+        "Application | Uphosltery, Bag, Shoes"
+      ],
+      "rationale": "The fabric's most elaborated stated use is as an upholstery mesh for office furniture seating, aligning with non-vehicle interior furnishing use."
+    },
+    "secondary": {
+      "applicationId": "footwear-components",
+      "confidence": 55,
+      "evidence": [
+        "Suitable for sport and military shoes.",
+        "Application | Uphosltery, Bag, Shoes"
+      ],
+      "rationale": "The product data explicitly states suitability for sport and military shoes, an independent stated end use distinct from upholstery."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "architecture-building",
+        "reasonNotSelected": "Acoustic panels for theatre/cinema walls are mentioned only as an additional possible use, not a structural building system, and less central than upholstery/footwear uses."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Military shoes are mentioned as one of several suitable applications for the mesh, not as a distinct military-specific product; captured within footwear-components."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Sport shoes mentioned alongside military shoes as one application; footwear-components is the more specific and appropriate classification per taxonomy rules."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product lists three distinct plausible uses (upholstery, footwear, acoustic panels) with no clear dominant application stated, requiring human judgment to confirm primary/secondary assignment."
+  },
+  "normalized": {
+    "fabricSlug": "ar-air-mesh-bond",
+    "status": "resolved-review",
+    "primaryApplication": "upholstery-interiors",
+    "secondaryApplication": null,
+    "primaryConfidence": 60,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "It can be used as upholstery mesh for office furniture.",
+      "Application | Uphosltery, Bag, Shoes"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric's most elaborated stated use is as an upholstery mesh for office furniture seating, aligning with non-vehicle interior furnishing use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "architecture-building",
+        "reasonNotSelected": "Acoustic panels for theatre/cinema walls are mentioned only as an additional possible use, not a structural building system, and less central than upholstery/footwear uses."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "Military shoes are mentioned as one of several suitable applications for the mesh, not as a distinct military-specific product; captured within footwear-components."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Sport shoes mentioned alongside military shoes as one application; footwear-components is the more specific and appropriate classification per taxonomy rules."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Product lists three distinct plausible uses (upholstery, footwear, acoustic panels) with no clear dominant application stated, requiring human judgment to confirm primary/secondary assignment."
+  }
+}

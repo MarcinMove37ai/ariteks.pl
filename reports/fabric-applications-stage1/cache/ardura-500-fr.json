@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:18:24.693Z",
+    "requestId": "req_011CcxwQc2WDEY3YW7xbitVi",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6522,
+      "outputTokens": 1168
+    }
+  },
+  "product": {
+    "slug": "ardura-500-fr",
+    "name": "ArDura 500 Fr",
+    "family": "ArDura",
+    "subFamily": "ardura-2",
+    "familyDescriptorPl": "Tkaniny PA 6.6 — warianty powlekane, FR i wzmocnione",
+    "familyDescriptorEn": "PA 6.6 fabrics — coated, FR and reinforced variants",
+    "categoryId": "uniform-pa66",
+    "categoryNamePl": "Tkaniny mundurowe PA 6.6",
+    "categoryNameEn": "PA 6.6 uniform fabrics",
+    "categorySourceGroup": "Woven PA.6.6 fabrics for police uniforms, motorcyclists, bomb disposal suits and technical military applications.",
+    "weight": "240 g/m²",
+    "composition": "95% PA6.6 5% PU",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "Pa6.6 woven flame retardant coated fabric for Police, Firefighters and Gendarme wear",
+    "specLine": "240 g/m², 95% Pa 6.6 5%Pu, Water Repellent, Antibacterial, Waterproof, Flame Retardant Woven Fabric",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "waterproof",
+      "water-repellent",
+      "antibacterial"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 14116",
+      "EN 343",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArDura 500 Fr is lightweight 95% polyamide 6.6 5% polyurethane woven fabric for military, police and gendarme wear. It is suitable for mobile motobikers police wear.",
+      "The Pa6.6 high tenacity fibers gives for extra protection for polices.",
+      "The fabric has water and oil repellent function.",
+      "It's used mostly for application which requires ultra durability.",
+      "The antibacterial function is very usefull to eliminate all kind of odor formation during work.",
+      "The fabric has flame retardant coating on back side which gives flame retardant and waterproof function at the same time.",
+      "Pa6.6 woven flame retardant coated fabric for Police, Firefighters and Gendarme wear",
+      "240 g/m², 95% Pa 6.6 5%Pu, Water Repellent, Antibacterial, Waterproof, Flame Retardant Woven Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 95% Polyamide 6.6 (PA 6.6) 5% Polyurethane (PU) | EN ISO 2076",
+      "Yarn | 500 Denier | EN ISO 2060",
+      "Weight | 240 ±10 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>2500N; Weft>2000N | EN ISO 13934-1",
+      "Tear Strength | Warp>150N; Weft>120N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Abrasion Resistance | @50000 | EN ISO 12947-2",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Weathering Fastness | 6+ | EN ISO 105 B04",
+      "pH | 4-7 | EN ISO 3071",
+      "Azo Test | No Azo Colorants | EN ISO 14362-1",
+      "Allergenic Dyestuffs | Not Detected | EN ISO 14362-1",
+      "Application | Police Motobikers",
+      "Quality Management | Done | ISO 9001",
+      "Spray Test | ISO 5 | EN ISO 24920",
+      "Waterproof | Yes | EN 343"
+    ],
+    "applicationImageLabels": [
+      "Turnout Gear pant with kneepad",
+      "Turnout Gear with kneepad"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Water and Oil Repellent",
+      "Antibacterial",
+      "Flame Retardant",
+      "Water Proof",
+      ">> ArDura 500 Fr Data Sheet",
+      "data_sheet",
+      "Cordura(R) Sertifikasyonu",
+      "certificate_or_test_report"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/ardura-500-fr/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "ardura-500-fr",
+    "matches": [
+      {
+        "applicationId": "military",
+        "confidence": 92,
+        "evidence": [
+          "\"for military, police and gendarme wear\"",
+          "categorySourceGroup: \"Woven PA.6.6 fabrics for police uniforms, motorcyclists, bomb disposal suits and technical military applications.\""
+        ],
+        "rationale": "Product description explicitly states intended use for military, police and gendarme wear, directly matching the military/uniformed-services category."
+      },
+      {
+        "applicationId": "motorcycle",
+        "confidence": 90,
+        "evidence": [
+          "\"It is suitable for mobile motobikers police wear.\"",
+          "technicalParameters: \"Application | Police Motobikers\""
+        ],
+        "rationale": "Explicit statement of use for motorcyclist (motobiker) police wear and a technical parameter naming the application as Police Motobikers."
+      },
+      {
+        "applicationId": "firefighting",
+        "confidence": 80,
+        "evidence": [
+          "titleDescriptor: \"Pa6.6 woven flame retardant coated fabric for Police, Firefighters and Gendarme wear\"",
+          "applicationImageLabels: \"Turnout Gear pant with kneepad\", \"Turnout Gear with kneepad\"",
+          "norms include EN 343 (protection against rain) and EN ISO 14116 (limited flame spread)"
+        ],
+        "rationale": "Title explicitly names firefighters as an intended wearer group and application images depict turnout gear, a term specific to firefighting protective clothing."
+      },
+      {
+        "applicationId": "hivis",
+        "confidence": 78,
+        "evidence": [
+          "properties: \"hi-vis\"",
+          "norms: \"EN ISO 20471\""
+        ],
+        "rationale": "Product properties explicitly list hi-vis and the fabric is certified to EN ISO 20471, the core high-visibility safety standard, directly supporting the hivis application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial property is present but no explicit medical, healthcare or hospital use is stated."
+      },
+      {
+        "applicationId": "energy",
+        "reason": "No mention of electrical arc protection, high-voltage work or EMI shielding; only generic FR/antistatic-like properties are absent or unstated."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "No explicit welding, foundry or metal-splash protection use mentioned."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ardura-500-fr",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "military",
+        "confidence": 92,
+        "evidence": [
+          "\"for military, police and gendarme wear\"",
+          "categorySourceGroup: \"Woven PA.6.6 fabrics for police uniforms, motorcyclists, bomb disposal suits and technical military applications.\""
+        ],
+        "rationale": "Product description explicitly states intended use for military, police and gendarme wear, directly matching the military/uniformed-services category."
+      },
+      {
+        "applicationId": "motorcycle",
+        "confidence": 90,
+        "evidence": [
+          "\"It is suitable for mobile motobikers police wear.\"",
+          "technicalParameters: \"Application | Police Motobikers\""
+        ],
+        "rationale": "Explicit statement of use for motorcyclist (motobiker) police wear and a technical parameter naming the application as Police Motobikers."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "No mention of electrical arc protection, high-voltage work or EMI shielding; only generic FR/antistatic-like properties are absent or unstated."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "Title explicitly names firefighters as an intended wearer group and application images depict turnout gear, a term specific to firefighting protective clothing."
+      },
+      {
+        "applicationId": "hivis",
+        "reason": "Product properties explicitly list hi-vis and the fabric is certified to EN ISO 20471, the core high-visibility safety standard, directly supporting the hivis application."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial property is present but no explicit medical, healthcare or hospital use is stated."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "No explicit welding, foundry or metal-splash protection use mentioned."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

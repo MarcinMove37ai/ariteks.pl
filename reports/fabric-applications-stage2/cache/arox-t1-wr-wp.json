@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:12.989Z",
+    "requestId": "req_011CcxyENmzFXKfM3yXWSyvE",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9322,
+      "outputTokens": 378
+    }
+  },
+  "product": {
+    "slug": "arox-t1-wr-wp",
+    "name": "Arox T1 WR/WP",
+    "family": "Arox",
+    "subFamily": "arox-medical",
+    "familyDescriptorPl": "Tkaniny medyczne barierowe",
+    "familyDescriptorEn": "Barrier medical fabrics",
+    "categoryId": "antibacterial",
+    "categoryNamePl": "Antybakteryjne z jonami srebra",
+    "categoryNameEn": "Antibacterial silver fabrics",
+    "categorySourceGroup": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+    "weight": "120 g/m²",
+    "composition": "75% PES 25% PU",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "75% Polyester 25% Polyurethane waterproof medical fabric",
+    "specLine": "120 g/m², 75% Polyester 25% Polyurethane, Waterproof, 1/1 Plain Woven Fabric",
+    "properties": [
+      "inherent-fr",
+      "chemical",
+      "waterproof",
+      "antibacterial"
+    ],
+    "norms": [
+      "EN 13034",
+      "EN 343",
+      "EN 14126",
+      "ISO 18184",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "75% Polyester 25% Polyurethane waterproof fabric for all kind of medical cloth. Tested for EN 14126. Arox T1 WR/WP fabrics can be used for medical suits.",
+      "It can be washed at 60'C and used again.",
+      "Certified for EN 14126.",
+      "75% Polyester 25% Polyurethane waterproof medical fabric",
+      "120 g/m², 75% Polyester 25% Polyurethane, Waterproof, 1/1 Plain Woven Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 75% Polyester (PES) 25% Polyurethane (PU) | EN ISO 2076",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 120 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 800N ; Weft > 650N | EN ISO 13934-1",
+      "Tear Strength | Warp > 25N ; Weft > 20N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4.0 - 6.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Medical Cover",
+      "Quality Management | Done | ISO 9001",
+      "Chemical Resistant | Done | EN ISO 13034",
+      "Waterproof | Done | EN ISO 343",
+      "Infective Agents | Done | EN ISO 14126"
+    ],
+    "applicationImageLabels": [
+      "Tulum, Isolation Gown",
+      "Cerrahi Önlük, Surgical Gown"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 13034",
+      "EN 343",
+      "EN 14126",
+      ">> Arox T1 WR/WP Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/arox-t1-wr-wp/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "medical",
+        "confidence": 97,
+        "evidence": [
+          "familyDescriptorEn: Barrier medical fabrics",
+          "descriptions: 'Arox T1 WR/WP fabrics can be used for medical suits.'",
+          "applicationImageLabels: 'Isolation Gown', 'Surgical Gown'",
+          "technicalParameters: Application | Medical Cover"
+        ],
+        "rationale": "Product is explicitly described as a medical barrier fabric intended for medical suits, isolation gowns and surgical gowns."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arox-t1-wr-wp",
+    "primary": {
+      "applicationId": "medical",
+      "confidence": 97,
+      "evidence": [
+        "familyDescriptorEn: Barrier medical fabrics",
+        "descriptions: 'Arox T1 WR/WP fabrics can be used for medical suits.'",
+        "applicationImageLabels: 'Isolation Gown', 'Surgical Gown'",
+        "technicalParameters: Application | Medical Cover"
+      ],
+      "rationale": "The product is explicitly described as a barrier medical fabric for isolation and surgical gowns, with EN 14126 certification for infective agents."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently stated secondary end use; chemical protection and waterproof properties support the medical barrier function rather than a separate application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "EN 13034/EN 343 chemical protection standards relate to the medical barrier gown context, not a separate general workwear use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arox-t1-wr-wp",
+    "status": "resolved",
+    "primaryApplication": "medical",
+    "secondaryApplication": null,
+    "primaryConfidence": 97,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "familyDescriptorEn: Barrier medical fabrics",
+      "descriptions: 'Arox T1 WR/WP fabrics can be used for medical suits.'",
+      "applicationImageLabels: 'Isolation Gown', 'Surgical Gown'",
+      "technicalParameters: Application | Medical Cover"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly described as a barrier medical fabric for isolation and surgical gowns, with EN 14126 certification for infective agents.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "EN 13034/EN 343 chemical protection standards relate to the medical barrier gown context, not a separate general workwear use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

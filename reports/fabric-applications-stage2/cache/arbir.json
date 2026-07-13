@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:40:12.050Z",
+    "requestId": "req_011Ccxy5NXrJNtt1WWWf5oVC",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9329,
+      "outputTokens": 585
+    }
+  },
+  "product": {
+    "slug": "arbir",
+    "name": "ArBir",
+    "family": "ArBir",
+    "subFamily": "arbir",
+    "familyDescriptorPl": "Dzianiny tkaninopodobne na odzież wierzchnią, także wodoodporne",
+    "familyDescriptorEn": "Woven-like knits for outerwear, incl. water-repellent",
+    "categoryId": "woven-like-knits",
+    "categoryNamePl": "Dzianiny tkaninopodobne",
+    "categoryNameEn": "Woven-like knits",
+    "categorySourceGroup": "Woven like Knit Fabrics for Bodywarmers, Jackets and Raincoats",
+    "weight": "140 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Knit Fabric for Safety Clothes",
+    "specLine": "140 g/m², 100% Polyester, High Visible, Woven Like Knit Fabric",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "antistatic",
+      "arc",
+      "uv-protection"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 11612",
+      "EN 1149",
+      "EN 61482",
+      "EN 13758",
+      "EN 61340",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "%100 polyester, 140 g/m² woven like warp knit fabric developed for Jackets and Raincoats",
+      "EN ISO 20471 certified.",
+      "Neon dyed fabrics they attract more attention than other colors. They absorb uv light and reflect as a visible light.",
+      "As a result they shine more than other objects.",
+      "Knit Fabric for Safety Clothes",
+      "140 g/m², 100% Polyester, High Visible, Woven Like Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 140 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1200 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Raincoat, Jacket, Parka",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471"
+    ],
+    "applicationImageLabels": [
+      "Orange Safety Jacket EN 20471",
+      "Yellow Safety Jacket EN 20471"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      ">> ArBir Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arbir/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "EN ISO 20471 certified",
+          "Application Images: 'Orange Safety Jacket EN 20471', 'Yellow Safety Jacket EN 20471'",
+          "specLine: High Visible, Woven Like Knit Fabric",
+          "titleDescriptor: Knit Fabric for Safety Clothes"
+        ],
+        "rationale": "Explicitly certified to EN ISO 20471 with high-visibility safety jacket application images, directly matching hivis category."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "EN 61482 (arc) and EN 1149 (antistatic) present but no explicit statement of electrical utility or energy-sector use."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "FR and heat-related standards present but no explicit welding, foundry or metal-splash context."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arbir",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 96,
+      "evidence": [
+        "EN ISO 20471 certified",
+        "Application Images: 'Orange Safety Jacket EN 20471', 'Yellow Safety Jacket EN 20471'",
+        "titleDescriptor: Knit Fabric for Safety Clothes",
+        "specLine: High Visible, Woven Like Knit Fabric"
+      ],
+      "rationale": "The fabric is explicitly certified to EN ISO 20471 and depicted in high-visibility safety jacket applications, making hivis the clear, dominant, direct end use."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently stated secondary end use; other properties (FR, antistatic, arc, UV) are supporting safety attributes rather than separate stated applications like welding or energy."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "FR and arc-related standards present but no explicit welding, foundry or metal-splash context stated."
+      },
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "EN 1149 antistatic and EN 61482 arc standards present, but no explicit electrical utility or energy-sector use stated."
+      },
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "Application listed as Raincoat/Jacket/Parka, but the dominant certified and imaged use is safety hi-vis, not general outdoor wear."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General industrial workwear framing is superseded by the more specific, explicitly certified hi-vis safety use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arbir",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 96,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "EN ISO 20471 certified",
+      "Application Images: 'Orange Safety Jacket EN 20471', 'Yellow Safety Jacket EN 20471'",
+      "titleDescriptor: Knit Fabric for Safety Clothes",
+      "specLine: High Visible, Woven Like Knit Fabric"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly certified to EN ISO 20471 and depicted in high-visibility safety jacket applications, making hivis the clear, dominant, direct end use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "FR and arc-related standards present but no explicit welding, foundry or metal-splash context stated."
+      },
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "EN 1149 antistatic and EN 61482 arc standards present, but no explicit electrical utility or energy-sector use stated."
+      },
+      {
+        "applicationId": "outdoor-functional",
+        "reasonNotSelected": "Application listed as Raincoat/Jacket/Parka, but the dominant certified and imaged use is safety hi-vis, not general outdoor wear."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "General industrial workwear framing is superseded by the more specific, explicitly certified hi-vis safety use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

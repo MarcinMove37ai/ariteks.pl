@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:00.928Z",
+    "requestId": "req_011Ccxy92np7xx9NuVBs4Dww",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9825,
+      "outputTokens": 554
+    }
+  },
+  "product": {
+    "slug": "arwowear-t13-flame-pro",
+    "name": "ArWoWear T13 Flame Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-flame-pro",
+    "familyDescriptorPl": "Trudnopalne tkaniny robocze (100 prań)",
+    "familyDescriptorEn": "FR workwear fabrics (100 washes)",
+    "categoryId": "fr-workwear",
+    "categoryNamePl": "Trudnopalne robocze",
+    "categoryNameEn": "FR workwear",
+    "categorySourceGroup": "Flame Retardant, Vat Dyed, Workwear Fabrics Resistant up to 100 Wash",
+    "weight": "520 g/m²",
+    "composition": "100% CO",
+    "weave": "Satin",
+    "titleDescriptor": "100% Cotton Satin, Flame Retardant Fabric, 520 gr/m'2",
+    "specLine": "520 g/m², 100% Cotton, VAT Dyed, Flame Retardant (100 Wash Resistant), 5/2 Satin Fabric",
+    "properties": [
+      "fr",
+      "arc",
+      "molten-metal",
+      "wash-100"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T13 Flame Pro is heavy weight 520 g/m², 100% cotton, vat dyed, flame retardant workwear fabric.",
+      "It has flame retardant function with EN ISO 11612 and EN ISO 11611 certification.",
+      "It is durable up to 100 washing. Suitable for shipyard welders in cold climates.",
+      "100% Cotton Satin, Flame Retardant Fabric, 520 gr/m'2",
+      "520 g/m², 100% Cotton, VAT Dyed, Flame Retardant (100 Wash Resistant), 5/2 Satin Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Cotton (CO) | EN ISO 2076",
+      "Yarn | Warp:16/2Ne; Weft:16/2Ne | EN ISO 2060",
+      "Weight | 520 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>2400N; Weft>1800N | EN ISO 13934-1",
+      "Tear Strength | Warp>35N; Weft>30N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 20 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 61482",
+      ">> ArWoWear T13 Flame Pro Data Sheet",
+      "data_sheet",
+      "EN 11612 ; EN 11611",
+      "certificate_or_test_report",
+      "EN 11612 ; EN 11611 Test Report",
+      "50 Wash (60'C) (ISO 15025)",
+      "100 Wash (60'C) (ISO 15025)",
+      "EN ISO 105 B02",
+      "EN ISO 105 C06",
+      "EN ISO 105 E04",
+      "EN ISO 105 N01",
+      "EN ISO 105 N02",
+      "EN ISO 105 X11",
+      "EN ISO 105 X12"
+    ],
+    "structure": "Satin",
+    "recordUrl": "/ariteks/fabrics/arwowear-t13-flame-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "welding",
+        "confidence": 95,
+        "evidence": [
+          "EN ISO 11611 certification (Welding Protection: Yes)",
+          "molten-metal property",
+          "Suitable for shipyard welders in cold climates",
+          "Application | Flame Retardant Coveralls"
+        ],
+        "rationale": "Explicit EN ISO 11611 welding protection certification and molten-metal resistance, plus explicit statement of suitability for shipyard welders, directly support the welding application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Arc protection (EN 61482, ATPV >20 cal/cm²) suggests electrical hazard protection, but no explicit statement of energy-sector or electrical utility use."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Mentions shipyard welders (cold climates) which implies a maritime/shipyard context, but this is tied to welding occupation not vehicle/vessel transport use; not explicit transport application."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t13-flame-pro",
+    "primary": {
+      "applicationId": "welding",
+      "confidence": 92,
+      "evidence": [
+        "EN ISO 11611 certification (Welding Protection: Yes)",
+        "molten-metal property",
+        "Suitable for shipyard welders in cold climates",
+        "Application | Flame Retardant Coveralls"
+      ],
+      "rationale": "Explicit EN ISO 11611 welding protection certification, molten-metal resistance, and explicit statement of suitability for shipyard welders make welding the clearest and most direct end use."
+    },
+    "secondary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 45,
+      "evidence": [
+        "Application | Flame Retardant Coveralls",
+        "EN ISO 11612 Flame and Heat Protection",
+        "categorySourceGroup: Flame Retardant, Vat Dyed, Workwear Fabrics"
+      ],
+      "rationale": "The fabric is broadly marketed as general FR workwear coverall fabric with heat protection, supporting a secondary general industrial workwear use beyond the specific welding niche."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Arc protection (EN 61482, ATPV) is present but no explicit statement of electrical utility or energy-sector use, only a property-level certification."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Mention of shipyard context relates to welding occupation, not vehicle/vessel transport use."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "No explicit firefighting or turnout gear reference despite FR properties."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t13-flame-pro",
+    "status": "resolved-review",
+    "primaryApplication": "welding",
+    "secondaryApplication": null,
+    "primaryConfidence": 92,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "EN ISO 11611 certification (Welding Protection: Yes)",
+      "molten-metal property",
+      "Suitable for shipyard welders in cold climates",
+      "Application | Flame Retardant Coveralls"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicit EN ISO 11611 welding protection certification, molten-metal resistance, and explicit statement of suitability for shipyard welders make welding the clearest and most direct end use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Arc protection (EN 61482, ATPV) is present but no explicit statement of electrical utility or energy-sector use, only a property-level certification."
+      },
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Mention of shipyard context relates to welding occupation, not vehicle/vessel transport use."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "No explicit firefighting or turnout gear reference despite FR properties."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

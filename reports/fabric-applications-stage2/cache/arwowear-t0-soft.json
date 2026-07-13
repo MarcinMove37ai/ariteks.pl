@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:15.518Z",
+    "requestId": "req_011CcxyEeAwtLvE3kXHay2yt",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9310,
+      "outputTokens": 358
+    }
+  },
+  "product": {
+    "slug": "arwowear-t0-soft",
+    "name": "ArWoWear T0 Soft",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-t0-soft",
+    "familyDescriptorPl": "Lekkie miękkie robocze — biel i pastele",
+    "familyDescriptorEn": "Light soft workwear — whites and pastels",
+    "categoryId": "scrubs",
+    "categoryNamePl": "Odzież medyczna (scrubs)",
+    "categoryNameEn": "Scrubs & medical shirts",
+    "categorySourceGroup": "Scrub and shirt fabrics for medical wear.",
+    "weight": "130 g/m²",
+    "composition": "80% CO 20% PES",
+    "weave": "2/1S Twill",
+    "titleDescriptor": "80% Cotton 20% Polyester Twill Fabric, 130 gr/m'2",
+    "specLine": "130 g/m², 80% Cotton 20% Polyester, 2/1S Twill Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T0 Soft is light weight 130 g/m², 80% cotton 20% polyester medical twill fabric. It is the most used fabric for medical wear with high cotton confort and polyester durability.",
+      "80% Cotton 20% Polyester Twill Fabric, 130 g/m²",
+      "80% Cotton 20% Polyester Twill Fabric, 130 gr/m'2",
+      "130 g/m², 80% Cotton 20% Polyester, 2/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 80% Cotton (CO) 20%Polyester (PES) | EN ISO 2076",
+      "Yarn | Warp:60/2Ne; Weft:60/2Ne | EN ISO 2060",
+      "Weight | 130 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>800N; Weft>600N | EN ISO 13934-1",
+      "Tear Strength | Warp>20N; Weft>15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4 | EN ISO 105 E04",
+      "Washing Fastness | 4 | EN ISO 105 C06",
+      "Hot Press Fastness | 4 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Pilling | 4 @7000 | EN ISO 12945-2",
+      "Recovery from creasing | 85' | EN ISO 22313",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Shirts",
+      "Quality Management | Done | ISO 9001",
+      "Water and Oil Repellent | 4 | EN ISO 4920"
+    ],
+    "applicationImageLabels": [
+      "80% Cotton 20% Pes White Shirt",
+      "80% Cotton 20% Pes Light Green Shirt",
+      "80% Cotton 20% Pes Light Blue Shirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Water and Oil Repellent",
+      ">> ArWoWear T0 Soft Data Sheet",
+      "data_sheet",
+      "EN 12945-2",
+      "certificate_or_test_report",
+      "EN 14362-1",
+      "EN 22313",
+      "ISO 105 E04",
+      "ISO 105 X11",
+      "ISO 105 X12",
+      "ISO 6330",
+      "ISO 14814-2",
+      "ISO 105 c06"
+    ],
+    "structure": "",
+    "recordUrl": "/ariteks/fabrics/arwowear-t0-soft/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "medical",
+        "confidence": 95,
+        "evidence": [
+          "categoryId: scrubs",
+          "categoryNamePl: Odzież medyczna (scrubs)",
+          "categorySourceGroup: Scrub and shirt fabrics for medical wear.",
+          "description: 'the most used fabric for medical wear'"
+        ],
+        "rationale": "Product is explicitly categorized as medical scrub/shirt fabric and described as the most used fabric for medical wear."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t0-soft",
+    "primary": {
+      "applicationId": "medical",
+      "confidence": 95,
+      "evidence": [
+        "categoryId: scrubs",
+        "categoryNamePl: Odzież medyczna (scrubs)",
+        "categorySourceGroup: Scrub and shirt fabrics for medical wear.",
+        "description: 'the most used fabric for medical wear'"
+      ],
+      "rationale": "Product is explicitly categorized as medical scrub/shirt fabric, described as the most used fabric for medical wear with cotton comfort and polyester durability."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independent secondary application is supported; application field states 'Shirts' which aligns with medical scrub shirts, not a separate sector."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Generic shirt fabric but explicit category and description point specifically to medical wear, a narrower and more direct application."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t0-soft",
+    "status": "resolved",
+    "primaryApplication": "medical",
+    "secondaryApplication": null,
+    "primaryConfidence": 95,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categoryId: scrubs",
+      "categoryNamePl: Odzież medyczna (scrubs)",
+      "categorySourceGroup: Scrub and shirt fabrics for medical wear.",
+      "description: 'the most used fabric for medical wear'"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Product is explicitly categorized as medical scrub/shirt fabric, described as the most used fabric for medical wear with cotton comfort and polyester durability.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Generic shirt fabric but explicit category and description point specifically to medical wear, a narrower and more direct application."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

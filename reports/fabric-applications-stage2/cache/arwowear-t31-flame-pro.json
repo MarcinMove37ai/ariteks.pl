@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:08.429Z",
+    "requestId": "req_011Ccxy9a22QJxWakqAoEFZo",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9692,
+      "outputTokens": 506
+    }
+  },
+  "product": {
+    "slug": "arwowear-t31-flame-pro",
+    "name": "ArWoWear T31 Flame Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-flame-arc-pro",
+    "familyDescriptorPl": "Trudnopalne z ochroną przed łukiem elektrycznym",
+    "familyDescriptorEn": "FR with electric-arc protection",
+    "categoryId": "fr-workwear",
+    "categoryNamePl": "Trudnopalne robocze",
+    "categoryNameEn": "FR workwear",
+    "categorySourceGroup": "Flame Retardant, Vat Dyed, Workwear Fabrics Resistant up to 100 Wash",
+    "weight": "330 g/m²",
+    "composition": "90% CO 10% PA",
+    "weave": "3/1S Twill",
+    "titleDescriptor": "90% Cotton 10% Polyamide, Flame Retardant Fabric, 330 gr/m'2",
+    "specLine": "330 g/m², 90% Cotton 10% Polyamide, VAT Dyed, Flame Retardant (100 Wash Resistant), 3/1S Twill Fabric",
+    "properties": [
+      "fr",
+      "arc",
+      "molten-metal",
+      "wash-100"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T31 Flame Pro is heavy weight 330 g/m², 90% cotton 10% polyamide, vat dyed, flame retardant workwear fabric.",
+      "It has flame retardant function with EN ISO 11612 and EN ISO 11611 certification.",
+      "It is durable up to 100 washing.",
+      "90% Cotton 10% Polyamide, Flame Retardant Fabric, 330 gr/m'2",
+      "330 g/m², 90% Cotton 10% Polyamide, VAT Dyed, Flame Retardant (100 Wash Resistant), 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 90% Cotton (CO) 10% Polyamide (PA) | EN ISO 2076",
+      "Yarn | Warp:20/2Ne; Weft:20/2Ne | EN ISO 2060",
+      "Weight | 330 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1400N; Weft>1200N | EN ISO 13934-1",
+      "Tear Strength | Warp>30N; Weft>25N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 11 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 61482",
+      ">> ArWoWear T31 Flame Pro Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "3/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t31-flame-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "welding",
+        "confidence": 95,
+        "evidence": [
+          "Welding Protection | Yes | EN ISO 11611",
+          "norms include EN ISO 11611",
+          "properties: molten-metal",
+          "Application | Flame Retardant Coveralls"
+        ],
+        "rationale": "Explicit EN ISO 11611 welding protection certification and molten-metal splash property directly support welding/metalworking application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Explicit electric-arc protection rating (EN 61482, ATPV) directly ties the fabric to protection from electrical hazards typical of energy-sector work."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "EN ISO 11612 flame and heat protection is present, but no explicit firefighter/turnout-gear use is stated; FR alone does not establish firefighting sector."
+      },
+      {
+        "applicationId": "military",
+        "reason": "No explicit military, police or tactical use stated; only generic FR workwear terminology is given."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t31-flame-pro",
+    "primary": {
+      "applicationId": "welding",
+      "confidence": 90,
+      "evidence": [
+        "Welding Protection | Yes | EN ISO 11611",
+        "Application | Flame Retardant Coveralls",
+        "properties: molten-metal"
+      ],
+      "rationale": "Explicit EN ISO 11611 welding protection certification and molten-metal splash resistance make welding/metalworking the most direct and specific stated application."
+    },
+    "secondary": {
+      "applicationId": "energy",
+      "confidence": 70,
+      "evidence": [
+        "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+        "ATPV | > 11 cal/cm² | EN ISO 61482-1-1",
+        "norms include EN 61482"
+      ],
+      "rationale": "Explicit electric-arc protection rating with ATPV value directly supports independent use in electrical/energy sector hazard protection, separate from welding certification."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Generic FR workwear category exists, but explicit welding and arc certifications indicate more specific sectors."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "EN ISO 11612 flame/heat protection alone does not establish firefighter turnout gear use; no explicit firefighting statement."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military or uniformed-service use stated."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t31-flame-pro",
+    "status": "resolved",
+    "primaryApplication": "welding",
+    "secondaryApplication": "energy",
+    "primaryConfidence": 90,
+    "secondaryConfidence": 70,
+    "primaryEvidence": [
+      "Welding Protection | Yes | EN ISO 11611",
+      "Application | Flame Retardant Coveralls",
+      "properties: molten-metal"
+    ],
+    "secondaryEvidence": [
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 11 cal/cm² | EN ISO 61482-1-1",
+      "norms include EN 61482"
+    ],
+    "primaryRationale": "Explicit EN ISO 11611 welding protection certification and molten-metal splash resistance make welding/metalworking the most direct and specific stated application.",
+    "secondaryRationale": "Explicit electric-arc protection rating with ATPV value directly supports independent use in electrical/energy sector hazard protection, separate from welding certification.",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Generic FR workwear category exists, but explicit welding and arc certifications indicate more specific sectors."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "EN ISO 11612 flame/heat protection alone does not establish firefighter turnout gear use; no explicit firefighting statement."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military or uniformed-service use stated."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

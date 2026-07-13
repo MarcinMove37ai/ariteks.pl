@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:19:21.904Z",
+    "requestId": "req_011CcxwVSBojvT12NHcRtbcc",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6111,
+      "outputTokens": 271
+    }
+  },
+  "product": {
+    "slug": "ardolu",
+    "name": "ArDolu",
+    "family": "ArDolu",
+    "subFamily": "ardoku-ardolu",
+    "familyDescriptorPl": "Laminaty 3-warstwowe z membraną TPU — wodoodporne, oddychające",
+    "familyDescriptorEn": "3-layer TPU-membrane laminates — waterproof, breathable",
+    "categoryId": "laminates-3l",
+    "categoryNamePl": "Laminaty 3-warstwowe TPU",
+    "categoryNameEn": "3-layer TPU laminates",
+    "categorySourceGroup": "3 Layer (woven fabric + TPU Membrane + knit Fabric) laminated fabrics.",
+    "weight": "210 g/m²",
+    "composition": "95% PES 5% PU",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "95% Polyester 5% Pu bonded fabric",
+    "specLine": "210 g/m², 95% Polyester 5% Elastane, 3 layer laminated, Bonded Fabric",
+    "properties": [
+      "hi-vis",
+      "stretch"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN 343",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArDolu is 95% polyester 5% pu bonded fabric. The top layer is woven fabric, the middle layer is breathable tpu membrane, and the last layer is knit fabric.",
+      "The basic usage is for winter parka and raincoats.",
+      "ArDolu is certified for EN 343 and EN 20471",
+      "95% Polyester 5% Pu bonded fabric",
+      "210 g/m², 95% Polyester 5% Elastane, 3 layer laminated, Bonded Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 95% Polyester (PES) 5% Polyurethane (PU) | EN ISO 2076",
+      "Yarn | 75 Denier | EN ISO 2060",
+      "Weight | 210 ±10 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 1000N ; Weft > 800N | EN ISO 13934-1",
+      "Tear Strength | Warp > 40N ; Weft > 35N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4,0 - 7,5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Raincoat",
+      "Quality Management | Done | ISO 9001",
+      "Waterproof | Class 3,3 | EN 343",
+      "High Visible | Yes | EN 20471"
+    ],
+    "applicationImageLabels": [
+      "High visible orange rain jackets",
+      "High visible orange rain jackets back",
+      "High visible yellow rain jackets"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "En 343",
+      "En 20471",
+      ">> ArDolu Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/ardolu/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "ardolu",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "properties: hi-vis",
+          "norms: EN ISO 20471",
+          "High Visible | Yes | EN 20471",
+          "applicationImageLabels: High visible orange rain jackets, High visible yellow rain jackets"
+        ],
+        "rationale": "Explicit EN ISO 20471 certification and 'High Visible' rating, plus image labels showing high-visibility rain jackets, directly support high-visibility apparel classification."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Rainwear could be worn in transport/roadwork contexts but no explicit vehicle, transit-worker, or transport-sector use is stated in the product data."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ardolu",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "properties: hi-vis",
+          "norms: EN ISO 20471",
+          "High Visible | Yes | EN 20471",
+          "applicationImageLabels: High visible orange rain jackets, High visible yellow rain jackets"
+        ],
+        "rationale": "Explicit EN ISO 20471 certification and 'High Visible' rating, plus image labels showing high-visibility rain jackets, directly support high-visibility apparel classification."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Rainwear could be worn in transport/roadwork contexts but no explicit vehicle, transit-worker, or transport-sector use is stated in the product data."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:19:16.001Z",
+    "requestId": "req_011CcxwUKb9xW7Xn1KCUwEwa",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6434,
+      "outputTokens": 1173
+    }
+  },
+  "product": {
+    "slug": "argun-260",
+    "name": "ArGun 260",
+    "family": "ArGun",
+    "subFamily": "argun",
+    "familyDescriptorPl": "Akryl barwiony w masie do zastosowań outdoor",
+    "familyDescriptorEn": "Solution-dyed acrylic for outdoor use",
+    "categoryId": "outdoor-acrylic",
+    "categoryNamePl": "Akryle outdoor barwione w masie",
+    "categoryNameEn": "Solution-dyed outdoor acrylics",
+    "categorySourceGroup": "Durable all weather resistant solution dyed acrylic fabrics for marine applications, automotive, sun blinds, sun umbrella, outdoor furnishing.",
+    "weight": "260 g/m²",
+    "composition": "100% PAN",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "100% Acrylic Solution Dyed Fabric, 260 gr/m'2",
+    "specLine": "260 g/m², 100% Acrylic, All wheather resistant solution dyed outdoor fabric",
+    "properties": [
+      "hi-vis",
+      "uv-protection"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArGun 260 is %100 acrylic solution dyed fabric for awnings, marine application, outdoor furnishing, sun umbrella, automotive and sun blinds applications. The fabric is resistant to all wheather conditions and its world's most sun resistant fabric.",
+      "It is antibacterial and water repellent.",
+      "100% Acrylic Solution Dyed Fabric, 260 gr/m'2",
+      "260 g/m², 100% Acrylic, All wheather resistant solution dyed outdoor fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Acrylic (PAN) | EN ISO 2076",
+      "Yarn | Warp:20/2Ne; Weft:20/2Ne | EN ISO 2060",
+      "Weight | 260 ±20 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1500N; Weft>1000N | EN ISO 13934-1",
+      "Tear Strength | Warp>40N; Weft>60N | EN ISO 13937-4",
+      "pH | 4.0-9.0 | TS EN ISO 3071",
+      "Color Fastness | 7-8 | ISO 105 B02",
+      "Wheatering Fastness | 6-7 | ISO 105 B04",
+      "Rubbing Fastness | 4-5 | ISO 105 X12",
+      "Perspiration Fastness | 4-5 | ISO 105 E04",
+      "Dry Cleaning Fastness | 4-5 | ISO 105 DO1",
+      "Acid Spotting Fastness | 4-5 | ISO 105 E05",
+      "Alkaline Spotting Fastness | 4-5 | ISO 105 E06",
+      "Application | Outdoor Awnings",
+      "Quality Management | Done | ISO 9001",
+      "Spray Test | ISO 5 | EN ISO 4920"
+    ],
+    "applicationImageLabels": [
+      "ArGun marine fabric",
+      "ArGun automotive fabric",
+      "ArGun outdoor furnishing fabric"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Dirt Repellent",
+      "Antibacterial",
+      ">> ArGun 260 Data Sheet",
+      "data_sheet",
+      "ISO 105 BO2 (ArGun 260 -6077)",
+      "certificate_or_test_report",
+      "ISO 105 BO4 (ArGun 260 -6077)",
+      "ISO 105 DO1 (ArGun 260 -6077)",
+      "ISO 105 EO4 (ArGun 260 -6077)",
+      "ISO 105 EO5 (ArGun 260 -6077)",
+      "ISO 105 EO6 (ArGun 260 -6077)",
+      "ISO 105 X12 (ArGun 260 -6077)",
+      "ISO 105 BO2 (ArGun 260 -6082)",
+      "ISO 105 BO4 (ArGun 260 -6082)",
+      "ISO 105 DO1 (ArGun 260 -6082)",
+      "ISO 105 EO4 (ArGun 260 -6082)",
+      "ISO 105 EO5 (ArGun 260 -6082)",
+      "ISO 105 EO6 (ArGun 260 -6082)",
+      "ISO 105 X12 (ArGun 260 -6082)"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/argun-260/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "argun-260",
+    "matches": [
+      {
+        "applicationId": "transport",
+        "confidence": 80,
+        "evidence": [
+          "categorySourceGroup: 'Durable all weather resistant solution dyed acrylic fabrics for marine applications, automotive...'",
+          "descriptions: 'ArGun 260 is 100% acrylic solution dyed fabric for awnings, marine application, outdoor furnishing, sun umbrella, automotive and sun blinds applications.'",
+          "applicationImageLabels: 'ArGun marine fabric', 'ArGun automotive fabric'"
+        ],
+        "rationale": "Product data explicitly states marine and automotive application use, directly supporting the transport (vehicle/vessel) application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "hivis",
+        "reason": "Properties list 'hi-vis' and norms include EN ISO 20471, but there is no explicit statement of a high-visibility safety garment use; the fabric is otherwise described for awnings, marine, automotive and furnishing applications, so the hi-vis tag appears incidental rather than an intended safety-apparel application."
+      },
+      {
+        "applicationId": "architecture-building",
+        "reason": "Awnings and sun blinds are mentioned but not explicitly framed as architectural or building-system products, so this does not meet the explicit-use threshold."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial property is mentioned, but no healthcare or medical use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "argun-260",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "architecture-building",
+        "reason": "Awnings and sun blinds are mentioned but not explicitly framed as architectural or building-system products, so this does not meet the explicit-use threshold."
+      },
+      {
+        "applicationId": "hivis",
+        "reason": "Properties list 'hi-vis' and norms include EN ISO 20471, but there is no explicit statement of a high-visibility safety garment use; the fabric is otherwise described for awnings, marine, automotive and furnishing applications, so the hi-vis tag appears incidental rather than an intended safety-apparel application."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial property is mentioned, but no healthcare or medical use is stated."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Product data explicitly states marine and automotive application use, directly supporting the transport (vehicle/vessel) application."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

@@ -5,12 +5,21 @@
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { APPLICATIONS } from '@/content/applications';
+import type { ApplicationId } from '@/content/fabric-application-overrides';
+import { getApplicationHighlights } from '@/lib/applicationHighlights';
 import { Link, type Locale } from '@/i18n/routing';
+
+const APPLICATION_CARDS = APPLICATIONS.map((app) => ({
+  ...app,
+  badges: getApplicationHighlights(
+      app.id as ApplicationId,
+    ).featured,
+}));
 
 export default function IndustryGrid({ locale }: { locale: Locale }) {
   return (
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {APPLICATIONS.map((app) => (
+      {APPLICATION_CARDS.map((app) => (
         <Link
           key={app.id}
           href={`/applications/${app.slug[locale]}`}

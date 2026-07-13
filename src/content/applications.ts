@@ -3,7 +3,7 @@
 // Pole `content` jest OPCJONALNE: szablon strony branzowej renderuje pelna
 // wersje gdy jest, a elegancki fallback (nazwa + opis + badge) gdy go brak.
 // Tresci bogate wchodza cyklami po JEDNEJ branzy.
-// Zrobione: 9/9 — WSZYSTKIE BRANZE maja pelna tresc bogata.
+// Pełna treść bogata: 9 aplikacji. Pozostałe korzystają z eleganckiego fallbacku.
 
 import type { Locale } from '@/i18n/routing';
 
@@ -1064,12 +1064,18 @@ export const APPLICATIONS: ApplicationDef[] = [
     },
   },
   {
-    id: 'ceilings',
-    slug: { pl: 'sufity-napinane', en: 'stretch-ceilings' },
-    name: { pl: 'Sufity napinane', en: 'Stretch ceilings' },
+    id: 'architecture-building',
+    slug: {
+      pl: 'tkaniny-architektoniczne-i-budowlane',
+      en: 'architectural-and-building-fabrics',
+    },
+    name: {
+      pl: 'Tkaniny architektoniczne i budowlane',
+      en: 'Architectural and building fabrics',
+    },
     short: {
-      pl: 'ArDiLight — elastyczny system tkanin PVC do sufitów napinanych: jednorodne rozproszenie światła, nadruk cyfrowy, klasa B1.',
-      en: 'ArDiLight — a flexible PVC stretch ceiling fabric system: homogeneous light diffusion, digital printing, B1 rated.',
+      pl: 'Membrany ArFlexMembrane, sufity świetlne ArDiLight oraz tkaniny ArInter do napinanych systemów architektonicznych i osłon zewnętrznych.',
+      en: 'ArFlexMembrane membranes, ArDiLight luminous ceilings and ArInter fabrics for tensile architectural systems and exterior shading.',
     },
     badges: ['DIN 4102 B1'],
     image: '/images/applications/ceilings.png',
@@ -1171,6 +1177,108 @@ export const APPLICATIONS: ApplicationDef[] = [
       ],
       norms: ['DIN 4102-1', 'EN ISO 13938-1', 'EN ISO 5077', 'AATCC 183'],
     },
+  },
+  {
+    id: 'transport',
+    slug: {
+      pl: 'tkaniny-dla-transportu',
+      en: 'transport-fabrics',
+    },
+    name: {
+      pl: 'Tkaniny dla transportu',
+      en: 'Transport fabrics',
+    },
+    short: {
+      pl: 'Dzianiny ArSeat na tapicerkę foteli i wnętrza pojazdów oraz tkaniny ArBayrak do sygnalizacji i wyposażenia bezpieczeństwa transportu.',
+      en: 'ArSeat knits for vehicle seating and interiors, plus ArBayrak fabrics for transport signalling and safety equipment.',
+    },
+    badges: [],
+    image: '/images/applications/transport.png',
+  },
+  {
+    id: 'workwear-industrial',
+    slug: {
+      pl: 'odziez-robocza-i-przemyslowa',
+      en: 'workwear-and-industrial-apparel',
+    },
+    name: {
+      pl: 'Odzież robocza i przemysłowa',
+      en: 'Workwear and industrial apparel',
+    },
+    short: {
+      pl: 'Rodziny ArWoWear, Arox i ArGiyim na odzież roboczą — od miękkich mieszanek po warianty antystatyczne, trudnopalne i chemoodporne.',
+      en: 'ArWoWear, Arox and ArGiyim workwear fabrics — from soft blends to antistatic, flame-retardant and chemical-resistant variants.',
+    },
+    badges: [],
+    image: '/images/applications/workwear-industrial.png',
+  },
+  {
+    id: 'outdoor-functional',
+    slug: {
+      pl: 'outdoor-i-odziez-funkcjonalna',
+      en: 'outdoor-and-functional-apparel',
+    },
+    name: {
+      pl: 'Outdoor i odzież funkcjonalna',
+      en: 'Outdoor and functional apparel',
+    },
+    short: {
+      pl: 'Tkaniny AriRipstop, dzianiny funkcjonalne i siatki ArAir Mesh na odzież outdoorową, lekkie wyposażenie oraz techniczne komponenty obuwia.',
+      en: 'AriRipstop fabrics, functional knits and ArAir Mesh structures for outdoor apparel, lightweight equipment and technical footwear components.',
+    },
+    badges: [],
+    image: '/images/applications/outdoor-functional.png',
+  },
+  {
+    id: 'upholstery-interiors',
+    slug: {
+      pl: 'tapicerka-i-wyposazenie-wnetrz',
+      en: 'upholstery-and-interior-furnishings',
+    },
+    name: {
+      pl: 'Tapicerka i wyposażenie wnętrz',
+      en: 'Upholstery and interior furnishings',
+    },
+    short: {
+      pl: 'Dzianiny ArSeat i siatki ArHard Mesh do tapicerki meblowej, siedzisk oraz paneli wnętrzarskich — od miękkich powierzchni po przestrzenne konstrukcje 3D.',
+      en: 'ArSeat knits and ArHard Mesh fabrics for furniture upholstery, seating and interior panels — from soft surfaces to structured 3D constructions.',
+    },
+    badges: [],
+    image: '/images/applications/upholstery-interiors.png',
+  },
+  {
+    id: 'print-signage',
+    slug: {
+      pl: 'druk-reklama-i-oznakowanie',
+      en: 'printing-advertising-and-signage',
+    },
+    name: {
+      pl: 'Druk, reklama i oznakowanie',
+      en: 'Printing, advertising and signage',
+    },
+    short: {
+      pl: 'Tkaniny do druku cyfrowego oraz rodzina ArBayrak na flagi, ekspozycje i oznakowanie — lekkie podłoża poliestrowe do czystej, powtarzalnej reprodukcji.',
+      en: 'Digital-print fabrics and the ArBayrak family for flags, displays and signage — lightweight polyester substrates for clean, repeatable reproduction.',
+    },
+    badges: [],
+    image: '/images/applications/print-signage.png',
+  },
+  {
+    id: 'professional-cleaning',
+    slug: {
+      pl: 'czyszczenie-profesjonalne',
+      en: 'professional-cleaning',
+    },
+    name: {
+      pl: 'Czyszczenie profesjonalne',
+      en: 'Professional cleaning',
+    },
+    short: {
+      pl: 'Mikrofibra ArClean do profesjonalnego i przemysłowego czyszczenia — gęste dzianiny poliestrowo-poliamidowe na trwałe wyroby wielokrotnego użytku.',
+      en: 'ArClean microfibre for professional and industrial cleaning — dense polyester-polyamide knits for durable, reusable cleaning products.',
+    },
+    badges: [],
+    image: '/images/applications/professional-cleaning.png',
   },
 ];
 

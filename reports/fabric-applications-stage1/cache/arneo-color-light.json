@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:11:54.663Z",
+    "requestId": "req_011CcxvvUCwDrhY5sBmUftJL",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5873,
+      "outputTokens": 207
+    }
+  },
+  "product": {
+    "slug": "arneo-color-light",
+    "name": "ArNeo Color Light",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "70 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Bias Fabric",
+    "specLine": "70 g/m², 100% Polyester, Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Color Light is 100% polyester, 65-70 g/m² warp knitted bias tape.",
+      "It used as bias farbic for safety jackets.",
+      "Depending on your bias design, it is possible to deliver bias tapes from 1cm up to 12cm.",
+      "Bias Fabric",
+      "70 g/m², 100% Polyester, Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 70 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 400 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Bias",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Bias for safety jackets",
+      "Bias for safety jackets."
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArNeo Color Light Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-color-light/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-color-light",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "categoryId: hi-vis",
+          "familyDescriptorEn: Fluorescent hi-vis knits for safety wear",
+          "It used as bias fabric for safety jackets.",
+          "applicationImageLabels: Bias for safety jackets"
+        ],
+        "rationale": "Explicitly categorized as hi-vis warp knit fabric and described as bias tape used for safety jackets, matching the high-visibility apparel application directly."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-color-light",
+    "status": "matched",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "categoryId: hi-vis",
+          "familyDescriptorEn: Fluorescent hi-vis knits for safety wear",
+          "It used as bias fabric for safety jackets.",
+          "applicationImageLabels: Bias for safety jackets"
+        ],
+        "rationale": "Explicitly categorized as hi-vis warp knit fabric and described as bias tape used for safety jackets, matching the high-visibility apparel application directly."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "",
+    "needsReview": false
+  }
+}

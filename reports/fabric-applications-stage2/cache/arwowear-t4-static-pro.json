@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:40:46.228Z",
+    "requestId": "req_011Ccxy7WCHCEgqWBW6SQkPm",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9458,
+      "outputTokens": 1036
+    }
+  },
+  "product": {
+    "slug": "arwowear-t4-static-pro",
+    "name": "ArWoWear T4 Static Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-static-pro",
+    "familyDescriptorPl": "Antystatyczne tkaniny robocze",
+    "familyDescriptorEn": "Antistatic workwear",
+    "categoryId": "antistatic",
+    "categoryNamePl": "Antystatyczne robocze",
+    "categoryNameEn": "Antistatic twill workwear",
+    "categorySourceGroup": "Antistatic Twill Workwear Fabrics",
+    "weight": "200 g/m²",
+    "composition": "64% PES 1% CF",
+    "weave": "2/1S Twill",
+    "titleDescriptor": "64% Polyester 35% Cotton 1% Carbon Antistatic Twill Fabric, 200 gr/m'2",
+    "specLine": "200 g/m², 64% Polyester 35% Cotton 1% Carbon, 2/1S",
+    "properties": [
+      "antistatic"
+    ],
+    "norms": [
+      "EN 1149",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Antistatic Twill Fabric",
+      "ArWoWear T4 Static Pro is light weight 200 g/m², 64% Polyester 35% Cotton 1% Carbon durable workwear antistatic twill fabric.",
+      "It is certified for EN 1149-5 (EN 1149-3)",
+      "It is suitable to use on electronic industry where static electric formation is a problem. Oil and gas industry platform workers can also use it to prevent static electric related explosions on dangerous area.",
+      "64% Polyester 35% Cotton 1% Carbon Antistatic Twill Fabric, 200 gr/m'2",
+      "200 g/m², 64% Polyester 35% Cotton 1% Carbon, 2/1S"
+    ],
+    "technicalParameters": [
+      "Fiber | 64% Polyester (PES) 35% Cotton (CO) 1% Carbon (CF) | EN ISO 2076",
+      "Yarn | Warp:20/1Ne; Weft:20/1Ne | EN ISO 2060",
+      "Weight | 200 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>800N; Weft>600N | EN ISO 13934-1",
+      "Tear Strength | Warp>20N; Weft>15N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 2-3 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 2-3 | EN ISO 105 N01",
+      "Peroxide Fastness | 3-4 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 2-3 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Yes | EN 1149-5"
+    ],
+    "applicationImageLabels": [
+      "Antistatic cotton polyester twill pant and jacket"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 1149",
+      ">> ArWoWear T4 Static Pro Data Sheet",
+      "data_sheet",
+      "EN 1149-5",
+      "certificate_or_test_report",
+      "EN 1149-5 Test Report"
+    ],
+    "structure": "2/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t4-static-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "energy",
+        "confidence": 90,
+        "evidence": [
+          "It is suitable to use on electronic industry where static electric formation is a problem. Oil and gas industry platform workers can also use it to prevent static electric related explosions on dangerous area.",
+          "Certified for EN 1149-5 (EN 1149-3)"
+        ],
+        "rationale": "Explicitly stated use by oil and gas industry platform workers to prevent static-related explosions, directly tying to the energy sector, not just antistatic property alone."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "welding",
+        "reason": "Antistatic twill workwear could be used in industrial settings but no explicit welding, foundry or metallurgy use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t4-static-pro",
+    "primary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 65,
+      "evidence": [
+        "Application | Coveralls",
+        "durable workwear antistatic twill fabric",
+        "Antistatic Twill Workwear Fabrics category"
+      ],
+      "rationale": "The fabric is explicitly positioned as a general antistatic workwear/coverall fabric (category: Antistatic Twill Workwear Fabrics, Application: Coveralls) suitable across multiple industrial environments, making general industrial workwear the most direct and central commercial use."
+    },
+    "secondary": {
+      "applicationId": "energy",
+      "confidence": 55,
+      "evidence": [
+        "Oil and gas industry platform workers can also use it to prevent static electric related explosions on dangerous area.",
+        "Certified for EN 1149-5 (EN 1149-3)"
+      ],
+      "rationale": "The product data explicitly names oil and gas platform workers as an independent stated end use, tying the antistatic protection directly to the energy sector beyond the antistatic property alone."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit welding, foundry or metal-splash use is stated; only antistatic property applies."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "No medical or healthcare use is mentioned; electronic industry reference does not equate to medical."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t4-static-pro",
+    "status": "resolved-review",
+    "primaryApplication": "workwear-industrial",
+    "secondaryApplication": null,
+    "primaryConfidence": 65,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Application | Coveralls",
+      "durable workwear antistatic twill fabric",
+      "Antistatic Twill Workwear Fabrics category"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly positioned as a general antistatic workwear/coverall fabric (category: Antistatic Twill Workwear Fabrics, Application: Coveralls) suitable across multiple industrial environments, making general industrial workwear the most direct and central commercial use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit welding, foundry or metal-splash use is stated; only antistatic property applies."
+      },
+      {
+        "applicationId": "medical",
+        "reasonNotSelected": "No medical or healthcare use is mentioned; electronic industry reference does not equate to medical."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Primary application retained, but confidence 65 is below review threshold 80."
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:15.898Z",
+    "requestId": "req_011CcxyEid6Ce5dhT5VDbew9",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9272,
+      "outputTokens": 324
+    }
+  },
+  "product": {
+    "slug": "arshirt-antiviral",
+    "name": "ArShirt Antiviral",
+    "family": "ArShirt",
+    "subFamily": "armedi-antiviral",
+    "familyDescriptorPl": "Dzianiny antywirusowe",
+    "familyDescriptorEn": "Antiviral knits",
+    "categoryId": "antiviral",
+    "categoryNamePl": "Dzianiny antywirusowe (srebro)",
+    "categoryNameEn": "Antiviral silver knits",
+    "categorySourceGroup": "Inherent Antiviral Knit Fabrics (Silver Yarn Integrated)",
+    "weight": "220 g/m²",
+    "composition": "99% CO 1% Ag",
+    "weave": "Pique",
+    "titleDescriptor": "99% Cotton 1% Silver Inherent Antiviral Knit Fabric",
+    "specLine": "220 g/m², 99% Cotton 1% Silver, Inherent Antiviral, Pique Knit Fabric",
+    "properties": [
+      "inherent-fr",
+      "antiviral"
+    ],
+    "norms": [
+      "ISO 18184",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "99% cotton 1% silver, inherent antiviral t-shirt fabric with silver yarn integrated.",
+      "ArShirt Antiviral fabrics are mostly used for medical applications with superior antiviral functions.",
+      "ArShirt Antiviral is tested for ISO 18184.",
+      "99% Cotton 1% Silver Inherent Antiviral Knit Fabric",
+      "220 g/m², 99% Cotton 1% Silver, Inherent Antiviral, Pique Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 99% Cotton (CO) 1% Silver (Ag) | EN ISO 2076",
+      "Yarn | 40/2 Ne | EN ISO 2060",
+      "Weight | 220 ±20 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1500 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 2-3 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 2-3 | EN ISO 105 N01",
+      "Peroxide Fastness | 3-4 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 2-3 | EN ISO 105 B07",
+      "pH | 4.0-9.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Antiviral T-Shirts",
+      "Quality Management | Done | ISO 9001",
+      "Water and Oil Repellent | 4 | EN ISO 4920",
+      "Antiviral | Yes | ISO 18184"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Water and Oil Repellent",
+      "Antibacterial",
+      "Antiviral",
+      ">> ArShirt Antiviral Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Pique",
+    "recordUrl": "/ariteks/fabrics/arshirt-antiviral/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "medical",
+        "confidence": 95,
+        "evidence": [
+          "ArShirt Antiviral fabrics are mostly used for medical applications with superior antiviral functions.",
+          "Application | Antiviral T-Shirts",
+          "Antiviral | Yes | ISO 18184"
+        ],
+        "rationale": "Explicitly stated medical application use with antiviral testing and direct description of medical intent."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "T-shirt fabric could be used in athletic wear, but no explicit sport use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arshirt-antiviral",
+    "primary": {
+      "applicationId": "medical",
+      "confidence": 90,
+      "evidence": [
+        "ArShirt Antiviral fabrics are mostly used for medical applications with superior antiviral functions.",
+        "Application | Antiviral T-Shirts",
+        "Antiviral | Yes | ISO 18184"
+      ],
+      "rationale": "The product description explicitly states medical application use, with antiviral testing (ISO 18184) supporting healthcare-oriented positioning."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No other independently stated end use exists; sport is only speculative per stage1 and not explicitly supported."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "T-shirt fabric could theoretically be used in sportswear, but no explicit sport use is stated in the source data."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arshirt-antiviral",
+    "status": "resolved",
+    "primaryApplication": "medical",
+    "secondaryApplication": null,
+    "primaryConfidence": 90,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "ArShirt Antiviral fabrics are mostly used for medical applications with superior antiviral functions.",
+      "Application | Antiviral T-Shirts",
+      "Antiviral | Yes | ISO 18184"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product description explicitly states medical application use, with antiviral testing (ISO 18184) supporting healthcare-oriented positioning.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "T-shirt fabric could theoretically be used in sportswear, but no explicit sport use is stated in the source data."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

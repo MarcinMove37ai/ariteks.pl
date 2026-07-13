@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:18:49.966Z",
+    "requestId": "req_011CcxwT8mkhVUNUpPeXe6EA",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6036,
+      "outputTokens": 209
+    }
+  },
+  "product": {
+    "slug": "argiyim-knit-knife-pro",
+    "name": "ArGiyim Knit Knife Pro",
+    "family": "ArGiyim",
+    "subFamily": "argiyim-knit",
+    "familyDescriptorPl": "Dzianiny specjalne — antyprzecięciowe i balistyczne",
+    "familyDescriptorEn": "Special knits — cut-resistant and ballistic",
+    "categoryId": "cut-resistant",
+    "categoryNamePl": "Antyprzecięciowe i przeciwprzebiciowe",
+    "categoryNameEn": "Cut & puncture resistant",
+    "categorySourceGroup": "Cut-proof knit fabric from p-aramid. Bomb and nail proof woven fabrics from Pa6.6",
+    "weight": "250 g/m²",
+    "composition": "100% p-AR",
+    "weave": "Jersey",
+    "titleDescriptor": "100% p-Aramid, Cut Proof Knit Fabric",
+    "specLine": "250 g/m², 100% p-Aramid Cut Proof, Jersey Knit Fabric",
+    "properties": [
+      "cut-resistant"
+    ],
+    "norms": [
+      "EN 388",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% p-Aramid jersey knit fabric for motorcyclist linings.",
+      "ArGiyim Knit Knife Pro can also be used for cut proof gloves.",
+      "100% p-Aramid, Cut Proof Knit Fabric",
+      "250 g/m², 100% p-Aramid Cut Proof, Jersey Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% p-Aramid (p-AR) | EN ISO 2076",
+      "Yarn | 24/2 Ne Combed | EN ISO 2060",
+      "Weight | 250 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 2500 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 4.0-7.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Motorcyclist lining",
+      "Quality Management | Done | ISO 9001",
+      "Cut-Proof | Done | EN 388"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 388",
+      ">> ArGiyim Knit Knife Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Jersey",
+    "recordUrl": "/ariteks/fabrics/argiyim-knit-knife-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "argiyim-knit-knife-pro",
+    "matches": [
+      {
+        "applicationId": "motorcycle",
+        "confidence": 95,
+        "evidence": [
+          "100% p-Aramid jersey knit fabric for motorcyclist linings.",
+          "Application | Motorcyclist lining"
+        ],
+        "rationale": "Explicitly stated as a lining material for motorcyclist apparel."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Aramid cut-resistant fabric could theoretically be used in tactical gear, but no military or uniformed-service use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "argiyim-knit-knife-pro",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "motorcycle",
+        "confidence": 95,
+        "evidence": [
+          "100% p-Aramid jersey knit fabric for motorcyclist linings.",
+          "Application | Motorcyclist lining"
+        ],
+        "rationale": "Explicitly stated as a lining material for motorcyclist apparel."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Aramid cut-resistant fabric could theoretically be used in tactical gear, but no military or uniformed-service use is stated."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

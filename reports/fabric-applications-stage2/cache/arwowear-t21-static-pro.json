@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:40:48.682Z",
+    "requestId": "req_011Ccxy7WLxRS6WaW8KhsZVe",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9534,
+      "outputTokens": 1238
+    }
+  },
+  "product": {
+    "slug": "arwowear-t21-static-pro",
+    "name": "ArWoWear T21 Static Pro Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-static-pro",
+    "familyDescriptorPl": "Antystatyczne tkaniny robocze",
+    "familyDescriptorEn": "Antistatic workwear",
+    "categoryId": "antistatic",
+    "categoryNamePl": "Antystatyczne robocze",
+    "categoryNameEn": "Antistatic twill workwear",
+    "categorySourceGroup": "Antistatic Twill Workwear Fabrics",
+    "weight": "330 g/m²",
+    "composition": "79% CO 20% PES 1% CF",
+    "weave": "3/1S Twill",
+    "titleDescriptor": "79% Cotton 20% Polyester 1% Carbon Twill, Antisatic Fabric, 330 gr/m'2",
+    "specLine": "330 g/m², 79% Cotton 20% Polyester 1% Carbon, Antistatic, 3/1S Twill Fabric",
+    "properties": [
+      "antistatic"
+    ],
+    "norms": [
+      "EN 1149",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T21 Flame Arc Pro is heavy weight 330 g/m², 79% Cotton 20% Polyester 1% Carbon, vat dyed, antistatic workwear fabric. Due to carbon fibers used on the back side of the fabric it has antistatic certification. (EN 1149-5)",
+      "It is suitable to use on electronic industry where static electric formation is a problem. Oil and gas industry platform workers can also use it to prevent static electric related explosions on dangerous area.",
+      "79% Cotton 20% Polyester 1% Carbon Twill, Antisatic Fabric, 330 gr/m'2",
+      "330 g/m², 79% Cotton 20% Polyester 1% Carbon, Antistatic, 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 79% Cotton (CO) 20% Polyester 1% Carbon(CF) | EN ISO 2076",
+      "Yarn | Warp:20/2Ne; Weft:20/2Ne | EN ISO 2060",
+      "Weight | 330 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1200N; Weft>1000N | EN ISO 13934-1",
+      "Tear Strength | Warp>25N; Weft>20N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 2-3 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 2-3 | EN ISO 105 N01",
+      "Peroxide Fastness | 3-4 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 2-3 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Yes | EN 1149-5"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 1149",
+      ">> ArWoWear T21 Static Pro Data Sheet",
+      "data_sheet",
+      "EN 1149-5",
+      "certificate_or_test_report",
+      "EN 1149-5 Test Report"
+    ],
+    "structure": "3/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t21-static-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "energy",
+        "confidence": 90,
+        "evidence": [
+          "Suitable to use on electronic industry where static electric formation is a problem.",
+          "Oil and gas industry platform workers can also use it to prevent static electric related explosions on dangerous area.",
+          "EN 1149-5 antistatic certification"
+        ],
+        "rationale": "Explicit statement of use by oil and gas platform workers to prevent static-electric related explosions directly connects this fabric to the energy sector, beyond just antistatic property alone."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Coverall application is generic industrial workwear; no explicit military or uniformed-service use is stated."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Antistatic and heavy twill workwear could be used in industrial metal environments, but no explicit welding/foundry/metallurgy use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t21-static-pro",
+    "primary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 62,
+      "evidence": [
+        "Application | Coveralls",
+        "Oil and gas industry platform workers can also use it to prevent static electric related explosions on dangerous area.",
+        "Heavy weight 330 g/m² antistatic workwear fabric"
+      ],
+      "rationale": "The product is explicitly described as a coverall fabric intended for general industrial and oil-and-gas workwear use, which the taxonomy explicitly lists under workwear-industrial's include criteria. This is the dominant, most direct commercial use even though the antistatic property has additional context."
+    },
+    "secondary": {
+      "applicationId": "energy",
+      "confidence": 45,
+      "evidence": [
+        "Suitable to use on electronic industry where static electric formation is a problem.",
+        "Oil and gas industry platform workers can also use it to prevent static electric related explosions on dangerous area.",
+        "EN 1149-5 antistatic certification"
+      ],
+      "rationale": "The explicit mention of oil-and-gas platform and electronic-industry static-explosion prevention independently supports an energy-sector use beyond the antistatic property alone, satisfying the requirement for explicit connection to electrical/electronic hazardous environments."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit welding, foundry or metal-splash use stated; only generic antistatic workwear context."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or uniformed-service application stated."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Ambiguity between workwear-industrial and energy sector classification since the fabric's primary application field says 'Coveralls' (generic workwear) but description explicitly cites oil-and-gas and electronic-industry static-explosion prevention, which could be interpreted as either sector depending on taxonomy strictness."
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t21-static-pro",
+    "status": "resolved-review",
+    "primaryApplication": "workwear-industrial",
+    "secondaryApplication": null,
+    "primaryConfidence": 62,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Application | Coveralls",
+      "Oil and gas industry platform workers can also use it to prevent static electric related explosions on dangerous area.",
+      "Heavy weight 330 g/m² antistatic workwear fabric"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly described as a coverall fabric intended for general industrial and oil-and-gas workwear use, which the taxonomy explicitly lists under workwear-industrial's include criteria. This is the dominant, most direct commercial use even though the antistatic property has additional context.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit welding, foundry or metal-splash use stated; only generic antistatic workwear context."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or uniformed-service application stated."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Ambiguity between workwear-industrial and energy sector classification since the fabric's primary application field says 'Coveralls' (generic workwear) but description explicitly cites oil-and-gas and electronic-industry static-explosion prevention, which could be interpreted as either sector depending on taxonomy strictness."
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:36.908Z",
+    "requestId": "req_011CcxyBgmPCjNhjEecSuYmJ",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9510,
+      "outputTokens": 549
+    }
+  },
+  "product": {
+    "slug": "argiyim-290",
+    "name": "ArGiyim 290",
+    "family": "ArGiyim",
+    "subFamily": "argiyim",
+    "familyDescriptorPl": "Dzianiny odzieżowe funkcyjne",
+    "familyDescriptorEn": "Functional apparel knits",
+    "categoryId": "polycotton",
+    "categoryNamePl": "Tkaniny PolyCotton",
+    "categoryNameEn": "PolyCotton fabrics",
+    "categorySourceGroup": "Ultra Durable, Ultra Breathable Front Side Polyester Back Side Cotton, PolyCotton Fabrics",
+    "weight": "290 g/m²",
+    "composition": "80% PES 20% CO",
+    "weave": "4/1 Satin",
+    "titleDescriptor": "80% Polyester 20% Cotton PolyCotton High Visible Water Repellent Satin Fabric",
+    "specLine": "290 g/m², 80% Polyester 20% Cotton High Visible, Chemical Resistant, 4/1 Satin Woven Fabric",
+    "properties": [
+      "hi-vis",
+      "emi",
+      "chemical",
+      "water-repellent",
+      "breathable"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN 13034",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "80% Polyester 20% Cotton PolyCotton high visible, chemical resistant satin fabric. The front side of the fabric is 100% Polyester which is ultra durable for work conditions and light, the back side of the fabric is cotton which provides breathability to the user.",
+      "ArGiyim²90 are used for heavy outdoor jackets, safety jackets, pans and trousers.",
+      "Certified for EN ISO 20471 and for EN 13034",
+      "80% Polyester 20% Cotton PolyCotton High Visible Water Repellent Satin Fabric",
+      "290 g/m², 80% Polyester 20% Cotton High Visible, Chemical Resistant, 4/1 Satin Woven Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 80% Polyester (PES) 20% Cotton (CO) | EN ISO 2076",
+      "Yarn | 300 Denier + 12/1 Ne | EN ISO 2060",
+      "Weight | 290 ±10 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 2000N ; Weft > 800N | EN ISO 13934-1",
+      "Tear Strength | Warp > 35N ; Weft > 30N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Hi Vis Pans",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471",
+      "Chemical Resistant | Done | EN ISO 13034"
+    ],
+    "applicationImageLabels": [
+      "Polycotton pan"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      ">> ArGiyim 290 Data Sheet",
+      "data_sheet",
+      "TS EN ISO 20471",
+      "certificate_or_test_report"
+    ],
+    "structure": "4/1 Satin",
+    "recordUrl": "/ariteks/fabrics/argiyim-290/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "EN ISO 20471",
+          "High Visibility | Done | EN ISO 20471",
+          "80% Polyester 20% Cotton PolyCotton High Visible Water Repellent Satin Fabric",
+          "used for heavy outdoor jackets, safety jackets, pans and trousers"
+        ],
+        "rationale": "Explicit certification to EN ISO 20471 and titling/description as high-visibility safety fabric for safety jackets and trousers directly supports hi-vis classification."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Heavy outdoor jacket/workwear use could theoretically apply to uniformed services but no explicit military or police reference exists."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Chemical resistance and EN 13034 certification suggest protective outdoor workwear but no explicit welding, foundry or metal-processing use is stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "argiyim-290",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 96,
+      "evidence": [
+        "EN ISO 20471 certification",
+        "High Visibility | Done | EN ISO 20471",
+        "used for heavy outdoor jackets, safety jackets, pans and trousers",
+        "High Visible Water Repellent Satin Fabric"
+      ],
+      "rationale": "The fabric is explicitly titled and certified as a high-visibility fabric (EN ISO 20471) intended for safety jackets and trousers, making hi-vis the clear, dominant application."
+    },
+    "secondary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 55,
+      "evidence": [
+        "heavy outdoor jackets, safety jackets, pans and trousers",
+        "Chemical Resistant, EN 13034",
+        "EN 13034 chemical protective clothing certification"
+      ],
+      "rationale": "Beyond hi-vis certification, the fabric is designed for durable, chemical-resistant work garments (jackets/trousers/pants), consistent with general industrial workwear use as a secondary application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "Chemical resistance and EN 13034 relate to chemical protection, not explicit welding, foundry or metal-processing use."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or tactical use stated in the product data."
+      },
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "EMI property present but no explicit electrical/high-voltage utility use stated; EN 1149/EMI alone insufficient."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "argiyim-290",
+    "status": "resolved-review",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 96,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "EN ISO 20471 certification",
+      "High Visibility | Done | EN ISO 20471",
+      "used for heavy outdoor jackets, safety jackets, pans and trousers",
+      "High Visible Water Repellent Satin Fabric"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The fabric is explicitly titled and certified as a high-visibility fabric (EN ISO 20471) intended for safety jackets and trousers, making hi-vis the clear, dominant application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "Chemical resistance and EN 13034 relate to chemical protection, not explicit welding, foundry or metal-processing use."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or tactical use stated in the product data."
+      },
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "EMI property present but no explicit electrical/high-voltage utility use stated; EN 1149/EMI alone insufficient."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

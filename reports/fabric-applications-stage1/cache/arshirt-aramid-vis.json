@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:15:52.980Z",
+    "requestId": "req_011CcxwDzTL7HaX9DKTEJtwT",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6512,
+      "outputTokens": 352
+    }
+  },
+  "product": {
+    "slug": "arshirt-aramid-vis",
+    "name": "ArShirt Aramid Vis",
+    "family": "ArShirt",
+    "subFamily": "aramid-vis-knit",
+    "familyDescriptorPl": "Dzianiny aramidowo-wiskozowe FR",
+    "familyDescriptorEn": "Aramid-viscose FR knits",
+    "categoryId": "aramid-viscose-knits",
+    "categoryNamePl": "Dzianiny aramid-wiskoza FR",
+    "categoryNameEn": "Aramid-viscose FR knits",
+    "categorySourceGroup": "Inherent Flame Retardant Aramid Viscose Fr Knit Workwear Fabrics",
+    "weight": "220 g/m²",
+    "composition": "53% CV 40% m-AR 5% p-AR 2% CF",
+    "weave": "Pique",
+    "titleDescriptor": "53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant Antistatic Pique Fabric",
+    "specLine": "220 g/m², 53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant",
+    "properties": [
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN 1149",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Antistatic Pique Knit Fabric 53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, inherent flame retardant antistatic pique knit fabric . ArShirt Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+      "With high viscose fr content it is possible to use also in very hot climates.",
+      "ArShirt Aramid Vis is inherent flame retardant with EN 11612 certification.",
+      "Suitable for antistatic applications, certified for EN ISO 1149.",
+      "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+      "53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant Antistatic Pique Fabric",
+      "220 g/m², 53% Viscose Fr 40% m-Aramid 5% p-Aramid 2% Carbon, Inherent Flame Retardant"
+    ],
+    "technicalParameters": [
+      "Fiber | 53% Viscose Fr (CV FR) 40% m-Aramid (m-AR) 5% p-Aramid (p-AR) 2% Carbon (CF) | EN ISO 2076",
+      "Yarn | 20/1 Ne Combed | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1200 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 4.0-7.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant T-Shirt",
+      "Quality Management | Done | ISO 9001",
+      "Antistatic | Done | EN ISO 1149-5",
+      "Flame and Heat Protection | Done | EN ISO 11612",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 7 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 1149",
+      "EN 11612",
+      "EN 61482",
+      ">> ArShirt Aramid Vis Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Pique",
+    "recordUrl": "/ariteks/fabrics/arshirt-aramid-vis/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arshirt-aramid-vis",
+    "matches": [
+      {
+        "applicationId": "energy",
+        "confidence": 92,
+        "evidence": [
+          "ArShirt Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+          "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+          "Antistatic | Done | EN ISO 1149-5"
+        ],
+        "rationale": "Product description explicitly states use by electrical workers, combined with arc-flash protection certification (EN 61482), directly supporting the energy sector application."
+      },
+      {
+        "applicationId": "firefighting",
+        "confidence": 85,
+        "evidence": [
+          "ArShirt Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+          "ArShirt Aramid Vis is inherent flame retardant with EN 11612 certification."
+        ],
+        "rationale": "Explicit statement that the fabric is used by firefighters, supported by flame/heat protection certification EN ISO 11612."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arshirt-aramid-vis",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "energy",
+        "confidence": 92,
+        "evidence": [
+          "ArShirt Aramid Vis fabric are mostly used by electrical workers and firefighters.",
+          "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+          "Antistatic | Done | EN ISO 1149-5"
+        ],
+        "rationale": "Product description explicitly states use by electrical workers, combined with arc-flash protection certification (EN 61482), directly supporting the energy sector application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "firefighting",
+        "reason": "Explicit statement that the fabric is used by firefighters, supported by flame/heat protection certification EN ISO 11612."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

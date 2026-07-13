@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:11:36.314Z",
+    "requestId": "req_011Ccxvu7sY1MiG1nsTLQWop",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6061,
+      "outputTokens": 269
+    }
+  },
+  "product": {
+    "slug": "arneo-color-file",
+    "name": "ArNeo Color File",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "120 g/m²",
+    "composition": "100% PES",
+    "weave": "5*1 Mesh",
+    "titleDescriptor": "Mesh Fabric for Safety Jackets Non Neon Colors",
+    "specLine": "120 g/m², 100% Polyester, Mesh Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Color File is a 100% polyester, 120 g/m² warp knitted mesh fabric.",
+      "It used for jackets with reflective strips.",
+      "The mesh structure is usefull for hot climates working conditions.",
+      "Mesh Fabric for Safety Jackets Non Neon Colors",
+      "120 g/m², 100% Polyester, Mesh Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 120 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Safety Jacket",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Dark Navy Safety Jacket",
+      "Yellow-Navy Safety Jacket",
+      "Red Navy Safety Jacket"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArNeo Color File Data Sheet",
+      "data_sheet",
+      "ASTM E 2149",
+      "certificate_or_test_report",
+      "ASTM E 2149, 30 wash",
+      "ISO 105 C06",
+      "ISO 105 E04",
+      "ISO 105 X12",
+      "ISO 1833",
+      "ISO 6330",
+      "ISO 16373-2",
+      "Knitting",
+      "TS 251 Metot 6"
+    ],
+    "structure": "5*1 Mesh",
+    "recordUrl": "/ariteks/fabrics/arneo-color-file/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-color-file",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 98,
+        "evidence": [
+          "categoryId: hi-vis",
+          "familyDescriptorEn: Fluorescent hi-vis knits for safety wear",
+          "titleDescriptor: Mesh Fabric for Safety Jackets Non Neon Colors",
+          "Application | Safety Jacket",
+          "applicationImageLabels: Dark Navy Safety Jacket, Yellow-Navy Safety Jacket, Red Navy Safety Jacket"
+        ],
+        "rationale": "Product is explicitly categorized as a hi-vis warp knit fabric for safety jackets with reflective strips, directly matching the high-visibility apparel application."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-color-file",
+    "status": "matched",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 98,
+        "evidence": [
+          "categoryId: hi-vis",
+          "familyDescriptorEn: Fluorescent hi-vis knits for safety wear",
+          "titleDescriptor: Mesh Fabric for Safety Jackets Non Neon Colors",
+          "Application | Safety Jacket",
+          "applicationImageLabels: Dark Navy Safety Jacket, Yellow-Navy Safety Jacket, Red Navy Safety Jacket"
+        ],
+        "rationale": "Product is explicitly categorized as a hi-vis warp knit fabric for safety jackets with reflective strips, directly matching the high-visibility apparel application."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "",
+    "needsReview": false
+  }
+}

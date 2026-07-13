@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:39:48.633Z",
+    "requestId": "req_011Ccxy3mPE3YuoAVbj8gcHK",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9393,
+      "outputTokens": 425
+    }
+  },
+  "product": {
+    "slug": "arneo-pro",
+    "name": "ArNeo Pro",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "150 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Flame Retardant, High Visible, Safety Jacket Fabric",
+    "specLine": "150 g/m², 100% Polyester, High Visible, Flame Retardant Knit Fabric",
+    "properties": [
+      "hi-vis",
+      "fr"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 14116",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Pro is 100% polyester, 150 g/m² warp knitted flame retardant neon colored fabric for safety jackets.",
+      "It is mostly used by aeroport apron workers.",
+      "EN ISO 20471 certified.",
+      "Neon dyed fabrics they attract more attention than other colors. They absorb uv light and reflect as a visible light.",
+      "As a result they shine more than other objects.",
+      "Flame retardant certified. (TS EN ISO 14116) (resistant to 10 washing)",
+      "Flame Retardant, High Visible, Safety Jacket Fabric",
+      "150 g/m², 100% Polyester, High Visible, Flame Retardant Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strengt | > 1000 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Safety Jacket",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471"
+    ],
+    "applicationImageLabels": [
+      "Yellow Flame Retardant Safety Jacket EN 20471",
+      "Orange Flame Retardant Safety Jacket EN 20471",
+      "Red Flame Retardant Safety Jacket EN 20471"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      "EN 14116",
+      ">> ArNeo Pro Data Sheet",
+      "data_sheet",
+      "TS EN ISO 20471",
+      "certificate_or_test_report",
+      "TS EN ISO 14116",
+      "TS EN ISO 20471 Test Report"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 98,
+        "evidence": [
+          "categoryId: hi-vis",
+          "EN ISO 20471 certified",
+          "Application | Safety Jacket",
+          "applicationImageLabels: Yellow/Orange/Red Flame Retardant Safety Jacket EN 20471"
+        ],
+        "rationale": "Explicitly certified to EN ISO 20471 and marketed as a fluorescent knit fabric for high-visibility safety jackets."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Description mentions aeroport apron workers, but this is an occupational context, not explicit vehicle/vessel transport application."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-pro",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 98,
+      "evidence": [
+        "categoryId: hi-vis",
+        "EN ISO 20471 certified",
+        "Application | Safety Jacket",
+        "applicationImageLabels: Yellow/Orange/Red Flame Retardant Safety Jacket EN 20471"
+      ],
+      "rationale": "Explicitly certified to EN ISO 20471 and marketed as a fluorescent knit fabric for high-visibility safety jackets, which is the fabric's clearest and most central commercial use."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "The mention of airport apron workers describes an occupational context, not an explicit vehicle/vessel transport application, so no independently supported secondary application exists."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Aeroport apron worker context is occupational, not an explicit vehicle/vessel transport use as required by the taxonomy."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "A more specific certified hi-vis safety jacket application dominates over generic workwear classification."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-pro",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 98,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categoryId: hi-vis",
+      "EN ISO 20471 certified",
+      "Application | Safety Jacket",
+      "applicationImageLabels: Yellow/Orange/Red Flame Retardant Safety Jacket EN 20471"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicitly certified to EN ISO 20471 and marketed as a fluorescent knit fabric for high-visibility safety jackets, which is the fabric's clearest and most central commercial use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "Aeroport apron worker context is occupational, not an explicit vehicle/vessel transport use as required by the taxonomy."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "A more specific certified hi-vis safety jacket application dominates over generic workwear classification."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

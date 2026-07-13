@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:59.877Z",
+    "requestId": "req_011CcxyHtn7CB5EsLepCTSK2",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9466,
+      "outputTokens": 367
+    }
+  },
+  "product": {
+    "slug": "ardura-500-cg",
+    "name": "ArDura 500 CG",
+    "family": "ArDura",
+    "subFamily": "ardura-2",
+    "familyDescriptorPl": "Tkaniny PA 6.6 — warianty powlekane, FR i wzmocnione",
+    "familyDescriptorEn": "PA 6.6 fabrics — coated, FR and reinforced variants",
+    "categoryId": "cut-resistant",
+    "categoryNamePl": "Antyprzecięciowe i przeciwprzebiciowe",
+    "categoryNameEn": "Cut & puncture resistant",
+    "categorySourceGroup": "Cut-proof knit fabric from p-aramid. Bomb and nail proof woven fabrics from Pa6.6",
+    "weight": "350 g/m²",
+    "composition": "100% PA6.6",
+    "weave": "Herringbone",
+    "titleDescriptor": "Pa6.6 woven fabric for Bomb Disposal Suits",
+    "specLine": "350 g/m², 100% Pa 6.6, Water Repellent, Antibacterial, Herringbone Woven Fabric",
+    "properties": [
+      "water-repellent",
+      "antibacterial",
+      "cut-resistant"
+    ],
+    "norms": [
+      "EN 388",
+      "EN 17092",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArDura 500 CG is 100% polyamide 6.6 woven fabric for bomb disposal suits, military, police and gendarme wear and nail proof pockets on workwear.",
+      "The Pa6.6 high tenacity fibers gives for extra protection for bomb disposal clothing.",
+      "The fabric has water and oil repellent function.",
+      "It's used mostly for application which requires ultra durability.",
+      "The antibacterial function is very usefull to eliminate all kind of odor formation during work.",
+      "Pa6.6 woven fabric for Bomb Disposal Suits",
+      "350 g/m², 100% Pa 6.6, Water Repellent, Antibacterial, Herringbone Woven Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyamide 6.6 (PA 6.6) | EN ISO 2076",
+      "Yarn | 500 Denier | EN ISO 2060",
+      "Weight | 350 ±10 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>3500N; Weft>2500N | EN ISO 13934-1",
+      "Tear Strength | Warp>250N; Weft>220N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Abrasion Resistance | @50000 | EN ISO 12947-2",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Weathering Fastness | 6+ | EN ISO 105 B04",
+      "pH | 4-7 | EN ISO 3071",
+      "Azo Test | No Azo Colorants | EN ISO 14362-1",
+      "Allergenic Dyestuffs | Not Detected | EN ISO 14362-1",
+      "Application | Bomb Disposal Suits",
+      "Quality Management | Done | ISO 9001",
+      "Spray Test | ISO 5 | EN ISO 24920"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Water and Oil Repellent",
+      "Antibacterial",
+      ">> ArDura 500 CG Data Sheet",
+      "data_sheet",
+      "Orijinal Cordura(R) Approval",
+      "certificate_or_test_report"
+    ],
+    "structure": "",
+    "recordUrl": "/ariteks/fabrics/ardura-500-cg/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "military",
+        "confidence": 97,
+        "evidence": [
+          "Pa6.6 woven fabric for Bomb Disposal Suits",
+          "ArDura 500 CG is 100% polyamide 6.6 woven fabric for bomb disposal suits, military, police and gendarme wear and nail proof pockets on workwear.",
+          "Application | Bomb Disposal Suits",
+          "EN 17092 (protective clothing standard referenced)"
+        ],
+        "rationale": "Explicitly described as fabric for bomb disposal suits, military and police wear, directly satisfying the military/uniformed services application."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ardura-500-cg",
+    "primary": {
+      "applicationId": "military",
+      "confidence": 97,
+      "evidence": [
+        "Pa6.6 woven fabric for Bomb Disposal Suits",
+        "ArDura 500 CG is 100% polyamide 6.6 woven fabric for bomb disposal suits, military, police and gendarme wear and nail proof pockets on workwear.",
+        "Application | Bomb Disposal Suits"
+      ],
+      "rationale": "Explicitly stated as fabric for bomb disposal suits, military and police wear, directly matching the military/uniformed services application."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently supported secondary use; nail-proof pockets on workwear are mentioned only as an ancillary note, not a distinct dominant application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Mention of nail-proof pockets on workwear is incidental, not the product's central commercial use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ardura-500-cg",
+    "status": "resolved",
+    "primaryApplication": "military",
+    "secondaryApplication": null,
+    "primaryConfidence": 97,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Pa6.6 woven fabric for Bomb Disposal Suits",
+      "ArDura 500 CG is 100% polyamide 6.6 woven fabric for bomb disposal suits, military, police and gendarme wear and nail proof pockets on workwear.",
+      "Application | Bomb Disposal Suits"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicitly stated as fabric for bomb disposal suits, military and police wear, directly matching the military/uniformed services application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Mention of nail-proof pockets on workwear is incidental, not the product's central commercial use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

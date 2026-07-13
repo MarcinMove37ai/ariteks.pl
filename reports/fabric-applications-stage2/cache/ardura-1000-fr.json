@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:53.837Z",
+    "requestId": "req_011CcxyHKxf8G5hHV27aM9Uu",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9889,
+      "outputTokens": 526
+    }
+  },
+  "product": {
+    "slug": "ardura-1000-fr",
+    "name": "ArDura 1000 Fr",
+    "family": "ArDura",
+    "subFamily": "ardura-2",
+    "familyDescriptorPl": "Tkaniny PA 6.6 — warianty powlekane, FR i wzmocnione",
+    "familyDescriptorEn": "PA 6.6 fabrics — coated, FR and reinforced variants",
+    "categoryId": "uniform-pa66",
+    "categoryNamePl": "Tkaniny mundurowe PA 6.6",
+    "categoryNameEn": "PA 6.6 uniform fabrics",
+    "categorySourceGroup": "Woven PA.6.6 fabrics for police uniforms, motorcyclists, bomb disposal suits and technical military applications.",
+    "weight": "350 g/m²",
+    "composition": "95% PA6.6 5% PU",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "Pa6.6 woven flame retardant coated fabric for Police and Gendarme wear",
+    "specLine": "350 g/m², 95% Pa 6.6 5%Pu, Water Repellent, Antibacterial, Waterproof, Flame Retardant Woven Fabric",
+    "properties": [
+      "fr",
+      "waterproof",
+      "water-repellent",
+      "antibacterial"
+    ],
+    "norms": [
+      "EN ISO 14116",
+      "EN 343",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArDura 1000 Fr is heavyweight 95% polyamide 5% Polyurethane 6.6 woven fabric for military, police and gendarme wear. It is suitable for mobile motobikers police wear.",
+      "The Pa6.6 high tenacity fibers gives for extra protection for polices.",
+      "The fabric has water and oil repellent function.",
+      "It's used mostly for application which requires ultra durability.",
+      "The antibacterial function is very usefull to eliminate all kind of odor formation during work.",
+      "The fabric has flame retardant coating on back side which gives flame retardant and waterproof function at the same time.",
+      "Pa6.6 woven flame retardant coated fabric for Police and Gendarme wear",
+      "350 g/m², 95% Pa 6.6 5%Pu, Water Repellent, Antibacterial, Waterproof, Flame Retardant Woven Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 95% Polyamide 6.6 (PA 6.6) 5% Polyurethane (PU) | EN ISO 2076",
+      "Yarn | 1000 Denier | EN ISO 2060",
+      "Weight | 350 ±10 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>3000N; Weft>2500N | EN ISO 13934-1",
+      "Tear Strength | Warp>250N; Weft>200N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Abrasion Resistance | @50000 | EN ISO 12947-2",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4 | EN ISO 105 B02",
+      "Weathering Fastness | 6+ | EN ISO 105 B04",
+      "pH | 4-7 | EN ISO 3071",
+      "Azo Test | No Azo Colorants | EN ISO 14362-1",
+      "Allergenic Dyestuffs | Not Detected | EN ISO 14362-1",
+      "Application | Police Motobikers",
+      "Quality Management | Done | ISO 9001",
+      "Spray Test | ISO 5 | EN ISO 24920",
+      "Waterproof | Yes | EN 343"
+    ],
+    "applicationImageLabels": [
+      "Cordura Reinforced Pbo 4 layer firefighter suit"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Water and Oil Repellent",
+      "Antibacterial",
+      "Flame Retardant",
+      "Water Proof",
+      ">> ArDura 1000 Fr Data Sheet",
+      "data_sheet",
+      "Orijinal Cordura(R) Approval",
+      "certificate_or_test_report"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/ardura-1000-fr/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "military",
+        "confidence": 95,
+        "evidence": [
+          "Woven PA.6.6 fabrics for police uniforms, motorcyclists, bomb disposal suits and technical military applications.",
+          "ArDura 1000 Fr is heavyweight 95% polyamide 5% Polyurethane 6.6 woven fabric for military, police and gendarme wear.",
+          "Pa6.6 woven flame retardant coated fabric for Police and Gendarme wear"
+        ],
+        "rationale": "Product explicitly describes use for military, police and gendarme wear, directly matching the military/uniformed services application."
+      },
+      {
+        "applicationId": "motorcycle",
+        "confidence": 90,
+        "evidence": [
+          "It is suitable for mobile motobikers police wear.",
+          "Application | Police Motobikers"
+        ],
+        "rationale": "Explicit statement that the fabric is suitable for motorcyclist police wear and technical parameter explicitly lists 'Police Motobikers' as an application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "firefighting",
+        "reason": "Application image label shows a firefighter suit example, but the product's own descriptions and specLine focus on police/military use, not explicit firefighting garment intent; FR property alone is insufficient per rules."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "ardura-1000-fr",
+    "primary": {
+      "applicationId": "military",
+      "confidence": 93,
+      "evidence": [
+        "Woven PA.6.6 fabrics for police uniforms, motorcyclists, bomb disposal suits and technical military applications.",
+        "ArDura 1000 Fr is heavyweight 95% polyamide 5% Polyurethane 6.6 woven fabric for military, police and gendarme wear.",
+        "Pa6.6 woven flame retardant coated fabric for Police and Gendarme wear"
+      ],
+      "rationale": "The product is explicitly and repeatedly described as intended for military, police and gendarme wear, which is the dominant and most direct stated end use."
+    },
+    "secondary": {
+      "applicationId": "motorcycle",
+      "confidence": 85,
+      "evidence": [
+        "It is suitable for mobile motobikers police wear.",
+        "Application | Police Motobikers"
+      ],
+      "rationale": "The technical parameters explicitly list 'Police Motobikers' as an application and the description states suitability for mobile motorcyclist police wear, an independently supported secondary use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "Only an application image label shows a firefighter suit example; no explicit text ties this fabric to firefighting garments, so FR property alone is insufficient per rules."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Narrower named sectors (military, motorcycle) are explicitly stated, making generic workwear classification unnecessary."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ardura-1000-fr",
+    "status": "resolved",
+    "primaryApplication": "military",
+    "secondaryApplication": "motorcycle",
+    "primaryConfidence": 93,
+    "secondaryConfidence": 85,
+    "primaryEvidence": [
+      "Woven PA.6.6 fabrics for police uniforms, motorcyclists, bomb disposal suits and technical military applications.",
+      "ArDura 1000 Fr is heavyweight 95% polyamide 5% Polyurethane 6.6 woven fabric for military, police and gendarme wear.",
+      "Pa6.6 woven flame retardant coated fabric for Police and Gendarme wear"
+    ],
+    "secondaryEvidence": [
+      "It is suitable for mobile motobikers police wear.",
+      "Application | Police Motobikers"
+    ],
+    "primaryRationale": "The product is explicitly and repeatedly described as intended for military, police and gendarme wear, which is the dominant and most direct stated end use.",
+    "secondaryRationale": "The technical parameters explicitly list 'Police Motobikers' as an application and the description states suitability for mobile motorcyclist police wear, an independently supported secondary use.",
+    "alternativesConsidered": [
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "Only an application image label shows a firefighter suit example; no explicit text ties this fabric to firefighting garments, so FR property alone is insufficient per rules."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Narrower named sectors (military, motorcycle) are explicitly stated, making generic workwear classification unnecessary."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

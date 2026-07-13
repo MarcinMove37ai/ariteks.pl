@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:24.580Z",
+    "requestId": "req_011CcxyAihwNEB2YkU2GMCg9",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9895,
+      "outputTokens": 584
+    }
+  },
+  "product": {
+    "slug": "aramid-d3-200",
+    "name": "Aramid D3 200",
+    "family": "Aramid",
+    "subFamily": "aramid",
+    "familyDescriptorPl": "Tkane tkaniny aramidowe serii D do odzieży trudnopalnej",
+    "familyDescriptorEn": "Woven D-series aramid fabrics for FR workwear",
+    "categoryId": "aramid",
+    "categoryNamePl": "Tkaniny aramidowe",
+    "categoryNameEn": "Aramid workwear fabrics",
+    "categorySourceGroup": "Inherent Flame Retardant Aramid Workwear Fabrics",
+    "weight": "200 g/m²",
+    "composition": "75% m-AR 23% p-AR 2% CF",
+    "weave": "2/1S Twill",
+    "titleDescriptor": "Aramid Fabric, 75% meta Aramid 23% para Aramid 2% Carbon , 200 gr/m'2",
+    "specLine": "200 g/m², 75% m-Aramid 23% p-Aramid 2% Carbon, Inherent Flame Retardant, Antistatic, 2/1S Twill Fabric Aramid twill fabric",
+    "properties": [
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc",
+      "chemical"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN 1149",
+      "EN 61482",
+      "EN 13034",
+      "EN 469",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "200 g/m², 75% m-Aramid, 23% p-Aramid, 2% Carbon.",
+      "Inherent flame retardant fabric",
+      "Flame resistant (Flame retardant) fabric with EN ISO 11612 certification.",
+      "Antistatic (EN 1149-5)",
+      "Aramid Fabric, 75% meta Aramid 23% para Aramid 2% Carbon , 200 gr/m'2",
+      "200 g/m², 75% m-Aramid 23% p-Aramid 2% Carbon, Inherent Flame Retardant, Antistatic, 2/1S Twill Fabric Aramid twill fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 75% m-Aramid (m-AR) 23% p-Aramid (p-AR) 2% Carbon(CF) | EN ISO 2076",
+      "Yarn | Warp:30/2Ne; Weft:30/2Ne | EN ISO 2060",
+      "Weight | 200 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1500N; Weft>1000N | EN ISO 13934-1",
+      "Tear Strength | Warp>70N ; Weft>60N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Firefighters Costumes",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Antistatic | Yes | EN ISO 1149-5",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 12 cal/cm² | EN ISO 61482-1-1",
+      "Chemical Resistant | Yes | EN ISO 13034",
+      "Firefighters | Yes | EN ISO 469"
+    ],
+    "applicationImageLabels": [
+      "Aramid Firefighter Turnout Gear"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 1149-5",
+      "EN 61482",
+      "EN 13034",
+      "EN 469",
+      ">> Aramid D3 200 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "2/1S Twill",
+    "recordUrl": "/ariteks/fabrics/aramid-d3-200/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "firefighting",
+        "confidence": 95,
+        "evidence": [
+          "technicalParameters: 'Application | Firefighters Costumes'",
+          "norms include EN 469",
+          "applicationImageLabels: 'Aramid Firefighter Turnout Gear'",
+          "technicalParameters: 'Firefighters | Yes | EN ISO 469'"
+        ],
+        "rationale": "Product data explicitly states intended application as firefighter costumes/turnout gear and is certified to EN 469, the firefighting standard, directly supporting the firefighting application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Fabric has antistatic (EN 1149-5) and arc protection (EN 61482) properties, which are relevant to electrical hazard protection, but no explicit statement ties it to the energy sector or electrical utility work."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Aramid FR fabrics are sometimes used in military protective gear, but no explicit military, police or tactical use is stated in the product data."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Inherent FR and heat protection could be relevant to metalworking, but no explicit mention of welding, foundry or molten metal splash use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "aramid-d3-200",
+    "primary": {
+      "applicationId": "firefighting",
+      "confidence": 95,
+      "evidence": [
+        "technicalParameters: 'Application | Firefighters Costumes'",
+        "norms include EN 469",
+        "applicationImageLabels: 'Aramid Firefighter Turnout Gear'",
+        "technicalParameters: 'Firefighters | Yes | EN ISO 469'"
+      ],
+      "rationale": "The product explicitly states its application as firefighter costumes/turnout gear and is certified to EN 469, directly identifying firefighting as the dominant end use."
+    },
+    "secondary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 40,
+      "evidence": [
+        "Inherent Flame Retardant Aramid Workwear Fabrics category source group",
+        "EN ISO 11612 flame and heat protection",
+        "EN 1149-5 antistatic",
+        "EN 61482 arc protection",
+        "EN 13034 chemical resistance"
+      ],
+      "rationale": "The broad set of general protective certifications (FR, antistatic, arc, chemical) beyond firefighting-specific EN 469 supports a secondary general industrial protective workwear use, consistent with the category group description of FR aramid workwear fabrics."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Antistatic and arc protection properties exist but no explicit statement ties the fabric to electrical utility or energy sector use."
+      },
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit mention of welding, foundry or molten metal splash use despite FR and heat protection properties."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or tactical application stated."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "aramid-d3-200",
+    "status": "resolved-review",
+    "primaryApplication": "firefighting",
+    "secondaryApplication": null,
+    "primaryConfidence": 95,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "technicalParameters: 'Application | Firefighters Costumes'",
+      "norms include EN 469",
+      "applicationImageLabels: 'Aramid Firefighter Turnout Gear'",
+      "technicalParameters: 'Firefighters | Yes | EN ISO 469'"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product explicitly states its application as firefighter costumes/turnout gear and is certified to EN 469, directly identifying firefighting as the dominant end use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Antistatic and arc protection properties exist but no explicit statement ties the fabric to electrical utility or energy sector use."
+      },
+      {
+        "applicationId": "welding",
+        "reasonNotSelected": "No explicit mention of welding, foundry or molten metal splash use despite FR and heat protection properties."
+      },
+      {
+        "applicationId": "military",
+        "reasonNotSelected": "No explicit military, police or tactical application stated."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:40:00.053Z",
+    "requestId": "req_011Ccxy4f7E7DF4YVPiepqUV",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9006,
+      "outputTokens": 346
+    }
+  },
+  "product": {
+    "slug": "arneo-color-light",
+    "name": "ArNeo Color Light",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "70 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Bias Fabric",
+    "specLine": "70 g/m², 100% Polyester, Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Color Light is 100% polyester, 65-70 g/m² warp knitted bias tape.",
+      "It used as bias farbic for safety jackets.",
+      "Depending on your bias design, it is possible to deliver bias tapes from 1cm up to 12cm.",
+      "Bias Fabric",
+      "70 g/m², 100% Polyester, Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 70 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 400 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Bias",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Bias for safety jackets",
+      "Bias for safety jackets."
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArNeo Color Light Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-color-light/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "categoryId: hi-vis",
+          "familyDescriptorEn: Fluorescent hi-vis knits for safety wear",
+          "It used as bias fabric for safety jackets.",
+          "applicationImageLabels: Bias for safety jackets"
+        ],
+        "rationale": "Explicitly categorized as hi-vis warp knit fabric and described as bias tape used for safety jackets, matching the high-visibility apparel application directly."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-color-light",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 97,
+      "evidence": [
+        "categoryId: hi-vis",
+        "familyDescriptorEn: Fluorescent hi-vis knits for safety wear",
+        "It used as bias fabric for safety jackets.",
+        "applicationImageLabels: Bias for safety jackets"
+      ],
+      "rationale": "Product is explicitly categorized as a hi-vis warp knit fabric used as bias tape for safety jackets, a direct high-visibility apparel application."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independent secondary application is supported by the evidence; the product is exclusively described as a component for hi-vis safety jackets."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Safety jackets are certified warning garments, which fall under hivis specifically rather than generic workwear."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-color-light",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 97,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categoryId: hi-vis",
+      "familyDescriptorEn: Fluorescent hi-vis knits for safety wear",
+      "It used as bias fabric for safety jackets.",
+      "applicationImageLabels: Bias for safety jackets"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Product is explicitly categorized as a hi-vis warp knit fabric used as bias tape for safety jackets, a direct high-visibility apparel application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Safety jackets are certified warning garments, which fall under hivis specifically rather than generic workwear."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "stage": 2,
+  "productionReady": false,
+  "generatedAt": "2026-07-12T22:43:29.907Z",
+  "model": "claude-sonnet-5",
+  "promptVersion": 1,
+  "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+  "minPrimaryConfidence": 80,
+  "minSecondaryConfidence": 70,
+  "totalProducts": 159,
+  "processedProducts": 159,
+  "failedProducts": 0,
+  "countsByStatus": {
+    "resolved": 86,
+    "resolvedReview": 73,
+    "unresolved": 0
+  },
+  "primaryCounts": {
+    "military": 16,
+    "firefighting": 12,
+    "energy": 6,
+    "welding": 15,
+    "motorcycle": 3,
+    "hivis": 36,
+    "medical": 10,
+    "sport": 3,
+    "architecture-building": 3,
+    "transport": 3,
+    "workwear-industrial": 31,
+    "outdoor-functional": 4,
+    "footwear-components": 11,
+    "upholstery-interiors": 3,
+    "print-signage": 2,
+    "professional-cleaning": 1
+  },
+  "secondaryCounts": {
+    "military": 3,
+    "firefighting": 0,
+    "energy": 8,
+    "welding": 4,
+    "motorcycle": 6,
+    "hivis": 4,
+    "medical": 0,
+    "sport": 1,
+    "architecture-building": 0,
+    "transport": 0,
+    "workwear-industrial": 0,
+    "outdoor-functional": 0,
+    "footwear-components": 2,
+    "upholstery-interiors": 0,
+    "print-signage": 0,
+    "professional-cleaning": 0
+  },
+  "usage": {
+    "inputTokens": 1506390,
+    "outputTokens": 94152
+  }
+}

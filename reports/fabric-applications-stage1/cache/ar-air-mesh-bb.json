@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:19:58.398Z",
+    "requestId": "req_011CcxwXUXWFLnk8bNsdHSrW",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6061,
+      "outputTokens": 1289
+    }
+  },
+  "product": {
+    "slug": "ar-air-mesh-bb",
+    "name": "ArAir Mesh BB",
+    "family": "ArAir",
+    "subFamily": "arairmesh",
+    "familyDescriptorPl": "Dzianiny dystansowe 3D na siedziska i obuwie",
+    "familyDescriptorEn": "3D spacer mesh for seating and footwear",
+    "categoryId": "air-mesh-3d",
+    "categoryNamePl": "Siatki dystansowe 3D",
+    "categoryNameEn": "3D air mesh fabrics",
+    "categorySourceGroup": "3D Air Mesh Fabrics",
+    "weight": "250 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "3D Hard Air Mesh Fabric",
+    "specLine": "250 g/m², 100% Polyester, Hard Air Mesh Fabric",
+    "properties": [],
+    "norms": [
+      "EN 14683",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 250 g/m² 3D warp knitted air mesh fabric.",
+      "ArAir Mesh BB fabric due to its 3D warp knitting structure has high suspension function.",
+      "It can be used as upholstery mesh for office furniture.",
+      "Bulletproof vest application is possible with ArAir Mesh BB fabric.",
+      "Suitable for sport and military shoes.",
+      "One of the usage of ArAir Mesh BB is shock aboserber in medical.",
+      "Ultra confortable bag fabric.",
+      "3D Hard Air Mesh Fabric",
+      "250 g/m², 100% Polyester, Hard Air Mesh Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 250 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 3000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Uphosltery, Bag, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Fabric Face Mask EN 14683 certified"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArAir Mesh BB Data Sheet",
+      "data_sheet",
+      "EN 14683 part 2",
+      "certificate_or_test_report",
+      "EN 14683 part 3"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/ar-air-mesh-bb/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "ar-air-mesh-bb",
+    "matches": [
+      {
+        "applicationId": "medical",
+        "confidence": 85,
+        "evidence": [
+          "One of the usage of ArAir Mesh BB is shock aboserber in medical.",
+          "Fabric Face Mask EN 14683 certified",
+          "EN 14683 part 2, EN 14683 part 3"
+        ],
+        "rationale": "Explicit statement of medical shock-absorber use plus certification to the EN 14683 face-mask standard directly ties the fabric to medical applications."
+      },
+      {
+        "applicationId": "sport",
+        "confidence": 65,
+        "evidence": [
+          "Suitable for sport and military shoes."
+        ],
+        "rationale": "Product description explicitly states suitability for sport shoes, directly indicating a sport-related application."
+      },
+      {
+        "applicationId": "military",
+        "confidence": 55,
+        "evidence": [
+          "Bulletproof vest application is possible with ArAir Mesh BB fabric.",
+          "Suitable for sport and military shoes."
+        ],
+        "rationale": "Explicit mention of possible bulletproof vest use and military shoe suitability provides direct, though somewhat tentative, evidence of military application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Fabric is described as upholstery for office furniture and bags, not explicitly for vehicles or vessels."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "No explicit firefighting or turnout-gear use stated; only general protective wording."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "ar-air-mesh-bb",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "firefighting",
+        "reason": "No explicit firefighting or turnout-gear use stated; only general protective wording."
+      },
+      {
+        "applicationId": "medical",
+        "reason": "Explicit statement of medical shock-absorber use plus certification to the EN 14683 face-mask standard directly ties the fabric to medical applications."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Explicit mention of possible bulletproof vest use and military shoe suitability provides direct, though somewhat tentative, evidence of military application."
+      },
+      {
+        "applicationId": "sport",
+        "reason": "Product description explicitly states suitability for sport shoes, directly indicating a sport-related application."
+      },
+      {
+        "applicationId": "transport",
+        "reason": "Fabric is described as upholstery for office furniture and bags, not explicitly for vehicles or vessels."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:39:54.293Z",
+    "requestId": "req_011Ccxy4CqAqSjfjmggNiXxM",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9387,
+      "outputTokens": 331
+    }
+  },
+  "product": {
+    "slug": "arneo-dirt-pro",
+    "name": "ArNeo Dirt Pro",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "150 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Water and Oil Repellent High Visible Warp Knit Fabric",
+    "specLine": "150 g/m², 100% Polyester (PES), Water and Oil Repellent High Visible Warp Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Dirt Pro is 100% polyester, 150 g/m² warp knitted neon colored fabric for safety jackets with extra water and oil repellent function.",
+      "EN ISO 20471 certified.",
+      "Neon dyed fabrics they attract more attention than other colors. They absorb uv light and reflect as a visible light.",
+      "As a result they shine more than other objects.",
+      "Water and oil repellent function.(EN ISO 14419)",
+      "Water and Oil Repellent High Visible Warp Knit Fabric",
+      "150 g/m², 100% Polyester (PES), Water and Oil Repellent High Visible Warp Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 150 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Safety Jacket",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471",
+      "Water and Oil Repellent | 4 | EN ISO 4920"
+    ],
+    "applicationImageLabels": [
+      "Yellow Flame Retardant Safety Jacket EN 20471",
+      "Yelow Water and Oil Repellent Safety Jacket EN 20471",
+      "Yellow Water and Oil Repellent Safety Jacket EN 20471",
+      "Red Water and Oil Repellent Safety Jacket EN 20471"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      "EN 4920",
+      ">> ArNeo Dirt Pro Data Sheet",
+      "data_sheet",
+      "TS EN ISO 20471",
+      "certificate_or_test_report",
+      "TS EN ISO 20471 Test Report",
+      "TS EN ISO 14419"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-dirt-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 98,
+        "evidence": [
+          "categoryId: hi-vis",
+          "EN ISO 20471 certified",
+          "Application | Safety Jacket",
+          "applicationImageLabels: Yellow/Red Water and Oil Repellent Safety Jacket EN 20471"
+        ],
+        "rationale": "Product is explicitly a certified EN ISO 20471 high-visibility warp knit fabric intended for safety jackets, matching the hi-vis application directly."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-dirt-pro",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 98,
+      "evidence": [
+        "categoryId: hi-vis",
+        "EN ISO 20471 certified",
+        "Application | Safety Jacket",
+        "applicationImageLabels: Yellow/Red Water and Oil Repellent Safety Jacket EN 20471"
+      ],
+      "rationale": "Explicitly a certified EN ISO 20471 high-visibility warp knit fabric for safety jackets, directly matching the hi-vis application."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently supported secondary application; water/oil repellency is a property, not a separate end use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Safety jacket use is more specifically covered by certified hi-vis application, which is more direct."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-dirt-pro",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 98,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categoryId: hi-vis",
+      "EN ISO 20471 certified",
+      "Application | Safety Jacket",
+      "applicationImageLabels: Yellow/Red Water and Oil Repellent Safety Jacket EN 20471"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicitly a certified EN ISO 20471 high-visibility warp knit fabric for safety jackets, directly matching the hi-vis application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Safety jacket use is more specifically covered by certified hi-vis application, which is more direct."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

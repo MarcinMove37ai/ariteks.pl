@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:17:20.328Z",
+    "requestId": "req_011CcxwLXL7x47pUNV3JtUK2",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5910,
+      "outputTokens": 181
+    }
+  },
+  "product": {
+    "slug": "arof-mesh-2-2",
+    "name": "Arof Mesh 2*2",
+    "family": "Arof",
+    "subFamily": "arof",
+    "familyDescriptorPl": "Lekkie siatki i dresówki",
+    "familyDescriptorEn": "Light mesh and tracksuit fabrics",
+    "categoryId": "tracksuit-mesh",
+    "categoryNamePl": "Dresówki i lekkie siatki",
+    "categoryNameEn": "Tracksuit & light mesh",
+    "categorySourceGroup": "Track Suit and Light Mesh Fabrics",
+    "weight": "55 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "2*2 Mesh Fabric",
+    "specLine": "55 g/m², 100% Polyester, 2*2 Mesh Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Arof Mesh 2*2 is 100% polyester, 50-60 g/m² warp knitted 2*2 mesh fabric.",
+      "Due to mesh structure it can provide both safety for the material and transparency.",
+      "It can be used as a bag's side pocket, parka interlining, raincoat back fabric and car seat's back cover.",
+      "2*2 Mesh Fabric",
+      "55 g/m², 100% Polyester, 2*2 Mesh Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 55 ±5 g/m² | TS EN 12127",
+      "Width | 1600 ±20 mm | TS EN 1773",
+      "Bursting strength | > 500 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Mesh for Bag, Car Seat, Raincoat",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> Arof Mesh 2*2 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/arof-mesh-2-2/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arof-mesh-2-2",
+    "matches": [
+      {
+        "applicationId": "transport",
+        "confidence": 80,
+        "evidence": [
+          "It can be used as a bag's side pocket, parka interlining, raincoat back fabric and car seat's back cover.",
+          "Application | Mesh for Bag, Car Seat, Raincoat"
+        ],
+        "rationale": "Explicitly stated as a car seat's back cover material, directly supporting vehicle interior/upholstery use."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arof-mesh-2-2",
+    "status": "review",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "transport",
+        "reason": "Explicitly stated as a car seat's back cover material, directly supporting vehicle interior/upholstery use."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

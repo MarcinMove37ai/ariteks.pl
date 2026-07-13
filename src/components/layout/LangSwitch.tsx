@@ -18,6 +18,7 @@ import { useEffect, useState } from 'react';
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
 import type { Locale } from '@/i18n/routing';
+import { getLocalizedApplicationPath } from '@/content/application-slugs';
 
 type Variant = 'desktop' | 'mobile';
 
@@ -48,7 +49,13 @@ export default function LangSwitch({ variant = 'desktop' }: { variant?: Variant 
 
   const switchTo = () => {
     document.cookie = `NEXT_LOCALE=${target};path=/;max-age=31536000;samesite=lax`;
-    router.replace(pathname, { locale: target });
+
+    const targetPathname =
+      getLocalizedApplicationPath(pathname, target);
+
+    router.replace(targetPathname, {
+      locale: target,
+    });
   };
 
   const label = target.toUpperCase(); // "EN" albo "PL"

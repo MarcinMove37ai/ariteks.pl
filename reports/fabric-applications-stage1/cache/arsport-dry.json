@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:17:40.227Z",
+    "requestId": "req_011CcxwMe2EPsW49E2LtCnRy",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6415,
+      "outputTokens": 769
+    }
+  },
+  "product": {
+    "slug": "arsport-dry",
+    "name": "ArSport Dry",
+    "family": "ArSport",
+    "subFamily": "arsport2",
+    "familyDescriptorPl": "Dzianiny sportowe — oddychające i stretch",
+    "familyDescriptorEn": "Sports knits — breathable and stretch",
+    "categoryId": "functional-interlock",
+    "categoryNamePl": "Dzianiny funkcyjne interlock",
+    "categoryNameEn": "Functional interlock knits",
+    "categorySourceGroup": "Functional knit interlock polyester fabrics.",
+    "weight": "140 g/m²",
+    "composition": "100% PES",
+    "weave": "Interlock",
+    "titleDescriptor": "Polyester Fast Dry Interlock Knit Fabric",
+    "specLine": "140 g/m², 100% Polyester Fast Dry, Interlock Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArSport Dry is 100% Channeled Polyester interlock knit fabric for team uniforms. The special channeled poliester fiber gives fast dry function to the fabric. To reduce to odor formation the fabric is coated on two side by antibacterial agents.",
+      "It is suitable for sublimation printing.",
+      "Polyester Fast Dry Interlock Knit Fabric",
+      "140 g/m², 100% Polyester Fast Dry, Interlock Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) (Channeled) | TS EN ISO 1833",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 140 ±10 g/m² | TS EN 12127",
+      "Width | 1800 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -3% < Length < +3% ; -3% < Width < +3% | TS EN ISO 5077",
+      "Pilling | 5 @6000 | TS EN 12945-2",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Artificial Weathering | 4-5 | EN ISO 105 B04",
+      "Permeability to Air | >2500 mm/s | EN ISO 9237",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 4-9 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Police Uniform",
+      "Quality Management | Done | ISO 9001",
+      "High Visible | Yes | EN 20471"
+    ],
+    "applicationImageLabels": [
+      "Police t-shirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "Antibacterial",
+      "High Visible",
+      ">> ArSport Dry Data Sheet",
+      "data_sheet",
+      "ASTM E 2149 ; ArSport Dry-5785",
+      "certificate_or_test_report",
+      "ASTM E 2149 20 Wash ; ArSport Dry-5785",
+      "ISO 105 B04 ; ArSport Dry-5785",
+      "ISO 105 C06 ; ArSport Dry-5785",
+      "ISO 105 E04 ; ArSport Dry-5785",
+      "ISO 105 X12 ; ArSport Dry-5785",
+      "ISO 3071 ; ArSport Dry-5785",
+      "ISO 6330 ; ArSport Dry-5785",
+      "ISO 9237 ; ArSport Dry-5785",
+      "ISO 12945-2 ; ArSport Dry-5785",
+      "ISO 13938-1 ; ArSport Dry-5785",
+      "ASTM E 2149 ; ArSport Dry-5788",
+      "ASTM E 2149 20 Wash ; ArSport Dry-5788",
+      "ISO 105 B04 ; ArSport Dry-5788",
+      "ISO 105 C06 ; ArSport Dry-5788",
+      "ISO 105 E04 ; ArSport Dry-5788",
+      "ISO 105 X12 ; ArSport Dry-5788"
+    ],
+    "structure": "Interlock",
+    "recordUrl": "/ariteks/fabrics/arsport-dry/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arsport-dry",
+    "matches": [
+      {
+        "applicationId": "sport",
+        "confidence": 85,
+        "evidence": [
+          "\"ArSport Dry is 100% Channeled Polyester interlock knit fabric for team uniforms.\"",
+          "familyDescriptorEn: Sports knits — breathable and stretch",
+          "Suitable for sublimation printing (typical for sport jerseys)"
+        ],
+        "rationale": "Explicitly described as a sports knit for team uniforms within the ArSport sportswear family."
+      },
+      {
+        "applicationId": "hivis",
+        "confidence": 92,
+        "evidence": [
+          "properties: [\"hi-vis\"]",
+          "norms: [\"EN ISO 20471\"]",
+          "technicalParameters: \"High Visible | Yes | EN 20471\""
+        ],
+        "rationale": "Product explicitly certified and labeled as high-visibility per EN ISO 20471."
+      },
+      {
+        "applicationId": "military",
+        "confidence": 80,
+        "evidence": [
+          "technicalParameters: \"Application | Police Uniform\"",
+          "applicationImageLabels: [\"Police t-shirt\"]"
+        ],
+        "rationale": "Explicit stated end use as police uniform fabric, directly matching the uniformed-services/police inclusion criterion."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial coating is mentioned but no medical or healthcare use is stated, so it does not meet the explicit-use requirement."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arsport-dry",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 92,
+        "evidence": [
+          "properties: [\"hi-vis\"]",
+          "norms: [\"EN ISO 20471\"]",
+          "technicalParameters: \"High Visible | Yes | EN 20471\""
+        ],
+        "rationale": "Product explicitly certified and labeled as high-visibility per EN ISO 20471."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "medical",
+        "reason": "Antibacterial coating is mentioned but no medical or healthcare use is stated, so it does not meet the explicit-use requirement."
+      },
+      {
+        "applicationId": "military",
+        "reason": "Explicit stated end use as police uniform fabric, directly matching the uniformed-services/police inclusion criterion."
+      },
+      {
+        "applicationId": "sport",
+        "reason": "Explicitly described as a sports knit for team uniforms within the ArSport sportswear family."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

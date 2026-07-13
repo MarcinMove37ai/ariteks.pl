@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:17:26.829Z",
+    "requestId": "req_011CcxwLqWm2UXtcN9WpmAen",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5873,
+      "outputTokens": 266
+    }
+  },
+  "product": {
+    "slug": "arsport-x",
+    "name": "ArSport X",
+    "family": "ArSport",
+    "subFamily": "arsport",
+    "familyDescriptorPl": "Dzianiny sportowe",
+    "familyDescriptorEn": "Sports knits",
+    "categoryId": "t-shirt-interlock",
+    "categoryNamePl": "Interlock na T-shirty",
+    "categoryNameEn": "T-shirt interlock knits",
+    "categorySourceGroup": "Knit Interlock Polyester Fabrics for T-Shirts",
+    "weight": "170 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit",
+    "titleDescriptor": "Bird Eye Fabric",
+    "specLine": "170 g/m², 100% Polyester, Bird Eye Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArSport X is 100% polyester bird eye interlock knit fabric.",
+      "It has also high visibility option. (EN 20471 certified)",
+      "Bird Eye Fabric",
+      "170 g/m², 100% Polyester, Bird Eye Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 100 Denier | EN ISO 2060",
+      "Weight | 170 ±10 g/m² | TS EN 12127",
+      "Width | 1800 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Workwear T-Short",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471"
+    ],
+    "applicationImageLabels": [
+      "Birdeye T-Shirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      ">> ArSport X Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit",
+    "recordUrl": "/ariteks/fabrics/arsport-x/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arsport-x",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "Property: hi-vis",
+          "Norms: EN ISO 20471",
+          "descriptions: 'It has also high visibility option. (EN 20471 certified)'",
+          "technicalParameters: High Visibility | Done | EN ISO 20471"
+        ],
+        "rationale": "Explicit high-visibility certification to EN ISO 20471 stated directly in product data."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Family name 'ArSport' and 'Sports knits' descriptor suggest sport positioning, but application is explicitly stated as 'Workwear T-Shirt' rather than athletic sportswear use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arsport-x",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "Property: hi-vis",
+          "Norms: EN ISO 20471",
+          "descriptions: 'It has also high visibility option. (EN 20471 certified)'",
+          "technicalParameters: High Visibility | Done | EN ISO 20471"
+        ],
+        "rationale": "Explicit high-visibility certification to EN ISO 20471 stated directly in product data."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Family name 'ArSport' and 'Sports knits' descriptor suggest sport positioning, but application is explicitly stated as 'Workwear T-Shirt' rather than athletic sportswear use."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

@@ -14,11 +14,23 @@ import { useEffect, useRef, useState } from 'react';
 import { useLocale } from 'next-intl';
 import { X } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
+import type { ApplicationId } from '@/content/fabric-application-overrides';
 import { RFQ, RFQ_INDUSTRIES } from '@/content/rfq';
 
-// Helper do wywolania z dowolnego miejsca (przyciski CTA).
-export function openRfq() {
-  window.dispatchEvent(new Event('open-rfq'));
+type OpenRfqDetail = {
+  applicationId?: ApplicationId;
+};
+
+// Helper do wywolania z dowolnego miejsca.
+// Opcjonalnie przekazuje aplikacje, ktora ma byc zaznaczona w formularzu.
+export function openRfq(applicationId?: ApplicationId) {
+  window.dispatchEvent(
+    new CustomEvent<OpenRfqDetail>('open-rfq', {
+      detail: {
+        applicationId,
+      },
+    }),
+  );
 }
 
 const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? '';
@@ -26,23 +38,49 @@ const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? '';
 type Status = 'idle' | 'sending' | 'success' | 'error';
 type FieldErrors = { name?: boolean; phone?: boolean; email?: boolean };
 
+type IndustryId =
+  (typeof RFQ_INDUSTRIES)[number]['id'];
+
 export default function RfqModal() {
   const locale = useLocale() as Locale;
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<Status>('idle');
   const [errors, setErrors] = useState<FieldErrors>({});
+  const [industry, setIndustry] =
+    useState<IndustryId | ''>('');
   const dialogRef = useRef<HTMLDivElement>(null);
   const firstFieldRef = useRef<HTMLInputElement>(null);
 
-  // Otwarcie przez globalne zdarzenie
+  // Otwarcie przez globalne zdarzenie.
+  // Event moze zawierac aplikacje strony, z ktorej otwarto formularz.
   useEffect(() => {
-    const onOpen = () => {
+    const onOpen = (event: Event) => {
+      const detail =
+        event instanceof CustomEvent
+          ? (event.detail as OpenRfqDetail | undefined)
+          : undefined;
+
+      const requestedApplication =
+        detail?.applicationId;
+
+      const validApplication =
+        requestedApplication &&
+        RFQ_INDUSTRIES.some(
+          (item) => item.id === requestedApplication,
+        )
+          ? requestedApplication
+          : '';
+
+      setIndustry(validApplication);
       setStatus('idle');
       setErrors({});
       setOpen(true);
     };
+
     window.addEventListener('open-rfq', onOpen);
-    return () => window.removeEventListener('open-rfq', onOpen);
+
+    return () =>
+      window.removeEventListener('open-rfq', onOpen);
   }, []);
 
   // Blokada scrolla tla + Escape + fokus na pierwsze pole
@@ -241,7 +279,12 @@ export default function RfqModal() {
                 </label>
                 <select
                   name="industry"
-                  defaultValue=""
+                  value={industry}
+                  onChange={(event) =>
+                    setIndustry(
+                      event.target.value as IndustryId | '',
+                    )
+                  }
                   className="w-full rounded border border-carbon-200 bg-white px-3 py-2.5 text-sm text-ink outline-none transition-colors focus:border-carbon-900"
                 >
                   <option value="" disabled>

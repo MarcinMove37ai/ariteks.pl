@@ -1,24 +1,23 @@
 // src/components/fabrics/FabricExplorer.tsx
 // Eksplorator katalogu tkanin (client) — filtry + siatka kafli.
-// Zrodlo danych: src/content/fabrics.ts (134 produkty / 34 kategorie).
+// Zrodlo danych: src/content/fabrics.ts + mapa produkt <-> aplikacja.
 //
 // v4 — mechanika mobile:
 //  - DESKTOP (lg+): panel filtrow nad siatka, wszystko widoczne (jak v3),
-//  - MOBILE (<lg): na gorze tylko szukajka + pasek "Filtry (n) | X/134";
+//  - MOBILE (<lg): na gorze tylko szukajka + pasek "Filtry (n) | X / wszystkie";
 //    filtry otwieraja sie w pelnoekranowym panelu (portal do body, wzorem
 //    MobileNav), sekcje zwijane (wzorem CertArchive), na dole przyklejony
 //    przycisk "Pokaz X tkanin" z licznikiem na zywo.
 // Stan filtrow wspolny dla obu ukladow. Wszystkie facety data-driven.
 
-'use client';
+"use client";
 
-import { useEffect, useMemo, useState } from 'react';
-import { createPortal } from 'react-dom';
-import { ArrowRight, Search, SlidersHorizontal, X } from 'lucide-react';
-import { Link, type Locale } from '@/i18n/routing';
+import { useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
+import { ArrowRight, Search, SlidersHorizontal, X } from "lucide-react";
+import { Link, type Locale } from "@/i18n/routing";
 import {
   FABRICS,
-  FABRIC_CATEGORIES,
   FABRIC_FAMILIES,
   FABRIC_PROPERTY_LABELS,
   FABRIC_FIBER_LABELS,
@@ -29,64 +28,90 @@ import {
   type FabricProperty,
   type FabricFiber,
   type FabricWeaveType,
-} from '@/content/fabrics';
-import PL_RAW from '@/content/fabrics-pl.json';
+} from "@/content/fabrics";
+import {
+  APPLICATION_IDS,
+  type ApplicationId,
+} from '@/content/fabric-application-overrides';
+import { RFQ_INDUSTRIES } from '@/content/rfq';
+import { getApplicationsForFabric } from '@/lib/fabricApplications';
+import PL_RAW from "@/content/fabrics-pl.json";
 
 // Tlumaczenia PL — do szukajki wchodza krotkie pola per produkt
 // (descriptor + spec). Szukanie jest UNIWERSALNE: niezaleznie od jezyka
 // strony przeszukujemy PL i EN jednoczesnie.
-const PL_PRODUCTS = (PL_RAW as {
-  products: Record<string, { descriptor?: string; spec?: string }>;
-}).products;
+const PL_PRODUCTS = (
+  PL_RAW as {
+    products: Record<string, { descriptor?: string; spec?: string }>;
+  }
+).products;
 
 // Etykiety interfejsu — wzorzec CERT_UI z certificates.ts
 const UI = {
   searchPlaceholder: {
-    pl: 'Szukaj: nazwa, skład, norma, zastosowanie…',
-    en: 'Search: name, composition, standard, use…',
+    pl: "Szukaj: nazwa, skład, norma, zastosowanie…",
+    en: "Search: name, composition, standard, use…",
   },
-  family: { pl: 'Rodzina', en: 'Family' },
-  allCategories: { pl: 'Wszystkie kategorie', en: 'All categories' },
-  category: { pl: 'Kategoria', en: 'Category' },
-  allFamilies: { pl: 'Wszystkie rodziny', en: 'All families' },
-  properties: { pl: 'Właściwości', en: 'Properties' },
-  norms: { pl: 'Normy', en: 'Standards' },
-  fibers: { pl: 'Włókna', en: 'Fibres' },
-  weaves: { pl: 'Splot', en: 'Weave' },
-  filters: { pl: 'Filtry', en: 'Filters' },
-  showResults: { pl: 'Pokaż', en: 'Show' },
-  clear: { pl: 'Wyczyść filtry', en: 'Clear filters' },
-  clearQuery: { pl: 'Wyczyść szukanie', en: 'Clear search' },
-  close: { pl: 'Zamknij', en: 'Close' },
-  activeFilters: { pl: 'Aktywne filtry', en: 'Active filters' },
-  activeWord: { pl: 'Aktywne', en: 'Active' },
-  results: { pl: 'tkanin', en: 'fabrics' },
+  family: { pl: "Rodzina", en: "Family" },
+  allApplications: { pl: "Wszystkie aplikacje", en: "All applications" },
+  application: { pl: "Aplikacja", en: "Application" },
+  allFamilies: { pl: "Wszystkie rodziny", en: "All families" },
+  properties: { pl: "Właściwości", en: "Properties" },
+  norms: { pl: "Normy", en: "Standards" },
+  fibers: { pl: "Włókna", en: "Fibres" },
+  weaves: { pl: "Splot", en: "Weave" },
+  filters: { pl: "Filtry", en: "Filters" },
+  showResults: { pl: "Pokaż", en: "Show" },
+  clear: { pl: "Wyczyść filtry", en: "Clear filters" },
+  clearQuery: { pl: "Wyczyść szukanie", en: "Clear search" },
+  close: { pl: "Zamknij", en: "Close" },
+  activeFilters: { pl: "Aktywne filtry", en: "Active filters" },
+  activeWord: { pl: "Aktywne", en: "Active" },
+  results: { pl: "tkanin", en: "fabrics" },
   noResults: {
-    pl: 'Brak tkanin spełniających wybrane kryteria.',
-    en: 'No fabrics match the selected criteria.',
+    pl: "Brak tkanin spełniających wybrane kryteria.",
+    en: "No fabrics match the selected criteria.",
   },
 } as const;
 
 const PROPERTY_ORDER: FabricProperty[] = [
-  'hi-vis',
-  'fr',
-  'inherent-fr',
-  'antistatic',
-  'arc',
-  'chemical',
-  'molten-metal',
-  'emi',
-  'cut-resistant',
-  'antibacterial',
-  'antiviral',
-  'waterproof',
-  'water-repellent',
-  'breathable',
-  'stretch',
-  'uv-protection',
-  'wash-100',
+  "hi-vis",
+  "fr",
+  "inherent-fr",
+  "antistatic",
+  "arc",
+  "chemical",
+  "molten-metal",
+  "emi",
+  "cut-resistant",
+  "antibacterial",
+  "antiviral",
+  "waterproof",
+  "water-repellent",
+  "breathable",
+  "stretch",
+  "uv-protection",
+  "wash-100",
 ];
+const APPLICATION_OPTIONS = RFQ_INDUSTRIES
+  .filter((option) => option.id !== "other")
+  .map((option) => ({
+    id: option.id as ApplicationId,
+    label: option.label,
+  }));
 
+const VALID_APPLICATION_IDS =
+  new Set<ApplicationId>(APPLICATION_IDS);
+
+function isApplicationId(
+  value: string,
+): value is ApplicationId {
+  return VALID_APPLICATION_IDS.has(
+    value as ApplicationId,
+  );
+}
+
+const FAMILY_OPTIONS = FABRIC_FAMILIES;
 // ---------------------------------------------------------------------------
 // Szukajka: normalizacja + tolerancja literowek
 // ---------------------------------------------------------------------------
@@ -95,9 +120,9 @@ const PROPERTY_ORDER: FabricProperty[] = [
 function fold(s: string): string {
   return s
     .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/ł/g, 'l');
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ł/g, "l");
 }
 
 /** Odleglosc Levenshteina z progiem 1 (wczesne wyjscie). */
@@ -148,8 +173,8 @@ function buildHaystack(f: FabricDef): string[] {
     // slug — nazwy bywaja segmentowane inaczej niz slug ('Ar3 Iplik' vs
     // 'ar3iplik-...'); bez sluga zapytania w formie sluga nie trafiaja
     f.slug,
-    pl?.descriptor ?? '',
-    pl?.spec ?? '',
+    pl?.descriptor ?? "",
+    pl?.spec ?? "",
     f.family,
     f.composition,
     f.specLine,
@@ -169,7 +194,9 @@ function buildHaystack(f: FabricDef): string[] {
     FABRIC_WEAVE_LABELS[f.weaveType].en,
   ];
   if (cat) parts.push(cat.name.pl, cat.name.en, cat.sourceGroup);
-  return fold(parts.join(' ')).split(/[^a-z0-9]+/).filter(Boolean);
+  return fold(parts.join(" "))
+    .split(/[^a-z0-9]+/)
+    .filter(Boolean);
 }
 
 // ---------------------------------------------------------------------------
@@ -178,14 +205,22 @@ function matches(
   f: FabricDef,
   tokens: readonly string[],
   queryWords: readonly string[],
-  categoryId: string,
+  applicationId: ApplicationId | "",
   family: string,
   props: ReadonlySet<FabricProperty>,
   norms: ReadonlySet<string>,
   fibers: ReadonlySet<FabricFiber>,
-  weaves: ReadonlySet<FabricWeaveType>
+  weaves: ReadonlySet<FabricWeaveType>,
 ): boolean {
-  if (categoryId && f.categoryId !== categoryId) return false;
+  if (applicationId) {
+    const applications = getApplicationsForFabric(f.slug);
+    if (
+      applications?.primary !== applicationId &&
+      applications?.secondary !== applicationId
+    ) {
+      return false;
+    }
+  }
   if (family && f.subFamily !== family) return false;
   for (const p of props) {
     if (!f.properties.includes(p)) return false;
@@ -230,9 +265,9 @@ function ChevronIcon() {
 }
 
 const SELECT_CLASS =
-  'w-full appearance-none rounded border border-carbon-200 bg-white ' +
-  'bg-[right_0.9rem_center] bg-no-repeat px-3 py-2.5 pr-10 text-sm ' +
-  'text-ink outline-none transition-colors focus:border-carbon-900';
+  "w-full appearance-none rounded border border-carbon-200 bg-white " +
+  "bg-[right_0.9rem_center] bg-no-repeat px-3 py-2.5 pr-10 text-sm " +
+  "text-ink outline-none transition-colors focus:border-carbon-900";
 const SELECT_ARROW = {
   backgroundImage:
     "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' " +
@@ -299,7 +334,7 @@ function FacetSection({
           </span>
         )}
         <span
-          className={`ml-auto flex h-7 w-7 shrink-0 items-center justify-center rounded border border-carbon-300 bg-white text-carbon-700 transition-all duration-200 group-hover/facet:border-red-600 group-hover/facet:text-red-600 ${open ? 'rotate-180' : ''}`}
+          className={`ml-auto flex h-7 w-7 shrink-0 items-center justify-center rounded border border-carbon-300 bg-white text-carbon-700 transition-all duration-200 group-hover/facet:border-red-600 group-hover/facet:text-red-600 ${open ? "rotate-180" : ""}`}
           aria-hidden
         >
           <ChevronIcon />
@@ -311,7 +346,7 @@ function FacetSection({
 }
 
 export default function FabricExplorer({ locale }: { locale: Locale }) {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
   // Desktop: sekcje facetow ZWIJANE, AKORDEON jak na mobile — jedna grupa
   // otwarta naraz, domyslnie wszystkie zamkniete; zwinieta sekcja pokazuje
   // wybory po prawej ("Aktywne: ...") — decyzje UX 2026-07-11.
@@ -319,18 +354,18 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
   const toggleDesktop = (key: string) =>
     setDesktopOpen((cur) => (cur === key ? null : key));
 
-  const [categoryId, setCategoryId] = useState('');
-  const [family, setFamily] = useState('');
+  const [applicationId, setApplicationId] =
+    useState<ApplicationId | "">("");
+  const [family, setFamily] = useState("");
   const [props, setProps] = useState<ReadonlySet<FabricProperty>>(new Set());
   const [norms, setNorms] = useState<ReadonlySet<string>>(new Set());
   const [fibers, setFibers] = useState<ReadonlySet<FabricFiber>>(new Set());
   const [weaves, setWeaves] = useState<ReadonlySet<FabricWeaveType>>(new Set());
   const [mobileOpen, setMobileOpen] = useState(false);
   // akordeon mobile: jedna grupa otwarta w jednym czasie
-  const [openSection, setOpenSection] = useState<string | null>('norms');
+  const [openSection, setOpenSection] = useState<string | null>("norms");
   const toggleSection = (id: string) =>
     setOpenSection((prev) => (prev === id ? null : id));
-
 
   const haystacks = useMemo(() => {
     const m = new Map<string, string[]>();
@@ -358,8 +393,11 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
   }, []);
 
   const queryWords = useMemo(
-    () => fold(query).split(/[^a-z0-9]+/).filter((w) => w.length >= 2),
-    [query]
+    () =>
+      fold(query)
+        .split(/[^a-z0-9]+/)
+        .filter((w) => w.length >= 2),
+    [query],
   );
 
   const filtered = useMemo(
@@ -369,58 +407,138 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
           f,
           haystacks.get(f.slug) ?? [],
           queryWords,
-          categoryId,
+          applicationId,
           family,
           props,
           norms,
           fibers,
-          weaves
-        )
+          weaves,
+        ),
       ),
-    [haystacks, queryWords, categoryId, family, props, norms, fibers, weaves]
+    [
+      haystacks,
+      queryWords,
+      applicationId,
+      family,
+      props,
+      norms,
+      fibers,
+      weaves,
+    ],
   );
 
-  // Dynamiczne liczniki: ile tkanin ZOSTANIE po dolozeniu danej wartosci.
-  // Przy czystym zawezaniu (AND) to dokladnie licznosc wartosci w `filtered`.
+  // Dynamiczne liczniki facetow.
+  //
+  // Selecty sa liczone bezposrednio dla kazdej opcji:
+  // - aplikacja ignoruje tylko aktualny filtr aplikacji,
+  // - rodzina ignoruje tylko aktualny filtr rodziny.
+  //
+  // Dzieki temu nie opieramy widocznosci opcji na posredniej mapie,
+  // ktora mogla pozostac pusta mimo dostepnych danych.
   const dyn = useMemo(() => {
     const norms = new Map<string, number>();
     const fibers = new Map<FabricFiber, number>();
     const weaves = new Map<FabricWeaveType, number>();
     const props = new Map<FabricProperty, number>();
-    const cats = new Map<string, number>();
+    const apps = new Map<ApplicationId, number>();
     const fams = new Map<string, number>();
+
+    // Chipy pozostaja liczone z finalnego wyniku.
     for (const f of filtered) {
       for (const n of f.norms) norms.set(n, (norms.get(n) ?? 0) + 1);
       for (const fb of f.fibers) fibers.set(fb, (fibers.get(fb) ?? 0) + 1);
       for (const p of f.properties) props.set(p, (props.get(p) ?? 0) + 1);
       weaves.set(f.weaveType, (weaves.get(f.weaveType) ?? 0) + 1);
-      cats.set(f.categoryId, (cats.get(f.categoryId) ?? 0) + 1);
-      fams.set(f.subFamily, (fams.get(f.subFamily) ?? 0) + 1);
     }
-    return { norms, fibers, weaves, props, cats, fams };
-  }, [filtered]);
+
+    // Aplikacje: licznik kazdej aplikacji po wszystkich pozostalych filtrach.
+    for (const option of APPLICATION_OPTIONS) {
+      let count = 0;
+
+      for (const f of FABRICS) {
+        if (
+          matches(
+            f,
+            haystacks.get(f.slug) ?? [],
+            queryWords,
+            option.id,
+            family,
+            props,
+            norms,
+            fibers,
+            weaves,
+          )
+        ) {
+          count += 1;
+        }
+      }
+
+      if (count > 0 || applicationId === option.id) {
+        apps.set(option.id, count);
+      }
+    }
+
+    // Rodziny: licznik kazdej rodziny po wszystkich pozostalych filtrach.
+    for (const familyOption of FAMILY_OPTIONS) {
+      let count = 0;
+
+      for (const f of FABRICS) {
+        if (
+          matches(
+            f,
+            haystacks.get(f.slug) ?? [],
+            queryWords,
+            applicationId,
+            familyOption.slug,
+            props,
+            norms,
+            fibers,
+            weaves,
+          )
+        ) {
+          count += 1;
+        }
+      }
+
+      if (count > 0 || family === familyOption.slug) {
+        fams.set(familyOption.slug, count);
+      }
+    }
+
+    return { norms, fibers, weaves, props, apps, fams };
+  }, [
+    filtered,
+    haystacks,
+    queryWords,
+    applicationId,
+    family,
+    props,
+    norms,
+    fibers,
+    weaves,
+  ]);
 
   // liczba aktywnych FILTROW (bez szukajki — ta ma wlasny wskaznik w polu)
   const activeCount =
-    (categoryId ? 1 : 0) +
+    (applicationId ? 1 : 0) +
     (family ? 1 : 0) +
     props.size +
     norms.size +
     fibers.size +
     weaves.size;
-  const anyFilter = query !== '' || activeCount > 0;
+  const anyFilter = query !== "" || activeCount > 0;
 
   // panel mobilny: blokada scrolla tla + Escape (wzorem RfqModal/MobileNav)
   useEffect(() => {
     if (!mobileOpen) return;
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setMobileOpen(false);
+      if (e.key === "Escape") setMobileOpen(false);
     };
-    window.addEventListener('keydown', onKey);
+    window.addEventListener("keydown", onKey);
     return () => {
-      document.body.style.overflow = '';
-      window.removeEventListener('keydown', onKey);
+      document.body.style.overflow = "";
+      window.removeEventListener("keydown", onKey);
     };
   }, [mobileOpen]);
 
@@ -432,11 +550,11 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
   };
 
   const clearAll = () => {
-    setQuery('');
+    setQuery("");
     setDesktopOpen(null);
     setOpenSection(null);
-    setCategoryId('');
-    setFamily('');
+    setApplicationId("");
+    setFamily("");
     setProps(new Set());
     setNorms(new Set());
     setFibers(new Set());
@@ -449,32 +567,38 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
   const pills: Pill[] = [];
   const activeNormLabels = [...norms];
   const activeFiberLabels = [...fibers].map(
-    (fb) => FABRIC_FIBER_LABELS[fb][locale]
+    (fb) => FABRIC_FIBER_LABELS[fb][locale],
   );
   const activeWeaveLabels = [...weaves].map(
-    (w) => FABRIC_WEAVE_LABELS[w][locale]
+    (w) => FABRIC_WEAVE_LABELS[w][locale],
   );
   const activePropLabels = [...props].map(
-    (p) => FABRIC_PROPERTY_LABELS[p][locale]
+    (p) => FABRIC_PROPERTY_LABELS[p][locale],
   );
 
-  if (categoryId) {
-    const c = getCategoryById(categoryId);
+  if (applicationId) {
+    const application = APPLICATION_OPTIONS.find(
+      (item) => item.id === applicationId,
+    );
     pills.push({
-      key: 'cat',
-      label: c ? c.name[locale] : categoryId,
-      onRemove: () => setCategoryId(''),
+      key: "app",
+      label: application?.label[locale] ?? applicationId,
+      onRemove: () => setApplicationId(""),
     });
   }
   if (family) {
     pills.push({
-      key: 'fam',
+      key: "fam",
       label: getFamilyBySlug(family)?.name ?? family,
-      onRemove: () => setFamily(''),
+      onRemove: () => setFamily(""),
     });
   }
   for (const n of norms) {
-    pills.push({ key: `n-${n}`, label: n, onRemove: () => setNorms((p) => toggleIn(p, n)) });
+    pills.push({
+      key: `n-${n}`,
+      label: n,
+      onRemove: () => setNorms((p) => toggleIn(p, n)),
+    });
   }
   for (const fb of fibers) {
     pills.push({
@@ -524,8 +648,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
   const chipClass = (active: boolean) =>
     `inline-flex items-center gap-1.5 rounded-sm border px-2.5 py-1 font-mono text-xs uppercase tracking-wider transition-colors ${
       active
-        ? 'border-carbon-900 bg-carbon-900 text-paper'
-        : 'border-carbon-200 bg-surface text-carbon-700 hover:border-red hover:text-red'
+        ? "border-carbon-900 bg-carbon-900 text-paper"
+        : "border-carbon-200 bg-surface text-carbon-700 hover:border-red hover:text-red"
     }`;
 
   // --- wspolne fragmenty (uzywane w panelu desktop i overlay mobile) -------
@@ -533,42 +657,93 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
   const selectsRow = (
     <div className="grid gap-4 lg:grid-cols-2">
       <select
-        value={categoryId}
-        onChange={(e) => setCategoryId(e.target.value)}
-        aria-label={UI.category[locale]}
+        value={applicationId}
+        onChange={(event) => {
+          const value = event.target.value;
+          setApplicationId(isApplicationId(value) ? value : "");
+        }}
+        aria-label={UI.application[locale]}
         className={SELECT_CLASS}
         style={SELECT_ARROW}
       >
-        <option value="">{UI.allCategories[locale]}</option>
-        {FABRIC_CATEGORIES.map((c) => {
-          const n = dyn.cats.get(c.id) ?? 0;
-          if (n === 0 && categoryId !== c.id) return null;
-          return (
-            <option key={c.id} value={c.id}>
-              {c.name[locale]} ({n})
-            </option>
-          );
-        })}
+        <option value="">{UI.allApplications[locale]}</option>
+        {APPLICATION_OPTIONS.map((application) => {
+  const id = application.id;
+
+  // Self-excluding:
+  // liczymy tę aplikację z uwzględnieniem rodziny i pozostałych filtrów,
+  // ale bez aktualnie wybranej aplikacji.
+  const n = FABRICS.reduce(
+    (total, fabric) =>
+      matches(
+        fabric,
+        haystacks.get(fabric.slug) ?? [],
+        queryWords,
+        id,
+        family,
+        props,
+        norms,
+        fibers,
+        weaves,
+      )
+        ? total + 1
+        : total,
+    0,
+  );
+
+  if (n === 0 && applicationId !== id) {
+    return null;
+  }
+
+  return (
+    <option key={id} value={id}>
+      {application.label[locale]} ({n})
+    </option>
+  );
+})}
       </select>
 
-    <select
-      value={family}
-      onChange={(e) => setFamily(e.target.value)}
-      aria-label={UI.family[locale]}
-      className={SELECT_CLASS}
+      <select
+        value={family}
+        onChange={(e) => setFamily(e.target.value)}
+        aria-label={UI.family[locale]}
+        className={SELECT_CLASS}
         style={SELECT_ARROW}
-    >
-      <option value="">{UI.allFamilies[locale]}</option>
-      {FABRIC_FAMILIES.map((fd) => {
-        const n = dyn.fams.get(fd.slug) ?? 0;
-        if (n === 0 && family !== fd.slug) return null;
-        return (
-          <option key={fd.slug} value={fd.slug}>
-            {fd.name} ({n})
-          </option>
-        );
-      })}
-    </select>
+      >
+        <option value="">{UI.allFamilies[locale]}</option>
+        {FAMILY_OPTIONS.map((fd) => {
+  // Self-excluding:
+  // liczymy tę rodzinę z uwzględnieniem aplikacji i pozostałych filtrów,
+  // ale bez aktualnie wybranej rodziny.
+  const n = FABRICS.reduce(
+    (total, fabric) =>
+      matches(
+        fabric,
+        haystacks.get(fabric.slug) ?? [],
+        queryWords,
+        applicationId,
+        fd.slug,
+        props,
+        norms,
+        fibers,
+        weaves,
+      )
+        ? total + 1
+        : total,
+    0,
+  );
+
+  if (n === 0 && family !== fd.slug) {
+    return null;
+  }
+
+  return (
+    <option key={fd.slug} value={fd.slug}>
+      {fd.name} ({n})
+    </option>
+  );
+})}
+      </select>
     </div>
   );
 
@@ -587,7 +762,9 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
             className={chipClass(active)}
           >
             {n}
-            <span className={active ? 'opacity-70' : 'text-steel'}>{count}</span>
+            <span className={active ? "opacity-70" : "text-steel"}>
+              {count}
+            </span>
           </button>
         );
       })}
@@ -609,7 +786,9 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
             className={chipClass(active)}
           >
             {FABRIC_FIBER_LABELS[fb][locale]}
-            <span className={active ? 'opacity-70' : 'text-steel'}>{count}</span>
+            <span className={active ? "opacity-70" : "text-steel"}>
+              {count}
+            </span>
           </button>
         );
       })}
@@ -631,7 +810,9 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
             className={chipClass(active)}
           >
             {FABRIC_WEAVE_LABELS[w][locale]}
-            <span className={active ? 'opacity-70' : 'text-steel'}>{count}</span>
+            <span className={active ? "opacity-70" : "text-steel"}>
+              {count}
+            </span>
           </button>
         );
       })}
@@ -653,7 +834,7 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
             className={chipClass(active)}
           >
             {FABRIC_PROPERTY_LABELS[p][locale]}
-            <span className={active ? 'opacity-70' : 'text-steel'}>
+            <span className={active ? "opacity-70" : "text-steel"}>
               {count}
             </span>
           </button>
@@ -677,15 +858,15 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
         placeholder={UI.searchPlaceholder[locale]}
         className="w-full rounded border border-carbon-200 bg-white py-3 pl-11 pr-24 text-base text-ink outline-none transition-colors focus:border-carbon-900 [&::-webkit-search-cancel-button]:hidden"
       />
-      {query !== '' && (
+      {query !== "" && (
         <span className="absolute right-11 top-1/2 -translate-y-1/2 font-mono text-xs text-steel">
           {filtered.length}
         </span>
       )}
-      {query !== '' && (
+      {query !== "" && (
         <button
           type="button"
-          onClick={() => setQuery('')}
+          onClick={() => setQuery("")}
           aria-label={UI.clearQuery[locale]}
           className="absolute right-3 top-1/2 inline-flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded text-steel transition-colors hover:text-red-600"
         >
@@ -733,23 +914,54 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
           <div className="mt-4 border-b border-steel-line pb-5">
             {selectsRow}
           </div>
-          <FacetSection title={UI.norms[locale]} count={norms.size} collapsible open={desktopOpen === 'norms'} onToggle={() => toggleDesktop('norms')} activeWord={UI.activeWord[locale]} activeLabels={activeNormLabels}>
+          <FacetSection
+            title={UI.norms[locale]}
+            count={norms.size}
+            collapsible
+            open={desktopOpen === "norms"}
+            onToggle={() => toggleDesktop("norms")}
+            activeWord={UI.activeWord[locale]}
+            activeLabels={activeNormLabels}
+          >
             {normChips}
           </FacetSection>
-          <FacetSection title={UI.fibers[locale]} count={fibers.size} collapsible open={desktopOpen === 'fibers'} onToggle={() => toggleDesktop('fibers')} activeWord={UI.activeWord[locale]} activeLabels={activeFiberLabels}>
+          <FacetSection
+            title={UI.fibers[locale]}
+            count={fibers.size}
+            collapsible
+            open={desktopOpen === "fibers"}
+            onToggle={() => toggleDesktop("fibers")}
+            activeWord={UI.activeWord[locale]}
+            activeLabels={activeFiberLabels}
+          >
             {fiberChips}
           </FacetSection>
-          <FacetSection title={UI.weaves[locale]} count={weaves.size} collapsible open={desktopOpen === 'weaves'} onToggle={() => toggleDesktop('weaves')} activeWord={UI.activeWord[locale]} activeLabels={activeWeaveLabels}>
+          <FacetSection
+            title={UI.weaves[locale]}
+            count={weaves.size}
+            collapsible
+            open={desktopOpen === "weaves"}
+            onToggle={() => toggleDesktop("weaves")}
+            activeWord={UI.activeWord[locale]}
+            activeLabels={activeWeaveLabels}
+          >
             {weaveChips}
           </FacetSection>
-          <FacetSection title={UI.properties[locale]} count={props.size} collapsible open={desktopOpen === 'props'} onToggle={() => toggleDesktop('props')} activeWord={UI.activeWord[locale]} activeLabels={activePropLabels}>
+          <FacetSection
+            title={UI.properties[locale]}
+            count={props.size}
+            collapsible
+            open={desktopOpen === "props"}
+            onToggle={() => toggleDesktop("props")}
+            activeWord={UI.activeWord[locale]}
+            activeLabels={activePropLabels}
+          >
             {propChips}
           </FacetSection>
 
-
           <div className="mt-4 flex items-center justify-between border-t border-carbon-100 pt-4">
             <p className="font-mono text-sm text-carbon-950">
-              {filtered.length}{' '}
+              {filtered.length}{" "}
               <span className="text-steel">
                 / {FABRICS.length} {UI.results[locale]}
               </span>
@@ -799,8 +1011,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                 title={UI.norms[locale]}
                 count={norms.size}
                 collapsible
-                open={openSection === 'norms'}
-                onToggle={() => toggleSection('norms')}
+                open={openSection === "norms"}
+                onToggle={() => toggleSection("norms")}
               >
                 {normChips}
               </FacetSection>
@@ -808,8 +1020,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                 title={UI.fibers[locale]}
                 count={fibers.size}
                 collapsible
-                open={openSection === 'fibers'}
-                onToggle={() => toggleSection('fibers')}
+                open={openSection === "fibers"}
+                onToggle={() => toggleSection("fibers")}
               >
                 {fiberChips}
               </FacetSection>
@@ -817,8 +1029,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                 title={UI.weaves[locale]}
                 count={weaves.size}
                 collapsible
-                open={openSection === 'weaves'}
-                onToggle={() => toggleSection('weaves')}
+                open={openSection === "weaves"}
+                onToggle={() => toggleSection("weaves")}
               >
                 {weaveChips}
               </FacetSection>
@@ -826,8 +1038,8 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
                 title={UI.properties[locale]}
                 count={props.size}
                 collapsible
-                open={openSection === 'props'}
-                onToggle={() => toggleSection('props')}
+                open={openSection === "props"}
+                onToggle={() => toggleSection("props")}
               >
                 {propChips}
               </FacetSection>
@@ -854,12 +1066,14 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
               )}
             </div>
           </div>,
-          document.body
+          document.body,
         )}
 
       {/* ==================== SIATKA PRODUKTOW ==================== */}
       {filtered.length === 0 ? (
-        <p className="mt-12 text-center text-ink-soft">{UI.noResults[locale]}</p>
+        <p className="mt-12 text-center text-ink-soft">
+          {UI.noResults[locale]}
+        </p>
       ) : (
         <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {filtered.map((f) => {

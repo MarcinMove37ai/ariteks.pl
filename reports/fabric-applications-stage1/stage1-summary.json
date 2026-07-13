@@ -1,0 +1,47 @@
+{
+  "stage": 1,
+  "productionReady": false,
+  "note": "To są propozycje klasyfikatora etapu 1. Nie podłączaj mapy do strony przed etapem weryfikacji.",
+  "generatedAt": "2026-07-12T22:20:07.805Z",
+  "model": "claude-sonnet-5",
+  "promptVersion": 1,
+  "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+  "minConfidence": 90,
+  "totalCatalogProducts": 159,
+  "processedProducts": 159,
+  "failedProducts": 0,
+  "countsByStatus": {
+    "matched": 26,
+    "matchedWithReview": 84,
+    "review": 43,
+    "unmatched": 6
+  },
+  "countsByApplication": {
+    "military": 18,
+    "firefighting": 10,
+    "energy": 11,
+    "welding": 20,
+    "motorcycle": 10,
+    "hivis": 41,
+    "medical": 10,
+    "sport": 2,
+    "architecture-building": 3,
+    "transport": 2
+  },
+  "usage": {
+    "inputTokens": 992657,
+    "outputTokens": 66079
+  },
+  "applicationIds": [
+    "military",
+    "firefighting",
+    "energy",
+    "welding",
+    "motorcycle",
+    "hivis",
+    "medical",
+    "sport",
+    "architecture-building",
+    "transport"
+  ]
+}

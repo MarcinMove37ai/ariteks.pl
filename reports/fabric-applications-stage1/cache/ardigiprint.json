@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:19:05.875Z",
+    "requestId": "req_011CcxwUJ9LmPkoRSRHVj6cA",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 5805,
+      "outputTokens": 190
+    }
+  },
+  "product": {
+    "slug": "ardigiprint",
+    "name": "ArDigiPrint",
+    "family": "ArDigiPrint",
+    "subFamily": "ardigiprint",
+    "familyDescriptorPl": "Elastyczna tkanina do druku cyfrowego",
+    "familyDescriptorEn": "Flexible fabric for digital printing",
+    "categoryId": "",
+    "categoryNamePl": "",
+    "categoryNameEn": "",
+    "categorySourceGroup": "",
+    "weight": "250 g/m²",
+    "composition": "100% PES",
+    "weave": "Interlock",
+    "titleDescriptor": "Flexible Fabric for Digital Printing",
+    "specLine": "250 g/m², 100% Polyester, Flexible Fabric for Digital Printing 100% Polyester flexible fabrics for digital printing",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Suitable for sublimation printing.",
+      "Can be stretched on widht and length wise.",
+      "Flexible Fabric for Digital Printing",
+      "250 g/m², 100% Polyester, Flexible Fabric for Digital Printing 100% Polyester flexible fabrics for digital printing"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 100*2 Denier | EN ISO 2060",
+      "Weight | 250 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1100 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 7 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Digital Printing",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "ArDigiPrint",
+      "Digital Printing Fabrics"
+    ],
+    "functionIconLabels": [
+      "Oeko Teks Standard 100",
+      "Stretchable",
+      "Less Steel Usage"
+    ],
+    "structure": "Interlock",
+    "recordUrl": "/ariteks/fabrics/ardigiprint/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "ardigiprint",
+    "matches": [],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "This is a flexible 100% polyester interlock fabric explicitly intended for digital/sublimation printing applications (per specLine, descriptions, and applicationImageLabels 'ArDigiPrint'/'Digital Printing Fabrics'). No explicit industry-sector use (military, firefighting, energy, welding, motorcycle, hivis, medical, sport, architecture-building, or transport) is stated in the supplied data."
+  },
+  "normalized": {
+    "fabricSlug": "ardigiprint",
+    "status": "unmatched",
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "This is a flexible 100% polyester interlock fabric explicitly intended for digital/sublimation printing applications (per specLine, descriptions, and applicationImageLabels 'ArDigiPrint'/'Digital Printing Fabrics'). No explicit industry-sector use (military, firefighting, energy, welding, motorcycle, hivis, medical, sport, architecture-building, or transport) is stated in the supplied data.",
+    "needsReview": false
+  }
+}

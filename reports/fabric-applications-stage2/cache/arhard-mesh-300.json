@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:27.309Z",
+    "requestId": "req_011CcxyFRGayvVN3J87jMKNC",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9060,
+      "outputTokens": 500
+    }
+  },
+  "product": {
+    "slug": "arhard-mesh-300",
+    "name": "ArHard Mesh 300",
+    "family": "ArHard",
+    "subFamily": "arhard-mesh",
+    "familyDescriptorPl": "Ciężkie siatki techniczne",
+    "familyDescriptorEn": "Heavy technical mesh",
+    "categoryId": "heavy-mesh",
+    "categoryNamePl": "Ciężkie siatki",
+    "categoryNameEn": "Heavy mesh fabrics",
+    "categorySourceGroup": "Heavy Mesh Fabrics",
+    "weight": "300 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "Upholstery Mesh Fabric",
+    "specLine": "300 g/m², 100% Polyester, Mesh Fabric",
+    "properties": [],
+    "norms": [
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "100% polyester, 300 g/m² warp knitted military mesh fabric.",
+      "It can be used as upholstery mesh for office furniture.",
+      "Upholstery Mesh Fabric",
+      "300 g/m², 100% Polyester, Mesh Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 300 Denier | EN ISO 2060",
+      "Weight | 300 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 2500 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Military Bag, Upholstery",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Office Chair Fabric"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArHard Mesh 300 Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/arhard-mesh-300/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "Description mentions 'military mesh fabric' and Application field lists 'Military Bag', but no explicit military garment/use is detailed beyond a bag-type application note, and product is titled/positioned as upholstery mesh for office furniture."
+      }
+    ],
+    "noMatchReason": "Product is explicitly positioned and described as an upholstery mesh fabric for office furniture/chairs (titleDescriptor 'Upholstery Mesh Fabric', description 'used as upholstery mesh for office furniture', application image label 'Office Chair Fabric'). This is generic furniture upholstery, not vehicle/vessel transport upholstery, and though 'military mesh fabric' and 'Military Bag' are mentioned, there is no explicit tactical, uniform or service-equipment use described, so it does not meet the bar for a precise application match."
+  },
+  "modelOutput": {
+    "fabricSlug": "arhard-mesh-300",
+    "primary": {
+      "applicationId": "upholstery-interiors",
+      "confidence": 80,
+      "evidence": [
+        "Upholstery Mesh Fabric",
+        "It can be used as upholstery mesh for office furniture.",
+        "applicationImageLabels: Office Chair Fabric"
+      ],
+      "rationale": "The product is explicitly titled and described as an upholstery mesh fabric for office furniture/chairs, which is the clearest and most directly stated commercial end use."
+    },
+    "secondary": {
+      "applicationId": "military",
+      "confidence": 40,
+      "evidence": [
+        "100% polyester, 300 g/m² warp knitted military mesh fabric.",
+        "Application | Military Bag, Upholstery"
+      ],
+      "rationale": "The description explicitly calls it a 'military mesh fabric' and the technical parameters list 'Military Bag' as an application, providing independent support for a military end use alongside the upholstery use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No vehicle or vessel context is mentioned; upholstery use is for office furniture, not transport interiors."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No general workwear or industrial garment use is stated."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "The 'military' reference is limited to a brief 'Military Bag' application note and a descriptive adjective, without further detail on tactical or uniformed-service use, making the secondary classification moderately uncertain."
+  },
+  "normalized": {
+    "fabricSlug": "arhard-mesh-300",
+    "status": "resolved-review",
+    "primaryApplication": "upholstery-interiors",
+    "secondaryApplication": null,
+    "primaryConfidence": 80,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Upholstery Mesh Fabric",
+      "It can be used as upholstery mesh for office furniture.",
+      "applicationImageLabels: Office Chair Fabric"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "The product is explicitly titled and described as an upholstery mesh fabric for office furniture/chairs, which is the clearest and most directly stated commercial end use.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "transport",
+        "reasonNotSelected": "No vehicle or vessel context is mentioned; upholstery use is for office furniture, not transport interiors."
+      },
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "No general workwear or industrial garment use is stated."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "The 'military' reference is limited to a brief 'Military Bag' application note and a descriptive adjective, without further detail on tactical or uniformed-service use, making the secondary classification moderately uncertain."
+  }
+}

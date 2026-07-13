@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:41:06.189Z",
+    "requestId": "req_011Ccxy9P8RxYW1hkt95FYwF",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9644,
+      "outputTokens": 528
+    }
+  },
+  "product": {
+    "slug": "arwowear-t30-flame-pro",
+    "name": "ArWoWear T30 Flame Pro",
+    "family": "ArWoWear",
+    "subFamily": "arwowear-flame-pro",
+    "familyDescriptorPl": "Trudnopalne tkaniny robocze (100 prań)",
+    "familyDescriptorEn": "FR workwear fabrics (100 washes)",
+    "categoryId": "fr-workwear",
+    "categoryNamePl": "Trudnopalne robocze",
+    "categoryNameEn": "FR workwear",
+    "categorySourceGroup": "Flame Retardant, Vat Dyed, Workwear Fabrics Resistant up to 100 Wash",
+    "weight": "260 g/m²",
+    "composition": "90% CO 10% PA",
+    "weave": "3/1S Twill",
+    "titleDescriptor": "90% Cotton 10% Polyamide, Flame Retardant Fabric, 260 gr/m'2",
+    "specLine": "260 g/m², 90% Cotton 10% Polyamide, VAT Dyed, Flame Retardant (100 Wash Resistant), 3/1S Twill Fabric",
+    "properties": [
+      "fr",
+      "arc",
+      "molten-metal",
+      "wash-100"
+    ],
+    "norms": [
+      "EN ISO 11612",
+      "EN ISO 11611",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArWoWear T30 Flame Pro is light weight 260 g/m², 90% cotton 10% polyamide, vat dyed, flame retardant workwear fabric.",
+      "It has flame retardant function with EN ISO 11612 and EN ISO 11611 certification.",
+      "It is durable up to 100 washing.",
+      "90% Cotton 10% Polyamide, Flame Retardant Fabric, 260 gr/m'2",
+      "260 g/m², 90% Cotton 10% Polyamide, VAT Dyed, Flame Retardant (100 Wash Resistant), 3/1S Twill Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 90% Cotton (CO) 10% Polyamide (PA) | EN ISO 2076",
+      "Yarn | Warp:30/2Ne; Weft:30/2Ne | EN ISO 2060",
+      "Weight | 260 ±5 g/m² | EN ISO 3081",
+      "Width | 1600 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp>1200N; Weft>1000N | EN ISO 13934-1",
+      "Tear Strength | Warp>25N; Weft>20N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Coveralls",
+      "Quality Management | Done | ISO 9001",
+      "Flame and Heat Protection | Yes | EN ISO 11612",
+      "Welding Protection | Yes | EN ISO 11611",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 10 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 11612",
+      "EN 11611",
+      "EN 61482",
+      ">> ArWoWear T30 Flame Pro Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "3/1S Twill",
+    "recordUrl": "/ariteks/fabrics/arwowear-t30-flame-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "welding",
+        "confidence": 95,
+        "evidence": [
+          "Welding Protection | Yes | EN ISO 11611",
+          "norms include EN ISO 11611",
+          "properties include molten-metal"
+        ],
+        "rationale": "Fabric is explicitly certified to EN ISO 11611 for welding protection and molten-metal splash resistance, directly indicating welding/metalworking application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "EN 61482 arc protection and ATPV rating are present, but these relate to arc-flash protective clothing generally; no explicit statement of electrical utility or energy-sector use."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "EN ISO 11612 (flame and heat protection) is present, but this standard covers general industrial heat/flame protection, not specifically firefighter turnout gear; no explicit firefighting use stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arwowear-t30-flame-pro",
+    "primary": {
+      "applicationId": "welding",
+      "confidence": 85,
+      "evidence": [
+        "Welding Protection | Yes | EN ISO 11611",
+        "norms include EN ISO 11611",
+        "properties include molten-metal",
+        "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2"
+      ],
+      "rationale": "Explicit EN ISO 11611 welding protection certification plus molten-metal splash and arc-flash protection make welding/metalworking the most specific and defensible primary application."
+    },
+    "secondary": {
+      "applicationId": "workwear-industrial",
+      "confidence": 55,
+      "evidence": [
+        "Application | Flame Retardant Coveralls",
+        "FR workwear fabric category",
+        "EN ISO 11612 flame and heat protection"
+      ],
+      "rationale": "The fabric is explicitly positioned as general FR workwear/coveralls fabric with broad industrial heat and flame protection certification (EN ISO 11612), supporting a broader workwear-industrial use alongside its welding-specific certification."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Arc protection (EN 61482) is present but no explicit electrical utility or energy-sector use stated; arc protection here is tied to welding hazard, not electrical work."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "EN ISO 11612 covers general flame/heat protection, not specifically firefighter turnout gear; no firefighting-specific claim."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arwowear-t30-flame-pro",
+    "status": "resolved-review",
+    "primaryApplication": "welding",
+    "secondaryApplication": null,
+    "primaryConfidence": 85,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Welding Protection | Yes | EN ISO 11611",
+      "norms include EN ISO 11611",
+      "properties include molten-metal",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicit EN ISO 11611 welding protection certification plus molten-metal splash and arc-flash protection make welding/metalworking the most specific and defensible primary application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "energy",
+        "reasonNotSelected": "Arc protection (EN 61482) is present but no explicit electrical utility or energy-sector use stated; arc protection here is tied to welding hazard, not electrical work."
+      },
+      {
+        "applicationId": "firefighting",
+        "reasonNotSelected": "EN ISO 11612 covers general flame/heat protection, not specifically firefighter turnout gear; no firefighting-specific claim."
+      }
+    ],
+    "needsHumanReview": true,
+    "reviewReason": "Secondary candidate did not pass confidence threshold 70."
+  }
+}

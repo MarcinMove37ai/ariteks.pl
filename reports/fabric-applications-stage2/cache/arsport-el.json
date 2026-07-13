@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:32.836Z",
+    "requestId": "req_011CcxyFfijv1yNBWENLDKZe",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9095,
+      "outputTokens": 420
+    }
+  },
+  "product": {
+    "slug": "arsport-el",
+    "name": "ArSport El",
+    "family": "ArSport",
+    "subFamily": "arsport2",
+    "familyDescriptorPl": "Dzianiny sportowe — oddychające i stretch",
+    "familyDescriptorEn": "Sports knits — breathable and stretch",
+    "categoryId": "functional-interlock",
+    "categoryNamePl": "Dzianiny funkcyjne interlock",
+    "categoryNameEn": "Functional interlock knits",
+    "categorySourceGroup": "Functional knit interlock polyester fabrics.",
+    "weight": "240 g/m²",
+    "composition": "92% PES 8% EL",
+    "weave": "Interlock",
+    "titleDescriptor": "Polyester Elastane Interlock Knit Fabric",
+    "specLine": "240 g/m², 92% Polyester 8% Elastane Interlock Knit Fabric",
+    "properties": [
+      "hi-vis",
+      "stretch"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArSport El elastic interlock knit fabric for team uniforms. With high content of elastane the fabric give extra confort to the wearer. Certified for EN 20471.",
+      "It is suitable for sublimation printing.",
+      "Polyester Elastane Interlock Knit Fabric",
+      "240 g/m², 92% Polyester 8% Elastane Interlock Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 92% Polyester 8% Elastane (PES) | TS EN ISO 1833",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 240 ±10 g/m² | TS EN 12127",
+      "Width | 1800 ±20 mm | TS EN 1773",
+      "Bursting strength | > 1000 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 4-9 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | T-Shirt",
+      "Quality Management | Done | ISO 9001",
+      "High Visible | Yes | EN 20471"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "High Visible",
+      ">> ArSport El Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Interlock",
+    "recordUrl": "/ariteks/fabrics/arsport-el/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "properties: hi-vis",
+          "norms: EN ISO 20471",
+          "Certified for EN 20471.",
+          "technicalParameters: High Visible | Yes | EN 20471"
+        ],
+        "rationale": "Explicit certification to EN ISO 20471 and stated 'High Visible: Yes' directly support high-visibility application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Product is explicitly positioned as a sports knit for team uniforms with T-shirt application, directly indicating sport use."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arsport-el",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 85,
+      "evidence": [
+        "norms: EN ISO 20471",
+        "Certified for EN 20471.",
+        "technicalParameters: High Visible | Yes | EN 20471"
+      ],
+      "rationale": "The fabric is explicitly certified to EN ISO 20471 and marked 'High Visible: Yes', which directly qualifies it as a certified high-visibility warning fabric, making this the most defensible primary application."
+    },
+    "secondary": {
+      "applicationId": "sport",
+      "confidence": 70,
+      "evidence": [
+        "descriptions: 'elastic interlock knit fabric for team uniforms'",
+        "technicalParameters: Application | T-Shirt",
+        "categoryNameEn: Functional interlock knits",
+        "family: ArSport"
+      ],
+      "rationale": "The product is explicitly described as being for team uniforms and T-shirt application within the ArSport sports knit family, independently supporting a sport end use alongside its hi-vis certification."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Hi-vis certification and team-uniform framing point to a more specific sector than generic industrial workwear."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arsport-el",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": "sport",
+    "primaryConfidence": 85,
+    "secondaryConfidence": 70,
+    "primaryEvidence": [
+      "norms: EN ISO 20471",
+      "Certified for EN 20471.",
+      "technicalParameters: High Visible | Yes | EN 20471"
+    ],
+    "secondaryEvidence": [
+      "descriptions: 'elastic interlock knit fabric for team uniforms'",
+      "technicalParameters: Application | T-Shirt",
+      "categoryNameEn: Functional interlock knits",
+      "family: ArSport"
+    ],
+    "primaryRationale": "The fabric is explicitly certified to EN ISO 20471 and marked 'High Visible: Yes', which directly qualifies it as a certified high-visibility warning fabric, making this the most defensible primary application.",
+    "secondaryRationale": "The product is explicitly described as being for team uniforms and T-shirt application within the ArSport sports knit family, independently supporting a sport end use alongside its hi-vis certification.",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Hi-vis certification and team-uniform framing point to a more specific sector than generic industrial workwear."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

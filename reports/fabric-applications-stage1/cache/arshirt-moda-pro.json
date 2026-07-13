@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:12:13.142Z",
+    "requestId": "req_011CcxvwaXiGY2r4Jf3ZCf1T",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6586,
+      "outputTokens": 621
+    }
+  },
+  "product": {
+    "slug": "arshirt-moda-pro",
+    "name": "ArShirt Moda Pro",
+    "family": "ArShirt",
+    "subFamily": "arwowear-moda-pro-2",
+    "familyDescriptorPl": "Robocze modowe — stretch i polar, wielobrandowe",
+    "familyDescriptorEn": "Fashion workwear — stretch and fleece, multi-brand",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "220 g/m²",
+    "composition": "60% MAC 38% CO 2% CF",
+    "weave": "Pique",
+    "titleDescriptor": "60% Modacrylic 38% Cotton 2% Carbon, Inherent Pique Flame Retardant Antistatic Fabric",
+    "specLine": "220 g/m², 60% Modacrylic 38% Cotton 2% Carbon, Inherent Flame Retardant",
+    "properties": [
+      "hi-vis",
+      "fr",
+      "inherent-fr",
+      "antistatic",
+      "arc"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "EN ISO 11612",
+      "EN 1149",
+      "EN 61482",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "Antistatic Pique Knit Fabric 60% modacrylic 38% cotton 2% carbon, inherent flame retardant antistatic knit fabric . ArShirt Moda Pro fabric are mostly used by welders, electrical workers and firefighters.",
+      "It is resistant to very high sun level, with fastness level of 6 to 7.",
+      "ArShirt Moda Pro are inherent flame retardant with EN 11612 certification.",
+      "Suitable for antistatic applications, certified for EN ISO 1149-5",
+      "It provides arc flash protection with EN 61482 class 1 (4 kA) certification.",
+      "EN 20471 certified.",
+      "60% Modacrylic 38% Cotton 2% Carbon, Inherent Pique Flame Retardant Antistatic Fabric",
+      "220 g/m², 60% Modacrylic 38% Cotton 2% Carbon, Inherent Flame Retardant"
+    ],
+    "technicalParameters": [
+      "Fiber | 60% Modacrylic (MAC) 38% Cotton (CO) 2%Carbon (CF) | EN ISO 2076",
+      "Yarn | 20/1 Ne Combed | EN ISO 2060",
+      "Weight | 220 ±5 g/m² | EN ISO 3081",
+      "Width | 1800 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1200 kPa(kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Peroxide Fastness | 4-5 | EN ISO 105 N02",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 6-7 | EN ISO 105 B02",
+      "Perspiration Light Fast. | 4-5 | EN ISO 105 B07",
+      "pH | 6.0 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Flame Retardant Shirt",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471",
+      "Antistatic | Done | EN ISO 1149-5",
+      "Flame and Heat Protection | Done | EN ISO 11612",
+      "Arc Protection | Class 1 (4kA) | EN ISO 61482-1-2",
+      "ATPV | > 7 cal/cm² | EN ISO 61482-1-1"
+    ],
+    "applicationImageLabels": [
+      "Modacrylic Sweat Shirt"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      "EN 1149",
+      "EN 11612",
+      "EN 61482",
+      ">> ArShirt Moda Pro Data Sheet",
+      "data_sheet",
+      "EN ISO 11612",
+      "certificate_or_test_report",
+      "EN ISO 11612 Test Report",
+      "EN ISO 1149-5(1149-3)",
+      "EN ISO 1149-5(1149-3) Test Report"
+    ],
+    "structure": "Pique",
+    "recordUrl": "/ariteks/fabrics/arshirt-moda-pro/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arshirt-moda-pro",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "categoryId: hi-vis",
+          "EN ISO 20471 certified",
+          "High Visibility | Done | EN ISO 20471"
+        ],
+        "rationale": "Explicit hi-vis category and EN ISO 20471 certification directly support high-visibility apparel classification."
+      },
+      {
+        "applicationId": "welding",
+        "confidence": 80,
+        "evidence": [
+          "ArShirt Moda Pro fabric are mostly used by welders, electrical workers and firefighters.",
+          "EN 61482 arc flash protection class 1 (4 kA)"
+        ],
+        "rationale": "Description explicitly states welders as primary users, supported by arc-flash protection certification relevant to welding hazards."
+      },
+      {
+        "applicationId": "energy",
+        "confidence": 78,
+        "evidence": [
+          "ArShirt Moda Pro fabric are mostly used by welders, electrical workers and firefighters.",
+          "EN 1149-5 antistatic certification",
+          "EN 61482 arc flash protection class 1 (4kA), ATPV > 7 cal/cm²"
+        ],
+        "rationale": "Description explicitly names electrical workers as intended users, combined with arc-flash and antistatic certifications directly tied to electrical hazard protection."
+      },
+      {
+        "applicationId": "firefighting",
+        "confidence": 60,
+        "evidence": [
+          "ArShirt Moda Pro fabric are mostly used by welders, electrical workers and firefighters.",
+          "EN ISO 11612 Flame and Heat Protection"
+        ],
+        "rationale": "Description explicitly names firefighters as intended users, though this is turnout-gear-adjacent workwear rather than explicit structural firefighting gear."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "military",
+        "reason": "No explicit military, police or tactical use stated in the product data."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arshirt-moda-pro",
+    "status": "matched-with-review",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 95,
+        "evidence": [
+          "categoryId: hi-vis",
+          "EN ISO 20471 certified",
+          "High Visibility | Done | EN ISO 20471"
+        ],
+        "rationale": "Explicit hi-vis category and EN ISO 20471 certification directly support high-visibility apparel classification."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "energy",
+        "reason": "Description explicitly names electrical workers as intended users, combined with arc-flash and antistatic certifications directly tied to electrical hazard protection."
+      },
+      {
+        "applicationId": "firefighting",
+        "reason": "Description explicitly names firefighters as intended users, though this is turnout-gear-adjacent workwear rather than explicit structural firefighting gear."
+      },
+      {
+        "applicationId": "military",
+        "reason": "No explicit military, police or tactical use stated in the product data."
+      },
+      {
+        "applicationId": "welding",
+        "reason": "Description explicitly states welders as primary users, supported by arc-flash protection certification relevant to welding hazards."
+      }
+    ],
+    "noMatchReason": "",
+    "needsReview": true
+  }
+}

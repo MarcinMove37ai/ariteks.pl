@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:39:54.944Z",
+    "requestId": "req_011Ccxy4CpBBjQiDxfFWGvhX",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9065,
+      "outputTokens": 467
+    }
+  },
+  "product": {
+    "slug": "arneo-supereco",
+    "name": "ArNeo Super Eco",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "75 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Economical Safety Jacket Fabric",
+    "specLine": "75 g/m², 100% Polyester, High Visible Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Super Eco 100% polyester, 70-80 g/m² warp knitted neon colored jacket fabric.",
+      "It is suitable for digital printing, thus it is possible to make company's logo printed jackets by sublimation printing.",
+      "Designed for construction and mining workers.",
+      "Economical Safety Jacket Fabric",
+      "75 g/m², 100% Polyester, High Visible Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 68 Denier | EN ISO 2060",
+      "Weight | 75 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 400 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Safety Jacket",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Economical High Visible Yellow Safety Jacket",
+      "Economical High Visible Orange Safety Jacket"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArNeo Super Eco Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-supereco/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 98,
+        "evidence": [
+          "categoryId: hi-vis",
+          "norms: EN ISO 20471",
+          "Application | Safety Jacket",
+          "Designed for construction and mining workers.",
+          "applicationImageLabels: Economical High Visible Yellow/Orange Safety Jacket"
+        ],
+        "rationale": "Explicitly certified to EN ISO 20471 and described as a high-visibility safety jacket fabric for warning clothing."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-supereco",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 98,
+      "evidence": [
+        "categoryId: hi-vis",
+        "norms: EN ISO 20471",
+        "Application | Safety Jacket",
+        "Designed for construction and mining workers.",
+        "applicationImageLabels: Economical High Visible Yellow/Orange Safety Jacket"
+      ],
+      "rationale": "Explicitly certified to EN ISO 20471 and marketed as an economical high-visibility safety jacket fabric for warning clothing, matching the hivis application directly."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently supported secondary application is present; mentions of construction/mining workers are part of the hi-vis workwear context rather than a distinct sector, and digital printing capability is a feature, not a stated end use."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Construction/mining worker mention is context for hi-vis safety jacket use, not a distinct general workwear application; certified hi-vis is the dominant and more specific classification."
+      },
+      {
+        "applicationId": "print-signage",
+        "reasonNotSelected": "Suitability for digital printing/sublimation is a feature for branding jackets, not a stated end use as printed signage or flags."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-supereco",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 98,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "categoryId: hi-vis",
+      "norms: EN ISO 20471",
+      "Application | Safety Jacket",
+      "Designed for construction and mining workers.",
+      "applicationImageLabels: Economical High Visible Yellow/Orange Safety Jacket"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicitly certified to EN ISO 20471 and marketed as an economical high-visibility safety jacket fabric for warning clothing, matching the hivis application directly.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Construction/mining worker mention is context for hi-vis safety jacket use, not a distinct general workwear application; certified hi-vis is the dominant and more specific classification."
+      },
+      {
+        "applicationId": "print-signage",
+        "reasonNotSelected": "Suitability for digital printing/sublimation is a feature for branding jackets, not a stated end use as printed signage or flags."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

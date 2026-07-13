@@ -1,0 +1,116 @@
+{
+  "promptVersion": 1,
+  "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+  "applications": [
+    {
+      "id": "military",
+      "namePl": "Wojsko i służby mundurowe",
+      "nameEn": "Military and uniformed services",
+      "shortPl": "Tkaniny mundurowe ArDura (PA 6.6) dla wojska i policji, kombinezony pirotechniczne, siatki maskujące, dzianiny 3D.",
+      "shortEn": "ArDura (PA 6.6) uniform fabrics for military and police, bomb-disposal suits, camouflage mesh, 3D warp knits.",
+      "include": "Military, police, uniformed services, tactical uniforms, bomb-disposal suits, camouflage or service equipment explicitly stated in the product data.",
+      "exclude": "Do not match generic durable workwear, generic PA 6.6, ripstop or cut resistance unless military, police, tactical or uniformed-service use is explicitly stated.",
+      "overlap": "",
+      "source": "existing"
+    },
+    {
+      "id": "firefighting",
+      "namePl": "Straż pożarna",
+      "nameEn": "Firefighting",
+      "shortPl": "Ubrania bojowe: tkanina ArBo z włóknem PBO — najwytrzymalsza syntetyczna tkanina świata, badana według EN 469.",
+      "shortEn": "Turnout gear: ArBo fabric with PBO fibre — the world’s strongest synthetic fabric, tested to EN 469.",
+      "include": "Structural firefighting, turnout gear, firefighter suits or fabrics explicitly described for fire brigades and firefighting protective clothing.",
+      "exclude": "Do not match merely because a fabric is flame-retardant, heat-resistant or aramid. Generic FR workwear belongs elsewhere unless firefighter use is explicit.",
+      "overlap": "",
+      "source": "existing"
+    },
+    {
+      "id": "energy",
+      "namePl": "Energetyka",
+      "nameEn": "Energy sector",
+      "shortPl": "Ochrona przed łukiem elektrycznym i tkaniny antystatyczne. Rodzina ArWoWear EMK: ekranowanie EMI, ochrona przy wysokim napięciu.",
+      "shortEn": "Electric-arc protection and antistatic fabrics. The ArWoWear EMK family: EMI shielding and high-voltage protection.",
+      "include": "Electrical utilities, electric-arc protection, high-voltage work, electrical installations or EMI shielding explicitly connected with electrical/electronic environments.",
+      "exclude": "Antistatic or flame-retardant properties alone are insufficient. Do not infer the energy sector from EN 1149 or FR performance alone.",
+      "overlap": "",
+      "source": "existing"
+    },
+    {
+      "id": "welding",
+      "namePl": "Hutnictwo i spawalnictwo",
+      "nameEn": "Metallurgy and welding",
+      "shortPl": "Tkaniny chroniące przed rozbryzgiem metalu, ciepłem i płomieniem: bawełna FR, mieszanki antystatyczne.",
+      "shortEn": "Fabrics protecting against metal splash, heat and flame: FR cotton and antistatic blends.",
+      "include": "Welding, foundry, metallurgy, molten-metal splash, metalworking or explicitly stated heat/flame hazards in industrial metal processing.",
+      "exclude": "Generic FR workwear is insufficient unless welding, foundry, metallurgy, molten metal or closely related metal-processing use is explicit.",
+      "overlap": "",
+      "source": "existing"
+    },
+    {
+      "id": "motorcycle",
+      "namePl": "Odzież motocyklowa",
+      "nameEn": "Motorcycle apparel",
+      "shortPl": "Tkaniny ArDura (PA 6.6) i denim odporny na ścieranie. Produkcja na bazie włókien CORDURA®.",
+      "shortEn": "ArDura (PA 6.6) fabrics and abrasion-resistant denim. Manufactured with CORDURA® fibres.",
+      "include": "Motorcycle protective apparel, motorcyclist garments or materials explicitly developed for motorcycle abrasion, impact-zone or riding apparel.",
+      "exclude": "Do not match automotive upholstery, vehicle interiors or generic abrasion-resistant clothing without explicit motorcycle use.",
+      "overlap": "",
+      "source": "existing"
+    },
+    {
+      "id": "hivis",
+      "namePl": "Odzież ostrzegawcza hi-vis",
+      "nameEn": "High-visibility apparel",
+      "shortPl": "Rodzina dzianin ArNeo — ponad 15 wariantów tkanin fluorescencyjnych, także w wersji trudnopalnej.",
+      "shortEn": "The ArNeo family — over 15 fluorescent warp knit variants, including flame-retardant versions.",
+      "include": "Certified high-visibility warning clothing, fluorescent safety garments or explicit EN ISO 20471 / safety-jacket use.",
+      "exclude": "Bright colour, neon colour or reflective appearance alone is insufficient without explicit high-visibility safety use.",
+      "overlap": "",
+      "source": "existing"
+    },
+    {
+      "id": "medical",
+      "namePl": "Medycyna",
+      "nameEn": "Medical",
+      "shortPl": "Tkaniny antywirusowe i antybakteryjne na odzież medyczną wielokrotnego użytku oraz tkaniny barierowe.",
+      "shortEn": "Antiviral and antibacterial fabrics for reusable medical wear, plus barrier fabrics.",
+      "include": "Medical, healthcare, hospital, protective medical garments, medical barriers, or antibacterial/antiviral products explicitly positioned for medical use.",
+      "exclude": "Antibacterial, antiviral, waterproof or easy-clean properties alone are insufficient if the source does not state a medical or healthcare use.",
+      "overlap": "",
+      "source": "existing"
+    },
+    {
+      "id": "sport",
+      "namePl": "Sport",
+      "nameEn": "Sport",
+      "shortPl": "Dzianiny funkcyjne: oddychające, szybkoschnące, z ochroną UV i wykończeniem antybakteryjnym.",
+      "shortEn": "Functional knits: breathable, quick-drying, with UV protection and antibacterial finishes.",
+      "include": "Sportswear, athletic garments, training apparel or explicitly stated performance-sport use.",
+      "exclude": "Stretch, breathability, mesh or moisture management alone are insufficient without explicit sport or athletic use.",
+      "overlap": "",
+      "source": "existing"
+    },
+    {
+      "id": "architecture-building",
+      "namePl": "Tkaniny architektoniczne i budowlane",
+      "nameEn": "Architectural and building fabrics",
+      "shortPl": "Membrany architektoniczne, sufity napinane, tekstylne elementy wnętrz oraz materiały przeznaczone bezpośrednio do budownictwa.",
+      "shortEn": "Architectural membranes, stretch ceilings, textile interior systems and fabrics explicitly intended for building applications.",
+      "include": "Architectural membranes, tensile structures, stretch ceilings, textile building systems, interior tension panels, light-diffusing architectural textiles or products explicitly intended as part of a building.",
+      "exclude": "Do not match ordinary apparel, generic outdoor fabric, furniture fabric, flags, cleaning textiles or print media. Tents and awnings qualify only when the source explicitly frames them as architectural/building systems.",
+      "overlap": "Stretch-ceiling products belong to architecture-building when the product data explicitly states a ceiling or architectural building-system use.",
+      "source": "certain-new"
+    },
+    {
+      "id": "transport",
+      "namePl": "Tkaniny dla transportu",
+      "nameEn": "Transport fabrics",
+      "shortPl": "Tkaniny do samochodów, kolei, transportu publicznego, jednostek pływających oraz wyposażenia i tapicerki pojazdów.",
+      "shortEn": "Fabrics for automotive, rail, public transport, marine vessels, vehicle equipment, interiors and upholstery.",
+      "include": "Automotive, rail, public transport, marine/boat, aircraft, vehicle seating, vehicle interiors, transport upholstery or technical equipment explicitly intended for vehicles or vessels.",
+      "exclude": "Do not match ordinary footwear, furniture upholstery or generic outdoor fabric. Motorcycle protective clothing stays under motorcycle and does not automatically inherit transport.",
+      "overlap": "A product may match motorcycle and transport only when the supplied data independently states both uses.",
+      "source": "certain-new"
+    }
+  ]
+}

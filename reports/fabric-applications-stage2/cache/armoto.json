@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:29.398Z",
+    "requestId": "req_011CcxyF6XDNDYVyykmDTJqh",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9171,
+      "outputTokens": 1176
+    }
+  },
+  "product": {
+    "slug": "armoto",
+    "name": "ArMoto",
+    "family": "ArMoto",
+    "subFamily": "armoto",
+    "familyDescriptorPl": "Tkaniny na odzież motocyklową",
+    "familyDescriptorEn": "Motorcycle apparel fabrics",
+    "categoryId": "heavy-warp-knits",
+    "categoryNamePl": "Ciężkie dzianiny kolumienkowe",
+    "categoryNameEn": "Heavy warp knits",
+    "categorySourceGroup": "Heavy Warp Knit Fabrics for Shoes and Wind Jackets",
+    "weight": "240 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit",
+    "titleDescriptor": "Fabric for Shoes and Office Upholstery",
+    "specLine": "240 g/m², 100% Polyester, Wind Jacket Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "%100 polyester wind jacket fabric",
+      "ArMoto can be used on motorcyclist cloths as air channel.",
+      "For the shoes industry it is popular fabric to laminate on base and edge of sport shoes.",
+      "Fabric for Shoes and Office Upholstery",
+      "240 g/m², 100% Polyester, Wind Jacket Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | TS EN ISO 1833",
+      "Yarn | 300 Denier | EN ISO 2060",
+      "Weight | 240 ±5 g/m² | TS EN 12127",
+      "Width | 1500 ±20 mm | TS EN 1773",
+      "Bursting strength | > 2500 kPa (kN/m² ) | TS EN 13938-1",
+      "Dimensinal Change | -5% < Length < +5% ; -5% < Width < +5% | TS EN ISO 5077",
+      "Abrasion Resistance | @50000 | TS EN 530",
+      "Rubbing Fastness | 4 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C01",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "Light Fastness | 4-5 | EN ISO 105 B02",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Wind Jacket, Shoes",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArMoto Data Sheet",
+      "data_sheet"
+    ],
+    "structure": "Warp Knit",
+    "recordUrl": "/ariteks/fabrics/armoto/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "motorcycle",
+        "confidence": 92,
+        "evidence": [
+          "familyDescriptorEn: Motorcycle apparel fabrics",
+          "ArMoto can be used on motorcyclist cloths as air channel.",
+          "Application | Wind Jacket, Shoes"
+        ],
+        "rationale": "Product family explicitly named for motorcycle apparel and description states use on motorcyclist clothing as air channel fabric."
+      },
+      {
+        "applicationId": "hivis",
+        "confidence": 90,
+        "evidence": [
+          "properties: hi-vis",
+          "norms: EN ISO 20471"
+        ],
+        "rationale": "Explicit hi-vis property combined with EN ISO 20471 certification directly supports high-visibility application."
+      }
+    ],
+    "possibleButNotAccepted": [
+      {
+        "applicationId": "sport",
+        "reason": "Mentioned use in sport shoes lamination, but no explicit athletic garment or performance-sport application stated."
+      }
+    ],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "armoto",
+    "primary": {
+      "applicationId": "motorcycle",
+      "confidence": 88,
+      "evidence": [
+        "familyDescriptorEn: Motorcycle apparel fabrics",
+        "ArMoto can be used on motorcyclist cloths as air channel.",
+        "specLine: Wind Jacket Fabric"
+      ],
+      "rationale": "The product family and description explicitly identify this fabric as designed for motorcyclist clothing (wind jacket air channel), making motorcycle apparel the dominant, most direct end use."
+    },
+    "secondary": {
+      "applicationId": "footwear-components",
+      "confidence": 80,
+      "evidence": [
+        "For the shoes industry it is popular fabric to laminate on base and edge of sport shoes.",
+        "Application | Wind Jacket, Shoes",
+        "titleDescriptor: Fabric for Shoes and Office Upholstery"
+      ],
+      "rationale": "A separate, explicitly stated end use in shoe manufacturing (lamination on base and edge of sport shoes) independently supports footwear-components as a secondary application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "Hi-vis property and EN ISO 20471 norm are listed, but no explicit garment application text ties this fabric to certified high-visibility clothing use; property/standard alone is insufficient per rules."
+      },
+      {
+        "applicationId": "upholstery-interiors",
+        "reasonNotSelected": "Title mentions 'Office Upholstery' but no further descriptive support beyond a title fragment; overshadowed by explicit motorcycle and shoe use statements."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Mentioned only in context of sport shoe lamination, not as a standalone athletic apparel application."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "armoto",
+    "status": "resolved",
+    "primaryApplication": "motorcycle",
+    "secondaryApplication": "footwear-components",
+    "primaryConfidence": 88,
+    "secondaryConfidence": 80,
+    "primaryEvidence": [
+      "familyDescriptorEn: Motorcycle apparel fabrics",
+      "ArMoto can be used on motorcyclist cloths as air channel.",
+      "specLine: Wind Jacket Fabric"
+    ],
+    "secondaryEvidence": [
+      "For the shoes industry it is popular fabric to laminate on base and edge of sport shoes.",
+      "Application | Wind Jacket, Shoes",
+      "titleDescriptor: Fabric for Shoes and Office Upholstery"
+    ],
+    "primaryRationale": "The product family and description explicitly identify this fabric as designed for motorcyclist clothing (wind jacket air channel), making motorcycle apparel the dominant, most direct end use.",
+    "secondaryRationale": "A separate, explicitly stated end use in shoe manufacturing (lamination on base and edge of sport shoes) independently supports footwear-components as a secondary application.",
+    "alternativesConsidered": [
+      {
+        "applicationId": "hivis",
+        "reasonNotSelected": "Hi-vis property and EN ISO 20471 norm are listed, but no explicit garment application text ties this fabric to certified high-visibility clothing use; property/standard alone is insufficient per rules."
+      },
+      {
+        "applicationId": "upholstery-interiors",
+        "reasonNotSelected": "Title mentions 'Office Upholstery' but no further descriptive support beyond a title fragment; overshadowed by explicit motorcycle and shoe use statements."
+      },
+      {
+        "applicationId": "sport",
+        "reasonNotSelected": "Mentioned only in context of sport shoe lamination, not as a standalone athletic apparel application."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

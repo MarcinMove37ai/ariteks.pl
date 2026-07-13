@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:39:47.799Z",
+    "requestId": "req_011Ccxy3mXQPaSquAsRF4zBy",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9194,
+      "outputTokens": 354
+    }
+  },
+  "product": {
+    "slug": "arneo-file",
+    "name": "ArNeo File",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "120 g/m²",
+    "composition": "100% PES",
+    "weave": "Mesh",
+    "titleDescriptor": "High Visible Mesh Fabric for Safety Jacket",
+    "specLine": "120 g/m², 100% Polyester, High Visible, Mesh Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo File is 100% polyester texturised, 120 g/m² warp knitted neon colored mesh fabric for safety jackets. It is the most popular mesh fabric for safety jacket usage.",
+      "ArNeo File is EN ISO 20471 certified.",
+      "Neon dyed fabrics they attract more attention than other colors. They absorb uv light and reflect as a visible light.",
+      "As a result they shine more than other objects.",
+      "High Visible Mesh Fabric for Safety Jacket",
+      "120 g/m², 100% Polyester, High Visible, Mesh Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 120 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Safety Jacket",
+      "Quality Management | Done | ISO 9001",
+      "High Visibility | Done | EN ISO 20471"
+    ],
+    "applicationImageLabels": [
+      "Yellow-Navy Mesh Safety Jacket"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 20471",
+      ">> ArNeo File Data Sheet",
+      "data_sheet",
+      "TS EN ISO 20471",
+      "certificate_or_test_report",
+      "TS EN ISO 20471 Test Report"
+    ],
+    "structure": "Mesh",
+    "recordUrl": "/ariteks/fabrics/arneo-file/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 98,
+        "evidence": [
+          "High Visible Mesh Fabric for Safety Jacket",
+          "EN ISO 20471 certified",
+          "Application | Safety Jacket",
+          "categorySourceGroup: High Visible Warp Knit Fabrics for Safety Jackets",
+          "Yellow-Navy Mesh Safety Jacket"
+        ],
+        "rationale": "Explicitly described and certified as a high-visibility fluorescent mesh fabric for safety jackets under EN ISO 20471."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-file",
+    "primary": {
+      "applicationId": "hivis",
+      "confidence": 98,
+      "evidence": [
+        "High Visible Mesh Fabric for Safety Jacket",
+        "EN ISO 20471 certified",
+        "Application | Safety Jacket",
+        "categorySourceGroup: High Visible Warp Knit Fabrics for Safety Jackets"
+      ],
+      "rationale": "Explicitly described and certified as a fluorescent high-visibility mesh fabric for safety jackets under EN ISO 20471, directly matching the hivis application."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independent secondary end use is stated; the product is exclusively positioned as a safety jacket hi-vis mesh fabric."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Safety jackets are a narrower, explicitly certified hi-vis application, which is more specific than general workwear."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-file",
+    "status": "resolved",
+    "primaryApplication": "hivis",
+    "secondaryApplication": null,
+    "primaryConfidence": 98,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "High Visible Mesh Fabric for Safety Jacket",
+      "EN ISO 20471 certified",
+      "Application | Safety Jacket",
+      "categorySourceGroup: High Visible Warp Knit Fabrics for Safety Jackets"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicitly described and certified as a fluorescent high-visibility mesh fabric for safety jackets under EN ISO 20471, directly matching the hivis application.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "Safety jackets are a narrower, explicitly certified hi-vis application, which is more specific than general workwear."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

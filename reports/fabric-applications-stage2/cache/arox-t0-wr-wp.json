@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "bd272df2fd42c7e7acb19e2b94719b167f7d1aa0f1daeeb3d7b083aa77523368",
+    "model": "claude-sonnet-5",
+    "minPrimaryConfidence": 80,
+    "minSecondaryConfidence": 70,
+    "generatedAt": "2026-07-12T22:42:15.837Z",
+    "requestId": "req_011CcxyEN2b9aePSXzJdwyEi",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 9325,
+      "outputTokens": 365
+    }
+  },
+  "product": {
+    "slug": "arox-t0-wr-wp",
+    "name": "Arox T0 WR/WP",
+    "family": "Arox",
+    "subFamily": "arox-medical",
+    "familyDescriptorPl": "Tkaniny medyczne barierowe",
+    "familyDescriptorEn": "Barrier medical fabrics",
+    "categoryId": "antibacterial",
+    "categoryNamePl": "Antybakteryjne z jonami srebra",
+    "categoryNameEn": "Antibacterial silver fabrics",
+    "categorySourceGroup": "Inherent Antibacterial Fabrics (Silver Yarn Integrated)",
+    "weight": "70 g/m²",
+    "composition": "75% PES 25% PU",
+    "weave": "1/1 Plain",
+    "titleDescriptor": "75% Polyester 25% Polyurethane waterproof medical fabric",
+    "specLine": "70 g/m², 75% Polyester 25% Polyurethane, Waterproof, 1/1 Plain Woven Fabric",
+    "properties": [
+      "inherent-fr",
+      "chemical",
+      "waterproof",
+      "antibacterial"
+    ],
+    "norms": [
+      "EN 13034",
+      "EN 343",
+      "EN 14126",
+      "ISO 18184",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "75% Polyester 25% Polyurethane waterproof fabric for all kind of medical cloth. Tested for EN 14126. Arox T0 WR/WP fabrics can be used for medical cover.",
+      "It can be washed at 60'C and used again.",
+      "Certified for EN 14126.",
+      "75% Polyester 25% Polyurethane waterproof medical fabric",
+      "70 g/m², 75% Polyester 25% Polyurethane, Waterproof, 1/1 Plain Woven Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 75% Polyester (PES) 25% Polyurethane (PU) | EN ISO 2076",
+      "Yarn | 60 Denier | EN ISO 2060",
+      "Weight | 70 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Tensile Strength | Warp > 500N ; Weft > 400N | EN ISO 13934-1",
+      "Tear Strength | Warp > 15N ; Weft > 10N | EN ISO 13937-2",
+      "Dimensional Change | -3% < Length < +3% ; -3% < Width < +3% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 4.0 - 6.5 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Medical Cover",
+      "Quality Management | Done | ISO 9001",
+      "Chemical Resistant | Done | EN ISO 13034",
+      "Waterproof | Done | EN ISO 343",
+      "Infective Agents | Done | EN ISO 14126"
+    ],
+    "applicationImageLabels": [
+      "Tulum, Isolation Gown"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      "EN 13034",
+      "EN 343",
+      "EN 14126",
+      ">> Arox T0 WR/WP Data Sheet",
+      "data_sheet",
+      "EN 11092",
+      "certificate_or_test_report",
+      "EN 20811",
+      "EN 24920"
+    ],
+    "structure": "1/1 Plain",
+    "recordUrl": "/ariteks/fabrics/arox-t0-wr-wp/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "stage1": {
+    "acceptedMatches": [
+      {
+        "applicationId": "medical",
+        "confidence": 97,
+        "evidence": [
+          "Barrier medical fabrics family descriptor",
+          "Application | Medical Cover",
+          "Application image labels: Tulum, Isolation Gown",
+          "Can be used for medical cover",
+          "Antibacterial silver fabric category"
+        ],
+        "rationale": "Product is explicitly described as a barrier medical fabric intended for medical cover, isolation gowns and coveralls, with medical application field and image labels directly stating medical garment use."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "modelOutput": {
+    "fabricSlug": "arox-t0-wr-wp",
+    "primary": {
+      "applicationId": "medical",
+      "confidence": 97,
+      "evidence": [
+        "Barrier medical fabrics family descriptor",
+        "Application | Medical Cover",
+        "Application image labels: Tulum, Isolation Gown",
+        "EN 14126 Infective Agents certification"
+      ],
+      "rationale": "Explicitly positioned as a barrier medical fabric for isolation gowns and medical covers, with direct medical application field, image labels and EN 14126 biological protection certification."
+    },
+    "secondary": {
+      "applicationId": "none",
+      "confidence": 0,
+      "evidence": [],
+      "rationale": "No independently stated secondary end use beyond medical; antibacterial, waterproof and chemical resistance properties support the medical use rather than a separate application."
+    },
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "EN 13034/EN 343 chemical/weather protection is subsumed within the explicit medical isolation-gown use, not a separate general workwear use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arox-t0-wr-wp",
+    "status": "resolved",
+    "primaryApplication": "medical",
+    "secondaryApplication": null,
+    "primaryConfidence": 97,
+    "secondaryConfidence": 0,
+    "primaryEvidence": [
+      "Barrier medical fabrics family descriptor",
+      "Application | Medical Cover",
+      "Application image labels: Tulum, Isolation Gown",
+      "EN 14126 Infective Agents certification"
+    ],
+    "secondaryEvidence": [],
+    "primaryRationale": "Explicitly positioned as a barrier medical fabric for isolation gowns and medical covers, with direct medical application field, image labels and EN 14126 biological protection certification.",
+    "secondaryRationale": "",
+    "alternativesConsidered": [
+      {
+        "applicationId": "workwear-industrial",
+        "reasonNotSelected": "EN 13034/EN 343 chemical/weather protection is subsumed within the explicit medical isolation-gown use, not a separate general workwear use."
+      }
+    ],
+    "needsHumanReview": false,
+    "reviewReason": ""
+  }
+}

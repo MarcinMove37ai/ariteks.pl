@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "promptVersion": 1,
+    "taxonomyHash": "828c2c8b9c4a2bbfbeeb8076200886d94190b58936ed7949dad52218ae585349",
+    "model": "claude-sonnet-5",
+    "minConfidence": 90,
+    "generatedAt": "2026-07-12T22:11:30.023Z",
+    "requestId": "req_011CcxvtgvMWpjwdLrwesYzA",
+    "stopReason": "end_turn",
+    "usage": {
+      "inputTokens": 6271,
+      "outputTokens": 246
+    }
+  },
+  "product": {
+    "slug": "arneo-color",
+    "name": "ArNeo Color",
+    "family": "ArNeo",
+    "subFamily": "arneo",
+    "familyDescriptorPl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+    "familyDescriptorEn": "Fluorescent hi-vis knits for safety wear",
+    "categoryId": "hi-vis",
+    "categoryNamePl": "Dzianiny ostrzegawcze hi-vis",
+    "categoryNameEn": "Hi-vis warp knit fabrics",
+    "categorySourceGroup": "High Visible Warp Knit Fabrics for Safety Jackets",
+    "weight": "120 g/m²",
+    "composition": "100% PES",
+    "weave": "Warp Knit Plain",
+    "titleDescriptor": "Fabric for Safety Jackets Non Neon Colors",
+    "specLine": "120 g/m², 100% Polyester, Warp Knit Fabric",
+    "properties": [
+      "hi-vis"
+    ],
+    "norms": [
+      "EN ISO 20471",
+      "OEKO-TEX 100"
+    ],
+    "descriptions": [
+      "ArNeo Color is a 100% polyester, 120 g/m² warp knitted fabric.",
+      "It used for jackets with reflective stips.",
+      "As its is a jacket with non neon color it has mostly corporate usage than security applications.",
+      "Fabric for Safety Jackets Non Neon Colors",
+      "120 g/m², 100% Polyester, Warp Knit Fabric"
+    ],
+    "technicalParameters": [
+      "Fiber | 100% Polyester (PES) | EN ISO 2076",
+      "Yarn | 75/72 Denier | EN ISO 2060",
+      "Weight | 120 ±5 g/m² | EN ISO 3081",
+      "Width | 1500 ±20 mm | EN ISO 3932",
+      "Bursting strength | > 1000 kPa (kN/m² ) | EN ISO 13938-1",
+      "Dimensional Change | -5% < Length < +5% ; -5% < Width < +5% | EN ISO 5077",
+      "Rubbing Fastness | 4-5 | EN ISO 105 X12",
+      "Perspiration Fastness | 4-5 | EN ISO 105 E04",
+      "Washing Fastness | 4-5 | EN ISO 105 C06",
+      "Dry Cleaning Fastness | 4-5 | EN ISO 105 D01",
+      "Hypochlorite Fastness | 4-5 | EN ISO 105 N01",
+      "Hot Press Fastness | 4-5 | EN ISO 105 X11",
+      "pH | 6.2 | EN ISO 3071",
+      "Azo Test | No Azo Colorants. | EN ISO 14362-1",
+      "Application | Jacket",
+      "Quality Management | Done | ISO 9001"
+    ],
+    "applicationImageLabels": [
+      "Dark Navy Safety Jacket",
+      "Yellow-Navy Safety Jacket",
+      "Red Navy Safety Jacket"
+    ],
+    "functionIconLabels": [
+      "Oeko Tex Standard 100",
+      ">> ArNeo Color Data Sheet",
+      "data_sheet",
+      "ISO 105 B02; Article No:2000004040",
+      "certificate_or_test_report",
+      "ISO 105 B02; Article No:2000004039",
+      "ISO 105 C06; Article No:2000004040",
+      "ISO 105 C06; Article No:2000004039",
+      "ISO 105 D01; Article No:2000004040",
+      "ISO 105 D01; Article No:2000004039",
+      "ISO 105 E04; Article No:2000004040",
+      "ISO 105 E04; Article No:2000004039",
+      "ISO 105 X11; Article No:2000004040",
+      "ISO 105 X11; Article No:2000004039",
+      "ISO 105 X12; Article No:2000004040",
+      "ISO 105 X12; Article No:2000004039",
+      "ISO 13938-1; Article No:2000004040",
+      "ISO 13938-1; Article No:2000004039",
+      "ISO 6330; Article No:2000004040",
+      "ISO 6330; Article No:2000004039"
+    ],
+    "structure": "Warp Knit Plain",
+    "recordUrl": "/ariteks/fabrics/arneo-color/data/fabric-complete-record.json",
+    "recordLoaded": true
+  },
+  "modelOutput": {
+    "fabricSlug": "arneo-color",
+    "matches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "categoryId: hi-vis",
+          "EN ISO 20471 norm",
+          "Fabric for Safety Jackets Non Neon Colors",
+          "Application | Jacket",
+          "applicationImageLabels: Dark Navy Safety Jacket, Yellow-Navy Safety Jacket, Red Navy Safety Jacket"
+        ],
+        "rationale": "Explicitly categorized as hi-vis warp knit fabric for safety jackets, certified to EN ISO 20471, with jacket application images confirming direct high-visibility safety apparel use."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": ""
+  },
+  "normalized": {
+    "fabricSlug": "arneo-color",
+    "status": "matched",
+    "acceptedMatches": [
+      {
+        "applicationId": "hivis",
+        "confidence": 97,
+        "evidence": [
+          "categoryId: hi-vis",
+          "EN ISO 20471 norm",
+          "Fabric for Safety Jackets Non Neon Colors",
+          "Application | Jacket",
+          "applicationImageLabels: Dark Navy Safety Jacket, Yellow-Navy Safety Jacket, Red Navy Safety Jacket"
+        ],
+        "rationale": "Explicitly categorized as hi-vis warp knit fabric for safety jackets, certified to EN ISO 20471, with jacket application images confirming direct high-visibility safety apparel use."
+      }
+    ],
+    "possibleButNotAccepted": [],
+    "noMatchReason": "",
+    "needsReview": false
+  }
+}
