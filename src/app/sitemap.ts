@@ -10,7 +10,7 @@
 
 import type { MetadataRoute } from 'next';
 import { APPLICATIONS } from '@/content/applications';
-import { getFamilySlugs } from '@/content/fabrics';
+import { FABRICS, getFamilySlugs } from '@/content/fabrics';
 
 const BASE_URL = 'https://ariteks.pl';
 
@@ -49,6 +49,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...getFamilySlugs().map((family) => ({
       plPath: `/fabrics/${family}`,
       enPath: `/fabrics/${family}`,
+    })),
+
+    ...FABRICS.map((fabric) => ({
+      plPath: `/fabrics/${fabric.subFamily}/${fabric.slug}`,
+      enPath: `/fabrics/${fabric.subFamily}/${fabric.slug}`,
     })),
   ];
 
