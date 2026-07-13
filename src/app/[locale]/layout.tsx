@@ -1,6 +1,6 @@
 // src/app/[locale]/layout.tsx
-// Layout jezykowy — v3: Header + Footer w drzewie, metadane SEO per jezyk
-// (tytul i opis z fraza "tkaniny specjalnego przeznaczenia"), hreflang pl<->eu.
+// Layout jezykowy — Header + Footer w drzewie, bazowe metadane SEO per jezyk.
+// Canonical i hreflang sa definiowane na poziomie konkretnych tras.
 
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
@@ -66,13 +66,6 @@ export async function generateMetadata({
       template: '%s — Ariteks',
     },
     description: SEO[loc].description,
-    alternates: {
-      // hreflang: kazda wersja jezykowa wskazuje siostrzana domene
-      languages: {
-        pl: 'https://ariteks.pl',
-        en: 'https://ariteks.eu',
-      },
-    },
     openGraph: {
       title: SEO[loc].title,
       description: SEO[loc].description,
