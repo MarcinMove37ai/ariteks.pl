@@ -17,6 +17,7 @@ const CERTS = [
   'OCS',
   'BCI',
 ] as const;
+const BASE_URL = 'https://ariteks.pl';
 
 export async function generateMetadata({
   params,
@@ -25,7 +26,22 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'about' });
-  return { title: t('meta.title') };
+
+  const plUrl = `${BASE_URL}/about`;
+  const enUrl = `${BASE_URL}/en/about`;
+  const canonical = locale === 'en' ? enUrl : plUrl;
+
+  return {
+    title: t('meta.title'),
+    alternates: {
+      canonical,
+      languages: {
+        pl: plUrl,
+        en: enUrl,
+        'x-default': plUrl,
+      },
+    },
+  };
 }
 
 export default async function AboutPage({
