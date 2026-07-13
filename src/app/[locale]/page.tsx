@@ -2,6 +2,7 @@
 // STRONA GLOWNA — v15: CTA jako wpuszczony ciemny panel na jasnym tle
 // (rytm zamkniecia: partnerzy/biel -> panel -> stopka).
 
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link, type Locale } from '@/i18n/routing';
@@ -17,6 +18,31 @@ const QUALIFICATION_KEYS = [
   'logistics',
   'support',
 ] as const;
+
+const BASE_URL = 'https://ariteks.pl';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+
+  const plUrl = `${BASE_URL}/`;
+  const enUrl = `${BASE_URL}/en`;
+  const canonical = locale === 'en' ? enUrl : plUrl;
+
+  return {
+    alternates: {
+      canonical,
+      languages: {
+        pl: plUrl,
+        en: enUrl,
+        'x-default': plUrl,
+      },
+    },
+  };
+}
 
 export default async function HomePage({
   params,
