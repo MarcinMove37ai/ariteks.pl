@@ -19,6 +19,16 @@ import {
 } from '@/content/applications';
 import { getApplicationMarketingContent } from '@/content/application-page-content';
 const BASE_URL = 'https://ariteks.pl';
+const T = {
+  home: {
+    pl: 'Strona główna',
+    en: 'Home',
+  },
+  breadcrumbLabel: {
+    pl: 'Okruszki nawigacyjne',
+    en: 'Breadcrumb navigation',
+  },
+} as const;
 // Statyczne generowanie: wszystkie branze x wszystkie jezyki
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -78,18 +88,97 @@ export default async function ApplicationPage({
       app.id as ApplicationId,
     );
   const highlights = getApplicationHighlights(
-    app.id as ApplicationId,
-  );
+  app.id as ApplicationId,
+);
 
-  return (
+const localeBaseUrl = loc === 'en' ? `${BASE_URL}/en` : BASE_URL;
+const applicationsUrl = `${localeBaseUrl}/#industries`;
+const applicationUrl =
+  `${localeBaseUrl}/applications/${app.slug[loc]}`;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  '@id': `${applicationUrl}#breadcrumb`,
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: T.home[loc],
+      item: localeBaseUrl,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: nav('applications'),
+      item: applicationsUrl,
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: app.name[loc],
+      item: applicationUrl,
+    },
+  ],
+};
+
+return (
+  <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(breadcrumbJsonLd).replace(
+          /</g,
+          '\\u003c'
+        ),
+      }}
+    />
+
     <main>
       {/* ==================== HERO ==================== */}
       <section className="mesh-dark relative overflow-hidden">
         <div className="container-site grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-0">
           <div className="lg:py-24">
-            <p className="eyebrow eyebrow-dark">
-              {nav('applications')} · {app.name[loc]}
-            </p>
+            <nav
+              aria-label={T.breadcrumbLabel[loc]}
+              className="eyebrow eyebrow-dark"
+            >
+              <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <li>
+                  <Link
+                    href="/"
+                    className="transition-colors hover:text-red-400"
+                  >
+                    {T.home[loc]}
+                  </Link>
+                </li>
+
+                <li aria-hidden="true" className="text-carbon-500">
+                  ›
+                </li>
+
+                <li>
+                  <Link
+                    href="/#industries"
+                    className="transition-colors hover:text-red-400"
+                  >
+                    {nav('applications')}
+                  </Link>
+                </li>
+
+                <li aria-hidden="true" className="text-carbon-500">
+                  ›
+                </li>
+
+                <li
+                  aria-current="page"
+                  className="max-w-[300px] truncate text-carbon-300 sm:max-w-md"
+                  title={app.name[loc]}
+                >
+                  {app.name[loc]}
+                </li>
+              </ol>
+            </nav>
 
             <h1 className="mt-6 font-display text-display-xl font-bold text-white text-balance">
               {content ? content.heroTitle[loc] : app.name[loc]}
@@ -219,5 +308,6 @@ export default async function ApplicationPage({
         </div>
       </section>
     </main>
-  );
+  </>
+);
 }

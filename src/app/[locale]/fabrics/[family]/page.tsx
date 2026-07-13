@@ -26,7 +26,12 @@ const ASSETS = ASSETS_RAW as Record<
 >;
 const BASE_URL = 'https://ariteks.pl';
 const T = {
-  catalogue: { pl: 'Katalog', en: 'Catalogue' },
+  home: { pl: 'Strona główna', en: 'Home' },
+  catalogue: { pl: 'Katalog tkanin', en: 'Fabric catalogue' },
+  breadcrumbLabel: {
+    pl: 'Okruszki nawigacyjne',
+    en: 'Breadcrumb navigation',
+  },
   variants: { pl: 'Warianty w rodzinie', en: 'Variants in this family' },
   variantsCount: { pl: 'wariantów', en: 'variants' },
   norms: { pl: 'Normy w rodzinie', en: 'Family standards' },
@@ -100,21 +105,92 @@ export default async function FamilyPage({
     .map((f) => f.weightGsm)
     .filter((w): w is number => w !== null);
   const wMin = weights.length ? Math.min(...weights) : null;
-  const wMax = weights.length ? Math.max(...weights) : null;
+const wMax = weights.length ? Math.max(...weights) : null;
 
-  return (
+const localeBaseUrl = loc === 'en' ? `${BASE_URL}/en` : BASE_URL;
+const catalogueUrl = `${localeBaseUrl}/fabrics`;
+const familyUrl = `${catalogueUrl}/${family}`;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  '@id': `${familyUrl}#breadcrumb`,
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: T.home[loc],
+      item: localeBaseUrl,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: T.catalogue[loc],
+      item: catalogueUrl,
+    },
+    {
+      '@type': 'ListItem',
+      position: 3,
+      name: fam.name,
+      item: familyUrl,
+    },
+  ],
+};
+
+return (
+  <>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, '\\u003c'),
+      }}
+    />
+
     <main>
       {/* ==================== HERO ==================== */}
       <section className="mesh-dark relative overflow-hidden">
         <div className="container-site grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:py-0">
           <div className="lg:py-24">
-            <p className="eyebrow eyebrow-dark">
-              <Link href="/fabrics" className="transition-colors hover:text-red-400">
-                {T.catalogue[loc]}
-              </Link>
-              {' · '}
-              {fam.name}
-            </p>
+            <nav
+              aria-label={T.breadcrumbLabel[loc]}
+              className="eyebrow eyebrow-dark"
+            >
+              <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <li>
+                  <Link
+                    href="/"
+                    className="transition-colors hover:text-red-400"
+                  >
+                    {T.home[loc]}
+                  </Link>
+                </li>
+
+                <li aria-hidden="true" className="text-carbon-500">
+                  ›
+                </li>
+
+                <li>
+                  <Link
+                    href="/fabrics"
+                    className="transition-colors hover:text-red-400"
+                  >
+                    {T.catalogue[loc]}
+                  </Link>
+                </li>
+
+                <li aria-hidden="true" className="text-carbon-500">
+                  ›
+                </li>
+
+                <li
+                  aria-current="page"
+                  className="max-w-[320px] truncate text-carbon-300 sm:max-w-md"
+                  title={fam.name}
+                >
+                  {fam.name}
+                </li>
+              </ol>
+            </nav>
 
             <h1 className="mt-6 font-display text-display-xl font-bold text-white text-balance">
               {fam.name}
@@ -276,5 +352,6 @@ export default async function FamilyPage({
         </div>
       </section>
     </main>
-  );
+  </>
+);
 }

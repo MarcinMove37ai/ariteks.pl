@@ -158,7 +158,12 @@ async function loadRecord(recordUrl: string): Promise<FabricRecord | null> {
 // ------------------------------ etykiety UI -------------------------------
 
 const T = {
-  catalogue: { pl: 'Katalog', en: 'Catalogue' },
+  home: { pl: 'Strona główna', en: 'Home' },
+  catalogue: { pl: 'Katalog tkanin', en: 'Fabric catalogue' },
+  breadcrumbLabel: {
+    pl: 'Okruszki nawigacyjne',
+    en: 'Breadcrumb navigation',
+  },
   description: { pl: 'Opis', en: 'Description' },
   quickFacts: { pl: 'Specyfikacja', en: 'Specification' },
   weight: { pl: 'Gramatura', en: 'Weight' },
@@ -333,21 +338,112 @@ export default async function FabricPage({
   );
 
   const docLabel = (d: TechDoc) =>
-    (d.label || d.title || '').replace(/^>+\s*/, '').trim() || T.openDoc[loc];
+  (d.label || d.title || '').replace(/^>+\s*/, '').trim() || T.openDoc[loc];
 
-  return (
+    const localeBaseUrl = loc === 'en' ? `${BASE_URL}/en` : BASE_URL;
+    const catalogueUrl = `${localeBaseUrl}/fabrics`;
+    const familyUrl = `${catalogueUrl}/${family}`;
+    const productUrl = `${familyUrl}/${slug}`;
+
+    const breadcrumbJsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      '@id': `${productUrl}#breadcrumb`,
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: T.home[loc],
+          item: localeBaseUrl,
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: T.catalogue[loc],
+          item: catalogueUrl,
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: fam.name,
+          item: familyUrl,
+        },
+        {
+          '@type': 'ListItem',
+          position: 4,
+          name,
+          item: productUrl,
+        },
+      ],
+    };
+
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, '\\u003c'),
+          }}
+        />
+
     <main>
       {/* ==================== HERO ==================== */}
       <section className="mesh-dark relative overflow-hidden">
         <div className="container-site grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16 lg:py-0">
           <div className="lg:py-24">
-            <p className="eyebrow eyebrow-dark">
-              <Link href="/fabrics" className="transition-colors hover:text-red-400">
-                {T.catalogue[loc]}
-              </Link>
-              {' · '}
-              <span>{fam.name}</span>
-            </p>
+            <nav
+              aria-label={T.breadcrumbLabel[loc]}
+              className="eyebrow eyebrow-dark"
+            >
+              <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                <li>
+                  <Link
+                    href="/"
+                    className="transition-colors hover:text-red-400"
+                  >
+                    {T.home[loc]}
+                  </Link>
+                </li>
+
+                <li aria-hidden="true" className="text-carbon-500">
+                  ›
+                </li>
+
+                <li>
+                  <Link
+                    href="/fabrics"
+                    className="transition-colors hover:text-red-400"
+                  >
+                    {T.catalogue[loc]}
+                  </Link>
+                </li>
+
+                <li aria-hidden="true" className="text-carbon-500">
+                  ›
+                </li>
+
+                <li>
+                  <Link
+                    href={`/fabrics/${family}`}
+                    className="transition-colors hover:text-red-400"
+                  >
+                    {fam.name}
+                  </Link>
+                </li>
+
+                <li aria-hidden="true" className="text-carbon-500">
+                  ›
+                </li>
+
+                <li
+                  aria-current="page"
+                  className="max-w-[260px] truncate text-carbon-300 sm:max-w-md"
+                  title={name}
+                >
+                  {name}
+                </li>
+              </ol>
+            </nav>
 
             <h1 className="mt-6 font-display text-display-xl font-bold text-white text-balance">
               {name}
@@ -831,6 +927,7 @@ export default async function FabricPage({
           </div>
         </div>
       </section>
-    </main>
-  );
+        </main>
+  </>
+);
 }

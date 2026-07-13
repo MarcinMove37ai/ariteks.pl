@@ -6,6 +6,8 @@ import {
   NORM_GROUPS,
 } from '@/content/certificates';
 import CertArchive from '@/components/CertArchive';
+import { FABRICS } from '@/content/fabrics';
+import STANDARDS_USAGE_RAW from '@/content/standards-usage.generated.json';
 
 const BASE_URL = 'https://ariteks.pl';
 
@@ -13,11 +15,481 @@ const PRODUCT_COUNT = 159;
 const PRODUCT_STANDARD_REFERENCES = 3058;
 const RAW_STANDARD_DESIGNATIONS = 75;
 
-type SourceNormItem = (typeof NORM_GROUPS)[number]['items'][number];
-
-type CuratedNormItem = SourceNormItem & {
-  dedupeKey: string;
+type StandardUsageItem = {
+  standard: string;
+  aliases: string[];
+  productCount: number;
+  products: string[];
+  icon: string | null;
 };
+
+type StandardsUsageData = {
+  standards: StandardUsageItem[];
+  icons: Record<
+    string,
+    {
+      url: string;
+      productCount: number;
+      labels: string[];
+    }
+  >;
+};
+
+type StandardTableItem = {
+  anchor: string;
+  test: Record<Locale, string>;
+  usage: StandardUsageItem;
+  sourceStandard: string | null;
+};
+
+type StandardTableGroup = {
+  id: string;
+  category: Record<Locale, string>;
+  items: StandardTableItem[];
+};
+
+const STANDARDS_USAGE =
+  STANDARDS_USAGE_RAW as StandardsUsageData;
+
+const FABRIC_BY_SLUG = new Map(
+  FABRICS.map((fabric) => [fabric.slug, fabric] as const)
+);
+
+function standardKey(value: string): string {
+  return value
+    .trim()
+    .replace(/\s+/g, ' ')
+    .toUpperCase();
+}
+
+const STANDARD_USAGE_BY_KEY =
+  new Map<string, StandardUsageItem>();
+
+for (const item of STANDARDS_USAGE.standards) {
+  for (const name of [item.standard, ...item.aliases]) {
+    STANDARD_USAGE_BY_KEY.set(standardKey(name), item);
+  }
+}
+
+/**
+ * Łączy uproszczone oznaczenia z listy certyfikatów z kanonicznymi
+ * oznaczeniami odzyskanymi z 3058 rekordów parametrów technicznych.
+ *
+ * Mapujemy tylko warianty zapisu lub ogólne oznaczenie rodziny normy.
+ * Nie łączymy różnych części norm tylko dlatego, że opisują podobne badanie.
+ */
+const CERTIFICATE_STANDARD_TARGETS: Record<string, string> = {
+  [standardKey('ISO 2060')]: 'EN ISO 2060',
+  [standardKey('ISO 105 B02')]: 'EN ISO 105 B02',
+  [standardKey('ISO 105 X12')]: 'EN ISO 105 X12',
+  [standardKey('ISO 105 E04')]: 'EN ISO 105 E04',
+  [standardKey('ISO 105 C06')]: 'EN ISO 105 C06',
+  [standardKey('ISO 105 N01')]: 'EN ISO 105 N01',
+  [standardKey('ISO 105 N02')]: 'EN ISO 105 N02',
+  [standardKey('ISO 105 X11')]: 'EN ISO 105 X11',
+  [standardKey('ISO 105 D01')]: 'EN ISO 105 D01',
+  [standardKey('ISO 13934-1')]: 'EN ISO 13934-1',
+  [standardKey('ISO 13938-1')]: 'EN ISO 13938-1',
+  [standardKey('ISO 14362-1')]: 'EN ISO 14362-1',
+  [standardKey('ISO 1833-1')]: 'EN ISO 1833',
+  [standardKey('EN 11611')]: 'EN ISO 11611',
+  [standardKey('EN 11612')]: 'EN ISO 11612',
+  [standardKey('EN 61482')]: 'EN ISO 61482-1-2',
+  [standardKey('EN 343')]: 'EN ISO 343',
+  [standardKey('EN 20471')]: 'EN ISO 20471',
+  [standardKey('EN 1149')]: 'EN ISO 1149-5',
+  [standardKey('EN 13034')]: 'EN ISO 13034',
+  [standardKey('EN 469')]: 'EN ISO 469',
+  [standardKey('EN 14126')]: 'EN ISO 14126',
+  [standardKey('DIN 4102 B1')]: 'DIN 4102-1',
+};
+
+const CERTIFICATE_ICON_STEMS: Record<string, string> = {
+  [standardKey('EN 1149')]: 'en-1149-3',
+  [standardKey('EN 11611')]: 'en-11611',
+  [standardKey('EN 11612')]: 'en-11612',
+  [standardKey('EN 61482')]: 'en-61482-1-2',
+  [standardKey('EN 343')]: 'en-343',
+  [standardKey('EN 20471')]: 'en-20471',
+  [standardKey('EN 13034')]: 'en-13034',
+  [standardKey('EN 14116')]: 'en-14116',
+  [standardKey('EN 469')]: 'en-469',
+  [standardKey('EN 14126')]: 'en-14126',
+  [standardKey('EN 14683')]: 'en-14683',
+  [standardKey('ISO 18184')]: 'iso-18184',
+};
+
+const STANDARD_TEST_FALLBACKS: Record<
+  string,
+  Record<Locale, string>
+> = {
+  [standardKey('EN ISO 3071')]: {
+    pl: 'Oznaczanie pH',
+    en: 'Determination of pH',
+  },
+  [standardKey('EN ISO 5077')]: {
+    pl: 'Zmiana wymiarów po praniu i suszeniu',
+    en: 'Dimensional change after washing and drying',
+  },
+  [standardKey('EN ISO 3081')]: {
+    pl: 'Masa materiału',
+    en: 'Material weight',
+  },
+  [standardKey('EN ISO 3932')]: {
+    pl: 'Szerokość materiału',
+    en: 'Fabric width',
+  },
+  [standardKey('EN ISO 13937-2')]: {
+    pl: 'Wytrzymałość na rozdzieranie',
+    en: 'Tear strength',
+  },
+  [standardKey('EN ISO 105 B07')]: {
+    pl: 'Odporność wybarwień na światło i pot',
+    en: 'Colour fastness to light and perspiration',
+  },
+  [standardKey('EN ISO 61482-1-1')]: {
+    pl: 'Odporność na łuk elektryczny — ATPV',
+    en: 'Arc protection — ATPV',
+  },
+  [standardKey('EN 530')]: {
+    pl: 'Odporność na ścieranie',
+    en: 'Abrasion resistance',
+  },
+  [standardKey('EN 12127')]: {
+    pl: 'Masa powierzchniowa',
+    en: 'Mass per unit area',
+  },
+  [standardKey('EN ISO 105 C01')]: {
+    pl: 'Odporność wybarwień na pranie',
+    en: 'Colour fastness to washing',
+  },
+  [standardKey('EN ISO 105 B04')]: {
+    pl: 'Odporność na sztuczne warunki atmosferyczne',
+    en: 'Colour fastness to artificial weathering',
+  },
+  [standardKey('EN ISO 24920')]: {
+    pl: 'Test zraszania',
+    en: 'Spray test',
+  },
+  [standardKey('EN ISO 4920')]: {
+    pl: 'Odporność powierzchni na zwilżanie',
+    en: 'Resistance to surface wetting',
+  },
+  [standardKey('EN ISO 12947-2')]: {
+    pl: 'Odporność na ścieranie metodą Martindale’a',
+    en: 'Martindale abrasion resistance',
+  },
+  [standardKey('EN ISO 13937-4')]: {
+    pl: 'Wytrzymałość na rozdzieranie',
+    en: 'Tear strength',
+  },
+  [standardKey('EN 388')]: {
+    pl: 'Odporność na przecięcie',
+    en: 'Cut resistance',
+  },
+  [standardKey('EN ISO 15614')]: {
+    pl: 'Odzież dla strażaków leśnych',
+    en: 'Wildland firefighter clothing',
+  },
+  [standardKey('EN ISO 20811')]: {
+    pl: 'Odporność na przenikanie wody',
+    en: 'Resistance to water penetration',
+  },
+  [standardKey('EN 13795')]: {
+    pl: 'Odzież do środowisk kontrolowanych',
+    en: 'Controlled-environment clothing',
+  },
+  [standardKey('EN 17092')]: {
+    pl: 'Odzież ochronna dla motocyklistów',
+    en: 'Protective garments for motorcyclists',
+  },
+  [standardKey('EN 61340')]: {
+    pl: 'Ochrona elektrostatyczna ESD',
+    en: 'Electrostatic protection — ESD',
+  },
+  [standardKey('EN ISO 12945-2')]: {
+    pl: 'Odporność na mechacenie',
+    en: 'Pilling resistance',
+  },
+  [standardKey('IEC 60895')]: {
+    pl: 'Odzież przewodząca do prac pod napięciem',
+    en: 'Conductive clothing for live working',
+  },
+  [standardKey('EN ISO 22313')]: {
+    pl: 'Powrót po zagnieceniu',
+    en: 'Recovery from creasing',
+  },
+  [standardKey('EN ISO 9237')]: {
+    pl: 'Przepuszczalność powietrza',
+    en: 'Air permeability',
+  },
+  [standardKey('TS 3596:1981 /Madde 2.3.5')]: {
+    pl: 'Oznaczanie zawartości siarki',
+    en: 'Determination of sulphur content',
+  },
+};
+
+const PROTECTIVE_STANDARD_KEYS = new Set([
+  'AATCC 183',
+  'EN 388',
+  'EN 530',
+  'EN 61340',
+  'EN 17092',
+  'EN ISO 343',
+  'EN ISO 469',
+  'EN ISO 1149-5',
+  'EN ISO 11611',
+  'EN ISO 11612',
+  'EN ISO 13034',
+  'EN ISO 15614',
+  'EN ISO 20471',
+  'EN ISO 61482-1-1',
+  'EN ISO 61482-1-2',
+  'IEC 60895',
+].map(standardKey));
+
+const MEDICAL_STANDARD_KEYS = new Set([
+  'EN 13795',
+  'EN 14683',
+  'EN ISO 14126',
+  'ISO 18184',
+].map(standardKey));
+
+const BUILDING_STANDARD_KEYS = new Set([
+  'DIN 4102-1',
+].map(standardKey));
+
+const SPECIAL_STANDARD_KEYS = new Set([
+  'ISO 11721-1',
+  'TS 3596:1981 /Madde 2.3.5',
+].map(standardKey));
+
+const EXCLUDED_TECHNICAL_STANDARD_KEYS = new Set([
+  standardKey('ISO 9001'),
+]);
+
+function resolveStandardUsage(
+  displayStandard: string
+): StandardUsageItem | null {
+  const displayKey = standardKey(displayStandard);
+  const target =
+    CERTIFICATE_STANDARD_TARGETS[displayKey] ??
+    displayStandard;
+
+  return (
+    STANDARD_USAGE_BY_KEY.get(standardKey(target)) ??
+    STANDARD_USAGE_BY_KEY.get(displayKey) ??
+    null
+  );
+}
+
+function standardGroupId(standard: string): string {
+  const key = standardKey(standard);
+
+  if (PROTECTIVE_STANDARD_KEYS.has(key)) {
+    return 'protection';
+  }
+
+  if (MEDICAL_STANDARD_KEYS.has(key)) {
+    return 'medical';
+  }
+
+  if (BUILDING_STANDARD_KEYS.has(key)) {
+    return 'building';
+  }
+
+  if (SPECIAL_STANDARD_KEYS.has(key)) {
+    return 'new-lines';
+  }
+
+  return 'apparel';
+}
+
+function standardAnchor(standard: string): string {
+  return `norm-${standard
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')}`;
+}
+
+function getStandardIcon(
+  usage: StandardUsageItem,
+  sourceStandard: string | null
+): string | null {
+  if (usage.icon) {
+    return usage.icon;
+  }
+
+  const sourceKey = sourceStandard
+    ? standardKey(sourceStandard)
+    : standardKey(usage.standard);
+
+  const iconStem =
+    CERTIFICATE_ICON_STEMS[sourceKey] ??
+    CERTIFICATE_ICON_STEMS[standardKey(usage.standard)];
+
+  return iconStem
+    ? STANDARDS_USAGE.icons[iconStem]?.url ?? null
+    : null;
+}
+
+function buildStandardTableGroups(): StandardTableGroup[] {
+  const sourcePresentationByUsage =
+    new Map<
+      string,
+      {
+        anchor: string;
+        test: Record<Locale, string>;
+        sourceStandard: string;
+      }
+    >();
+
+  for (const group of NORM_GROUPS) {
+    for (const item of group.items) {
+      const usage = resolveStandardUsage(item.standard);
+
+      if (!usage) {
+        continue;
+      }
+
+      const usageKey = standardKey(usage.standard);
+
+      if (EXCLUDED_TECHNICAL_STANDARD_KEYS.has(usageKey)) {
+        continue;
+      }
+
+      if (!sourcePresentationByUsage.has(usageKey)) {
+        sourcePresentationByUsage.set(usageKey, {
+          anchor: item.anchor,
+          test: item.test,
+          sourceStandard: item.standard,
+        });
+      }
+    }
+  }
+
+  const groupMeta = new Map(
+    NORM_GROUPS.map((group) => [
+      group.id,
+      {
+        id: group.id,
+        category: group.category,
+      },
+    ] as const)
+  );
+
+  const grouped = new Map<string, StandardTableItem[]>();
+
+  for (const usage of STANDARDS_USAGE.standards) {
+    const usageKey = standardKey(usage.standard);
+
+    if (EXCLUDED_TECHNICAL_STANDARD_KEYS.has(usageKey)) {
+      continue;
+    }
+
+    const source =
+      sourcePresentationByUsage.get(usageKey);
+
+    const groupId = standardGroupId(usage.standard);
+    const items = grouped.get(groupId) ?? [];
+
+    items.push({
+      anchor:
+        source?.anchor ??
+        standardAnchor(usage.standard),
+      test:
+        source?.test ??
+        STANDARD_TEST_FALLBACKS[usageKey] ?? {
+          pl: 'Norma lub metoda badawcza stosowana w kartach produktowych',
+          en: 'Standard or test method used in product records',
+        },
+      usage,
+      sourceStandard:
+        source?.sourceStandard ?? null,
+    });
+
+    grouped.set(groupId, items);
+  }
+
+  const order = [
+      'protection',
+      'medical',
+      'building',
+      'apparel',
+      'new-lines',
+  ];
+
+  return order.flatMap((groupId) => {
+    const items = grouped.get(groupId) ?? [];
+    const meta = groupMeta.get(groupId);
+
+    if (!meta || items.length === 0) {
+      return [];
+    }
+
+    return [
+      {
+        ...meta,
+        items: items.sort(
+          (a, b) =>
+            b.usage.productCount -
+              a.usage.productCount ||
+            a.usage.standard.localeCompare(
+              b.usage.standard
+            )
+        ),
+      },
+    ];
+  });
+}
+
+const STANDARD_TABLE_GROUPS =
+  buildStandardTableGroups();
+
+function fabricCountLabel(
+  count: number,
+  locale: Locale
+): string {
+  if (locale === 'en') {
+    return `${count} ${count === 1 ? 'fabric' : 'fabrics'}`;
+  }
+
+  if (count === 1) {
+    return '1 tkanina';
+  }
+
+  const mod10 = count % 10;
+  const mod100 = count % 100;
+
+  if (
+    mod10 >= 2 &&
+    mod10 <= 4 &&
+    (mod100 < 12 || mod100 > 14)
+  ) {
+    return `${count} tkaniny`;
+  }
+
+  return `${count} tkanin`;
+}
+
+function StandardFallbackIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="h-7 w-7"
+      aria-hidden="true"
+    >
+      <path d="M9 3h6" />
+      <path d="M10 3v5l-5 9a2.7 2.7 0 0 0 2.35 4h9.3A2.7 2.7 0 0 0 19 17l-5-9V3" />
+      <path d="M7.5 15h9" />
+    </svg>
+  );
+}
 
 const COPY = {
   meta: {
@@ -78,14 +550,6 @@ const COPY = {
     rawStandards: {
       pl: 'źródłowych oznaczeń norm i metod',
       en: 'source standard and method designations',
-    },
-    curatedStandards: {
-      pl: 'uporządkowanych pozycji na tej stronie',
-      en: 'curated entries on this page',
-    },
-    documents: {
-      pl: 'certyfikatów, potwierdzeń i wydań',
-      en: 'certificates, confirmations and editions',
     },
     oeko: {
       pl: 'historia dokumentacji OEKO-TEX od',
@@ -167,20 +631,28 @@ const COPY = {
       en: 'Standards and test methods by application',
     },
     lead: {
-      pl: 'Poniżej prezentujemy uporządkowaną i zdeduplikowaną listę metod oraz oznaczeń związanych z ofertą Ariteks. W źródłowych kartach produktów występuje 75 wariantów zapisu, w tym przedrostki krajowe, części norm i alternatywne oznaczenia.',
-      en: 'Below is a structured and deduplicated list of methods and designations connected with the Ariteks range. Product source records contain 75 notation variants, including national prefixes, standard parts and alternative designations.',
+      pl: 'Poniżej prezentujemy normy i metody badawcze występujące w kartach produktów Ariteks, uporządkowane według zastosowania.',
+      en: 'Below are the standards and test methods found in Ariteks product records, organised by application.',
     },
     additionalGroup: {
       pl: 'Dodatkowe metody występujące w aktualnym katalogu',
       en: 'Additional methods found in the current catalogue',
     },
-    note: {
-      pl: 'Liczba 75 opisuje różne oznaczenia występujące w źródłowych danych produktowych, a nie 75 całkowicie niezależnych norm. Tabela poniżej porządkuje duplikaty i równoważne zapisy.',
-      en: 'The number 75 describes different designations found in source product data, not 75 entirely independent standards. The table below organises duplicates and equivalent notation.',
-    },
     entries: {
       pl: 'pozycji',
       en: 'entries',
+    },
+    relatedFabrics: {
+      pl: 'Powiązane tkaniny',
+      en: 'Related fabrics',
+    },
+    viewAll: {
+      pl: 'Pokaż wszystkie',
+      en: 'View all',
+    },
+    catalogue: {
+      pl: 'Otwórz katalog',
+      en: 'Open catalogue',
     },
   },
 
@@ -254,65 +726,6 @@ function absoluteUrl(path: string) {
 
   return `${BASE_URL}${path.startsWith('/') ? path : `/${path}`}`;
 }
-
-function canonicaliseNorm(item: SourceNormItem): CuratedNormItem {
-  const compact = item.standard.trim().replace(/\s+/g, ' ');
-  const upper = compact.toUpperCase();
-
-  if (upper === 'DIN 4102 B1' || upper === 'DIN 4102-1') {
-    return {
-      ...item,
-      standard: 'DIN 4102-1 · B1',
-      anchor: 'norm-din-4102-1',
-      dedupeKey: 'DIN 4102-1',
-    };
-  }
-
-  return {
-    ...item,
-    standard: compact,
-    dedupeKey: upper,
-  };
-}
-
-function buildCuratedNormGroups() {
-  const seen = new Set<string>();
-
-  return NORM_GROUPS.map((group) => {
-    const items = group.items
-      .map(canonicaliseNorm)
-      .filter((item) => {
-        if (seen.has(item.dedupeKey)) {
-          return false;
-        }
-
-        seen.add(item.dedupeKey);
-        return true;
-      });
-
-    return {
-      ...group,
-      items,
-    };
-  }).filter((group) => group.items.length > 0);
-}
-
-const CURATED_NORM_GROUPS = buildCuratedNormGroups();
-
-const CURATED_STANDARD_COUNT = CURATED_NORM_GROUPS.reduce(
-  (sum, group) => sum + group.items.length,
-  0
-);
-
-const DOCUMENT_COUNT = CERT_BLOCKS.reduce(
-  (total, block) =>
-    total +
-    block.cards.reduce(
-      (blockTotal, card) => blockTotal + 1 + card.archive.length,
-      0
-    ),
-  0
-);
 
 function formatLargeNumber(value: number, locale: Locale) {
   if (value === 3058) {
@@ -568,14 +981,6 @@ export default async function CertificatesPage({
       label: COPY.stats.rawStandards[locale],
     },
     {
-      value: String(CURATED_STANDARD_COUNT),
-      label: COPY.stats.curatedStandards[locale],
-    },
-    {
-      value: String(DOCUMENT_COUNT),
-      label: COPY.stats.documents[locale],
-    },
-    {
       value: '2009',
       label: COPY.stats.oeko[locale],
     },
@@ -661,7 +1066,7 @@ export default async function CertificatesPage({
               {COPY.stats.heading[locale]}
             </h2>
 
-            <dl className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-3 lg:grid-cols-6">
+            <dl className="grid grid-cols-2 gap-x-6 gap-y-8 lg:grid-cols-4">
               {stats.map((stat) => (
                 <div
                   key={stat.label}
@@ -907,39 +1312,18 @@ export default async function CertificatesPage({
             </div>
 
             <aside className="rounded-lg bg-carbon-950 p-6 text-paper shadow-card">
-              <div className="grid grid-cols-2 gap-5">
-                <div>
-                  <p className="font-display text-4xl">
-                    {RAW_STANDARD_DESIGNATIONS}
-                  </p>
-                  <p className="mt-2 font-mono text-[10px] uppercase leading-relaxed tracking-wider text-carbon-300">
-                    {COPY.stats.rawStandards[locale]}
-                  </p>
-                </div>
+              <p className="font-display text-4xl">
+                {RAW_STANDARD_DESIGNATIONS}
+              </p>
 
-                <div>
-                  <p className="font-display text-4xl">
-                    {CURATED_STANDARD_COUNT}
-                  </p>
-                  <p className="mt-2 font-mono text-[10px] uppercase leading-relaxed tracking-wider text-carbon-300">
-                    {COPY.stats.curatedStandards[locale]}
-                  </p>
-                </div>
-              </div>
+              <p className="mt-2 max-w-[220px] font-mono text-[10px] uppercase leading-relaxed tracking-wider text-carbon-300">
+                {COPY.stats.rawStandards[locale]}
+              </p>
             </aside>
           </div>
 
-          <div className="mt-8 rounded-lg border border-carbon-200 bg-white p-5">
-            <p className="text-sm leading-relaxed text-ink">
-              <strong className="text-carbon-950">
-                {locale === 'pl' ? 'Metodologia: ' : 'Methodology: '}
-              </strong>
-              {COPY.standards.note[locale]}
-            </p>
-          </div>
-
           <div className="mt-12 space-y-12">
-            {CURATED_NORM_GROUPS.map((group) => {
+            {STANDARD_TABLE_GROUPS.map((group) => {
               const groupName =
                 group.id === 'new-lines'
                   ? COPY.standards.additionalGroup[locale]
@@ -965,9 +1349,18 @@ export default async function CertificatesPage({
                   </div>
 
                   <div className="overflow-x-auto rounded-lg border border-carbon-100 bg-white shadow-card">
-                    <table className="w-full min-w-[600px] text-left text-sm">
+                    <table className="w-full min-w-[980px] text-left text-sm">
                       <thead>
                         <tr className="border-b border-carbon-100 bg-paper">
+                          <th
+                            scope="col"
+                            className="w-[84px] px-5 py-3"
+                          >
+                            <span className="sr-only">
+                              {locale === 'pl' ? 'Ikona' : 'Icon'}
+                            </span>
+                          </th>
+
                           <th
                             scope="col"
                             className="px-5 py-3 font-mono text-[11px] uppercase tracking-wider text-steel"
@@ -977,29 +1370,144 @@ export default async function CertificatesPage({
 
                           <th
                             scope="col"
-                            className="px-5 py-3 text-right font-mono text-[11px] uppercase tracking-wider text-steel"
+                            className="w-[190px] px-5 py-3 font-mono text-[11px] uppercase tracking-wider text-steel"
                           >
                             {CERT_UI.colStandard[locale]}
+                          </th>
+
+                          <th
+                            scope="col"
+                            className="min-w-[330px] px-5 py-3 font-mono text-[11px] uppercase tracking-wider text-steel"
+                          >
+                            {COPY.standards.relatedFabrics[locale]}
                           </th>
                         </tr>
                       </thead>
 
                       <tbody>
-                        {group.items.map((item) => (
-                          <tr
-                            key={item.anchor}
-                            id={item.anchor}
-                            className="scroll-mt-24 border-b border-carbon-100 last:border-0 target:bg-paper"
-                          >
-                            <td className="px-5 py-3.5 leading-relaxed text-ink">
-                              {item.test[locale]}
-                            </td>
+                        {group.items.map((item) => {
+                          const usage = item.usage;
 
-                            <td className="whitespace-nowrap px-5 py-3.5 text-right font-mono text-xs font-medium text-carbon-950">
-                              {item.standard}
-                            </td>
-                          </tr>
-                        ))}
+                          const products =
+                            usage.products.flatMap(
+                              (slug) => {
+                                const fabric =
+                                  FABRIC_BY_SLUG.get(slug);
+
+                                return fabric ? [fabric] : [];
+                              }
+                            );
+
+                          const sampleProducts =
+                            products.slice(0, 3);
+
+                          const filterHref =
+                            products.length >= 2 &&
+                            products.length < FABRICS.length
+                              ? `/fabrics?standard=${encodeURIComponent(
+                                  usage.standard
+                                )}`
+                              : null;
+
+                          const catalogueHref =
+                            products.length === FABRICS.length
+                              ? '/fabrics'
+                              : null;
+
+                          const icon = getStandardIcon(
+                            usage,
+                            item.sourceStandard
+                          );
+
+                          return (
+                            <tr
+                              key={item.anchor}
+                              id={item.anchor}
+                              className="scroll-mt-24 border-b border-carbon-100 align-top last:border-0 target:bg-paper"
+                            >
+                              <td className="w-[84px] px-5 py-4">
+                                <div className="flex h-12 w-12 items-center justify-center rounded border border-carbon-100 bg-paper text-steel">
+                                  {icon ? (
+                                    /* eslint-disable-next-line @next/next/no-img-element */
+                                    <img
+                                      src={icon}
+                                      alt=""
+                                      width={48}
+                                      height={48}
+                                      loading="lazy"
+                                      decoding="async"
+                                      className="h-10 w-10 object-contain"
+                                      aria-hidden="true"
+                                    />
+                                  ) : (
+                                    <StandardFallbackIcon />
+                                  )}
+                                </div>
+                              </td>
+
+                              <td className="px-5 py-4 leading-relaxed text-ink">
+                                {item.test[locale]}
+                              </td>
+
+                              <td className="whitespace-nowrap px-5 py-4 font-mono text-xs font-medium text-carbon-950">
+                                {usage.standard}
+                              </td>
+
+                              <td className="min-w-[330px] px-5 py-4">
+                                <div>
+                                  <div className="flex flex-wrap gap-x-3 gap-y-1.5">
+                                    {sampleProducts.map(
+                                      (fabric) => (
+                                        <Link
+                                          key={fabric.slug}
+                                          href={`/fabrics/${fabric.subFamily}/${fabric.slug}`}
+                                          className="font-medium text-carbon-950 underline decoration-carbon-300 underline-offset-4 transition-colors hover:text-red hover:decoration-red"
+                                        >
+                                          {fabric.name}
+                                        </Link>
+                                      )
+                                    )}
+                                  </div>
+
+                                  <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+                                    <span className="font-mono text-[10px] uppercase tracking-wider text-steel">
+                                      {fabricCountLabel(
+                                        products.length,
+                                        locale
+                                      )}
+                                    </span>
+
+                                    {filterHref && (
+                                      <Link
+                                        href={filterHref}
+                                        className="font-mono text-[10px] font-medium uppercase tracking-wider text-red transition-colors hover:text-carbon-950"
+                                      >
+                                        {
+                                          COPY.standards
+                                            .viewAll[locale]
+                                        }{' '}
+                                        <span aria-hidden>→</span>
+                                      </Link>
+                                    )}
+
+                                    {catalogueHref && (
+                                      <Link
+                                        href={catalogueHref}
+                                        className="font-mono text-[10px] font-medium uppercase tracking-wider text-red transition-colors hover:text-carbon-950"
+                                      >
+                                        {
+                                          COPY.standards
+                                            .catalogue[locale]
+                                        }{' '}
+                                        <span aria-hidden>→</span>
+                                      </Link>
+                                    )}
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          );
+                        })}
                       </tbody>
                     </table>
                   </div>

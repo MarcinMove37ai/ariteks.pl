@@ -36,7 +36,7 @@ import {
 import { RFQ_INDUSTRIES } from '@/content/rfq';
 import { getApplicationsForFabric } from '@/lib/fabricApplications';
 import PL_RAW from "@/content/fabrics-pl.json";
-
+import STANDARDS_USAGE_RAW from "@/content/standards-usage.generated.json";
 // Tlumaczenia PL — do szukajki wchodza krotkie pola per produkt
 // (descriptor + spec). Szukanie jest UNIWERSALNE: niezaleznie od jezyka
 // strony przeszukujemy PL i EN jednoczesnie.
@@ -45,6 +45,86 @@ const PL_PRODUCTS = (
     products: Record<string, { descriptor?: string; spec?: string }>;
   }
 ).products;
+
+type StandardUsageItem = {
+  standard: string;
+  aliases: string[];
+  productCount: number;
+  products: string[];
+};
+
+type StandardsUsageData = {
+  standards: StandardUsageItem[];
+};
+
+const STANDARDS_USAGE =
+  STANDARDS_USAGE_RAW as StandardsUsageData;
+
+function standardKey(value: string): string {
+  return value
+    .trim()
+    .replace(/\s+/g, " ")
+    .toUpperCase();
+}
+
+/**
+ * W panelu filtrów pokazujemy tylko normy, które:
+ * - dotyczą co najmniej 2 produktów,
+ * - nie dotyczą wszystkich produktów.
+ *
+ * Normy z 1 produktem pozostają wyszukiwalne tekstowo.
+ * Normy dotyczące wszystkich 159 produktów nie zawężają katalogu.
+ */
+const FILTERABLE_STANDARD_ITEMS =
+  STANDARDS_USAGE.standards.filter(
+    (item) =>
+      item.productCount >= 2 &&
+      item.productCount < FABRICS.length,
+  );
+
+const FILTERABLE_STANDARD_NAMES = new Set(
+  FILTERABLE_STANDARD_ITEMS.map((item) => item.standard),
+);
+
+const STANDARD_CANONICAL_BY_ALIAS = new Map<string, string>();
+const STANDARDS_BY_PRODUCT = new Map<string, Set<string>>();
+const STANDARD_SEARCH_TERMS_BY_PRODUCT =
+  new Map<string, Set<string>>();
+
+for (const item of STANDARDS_USAGE.standards) {
+  const names = new Set([
+    item.standard,
+    ...item.aliases,
+  ]);
+
+  for (const name of names) {
+    STANDARD_CANONICAL_BY_ALIAS.set(
+      standardKey(name),
+      item.standard,
+    );
+  }
+
+  for (const slug of item.products) {
+    const productStandards =
+      STANDARDS_BY_PRODUCT.get(slug) ?? new Set<string>();
+
+    productStandards.add(item.standard);
+    STANDARDS_BY_PRODUCT.set(slug, productStandards);
+
+    const searchTerms =
+      STANDARD_SEARCH_TERMS_BY_PRODUCT.get(slug) ??
+      new Set<string>();
+
+    for (const name of names) {
+      searchTerms.add(name);
+    }
+
+    STANDARD_SEARCH_TERMS_BY_PRODUCT.set(
+      slug,
+      searchTerms,
+    );
+  }
+}
 
 // Etykiety interfejsu — wzorzec CERT_UI z certificates.ts
 const UI = {
@@ -182,6 +262,7 @@ function buildHaystack(f: FabricDef): string[] {
     f.weight,
     f.titleDescriptor,
     ...f.norms,
+    ...(STANDARD_SEARCH_TERMS_BY_PRODUCT.get(f.slug) ?? []),
     ...f.properties.flatMap((p) => [
       FABRIC_PROPERTY_LABELS[p].pl,
       FABRIC_PROPERTY_LABELS[p].en,
@@ -225,8 +306,11 @@ function matches(
   for (const p of props) {
     if (!f.properties.includes(p)) return false;
   }
+  const productStandards =
+    STANDARDS_BY_PRODUCT.get(f.slug);
+
   for (const n of norms) {
-    if (!f.norms.includes(n)) return false;
+    if (!productStandards?.has(n)) return false;
   }
   for (const fb of fibers) {
     if (!f.fibers.includes(fb)) return false;
@@ -363,9 +447,40 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
   const [weaves, setWeaves] = useState<ReadonlySet<FabricWeaveType>>(new Set());
   const [mobileOpen, setMobileOpen] = useState(false);
   // akordeon mobile: jedna grupa otwarta w jednym czasie
-  const [openSection, setOpenSection] = useState<string | null>("norms");
-  const toggleSection = (id: string) =>
-    setOpenSection((prev) => (prev === id ? null : id));
+  const [openSection, setOpenSection] =
+      useState<string | null>("norms");
+
+    const toggleSection = (id: string) =>
+      setOpenSection((prev) => (prev === id ? null : id));
+
+    // Linki ze strony certyfikatów:
+    // /fabrics?standard=EN%20ISO%2011612
+    useEffect(() => {
+      const requested = new URLSearchParams(
+        window.location.search,
+      ).get("standard");
+
+      if (!requested) return;
+
+      const canonical =
+        STANDARD_CANONICAL_BY_ALIAS.get(
+          standardKey(requested),
+        );
+
+      if (
+        !canonical ||
+        !FILTERABLE_STANDARD_NAMES.has(canonical)
+      ) {
+        return;
+      }
+
+      setNorms(new Set([canonical]));
+
+      // Filtr jest aktywny i widoczny w nagłówku sekcji,
+      // ale sama lista norm pozostaje zwinięta.
+      setDesktopOpen(null);
+      setOpenSection(null);
+    }, []);
 
   const haystacks = useMemo(() => {
     const m = new Map<string, string[]>();
@@ -386,7 +501,9 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
         .map(([v]) => v);
     };
     return {
-      norms: count((f) => f.norms),
+      norms: FILTERABLE_STANDARD_ITEMS.map(
+        (item) => item.standard,
+      ),
       fibers: count((f) => f.fibers),
       weaves: count((f) => [f.weaveType]),
     };
@@ -443,8 +560,17 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
 
     // Chipy pozostaja liczone z finalnego wyniku.
     for (const f of filtered) {
-      for (const n of f.norms) {
-        normCounts.set(n, (normCounts.get(n) ?? 0) + 1);
+      for (
+        const n of STANDARDS_BY_PRODUCT.get(f.slug) ?? []
+      ) {
+        if (!FILTERABLE_STANDARD_NAMES.has(n)) {
+          continue;
+        }
+
+        normCounts.set(
+          n,
+          (normCounts.get(n) ?? 0) + 1,
+        );
       }
 
       for (const fb of f.fibers) {
