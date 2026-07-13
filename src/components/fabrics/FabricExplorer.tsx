@@ -435,77 +435,108 @@ export default function FabricExplorer({ locale }: { locale: Locale }) {
   //
   // Dzieki temu nie opieramy widocznosci opcji na posredniej mapie,
   // ktora mogla pozostac pusta mimo dostepnych danych.
-  const dyn = useMemo(() => {
-    const norms = new Map<string, number>();
-    const fibers = new Map<FabricFiber, number>();
-    const weaves = new Map<FabricWeaveType, number>();
-    const props = new Map<FabricProperty, number>();
-    const apps = new Map<ApplicationId, number>();
-    const fams = new Map<string, number>();
+    const dyn = useMemo(() => {
+    const normCounts = new Map<string, number>();
+    const fiberCounts = new Map<FabricFiber, number>();
+    const weaveCounts = new Map<FabricWeaveType, number>();
+    const propertyCounts = new Map<FabricProperty, number>();
+    const applicationCounts = new Map<ApplicationId, number>();
+    const familyCounts = new Map<string, number>();
 
     // Chipy pozostaja liczone z finalnego wyniku.
     for (const f of filtered) {
-      for (const n of f.norms) norms.set(n, (norms.get(n) ?? 0) + 1);
-      for (const fb of f.fibers) fibers.set(fb, (fibers.get(fb) ?? 0) + 1);
-      for (const p of f.properties) props.set(p, (props.get(p) ?? 0) + 1);
-      weaves.set(f.weaveType, (weaves.get(f.weaveType) ?? 0) + 1);
+      for (const n of f.norms) {
+        normCounts.set(n, (normCounts.get(n) ?? 0) + 1);
+      }
+
+      for (const fb of f.fibers) {
+        fiberCounts.set(
+          fb,
+          (fiberCounts.get(fb) ?? 0) + 1,
+        );
+      }
+
+      for (const p of f.properties) {
+        propertyCounts.set(
+          p,
+          (propertyCounts.get(p) ?? 0) + 1,
+        );
+      }
+
+      weaveCounts.set(
+        f.weaveType,
+        (weaveCounts.get(f.weaveType) ?? 0) + 1,
+      );
     }
 
-    // Aplikacje: licznik kazdej aplikacji po wszystkich pozostalych filtrach.
-    for (const option of APPLICATION_OPTIONS) {
-      let count = 0;
+    // Aplikacje: wszystkie pozostale filtry, ale bez aktualnej aplikacji.
+    const applicationBase = FABRICS.filter((f) =>
+      matches(
+        f,
+        haystacks.get(f.slug) ?? [],
+        queryWords,
+        "",
+        family,
+        props,
+        norms,
+        fibers,
+        weaves,
+      ),
+    );
 
-      for (const f of FABRICS) {
-        if (
-          matches(
-            f,
-            haystacks.get(f.slug) ?? [],
-            queryWords,
-            option.id,
-            family,
-            props,
-            norms,
-            fibers,
-            weaves,
-          )
-        ) {
-          count += 1;
-        }
-      }
+    for (const f of applicationBase) {
+      const applications =
+        getApplicationsForFabric(f.slug);
 
-      if (count > 0 || applicationId === option.id) {
-        apps.set(option.id, count);
-      }
-    }
+      if (!applications) continue;
 
-    // Rodziny: licznik kazdej rodziny po wszystkich pozostalych filtrach.
-    for (const familyOption of FAMILY_OPTIONS) {
-      let count = 0;
+      applicationCounts.set(
+        applications.primary,
+        (applicationCounts.get(
+          applications.primary,
+        ) ?? 0) + 1,
+      );
 
-      for (const f of FABRICS) {
-        if (
-          matches(
-            f,
-            haystacks.get(f.slug) ?? [],
-            queryWords,
-            applicationId,
-            familyOption.slug,
-            props,
-            norms,
-            fibers,
-            weaves,
-          )
-        ) {
-          count += 1;
-        }
-      }
-
-      if (count > 0 || family === familyOption.slug) {
-        fams.set(familyOption.slug, count);
+      if (applications.secondary) {
+        applicationCounts.set(
+          applications.secondary,
+          (applicationCounts.get(
+            applications.secondary,
+          ) ?? 0) + 1,
+        );
       }
     }
 
-    return { norms, fibers, weaves, props, apps, fams };
+    // Rodziny: wszystkie pozostale filtry, ale bez aktualnej rodziny.
+    const familyBase = FABRICS.filter((f) =>
+      matches(
+        f,
+        haystacks.get(f.slug) ?? [],
+        queryWords,
+        applicationId,
+        "",
+        props,
+        norms,
+        fibers,
+        weaves,
+      ),
+    );
+
+    for (const f of familyBase) {
+      familyCounts.set(
+        f.subFamily,
+        (familyCounts.get(f.subFamily) ?? 0) + 1,
+      );
+    }
+
+    return {
+      norms: normCounts,
+      fibers: fiberCounts,
+      weaves: weaveCounts,
+      props: propertyCounts,
+      apps: applicationCounts,
+      fams: familyCounts,
+    };
   }, [
     filtered,
     haystacks,
