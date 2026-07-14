@@ -339,7 +339,7 @@
     "technical_parameters": [
       {
         "name": "Fiber",
-        "value": "70% Polyester (PES) 22% Polyamide (PU) 8% Elastane (EL)",
+        "value": "70% Polyester (PES) 22% Polyamide 6 (PA6) 8% Elastane (EL)",
         "standard": "EN ISO 2076",
         "source_table_index": 6
       },

@@ -567,7 +567,7 @@
     "technical_parameters": [
       {
         "name": "Fiber",
-        "value": "80% Polyester (CO) 20% Stainless Steel (MTF)",
+        "value": "80% Polyester (PES) 20% Stainless Steel (MTF)",
         "standard": "EN ISO 2076",
         "source_table_index": 6
       },

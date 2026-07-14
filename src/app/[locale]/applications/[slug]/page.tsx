@@ -12,13 +12,91 @@ import { Link, routing, type Locale } from '@/i18n/routing';
 import RfqButton from '@/components/RfqButton';
 import ApplicationProductSections from '@/components/applications/ApplicationProductSections';
 import type { ApplicationId } from '@/content/fabric-application-overrides';
+import type { FabricDef } from '@/content/fabrics';
 import { getApplicationHighlights } from '@/lib/applicationHighlights';
+import {
+  getFabricApplicationAssignment,
+  getPrimaryFabricsForApplication,
+  getSecondaryFabricsForApplication,
+} from '@/lib/fabricApplications';
 import {
   APPLICATIONS,
   getApplicationBySlug,
 } from '@/content/applications';
 import { getApplicationMarketingContent } from '@/content/application-page-content';
 const BASE_URL = 'https://ariteks.pl';
+
+type RelationKind = 'primary' | 'secondary';
+
+function absoluteUrl(value?: string | null): string | null {
+  const clean = (value || '').trim();
+
+  if (!clean) {
+    return null;
+  }
+
+  if (/^https?:\/\//i.test(clean)) {
+    return clean;
+  }
+
+  return `${BASE_URL}${clean.startsWith('/') ? clean : `/${clean}`}`;
+}
+
+function relationConfidence(
+  fabric: FabricDef,
+  relation: RelationKind,
+): number {
+  const assignment =
+    getFabricApplicationAssignment(fabric.slug);
+
+  const confidence =
+    relation === 'primary'
+      ? assignment?.primaryConfidence
+      : assignment?.secondaryConfidence;
+
+  return confidence === null ? 101 : confidence ?? 0;
+}
+
+function sortApplicationFabrics(
+  fabrics: FabricDef[],
+  relation: RelationKind,
+): FabricDef[] {
+  return [...fabrics].sort((a, b) => {
+    const confidenceDifference =
+      relationConfidence(b, relation) -
+      relationConfidence(a, relation);
+
+    if (confidenceDifference !== 0) {
+      return confidenceDifference;
+    }
+
+    const imageDifference =
+      Number(Boolean(b.heroImage)) -
+      Number(Boolean(a.heroImage));
+
+    if (imageDifference !== 0) {
+      return imageDifference;
+    }
+
+    const documentationDifference =
+      b.dataSheets.length +
+      b.certificates.length -
+      (a.dataSheets.length + a.certificates.length);
+
+    if (documentationDifference !== 0) {
+      return documentationDifference;
+    }
+
+    const normsDifference =
+      b.norms.length - a.norms.length;
+
+    if (normsDifference !== 0) {
+      return normsDifference;
+    }
+
+    return a.name.localeCompare(b.name, 'en');
+  });
+}
 const T = {
   home: {
     pl: 'Strona główna',
@@ -27,6 +105,10 @@ const T = {
   breadcrumbLabel: {
     pl: 'Okruszki nawigacyjne',
     en: 'Breadcrumb navigation',
+  },
+  products: {
+    pl: 'Tkaniny dla tego zastosowania',
+    en: 'Fabrics for this application',
   },
 } as const;
 // Statyczne generowanie: wszystkie branze x wszystkie jezyki
@@ -88,8 +170,31 @@ export default async function ApplicationPage({
       app.id as ApplicationId,
     );
   const highlights = getApplicationHighlights(
-  app.id as ApplicationId,
-);
+    app.id as ApplicationId,
+  );
+
+  const primaryFabrics = sortApplicationFabrics(
+    getPrimaryFabricsForApplication(app.id as ApplicationId),
+    'primary',
+  );
+
+  const secondaryFabrics = sortApplicationFabrics(
+    getSecondaryFabricsForApplication(app.id as ApplicationId),
+    'secondary',
+  );
+
+  const seenFabricSlugs = new Set<string>();
+  const applicationFabrics = [
+    ...primaryFabrics,
+    ...secondaryFabrics,
+  ].filter((fabric) => {
+    if (seenFabricSlugs.has(fabric.slug)) {
+      return false;
+    }
+
+    seenFabricSlugs.add(fabric.slug);
+    return true;
+  });
 
 const localeBaseUrl = loc === 'en' ? `${BASE_URL}/en` : BASE_URL;
 const applicationsUrl = `${localeBaseUrl}/#industries`;
@@ -122,12 +227,87 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const itemListId = `${applicationUrl}#product-list`;
+const applicationImage = absoluteUrl(app.image);
+const pageDescription =
+  content ? content.heroLead[loc] : app.short[loc];
+
+const itemListJsonLd = {
+  '@type': 'ItemList',
+  '@id': itemListId,
+  name: T.products[loc],
+  numberOfItems: applicationFabrics.length,
+  itemListElement: applicationFabrics.map((fabric, index) => {
+    const productUrl =
+      `${localeBaseUrl}/fabrics/${fabric.subFamily}/${fabric.slug}`;
+    const productImage = absoluteUrl(fabric.heroImage);
+
+    return {
+      '@type': 'ListItem',
+      position: index + 1,
+      url: productUrl,
+      item: {
+        '@type': 'Product',
+        '@id': `${productUrl}#product`,
+        url: productUrl,
+        name: fabric.name,
+        category: fabric.family,
+        material: fabric.composition,
+        ...(productImage ? { image: productImage } : {}),
+      },
+    };
+  }),
+};
+
+const collectionPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'CollectionPage',
+      '@id': `${applicationUrl}#collection`,
+      url: applicationUrl,
+      name: app.name[loc],
+      description: pageDescription,
+      inLanguage: loc === 'pl' ? 'pl-PL' : 'en',
+      breadcrumb: {
+        '@id': `${applicationUrl}#breadcrumb`,
+      },
+      mainEntity: {
+        '@id': itemListId,
+      },
+      about: {
+        '@type': 'Thing',
+        name: app.name[loc],
+      },
+      ...(applicationImage
+        ? {
+            primaryImageOfPage: {
+              '@type': 'ImageObject',
+              url: applicationImage,
+            },
+          }
+        : {}),
+    },
+    itemListJsonLd,
+  ],
+};
+
 return (
   <>
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(breadcrumbJsonLd).replace(
+          /</g,
+          '\\u003c'
+        ),
+      }}
+    />
+
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(collectionPageJsonLd).replace(
           /</g,
           '\\u003c'
         ),

@@ -1,5 +1,5 @@
 // src/app/[locale]/fabrics/[family]/page.tsx
-// PODSTRONA RODZINY (podlinii) — 36 stron x 2 jezyki (KROK 5).
+// PODSTRONA RODZINY (podlinii) — 50 stron x 2 jezyki (KROK 5).
 // 1 rodzina = 1 URL = 1 karta PDF = 1 grafika hero (z KROKU 3).
 // Dane: FABRIC_FAMILIES + produkty po subFamily (fabrics.ts),
 // hero/pdf: src/content/families-assets.json.
@@ -25,6 +25,20 @@ const ASSETS = ASSETS_RAW as Record<
   { hero?: string; heroWidth?: number; heroHeight?: number; pdf?: string }
 >;
 const BASE_URL = 'https://ariteks.pl';
+
+function absoluteUrl(value?: string | null): string | null {
+  const clean = (value || '').trim();
+
+  if (!clean) {
+    return null;
+  }
+
+  if (/^https?:\/\//i.test(clean)) {
+    return clean;
+  }
+
+  return `${BASE_URL}${clean.startsWith('/') ? clean : `/${clean}`}`;
+}
 const T = {
   home: { pl: 'Strona główna', en: 'Home' },
   catalogue: { pl: 'Katalog tkanin', en: 'Fabric catalogue' },
@@ -137,12 +151,85 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const familyDescription =
+  loc === 'pl'
+    ? `${fam.name}: ${fam.descriptor.pl}. ${fabrics.length} wariantów tkanin w linii.`
+    : `${fam.name}: ${fam.descriptor.en}. ${fabrics.length} fabric variants in the line.`;
+
+const itemListId = `${familyUrl}#product-list`;
+
+const itemListJsonLd = {
+  '@type': 'ItemList',
+  '@id': itemListId,
+  name: T.variants[loc],
+  numberOfItems: fabrics.length,
+  itemListOrder: 'https://schema.org/ItemListOrderAscending',
+  itemListElement: fabrics.map((fabric, index) => {
+    const productUrl = `${familyUrl}/${fabric.slug}`;
+    const image = absoluteUrl(fabric.heroImage);
+
+    return {
+      '@type': 'ListItem',
+      position: index + 1,
+      url: productUrl,
+      item: {
+        '@type': 'Product',
+        '@id': `${productUrl}#product`,
+        url: productUrl,
+        name: fabric.name,
+        category: fam.name,
+        material: fabric.composition,
+        ...(image ? { image } : {}),
+      },
+    };
+  }),
+};
+
+const collectionPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'CollectionPage',
+      '@id': `${familyUrl}#collection`,
+      url: familyUrl,
+      name: fam.name,
+      description: familyDescription,
+      inLanguage: loc === 'pl' ? 'pl-PL' : 'en',
+      breadcrumb: {
+        '@id': `${familyUrl}#breadcrumb`,
+      },
+      mainEntity: {
+        '@id': itemListId,
+      },
+      ...(assets.hero
+        ? {
+            primaryImageOfPage: {
+              '@type': 'ImageObject',
+              url: absoluteUrl(assets.hero),
+            },
+          }
+        : {}),
+    },
+    itemListJsonLd,
+  ],
+};
+
 return (
   <>
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, '\\u003c'),
+      }}
+    />
+
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(collectionPageJsonLd).replace(
+          /</g,
+          '\\u003c'
+        ),
       }}
     />
 

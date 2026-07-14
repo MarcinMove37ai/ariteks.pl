@@ -1,11 +1,11 @@
-// src/app/[locale]/fabrics/[family]/[slug]/page.tsx
-// KARTA PRODUKTU — jeden szablon dla 134 tkanin (trasa: rodzina/produkt,
-// breadcrumb: Catalogue · Rodzina · Produkt; KROK 6 przebudowy 2026-07-11).
+﻿// src/app/[locale]/fabrics/[family]/[slug]/page.tsx
+// KARTA PRODUKTU â€” jeden szablon dla 134 tkanin (trasa: rodzina/produkt,
+// breadcrumb: Catalogue Â· Rodzina Â· Produkt; KROK 6 przebudowy 2026-07-11).
 // Zrodla danych:
 //  - src/content/fabrics.ts (slug, subFamily, normy kurowane, rodzina),
 //  - public/.../fabric-complete-record.json (pelny rekord: parametry,
-//    kolory, dokumenty, galerie) — czytany z dysku w czasie budowania (SSG).
-// ZASADA: renderujemy WYLACZNIE sekcje, ktore maja dane — zero pustych.
+//    kolory, dokumenty, galerie) â€” czytany z dysku w czasie budowania (SSG).
+// ZASADA: renderujemy WYLACZNIE sekcje, ktore maja dane â€” zero pustych.
 // Obecnosc sekcji wg inwentaryzacji 134 rekordow (inventory_records_report):
 //  zawsze: opis, parametry, karta PDF, hero, ikony funkcji, 5 piktogramow;
 //  warunkowo: kolory (126/134), galeria aplikacyjna (88/134),
@@ -95,13 +95,13 @@ type FabricRecord = {
  *  "- STANDART -" w polu koloru + numer artykulu (seria arneo-color...,
  *  screeny 2026-07-11). Sklejamy pary z powrotem w jeden logiczny wiersz.
  *  Wiersze poprawne przechodza nietkniete. */
-const FINISH_MARKER = /^[-–\s]*STANDAR[TD][-–\s]*$/i;
+const FINISH_MARKER = /^[-â€“\s]*STANDAR[TD][-â€“\s]*$/i;
 
 /** Scraper policzyl elementy stopki strony (kontakt, copyright) i chipy
  *  specyfikacji jako swatche kolorow (check_colors_report, 2026-07-11).
  *  Odfiltrowujemy po etykiecie; swatche bez etykiety zostaja. */
 const JUNK_SWATCH =
-  /copyright|©|headquarters|phone|e-?mail|www\.|address|g\/m²|g\/m2/i;
+  /copyright|Â©|headquarters|phone|e-?mail|www\.|address|g\/mÂ˛|g\/m2/i;
 
 function isRealSwatch(label?: string): boolean {
   const l = (label || '').trim();
@@ -128,7 +128,7 @@ function normalizeColors(rows: ColorRow[]): ColorRow[] {
       if ((row.code_or_pind || '').trim() && !(prev.code_or_pind || '').trim())
         prev.code_or_pind = row.code_or_pind;
       if ((row.article_number || '').trim()) {
-        // White | — | PTO-10275 + wiersz B z artykulem:
+        // White | â€” | PTO-10275 + wiersz B z artykulem:
         // stary "artykul" bez kodu to w istocie kod -> ratujemy go
         if (
           (prev.article_number || '').trim() &&
@@ -158,7 +158,7 @@ async function loadRecord(recordUrl: string): Promise<FabricRecord | null> {
 // ------------------------------ etykiety UI -------------------------------
 
 const T = {
-  home: { pl: 'Strona główna', en: 'Home' },
+  home: { pl: 'Strona gĹ‚Ăłwna', en: 'Home' },
   catalogue: { pl: 'Katalog tkanin', en: 'Fabric catalogue' },
   breadcrumbLabel: {
     pl: 'Okruszki nawigacyjne',
@@ -167,31 +167,129 @@ const T = {
   description: { pl: 'Opis', en: 'Description' },
   quickFacts: { pl: 'Specyfikacja', en: 'Specification' },
   weight: { pl: 'Gramatura', en: 'Weight' },
-  composition: { pl: 'Skład', en: 'Composition' },
+  composition: { pl: 'SkĹ‚ad', en: 'Composition' },
+  finishedComposition: {
+    pl: 'SkĹ‚ad gotowej tkaniny',
+    en: 'Finished fabric composition',
+  },
+  fiberContent: {
+    pl: 'SkĹ‚ad wĹ‚Ăłkien',
+    en: 'Fibre content',
+  },
   weave: { pl: 'Splot', en: 'Weave' },
   family: { pl: 'Rodzina', en: 'Family' },
   documents: { pl: 'Dokumenty', en: 'Documents' },
   dataSheet: { pl: 'Karta techniczna (PDF)', en: 'Data sheet (PDF)' },
 
-  certificates: { pl: 'Certyfikaty i raporty z badań', en: 'Certificates & test reports' },
+  certificates: { pl: 'Certyfikaty i raporty z badaĹ„', en: 'Certificates & test reports' },
   functions: { pl: 'Normy i funkcje', en: 'Standards & functions' },
   care: { pl: 'Konserwacja', en: 'Care instructions' },
   parameters: { pl: 'Parametry techniczne', en: 'Technical parameters' },
   colParam: { pl: 'Parametr', en: 'Parameter' },
-  colValue: { pl: 'Wartość', en: 'Value' },
+  colValue: { pl: 'WartoĹ›Ä‡', en: 'Value' },
   colStandard: { pl: 'Metoda / norma', en: 'Method / standard' },
-  colors: { pl: 'Kolory i numery artykułów', en: 'Colours & article numbers' },
+  colors: { pl: 'Kolory i numery artykuĹ‚Ăłw', en: 'Colours & article numbers' },
   colColor: { pl: 'Kolor', en: 'Colour' },
   colCode: { pl: 'Kod / PIND', en: 'Code / PIND' },
-  colFinish: { pl: 'Wykończenie', en: 'Finish' },
-  colArticle: { pl: 'Nr artykułu', en: 'Article no.' },
+  colFinish: { pl: 'WykoĹ„czenie', en: 'Finish' },
+  colArticle: { pl: 'Nr artykuĹ‚u', en: 'Article no.' },
   gallery: { pl: 'Zastosowania', en: 'Applications' },
-  fabricPhoto: { pl: 'Próbka tkaniny', en: 'Fabric sample' },
-  partners: { pl: 'Technologie partnerów', en: 'Partner technologies' },
+  fabricPhoto: { pl: 'PrĂłbka tkaniny', en: 'Fabric sample' },
+  partners: { pl: 'Technologie partnerĂłw', en: 'Partner technologies' },
   variants: { pl: 'Inne warianty rodziny', en: 'Other variants in this family' },
-  openDoc: { pl: 'Otwórz', en: 'Open' },
+  openDoc: { pl: 'OtwĂłrz', en: 'Open' },
 } as const;
 const BASE_URL = 'https://ariteks.pl';
+
+function absoluteUrl(value?: string | null): string | null {
+  const clean = (value || '').trim();
+
+  if (!clean) {
+    return null;
+  }
+
+  if (/^https?:\/\//i.test(clean)) {
+    return clean;
+  }
+
+  return `${BASE_URL}${clean.startsWith('/') ? clean : `/${clean}`}`;
+}
+
+function normalizeStandardKey(value: string): string {
+  return value
+    .toUpperCase()
+    .replace(/\bTS\b/g, '')
+    .replace(/\bISO\b/g, '')
+    .replace(/[^A-Z0-9]/g, '');
+}
+
+function canonicalFiberCode(value: string): string {
+  const normalized = value
+    .toUpperCase()
+    .replace(/[().,_-]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if (/\bPOLYAMIDE\s*6\s*6\b|\bPA\s*6\s*6\b/.test(normalized)) {
+    return 'PA66';
+  }
+  if (/\bPOLYAMIDE\s*6\b|\bPA\s*6\b/.test(normalized)) {
+    return 'PA6';
+  }
+  if (/\bPOLYURETHANE\b|\bPU\b/.test(normalized)) {
+    return 'PU';
+  }
+  if (/\bPOLYESTER\b|\bPES\b/.test(normalized)) {
+    return 'PES';
+  }
+  if (/\bCOTTON\b|\bCO\b/.test(normalized)) {
+    return 'CO';
+  }
+  if (/\bCARBON\b|\bCF\b/.test(normalized)) {
+    return 'CF';
+  }
+  if (/\bELASTANE\b|\bELASTHANE\b|\bEL\b/.test(normalized)) {
+    return 'EL';
+  }
+  if (/\bVISCOSE\b|\bCV\b/.test(normalized)) {
+    return 'CV';
+  }
+  if (/\bMETA\s*ARAMID\b|\bM\s*AR\b/.test(normalized)) {
+    return 'M-AR';
+  }
+  if (/\bPARA\s*ARAMID\b|\bP\s*AR\b/.test(normalized)) {
+    return 'P-AR';
+  }
+  if (/\bWOOL\b|\bWO\b/.test(normalized)) {
+    return 'WO';
+  }
+  if (/\bPBO\b/.test(normalized)) {
+    return 'PBO';
+  }
+  if (/\bPVC\b/.test(normalized)) {
+    return 'PVC';
+  }
+
+  return normalized.replace(/[^A-Z0-9]/g, '');
+}
+
+function compositionSignature(value: string): string {
+  const matches = [
+    ...value.matchAll(
+      /(\d+(?:[.,]\d+)?)\s*%\s*([^%]*?)(?=\d+(?:[.,]\d+)?\s*%|$)/g
+    ),
+  ];
+
+  return matches
+    .map((match) => {
+      const percentage = Number(match[1].replace(',', '.'));
+      const fiber = canonicalFiberCode(match[2]);
+      return fiber ? `${fiber}:${percentage}` : '';
+    })
+    .filter(Boolean)
+    .sort()
+    .join('|');
+}
 // ------------------------------- SSG / SEO --------------------------------
 
 export function generateStaticParams() {
@@ -223,7 +321,7 @@ export async function generateMetadata({
   const canonical = loc === 'en' ? enUrl : plUrl;
 
   return {
-    title: `${f.name} — ${f.specLine || f.titleDescriptor}`.slice(0, 70),
+    title: `${f.name} â€” ${f.specLine || f.titleDescriptor}`.slice(0, 70),
     description: `${f.titleDescriptor}. ${f.specLine}`.slice(0, 160),
     alternates: {
       canonical,
@@ -303,7 +401,7 @@ export default async function FabricPage({
   const paired = colors.length > 0 && swatches.length === colors.length;
 
   // Zrodlo ma rozne komplety kolumn (raz kod bez artykulu, raz odwrotnie).
-  // Kolumna pusta we WSZYSTKICH wierszach nie renderuje sie — zadnych
+  // Kolumna pusta we WSZYSTKICH wierszach nie renderuje sie â€” zadnych
   // slupkow myslnikow (compare_products, 2026-07-10).
   const cleanFinish = (s?: string) => (s || '').replace(/^-\s*|\s*-$/g, '').trim();
   const colHasData = {
@@ -377,12 +475,183 @@ export default async function FabricPage({
       ],
     };
 
+    const productImages = [
+      f.heroImage,
+      ...(groups.hero_images ?? []).map((image) => image.public_url),
+      ...fabricPhotos.map((image) => image.public_url),
+    ]
+      .map((image) => absoluteUrl(image))
+      .filter((image): image is string => Boolean(image));
+
+    const uniqueProductImages = [...new Set(productImages)];
+
+    const firstDescriptionBlock =
+      description.find((part) => part.trim())?.trim() || '';
+
+    const schemaDescription = [
+      descriptor,
+      firstDescriptionBlock,
+    ]
+      .filter(Boolean)
+      .join(' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const excludedSchemaParameterNames = new Set([
+      'application',
+      'composition',
+      'quality management',
+      'weave',
+      'weight',
+    ]);
+
+    const finishedCompositionSignature =
+      compositionSignature(f.composition);
+
+    const seenTechnicalProperties = new Set<string>();
+    const technicalProductProperties = parameters.flatMap((parameter) => {
+      const rawName = (parameter.name || '').trim();
+      const normalizedName = rawName.toLowerCase().replace(/\s+/g, ' ');
+      const isFiberContent =
+        normalizedName === 'fiber' || normalizedName === 'fibre';
+      const propertyName = isFiberContent
+        ? T.fiberContent[loc]
+        : dict('params', rawName);
+      const rawValue = (parameter.value || '').trim();
+      const propertyValue =
+        /^done$/i.test(rawValue)
+          ? loc === 'pl'
+            ? 'Tak'
+            : 'Yes'
+          : rawValue;
+      const standard = (parameter.standard || '').trim();
+
+      if (
+        !propertyName ||
+        !propertyValue ||
+        excludedSchemaParameterNames.has(normalizedName) ||
+        normalizeStandardKey(standard) === '9001'
+      ) {
+        return [];
+      }
+
+      if (isFiberContent) {
+        const fiberContentSignature =
+          compositionSignature(propertyValue);
+
+        if (
+          !fiberContentSignature ||
+          fiberContentSignature === finishedCompositionSignature
+        ) {
+          return [];
+        }
+      }
+
+      const propertyKey = [
+        normalizedName,
+        propertyValue.toLowerCase(),
+        normalizeStandardKey(standard),
+      ].join('|');
+
+      if (seenTechnicalProperties.has(propertyKey)) {
+        return [];
+      }
+
+      seenTechnicalProperties.add(propertyKey);
+
+      return [
+        {
+          '@type': 'PropertyValue',
+          name: propertyName,
+          value: propertyValue,
+          ...(standard ? { propertyID: standard } : {}),
+        },
+      ];
+    });
+
+    const technicalStandardKeys = new Set(
+      parameters
+        .map((parameter) => (parameter.standard || '').trim())
+        .filter(Boolean)
+        .filter(
+          (standard) => normalizeStandardKey(standard) !== '9001'
+        )
+        .map(normalizeStandardKey)
+    );
+
+    const catalogueStandardProperties = f.norms
+      .filter((norm) => {
+        const key = normalizeStandardKey(norm);
+        return key && !technicalStandardKeys.has(key);
+      })
+      .map((norm) => ({
+        '@type': 'PropertyValue',
+        name: T.colStandard[loc],
+        value: norm,
+      }));
+
+    const productAdditionalProperties = [
+      {
+        '@type': 'PropertyValue',
+        name: T.family[loc],
+        value: fam.name,
+      },
+      {
+        '@type': 'PropertyValue',
+        name: T.weight[loc],
+        value: f.weight,
+      },
+      {
+        '@type': 'PropertyValue',
+        name: T.finishedComposition[loc],
+        value: f.composition,
+      },
+      {
+        '@type': 'PropertyValue',
+        name: T.weave[loc],
+        value: structure?.name || f.weave,
+      },
+      ...catalogueStandardProperties,
+      ...technicalProductProperties,
+    ];
+
+    const productJsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      '@id': `${productUrl}#product`,
+      url: productUrl,
+      name,
+      description: schemaDescription || descriptor,
+      ...(uniqueProductImages.length > 0
+        ? { image: uniqueProductImages }
+        : {}),
+      brand: {
+        '@type': 'Brand',
+        name: 'Ariteks',
+      },
+      manufacturer: {
+        '@type': 'Organization',
+        name: 'Ariteks',
+        url: BASE_URL,
+      },
+      category: fam.name,
+      material: f.composition,
+      additionalProperty: productAdditionalProperties,
+    };
+
     return (
       <>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(breadcrumbJsonLd).replace(/</g, '\\u003c'),
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(productJsonLd).replace(/</g, '\\u003c'),
           }}
         />
 
@@ -406,7 +675,7 @@ export default async function FabricPage({
                 </li>
 
                 <li aria-hidden="true" className="text-carbon-500">
-                  ›
+                  â€ş
                 </li>
 
                 <li>
@@ -419,7 +688,7 @@ export default async function FabricPage({
                 </li>
 
                 <li aria-hidden="true" className="text-carbon-500">
-                  ›
+                  â€ş
                 </li>
 
                 <li>
@@ -432,7 +701,7 @@ export default async function FabricPage({
                 </li>
 
                 <li aria-hidden="true" className="text-carbon-500">
-                  ›
+                  â€ş
                 </li>
 
                 <li
@@ -480,7 +749,7 @@ export default async function FabricPage({
               />
             ) : (
               /* czesc nowych linii (integracja 159) nie ma zdjec hero
-                 w zrodle — panel ze splotem, spojnie z kaflami katalogu */
+                 w zrodle â€” panel ze splotem, spojnie z kaflami katalogu */
               <div className="mesh-dark flex h-full w-full items-center justify-center">
                 <span className="font-mono text-sm uppercase tracking-[0.3em] text-carbon-400">
                   {f.weave}
@@ -549,7 +818,7 @@ export default async function FabricPage({
               </div>
             )}
 
-            {/* Piktogramy konserwacji — zawsze 5 */}
+            {/* Piktogramy konserwacji â€” zawsze 5 */}
             {careIcons.length > 0 && (
               <div className="mt-10 border-t border-steel-line pt-6">
                 <p className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-steel">
@@ -613,7 +882,7 @@ export default async function FabricPage({
 
               </dl>
 
-              {/* Strona linii (z karta PDF linii) — nowa karta przegladarki;
+              {/* Strona linii (z karta PDF linii) â€” nowa karta przegladarki;
                   nawigacja, nie dokument, wiec mieszka przy specyfikacji
                   (decyzja 2026-07-11) */}
               <Link
@@ -622,13 +891,13 @@ export default async function FabricPage({
                 className="mt-5 flex w-full items-center justify-center gap-2 rounded border border-carbon-300 bg-white px-4 py-3 text-sm font-medium text-carbon-900 transition-colors hover:border-red-600 hover:text-red-600"
               >
                 {loc === 'pl'
-                  ? `Zobacz kartę rodziny ${fam.name}`
+                  ? `Zobacz kartÄ™ rodziny ${fam.name}`
                   : `Go to ${fam.name} family page`}
-                <span aria-hidden>↗</span>
+                <span aria-hidden>â†—</span>
               </Link>
             </div>
 
-            {/* Dokumenty: karta tylko gdy jest CO pokazac — czesc nowych
+            {/* Dokumenty: karta tylko gdy jest CO pokazac â€” czesc nowych
                 linii (np. arflexmembrane) nie ma dokumentow u zrodla */}
             {dataSheets.length + certDocs.length > 0 && (
             <div className="rounded-lg border border-steel-line bg-paper p-6 shadow-card">
@@ -666,7 +935,7 @@ export default async function FabricPage({
                           <span className="min-w-0 truncate">{docLabel(d)}</span>
                           <span className="inline-flex shrink-0 items-center gap-1.5 font-mono text-[10px] uppercase tracking-wider text-steel transition-colors group-hover:text-red-600">
                             PDF
-                            <span aria-hidden>↗</span>
+                            <span aria-hidden>â†—</span>
                           </span>
                         </a>
                       </li>
@@ -715,7 +984,7 @@ export default async function FabricPage({
                       <td className="px-5 py-3 text-ink">{dict('params', p.name ?? '')}</td>
                       <td className="px-5 py-3 text-ink-soft">{p.value}</td>
                       <td className="whitespace-nowrap px-5 py-3 text-right font-mono text-xs text-carbon-950">
-                        {p.standard || '—'}
+                        {p.standard || 'â€”'}
                       </td>
                     </tr>
                   ))}
@@ -726,7 +995,7 @@ export default async function FabricPage({
         </section>
       )}
 
-      {/* ==================== KOLORY I NUMERY ARTYKUŁÓW ==================== */}
+      {/* ==================== KOLORY I NUMERY ARTYKUĹĂ“W ==================== */}
       {(colors.length > 0 || swatches.length > 0) && (
         <section className="bg-surface">
           <div className="container-site py-16 sm:py-20">
@@ -786,25 +1055,25 @@ export default async function FabricPage({
                                 aria-hidden="true"
                               />
                             )}
-                            {c.color ? dict('colors', c.color) : '—'}
+                            {c.color ? dict('colors', c.color) : 'â€”'}
                           </span>
                         </td>
                         {colHasData.code && (
                           <td className="px-5 py-3 font-mono text-xs text-ink-soft">
-                            {c.code_or_pind || '—'}
+                            {c.code_or_pind || 'â€”'}
                           </td>
                         )}
                         {colHasData.finish && (
                           <td className="px-5 py-3 text-ink-soft">
                             {(() => {
                               const fin = cleanFinish(c.finish);
-                              return fin ? dict('finishes', fin) : '—';
+                              return fin ? dict('finishes', fin) : 'â€”';
                             })()}
                           </td>
                         )}
                         {colHasData.article && (
                           <td className="px-5 py-3 font-mono text-xs text-carbon-950">
-                            {c.article_number || '—'}
+                            {c.article_number || 'â€”'}
                           </td>
                         )}
                       </tr>
@@ -817,7 +1086,7 @@ export default async function FabricPage({
         </section>
       )}
 
-      {/* ==================== GALERIA ZASTOSOWAŃ ==================== */}
+      {/* ==================== GALERIA ZASTOSOWAĹ ==================== */}
       {galleryImages.length > 0 && (
         <section className="mesh-light border-y border-steel-line">
           <div className="container-site py-16 sm:py-20">
@@ -834,7 +1103,7 @@ export default async function FabricPage({
         </section>
       )}
 
-      {/* ==================== TECHNOLOGIE PARTNERÓW ==================== */}
+      {/* ==================== TECHNOLOGIE PARTNERĂ“W ==================== */}
       {partnerLogos.length > 0 && (
         <section className="bg-surface">
           <div className="container-site py-12 sm:py-14">
@@ -864,7 +1133,7 @@ export default async function FabricPage({
             <h2 className="flex items-baseline gap-3 font-display text-display-md font-bold text-ink">
               {T.variants[loc]}
               <span className="font-mono text-sm font-normal text-steel">
-                {fam.name} · {variants.length}
+                {fam.name} Â· {variants.length}
               </span>
             </h2>
 
@@ -891,7 +1160,7 @@ export default async function FabricPage({
                       {v.name}
                     </h3>
                     <p className="mt-1 font-mono text-[11px] uppercase tracking-wider text-steel">
-                      {v.weight} · {v.composition}
+                      {v.weight} Â· {v.composition}
                     </p>
                   </div>
                 </Link>

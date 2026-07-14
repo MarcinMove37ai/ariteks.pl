@@ -10,6 +10,20 @@ import FabricExplorer from '@/components/fabrics/FabricExplorer';
 import { FABRICS, FABRIC_FAMILIES } from '@/content/fabrics';
 
 const BASE_URL = 'https://ariteks.pl';
+
+function absoluteUrl(value?: string | null): string | null {
+  const clean = (value || '').trim();
+
+  if (!clean) {
+    return null;
+  }
+
+  if (/^https?:\/\//i.test(clean)) {
+    return clean;
+  }
+
+  return `${BASE_URL}${clean.startsWith('/') ? clean : `/${clean}`}`;
+}
 const RAW_STANDARD_DESIGNATIONS = 75;
 const PRODUCT_STANDARD_REFERENCES = 3058;
 const PAGE = {
@@ -78,20 +92,81 @@ export default async function FabricsPage({
   const loc = locale as Locale;
 
   const stats: Array<[string, string]> = [
-      [String(FABRICS.length), PAGE.stats.fabrics[loc]],
-      [String(FABRIC_FAMILIES.length), PAGE.stats.families[loc]],
-      [
-        String(RAW_STANDARD_DESIGNATIONS),
-        PAGE.stats.designations[loc],
-      ],
-      [
-        loc === 'pl' ? '3 058' : '3,058',
-        PAGE.stats.references[loc],
-      ],
+    [String(FABRICS.length), PAGE.stats.fabrics[loc]],
+    [String(FABRIC_FAMILIES.length), PAGE.stats.families[loc]],
+    [
+      String(RAW_STANDARD_DESIGNATIONS),
+      PAGE.stats.designations[loc],
+    ],
+    [
+      loc === 'pl' ? '3 058' : '3,058',
+      PAGE.stats.references[loc],
+    ],
   ];
 
+  const localeBaseUrl = loc === 'en' ? `${BASE_URL}/en` : BASE_URL;
+  const catalogueUrl = `${localeBaseUrl}/fabrics`;
+  const itemListId = `${catalogueUrl}#product-list`;
+
+  const itemListJsonLd = {
+    '@type': 'ItemList',
+    '@id': itemListId,
+    name: PAGE.title[loc],
+    numberOfItems: FABRICS.length,
+    itemListOrder: 'https://schema.org/ItemListUnordered',
+    itemListElement: FABRICS.map((fabric, index) => {
+      const productUrl =
+        `${catalogueUrl}/${fabric.subFamily}/${fabric.slug}`;
+      const image = absoluteUrl(fabric.heroImage);
+
+      return {
+        '@type': 'ListItem',
+        position: index + 1,
+        url: productUrl,
+        item: {
+          '@type': 'Product',
+          '@id': `${productUrl}#product`,
+          url: productUrl,
+          name: fabric.name,
+          category: fabric.family,
+          material: fabric.composition,
+          ...(image ? { image } : {}),
+        },
+      };
+    }),
+  };
+
+  const collectionPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'CollectionPage',
+        '@id': `${catalogueUrl}#collection`,
+        url: catalogueUrl,
+        name: PAGE.title[loc],
+        description: PAGE.lead[loc],
+        inLanguage: loc === 'pl' ? 'pl-PL' : 'en',
+        mainEntity: {
+          '@id': itemListId,
+        },
+      },
+      itemListJsonLd,
+    ],
+  };
+
   return (
-    <main>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(collectionPageJsonLd).replace(
+            /</g,
+            '\\u003c'
+          ),
+        }}
+      />
+
+      <main>
       {/* ==================== HERO ==================== */}
       <section className="mesh-dark">
         <div className="container-site py-16 sm:py-20">
@@ -127,6 +202,7 @@ export default async function FabricsPage({
           <FabricExplorer locale={loc} />
         </div>
       </section>
-    </main>
+      </main>
+    </>
   );
 }
