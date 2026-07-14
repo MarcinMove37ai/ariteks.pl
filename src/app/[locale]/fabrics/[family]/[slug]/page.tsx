@@ -201,6 +201,111 @@ const T = {
 } as const;
 const BASE_URL = 'https://ariteks.pl';
 
+const PRODUCT_SEO_TYPE = {
+  pl: 'tkanina techniczna',
+  en: 'technical fabric',
+} as const;
+
+const PRODUCT_SEO_APPLICATIONS: Record<
+  string,
+  Record<Locale, string>
+> = {
+  military: {
+    pl: 'wojsko i służby',
+    en: 'military and services',
+  },
+  firefighting: {
+    pl: 'straż pożarna',
+    en: 'firefighting',
+  },
+  energy: {
+    pl: 'energetyka',
+    en: 'energy',
+  },
+  welding: {
+    pl: 'hutnictwo i spawalnictwo',
+    en: 'metallurgy and welding',
+  },
+  motorcycle: {
+    pl: 'odzież motocyklowa',
+    en: 'motorcycle apparel',
+  },
+  hivis: {
+    pl: 'odzież ostrzegawcza',
+    en: 'high-visibility apparel',
+  },
+  medical: {
+    pl: 'medycyna',
+    en: 'medical',
+  },
+  sport: {
+    pl: 'sport',
+    en: 'sport',
+  },
+  'architecture-building': {
+    pl: 'architektura i budownictwo',
+    en: 'architecture and construction',
+  },
+  transport: {
+    pl: 'transport',
+    en: 'transport',
+  },
+  'workwear-industrial': {
+    pl: 'odzież robocza i przemysł',
+    en: 'workwear and industry',
+  },
+  'outdoor-functional': {
+    pl: 'outdoor i odzież funkcjonalna',
+    en: 'outdoor and functional apparel',
+  },
+  'footwear-components': {
+    pl: 'obuwie i komponenty',
+    en: 'footwear and components',
+  },
+  'upholstery-interiors': {
+    pl: 'tapicerka i wnętrza',
+    en: 'upholstery and interiors',
+  },
+  'print-signage': {
+    pl: 'druk i oznakowanie',
+    en: 'printing and signage',
+  },
+  'professional-cleaning': {
+    pl: 'czyszczenie profesjonalne',
+    en: 'professional cleaning',
+  },
+};
+
+const PRODUCT_TITLE_SUFFIX_LENGTH = ' — Ariteks'.length;
+const PRODUCT_TITLE_MAX_FINAL_LENGTH = 65;
+const PRODUCT_TITLE_MAX_LOCAL_LENGTH =
+  PRODUCT_TITLE_MAX_FINAL_LENGTH - PRODUCT_TITLE_SUFFIX_LENGTH;
+
+function buildProductMetadataTitle(
+  productName: string,
+  locale: Locale,
+  primaryApplication?: string,
+): string {
+  const applicationLabel = primaryApplication
+    ? PRODUCT_SEO_APPLICATIONS[primaryApplication]?.[locale]
+    : undefined;
+
+  const candidates = [
+    applicationLabel
+      ? `${productName} — ${PRODUCT_SEO_TYPE[locale]} — ${applicationLabel}`
+      : null,
+    `${productName} — ${PRODUCT_SEO_TYPE[locale]}`,
+    productName,
+  ].filter((candidate): candidate is string => Boolean(candidate));
+
+  return (
+    candidates.find(
+      (candidate) =>
+        candidate.length <= PRODUCT_TITLE_MAX_LOCAL_LENGTH,
+    ) ?? productName
+  );
+}
+
 function absoluteUrl(value?: string | null): string | null {
   const clean = (value || '').trim();
 
@@ -320,8 +425,17 @@ export async function generateMetadata({
   const enUrl = `${BASE_URL}/en/fabrics/${family}/${slug}`;
   const canonical = loc === 'en' ? enUrl : plUrl;
 
+  const applicationAssignment =
+    getFabricApplicationAssignment(f.slug);
+
+  const title = buildProductMetadataTitle(
+    f.name,
+    loc,
+    applicationAssignment?.primaryApplication,
+  );
+
   return {
-    title: `${f.name} — ${f.specLine || f.titleDescriptor}`.slice(0, 70),
+    title,
     description: `${f.titleDescriptor}. ${f.specLine}`.slice(0, 160),
     alternates: {
       canonical,
