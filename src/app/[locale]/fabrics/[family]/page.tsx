@@ -26,6 +26,35 @@ const ASSETS = ASSETS_RAW as Record<
 >;
 const BASE_URL = 'https://ariteks.pl';
 
+const FAMILY_SEO_TYPE = {
+  pl: 'tkaniny techniczne',
+  en: 'technical fabrics',
+} as const;
+
+const FAMILY_TITLE_SUFFIX_LENGTH = ' — Ariteks'.length;
+const FAMILY_TITLE_MAX_FINAL_LENGTH = 65;
+const FAMILY_TITLE_MAX_LOCAL_LENGTH =
+  FAMILY_TITLE_MAX_FINAL_LENGTH - FAMILY_TITLE_SUFFIX_LENGTH;
+
+function buildFamilyMetadataTitle(
+  familyName: string,
+  descriptor: string,
+  locale: Locale,
+): string {
+  const candidates = [
+    `${familyName} — ${descriptor}`,
+    `${familyName} — ${FAMILY_SEO_TYPE[locale]}`,
+    familyName,
+  ];
+
+  return (
+    candidates.find(
+      (candidate) =>
+        candidate.length <= FAMILY_TITLE_MAX_LOCAL_LENGTH,
+    ) ?? familyName
+  );
+}
+
 function absoluteUrl(value?: string | null): string | null {
   const clean = (value || '').trim();
 
@@ -78,7 +107,11 @@ export async function generateMetadata({
   const canonical = loc === 'en' ? enUrl : plUrl;
 
   return {
-    title: `${fam.name} — ${fam.descriptor[loc]}`.slice(0, 70),
+    title: buildFamilyMetadataTitle(
+      fam.name,
+      fam.descriptor[loc],
+      loc,
+    ),
     description:
       loc === 'pl'
         ? `${fam.name}: ${fam.descriptor.pl}. ${count} wariantów tkanin w linii.`
