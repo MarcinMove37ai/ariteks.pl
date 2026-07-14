@@ -1,11 +1,11 @@
 ﻿// src/app/[locale]/fabrics/[family]/[slug]/page.tsx
-// KARTA PRODUKTU â€” jeden szablon dla 134 tkanin (trasa: rodzina/produkt,
-// breadcrumb: Catalogue Â· Rodzina Â· Produkt; KROK 6 przebudowy 2026-07-11).
+// KARTA PRODUKTU — jeden szablon dla 134 tkanin (trasa: rodzina/produkt,
+// breadcrumb: Catalogue · Rodzina · Produkt; KROK 6 przebudowy 2026-07-11).
 // Zrodla danych:
 //  - src/content/fabrics.ts (slug, subFamily, normy kurowane, rodzina),
 //  - public/.../fabric-complete-record.json (pelny rekord: parametry,
-//    kolory, dokumenty, galerie) â€” czytany z dysku w czasie budowania (SSG).
-// ZASADA: renderujemy WYLACZNIE sekcje, ktore maja dane â€” zero pustych.
+//    kolory, dokumenty, galerie) — czytany z dysku w czasie budowania (SSG).
+// ZASADA: renderujemy WYLACZNIE sekcje, ktore maja dane — zero pustych.
 // Obecnosc sekcji wg inwentaryzacji 134 rekordow (inventory_records_report):
 //  zawsze: opis, parametry, karta PDF, hero, ikony funkcji, 5 piktogramow;
 //  warunkowo: kolory (126/134), galeria aplikacyjna (88/134),
@@ -95,13 +95,13 @@ type FabricRecord = {
  *  "- STANDART -" w polu koloru + numer artykulu (seria arneo-color...,
  *  screeny 2026-07-11). Sklejamy pary z powrotem w jeden logiczny wiersz.
  *  Wiersze poprawne przechodza nietkniete. */
-const FINISH_MARKER = /^[-â€“\s]*STANDAR[TD][-â€“\s]*$/i;
+const FINISH_MARKER = /^[-–\s]*STANDAR[TD][-–\s]*$/i;
 
 /** Scraper policzyl elementy stopki strony (kontakt, copyright) i chipy
  *  specyfikacji jako swatche kolorow (check_colors_report, 2026-07-11).
  *  Odfiltrowujemy po etykiecie; swatche bez etykiety zostaja. */
 const JUNK_SWATCH =
-  /copyright|Â©|headquarters|phone|e-?mail|www\.|address|g\/mÂ˛|g\/m2/i;
+  /copyright|©|headquarters|phone|e-?mail|www\.|address|g\/m²|g\/m2/i;
 
 function isRealSwatch(label?: string): boolean {
   const l = (label || '').trim();
@@ -128,7 +128,7 @@ function normalizeColors(rows: ColorRow[]): ColorRow[] {
       if ((row.code_or_pind || '').trim() && !(prev.code_or_pind || '').trim())
         prev.code_or_pind = row.code_or_pind;
       if ((row.article_number || '').trim()) {
-        // White | â€” | PTO-10275 + wiersz B z artykulem:
+        // White | — | PTO-10275 + wiersz B z artykulem:
         // stary "artykul" bez kodu to w istocie kod -> ratujemy go
         if (
           (prev.article_number || '').trim() &&
@@ -158,7 +158,7 @@ async function loadRecord(recordUrl: string): Promise<FabricRecord | null> {
 // ------------------------------ etykiety UI -------------------------------
 
 const T = {
-  home: { pl: 'Strona gĹ‚Ăłwna', en: 'Home' },
+  home: { pl: 'Strona główna', en: 'Home' },
   catalogue: { pl: 'Katalog tkanin', en: 'Fabric catalogue' },
   breadcrumbLabel: {
     pl: 'Okruszki nawigacyjne',
@@ -167,13 +167,13 @@ const T = {
   description: { pl: 'Opis', en: 'Description' },
   quickFacts: { pl: 'Specyfikacja', en: 'Specification' },
   weight: { pl: 'Gramatura', en: 'Weight' },
-  composition: { pl: 'SkĹ‚ad', en: 'Composition' },
+  composition: { pl: 'Skład', en: 'Composition' },
   finishedComposition: {
-    pl: 'SkĹ‚ad gotowej tkaniny',
+    pl: 'Skład gotowej tkaniny',
     en: 'Finished fabric composition',
   },
   fiberContent: {
-    pl: 'SkĹ‚ad wĹ‚Ăłkien',
+    pl: 'Skład włókien',
     en: 'Fibre content',
   },
   weave: { pl: 'Splot', en: 'Weave' },
@@ -181,23 +181,23 @@ const T = {
   documents: { pl: 'Dokumenty', en: 'Documents' },
   dataSheet: { pl: 'Karta techniczna (PDF)', en: 'Data sheet (PDF)' },
 
-  certificates: { pl: 'Certyfikaty i raporty z badaĹ„', en: 'Certificates & test reports' },
+  certificates: { pl: 'Certyfikaty i raporty z badań', en: 'Certificates & test reports' },
   functions: { pl: 'Normy i funkcje', en: 'Standards & functions' },
   care: { pl: 'Konserwacja', en: 'Care instructions' },
   parameters: { pl: 'Parametry techniczne', en: 'Technical parameters' },
   colParam: { pl: 'Parametr', en: 'Parameter' },
-  colValue: { pl: 'WartoĹ›Ä‡', en: 'Value' },
+  colValue: { pl: 'Wartość', en: 'Value' },
   colStandard: { pl: 'Metoda / norma', en: 'Method / standard' },
-  colors: { pl: 'Kolory i numery artykuĹ‚Ăłw', en: 'Colours & article numbers' },
+  colors: { pl: 'Kolory i numery artykułów', en: 'Colours & article numbers' },
   colColor: { pl: 'Kolor', en: 'Colour' },
   colCode: { pl: 'Kod / PIND', en: 'Code / PIND' },
-  colFinish: { pl: 'WykoĹ„czenie', en: 'Finish' },
-  colArticle: { pl: 'Nr artykuĹ‚u', en: 'Article no.' },
+  colFinish: { pl: 'Wykończenie', en: 'Finish' },
+  colArticle: { pl: 'Nr artykułu', en: 'Article no.' },
   gallery: { pl: 'Zastosowania', en: 'Applications' },
-  fabricPhoto: { pl: 'PrĂłbka tkaniny', en: 'Fabric sample' },
-  partners: { pl: 'Technologie partnerĂłw', en: 'Partner technologies' },
+  fabricPhoto: { pl: 'Próbka tkaniny', en: 'Fabric sample' },
+  partners: { pl: 'Technologie partnerów', en: 'Partner technologies' },
   variants: { pl: 'Inne warianty rodziny', en: 'Other variants in this family' },
-  openDoc: { pl: 'OtwĂłrz', en: 'Open' },
+  openDoc: { pl: 'Otwórz', en: 'Open' },
 } as const;
 const BASE_URL = 'https://ariteks.pl';
 
@@ -321,7 +321,7 @@ export async function generateMetadata({
   const canonical = loc === 'en' ? enUrl : plUrl;
 
   return {
-    title: `${f.name} â€” ${f.specLine || f.titleDescriptor}`.slice(0, 70),
+    title: `${f.name} — ${f.specLine || f.titleDescriptor}`.slice(0, 70),
     description: `${f.titleDescriptor}. ${f.specLine}`.slice(0, 160),
     alternates: {
       canonical,
@@ -401,7 +401,7 @@ export default async function FabricPage({
   const paired = colors.length > 0 && swatches.length === colors.length;
 
   // Zrodlo ma rozne komplety kolumn (raz kod bez artykulu, raz odwrotnie).
-  // Kolumna pusta we WSZYSTKICH wierszach nie renderuje sie â€” zadnych
+  // Kolumna pusta we WSZYSTKICH wierszach nie renderuje sie — zadnych
   // slupkow myslnikow (compare_products, 2026-07-10).
   const cleanFinish = (s?: string) => (s || '').replace(/^-\s*|\s*-$/g, '').trim();
   const colHasData = {
@@ -675,7 +675,7 @@ export default async function FabricPage({
                 </li>
 
                 <li aria-hidden="true" className="text-carbon-500">
-                  â€ş
+                  ›
                 </li>
 
                 <li>
@@ -688,7 +688,7 @@ export default async function FabricPage({
                 </li>
 
                 <li aria-hidden="true" className="text-carbon-500">
-                  â€ş
+                  ›
                 </li>
 
                 <li>
@@ -701,7 +701,7 @@ export default async function FabricPage({
                 </li>
 
                 <li aria-hidden="true" className="text-carbon-500">
-                  â€ş
+                  ›
                 </li>
 
                 <li
@@ -749,7 +749,7 @@ export default async function FabricPage({
               />
             ) : (
               /* czesc nowych linii (integracja 159) nie ma zdjec hero
-                 w zrodle â€” panel ze splotem, spojnie z kaflami katalogu */
+                 w zrodle — panel ze splotem, spojnie z kaflami katalogu */
               <div className="mesh-dark flex h-full w-full items-center justify-center">
                 <span className="font-mono text-sm uppercase tracking-[0.3em] text-carbon-400">
                   {f.weave}
@@ -818,7 +818,7 @@ export default async function FabricPage({
               </div>
             )}
 
-            {/* Piktogramy konserwacji â€” zawsze 5 */}
+            {/* Piktogramy konserwacji — zawsze 5 */}
             {careIcons.length > 0 && (
               <div className="mt-10 border-t border-steel-line pt-6">
                 <p className="font-mono text-[11px] font-medium uppercase tracking-[0.18em] text-steel">
@@ -882,7 +882,7 @@ export default async function FabricPage({
 
               </dl>
 
-              {/* Strona linii (z karta PDF linii) â€” nowa karta przegladarki;
+              {/* Strona linii (z karta PDF linii) — nowa karta przegladarki;
                   nawigacja, nie dokument, wiec mieszka przy specyfikacji
                   (decyzja 2026-07-11) */}
               <Link
@@ -891,13 +891,13 @@ export default async function FabricPage({
                 className="mt-5 flex w-full items-center justify-center gap-2 rounded border border-carbon-300 bg-white px-4 py-3 text-sm font-medium text-carbon-900 transition-colors hover:border-red-600 hover:text-red-600"
               >
                 {loc === 'pl'
-                  ? `Zobacz kartÄ™ rodziny ${fam.name}`
+                  ? `Zobacz kartę rodziny ${fam.name}`
                   : `Go to ${fam.name} family page`}
-                <span aria-hidden>â†—</span>
+                <span aria-hidden>↗</span>
               </Link>
             </div>
 
-            {/* Dokumenty: karta tylko gdy jest CO pokazac â€” czesc nowych
+            {/* Dokumenty: karta tylko gdy jest CO pokazac — czesc nowych
                 linii (np. arflexmembrane) nie ma dokumentow u zrodla */}
             {dataSheets.length + certDocs.length > 0 && (
             <div className="rounded-lg border border-steel-line bg-paper p-6 shadow-card">
@@ -935,7 +935,7 @@ export default async function FabricPage({
                           <span className="min-w-0 truncate">{docLabel(d)}</span>
                           <span className="inline-flex shrink-0 items-center gap-1.5 font-mono text-[10px] uppercase tracking-wider text-steel transition-colors group-hover:text-red-600">
                             PDF
-                            <span aria-hidden>â†—</span>
+                            <span aria-hidden>↗</span>
                           </span>
                         </a>
                       </li>
@@ -984,7 +984,7 @@ export default async function FabricPage({
                       <td className="px-5 py-3 text-ink">{dict('params', p.name ?? '')}</td>
                       <td className="px-5 py-3 text-ink-soft">{p.value}</td>
                       <td className="whitespace-nowrap px-5 py-3 text-right font-mono text-xs text-carbon-950">
-                        {p.standard || 'â€”'}
+                        {p.standard || '—'}
                       </td>
                     </tr>
                   ))}
@@ -995,7 +995,7 @@ export default async function FabricPage({
         </section>
       )}
 
-      {/* ==================== KOLORY I NUMERY ARTYKUĹĂ“W ==================== */}
+      {/* ==================== KOLORY I NUMERY ARTYKUŁÓW ==================== */}
       {(colors.length > 0 || swatches.length > 0) && (
         <section className="bg-surface">
           <div className="container-site py-16 sm:py-20">
@@ -1055,25 +1055,25 @@ export default async function FabricPage({
                                 aria-hidden="true"
                               />
                             )}
-                            {c.color ? dict('colors', c.color) : 'â€”'}
+                            {c.color ? dict('colors', c.color) : '—'}
                           </span>
                         </td>
                         {colHasData.code && (
                           <td className="px-5 py-3 font-mono text-xs text-ink-soft">
-                            {c.code_or_pind || 'â€”'}
+                            {c.code_or_pind || '—'}
                           </td>
                         )}
                         {colHasData.finish && (
                           <td className="px-5 py-3 text-ink-soft">
                             {(() => {
                               const fin = cleanFinish(c.finish);
-                              return fin ? dict('finishes', fin) : 'â€”';
+                              return fin ? dict('finishes', fin) : '—';
                             })()}
                           </td>
                         )}
                         {colHasData.article && (
                           <td className="px-5 py-3 font-mono text-xs text-carbon-950">
-                            {c.article_number || 'â€”'}
+                            {c.article_number || '—'}
                           </td>
                         )}
                       </tr>
@@ -1086,7 +1086,7 @@ export default async function FabricPage({
         </section>
       )}
 
-      {/* ==================== GALERIA ZASTOSOWAĹ ==================== */}
+      {/* ==================== GALERIA ZASTOSOWAŃ ==================== */}
       {galleryImages.length > 0 && (
         <section className="mesh-light border-y border-steel-line">
           <div className="container-site py-16 sm:py-20">
@@ -1103,7 +1103,7 @@ export default async function FabricPage({
         </section>
       )}
 
-      {/* ==================== TECHNOLOGIE PARTNERĂ“W ==================== */}
+      {/* ==================== TECHNOLOGIE PARTNERÓW ==================== */}
       {partnerLogos.length > 0 && (
         <section className="bg-surface">
           <div className="container-site py-12 sm:py-14">
@@ -1133,7 +1133,7 @@ export default async function FabricPage({
             <h2 className="flex items-baseline gap-3 font-display text-display-md font-bold text-ink">
               {T.variants[loc]}
               <span className="font-mono text-sm font-normal text-steel">
-                {fam.name} Â· {variants.length}
+                {fam.name} · {variants.length}
               </span>
             </h2>
 
@@ -1160,7 +1160,7 @@ export default async function FabricPage({
                       {v.name}
                     </h3>
                     <p className="mt-1 font-mono text-[11px] uppercase tracking-wider text-steel">
-                      {v.weight} Â· {v.composition}
+                      {v.weight} · {v.composition}
                     </p>
                   </div>
                 </Link>

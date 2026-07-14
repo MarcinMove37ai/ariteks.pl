@@ -28,10 +28,6 @@ const T = {
     pl: 'O Ariteks',
     en: 'About Ariteks',
   },
-  breadcrumbLabel: {
-    pl: 'Okruszki nawigacyjne',
-    en: 'Breadcrumb navigation',
-  },
 } as const;
 
 export async function generateMetadata({
@@ -192,34 +188,7 @@ export default async function AboutPage({
       {/* ==================== HERO ==================== */}
       <section className="mesh-dark">
         <div className="container-site py-20 sm:py-24">
-          <nav
-            aria-label={T.breadcrumbLabel[loc]}
-            className="eyebrow eyebrow-dark"
-          >
-            <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
-              <li>
-                <Link
-                  href="/"
-                  className="transition-colors hover:text-red-400"
-                >
-                  {T.home[loc]}
-                </Link>
-              </li>
-
-              <li aria-hidden="true" className="text-carbon-500">
-                ›
-              </li>
-
-              <li
-                aria-current="page"
-                className="text-carbon-300"
-              >
-                {T.about[loc]}
-              </li>
-            </ol>
-          </nav>
-
-          <p className="mt-6 eyebrow eyebrow-dark">
+          <p className="eyebrow eyebrow-dark">
             {t('hero.eyebrow')}
           </p>
           <h1 className="mt-6 max-w-4xl font-display text-display-xl font-bold text-white text-balance">
