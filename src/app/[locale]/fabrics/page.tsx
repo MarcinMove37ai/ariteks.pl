@@ -122,15 +122,24 @@ export default async function FabricsPage({
       return {
         '@type': 'ListItem',
         position: index + 1,
+        name: fabric.name,
         url: productUrl,
         item: {
-          '@type': 'Product',
-          '@id': `${productUrl}#product`,
+          '@type': 'WebPage',
+          '@id': productUrl,
           url: productUrl,
           name: fabric.name,
-          category: fabric.family,
-          material: fabric.composition,
-          ...(image ? { image } : {}),
+          about: {
+            '@id': `${productUrl}#product`,
+          },
+          ...(image
+            ? {
+                primaryImageOfPage: {
+                  '@type': 'ImageObject',
+                  url: image,
+                },
+              }
+            : {}),
         },
       };
     }),

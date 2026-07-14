@@ -17,8 +17,12 @@ export const routing = defineRouting({
   locales: ['pl', 'en'],
   defaultLocale: 'pl',
 
-  // 'as-needed': jezyk domyslny (pl) bez prefiksu w URL, angielski pod /en.
+  // Polski bez prefiksu, angielski pod /en.
   localePrefix: 'as-needed',
+
+  // Dynamiczne slugi aplikacji różnią się między PL i EN.
+  // Poprawne hreflang generują metadata stron oraz sitemap.xml.
+  alternateLinks: false,
 });
 
 export type Locale = (typeof routing.locales)[number];
