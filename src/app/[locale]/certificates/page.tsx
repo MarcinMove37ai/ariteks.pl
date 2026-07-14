@@ -494,8 +494,8 @@ function StandardFallbackIcon() {
 const COPY = {
   meta: {
     title: {
-      pl: 'Certyfikaty tkanin technicznych i normy badań | Ariteks',
-      en: 'Technical textile certificates and testing standards | Ariteks',
+      pl: 'Certyfikaty tkanin technicznych i normy badań',
+      en: 'Technical textile certificates and testing standards',
     },
     description: {
       pl: 'Certyfikaty ISO, OEKO-TEX, RCS i OCS, dokumentacja środowiskowa oraz normy i metody badawcze stosowane w katalogu 159 tkanin technicznych Ariteks.',
@@ -767,6 +767,7 @@ export async function generateMetadata({
   const { locale } = await params;
 
   const title = COPY.meta.title[locale];
+  const socialTitle = `${title} — Ariteks`;
   const description = COPY.meta.description[locale];
 
   const plUrl = `${BASE_URL}/certificates`;
@@ -820,12 +821,12 @@ export async function generateMetadata({
       siteName: 'Ariteks',
       locale: locale === 'pl' ? 'pl_PL' : 'en_US',
       alternateLocale: locale === 'pl' ? ['en_US'] : ['pl_PL'],
-      title,
+      title: socialTitle,
       description,
     },
     twitter: {
       card: 'summary',
-      title,
+      title: socialTitle,
       description,
     },
     robots: {
