@@ -5,7 +5,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { Link } from '@/i18n/routing';
+import { Link, type Locale } from '@/i18n/routing';
 import RfqButton from '@/components/RfqButton';
 
 const CERTS = [
@@ -19,26 +19,67 @@ const CERTS = [
 ] as const;
 const BASE_URL = 'https://ariteks.pl';
 
+const T = {
+  home: {
+    pl: 'Strona główna',
+    en: 'Home',
+  },
+  about: {
+    pl: 'O Ariteks',
+    en: 'About Ariteks',
+  },
+  breadcrumbLabel: {
+    pl: 'Okruszki nawigacyjne',
+    en: 'Breadcrumb navigation',
+  },
+} as const;
+
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const loc = locale as Locale;
   const t = await getTranslations({ locale, namespace: 'about' });
 
   const plUrl = `${BASE_URL}/about`;
   const enUrl = `${BASE_URL}/en/about`;
-  const canonical = locale === 'en' ? enUrl : plUrl;
+  const canonical = loc === 'en' ? enUrl : plUrl;
+  const title = t('meta.title');
+  const description = t('hero.lead');
 
   return {
-    title: t('meta.title'),
+    title,
+    description,
     alternates: {
       canonical,
       languages: {
         pl: plUrl,
         en: enUrl,
         'x-default': plUrl,
+      },
+    },
+    openGraph: {
+      type: 'website',
+      url: canonical,
+      siteName: 'Ariteks',
+      locale: loc === 'pl' ? 'pl_PL' : 'en_US',
+      alternateLocale: loc === 'pl' ? ['en_US'] : ['pl_PL'],
+      title,
+      description,
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
       },
     },
   };
@@ -52,14 +93,135 @@ export default async function AboutPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const loc = locale as Locale;
   const t = await getTranslations('about');
 
+  const localeBaseUrl = loc === 'en' ? `${BASE_URL}/en` : BASE_URL;
+  const pageUrl = `${localeBaseUrl}/about`;
+  const description = t('hero.lead');
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    '@id': `${pageUrl}#breadcrumb`,
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: T.home[loc],
+        item: localeBaseUrl,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: T.about[loc],
+        item: pageUrl,
+      },
+    ],
+  };
+
+  const aboutPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': `${BASE_URL}/#organization`,
+        name: 'Ariteks',
+        url: BASE_URL,
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${BASE_URL}/#website`,
+        name: 'Ariteks',
+        url: BASE_URL,
+        publisher: {
+          '@id': `${BASE_URL}/#organization`,
+        },
+        inLanguage: ['pl-PL', 'en'],
+      },
+      {
+        '@type': 'AboutPage',
+        '@id': `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: t('meta.title'),
+        description,
+        inLanguage: loc === 'pl' ? 'pl-PL' : 'en',
+        isPartOf: {
+          '@id': `${BASE_URL}/#website`,
+        },
+        about: {
+          '@id': `${BASE_URL}/#organization`,
+        },
+        mainEntity: {
+          '@id': `${BASE_URL}/#organization`,
+        },
+        breadcrumb: {
+          '@id': `${pageUrl}#breadcrumb`,
+        },
+        primaryImageOfPage: {
+          '@type': 'ImageObject',
+          url: `${BASE_URL}/images/factory/istanbul.png`,
+        },
+      },
+    ],
+  };
+
   return (
-    <main>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbJsonLd).replace(
+            /</g,
+            '\\u003c'
+          ),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(aboutPageJsonLd).replace(
+            /</g,
+            '\\u003c'
+          ),
+        }}
+      />
+
+      <main>
       {/* ==================== HERO ==================== */}
       <section className="mesh-dark">
         <div className="container-site py-20 sm:py-24">
-          <p className="eyebrow eyebrow-dark">{t('hero.eyebrow')}</p>
+          <nav
+            aria-label={T.breadcrumbLabel[loc]}
+            className="eyebrow eyebrow-dark"
+          >
+            <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+              <li>
+                <Link
+                  href="/"
+                  className="transition-colors hover:text-red-400"
+                >
+                  {T.home[loc]}
+                </Link>
+              </li>
+
+              <li aria-hidden="true" className="text-carbon-500">
+                ›
+              </li>
+
+              <li
+                aria-current="page"
+                className="text-carbon-300"
+              >
+                {T.about[loc]}
+              </li>
+            </ol>
+          </nav>
+
+          <p className="mt-6 eyebrow eyebrow-dark">
+            {t('hero.eyebrow')}
+          </p>
           <h1 className="mt-6 max-w-4xl font-display text-display-xl font-bold text-white text-balance">
             {t('hero.title')}
           </h1>
@@ -203,6 +365,7 @@ export default async function AboutPage({
           </div>
         </div>
       </section>
-    </main>
+      </main>
+    </>
   );
 }
