@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export:catalog": "tsx scripts/export_public_catalog.ts",
+    "prebuild": "npm run export:catalog"
   },
   "dependencies": {
     "clsx": "^2.1.1",

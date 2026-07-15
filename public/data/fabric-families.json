@@ -1,0 +1,3194 @@
+{
+  "schemaVersion": 1,
+  "sourceHash": "ea82e2f8d52d800f50cc12d64a9bf385af254b82aadaa1b86afffb6187616c7f",
+  "baseUrl": "https://ariteks.pl",
+  "count": 50,
+  "families": [
+    {
+      "slug": "aramid",
+      "name": "Aramid",
+      "descriptor": {
+        "pl": "Tkane tkaniny aramidowe serii D do odzieży trudnopalnej",
+        "en": "Woven D-series aramid fabrics for FR workwear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/aramid",
+          "en": "/en/fabrics/aramid"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/aramid",
+          "en": "https://ariteks.pl/en/fabrics/aramid"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/aramid/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/aramid/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/aramid-d0-150/documents/aramid-ru-ds-ver2__b861278ecc.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/aramid-d0-150/documents/aramid-ru-ds-ver2__b861278ecc.pdf"
+        }
+      },
+      "productCount": 5,
+      "productSlugs": [
+        "aramid-d0-150",
+        "aramid-d1-210",
+        "aramid-d2-260",
+        "aramid-d3-200",
+        "aramid-d5-180-rb"
+      ],
+      "categories": [
+        {
+          "id": "aramid",
+          "name": {
+            "pl": "Tkaniny aramidowe",
+            "en": "Aramid workwear fabrics"
+          }
+        },
+        {
+          "id": "pbo",
+          "name": {
+            "pl": "Tkaniny PBO ultra ognioodporne",
+            "en": "PBO ultra fire-resistant"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "firefighting",
+          "name": {
+            "pl": "Straż pożarna",
+            "en": "Firefighting"
+          },
+          "primaryCount": 4,
+          "secondaryCount": 0,
+          "totalCount": 4
+        },
+        {
+          "id": "welding",
+          "name": {
+            "pl": "Hutnictwo i spawalnictwo",
+            "en": "Metallurgy and welding"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 1,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "aramid-2",
+      "name": "Aramid 2",
+      "descriptor": {
+        "pl": "Aramidowy denim trudnopalny",
+        "en": "FR aramid denim"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/aramid-2",
+          "en": "/en/fabrics/aramid-2"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/aramid-2",
+          "en": "https://ariteks.pl/en/fabrics/aramid-2"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/aramid-2/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/aramid-2/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ar3iplik-aramid-vis/documents/aramid-2-ru-ds-ver2__4b2c7f1e99.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ar3iplik-aramid-vis/documents/aramid-2-ru-ds-ver2__4b2c7f1e99.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "aramid-d1-210-denim"
+      ],
+      "categories": [
+        {
+          "id": "aramid-denim",
+          "name": {
+            "pl": "Aramid denim i stretch",
+            "en": "Aramid denim & stretch"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "energy",
+          "name": {
+            "pl": "Energetyka",
+            "en": "Energy sector"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "aramid-knit",
+      "name": "Aramid Knit",
+      "descriptor": {
+        "pl": "Dzianiny aramidowe — stretch i pika",
+        "en": "Aramid knits — stretch and piqué"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/aramid-knit",
+          "en": "/en/fabrics/aramid-knit"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/aramid-knit",
+          "en": "https://ariteks.pl/en/fabrics/aramid-knit"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/aramid-knit/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/aramid-knit/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/aramid-d2-260-el/documents/aramid-knit-ru-ds-ver2__d436d2f6f4.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/aramid-d2-260-el/documents/aramid-knit-ru-ds-ver2__d436d2f6f4.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "aramid-d2-260-el",
+        "aramid-d50-pike"
+      ],
+      "categories": [
+        {
+          "id": "aramid-denim",
+          "name": {
+            "pl": "Aramid denim i stretch",
+            "en": "Aramid denim & stretch"
+          }
+        },
+        {
+          "id": "aramid-knits",
+          "name": {
+            "pl": "Dzianiny aramidowe",
+            "en": "Aramid knits"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 1,
+          "totalCount": 1
+        },
+        {
+          "id": "firefighting",
+          "name": {
+            "pl": "Straż pożarna",
+            "en": "Firefighting"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "aramid-vis",
+      "name": "Aramid Vis",
+      "descriptor": {
+        "pl": "Tkane tkaniny aramidowo-wiskozowe FR",
+        "en": "Woven aramid-viscose FR fabrics"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/aramid-vis",
+          "en": "/en/fabrics/aramid-vis"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/aramid-vis",
+          "en": "https://ariteks.pl/en/fabrics/aramid-vis"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/aramid-vis/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/aramid-vis/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/aramid-vis-150/documents/aramid-vis-ru-ds-ver2__e8e63ac465.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/aramid-vis-150/documents/aramid-vis-ru-ds-ver2__e8e63ac465.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "aramid-vis-150"
+      ],
+      "categories": [
+        {
+          "id": "aramid-viscose",
+          "name": {
+            "pl": "Tkaniny aramid-wiskoza FR",
+            "en": "Aramid-viscose FR wovens"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "firefighting",
+          "name": {
+            "pl": "Straż pożarna",
+            "en": "Firefighting"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "aramid-vis-knit",
+      "name": "Aramid Vis Knit",
+      "descriptor": {
+        "pl": "Dzianiny aramidowo-wiskozowe FR",
+        "en": "Aramid-viscose FR knits"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/aramid-vis-knit",
+          "en": "/en/fabrics/aramid-vis-knit"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/aramid-vis-knit",
+          "en": "https://ariteks.pl/en/fabrics/aramid-vis-knit"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/aramid-vis-knit/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/aramid-vis-knit/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ar3iplik-aramid-vis/documents/aramid-vis-knit-ru-ds-ver2__98762619b0.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ar3iplik-aramid-vis/documents/aramid-vis-knit-ru-ds-ver2__98762619b0.pdf"
+        }
+      },
+      "productCount": 4,
+      "productSlugs": [
+        "aramid-vis-250",
+        "arsuprem-aramid-vis",
+        "arshirt-aramid-vis",
+        "ar3iplik-aramid-vis"
+      ],
+      "categories": [
+        {
+          "id": "aramid-viscose",
+          "name": {
+            "pl": "Tkaniny aramid-wiskoza FR",
+            "en": "Aramid-viscose FR wovens"
+          }
+        },
+        {
+          "id": "aramid-viscose-knits",
+          "name": {
+            "pl": "Dzianiny aramid-wiskoza FR",
+            "en": "Aramid-viscose FR knits"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "firefighting",
+          "name": {
+            "pl": "Straż pożarna",
+            "en": "Firefighting"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        },
+        {
+          "id": "energy",
+          "name": {
+            "pl": "Energetyka",
+            "en": "Energy sector"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 2,
+          "totalCount": 3
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arbir",
+      "name": "ArBir",
+      "descriptor": {
+        "pl": "Dzianiny tkaninopodobne na odzież wierzchnią, także wodoodporne",
+        "en": "Woven-like knits for outerwear, incl. water-repellent"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arbir",
+          "en": "/en/fabrics/arbir"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arbir",
+          "en": "https://ariteks.pl/en/fabrics/arbir"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arbir/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arbir/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arbir/documents/arbir-ru-ds-ver2__7beddfe03e.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arbir/documents/arbir-ru-ds-ver2__7beddfe03e.pdf"
+        }
+      },
+      "productCount": 4,
+      "productSlugs": [
+        "arbir",
+        "arbir-su-itici",
+        "arbir-su-itici-su-gecirmez",
+        "arbir-200"
+      ],
+      "categories": [
+        {
+          "id": "woven-like-knits",
+          "name": {
+            "pl": "Dzianiny tkaninopodobne",
+            "en": "Woven-like knits"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 4,
+          "secondaryCount": 0,
+          "totalCount": 4
+        }
+      ]
+    },
+    {
+      "slug": "arbo",
+      "name": "ArBo",
+      "descriptor": {
+        "pl": "Tkaniny dla straży pożarnej",
+        "en": "Firefighter fabrics"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arbo",
+          "en": "/en/fabrics/arbo"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arbo",
+          "en": "https://ariteks.pl/en/fabrics/arbo"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arbo/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arbo/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/aramid-d5-180-rb/documents/arbo-ru-ds-ver2__00d0e7ed1a.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/aramid-d5-180-rb/documents/arbo-ru-ds-ver2__00d0e7ed1a.pdf"
+        }
+      },
+      "productCount": 3,
+      "productSlugs": [
+        "arbo",
+        "arbo-dark",
+        "arbo-knit"
+      ],
+      "categories": [
+        {
+          "id": "pbo",
+          "name": {
+            "pl": "Tkaniny PBO ultra ognioodporne",
+            "en": "PBO ultra fire-resistant"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 1,
+          "totalCount": 1
+        },
+        {
+          "id": "firefighting",
+          "name": {
+            "pl": "Straż pożarna",
+            "en": "Firefighting"
+          },
+          "primaryCount": 3,
+          "secondaryCount": 0,
+          "totalCount": 3
+        }
+      ]
+    },
+    {
+      "slug": "ard3e3",
+      "name": "ArD3E3",
+      "descriptor": {
+        "pl": "Trudnopalna tkanina wielofunkcyjna z ochroną antystatyczną",
+        "en": "Multi-protection FR fabric with antistatic"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/ard3e3",
+          "en": "/en/fabrics/ard3e3"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/ard3e3",
+          "en": "https://ariteks.pl/en/fabrics/ard3e3"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/ard3e3/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/ard3e3/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ar3iplik-moda-pro/documents/ard3e3-ru-ds-ver2__af847ace78.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ar3iplik-moda-pro/documents/ard3e3-ru-ds-ver2__af847ace78.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "ard3e3"
+      ],
+      "categories": [
+        {
+          "id": "molten-metal",
+          "name": {
+            "pl": "Ochrona przed roztopionym metalem",
+            "en": "Molten metal protection"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "welding",
+          "name": {
+            "pl": "Hutnictwo i spawalnictwo",
+            "en": "Metallurgy and welding"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "ardura",
+      "name": "ArDura",
+      "descriptor": {
+        "pl": "Bazowa tkanina mundurowa PA 6.6",
+        "en": "Base PA 6.6 uniform fabric"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/ardura",
+          "en": "/en/fabrics/ardura"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/ardura",
+          "en": "https://ariteks.pl/en/fabrics/ardura"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/ardura/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/ardura/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ardura-1000/documents/ardura-ru-ds-ver2__19ef5908d9.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ardura-1000/documents/ardura-ru-ds-ver2__19ef5908d9.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "ardura-500"
+      ],
+      "categories": [
+        {
+          "id": "pa66-abrasion",
+          "name": {
+            "pl": "PA 6.6 odporne na ścieranie",
+            "en": "PA 6.6 abrasion-resistant"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "ardura-2",
+      "name": "ArDura 2",
+      "descriptor": {
+        "pl": "Tkaniny PA 6.6 — warianty powlekane, FR i wzmocnione",
+        "en": "PA 6.6 fabrics — coated, FR and reinforced variants"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/ardura-2",
+          "en": "/en/fabrics/ardura-2"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/ardura-2",
+          "en": "https://ariteks.pl/en/fabrics/ardura-2"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/ardura-2/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/ardura-2/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ardura-1000/documents/ardura-2-ru-ds-ver2__4cd2c26514.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ardura-1000/documents/ardura-2-ru-ds-ver2__4cd2c26514.pdf"
+        }
+      },
+      "productCount": 11,
+      "productSlugs": [
+        "ardura-1000",
+        "ardura-500-c",
+        "ardura-500-c-neo",
+        "ardura-500-c-rb",
+        "ardura-500-kirik-dimi",
+        "ardura-500-fr",
+        "ardura-1000-c",
+        "ardura-1000-c-rb",
+        "ardura-1000-kirik-dimi",
+        "ardura-1000-fr",
+        "ardura-500-cg"
+      ],
+      "categories": [
+        {
+          "id": "pa66-abrasion",
+          "name": {
+            "pl": "PA 6.6 odporne na ścieranie",
+            "en": "PA 6.6 abrasion-resistant"
+          }
+        },
+        {
+          "id": "uniform-pa66",
+          "name": {
+            "pl": "Tkaniny mundurowe PA 6.6",
+            "en": "PA 6.6 uniform fabrics"
+          }
+        },
+        {
+          "id": "cut-resistant",
+          "name": {
+            "pl": "Antyprzecięciowe i przeciwprzebiciowe",
+            "en": "Cut & puncture resistant"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 11,
+          "secondaryCount": 0,
+          "totalCount": 11
+        },
+        {
+          "id": "motorcycle",
+          "name": {
+            "pl": "Odzież motocyklowa",
+            "en": "Motorcycle apparel"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 5,
+          "totalCount": 5
+        },
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 1,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "aremk",
+      "name": "ArEMK",
+      "descriptor": {
+        "pl": "Tkaniny ekranujące EMI",
+        "en": "EMI shielding fabrics"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/aremk",
+          "en": "/en/fabrics/aremk"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/aremk",
+          "en": "https://ariteks.pl/en/fabrics/aremk"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/aremk/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/aremk/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arbo-knit/documents/aremk-ru-ds-ver2__751b3da23c.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arbo-knit/documents/aremk-ru-ds-ver2__751b3da23c.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arwowear-t4-emk",
+        "arshirt-emk"
+      ],
+      "categories": [
+        {
+          "id": "emi",
+          "name": {
+            "pl": "Tkaniny ekranujące EMI",
+            "en": "EMI shielding fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "energy",
+          "name": {
+            "pl": "Energetyka",
+            "en": "Energy sector"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "argiyim",
+      "name": "ArGiyim",
+      "descriptor": {
+        "pl": "Dzianiny odzieżowe funkcyjne",
+        "en": "Functional apparel knits"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/argiyim",
+          "en": "/en/fabrics/argiyim"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/argiyim",
+          "en": "https://ariteks.pl/en/fabrics/argiyim"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/argiyim/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/argiyim/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/argiyim-245/documents/argiyim-ru-ds-ver2__0b899781bf.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/argiyim-245/documents/argiyim-ru-ds-ver2__0b899781bf.pdf"
+        }
+      },
+      "productCount": 4,
+      "productSlugs": [
+        "argiyim-245",
+        "argiyim-290",
+        "argiyim-245-static-pro",
+        "argiyim-bird-eye"
+      ],
+      "categories": [
+        {
+          "id": "polycotton",
+          "name": {
+            "pl": "Tkaniny PolyCotton",
+            "en": "PolyCotton fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 4,
+          "secondaryCount": 0,
+          "totalCount": 4
+        }
+      ]
+    },
+    {
+      "slug": "argiyim-2",
+      "name": "ArGiyim 2",
+      "descriptor": {
+        "pl": "Denim i ripstop na odzież outdoor",
+        "en": "Denim and ripstop for outdoor wear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/argiyim-2",
+          "en": "/en/fabrics/argiyim-2"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/argiyim-2",
+          "en": "https://ariteks.pl/en/fabrics/argiyim-2"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/argiyim-2/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/argiyim-2/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/argiyim-360-denim/documents/argiyim-2-ru-ds-ver2__e5f55d7f36.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/argiyim-360-denim/documents/argiyim-2-ru-ds-ver2__e5f55d7f36.pdf"
+        }
+      },
+      "productCount": 4,
+      "productSlugs": [
+        "argiyim-360-denim",
+        "argiyim-l",
+        "ariripstop",
+        "ariripstop-el"
+      ],
+      "categories": [
+        {
+          "id": "ripstop-outdoor",
+          "name": {
+            "pl": "Ripstop i denim outdoor",
+            "en": "Ripstop & outdoor denim"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "medical",
+          "name": {
+            "pl": "Medycyna",
+            "en": "Medical"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "outdoor-functional",
+          "name": {
+            "pl": "Outdoor i odzież funkcjonalna",
+            "en": "Outdoor and functional apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "argiyim-knit",
+      "name": "ArGiyim Knit",
+      "descriptor": {
+        "pl": "Dzianiny specjalne — antyprzecięciowe i balistyczne",
+        "en": "Special knits — cut-resistant and ballistic"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/argiyim-knit",
+          "en": "/en/fabrics/argiyim-knit"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/argiyim-knit",
+          "en": "https://ariteks.pl/en/fabrics/argiyim-knit"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/argiyim-knit/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/argiyim-knit/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/argiyim-ic/documents/argiyim-knit-ru-ds-ver2__1e75f8a088.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/argiyim-ic/documents/argiyim-knit-ru-ds-ver2__1e75f8a088.pdf"
+        }
+      },
+      "productCount": 5,
+      "productSlugs": [
+        "argiyim-sultan",
+        "argiyim-ic",
+        "argiyim-knit-knife-pro",
+        "argiyim-denim-kursun",
+        "argiyim-denim-kursun-ck"
+      ],
+      "categories": [
+        {
+          "id": "polycotton",
+          "name": {
+            "pl": "Tkaniny PolyCotton",
+            "en": "PolyCotton fabrics"
+          }
+        },
+        {
+          "id": "polycotton-needle-drop",
+          "name": {
+            "pl": "PolyCotton needle drop",
+            "en": "Needle-drop PolyCotton knit"
+          }
+        },
+        {
+          "id": "cut-resistant",
+          "name": {
+            "pl": "Antyprzecięciowe i przeciwprzebiciowe",
+            "en": "Cut & puncture resistant"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "motorcycle",
+          "name": {
+            "pl": "Odzież motocyklowa",
+            "en": "Motorcycle apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        },
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "argiyim-yp",
+      "name": "ArGiyim YP",
+      "descriptor": {
+        "pl": "Dzianina o podwyższonej trwałości",
+        "en": "High-durability knit"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/argiyim-yp",
+          "en": "/en/fabrics/argiyim-yp"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/argiyim-yp",
+          "en": "https://ariteks.pl/en/fabrics/argiyim-yp"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/argiyim-yp/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/argiyim-yp/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/argiyim-dura/documents/argiyim-yp-ru-ds-ver2__995fba4dc5.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/argiyim-dura/documents/argiyim-yp-ru-ds-ver2__995fba4dc5.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "argiyim-dura"
+      ],
+      "categories": [
+        {
+          "id": "uniform-pa66",
+          "name": {
+            "pl": "Tkaniny mundurowe PA 6.6",
+            "en": "PA 6.6 uniform fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "motorcycle",
+          "name": {
+            "pl": "Odzież motocyklowa",
+            "en": "Motorcycle apparel"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 1,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arhard-mesh",
+      "name": "ArHard Mesh",
+      "descriptor": {
+        "pl": "Ciężkie siatki techniczne",
+        "en": "Heavy technical mesh"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arhard-mesh",
+          "en": "/en/fabrics/arhard-mesh"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arhard-mesh",
+          "en": "https://ariteks.pl/en/fabrics/arhard-mesh"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arhard-mesh/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arhard-mesh/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arhard-mesh/documents/arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arhard-mesh/documents/arhard-mesh-ru-ds-ver2__414b2ab9d1.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arhard-mesh",
+        "arhard-mesh-300"
+      ],
+      "categories": [
+        {
+          "id": "heavy-mesh",
+          "name": {
+            "pl": "Ciężkie siatki",
+            "en": "Heavy mesh fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "upholstery-interiors",
+          "name": {
+            "pl": "Tapicerka i wyposażenie wnętrz",
+            "en": "Upholstery and interior furnishings"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "armedi",
+      "name": "ArMedi",
+      "descriptor": {
+        "pl": "Elastyczne tkaniny medyczne",
+        "en": "Elastic medical fabrics"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/armedi",
+          "en": "/en/fabrics/armedi"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/armedi",
+          "en": "https://ariteks.pl/en/fabrics/armedi"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/armedi/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/armedi/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/armedi/documents/armedi-ru-ds-ver2__ba3d9e8671.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/armedi/documents/armedi-ru-ds-ver2__ba3d9e8671.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "armedi"
+      ],
+      "categories": [
+        {
+          "id": "medical",
+          "name": {
+            "pl": "Tkaniny medyczne",
+            "en": "Medical fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "medical",
+          "name": {
+            "pl": "Medycyna",
+            "en": "Medical"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "armedi-antibac",
+      "name": "ArMedi Antibac",
+      "descriptor": {
+        "pl": "Medyczne tkaniny antybakteryjne (jony srebra)",
+        "en": "Antibacterial medical fabrics (silver)"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/armedi-antibac",
+          "en": "/en/fabrics/armedi-antibac"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/armedi-antibac",
+          "en": "https://ariteks.pl/en/fabrics/armedi-antibac"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/armedi-antibac/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/armedi-antibac/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/armedi/documents/armedi-antibac-ru-ds-ver2__4f5fce4a55.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/armedi/documents/armedi-antibac-ru-ds-ver2__4f5fce4a55.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arox-t2-wr-antibac",
+        "arwowear-t4-antibac"
+      ],
+      "categories": [
+        {
+          "id": "antibacterial",
+          "name": {
+            "pl": "Antybakteryjne z jonami srebra",
+            "en": "Antibacterial silver fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "medical",
+          "name": {
+            "pl": "Medycyna",
+            "en": "Medical"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "armedi-antiviral",
+      "name": "ArMedi Antiviral",
+      "descriptor": {
+        "pl": "Dzianiny antywirusowe",
+        "en": "Antiviral knits"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/armedi-antiviral",
+          "en": "/en/fabrics/armedi-antiviral"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/armedi-antiviral",
+          "en": "https://ariteks.pl/en/fabrics/armedi-antiviral"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/armedi-antiviral/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/armedi-antiviral/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arshirt-antiviral/documents/armedi-antiviral-ru-ds-ver2__87aeba2745.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arshirt-antiviral/documents/armedi-antiviral-ru-ds-ver2__87aeba2745.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "arshirt-antiviral"
+      ],
+      "categories": [
+        {
+          "id": "antiviral",
+          "name": {
+            "pl": "Dzianiny antywirusowe (srebro)",
+            "en": "Antiviral silver knits"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "medical",
+          "name": {
+            "pl": "Medycyna",
+            "en": "Medical"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "armoto",
+      "name": "ArMoto",
+      "descriptor": {
+        "pl": "Tkaniny na odzież motocyklową",
+        "en": "Motorcycle apparel fabrics"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/armoto",
+          "en": "/en/fabrics/armoto"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/armoto",
+          "en": "https://ariteks.pl/en/fabrics/armoto"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/armoto/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/armoto/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/armoto/documents/armoto-ru-ds-ver2__eab0490475.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/armoto/documents/armoto-ru-ds-ver2__eab0490475.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "armoto",
+        "armoto-dura"
+      ],
+      "categories": [
+        {
+          "id": "heavy-warp-knits",
+          "name": {
+            "pl": "Ciężkie dzianiny kolumienkowe",
+            "en": "Heavy warp knits"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 1,
+          "totalCount": 1
+        },
+        {
+          "id": "motorcycle",
+          "name": {
+            "pl": "Odzież motocyklowa",
+            "en": "Motorcycle apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "outdoor-functional",
+          "name": {
+            "pl": "Outdoor i odzież funkcjonalna",
+            "en": "Outdoor and functional apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 1,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arneo",
+      "name": "ArNeo",
+      "descriptor": {
+        "pl": "Fluorescencyjne dzianiny hi-vis na odzież ostrzegawczą",
+        "en": "Fluorescent hi-vis knits for safety wear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arneo",
+          "en": "/en/fabrics/arneo"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arneo",
+          "en": "https://ariteks.pl/en/fabrics/arneo"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arneo/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arneo/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arneo/documents/arneo-ru-ds-ver2__c1069fddab.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arneo/documents/arneo-ru-ds-ver2__c1069fddab.pdf"
+        }
+      },
+      "productCount": 14,
+      "productSlugs": [
+        "arneo",
+        "arneo-pro",
+        "arneo-flame-static-pro",
+        "arneo-eco-r400",
+        "arneo-color",
+        "arneo-file",
+        "arneo-color-file",
+        "arneo-dirt-pro",
+        "arneo-supereco",
+        "arneo-supereco-r50",
+        "arneo-light",
+        "arneo-light-r50",
+        "arneo-light-r400",
+        "arneo-color-light"
+      ],
+      "categories": [
+        {
+          "id": "hi-vis",
+          "name": {
+            "pl": "Dzianiny ostrzegawcze hi-vis",
+            "en": "Hi-vis warp knit fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 14,
+          "secondaryCount": 0,
+          "totalCount": 14
+        }
+      ]
+    },
+    {
+      "slug": "arof",
+      "name": "ArOF",
+      "descriptor": {
+        "pl": "Lekkie siatki i dresówki",
+        "en": "Light mesh and tracksuit fabrics"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arof",
+          "en": "/en/fabrics/arof"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arof",
+          "en": "https://ariteks.pl/en/fabrics/arof"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arof/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arof/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arof/documents/arof-ru-ds-ver2__12a7f29f09.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arof/documents/arof-ru-ds-ver2__12a7f29f09.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arof",
+        "arof-mesh-2-2"
+      ],
+      "categories": [
+        {
+          "id": "tracksuit-mesh",
+          "name": {
+            "pl": "Dresówki i lekkie siatki",
+            "en": "Tracksuit & light mesh"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "sport",
+          "name": {
+            "pl": "Sport",
+            "en": "Sport"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "outdoor-functional",
+          "name": {
+            "pl": "Outdoor i odzież funkcjonalna",
+            "en": "Outdoor and functional apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arox",
+      "name": "ArOx",
+      "descriptor": {
+        "pl": "Tkaniny robocze funkcyjne — antystatyczne i hydrofobowe",
+        "en": "Functional workwear — antistatic and water-repellent"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arox",
+          "en": "/en/fabrics/arox"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arox",
+          "en": "https://ariteks.pl/en/fabrics/arox"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arox/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arox/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arox-t1-static-pro/documents/arox-ru-ds-ver2__b3d28254d5.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arox-t1-static-pro/documents/arox-ru-ds-ver2__b3d28254d5.pdf"
+        }
+      },
+      "productCount": 5,
+      "productSlugs": [
+        "arox-t1-static-pro",
+        "arox-t2-static-pro",
+        "arox-t2-wr",
+        "arox-t4-wr-wp",
+        "arox-t5-multi"
+      ],
+      "categories": [
+        {
+          "id": "polyester-outerwear",
+          "name": {
+            "pl": "Poliestrowe na odzież wierzchnią",
+            "en": "Polyester outerwear fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 3,
+          "secondaryCount": 0,
+          "totalCount": 3
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arox-medical",
+      "name": "ArOx Medical",
+      "descriptor": {
+        "pl": "Tkaniny medyczne barierowe",
+        "en": "Barrier medical fabrics"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arox-medical",
+          "en": "/en/fabrics/arox-medical"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arox-medical",
+          "en": "https://ariteks.pl/en/fabrics/arox-medical"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arox-medical/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arox-medical/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arox-t0-wr-wp/documents/arox-medical-ru-ds-ver2__f34acfa84e.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arox-t0-wr-wp/documents/arox-medical-ru-ds-ver2__f34acfa84e.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arox-t0-wr-wp",
+        "arox-t1-wr-wp"
+      ],
+      "categories": [
+        {
+          "id": "antibacterial",
+          "name": {
+            "pl": "Antybakteryjne z jonami srebra",
+            "en": "Antibacterial silver fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "medical",
+          "name": {
+            "pl": "Medycyna",
+            "en": "Medical"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arpower-knit",
+      "name": "ArPower Knit",
+      "descriptor": {
+        "pl": "Dzianiny elastyczne wysokiej wytrzymałości",
+        "en": "High-strength elastic knits"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arpower-knit",
+          "en": "/en/fabrics/arpower-knit"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arpower-knit",
+          "en": "https://ariteks.pl/en/fabrics/arpower-knit"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arpower-knit/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arpower-knit/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arox-t1-wr-wp/documents/arpower-knit-ru-ds-ver2__56cc58ec37.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arox-t1-wr-wp/documents/arpower-knit-ru-ds-ver2__56cc58ec37.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arpower-knit-p",
+        "arpower-knit"
+      ],
+      "categories": [
+        {
+          "id": "medical-elastic",
+          "name": {
+            "pl": "Elastyczne medyczne",
+            "en": "Elastic medical fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "medical",
+          "name": {
+            "pl": "Medycyna",
+            "en": "Medical"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arshirt-arsuprem",
+      "name": "ArShirt & ArSuprem",
+      "descriptor": {
+        "pl": "Dzianiny koszulowe hi-vis",
+        "en": "Hi-vis shirting knits"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arshirt-arsuprem",
+          "en": "/en/fabrics/arshirt-arsuprem"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arshirt-arsuprem",
+          "en": "https://ariteks.pl/en/fabrics/arshirt-arsuprem"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arshirt-arsuprem/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arshirt-arsuprem/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arshirt-neo/documents/arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arshirt-neo/documents/arshirt-arsuprem-ru-ds-ver2__69a1da2a44.pdf"
+        }
+      },
+      "productCount": 3,
+      "productSlugs": [
+        "arshirt-neo",
+        "arshirt",
+        "arsuprem"
+      ],
+      "categories": [
+        {
+          "id": "hi-vis",
+          "name": {
+            "pl": "Dzianiny ostrzegawcze hi-vis",
+            "en": "Hi-vis warp knit fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arsport",
+      "name": "ArSport",
+      "descriptor": {
+        "pl": "Dzianiny sportowe",
+        "en": "Sports knits"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arsport",
+          "en": "/en/fabrics/arsport"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arsport",
+          "en": "https://ariteks.pl/en/fabrics/arsport"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arsport/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arsport/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arof-mesh-2-2/documents/arsport-ru-ds-ver2__becf295182.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arof-mesh-2-2/documents/arsport-ru-ds-ver2__becf295182.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arsport",
+        "arsport-x"
+      ],
+      "categories": [
+        {
+          "id": "t-shirt-interlock",
+          "name": {
+            "pl": "Interlock na T-shirty",
+            "en": "T-shirt interlock knits"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "sport",
+          "name": {
+            "pl": "Sport",
+            "en": "Sport"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arsport2",
+      "name": "ArSport 2",
+      "descriptor": {
+        "pl": "Dzianiny sportowe — oddychające i stretch",
+        "en": "Sports knits — breathable and stretch"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arsport2",
+          "en": "/en/fabrics/arsport2"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arsport2",
+          "en": "https://ariteks.pl/en/fabrics/arsport2"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arsport2/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arsport2/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arhard-mesh-300/documents/arsport2-ru-ds-ver2__a2dd65e3e0.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arhard-mesh-300/documents/arsport2-ru-ds-ver2__a2dd65e3e0.pdf"
+        }
+      },
+      "productCount": 3,
+      "productSlugs": [
+        "arsport-dry",
+        "arsport-el",
+        "arsport-wp-flame-pro"
+      ],
+      "categories": [
+        {
+          "id": "functional-interlock",
+          "name": {
+            "pl": "Dzianiny funkcyjne interlock",
+            "en": "Functional interlock knits"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "firefighting",
+          "name": {
+            "pl": "Straż pożarna",
+            "en": "Firefighting"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 1,
+          "totalCount": 2
+        },
+        {
+          "id": "sport",
+          "name": {
+            "pl": "Sport",
+            "en": "Sport"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 1,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arwowear-chem-pro",
+      "name": "ArWoWear Chem Pro",
+      "descriptor": {
+        "pl": "Robocze tkaniny chemoodporne",
+        "en": "Chemical-resistant workwear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arwowear-chem-pro",
+          "en": "/en/fabrics/arwowear-chem-pro"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arwowear-chem-pro",
+          "en": "https://ariteks.pl/en/fabrics/arwowear-chem-pro"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arwowear-chem-pro/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arwowear-chem-pro/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arwowear-t11-chem-pro/documents/arwowear-chem-pro-ru-ds-ver2__7e0a605a1e.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arwowear-t11-chem-pro/documents/arwowear-chem-pro-ru-ds-ver2__7e0a605a1e.pdf"
+        }
+      },
+      "productCount": 6,
+      "productSlugs": [
+        "arwowear-t2-chem-pro",
+        "arwowear-t4-chem-pro",
+        "arwowear-t5-chem-pro",
+        "arwowear-t6-chem-pro",
+        "arwowear-t7-chem-pro",
+        "arwowear-t11-chem-pro"
+      ],
+      "categories": [
+        {
+          "id": "chemical-resistant",
+          "name": {
+            "pl": "Tkaniny chemoodporne",
+            "en": "Chemical-resistant workwear"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 6,
+          "secondaryCount": 0,
+          "totalCount": 6
+        }
+      ]
+    },
+    {
+      "slug": "arwowear-flame-arc-pro",
+      "name": "ArWoWear Flame Arc Pro",
+      "descriptor": {
+        "pl": "Trudnopalne z ochroną przed łukiem elektrycznym",
+        "en": "FR with electric-arc protection"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arwowear-flame-arc-pro",
+          "en": "/en/fabrics/arwowear-flame-arc-pro"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arwowear-flame-arc-pro",
+          "en": "https://ariteks.pl/en/fabrics/arwowear-flame-arc-pro"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arwowear-flame-arc-pro/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arwowear-flame-arc-pro/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arwowear-t0-flame-arc-pro/documents/arwowear-flame-arc-pro-ru-ds-ver2__5cfde7a84c.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arwowear-t0-flame-arc-pro/documents/arwowear-flame-arc-pro-ru-ds-ver2__5cfde7a84c.pdf"
+        }
+      },
+      "productCount": 9,
+      "productSlugs": [
+        "arwowear-t31-flame-pro",
+        "arwowear-t0-flame-arc-pro",
+        "arwowear-t1-flame-arc-pro",
+        "arwowear-t2-flame-arc-pro",
+        "arwowear-t11-flame-arc-pro",
+        "arwowear-t20-flame-arc-pro",
+        "arwowear-t21-flame-arc-pro",
+        "arwowear-t30-flame-arc-pro",
+        "arwowear-t31-flame-arc-pro"
+      ],
+      "categories": [
+        {
+          "id": "fr-workwear",
+          "name": {
+            "pl": "Trudnopalne robocze",
+            "en": "FR workwear"
+          }
+        },
+        {
+          "id": "fr-antistatic",
+          "name": {
+            "pl": "Trudnopalne antystatyczne",
+            "en": "FR antistatic workwear"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "energy",
+          "name": {
+            "pl": "Energetyka",
+            "en": "Energy sector"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 6,
+          "totalCount": 7
+        },
+        {
+          "id": "welding",
+          "name": {
+            "pl": "Hutnictwo i spawalnictwo",
+            "en": "Metallurgy and welding"
+          },
+          "primaryCount": 6,
+          "secondaryCount": 1,
+          "totalCount": 7
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arwowear-flame-pro",
+      "name": "ArWoWear Flame Pro",
+      "descriptor": {
+        "pl": "Trudnopalne tkaniny robocze (100 prań)",
+        "en": "FR workwear fabrics (100 washes)"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arwowear-flame-pro",
+          "en": "/en/fabrics/arwowear-flame-pro"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arwowear-flame-pro",
+          "en": "https://ariteks.pl/en/fabrics/arwowear-flame-pro"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arwowear-flame-pro/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arwowear-flame-pro/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arwowear-t1-flame-pro/documents/arwowear-flame-pro-ru-ds-ver2__b94c0ba742.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arwowear-t1-flame-pro/documents/arwowear-flame-pro-ru-ds-ver2__b94c0ba742.pdf"
+        }
+      },
+      "productCount": 8,
+      "productSlugs": [
+        "arwowear-t1-flame-pro",
+        "arwowear-t2-flame-pro",
+        "arwowear-t11-flame-pro",
+        "arwowear-t12-flame-pro",
+        "arwowear-t13-flame-pro",
+        "arwowear-t20-flame-pro",
+        "arwowear-t21-flame-pro",
+        "arwowear-t30-flame-pro"
+      ],
+      "categories": [
+        {
+          "id": "fr-workwear",
+          "name": {
+            "pl": "Trudnopalne robocze",
+            "en": "FR workwear"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "welding",
+          "name": {
+            "pl": "Hutnictwo i spawalnictwo",
+            "en": "Metallurgy and welding"
+          },
+          "primaryCount": 6,
+          "secondaryCount": 1,
+          "totalCount": 7
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arwowear-moda-pro",
+      "name": "ArWoWear Moda Pro",
+      "descriptor": {
+        "pl": "Robocze tkaniny modowe",
+        "en": "Fashion-grade workwear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arwowear-moda-pro",
+          "en": "/en/fabrics/arwowear-moda-pro"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arwowear-moda-pro",
+          "en": "https://ariteks.pl/en/fabrics/arwowear-moda-pro"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arwowear-moda-pro/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arwowear-moda-pro/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/aramid-d3-200/documents/arwowear-moda-pro-ru-ds-ver2__f244793b3c.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/aramid-d3-200/documents/arwowear-moda-pro-ru-ds-ver2__f244793b3c.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arwowear-260-moda-pro",
+        "arwowear-330-moda-pro"
+      ],
+      "categories": [
+        {
+          "id": "modacrylic",
+          "name": {
+            "pl": "Tkaniny modakrylowe",
+            "en": "Modacrylic workwear"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "welding",
+          "name": {
+            "pl": "Hutnictwo i spawalnictwo",
+            "en": "Metallurgy and welding"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        },
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 2,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arwowear-moda-pro-2",
+      "name": "ArWoWear Moda Pro 2",
+      "descriptor": {
+        "pl": "Robocze modowe — stretch i polar, wielobrandowe",
+        "en": "Fashion workwear — stretch and fleece, multi-brand"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arwowear-moda-pro-2",
+          "en": "/en/fabrics/arwowear-moda-pro-2"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arwowear-moda-pro-2",
+          "en": "https://ariteks.pl/en/fabrics/arwowear-moda-pro-2"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arwowear-moda-pro-2/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arwowear-moda-pro-2/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ar3iplik-moda-pro/documents/arwowear-moda-pro-2-ru-ds-ver2__c44aab5ee8.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ar3iplik-moda-pro/documents/arwowear-moda-pro-2-ru-ds-ver2__c44aab5ee8.pdf"
+        }
+      },
+      "productCount": 4,
+      "productSlugs": [
+        "arshirt-moda-pro",
+        "arsuprem-moda-pro",
+        "arwowear-330-moda-pro-el",
+        "ar3iplik-moda-pro"
+      ],
+      "categories": [
+        {
+          "id": "hi-vis",
+          "name": {
+            "pl": "Dzianiny ostrzegawcze hi-vis",
+            "en": "Hi-vis warp knit fabrics"
+          }
+        },
+        {
+          "id": "fr-stretch-fleece",
+          "name": {
+            "pl": "Trudnopalne stretch i polar",
+            "en": "FR stretch & fleece"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "energy",
+          "name": {
+            "pl": "Energetyka",
+            "en": "Energy sector"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "welding",
+          "name": {
+            "pl": "Hutnictwo i spawalnictwo",
+            "en": "Metallurgy and welding"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 1,
+          "totalCount": 1
+        },
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 3,
+          "secondaryCount": 0,
+          "totalCount": 3
+        }
+      ]
+    },
+    {
+      "slug": "arwowear-soft",
+      "name": "ArWoWear Soft",
+      "descriptor": {
+        "pl": "Miękkie tkaniny robocze",
+        "en": "Soft-touch workwear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arwowear-soft",
+          "en": "/en/fabrics/arwowear-soft"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arwowear-soft",
+          "en": "https://ariteks.pl/en/fabrics/arwowear-soft"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arwowear-soft/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arwowear-soft/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arbir-200/documents/arwowear-soft-ru-ds-ver2__6db9fc9d22.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arbir-200/documents/arwowear-soft-ru-ds-ver2__6db9fc9d22.pdf"
+        }
+      },
+      "productCount": 6,
+      "productSlugs": [
+        "arwowear-t2-soft",
+        "arwowear-t4-soft",
+        "arwowear-t5-soft",
+        "arwowear-t6-soft",
+        "arwowear-t7-soft",
+        "arwowear-t11-soft"
+      ],
+      "categories": [
+        {
+          "id": "economical-twill",
+          "name": {
+            "pl": "Ekonomiczne robocze twill",
+            "en": "Economical twill workwear"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 6,
+          "secondaryCount": 0,
+          "totalCount": 6
+        }
+      ]
+    },
+    {
+      "slug": "arwowear-static-pro",
+      "name": "ArWoWear Static Pro",
+      "descriptor": {
+        "pl": "Antystatyczne tkaniny robocze",
+        "en": "Antistatic workwear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arwowear-static-pro",
+          "en": "/en/fabrics/arwowear-static-pro"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arwowear-static-pro",
+          "en": "https://ariteks.pl/en/fabrics/arwowear-static-pro"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arwowear-static-pro/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arwowear-static-pro/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arwowear-t11-soft/documents/arwowear-static-pro-ru-ds-ver2__20f5550516.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arwowear-t11-soft/documents/arwowear-static-pro-ru-ds-ver2__20f5550516.pdf"
+        }
+      },
+      "productCount": 7,
+      "productSlugs": [
+        "arshirt-static-pro",
+        "arsuprem-static-pro",
+        "arwowear-t2-static-pro",
+        "arwowear-t4-static-pro",
+        "arwowear-t11-static-pro",
+        "arwowear-t20-static-pro",
+        "arwowear-t21-static-pro"
+      ],
+      "categories": [
+        {
+          "id": "hi-vis",
+          "name": {
+            "pl": "Dzianiny ostrzegawcze hi-vis",
+            "en": "Hi-vis warp knit fabrics"
+          }
+        },
+        {
+          "id": "antistatic",
+          "name": {
+            "pl": "Antystatyczne robocze",
+            "en": "Antistatic twill workwear"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 7,
+          "secondaryCount": 0,
+          "totalCount": 7
+        }
+      ]
+    },
+    {
+      "slug": "arwowear-t0-soft",
+      "name": "ArWoWear T0 Soft",
+      "descriptor": {
+        "pl": "Lekkie miękkie robocze — biel i pastele",
+        "en": "Light soft workwear — whites and pastels"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arwowear-t0-soft",
+          "en": "/en/fabrics/arwowear-t0-soft"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arwowear-t0-soft",
+          "en": "https://ariteks.pl/en/fabrics/arwowear-t0-soft"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arwowear-t0-soft/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arwowear-t0-soft/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arpower-knit/documents/arwowear-t0-soft-ru-ds-ver2__4103587e6f.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arpower-knit/documents/arwowear-t0-soft-ru-ds-ver2__4103587e6f.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arwowear-t0-soft",
+        "arwowear-t5-soft-el"
+      ],
+      "categories": [
+        {
+          "id": "scrubs",
+          "name": {
+            "pl": "Odzież medyczna (scrubs)",
+            "en": "Scrubs & medical shirts"
+          }
+        },
+        {
+          "id": "ripstop-outdoor",
+          "name": {
+            "pl": "Ripstop i denim outdoor",
+            "en": "Ripstop & outdoor denim"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "medical",
+          "name": {
+            "pl": "Medycyna",
+            "en": "Medical"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        },
+        {
+          "id": "workwear-industrial",
+          "name": {
+            "pl": "Odzież robocza i przemysłowa",
+            "en": "Workwear and industrial apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arairmesh",
+      "name": "ArAir Mesh",
+      "descriptor": {
+        "pl": "Dzianiny dystansowe 3D na siedziska i obuwie",
+        "en": "3D spacer mesh for seating and footwear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arairmesh",
+          "en": "/en/fabrics/arairmesh"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arairmesh",
+          "en": "https://ariteks.pl/en/fabrics/arairmesh"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arairmesh/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arairmesh/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ar-air-mesh-aa-150/documents/arairmesh-ru-ds-ver2__db6f079a0c.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ar-air-mesh-aa-150/documents/arairmesh-ru-ds-ver2__db6f079a0c.pdf"
+        }
+      },
+      "productCount": 4,
+      "productSlugs": [
+        "ar-air-mesh-aa-150",
+        "ar-air-mesh-aa-250",
+        "ar-air-mesh-bb",
+        "ar-air-mesh-bond"
+      ],
+      "categories": [
+        {
+          "id": "air-mesh-3d",
+          "name": {
+            "pl": "Siatki dystansowe 3D",
+            "en": "3D air mesh fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "outdoor-functional",
+          "name": {
+            "pl": "Outdoor i odzież funkcjonalna",
+            "en": "Outdoor and functional apparel"
+          },
+          "primaryCount": 3,
+          "secondaryCount": 0,
+          "totalCount": 3
+        },
+        {
+          "id": "upholstery-interiors",
+          "name": {
+            "pl": "Tapicerka i wyposażenie wnętrz",
+            "en": "Upholstery and interior furnishings"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "aripam",
+      "name": "AriPam",
+      "descriptor": {
+        "pl": "Tkaniny i dzianiny z włókna AriPam odporne na UV",
+        "en": "UV-resistant AriPam fibre fabrics and knits"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/aripam",
+          "en": "/en/fabrics/aripam"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/aripam",
+          "en": "https://ariteks.pl/en/fabrics/aripam"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/aripam/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/aripam/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ardolu/documents/aripam-ru-ds-ver2__86a33c6d42.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ardolu/documents/aripam-ru-ds-ver2__86a33c6d42.pdf"
+        }
+      },
+      "productCount": 5,
+      "productSlugs": [
+        "aribez",
+        "arigabardin-245",
+        "arigabardin-77",
+        "aripenye",
+        "aripike"
+      ],
+      "categories": [
+        {
+          "id": "aripam-spun",
+          "name": {
+            "pl": "Tkaniny z włókna AriPam",
+            "en": "AriPam spun fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "outdoor-functional",
+          "name": {
+            "pl": "Outdoor i odzież funkcjonalna",
+            "en": "Outdoor and functional apparel"
+          },
+          "primaryCount": 5,
+          "secondaryCount": 0,
+          "totalCount": 5
+        }
+      ]
+    },
+    {
+      "slug": "arseat",
+      "name": "ArSeat",
+      "descriptor": {
+        "pl": "Dzianiny tapicerskie na fotele i obuwie",
+        "en": "Upholstery knits for seats and footwear"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arseat",
+          "en": "/en/fabrics/arseat"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arseat",
+          "en": "https://ariteks.pl/en/fabrics/arseat"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arseat/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arseat/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arseat/documents/arseat-ru-ds-ver2__212f6f5d31.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arseat/documents/arseat-ru-ds-ver2__212f6f5d31.pdf"
+        }
+      },
+      "productCount": 3,
+      "productSlugs": [
+        "arseat",
+        "arseat-eco",
+        "arseat-touch"
+      ],
+      "categories": [
+        {
+          "id": "upholstery-knits",
+          "name": {
+            "pl": "Dzianiny tapicerskie i obuwnicze",
+            "en": "Upholstery & footwear knits"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "transport",
+          "name": {
+            "pl": "Tkaniny dla transportu",
+            "en": "Transport fabrics"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        },
+        {
+          "id": "outdoor-functional",
+          "name": {
+            "pl": "Outdoor i odzież funkcjonalna",
+            "en": "Outdoor and functional apparel"
+          },
+          "primaryCount": 0,
+          "secondaryCount": 1,
+          "totalCount": 1
+        },
+        {
+          "id": "upholstery-interiors",
+          "name": {
+            "pl": "Tapicerka i wyposażenie wnętrz",
+            "en": "Upholstery and interior furnishings"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arastar-arsotina",
+      "name": "ArAstar & ArSotina",
+      "descriptor": {
+        "pl": "Podszewki poliestrowe",
+        "en": "Polyester lining fabrics"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arastar-arsotina",
+          "en": "/en/fabrics/arastar-arsotina"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arastar-arsotina",
+          "en": "https://ariteks.pl/en/fabrics/arastar-arsotina"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arastar-arsotina/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arastar-arsotina/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arastar/documents/arastar-arsotina-ru-ds-ver2__74b122559a.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arastar/documents/arastar-arsotina-ru-ds-ver2__74b122559a.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "arastar",
+        "arsotina"
+      ],
+      "categories": [
+        {
+          "id": "lining",
+          "name": {
+            "pl": "Podszewki",
+            "en": "Lining fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "outdoor-functional",
+          "name": {
+            "pl": "Outdoor i odzież funkcjonalna",
+            "en": "Outdoor and functional apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "ardoku-ardolu",
+      "name": "ArDoku & ArDolu",
+      "descriptor": {
+        "pl": "Laminaty 3-warstwowe z membraną TPU — wodoodporne, oddychające",
+        "en": "3-layer TPU-membrane laminates — waterproof, breathable"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/ardoku-ardolu",
+          "en": "/en/fabrics/ardoku-ardolu"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/ardoku-ardolu",
+          "en": "https://ariteks.pl/en/fabrics/ardoku-ardolu"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/ardoku-ardolu/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/ardoku-ardolu/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ardoku/documents/ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ardoku/documents/ardoku-ardolu-ru-ds-ver2__f322a3df16.pdf"
+        }
+      },
+      "productCount": 2,
+      "productSlugs": [
+        "ardoku",
+        "ardolu"
+      ],
+      "categories": [
+        {
+          "id": "laminates-3l",
+          "name": {
+            "pl": "Laminaty 3-warstwowe TPU",
+            "en": "3-layer TPU laminates"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "hivis",
+          "name": {
+            "pl": "Odzież ostrzegawcza hi-vis",
+            "en": "High-visibility apparel"
+          },
+          "primaryCount": 2,
+          "secondaryCount": 0,
+          "totalCount": 2
+        }
+      ]
+    },
+    {
+      "slug": "arbayrak",
+      "name": "ArBayrak",
+      "descriptor": {
+        "pl": "Tkanina flagowa i sygnalizacyjna",
+        "en": "Flag and signal fabric"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arbayrak",
+          "en": "/en/fabrics/arbayrak"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arbayrak",
+          "en": "https://ariteks.pl/en/fabrics/arbayrak"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arbayrak/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arbayrak/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/ar-air-mesh-bond/documents/arbayrak-ru-ds-ver2__b0111e2344.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/ar-air-mesh-bond/documents/arbayrak-ru-ds-ver2__b0111e2344.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "arbayrak"
+      ],
+      "categories": [
+        {
+          "id": "flag-fabrics",
+          "name": {
+            "pl": "Tkaniny flagowe",
+            "en": "Flag fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "print-signage",
+          "name": {
+            "pl": "Druk, reklama i oznakowanie",
+            "en": "Printing, advertising and signage"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arclean",
+      "name": "ArClean",
+      "descriptor": {
+        "pl": "Mikrofibra czyszcząca do zastosowań przemysłowych",
+        "en": "Industrial microfibre cleaning fabric"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arclean",
+          "en": "/en/fabrics/arclean"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arclean",
+          "en": "https://ariteks.pl/en/fabrics/arclean"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arclean/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arclean/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arclean-250/documents/arclean-ru-ds-ver2__c558a35384.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arclean-250/documents/arclean-ru-ds-ver2__c558a35384.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "arclean-250"
+      ],
+      "categories": [
+        {
+          "id": "cleaning",
+          "name": {
+            "pl": "Tkaniny czyszczące",
+            "en": "Cleaning fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "professional-cleaning",
+          "name": {
+            "pl": "Czyszczenie profesjonalne",
+            "en": "Professional cleaning"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "argun",
+      "name": "ArGun",
+      "descriptor": {
+        "pl": "Akryl barwiony w masie do zastosowań outdoor",
+        "en": "Solution-dyed acrylic for outdoor use"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/argun",
+          "en": "/en/fabrics/argun"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/argun",
+          "en": "https://ariteks.pl/en/fabrics/argun"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/argun/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/argun/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arcadir-520/documents/argun-ru-ds-ver2__f0739f746e.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arcadir-520/documents/argun-ru-ds-ver2__f0739f746e.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "argun-260"
+      ],
+      "categories": [
+        {
+          "id": "outdoor-acrylic",
+          "name": {
+            "pl": "Akryle outdoor barwione w masie",
+            "en": "Solution-dyed outdoor acrylics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "transport",
+          "name": {
+            "pl": "Tkaniny dla transportu",
+            "en": "Transport fabrics"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arpo",
+      "name": "ArPo",
+      "descriptor": {
+        "pl": "Polar poliestrowy",
+        "en": "Polyester fleece"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arpo",
+          "en": "/en/fabrics/arpo"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arpo",
+          "en": "https://ariteks.pl/en/fabrics/arpo"
+        }
+      },
+      "assets": {
+        "heroImage": {
+          "path": "/ariteks/families/arpo/hero.webp",
+          "url": "https://ariteks.pl/ariteks/families/arpo/hero.webp",
+          "width": 1191,
+          "height": 1481
+        },
+        "dataSheet": {
+          "path": "/ariteks/fabrics/arpo/documents/arpo-ru-ds-ver2__e2da7651e1.pdf",
+          "url": "https://ariteks.pl/ariteks/fabrics/arpo/documents/arpo-ru-ds-ver2__e2da7651e1.pdf"
+        }
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "arpo"
+      ],
+      "categories": [
+        {
+          "id": "fleece",
+          "name": {
+            "pl": "Polary",
+            "en": "Fleece fabrics"
+          }
+        }
+      ],
+      "applications": [
+        {
+          "id": "outdoor-functional",
+          "name": {
+            "pl": "Outdoor i odzież funkcjonalna",
+            "en": "Outdoor and functional apparel"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arcadir",
+      "name": "ArCadir",
+      "descriptor": {
+        "pl": "Bawełniana tkanina namiotowa",
+        "en": "Cotton tent fabric"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arcadir",
+          "en": "/en/fabrics/arcadir"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arcadir",
+          "en": "https://ariteks.pl/en/fabrics/arcadir"
+        }
+      },
+      "assets": {
+        "heroImage": null,
+        "dataSheet": null
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "arcadir-520"
+      ],
+      "categories": [],
+      "applications": [
+        {
+          "id": "military",
+          "name": {
+            "pl": "Wojsko i służby mundurowe",
+            "en": "Military and uniformed services"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "ardigiprint",
+      "name": "ArDigiPrint",
+      "descriptor": {
+        "pl": "Elastyczna tkanina do druku cyfrowego",
+        "en": "Flexible fabric for digital printing"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/ardigiprint",
+          "en": "/en/fabrics/ardigiprint"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/ardigiprint",
+          "en": "https://ariteks.pl/en/fabrics/ardigiprint"
+        }
+      },
+      "assets": {
+        "heroImage": null,
+        "dataSheet": null
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "ardigiprint"
+      ],
+      "categories": [],
+      "applications": [
+        {
+          "id": "print-signage",
+          "name": {
+            "pl": "Druk, reklama i oznakowanie",
+            "en": "Printing, advertising and signage"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arflexmembrane",
+      "name": "ArFlexMembrane",
+      "descriptor": {
+        "pl": "Membrana architektoniczna bez PVC",
+        "en": "PVC-free architectural membrane"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arflexmembrane",
+          "en": "/en/fabrics/arflexmembrane"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arflexmembrane",
+          "en": "https://ariteks.pl/en/fabrics/arflexmembrane"
+        }
+      },
+      "assets": {
+        "heroImage": null,
+        "dataSheet": null
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "arflexmembrane"
+      ],
+      "categories": [],
+      "applications": [
+        {
+          "id": "architecture-building",
+          "name": {
+            "pl": "Tkaniny architektoniczne i budowlane",
+            "en": "Architectural and building fabrics"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "arinter",
+      "name": "ArInter",
+      "descriptor": {
+        "pl": "Tkanina napinana do dekoracji wnętrz",
+        "en": "Tension fabric for interior decoration"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/arinter",
+          "en": "/en/fabrics/arinter"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/arinter",
+          "en": "https://ariteks.pl/en/fabrics/arinter"
+        }
+      },
+      "assets": {
+        "heroImage": null,
+        "dataSheet": null
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "arinter"
+      ],
+      "categories": [],
+      "applications": [
+        {
+          "id": "architecture-building",
+          "name": {
+            "pl": "Tkaniny architektoniczne i budowlane",
+            "en": "Architectural and building fabrics"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "ardilight",
+      "name": "ArDiLight",
+      "descriptor": {
+        "pl": "Napinane sufity tekstylne — miękkie, rozproszone światło",
+        "en": "Stretch-ceiling fabric for soft diffuse light"
+      },
+      "page": {
+        "path": {
+          "pl": "/fabrics/ardilight",
+          "en": "/en/fabrics/ardilight"
+        },
+        "url": {
+          "pl": "https://ariteks.pl/fabrics/ardilight",
+          "en": "https://ariteks.pl/en/fabrics/ardilight"
+        }
+      },
+      "assets": {
+        "heroImage": null,
+        "dataSheet": null
+      },
+      "productCount": 1,
+      "productSlugs": [
+        "ardilight"
+      ],
+      "categories": [],
+      "applications": [
+        {
+          "id": "architecture-building",
+          "name": {
+            "pl": "Tkaniny architektoniczne i budowlane",
+            "en": "Architectural and building fabrics"
+          },
+          "primaryCount": 1,
+          "secondaryCount": 0,
+          "totalCount": 1
+        }
+      ]
+    }
+  ]
+}
