@@ -29,8 +29,8 @@
 # ----------------------------------------------------------
 *.tsbuildinfo
 
-# next-env.d.ts powinien być przechowywany w repozytorium,
-# dlatego nie jest ignorowany.
+# Plik generowany automatycznie przez Next.js.
+next-env.d.ts
 
 # ----------------------------------------------------------
 # Logi
@@ -102,6 +102,12 @@ scripts/certificates/.venv/
 # Surowe dane scrapera
 # ----------------------------------------------------------
 /_scraped/
-next-env.d.ts
 *.bak-*
 /public/ariteks/fabrics/*.py
+
+# ----------------------------------------------------------
+# Lokalne audyty i kopie instalacyjne
+# ----------------------------------------------------------
+/audit-output*/
+/favicon-backup-*/
+/FAVICON-INSTALL.txt
