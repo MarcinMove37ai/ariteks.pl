@@ -3,9 +3,10 @@
 // Otwierany zdarzeniem: window.dispatchEvent(new Event('open-rfq'))
 // — dowolny przycisk CTA moze go wywolac helperem openRfq() (patrz eksport).
 //
-// Wysylka: formularz trafia najpierw do /api/rfq. Backend waliduje dane
-// i dopiero potem przekazuje je do Web3Forms z uzyciem prywatnego klucza
-// WEB3FORMS_ACCESS_KEY. Klucz nie jest dostepny w przegladarce.
+// Wysylka: Web3Forms (https://web3forms.com) — darmowy, bez backendu,
+// przekazuje zgloszenie na skrzynke powiazana z access key. Klucz w
+// NEXT_PUBLIC_WEB3FORMS_KEY (env). Do czasu podania klucza formularz
+// pokazuje komunikat o braku konfiguracji zamiast wysylac w prozn.
 
 'use client';
 
@@ -32,6 +33,8 @@ export function openRfq(applicationId?: ApplicationId) {
   );
 }
 
+const ACCESS_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY ?? '';
+
 type Status = 'idle' | 'sending' | 'success' | 'error';
 type FieldErrors = { name?: boolean; phone?: boolean; email?: boolean };
 
@@ -47,7 +50,6 @@ export default function RfqModal() {
     useState<IndustryId | ''>('');
   const dialogRef = useRef<HTMLDivElement>(null);
   const firstFieldRef = useRef<HTMLInputElement>(null);
-  const formOpenedAtRef = useRef(Date.now());
 
   // Otwarcie przez globalne zdarzenie.
   // Event moze zawierac aplikacje strony, z ktorej otwarto formularz.
@@ -69,7 +71,6 @@ export default function RfqModal() {
           ? requestedApplication
           : '';
 
-      formOpenedAtRef.current = Date.now();
       setIndustry(validApplication);
       setStatus('idle');
       setErrors({});
@@ -119,38 +120,39 @@ export default function RfqModal() {
     setErrors(found);
     if (Object.keys(found).length > 0) return;
 
-    setStatus('sending');
+    if (!ACCESS_KEY) {
+      // brak klucza — nie wysylamy, sygnalizujemy blad konfiguracji
+      setStatus('error');
+      return;
+    }
 
+    setStatus('sending');
     try {
       const data = new FormData(form);
+      const industryId = String(data.get('industry') ?? '');
+      const industry =
+        RFQ_INDUSTRIES.find((i) => i.id === industryId)?.label.en ?? '—';
 
       const payload = {
-        name: String(data.get('name') ?? '').trim(),
-        phone: String(data.get('phone') ?? '').trim(),
-        email: String(data.get('email') ?? '').trim(),
-        industryId: String(data.get('industry') ?? '').trim(),
-        details: String(data.get('details') ?? '').trim(),
-        companyWebsite: String(
-          data.get('company_website_confirm') ?? '',
-        ).trim(),
-        formStartedAt: formOpenedAtRef.current,
+        access_key: ACCESS_KEY,
+        subject: `Ariteks — zapytanie ofertowe (${industry})`,
+        from_name: 'Ariteks — formularz',
+        name: data.get('name'),
+        phone: data.get('phone'),
+        email: data.get('email'),
+        industry,
+        details: data.get('details') || '—',
         locale,
       };
 
-      const res = await fetch('/api/rfq', {
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(payload),
-        cache: 'no-store',
       });
 
       if (res.ok) {
         setStatus('success');
-        form.reset();
-        setIndustry('');
       } else {
         setStatus('error');
       }
@@ -212,16 +214,6 @@ export default function RfqModal() {
             </p>
 
             <form onSubmit={onSubmit} className="mt-6 space-y-4" noValidate>
-              {/* Honeypot: ukryty natywnie, aby autofill go pomijał. */}
-              <input
-                name="company_website_confirm"
-                type="text"
-                tabIndex={-1}
-                autoComplete="new-password"
-                aria-hidden="true"
-                hidden
-              />
-
               {/* Imie */}
               <div>
                 <label className="mb-1 block text-sm font-medium text-carbon-900">
