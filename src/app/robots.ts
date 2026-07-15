@@ -1,16 +1,35 @@
 // src/app/robots.ts
-// Reguly dla robotow wyszukiwarek. Next.js generuje /robots.txt z tego pliku.
-// Wskazuje sitemap. Domena glowna: ariteks.pl (PL) — wersja EN na ariteks.eu.
+// Reguły dla robotów wyszukiwarek, systemów AI i pobrań inicjowanych przez użytkownika.
+// Domena kanoniczna: ariteks.pl. Wersja angielska działa pod /en.
 
 import type { MetadataRoute } from 'next';
 
+const AI_USER_AGENTS = [
+  'OAI-SearchBot',
+  'GPTBot',
+  'ChatGPT-User',
+  'Claude-SearchBot',
+  'ClaudeBot',
+  'Claude-User',
+  'PerplexityBot',
+  'Perplexity-User',
+  'Google-Extended',
+] as const;
+
 export default function robots(): MetadataRoute.Robots {
-  const base = 'https://ariteks.pl';
+  const baseUrl = 'https://ariteks.pl';
+
   return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-    },
-    sitemap: `${base}/sitemap.xml`,
+    rules: [
+      {
+        userAgent: [...AI_USER_AGENTS],
+        allow: '/',
+      },
+      {
+        userAgent: '*',
+        allow: '/',
+      },
+    ],
+    sitemap: `${baseUrl}/sitemap.xml`,
   };
 }

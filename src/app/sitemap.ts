@@ -58,6 +58,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       plPath: '/certificates',
       enPath: '/certificates',
     },
+    {
+      plPath: '/data/catalog',
+      enPath: '/data/catalog',
+    },
 
     ...APPLICATIONS.map((application) => ({
       plPath: `/applications/${application.slug.pl}`,

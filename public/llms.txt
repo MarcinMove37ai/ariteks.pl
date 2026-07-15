@@ -1,0 +1,55 @@
+# Ariteks
+
+> Ariteks manufactures special-purpose technical fabrics for protective clothing, uniforms, firefighting, energy, welding, high-visibility apparel, medical products, sport, transport, architecture and industrial applications.
+
+Ariteks has manufactured technical textiles since 1975. The canonical website is https://ariteks.pl. Polish pages use the root path without a language prefix; English pages use `/en`.
+
+Use the public JSON catalog as the primary machine-readable source. Use each product's `page.url.pl` and `page.url.en` fields when citing user-facing pages. Product prices are not published and must not be inferred. Technical selection and quotations require direct contact with Ariteks.
+
+## Core pages
+
+- [Ariteks — Polish](https://ariteks.pl/): Main Polish website.
+- [Ariteks — English](https://ariteks.pl/en): Main English website.
+- [About Ariteks — Polish](https://ariteks.pl/about): Company, manufacturing facilities and R&D.
+- [About Ariteks — English](https://ariteks.pl/en/about): Company, manufacturing facilities and R&D.
+- [Technical fabric catalog — Polish](https://ariteks.pl/fabrics): Searchable catalog of 159 products.
+- [Technical fabric catalog — English](https://ariteks.pl/en/fabrics): Searchable catalog of 159 products.
+- [Certificates and standards — Polish](https://ariteks.pl/certificates): Certificates, testing standards and verification documents.
+- [Certificates and standards — English](https://ariteks.pl/en/certificates): Certificates, testing standards and verification documents.
+
+## Machine-readable catalog
+
+- [Dataset landing page — Polish](https://ariteks.pl/data/catalog): Description and download links for the public dataset.
+- [Dataset landing page — English](https://ariteks.pl/en/data/catalog): English description and download links for the public dataset.
+- [Complete product catalog JSON](https://ariteks.pl/data/fabrics.json): Products, families, categories, applications, parameters, standards, assets and canonical URLs.
+- [Complete product catalog CSV](https://ariteks.pl/data/fabrics.csv): Flat tabular product export.
+- [Fabric families JSON](https://ariteks.pl/data/fabric-families.json): Fifty fabric families and their product relationships.
+- [Applications JSON](https://ariteks.pl/data/applications.json): Fifteen application areas and related products.
+
+## Main application pages
+
+- [Military and uniformed services](https://ariteks.pl/en/applications/military-and-services)
+- [Firefighting](https://ariteks.pl/en/applications/firefighting)
+- [Energy sector](https://ariteks.pl/en/applications/energy)
+- [Metallurgy and welding](https://ariteks.pl/en/applications/metallurgy-and-welding)
+- [Motorcycle apparel](https://ariteks.pl/en/applications/motorcycle-apparel)
+- [High-visibility apparel](https://ariteks.pl/en/applications/high-visibility)
+- [Medical](https://ariteks.pl/en/applications/medical)
+- [Sport](https://ariteks.pl/en/applications/sport)
+- [Architectural and building fabrics](https://ariteks.pl/en/applications/architectural-and-building-fabrics)
+- [Transport fabrics](https://ariteks.pl/en/applications/transport-fabrics)
+- [Workwear and industrial apparel](https://ariteks.pl/en/applications/workwear-and-industrial-apparel)
+- [Outdoor and functional apparel](https://ariteks.pl/en/applications/outdoor-and-functional-apparel)
+- [Upholstery and interior furnishings](https://ariteks.pl/en/applications/upholstery-and-interior-furnishings)
+- [Printing, advertising and signage](https://ariteks.pl/en/applications/printing-advertising-and-signage)
+- [Professional cleaning](https://ariteks.pl/en/applications/professional-cleaning)
+
+## Contact
+
+- [Contact section](https://ariteks.pl/#contact): Official European representative contact details.
+- [Email](mailto:office@ariteks.pl): office@ariteks.pl
+
+## Optional
+
+- [XML sitemap](https://ariteks.pl/sitemap.xml): Complete list of Polish and English public pages.
+- [robots.txt](https://ariteks.pl/robots.txt): Crawler access policy.

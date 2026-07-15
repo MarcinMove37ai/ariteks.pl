@@ -5,8 +5,8 @@
 // Zmiany v8: e-mail office@ariteks.pl; sekcja Operator przeniesiona POD
 // znaki towarowe i odchudzona (mniejsze odstepy — mniejsza waga wizualna).
 
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
+import { useLocale, useTranslations } from 'next-intl';
+import { Link, type Locale } from '@/i18n/routing';
 import RfqButton from '../RfqButton';
 
 const GRID = 'grid gap-x-10 gap-y-10 lg:grid-cols-[1.3fr_0.8fr_1fr_1fr]';
@@ -18,6 +18,11 @@ const FOOTER_NAV = [
   { key: 'partners', href: '/#partners' },
   { key: 'about', href: '/about' },
 ] as const;
+
+const DATA_CATALOG_LABEL: Record<Locale, string> = {
+  pl: 'Katalog danych',
+  en: 'Data catalog',
+};
 
 // 9 znakow — siatka 3x3 wyrownana do kolumn 2-4
 const TRADEMARKS: ReadonlyArray<readonly [string, string]> = [
@@ -49,6 +54,7 @@ function ColumnHeading({ children }: { children: string }) {
 export default function Footer() {
   const t = useTranslations('footer');
   const nav = useTranslations('nav');
+  const locale = useLocale() as Locale;
   const year = new Date().getFullYear();
 
   return (
@@ -139,6 +145,14 @@ export default function Footer() {
                 </Link>
               </li>
             ))}
+            <li>
+              <Link
+                href="/data/catalog"
+                className="transition-colors duration-150 hover:text-white"
+              >
+                {DATA_CATALOG_LABEL[locale]}
+              </Link>
+            </li>
             <li>
               <RfqButton className="transition-colors duration-150 hover:text-white">
                 {nav('rfq')}
