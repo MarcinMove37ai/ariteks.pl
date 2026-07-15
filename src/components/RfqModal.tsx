@@ -16,6 +16,7 @@ import { X } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
 import type { ApplicationId } from '@/content/fabric-application-overrides';
 import { RFQ, RFQ_INDUSTRIES } from '@/content/rfq';
+import { sendMetaLead } from '@/lib/meta/client';
 
 type OpenRfqDetail = {
   applicationId?: ApplicationId;
@@ -147,12 +148,26 @@ export default function RfqModal() {
 
       const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
         body: JSON.stringify(payload),
       });
 
-      if (res.ok) {
+      const providerResult = (await res
+        .json()
+        .catch(() => null)) as { success?: boolean } | null;
+
+      if (res.ok && providerResult?.success !== false) {
         setStatus('success');
+
+        void sendMetaLead({
+          email: String(data.get('email') ?? ''),
+          phone: String(data.get('phone') ?? ''),
+          industry,
+          locale,
+        });
       } else {
         setStatus('error');
       }

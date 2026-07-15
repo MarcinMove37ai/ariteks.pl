@@ -11,6 +11,10 @@ import {
   readCookieConsent,
   type CookieConsentPreferences,
 } from '@/lib/privacy/consent';
+import {
+  clearMetaSession,
+  trackActiveSession,
+} from '@/lib/meta/client';
 
 type Fbq = {
   (...args: unknown[]): void;
@@ -110,6 +114,7 @@ export default function MetaPixel() {
       window.fbq?.('consent', 'revoke');
       removeMetaCookie('_fbp');
       removeMetaCookie('_fbc');
+      clearMetaSession();
       lastPageRef.current = '';
       return;
     }
@@ -133,6 +138,7 @@ export default function MetaPixel() {
     if (lastPageRef.current === pageKey) return;
 
     window.fbq('track', 'PageView');
+    trackActiveSession();
     lastPageRef.current = pageKey;
   }, [marketing, pathname]);
 
