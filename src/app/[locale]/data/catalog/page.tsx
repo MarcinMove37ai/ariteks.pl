@@ -12,6 +12,8 @@ import {
 import { Link, type Locale } from '@/i18n/routing';
 
 const BASE_URL = 'https://ariteks.pl';
+const DATA_LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/';
+const DATA_CREDIT = 'Ariteks — https://ariteks.pl';
 
 const COPY = {
   pl: {
@@ -34,6 +36,12 @@ const COPY = {
     format: 'Format',
     download: 'Otwórz plik',
     notesHeading: 'Jak interpretować dane',
+    licenseHeading: 'Licencja danych',
+    licenseLead:
+      'Dane katalogowe zawarte w publicznych eksportach JSON i CSV są udostępniane na licencji Creative Commons Attribution 4.0 International (CC BY 4.0), z obowiązkiem wskazania Ariteks jako źródła.',
+    licenseExclusions:
+      'Licencja nie obejmuje zdjęć, logotypów, znaków towarowych, certyfikatów, kart technicznych PDF ani innych plików wskazywanych w polach assets.',
+    licenseLink: 'Zobacz warunki licencji CC BY 4.0',
     notes: [
       'fabrics.json jest głównym, kompletnym eksportem produktów i ich relacji.',
       'Adresy page.url.pl oraz page.url.en wskazują kanoniczne strony produktów.',
@@ -65,6 +73,12 @@ const COPY = {
     format: 'Format',
     download: 'Open file',
     notesHeading: 'How to interpret the data',
+    licenseHeading: 'Data licence',
+    licenseLead:
+      'Catalog data contained in the public JSON and CSV exports is available under the Creative Commons Attribution 4.0 International licence (CC BY 4.0), with attribution to Ariteks required.',
+    licenseExclusions:
+      'The licence does not cover photographs, logos, trademarks, certificates, PDF data sheets or other files referenced in the assets fields.',
+    licenseLink: 'View the CC BY 4.0 licence terms',
     notes: [
       'fabrics.json is the primary complete export of products and their relationships.',
       'The page.url.pl and page.url.en fields contain canonical product page addresses.',
@@ -209,6 +223,8 @@ export default async function DataCatalogPage({
     inLanguage: ['pl-PL', 'en'],
     isAccessibleForFree: true,
     version: '1',
+    license: DATA_LICENSE_URL,
+    creditText: DATA_CREDIT,
     creator: {
       '@type': 'Organization',
       '@id': `${BASE_URL}/#organization`,
@@ -344,6 +360,26 @@ export default async function DataCatalogPage({
                   </li>
                 ))}
               </ul>
+
+              <aside className="mt-10 rounded-lg border border-steel-line bg-white p-6 shadow-card">
+                <h3 className="text-xl font-semibold tracking-tight text-ink">
+                  {copy.licenseHeading}
+                </h3>
+                <p className="mt-3 leading-relaxed text-ink-soft">
+                  {copy.licenseLead}
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-steel">
+                  {copy.licenseExclusions}
+                </p>
+                <a
+                  href={DATA_LICENSE_URL}
+                  target="_blank"
+                  rel="license noopener noreferrer"
+                  className="mt-5 inline-flex text-sm font-semibold text-red-600 underline decoration-red-300 underline-offset-4 transition-colors hover:text-red-700"
+                >
+                  {copy.licenseLink}
+                </a>
+              </aside>
 
               <div className="mt-10 flex flex-wrap gap-4">
                 <Link
