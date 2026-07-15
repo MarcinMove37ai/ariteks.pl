@@ -62,6 +62,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       plPath: '/data/catalog',
       enPath: '/data/catalog',
     },
+    {
+      plPath: '/cookies',
+      enPath: '/cookies',
+    },
 
     ...APPLICATIONS.map((application) => ({
       plPath: `/applications/${application.slug.pl}`,

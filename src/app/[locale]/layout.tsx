@@ -12,6 +12,8 @@ import { routing, type Locale } from '@/i18n/routing';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import RfqModal from '@/components/RfqModal';
+import MetaPixel from '@/components/meta/MetaPixel';
+import CookieConsent from '@/components/privacy/CookieConsent';
 import '../globals.css';
 
 const display = Bodoni_Moda({
@@ -100,10 +102,12 @@ export default async function LocaleLayout({
     >
       <body suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
+          <MetaPixel />
           <Header />
           {children}
           <Footer />
           <RfqModal />
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>
