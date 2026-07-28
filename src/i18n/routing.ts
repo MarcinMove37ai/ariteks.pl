@@ -1,14 +1,16 @@
 // src/i18n/routing.ts
 // Serce dwujezycznosci: definicja jezykow.
-// Model: JEDNA domena glowna (ariteks.pl) obsluguje OBA jezyki.
-//   ariteks.pl/      -> PL (domyslny, bez prefiksu)
-//   ariteks.pl/en/   -> EN (z prefiksem)
-// Detekcje jezyka przy wejsciu robi middleware (Accept-Language).
-// Przelacznik jezyka przechodzi / <-> /en.
-// ariteks.eu -> przekierowanie 301 na ariteks.pl (regula w Cloudflare, poza kodem).
 //
-// USUNIETO blok `domains` (domain-based routing next-intl): wymuszal jeden
-// jezyk na domene i blokowal /en na ariteks.pl oraz kolidowal z detekcja.
+// Model adresow:
+//   ariteks.pl/      -> PL, domyslny jezyk bez prefiksu
+//   ariteks.pl/en/   -> EN, jezyk angielski z prefiksem
+//
+// Jezyk wynika wylacznie z adresu URL.
+// Nie przekierowujemy uzytkownika ani robota wyszukiwarki
+// na podstawie Accept-Language lub ciasteczka.
+//
+// ariteks.eu -> przekierowanie 301 na ariteks.pl
+// realizowane poza aplikacja, w Cloudflare.
 
 import { defineRouting } from 'next-intl/routing';
 import { createNavigation } from 'next-intl/navigation';
@@ -20,14 +22,26 @@ export const routing = defineRouting({
   // Polski bez prefiksu, angielski pod /en.
   localePrefix: 'as-needed',
 
-  // Dynamiczne slugi aplikacji różnią się między PL i EN.
-  // Poprawne hreflang generują metadata stron oraz sitemap.xml.
+  // URL jest jedynym zrodlem informacji o jezyku:
+  // /...    -> PL
+  // /en/... -> EN
+  //
+  // Bez automatycznego przekierowania na podstawie:
+  // - Accept-Language,
+  // - NEXT_LOCALE,
+  // - poprzedniego wyboru jezyka.
+  localeDetection: false,
+
+  // Hreflangi sa generowane recznie w metadata stron
+  // oraz w sitemap.xml.
   alternateLinks: false,
 });
 
 export type Locale = (typeof routing.locales)[number];
 
-// Nawigacja swiadoma jezyka — uzywamy TYCH komponentow zamiast next/link
-// i next/navigation w calej aplikacji:
+// Nawigacja swiadoma jezyka.
+// Uzywamy tych komponentow zamiast bezposrednio:
+// - next/link,
+// - next/navigation.
 export const { Link, redirect, usePathname, useRouter, getPathname } =
   createNavigation(routing);

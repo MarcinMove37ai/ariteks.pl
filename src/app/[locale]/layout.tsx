@@ -14,6 +14,7 @@ import Footer from '@/components/layout/Footer';
 import RfqModal from '@/components/RfqModal';
 import MetaPixel from '@/components/meta/MetaPixel';
 import CookieConsent from '@/components/privacy/CookieConsent';
+import LanguageSuggestion from '@/i18n/LanguageSuggestion';
 import '../globals.css';
 
 const display = Bodoni_Moda({
@@ -108,6 +109,7 @@ export default async function LocaleLayout({
           <Footer />
           <RfqModal />
           <CookieConsent />
+          <LanguageSuggestion />
         </NextIntlClientProvider>
       </body>
     </html>
