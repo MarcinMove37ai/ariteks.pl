@@ -111,3 +111,10 @@ scripts/certificates/.venv/
 /audit-output*/
 /favicon-backup-*/
 /FAVICON-INSTALL.txt
+
+
+# lokalne / generowane
+.idea/
+_analysis_reports/
+scripts/output/
+seo-indexation-audit.csv
