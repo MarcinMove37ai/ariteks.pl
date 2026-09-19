@@ -122,12 +122,18 @@ const STANDARD_APPLICATION_ALLOWLIST: Readonly<
   'IEC 60895': ['energy'],
 };
 
+import { pickBrand } from '@/lib/brands';
+
 const TECHNOLOGY_PATTERNS: ReadonlyArray<{
   label: string;
   pattern: RegExp;
   priority: number;
 }> = [
-  { label: 'CORDURA®', pattern: /\bcordura\b/i, priority: 600 },
+  {
+    label: pickBrand('CORDURA®', 'PA 6.6 HT'),
+    pattern: pickBrand(/\bcordura\b/i, /\bPA 6\.6 HT\b/i),
+    priority: 600,
+  },
   { label: 'PBO', pattern: /\bpbo\b/i, priority: 590 },
   { label: 'Pyrovatex®', pattern: /\bpyrovatex\b/i, priority: 580 },
   { label: 'Protal®', pattern: /\bprotal\b/i, priority: 570 },

@@ -5,6 +5,7 @@
 // Logotypy: public/images/partners/{id}.png (przezroczyste PNG, min. 400 px szerokosci).
 
 import type { Locale } from '@/i18n/routing';
+import { SHOW_CORDURA } from '@/lib/brands';
 
 export type PartnerDef = {
   id: string;
@@ -18,7 +19,7 @@ export type PartnerDef = {
 };
 
 export const PARTNERS: PartnerDef[] = [
-  {
+  ...(SHOW_CORDURA ? [{
     id: 'cordura',
     name: 'CORDURA®',
     origin: { pl: 'INVISTA, USA', en: 'INVISTA, USA' },
@@ -27,7 +28,7 @@ export const PARTNERS: PartnerDef[] = [
       en: 'High-tenacity nylon 6.6 with exceptional abrasion and tear resistance. In Ariteks fabrics: motorcycle apparel and heavy-duty gear.',
     },
     logo: '/images/partners/cordura.png',
-  },
+  }] : []),
   {
     id: 'twaron',
     name: 'Twaron®',

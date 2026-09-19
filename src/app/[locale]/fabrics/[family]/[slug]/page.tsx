@@ -21,6 +21,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link, routing, type Locale } from '@/i18n/routing';
 import RfqButton from '@/components/RfqButton';
 import FabricGallery from '@/components/fabrics/FabricGallery';
+import { SHOW_CORDURA } from '@/lib/brands';
 import { getFabricApplicationAssignment } from '@/lib/fabricApplications';
 import {
   FABRICS,
@@ -496,7 +497,10 @@ export default async function FabricPage({
     (d) => d.document_kind === 'data_sheet' && d.public_url
   );
   const certDocs = docs.filter(
-    (d) => d.document_kind !== 'data_sheet' && d.public_url
+    (d) =>
+      d.document_kind !== 'data_sheet' &&
+      d.public_url &&
+      (SHOW_CORDURA || !/cordura/i.test(`${d.label ?? ''} ${d.title ?? ''} ${d.public_url}`))
   );
 
   const colorsFromRecord = (pp.colors_and_articles ?? []).filter(
@@ -538,7 +542,7 @@ export default async function FabricPage({
   const careIcons = (groups.care_instructions ?? []).filter(
     (i) => i.public_url
   );
-  const partnerLogos = (groups.technology_partners ?? []).filter(
+  const partnerLogos = (SHOW_CORDURA ? (groups.technology_partners ?? []) : []).filter(
     (i) => i.public_url
   );
   const structure = rec?.category_row?.structure;

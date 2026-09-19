@@ -9,6 +9,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Link, type Locale } from '@/i18n/routing';
 import RfqButton from '../RfqButton';
 import CookieSettingsButton from '../privacy/CookieSettingsButton';
+import { SHOW_CORDURA } from '@/lib/brands';
 
 const GRID = 'grid gap-x-10 gap-y-10 lg:grid-cols-[1.3fr_0.8fr_1fr_1fr]';
 
@@ -33,7 +34,7 @@ const COOKIE_LABEL: Record<Locale, string> = {
 // 9 znakow — siatka 3x3 wyrownana do kolumn 2-4
 const TRADEMARKS: ReadonlyArray<readonly [string, string]> = [
   ['ARITEKS', 'Ariteks A.Ş.'],
-  ['CORDURA®', 'INVISTA'],
+  ...(SHOW_CORDURA ? [['CORDURA®', 'INVISTA'] as const] : []),
   ['Twaron®', 'Teijin Aramid'],
   ['Trevira CS®', 'Trevira GmbH'],
   ['Protal®', 'Protal Ltd / Waxman Group'],
