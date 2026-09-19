@@ -12,7 +12,7 @@ import { routing } from './i18n/routing';
 // ─── TYMCZASOWE WYGASZENIE SERWISU ────────────────────────────────
 // true  -> kazdy adres zwraca 404 ze strona zastepcza
 // false -> normalne dzialanie serwisu
-const SITE_OFFLINE = true;
+const SITE_OFFLINE = false;
 // ──────────────────────────────────────────────────────────────────
 
 const intlMiddleware = createMiddleware(routing);
