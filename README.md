@@ -14,8 +14,8 @@ npm run build
 npx tsc --noEmit # sama kontrola typow, bez budowania
 ```
 
-> **Stan produkcji:** serwis jest tymczasowo wygaszony — wszystkie trasy zwracają 404.
-> To osobny mechanizm, niezwiązany z flagą marek opisaną niżej.
+> **Stan produkcji:** serwis jest tymczasowo wygaszony — wszystkie trasy zwracają 404
+> (flaga `SITE_OFFLINE`). To osobny mechanizm, niezwiązany z flagą marek opisaną niżej.
 
 ---
 
@@ -54,10 +54,13 @@ przestawić z panelu, bo to stała w kodzie — taka była świadoma decyzja.
 | `src/content/partners.ts` | wpis `id: 'cordura'` | kafel znika z sekcji „Licencje i partnerzy surowcowi" (7 marek zamiast 8) |
 | `src/content/applications.ts` | branża `motorcycle` | opis skrócony, badge, lead i kafel USP w wersji z `PA 6.6 HT` |
 | `src/lib/applicationHighlights.ts` | `TECHNOLOGY_PATTERNS` | wzorzec przestaje łapać „cordura" w danych tkanin — badge znika |
-| `src/app/[locale]/fabrics/[family]/[slug]/page.tsx` | `partnerLogos` | sekcja „Partnerzy technologiczni" znika z 14 kart tkanin ArDura |
-| `src/app/[locale]/fabrics/[family]/[slug]/page.tsx` | `certDocs` | z listy certyfikatów wypada pozycja z „Cordura" w etykiecie, tytule lub URL-u |
+| `page.tsx` (karta tkaniny) | `partnerLogos` | sekcja „Partnerzy technologiczni" znika z 14 kart tkanin ArDura |
+| `page.tsx` (karta tkaniny) | `certDocs` | z listy certyfikatów wypada pozycja z „Cordura" w etykiecie, tytule lub URL-u |
+| `page.tsx` (karta tkaniny) | `appImages` / `stripBrand` | marka wycięta z podpisów zdjęć, `aria-label` i `alt` w galerii |
 
-Dwie uwagi do tabeli:
+Pełna ścieżka karty tkaniny: `src/app/[locale]/fabrics/[family]/[slug]/page.tsx`.
+
+Trzy uwagi do tabeli:
 
 **Badge nie zmienia nazwy — znika.** Neutralny wzorzec `/\bPA 6\.6 HT\b/i` nigdy się nie
 dopasuje, bo w danych tkanin nie ma takiego ciągu (jest „Cordura" albo „PA 6.6" bez HT).
@@ -68,11 +71,16 @@ Praktycznie nie ma to znaczenia, bo w tej grupie leży wyłącznie logo Cordury 
 po katalogach ArDura. Gdyby przy innych rodzinach pojawiły się inne logotypy — trzeba
 będzie zawęzić filtr do nazwy pliku.
 
+**`stripBrand` czyści tylko `alt` i `title`, nie `public_url`.** Nazwy plików obrazków
+(`cordura-motorcyclist-cloth-m__74428940f8.jpg` i podobne) zostają w adresach — świadoma
+decyzja, bo dla odwiedzającego są niewidoczne. Przy fladze `true` funkcja zwraca tekst bez
+zmian, więc podpisy wracają w oryginale i nic nie trzeba odkręcać.
+
 ---
 
 ## Odwrócenie zmian
 
-### Krok 1 — flaga (przywraca 6 z 7 plików)
+### Krok 1 — flaga (przywraca wszystko poza słownikami)
 
 W `src/lib/brands.ts`:
 
@@ -111,13 +119,54 @@ Kafel partnera wskazuje na `public/images/partners/cordura.png`, **którego nie 
 Przed przywróceniem marki trzeba pobrać oficjalny plik z portalu licencjodawcy (MyCORDURA) —
 logotypów marek nie wolno generować ani odtwarzać samodzielnie.
 
-### Weryfikacja po zmianie
+---
+
+## Kontrola — jak sprawdzić, że jest czysto
+
+Klikanie po stronie **nie wystarczy**: marka potrafi siedzieć w `aria-label`, w podpisach
+zdjęć albo na karcie tkaniny, której nikt nie otwiera. Pewna metoda to przeszukanie
+zbudowanego HTML-a — build generuje statyczne pliki dla wszystkich tras w obu językach.
 
 ```powershell
+cd D:\Ariteks\ariteks_www
 npx tsc --noEmit
+npm run build
+
+Get-ChildItem -Recurse -File -Path ".next\server\app" -Include *.html |
+  Select-String -Pattern 'cordura','invista' |
+  Group-Object { $_.Path.Split('\')[-1] } |
+  ForEach-Object { '{0} — trafien: {1}' -f $_.Name, $_.Count }
 ```
 
-Skan kontrolny — każde trafienie powinno siedzieć wewnątrz `pickBrand(…)` albo `SHOW_CORDURA`:
+### Wynik oczekiwany (stan prawidłowy)
+
+```
+ardura-1000-fr.html   — trafien: 2
+ardura-500-c-neo.html — trafien: 2
+ardura-500-c.html     — trafien: 2
+```
+
+**To nie jest usterka.** Po dwa trafienia na plik (wersja PL i EN) pochodzą wyłącznie
+z nazw plików obrazków w atrybucie `src` — pięć zdjęć ma markę w nazwie pliku i zgodnie
+z decyzją zostają. Wszystkie `alt`, `aria-label` i podpisy obok nich są czyste.
+
+Jeśli trafień jest więcej albo pojawiają się w innych plikach — coś przeciekło. Podgląd
+kontekstu wokół każdego trafienia:
+
+```powershell
+Get-ChildItem -Recurse -File -Path ".next\server\app" -Include *.html |
+  Select-String -Pattern 'cordura','invista' |
+  Select-Object -ExpandProperty Path -Unique |
+  ForEach-Object {
+    $n = Split-Path $_ -Leaf
+    [regex]::Matches((Get-Content -LiteralPath $_ -Raw), '.{60}cordura.{60}', 'IgnoreCase') |
+      ForEach-Object { Write-Host "`n--- $n ---"; Write-Host $_.Value }
+  }
+```
+
+### Skan kodu źródłowego
+
+Każde trafienie powinno siedzieć wewnątrz `pickBrand(…)` albo `SHOW_CORDURA`:
 
 ```powershell
 $r = (Get-Location).Path + '\'
@@ -144,3 +193,13 @@ Katalogi `reports/` i `_analysis_reports/` leżą poza `public/` i nie są serwo
 
 Jeśli kiedyś trzeba będzie zamknąć i tę furtkę: usunąć pliki z repo albo przenieść
 poza `public/`. Sama flaga tego nie załatwi.
+
+---
+
+## Historia zmian
+
+| Commit | Zakres |
+|---|---|
+| `a62bf04` | Ukrycie marki za flagą `SHOW_CORDURA` — 7 plików + nowy `src/lib/brands.ts` |
+| `9ebff6a` | README: dokumentacja flagi |
+| — | Usunięcie marki z podpisów zdjęć w galerii tkanin (`stripBrand`) |
