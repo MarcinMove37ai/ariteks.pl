@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceHash": "ea82e2f8d52d800f50cc12d64a9bf385af254b82aadaa1b86afffb6187616c7f",
+  "sourceHash": "12e27d1b5fc6176b23674ed1fe13eb6342b249b9f80893a78ac4eb9dcd85421c",
   "baseUrl": "https://ariteks.pl",
   "counts": {
     "products": 159,
@@ -20099,7 +20099,7 @@
       "technical": {
         "weight": "240 g/m²",
         "weightGsm": 240,
-        "composition": "95% PA6.6 5% PU",
+        "composition": "100% PA6.6 + PU",
         "weave": "1/1 Plain",
         "weaveType": {
           "id": "plain",
@@ -20238,7 +20238,7 @@
       "technical": {
         "weight": "350 g/m²",
         "weightGsm": 350,
-        "composition": "95% PA6.6 5% PU",
+        "composition": "100% PA6.6 + PU",
         "weave": "1/1 Plain",
         "weaveType": {
           "id": "plain",

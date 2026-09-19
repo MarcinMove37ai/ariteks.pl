@@ -527,9 +527,17 @@ export default async function FabricPage({
     finish: colors.some((c) => cleanFinish(c.finish)),
     article: colors.some((c) => (c.article_number || '').trim()),
   };
-  const appImages = (groups.application_images ?? []).filter(
-    (i) => i.public_url
-  );
+  const stripBrand = (s: string) =>
+    SHOW_CORDURA
+      ? s
+      : s
+          .replace(/\s*\bcordura(?:\s*\(R\)|®)?\s*/gi, ' ')
+          .replace(/\s{2,}/g, ' ')
+          .trim();
+
+  const appImages = (groups.application_images ?? [])
+    .filter((i) => i.public_url)
+    .map((i) => ({ ...i, alt: stripBrand(i.alt ?? ''), title: stripBrand(i.title ?? '') }));
 
   const fabricPhotos = (groups.fabric_photos ?? []).filter(
     (i) => i.public_url

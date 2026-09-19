@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceHash": "ea82e2f8d52d800f50cc12d64a9bf385af254b82aadaa1b86afffb6187616c7f",
+  "sourceHash": "12e27d1b5fc6176b23674ed1fe13eb6342b249b9f80893a78ac4eb9dcd85421c",
   "baseUrl": "https://ariteks.pl",
   "count": 15,
   "applications": [
@@ -898,11 +898,11 @@
         "en": "Motorcycle apparel"
       },
       "short": {
-        "pl": "Tkaniny ArDura (PA 6.6) i denim odporny na ścieranie. Produkcja na bazie włókien CORDURA®.",
-        "en": "ArDura (PA 6.6) fabrics and abrasion-resistant denim. Manufactured with CORDURA® fibres."
+        "pl": "Tkaniny ArDura i denim odporny na ścieranie. Produkcja na bazie włókien PA 6.6 HT.",
+        "en": "ArDura fabrics and abrasion-resistant denim. Manufactured with PA 6.6 HT fibres."
       },
       "badges": [
-        "CORDURA®"
+        "PA 6.6 HT"
       ],
       "image": {
         "path": "/images/applications/motorcycle.png",
@@ -955,8 +955,8 @@
           "en": "A motorcyclist’s second skin"
         },
         "heroLead": {
-          "pl": "Przy upadku z motocykla między ciałem człowieka a asfaltem zostaje tylko tkanina. Sekundy ślizgu decydują, czy kierowca wstanie — i to one wyznaczają nasz standard. Produkujemy materiały o ekstremalnej odporności na ścieranie: od tkanin z poliamidu 6.6 wysokiej wytrzymałości, przez motocyklowy denim, po dzianiny elastyczne — także na licencji CORDURA®.",
-          "en": "In a motorcycle crash, all that remains between a person’s body and the asphalt is fabric. The seconds of a slide decide whether the rider gets up — and they set our standard. We manufacture materials of extreme abrasion resistance: from high-tenacity polyamide 6.6 wovens, through motorcycle denim, to stretch knits — including fabrics made under CORDURA® license."
+          "pl": "Przy upadku z motocykla między ciałem człowieka a asfaltem zostaje tylko tkanina. Sekundy ślizgu decydują, czy kierowca wstanie — i to one wyznaczają nasz standard. Produkujemy materiały o ekstremalnej odporności na ścieranie: od tkanin z poliamidu 6.6 wysokiej wytrzymałości, przez motocyklowy denim, po dzianiny elastyczne — także na włóknach PA 6.6 HT.",
+          "en": "In a motorcycle crash, all that remains between a person’s body and the asphalt is fabric. The seconds of a slide decide whether the rider gets up — and they set our standard. We manufacture materials of extreme abrasion resistance: from high-tenacity polyamide 6.6 wovens, through motorcycle denim, to stretch knits — including fabrics built on PA 6.6 HT fibres."
         },
         "usp": {
           "heading": {
@@ -986,12 +986,12 @@
             },
             {
               "title": {
-                "pl": "Licencjonowana produkcja CORDURA®",
-                "en": "Licensed CORDURA® manufacturing"
+                "pl": "Produkcja na włóknach PA 6.6 HT",
+                "en": "Manufacturing on PA 6.6 HT fibres"
               },
               "text": {
-                "pl": "Tkaniny na oryginalnych włóknach CORDURA® (INVISTA) produkowane na podstawie licencji właściciela znaku — marka, którą Twój klient zna z metki najlepszej odzieży motocyklowej, nie zamiennik „w typie”.",
-                "en": "Fabrics built on original CORDURA® fibres (INVISTA), manufactured under license from the trademark owner — the brand your customer knows from the labels of the best motorcycle apparel, not a look-alike substitute."
+                "pl": "Tkaniny na oryginalnych włóknach PA 6.6 HT o najwyższej klasie wytrzymałości — ta sama odporność, którą Twój klient zna z metki najlepszej odzieży motocyklowej, nie zamiennik „w typie”.",
+                "en": "Fabrics built on genuine PA 6.6 HT high-tenacity fibres — the same abrasion resistance your customer knows from the labels of the best motorcycle apparel, not a look-alike substitute."
               }
             },
             {
